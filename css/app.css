@@ -7,6 +7,7 @@
   --bg-soft: #f4f7fb; --muted: #66707a;
 }
 * { box-sizing: border-box; }
+html, body { overflow-x: clip; }
 html { scroll-behavior: smooth; }
 body {
   font-family: "Segoe UI", system-ui, Calibri, sans-serif;
@@ -79,6 +80,7 @@ h3 { font-size: 15px; margin: 0 0 8px; color: var(--navy); }
 .note-banner p { margin: 2px 0; }
 .exam-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
 .exam-card { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 15px 16px; box-shadow: 0 1px 3px rgba(0,0,0,.05); display: flex; flex-direction: column; gap: 8px; }
+.exam-card .btn { margin-top: auto; }
 .ec-head { display: flex; justify-content: space-between; gap: 8px; align-items: flex-start; }
 .ec-title { font-weight: 700; color: var(--navy); font-size: 14px; }
 .chip { background: #eef3fb; color: var(--navy); border-radius: 12px; font-size: 10.5px; padding: 3px 9px; font-weight: 600; white-space: nowrap; }
@@ -171,6 +173,7 @@ h3 { font-size: 15px; margin: 0 0 8px; color: var(--navy); }
   position: fixed; bottom: 0; left: 0; right: 0; background: #fff; border-top: 1px solid var(--line);
   padding: 10px 16px; display: flex; justify-content: center; gap: 12px; z-index: 40;
 }
+body.modal-open .toolbar { display: none; }
 .filterbar {
   background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; margin-bottom: 14px;
   display: flex; align-items: center; gap: 10px; flex-wrap: wrap; box-shadow: 0 1px 3px rgba(0,0,0,.05);
@@ -242,7 +245,8 @@ h3 { font-size: 15px; margin: 0 0 8px; color: var(--navy); }
 .pen-row .ko { color: var(--red); }
 
 /* ---------- settings ---------- */
-.check-row { display: flex; align-items: center; gap: 8px; font-size: 13.5px; margin: 6px 0; }
+.check-row { display: flex; align-items: center; gap: 10px; font-size: 13.5px; margin: 6px 0; min-height: 40px; cursor: pointer; }
+.check-row input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--navy); flex: none; }
 .per-exam { margin-top: 8px; border-top: 1px dashed var(--line); padding-top: 8px; }
 .card .btn { margin: 4px 8px 4px 0; }
 .card input[type="text"], .card input[type="email"], .card input[type="password"] {
@@ -291,7 +295,7 @@ h3 { font-size: 15px; margin: 0 0 8px; color: var(--navy); }
   .brand-name { display: none; }
 }
 @media (max-width: 620px) {
-  #main { padding: 12px 10px 90px; }
+  #main { padding: 12px 10px 100px; }
   .exam-headinfo .muted { display: none; }
   .toolbar .btn { min-width: 150px; }
   .qcard { padding: 12px 12px 8px; }

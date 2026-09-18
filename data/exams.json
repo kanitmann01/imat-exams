@@ -21,7 +21,7 @@
    "maxTenths": 900,
    "targetScore": 47,
    "sectionCount": 5,
-   "bankVersion": "b078f952c"
+   "bankVersion": "bc60e45c2"
   },
   {
    "id": "imat_mock3",
@@ -32,7 +32,7 @@
    "maxTenths": 900,
    "targetScore": 45,
    "sectionCount": 5,
-   "bankVersion": "bb1b53a10"
+   "bankVersion": "b39275206"
   },
   {
    "id": "imat_mock4",
@@ -43,7 +43,7 @@
    "maxTenths": 900,
    "targetScore": 43,
    "sectionCount": 5,
-   "bankVersion": "b4b3f5360"
+   "bankVersion": "b685737a2"
   },
   {
    "id": "imat_mock5",
@@ -54,7 +54,7 @@
    "maxTenths": 900,
    "targetScore": 42,
    "sectionCount": 5,
-   "bankVersion": "b9c1bce9e"
+   "bankVersion": "bf05c95f6"
   },
   {
    "id": "imat_mock6",

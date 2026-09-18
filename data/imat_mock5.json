@@ -43,7 +43,7 @@
    "short": "Physics"
   }
  ],
- "bankVersion": "b9c1bce9e",
+ "bankVersion": "bf05c95f6",
  "questions": [
   {
    "n": 1,
@@ -95,7 +95,7 @@
   },
   {
    "n": 3,
-   "stem": "(GK) The Italian physician and educator who developed an eponymous educational method emphasising self-directed activity in a prepared environment, and was nominated for the Nobel Peace Prize multiple times, was:",
+   "stem": "(General knowledge) The Italian physician and educator who developed an eponymous educational method emphasising self-directed activity in a prepared environment, and was nominated for the Nobel Peace Prize multiple times, was:",
    "options": [
     "Maria Montessori",
     "Elena Lucrezia Cornaro Piscopia",

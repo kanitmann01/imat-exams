@@ -112,6 +112,14 @@ def scrub_field(text, log, exam_id, qn, field):
     text = re.sub(r"  +", " ", text)
     text = re.sub(r" +\n", "\n", text)
 
+    # S2b GK label normalization: unify "(GK)" with "(General knowledge)"
+    if field == "stem":
+        new = re.sub(r"^\(GK\)\s*", "(General knowledge) ", text)
+        if new != text:
+            counters["emphasisRemoved"] += 1
+            log.append((exam_id, qn, field, "normalized GK label"))
+            text = new
+
     # S5 whitespace tidy
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
     changed = text != orig

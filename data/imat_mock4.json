@@ -43,7 +43,7 @@
    "short": "Physics"
   }
  ],
- "bankVersion": "b4b3f5360",
+ "bankVersion": "b685737a2",
  "questions": [
   {
    "n": 1,
@@ -95,7 +95,7 @@
   },
   {
    "n": 3,
-   "stem": "(GK) The Italian chemist who proposed a number equal to the number of particles in one mole (~6.022 × 10²³), honoured in the constant's name though he did not measure it, is:",
+   "stem": "(General knowledge) The Italian chemist who proposed a number equal to the number of particles in one mole (~6.022 × 10²³), honoured in the constant's name though he did not measure it, is:",
    "options": [
     "Mario Molina",
     "Amedeo Avogadro",

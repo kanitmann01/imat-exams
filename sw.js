@@ -1,36 +1,36 @@
 /* Service worker: PWA-lite. Precache the shell + banks; network-first for
    navigations, data and config so content fixes propagate; cache-first for
    versioned static assets. Never touches cross-origin (Supabase) traffic. */
-const VERSION = "bbf237a2";
+const VERSION = "288d5e1d";
 const CACHE = "imatex-" + VERSION;
 const PRECACHE = [
   "./",
   "./index.html",
   "./404.html",
   "./manifest.webmanifest",
-  "./config.js?v=bbf237a2",
-  "./css/app.css?v=bbf237a2",
+  "./config.js?v=288d5e1d",
+  "./css/app.css?v=288d5e1d",
   "./assets/icons/favicon.svg",
   "./assets/icons/icon-192.png",
   "./assets/icons/icon-512.png",
-  "./js/app.js?v=bbf237a2",
-  "./js/banks.js?v=bbf237a2",
-  "./js/core.js?v=bbf237a2",
-  "./js/grader.js?v=bbf237a2",
-  "./js/timer.js?v=bbf237a2",
-  "./js/store.js?v=bbf237a2",
-  "./js/ui.js?v=bbf237a2",
-  "./js/analytics.js?v=bbf237a2",
-  "./js/legacy.js?v=bbf237a2",
-  "./js/legacy-run.js?v=bbf237a2",
-  "./js/sync.js?v=bbf237a2",
-  "./js/view-home.js?v=bbf237a2",
-  "./js/view-exam.js?v=bbf237a2",
-  "./js/view-review.js?v=bbf237a2",
-  "./js/view-history.js?v=bbf237a2",
-  "./js/view-compare.js?v=bbf237a2",
-  "./js/view-analytics.js?v=bbf237a2",
-  "./js/view-settings.js?v=bbf237a2",
+  "./js/app.js?v=288d5e1d",
+  "./js/banks.js?v=288d5e1d",
+  "./js/core.js?v=288d5e1d",
+  "./js/grader.js?v=288d5e1d",
+  "./js/timer.js?v=288d5e1d",
+  "./js/store.js?v=288d5e1d",
+  "./js/ui.js?v=288d5e1d",
+  "./js/analytics.js?v=288d5e1d",
+  "./js/legacy.js?v=288d5e1d",
+  "./js/legacy-run.js?v=288d5e1d",
+  "./js/sync.js?v=288d5e1d",
+  "./js/view-home.js?v=288d5e1d",
+  "./js/view-exam.js?v=288d5e1d",
+  "./js/view-review.js?v=288d5e1d",
+  "./js/view-history.js?v=288d5e1d",
+  "./js/view-compare.js?v=288d5e1d",
+  "./js/view-analytics.js?v=288d5e1d",
+  "./js/view-settings.js?v=288d5e1d",
   "./data/exams.json",
 ];
 const BANKS = [
@@ -61,12 +61,17 @@ self.addEventListener("activate", (e) => {
 self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
   if (url.origin !== self.location.origin) return; // passthrough (Supabase etc.)
-  const isData = url.pathname.includes("/data/");
-  const isConfig = url.pathname.endsWith("/config.js");
+  const path = url.pathname;
   const isNav = e.request.mode === "navigate";
+  const isFresh = isNav
+    || path.includes("/data/")
+    || path.endsWith("/config.js")
+    || path.endsWith(".js")     // ES module imports carry no ?v= stamp: network-first
+    || path.endsWith(".css")
+    || path.endsWith(".webmanifest");
 
-  if (isNav || isData || isConfig) {
-    // network-first with cache fallback
+  if (isFresh) {
+    // network-first with cache fallback (content fixes propagate; offline still works)
     e.respondWith((async () => {
       const cache = await caches.open(CACHE);
       try {
@@ -85,7 +90,7 @@ self.addEventListener("fetch", (e) => {
     })());
     return;
   }
-  // cache-first for versioned assets
+  // cache-first for immutable-ish assets (icons)
   e.respondWith((async () => {
     const cache = await caches.open(CACHE);
     const cached = await cache.match(e.request);

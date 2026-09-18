@@ -43,7 +43,7 @@
    "short": "Physics"
   }
  ],
- "bankVersion": "b078f952c",
+ "bankVersion": "bc60e45c2",
  "questions": [
   {
    "n": 1,
@@ -95,7 +95,7 @@
   },
   {
    "n": 3,
-   "stem": "(GK) The Italian Renaissance anatomist who published De humani corporis fabrica (1543), correcting many Galenic errors through direct dissection, was:",
+   "stem": "(General knowledge) The Italian Renaissance anatomist who published De humani corporis fabrica (1543), correcting many Galenic errors through direct dissection, was:",
    "options": [
     "Leonardo da Vinci",
     "Andreas Vesalius",

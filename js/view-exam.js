@@ -46,6 +46,7 @@ export async function mount(ctx, examId) {
     store.saveAttempt(attempt);
     isNew = true;
   }
+  if (isNew) toast("New attempt started");
   if (attempt.status !== "in_progress") {
     // opening a finished exam starts a fresh paper (SPEC 4.3)
     ctx.go("#/exam/" + examId);
@@ -128,6 +129,7 @@ export async function mount(ctx, examId) {
         paintSelection(q.n);
         paintCell(q.n);
         answeredCount.textContent = String(Object.keys(answers).length);
+        updateNavCounts();
       });
       opts.append(el("label", { class: "opt" }, input, el("span", { class: "key", text: letter + "." }), el("span", { text: optionAt(q, i, permMap[q.n]) })));
     }
@@ -140,11 +142,12 @@ export async function mount(ctx, examId) {
   }
 
   /* ---------- navigator ---------- */
+  const sideSum = el("div", { class: "side-sum", text: "Answered " + Object.keys(answers).length + "/" + bank.questions.length });
+  const secCountEls = {};
   const navBody = el("div", { class: "nav-body" });
   for (const s of bank.sections) {
     let ansN = 0;
     const cells = el("div", { class: "cells" });
-    const secCells = [];
     for (let n = s.from; n <= s.to; n++) {
       const cell = el("button", {
         class: "cell", type: "button", text: String(n), title: "Question " + n,
@@ -153,10 +156,10 @@ export async function mount(ctx, examId) {
       });
       if (answers[n]) { cell.classList.add("ans"); ansN++; }
       cellEls[n] = cell;
-      secCells.push(cell);
       cells.append(cell);
     }
     const secCount = el("span", { class: "sc", text: ansN + "/" + (s.to - s.from + 1) });
+    secCountEls[s.code] = { node: secCount, from: s.from, to: s.to };
     navBody.append(el("div", { class: "sec-block" },
       el("div", { class: "sn" }, el("span", { text: s.code + " - " + s.short }), secCount),
       cells));
@@ -174,7 +177,7 @@ export async function mount(ctx, examId) {
       el("span", { class: "lg" }, el("span", { class: "sw sw-ans" }), "answered"),
       el("span", { class: "lg" }, el("span", { class: "sw" }), "blank")),
     navBody,
-    el("div", { class: "side-sum", text: "Answered " + Object.keys(answers).length + "/" + bank.questions.length }));
+    sideSum);
 
   const scrim = el("div", { id: "nav-scrim", class: "nav-scrim" });
   scrim.addEventListener("click", closeDrawer);
@@ -217,7 +220,18 @@ export async function mount(ctx, examId) {
     const cell = cellEls[qn];
     if (cell) cell.classList.toggle("ans", !!answers[qn]);
   }
+  function updateNavCounts() {
+    const total = Object.keys(answers).filter(Boolean).length;
+    sideSum.textContent = "Answered " + total + "/" + bank.questions.length;
+    for (const code of Object.keys(secCountEls)) {
+      const { node, from, to } = secCountEls[code];
+      let a = 0;
+      for (let n = from; n <= to; n++) if (answers[n]) a++;
+      node.textContent = a + "/" + (to - from + 1);
+    }
+  }
   for (const qn of Object.keys(answers)) { paintSelection(qn); paintCell(qn); }
+  updateNavCounts();
 
   /* ---------- submit ---------- */
   async function askSubmit() {

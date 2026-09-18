@@ -56,12 +56,15 @@ export function toast(msg) {
   toastTid = setTimeout(() => t.classList.remove("show"), 1800);
 }
 
-/* Accessible modal; resolves true (ok) or false (cancel/dismiss). */
+/* Accessible modal; resolves true (ok) or false (cancel/dismiss).
+   Toggles body.modal-open so page-level fixed bars (the runner toolbar) step aside. */
 export function confirmModal({ title, body, okLabel = "OK", cancelLabel = "Cancel", danger = false }) {
   return new Promise((resolve) => {
+    document.body.classList.add("modal-open");
     const scrim = el("div", { class: "modal-scrim", onclick: (e) => { if (e.target === scrim) done(false); } });
     function done(v) {
       scrim.remove();
+      document.body.classList.remove("modal-open");
       document.removeEventListener("keydown", esc);
       resolve(v);
     }
@@ -95,7 +98,7 @@ export function lineChart(series, { height = 200, yMin = null, yMax = null } = {
   svg.setAttribute("viewBox", "0 0 " + W + " " + H);
   svg.setAttribute("class", "chart");
   svg.setAttribute("role", "img");
-  // y gridlines (4)
+  // y gridlines (4), one-decimal labels
   for (let i = 0; i <= 4; i++) {
     const v = y0 + ((y1 - y0) * i) / 4;
     const y = Y(v);
@@ -108,7 +111,19 @@ export function lineChart(series, { height = 200, yMin = null, yMax = null } = {
     lbl.setAttribute("x", padL - 5); lbl.setAttribute("y", y + 3);
     lbl.setAttribute("text-anchor", "end");
     lbl.setAttribute("class", "chart-tick");
-    lbl.textContent = String(Math.round(v * 10) / 10);
+    lbl.textContent = (Math.round(v * 10) / 10).toFixed(1);
+    svg.append(lbl);
+  }
+  // x axis: date ticks (start, mid, end)
+  const xTicks = [...new Set([x0, Math.round((x0 + x1) / 2), x1])];
+  for (const t of xTicks) {
+    const x = X(t);
+    const lbl = document.createElementNS(NS, "text");
+    lbl.setAttribute("x", Math.min(Math.max(x, padL + 18), W - padR - 18));
+    lbl.setAttribute("y", H - 6);
+    lbl.setAttribute("text-anchor", "middle");
+    lbl.setAttribute("class", "chart-tick");
+    lbl.textContent = new Date(t).toLocaleDateString(undefined, { day: "numeric", month: "short" });
     svg.append(lbl);
   }
   for (const s of series) {
