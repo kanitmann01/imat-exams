@@ -1,0 +1,1489 @@
+{
+ "schema": 1,
+ "id": "imat_mock3",
+ "title": "IMAT MOCK EXAM 3 — \"Genetics & Molecular Rotation\"",
+ "kind": "mock",
+ "durationSec": 6000,
+ "maxTenths": 900,
+ "targetScore": 45,
+ "sections": [
+  {
+   "code": "A",
+   "from": 1,
+   "to": 9,
+   "label": "Section A - Logical Reasoning & Reading",
+   "short": "Reasoning"
+  },
+  {
+   "code": "B",
+   "from": 10,
+   "to": 32,
+   "label": "Section B - Biology",
+   "short": "Biology"
+  },
+  {
+   "code": "C",
+   "from": 33,
+   "to": 47,
+   "label": "Section C - Chemistry",
+   "short": "Chemistry"
+  },
+  {
+   "code": "D",
+   "from": 48,
+   "to": 54,
+   "label": "Section D - Mathematics",
+   "short": "Mathematics"
+  },
+  {
+   "code": "E",
+   "from": 55,
+   "to": 60,
+   "label": "Section E - Physics",
+   "short": "Physics"
+  }
+ ],
+ "bankVersion": "bb1b53a10",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "\"A gene is a region of DNA that encodes a functional product, usually a protein. In eukaryotes, coding regions (exons) are interrupted by non-coding regions (introns). After transcription, introns are removed and exons are spliced together to form mature messenger RNA, which is then translated by ribosomes.\"\n\nWhich statement is not supported?",
+   "options": [
+    "Exons are coding regions.",
+    "Introns are removed before translation.",
+    "Splicing produces mature mRNA.",
+    "Ribosomes transcribe DNA into RNA.",
+    "A gene typically encodes a protein."
+   ],
+   "ans": "D",
+   "exp": "Ribosomes translate mRNA into protein; transcription is performed by RNA polymerase.",
+   "perm": [
+    2,
+    1,
+    0,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading",
+   "lik": "H"
+  },
+  {
+   "n": 2,
+   "stem": "\"A mutation is a heritable change in the nucleotide sequence of a genome. Mutations may be neutral, harmful, or — rarely — beneficial. Beneficial mutations can increase in frequency in a population over generations through natural selection, provided they confer a reproductive advantage.\"\n\nThe passage implies:",
+   "options": [
+    "All mutations are harmful.",
+    "Natural selection acts on existing variation, including beneficial mutations.",
+    "Beneficial mutations always become fixed.",
+    "Neutral mutations are eliminated quickly.",
+    "Mutation rate determines fitness directly."
+   ],
+   "ans": "B",
+   "exp": "Selection increases the frequency of advantageous variants. The others overstate or misrepresent.",
+   "perm": [
+    4,
+    0,
+    2,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading",
+   "lik": "H"
+  },
+  {
+   "n": 3,
+   "stem": "(GK) Which Italian scientist won the 1986 Nobel Prize in Physiology or Medicine for the discovery of nerve growth factor (NGF)?",
+   "options": [
+    "Camillo Golgi",
+    "Rita Levi-Montalcini",
+    "Salvador Luria",
+    "Renato Dulbecco",
+    "Carlo Rubbia"
+   ],
+   "ans": "B",
+   "exp": "Levi-Montalcini shared the 1986 Prize with Stanley Cohen.",
+   "perm": [
+    4,
+    2,
+    0,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "GK",
+   "lik": "L"
+  },
+  {
+   "n": 4,
+   "stem": "In a race, Ali finished before Bashir but after Chen. Dev finished last. Who finished first?",
+   "options": [
+    "Ali",
+    "Bashir",
+    "Chen",
+    "Dev",
+    "Cannot be determined"
+   ],
+   "ans": "C",
+   "exp": "Order: Chen > Ali > Bashir > Dev (Dev last). Chen first.",
+   "perm": [
+    2,
+    3,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Ordering",
+   "lik": "H"
+  },
+  {
+   "n": 5,
+   "stem": "\"All enzymes are proteins.\" This statement is:",
+   "options": [
+    "Always true",
+    "Always false",
+    "Mostly true, but some RNA molecules (ribozymes) also catalyse reactions",
+    "True only in prokaryotes",
+    "True only for digestive enzymes"
+   ],
+   "ans": "C",
+   "exp": "Ribozymes (e.g., the ribosome's peptidyl transferase) are catalytic RNA, so \"all enzymes are proteins\" is not strictly true.",
+   "perm": [
+    1,
+    0,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Formal logic / biology",
+   "lik": "M"
+  },
+  {
+   "n": 6,
+   "stem": "In a certain language, \"TREE\" is written as \"USFF\". How is \"BIRD\" written?",
+   "options": [
+    "CJSE",
+    "CJSF",
+    "AJSE",
+    "CJTE",
+    "BKSE"
+   ],
+   "ans": "A",
+   "exp": "+1 shift each: B→C, I→J, R→S, D→E ⇒ CJSE.",
+   "perm": [
+    4,
+    1,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Code logic",
+   "lik": "M"
+  },
+  {
+   "n": 7,
+   "stem": "What comes next: 3, 6, 11, 18, 27, ?",
+   "options": [
+    "36",
+    "38",
+    "39",
+    "40",
+    "41"
+   ],
+   "ans": "B",
+   "exp": "Differences: 3, 5, 7, 9, 11. Next = 27 + 11 = 38.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Sequence",
+   "lik": "M"
+  },
+  {
+   "n": 8,
+   "stem": "If today is Tuesday, what day will it be 100 days from today?",
+   "options": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "ans": "D",
+   "exp": "100 mod 7 = 2 (since 98 = 14×7). Tuesday + 2 = Thursday.",
+   "perm": [
+    3,
+    4,
+    0,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Calendar",
+   "lik": "M"
+  },
+  {
+   "n": 9,
+   "stem": "A clock reads 7:00. What is the angle between the hour and minute hands?",
+   "options": [
+    "0°",
+    "90°",
+    "150°",
+    "180°",
+    "210°"
+   ],
+   "ans": "C",
+   "exp": "At 7:00, minute hand at 12 (0°), hour hand at 7×30° = 210°; smaller angle = 360 − 210 = 150°.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Clock",
+   "lik": "M"
+  },
+  {
+   "n": 10,
+   "stem": "In DNA, the two strands run in opposite directions. This property is called:",
+   "options": [
+    "Complementarity",
+    "Antiparallelism",
+    "Supercoiling",
+    "Methylation",
+    "Semiconservative"
+   ],
+   "ans": "B",
+   "exp": "The 5'→3' direction of one strand is opposite the other — antiparallel.",
+   "perm": [
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Nucleic acids",
+   "lik": "H"
+  },
+  {
+   "n": 11,
+   "stem": "DNA replication is described as \"semiconservative\" because:",
+   "options": [
+    "Both strands of the parent molecule are preserved together.",
+    "Each new molecule consists of one parental strand and one newly synthesised strand.",
+    "The entire molecule is built anew.",
+    "Only the leading strand is copied.",
+    "Replication is conservative in prokaryotes only."
+   ],
+   "ans": "B",
+   "exp": "Meselson–Stahl showed each daughter duplex retains one original strand.",
+   "perm": [
+    1,
+    0,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "DNA replication",
+   "lik": "H"
+  },
+  {
+   "n": 12,
+   "stem": "The enzyme that joins Okazaki fragments by forming phosphodiester bonds is:",
+   "options": [
+    "Helicase",
+    "DNA polymerase III",
+    "DNA ligase",
+    "Primase",
+    "Topoisomerase"
+   ],
+   "ans": "C",
+   "exp": "DNA ligase seals the nicks between Okazaki fragments on the lagging strand.",
+   "perm": [
+    3,
+    1,
+    4,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "DNA replication",
+   "lik": "H"
+  },
+  {
+   "n": 13,
+   "stem": "During transcription in eukaryotes, the enzyme responsible is:",
+   "options": [
+    "DNA polymerase",
+    "RNA polymerase",
+    "Reverse transcriptase",
+    "Helicase",
+    "Ligase"
+   ],
+   "ans": "B",
+   "exp": "RNA polymerase synthesises RNA from a DNA template.",
+   "perm": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Transcription",
+   "lik": "H"
+  },
+  {
+   "n": 14,
+   "stem": "During which process are introns removed from pre-mRNA?",
+   "options": [
+    "Replication",
+    "Transcription (initiation)",
+    "Splicing (post-transcriptional modification)",
+    "Translation",
+    "DNA repair"
+   ],
+   "ans": "C",
+   "exp": "The spliceosome removes introns and joins exons.",
+   "perm": [
+    3,
+    2,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Transcription/RNA processing",
+   "lik": "H"
+  },
+  {
+   "n": 15,
+   "stem": "The three-nucleotide sequence on mRNA that specifies an amino acid is a:",
+   "options": [
+    "Codon",
+    "Anticodon",
+    "Promoter",
+    "Operon",
+    "Gene"
+   ],
+   "ans": "A",
+   "exp": "A codon on mRNA corresponds to an amino acid (or stop).",
+   "perm": [
+    0,
+    3,
+    4,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Translation",
+   "lik": "H"
+  },
+  {
+   "n": 16,
+   "stem": "The anticodon is found on:",
+   "options": [
+    "mRNA",
+    "tRNA",
+    "rRNA",
+    "DNA",
+    "SnRNA"
+   ],
+   "ans": "B",
+   "exp": "tRNA carries the anticodon that base-pairs with the codon.",
+   "perm": [
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Translation",
+   "lik": "H"
+  },
+  {
+   "n": 17,
+   "stem": "The bonds linking amino acids in a protein are:",
+   "options": [
+    "Phosphodiester bonds",
+    "Peptide bonds",
+    "Glycosidic bonds",
+    "Hydrogen bonds",
+    "Ester bonds"
+   ],
+   "ans": "B",
+   "exp": "Peptide bonds form between the carboxyl of one amino acid and the amino of the next.",
+   "perm": [
+    4,
+    3,
+    0,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biological molecules",
+   "lik": "H"
+  },
+  {
+   "n": 18,
+   "stem": "The secondary structure of proteins (α-helix, β-sheet) is stabilised mainly by:",
+   "options": [
+    "Disulfide bridges",
+    "Peptide bonds",
+    "Hydrogen bonds between backbone atoms",
+    "Hydrophobic interactions",
+    "Ionic bonds"
+   ],
+   "ans": "C",
+   "exp": "H-bonds between C=O and N–H of the backbone stabilise α-helices and β-sheets.",
+   "perm": [
+    0,
+    3,
+    4,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biological molecules",
+   "lik": "H"
+  },
+  {
+   "n": 19,
+   "stem": "A diploid cell with 2n = 6 undergoes meiosis. How many chromosomes are in each resulting gamete?",
+   "options": [
+    "2",
+    "3",
+    "6",
+    "12",
+    "4"
+   ],
+   "ans": "B",
+   "exp": "Meiosis halves the chromosome number: n = 3.",
+   "perm": [
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics/meiosis",
+   "lik": "H"
+  },
+  {
+   "n": 20,
+   "stem": "In a cross between two heterozygous tall plants (Tt × Tt), where T (tall) is dominant, what is the expected phenotypic ratio in the offspring?",
+   "options": [
+    "1:1",
+    "3:1 (tall : short)",
+    "9:3:3:1",
+    "All tall",
+    "1:2:1"
+   ],
+   "ans": "B",
+   "exp": "Monohybrid cross of heterozygotes: 3 tall : 1 short.",
+   "perm": [
+    2,
+    4,
+    0,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "H"
+  },
+  {
+   "n": 21,
+   "stem": "In humans, haemophilia is an X-linked recessive trait. A carrier mother (XᴴXʰ) and an unaffected father (XᴴY) have a son. What is the probability the son has haemophilia?",
+   "options": [
+    "0",
+    "25%",
+    "50%",
+    "75%",
+    "100%"
+   ],
+   "ans": "C",
+   "exp": "Sons inherit Y from father and one of mother's X's. Mother is XᴴXʰ, so 50% chance son gets Xʰ (affected).",
+   "perm": [
+    2,
+    4,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Sex-linked genetics",
+   "lik": "H"
+  },
+  {
+   "n": 22,
+   "stem": "A man who is colour-blind (X-linked recessive) has daughters with a woman who is not colour-blind and is not a carrier. What is true of their daughters?",
+   "options": [
+    "All will be colour-blind.",
+    "All will be carriers (heterozygous) but not colour-blind.",
+    "50% colour-blind, 50% carriers.",
+    "None will carry the allele.",
+    "All will be colour-blind and carriers."
+   ],
+   "ans": "B",
+   "exp": "Father passes his only X (with the allele) to all daughters; mother passes a normal X. Daughters are all carriers, none affected.",
+   "perm": [
+    2,
+    1,
+    4,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Sex-linked genetics",
+   "lik": "H"
+  },
+  {
+   "n": 23,
+   "stem": "In a dihybrid cross (AaBb × AaBb) with independent assortment, the expected phenotypic ratio is:",
+   "options": [
+    "1:1",
+    "3:1",
+    "9:3:3:1",
+    "1:2:1",
+    "All dominant"
+   ],
+   "ans": "C",
+   "exp": "Classic 9:3:3:1 ratio for two independently assorting heterozygous loci.",
+   "perm": [
+    1,
+    4,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "H"
+  },
+  {
+   "n": 24,
+   "stem": "A bacterium acquires antibiotic resistance via a plasmid from another bacterium. This is an example of:",
+   "options": [
+    "Mutation",
+    "Conjugation (horizontal gene transfer)",
+    "Mitosis",
+    "Meiosis",
+    "Transcription"
+   ],
+   "ans": "B",
+   "exp": "Conjugation transfers plasmid DNA between bacteria (horizontal gene transfer).",
+   "perm": [
+    2,
+    4,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics/molecular",
+   "lik": "M"
+  },
+  {
+   "n": 25,
+   "stem": "The phases of mitosis in correct order are:",
+   "options": [
+    "Anaphase, metaphase, prophase, telophase",
+    "Prophase, metaphase, anaphase, telophase",
+    "Telophase, anaphase, metaphase, prophase",
+    "Metaphase, prophase, anaphase, telophase",
+    "Prophase, anaphase, metaphase, telophase"
+   ],
+   "ans": "B",
+   "exp": "PMAT.",
+   "perm": [
+    4,
+    2,
+    3,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell cycle",
+   "lik": "M"
+  },
+  {
+   "n": 26,
+   "stem": "Which organelle contains digestive enzymes and functions in intracellular digestion?",
+   "options": [
+    "Ribosome",
+    "Lysosome",
+    "Mitochondrion",
+    "Chloroplast",
+    "Nucleolus"
+   ],
+   "ans": "B",
+   "exp": "Lysosomes contain acid hydrolases.",
+   "perm": [
+    0,
+    4,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell organelles",
+   "lik": "H"
+  },
+  {
+   "n": 27,
+   "stem": "Which structure is common to both plant and animal cells?",
+   "options": [
+    "Cell wall",
+    "Large central vacuole",
+    "Chloroplast",
+    "Mitochondrion",
+    "Plasmodesmata"
+   ],
+   "ans": "D",
+   "exp": "Mitochondria are in both; cell wall, large central vacuole, chloroplasts, plasmodesmata are plant-specific.",
+   "perm": [
+    2,
+    3,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell structure",
+   "lik": "H"
+  },
+  {
+   "n": 28,
+   "stem": "In cellular respiration, glycolysis produces a net gain of:",
+   "options": [
+    "2 ATP, 2 NADH, 2 pyruvate (per glucose)",
+    "4 ATP, 4 NADH, 2 pyruvate",
+    "2 ATP, 2 FADH₂, 2 pyruvate",
+    "38 ATP",
+    "0 ATP (all invested)"
+   ],
+   "ans": "A",
+   "exp": "Net: 2 ATP, 2 NADH, 2 pyruvate.",
+   "perm": [
+    0,
+    4,
+    2,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 29,
+   "stem": "The non-protein component required for some enzymes to function (e.g., a metal ion) is called a:",
+   "options": [
+    "Substrate",
+    "Cofactor (or coenzyme if organic)",
+    "Allosteric inhibitor",
+    "Competitive inhibitor",
+    "Apoenzyme"
+   ],
+   "ans": "B",
+   "exp": "Cofactors (inorganic ions) or coenzymes (organic) assist enzyme function.",
+   "perm": [
+    0,
+    3,
+    2,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Enzymes",
+   "lik": "M"
+  },
+  {
+   "n": 30,
+   "stem": "At the neuromuscular junction, the neurotransmitter released by motor neurons is:",
+   "options": [
+    "Dopamine",
+    "Acetylcholine",
+    "GABA",
+    "Serotonin",
+    "Glutamate"
+   ],
+   "ans": "B",
+   "exp": "Acetylcholine activates muscle contraction at the NMJ.",
+   "perm": [
+    4,
+    3,
+    0,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Nervous system",
+   "lik": "M"
+  },
+  {
+   "n": 31,
+   "stem": "The resting potential of a typical neuron is approximately:",
+   "options": [
+    "+30 mV",
+    "0 mV",
+    "−70 mV",
+    "−30 mV",
+    "+70 mV"
+   ],
+   "ans": "C",
+   "exp": "Resting potential ~ −70 mV (inside negative).",
+   "perm": [
+    4,
+    0,
+    2,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Nervous system",
+   "lik": "M"
+  },
+  {
+   "n": 32,
+   "stem": "Which vitamin is required for blood clotting?",
+   "options": [
+    "Vitamin A",
+    "Vitamin C",
+    "Vitamin D",
+    "Vitamin K",
+    "Vitamin B12"
+   ],
+   "ans": "D",
+   "exp": "Vitamin K is required for synthesis of clotting factors (e.g., prothrombin).",
+   "perm": [
+    3,
+    2,
+    4,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biochemistry",
+   "lik": "M"
+  },
+  {
+   "n": 33,
+   "stem": "How many moles are in 36 g of water (H₂O; molar mass = 18 g/mol)?",
+   "options": [
+    "0.5",
+    "1",
+    "2",
+    "18",
+    "36"
+   ],
+   "ans": "C",
+   "exp": "n = m/M = 36/18 = 2 mol.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Mole",
+   "lik": "H"
+  },
+  {
+   "n": 34,
+   "stem": "Balance: __ C₃H₈ + __ O₂ → __ CO₂ + __ H₂O. The coefficient of O₂ is:",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "ans": "C",
+   "exp": "C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Stoichiometry",
+   "lik": "H"
+  },
+  {
+   "n": 35,
+   "stem": "The oxidation number of nitrogen in NO₃⁻ is:",
+   "options": [
+    "+3",
+    "+4",
+    "+5",
+    "−3",
+    "+6"
+   ],
+   "ans": "C",
+   "exp": "O = −2 ×3 = −6; total −1, so N = +5.",
+   "perm": [
+    1,
+    2,
+    4,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Redox",
+   "lik": "H"
+  },
+  {
+   "n": 36,
+   "stem": "What is the pH of a 0.001 M solution of HNO₃ (strong acid)?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "11",
+    "13"
+   ],
+   "ans": "C",
+   "exp": "[H⁺] = 10⁻³ ⇒ pH = 3.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 37,
+   "stem": "Which of the following is a weak acid?",
+   "options": [
+    "HCl",
+    "HNO₃",
+    "H₂SO₄",
+    "CH₃COOH (acetic acid)",
+    "HBr"
+   ],
+   "ans": "D",
+   "exp": "Acetic acid only partially dissociates.",
+   "perm": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 38,
+   "stem": "Which bond is most polar?",
+   "options": [
+    "C–H",
+    "O–H",
+    "N–H",
+    "C–C",
+    "H–H"
+   ],
+   "ans": "B",
+   "exp": "O–H has the largest electronegativity difference among these.",
+   "perm": [
+    1,
+    2,
+    3,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bonding",
+   "lik": "H"
+  },
+  {
+   "n": 39,
+   "stem": "Boyle's law states that, at constant temperature, the pressure of a fixed mass of gas is:",
+   "options": [
+    "Directly proportional to its volume",
+    "Inversely proportional to its volume",
+    "Independent of volume",
+    "Proportional to temperature",
+    "Proportional to moles"
+   ],
+   "ans": "B",
+   "exp": "P ∝ 1/V at constant T, n.",
+   "perm": [
+    0,
+    3,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Gas laws",
+   "lik": "H"
+  },
+  {
+   "n": 40,
+   "stem": "The number of protons in an atom of ²³Na (sodium) is:",
+   "options": [
+    "11",
+    "12",
+    "23",
+    "34",
+    "22"
+   ],
+   "ans": "A",
+   "exp": "Atomic number of Na = 11 (so 11 protons); 23 is the mass number.",
+   "perm": [
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Atomic structure",
+   "lik": "M"
+  },
+  {
+   "n": 41,
+   "stem": "Which of the following is an alkene?",
+   "options": [
+    "CH₄",
+    "C₂H₆",
+    "C₂H₄",
+    "C₃H₈",
+    "C₆H₆"
+   ],
+   "ans": "C",
+   "exp": "C₂H₄ (ethene) has a C=C double bond (alkene).",
+   "perm": [
+    0,
+    4,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic",
+   "lik": "H"
+  },
+  {
+   "n": 42,
+   "stem": "The functional group of alcohols is:",
+   "options": [
+    "–CHO",
+    "–COOH",
+    "–OH",
+    "–CO–",
+    "–NH₂"
+   ],
+   "ans": "C",
+   "exp": "Hydroxyl (–OH) on a carbon chain defines an alcohol.",
+   "perm": [
+    4,
+    2,
+    0,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic",
+   "lik": "H"
+  },
+  {
+   "n": 43,
+   "stem": "Which has a C=O group bonded to two carbons (within a chain)?",
+   "options": [
+    "Aldehyde",
+    "Ketone",
+    "Carboxylic acid",
+    "Alcohol",
+    "Amine"
+   ],
+   "ans": "B",
+   "exp": "A ketone's carbonyl carbon is bonded to two other carbons.",
+   "perm": [
+    1,
+    0,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic",
+   "lik": "M"
+  },
+  {
+   "n": 44,
+   "stem": "Increasing the concentration of a reactant in a reaction generally:",
+   "options": [
+    "Decreases the rate",
+    "Increases the rate (more frequent collisions)",
+    "Has no effect on rate",
+    "Decreases activation energy",
+    "Shifts K_eq"
+   ],
+   "ans": "B",
+   "exp": "Rate ∝ collision frequency ∝ concentration (for most reactions).",
+   "perm": [
+    3,
+    1,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Kinetics",
+   "lik": "M"
+  },
+  {
+   "n": 45,
+   "stem": "For an endothermic reaction, ΔH is:",
+   "options": [
+    "Negative",
+    "Positive",
+    "Zero",
+    "Always equal to ΔS",
+    "Equal to activation energy"
+   ],
+   "ans": "B",
+   "exp": "Endothermic = system absorbs heat ⇒ ΔH > 0.",
+   "perm": [
+    2,
+    0,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Thermo/energetics",
+   "lik": "M"
+  },
+  {
+   "n": 46,
+   "stem": "Which isotope is radioactive?",
+   "options": [
+    "¹²C",
+    "¹³C",
+    "¹⁴C",
+    "¹⁶O",
+    "¹⁴N"
+   ],
+   "ans": "C",
+   "exp": "¹⁴C is radioactive (β-emitter, used in radiocarbon dating).",
+   "perm": [
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Atomic/nuclear",
+   "lik": "L"
+  },
+  {
+   "n": 47,
+   "stem": "A solution has a pH of 8. It is:",
+   "options": [
+    "Strongly acidic",
+    "Weakly acidic",
+    "Neutral",
+    "Weakly basic",
+    "Strongly basic"
+   ],
+   "ans": "D",
+   "exp": "pH 8 is mildly basic (slightly above neutral 7).",
+   "perm": [
+    0,
+    2,
+    3,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 48,
+   "stem": "Simplify: (2³) × (2²).",
+   "options": [
+    "2⁵ (= 32)",
+    "2⁶",
+    "4⁵",
+    "2¹ (= 2)",
+    "8"
+   ],
+   "ans": "A",
+   "exp": "aᵐ × aⁿ = aᵐ⁺ⁿ = 2⁵ = 32.",
+   "perm": [
+    2,
+    0,
+    1,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Powers",
+   "lik": "M"
+  },
+  {
+   "n": 49,
+   "stem": "Solve: log₁₀(x) = 2.",
+   "options": [
+    "x = 2",
+    "x = 10",
+    "x = 20",
+    "x = 100",
+    "x = 1000"
+   ],
+   "ans": "D",
+   "exp": "log₁₀(x) = 2 ⇒ x = 10² = 100.",
+   "perm": [
+    1,
+    2,
+    4,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logs",
+   "lik": "M"
+  },
+  {
+   "n": 50,
+   "stem": "Solve: x² = 49 (x > 0).",
+   "options": [
+    "6",
+    "7",
+    "8",
+    "14",
+    "24.5"
+   ],
+   "ans": "B",
+   "exp": "x = √49 = 7.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Algebra",
+   "lik": "H"
+  },
+  {
+   "n": 51,
+   "stem": "Solve the inequality: x/3 − 1 ≥ 2.",
+   "options": [
+    "x ≥ 3",
+    "x ≥ 6",
+    "x ≥ 9",
+    "x ≥ 1",
+    "x ≥ 12"
+   ],
+   "ans": "C",
+   "exp": "x/3 ≥ 3 ⇒ x ≥ 9.",
+   "perm": [
+    0,
+    4,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Inequalities",
+   "lik": "H"
+  },
+  {
+   "n": 52,
+   "stem": "A square has perimeter 20 cm. What is its area?",
+   "options": [
+    "5 cm²",
+    "10 cm²",
+    "20 cm²",
+    "25 cm²",
+    "100 cm²"
+   ],
+   "ans": "D",
+   "exp": "Side = 20/4 = 5 cm; area = 25 cm².",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Geometry",
+   "lik": "H"
+  },
+  {
+   "n": 53,
+   "stem": "cos 60° = ?",
+   "options": [
+    "1/2",
+    "√2/2",
+    "√3/2",
+    "1",
+    "0"
+   ],
+   "ans": "A",
+   "exp": "cos 60° = 1/2.",
+   "perm": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Trigonometry",
+   "lik": "M"
+  },
+  {
+   "n": 54,
+   "stem": "Two fair coins are tossed. What is the probability of getting at least one head?",
+   "options": [
+    "1/4",
+    "1/2",
+    "3/4",
+    "1",
+    "1/3"
+   ],
+   "ans": "C",
+   "exp": "P(no head) = 1/4 ⇒ P(at least one) = 3/4.",
+   "perm": [
+    0,
+    4,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Probability",
+   "lik": "M"
+  },
+  {
+   "n": 55,
+   "stem": "A car decelerates uniformly from 20 m/s to rest in 5 s. What is its deceleration?",
+   "options": [
+    "2 m/s²",
+    "4 m/s²",
+    "5 m/s²",
+    "10 m/s²",
+    "20 m/s²"
+   ],
+   "ans": "B",
+   "exp": "a = Δv/t = −20/5 = −4 m/s² (deceleration 4 m/s²).",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Kinematics",
+   "lik": "H"
+  },
+  {
+   "n": 56,
+   "stem": "Three 6 Ω resistors are connected in parallel. The equivalent resistance is:",
+   "options": [
+    "18 Ω",
+    "9 Ω",
+    "6 Ω",
+    "3 Ω",
+    "2 Ω"
+   ],
+   "ans": "E",
+   "exp": "1/R = 1/6 + 1/6 + 1/6 = 3/6 = 1/2 ⇒ R = 2 Ω.",
+   "perm": [
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Electricity",
+   "lik": "H"
+  },
+  {
+   "n": 57,
+   "stem": "What is the voltage across a 10 Ω resistor carrying 0.5 A?",
+   "options": [
+    "5 V",
+    "10 V",
+    "20 V",
+    "0.05 V",
+    "50 V"
+   ],
+   "ans": "A",
+   "exp": "V = IR = 0.5 × 10 = 5 V.",
+   "perm": [
+    3,
+    0,
+    1,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Electricity",
+   "lik": "H"
+  },
+  {
+   "n": 58,
+   "stem": "A ball of mass 0.5 kg moves at 4 m/s. What is its kinetic energy?",
+   "options": [
+    "2 J",
+    "4 J",
+    "8 J",
+    "16 J",
+    "1 J"
+   ],
+   "ans": "B",
+   "exp": "KE = ½mv² = ½ × 0.5 × 16 = 4 J.",
+   "perm": [
+    4,
+    0,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Dynamics/energy",
+   "lik": "H"
+  },
+  {
+   "n": 59,
+   "stem": "A 10 N force moves an object 5 m in the direction of the force. How much work is done?",
+   "options": [
+    "2 J",
+    "5 J",
+    "15 J",
+    "50 J",
+    "0 J"
+   ],
+   "ans": "D",
+   "exp": "W = Fd = 10 × 5 = 50 J.",
+   "perm": [
+    4,
+    0,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Dynamics/work",
+   "lik": "H"
+  },
+  {
+   "n": 60,
+   "stem": "Specific heat capacity of water is 4200 J/(kg·°C). How much energy heats 2 kg of water by 10 °C?",
+   "options": [
+    "8,400 J",
+    "42,000 J",
+    "84,000 J",
+    "420,000 J",
+    "840 J"
+   ],
+   "ans": "C",
+   "exp": "Q = mcΔT = 2 × 4200 × 10 = 84,000 J.",
+   "perm": [
+    0,
+    1,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Thermodynamics",
+   "lik": "M"
+  }
+ ]
+}

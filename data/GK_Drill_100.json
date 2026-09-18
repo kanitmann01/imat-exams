@@ -1,0 +1,2470 @@
+{
+ "schema": 1,
+ "id": "GK_Drill_100",
+ "title": "IMAT GK DRILL — 100 Questions",
+ "kind": "gk_drill",
+ "durationSec": 6000,
+ "maxTenths": 1500,
+ "targetScore": null,
+ "sections": [
+  {
+   "code": "A",
+   "from": 1,
+   "to": 8,
+   "label": "Section A - Reading Skills & Vocabulary in Context",
+   "short": "Reading"
+  },
+  {
+   "code": "B",
+   "from": 9,
+   "to": 24,
+   "label": "Section B - Italian Constitution & Institutions",
+   "short": "Constitution"
+  },
+  {
+   "code": "C",
+   "from": 25,
+   "to": 40,
+   "label": "Section C - European Union",
+   "short": "EU"
+  },
+  {
+   "code": "D",
+   "from": 41,
+   "to": 54,
+   "label": "Section D - Italian History",
+   "short": "History"
+  },
+  {
+   "code": "E",
+   "from": 55,
+   "to": 66,
+   "label": "Section E - Art, Architecture & Heritage",
+   "short": "Art"
+  },
+  {
+   "code": "F",
+   "from": 67,
+   "to": 80,
+   "label": "Section F - Literature, Philosophy & Ideas",
+   "short": "Letters"
+  },
+  {
+   "code": "G",
+   "from": 81,
+   "to": 90,
+   "label": "Section G - Science, Technology & Society",
+   "short": "Science"
+  },
+  {
+   "code": "H",
+   "from": 91,
+   "to": 100,
+   "label": "Section H - Current Affairs 2024",
+   "short": "Current"
+  }
+ ],
+ "bankVersion": "bdf05c706",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "Read the following passage and answer the question.\n\nFor decades, adolescent risk-taking was attributed chiefly to ignorance: teenagers, the assumption went, simply failed to grasp how dangerous their behaviour was. Neuroimaging has complicated that picture. The limbic system, which processes reward, matures earlier than the prefrontal cortex, which supplies self-control, and the mismatch between the two is widest in mid-adolescence. Teenagers, it turns out, often appraise risks quite accurately; what sets them apart is that, especially under the gaze of peers, the anticipated reward looms larger than the anticipated harm.\n\nWhich of the following best captures the passage's main point?",
+   "options": [
+    "Adolescents take risks because they cannot understand danger at all.",
+    "The prefrontal cortex matures before the limbic system in most adolescents.",
+    "Peer observation permanently damages the adolescent prefrontal cortex.",
+    "Uneven maturation of brain systems, rather than mere ignorance, helps explain adolescent risk-taking.",
+    "Neuroimaging has disproved the very existence of adolescent risk-taking."
+   ],
+   "ans": "D",
+   "exp": "The passage replaces the old ignorance account with a maturation-mismatch account (early limbic vs late prefrontal development), amplified by peers. C reverses the order of maturation; A is the refuted view.",
+   "perm": [
+    1,
+    4,
+    0,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading · main idea",
+   "lik": "H"
+  },
+  {
+   "n": 2,
+   "stem": "For decades, adolescent risk-taking was attributed chiefly to ignorance: teenagers, the assumption went, simply failed to grasp how dangerous their behaviour was. Neuroimaging has complicated that picture. The limbic system, which processes reward, matures earlier than the prefrontal cortex, which supplies self-control, and the mismatch between the two is widest in mid-adolescence. Teenagers, it turns out, often appraise risks quite accurately; what sets them apart is that, especially under the gaze of peers, the anticipated reward looms larger than the anticipated harm.\n\nIn the passage, 'the anticipated reward looms larger than the anticipated harm' means that, for the adolescent, the reward:",
+   "options": [
+    "is felt to matter more than the harm.",
+    "is physically larger in size.",
+    "persists longer in memory.",
+    "has been measured more precisely than the harm.",
+    "is approved of by peers."
+   ],
+   "ans": "A",
+   "exp": "'Looms larger' = carries greater psychological weight. Nothing in the passage concerns physical size, duration, or precision — classic vocab-in-context: substitute and re-read.",
+   "perm": [
+    4,
+    0,
+    2,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading · vocab in context",
+   "lik": "H"
+  },
+  {
+   "n": 3,
+   "stem": "Read the following passage and answer the question.\n\nSome researchers argue that reflecting a fraction of sunlight before it reaches the Earth's surface — so-called solar radiation management — could cool the planet quickly and cheaply, buying time while emissions fall. Critics reply that the technique is a sedative, not a cure: it eases the symptom of warming, temperature, while leaving its cause, greenhouse gases, untouched. They add a further worry: were the programme ever stopped abruptly, decades of masked warming could surface within a few years.\n\nWhich statement is supported by the passage?",
+   "options": [
+    "Solar radiation management removes greenhouse gases from the atmosphere.",
+    "Critics believe the programme could never be stopped for any reason.",
+    "Solar radiation management could lower temperatures faster than emission cuts alone.",
+    "The technique eliminates the causes of climate change while ignoring its symptoms.",
+    "All researchers agree the technique should be deployed immediately."
+   ],
+   "ans": "C",
+   "exp": "'Cool the planet quickly… buying time while emissions fall' = faster than cuts alone (A→ correct). B and D invert the sedative-not-cure point; C and E overstate the critics' and researchers' positions.",
+   "perm": [
+    2,
+    3,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading · inference",
+   "lik": "H"
+  },
+  {
+   "n": 4,
+   "stem": "Some researchers argue that reflecting a fraction of sunlight before it reaches the Earth's surface — so-called solar radiation management — could cool the planet quickly and cheaply, buying time while emissions fall. Critics reply that the technique is a sedative, not a cure: it eases the symptom of warming, temperature, while leaving its cause, greenhouse gases, untouched. They add a further worry: were the programme ever stopped abruptly, decades of masked warming could surface within a few years.\n\nThe critics' phrase 'a sedative, not a cure' implies that solar radiation management:",
+   "options": [
+    "is medically dangerous to the researchers themselves.",
+    "is prohibited under international law.",
+    "has never been modelled by scientists.",
+    "costs more than conventional emission reductions.",
+    "relieves a symptom of warming without removing its cause."
+   ],
+   "ans": "E",
+   "exp": "A sedative dulls pain without healing the disease: temperature (symptom) falls, greenhouse-gas concentrations (cause) remain. The other options import ideas absent from the passage — the classic wrong-answer move.",
+   "perm": [
+    1,
+    4,
+    2,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading · figure of speech",
+   "lik": "H"
+  },
+  {
+   "n": 5,
+   "stem": "Read the following passage and answer the question.\n\nDeep-learning systems now match or exceed specialists at reading certain retinal scans, and hospitals are eager to deploy them. Enthusiasm, however, can outrun evidence. An algorithm trained on patients from a handful of teaching hospitals may falter when it meets the cameras, the lighting and the patient mix of ordinary clinics. Its headline accuracy, measured on data that resemble its training set, is not guaranteed to travel. What a clinic needs is not a demonstration but a deployment study: performance measured where the machine will actually be used.\n\nIn the passage, 'is not guaranteed to travel' suggests that the algorithm's reported accuracy:",
+   "options": [
+    "breaches patient-confidentiality rules across borders.",
+    "may fail to transfer to settings unlike those it was trained in.",
+    "depends on the price of the scanning equipment.",
+    "improves as more cameras are installed.",
+    "has been refuted by the specialists who trained it."
+   ],
+   "ans": "B",
+   "exp": "'Travel' is used figuratively: performance measured on training-like data may not hold elsewhere (different clinics, cameras, patients). The literal/geographic reading is the trap.",
+   "perm": [
+    3,
+    2,
+    0,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading · vocab in context",
+   "lik": "H"
+  },
+  {
+   "n": 6,
+   "stem": "Deep-learning systems now match or exceed specialists at reading certain retinal scans, and hospitals are eager to deploy them. Enthusiasm, however, can outrun evidence. An algorithm trained on patients from a handful of teaching hospitals may falter when it meets the cameras, the lighting and the patient mix of ordinary clinics. Its headline accuracy, measured on data that resemble its training set, is not guaranteed to travel. What a clinic needs is not a demonstration but a deployment study: performance measured where the machine will actually be used.\n\nWhich of the following best expresses the author's central claim?",
+   "options": [
+    "Deep learning has no useful role in ophthalmology.",
+    "Algorithms should be trained exclusively in ordinary clinics.",
+    "Teaching hospitals systematically exaggerate scanner costs.",
+    "Adoption should rest on performance validated in real deployment settings, not on headline benchmarks.",
+    "Retinal specialists will soon become redundant."
+   ],
+   "ans": "D",
+   "exp": "The passage's destination is its final sentence: demonstrations vs deployment studies. A, B and E are extreme readings the passage does not license.",
+   "perm": [
+    3,
+    2,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading · main idea",
+   "lik": "H"
+  },
+  {
+   "n": 7,
+   "stem": "Read the following passage and answer the question.\n\nThe microbes of the human gut ferment dietary fibres that our own enzymes cannot break down, releasing short-chain fatty acids that feed the cells of the intestinal wall and help keep inflammation in check. A diet chronically poor in fibre therefore does more than deprive the body of roughage: it starves a metabolic partnership refined over millions of years. Deprived of fibre, some microbes turn to an alternative fare — the mucus that lines the gut — thinning the barrier that separates the microbial world from the body's own tissues.\n\nWhich conclusion is best supported by the passage?",
+   "options": [
+    "Chronic fibre deficiency may weaken the barrier protecting gut tissues.",
+    "All gut microbes are harmful to human health.",
+    "Short-chain fatty acids are produced by human digestive enzymes.",
+    "Mucus is the preferred food of all gut bacteria.",
+    "Inflammation is caused exclusively by dietary fibre."
+   ],
+   "ans": "A",
+   "exp": "Fibre starvation → microbes consume mucus → mucus (the barrier) thins. B, C, D, E all use absolute language ('all', 'exclusively') or contradict the passage (the acids come from microbes, not our enzymes).",
+   "perm": [
+    1,
+    0,
+    3,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading · inference",
+   "lik": "H"
+  },
+  {
+   "n": 8,
+   "stem": "The microbes of the human gut ferment dietary fibres that our own enzymes cannot break down, releasing short-chain fatty acids that feed the cells of the intestinal wall and help keep inflammation in check. A diet chronically poor in fibre therefore does more than deprive the body of roughage: it starves a metabolic partnership refined over millions of years. Deprived of fibre, some microbes turn to an alternative fare — the mucus that lines the gut — thinning the barrier that separates the microbial world from the body's own tissues.\n\nIn the passage, 'roughage' most nearly means:",
+   "options": [
+    "coarse meat proteins.",
+    "refined sugars.",
+    "indigestible plant material.",
+    "vitamins absorbed in the colon.",
+    "the mucus lining of the gut."
+   ],
+   "ans": "C",
+   "exp": "Roughage = dietary fibre — the plant material human enzymes cannot digest, exactly as the passage's opening clause defines it. Context supplies the definition; no outside knowledge needed.",
+   "perm": [
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading · vocab in context",
+   "lik": "H"
+  },
+  {
+   "n": 9,
+   "stem": "How many judges sit on Italy's Constitutional Court?",
+   "options": [
+    "9",
+    "12",
+    "21",
+    "25",
+    "15"
+   ],
+   "ans": "E",
+   "exp": "Fifteen judges, each serving a single nine-year term. This and the Court's composition are recurring IMAT-era GK favourites.",
+   "perm": [
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · Constitutional Court",
+   "lik": "H"
+  },
+  {
+   "n": 10,
+   "stem": "The fifteen judges of the Constitutional Court are appointed by:",
+   "options": [
+    "the President of the Republic alone.",
+    "the President of the Republic (5), Parliament in joint session (5) and the supreme magistrature (5).",
+    "the Parliament alone, by two-thirds majority.",
+    "the supreme courts alone.",
+    "direct popular election every nine years."
+   ],
+   "ans": "B",
+   "exp": "A deliberate tripartite appointment designed to prevent any single body from packing the Court.",
+   "perm": [
+    1,
+    3,
+    4,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · Constitutional Court",
+   "lik": "H"
+  },
+  {
+   "n": 11,
+   "stem": "The Italian Constitution was approved by the Constituent Assembly on 22 December 1947 and entered into force on:",
+   "options": [
+    "25 April 1947.",
+    "2 June 1946.",
+    "18 April 1948.",
+    "1 January 1948.",
+    "1 May 1949."
+   ],
+   "ans": "D",
+   "exp": "In force 1 January 1948. Remember the sequence: 2 June 1946 referendum + Constituent Assembly elected → Constitution approved 22 Dec 1947 → in force 1 Jan 1948.",
+   "perm": [
+    2,
+    3,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · Constitution",
+   "lik": "H"
+  },
+  {
+   "n": 12,
+   "stem": "How many articles does the Italian Constitution contain?",
+   "options": [
+    "139",
+    "100",
+    "114",
+    "129",
+    "150"
+   ],
+   "ans": "A",
+   "exp": "139 articles, in a Fundamental principles section (arts 1–12), Parts I (rights and duties), II (organisation of the Republic) and transitional provisions.",
+   "perm": [
+    1,
+    2,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · Constitution",
+   "lik": "H"
+  },
+  {
+   "n": 13,
+   "stem": "The President of the Italian Republic is elected by:",
+   "options": [
+    "direct popular vote in two rounds.",
+    "the Chamber of Deputies alone.",
+    "Parliament meeting in joint session, integrated with delegates of the regions.",
+    "the Council of Ministers.",
+    "the Constitutional Court."
+   ],
+   "ans": "C",
+   "exp": "Chamber + Senate in joint session plus 3 delegates per region (1 for Valle d'Aosta; 58 in total). Term: 7 years. An absolute majority is required initially, 2/3 of the assembly's composition in the first three ballots.",
+   "perm": [
+    0,
+    4,
+    1,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · presidency",
+   "lik": "H"
+  },
+  {
+   "n": 14,
+   "stem": "Italy's Parliament consists of:",
+   "options": [
+    "the Chamber of Deputies and the Regional Councils.",
+    "a single National Assembly.",
+    "the Senate and the Council of State.",
+    "the Chamber of Deputies and representatives of the municipalities.",
+    "two chambers — the Chamber of Deputies and the Senate of the Republic — with identical powers."
+   ],
+   "ans": "E",
+   "exp": "'Perfect bicameralism': both chambers are elected for five years and pass identical legislation. The Council of State is an administrative court, not a chamber.",
+   "perm": [
+    4,
+    1,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · Parliament",
+   "lik": "H"
+  },
+  {
+   "n": 15,
+   "stem": "Under Article 94, the Government (Council of Ministers) must obtain the confidence of:",
+   "options": [
+    "the Chamber of Deputies only.",
+    "both the Chamber of Deputies and the Senate.",
+    "the Senate only.",
+    "the President of the Republic.",
+    "the Constitutional Court."
+   ],
+   "ans": "B",
+   "exp": "Confidence is granted (and may be withdrawn) by each chamber within ten days of appointment — one of the few asymmetry-free powers in the system.",
+   "perm": [
+    3,
+    1,
+    4,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · Government",
+   "lik": "H"
+  },
+  {
+   "n": 16,
+   "stem": "Following the 2020 constitutional cutback, first applied in the 2022 elections, the two chambers have:",
+   "options": [
+    "630 deputies and 315 senators.",
+    "500 deputies and 250 senators.",
+    "630 deputies and 200 senators.",
+    "400 deputies and 200 senators.",
+    "400 deputies and 100 senators."
+   ],
+   "ans": "D",
+   "exp": "The reform (constitutional law no. 1/2020) nearly halved the chambers from 630/315. Senators must be 40+, deputies 25+.",
+   "perm": [
+    1,
+    4,
+    2,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · Parliament",
+   "lik": "H"
+  },
+  {
+   "n": 17,
+   "stem": "The Constitutional Court decides primarily on:",
+   "options": [
+    "the constitutionality of national and regional laws.",
+    "criminal appeals against convictions.",
+    "disputes between private citizens.",
+    "the legality of government contracts.",
+    "the accession of new members to the European Union."
+   ],
+   "ans": "A",
+   "exp": "Core job: constitutionality review. It also rules on jurisdictional conflicts between the powers of the state and, jointly with Parliament in joint session, tries the President for crimes against the Constitution.",
+   "perm": [
+    0,
+    2,
+    4,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · Constitutional Court",
+   "lik": "H"
+  },
+  {
+   "n": 18,
+   "stem": "Article 1 of the Constitution states that Italy is:",
+   "options": [
+    "a confederation of autonomous regions.",
+    "a constitutional monarchy.",
+    "a democratic Republic founded on labour.",
+    "a presidential Republic.",
+    "a Republic founded on private property."
+   ],
+   "ans": "C",
+   "exp": "'L'Italia è una Repubblica democratica fondata sul lavoro' — and sovereignty belongs to the people, who exercise it in the forms and limits of the Constitution.",
+   "perm": [
+    0,
+    4,
+    1,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · Constitution",
+   "lik": "H"
+  },
+  {
+   "n": 19,
+   "stem": "How many of Italy's twenty regions have a special statute and autonomy?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "10",
+    "5"
+   ],
+   "ans": "E",
+   "exp": "Sicily, Sardinia, Valle d'Aosta, Trentino-Alto Adige/Südtirol and Friuli-Venezia Giulia — the five special-statute regions, with extra legislative and financial powers.",
+   "perm": [
+    0,
+    1,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · regions",
+   "lik": "M"
+  },
+  {
+   "n": 20,
+   "stem": "An abrogative referendum (Article 75) is valid when:",
+   "options": [
+    "one third of the Senate requests it.",
+    "a majority of valid votes approve it AND at least half the eligible electorate turns out.",
+    "the President of the Republic authorises it.",
+    "a majority of the Chamber of Deputies passes it first.",
+    "turnout exceeds seventy-five per cent of voters."
+   ],
+   "ans": "B",
+   "exp": "Proposed by 500,000 voters or five regional councils; approved if a majority of valid votes is reached with turnout of at least 50% of the entitled electorate. Tax, budget, amnesty and international-treaty laws are excluded.",
+   "perm": [
+    3,
+    0,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · referendum",
+   "lik": "M"
+  },
+  {
+   "n": 21,
+   "stem": "The President of the Council of Ministers (the prime minister) is:",
+   "options": [
+    "elected directly by the citizens.",
+    "chosen by the Constitutional Court.",
+    "the eldest senator, by automatic succession.",
+    "appointed by the President of the Republic and must hold the confidence of Parliament.",
+    "nominated by the European Council."
+   ],
+   "ans": "D",
+   "exp": "The Head of State appoints the PM and, on the PM's proposal, the ministers; the government must then win confidence in both chambers. Italy is a parliamentary, not presidential, republic.",
+   "perm": [
+    1,
+    2,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · Government",
+   "lik": "H"
+  },
+  {
+   "n": 22,
+   "stem": "Who has served as President of the Italian Republic since 2015 and was confirmed for a second term in 2022?",
+   "options": [
+    "Sergio Mattarella",
+    "Giorgio Napolitano",
+    "Carlo Azeglio Ciampi",
+    "Sandro Pertini",
+    "Francesco Cossiga"
+   ],
+   "ans": "A",
+   "exp": "Mattarella was re-elected in January 2022 (second term runs to 2029). Napolitano (2006–2015) was the first ever to resign-and-be-re-elected, in 2013.",
+   "perm": [
+    2,
+    1,
+    0,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · current officeholders",
+   "lik": "H"
+  },
+  {
+   "n": 23,
+   "stem": "Since October 2022, the President of the Council of Ministers has been:",
+   "options": [
+    "Mario Draghi",
+    "Paolo Gentiloni",
+    "Giorgia Meloni",
+    "Matteo Renzi",
+    "Enrico Letta"
+   ],
+   "ans": "C",
+   "exp": "Meloni (Fratelli d'Italia) leads a right-wing coalition; she succeeded technocrat Mario Draghi (2021–2022) and is Italy's first woman prime minister.",
+   "perm": [
+    3,
+    2,
+    1,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · current officeholders",
+   "lik": "H"
+  },
+  {
+   "n": 24,
+   "stem": "Italy's national day, 2 June, commemorates:",
+   "options": [
+    "the liberation of 1945.",
+    "the entry into force of the Constitution in 1948.",
+    "the unification of 1861.",
+    "the March on Rome of 1922.",
+    "the 1946 referendum in which Italy chose to become a Republic."
+   ],
+   "ans": "E",
+   "exp": "Festa della Repubblica marks 2 June 1946: the institutional referendum (Republic over monarchy) plus election of the Constituent Assembly — the first national vote in which Italian women took part. 25 April = Liberation Day.",
+   "perm": [
+    4,
+    0,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Civics · national days",
+   "lik": "H"
+  },
+  {
+   "n": 25,
+   "stem": "The European Central Bank has its seat in:",
+   "options": [
+    "Brussels.",
+    "Frankfurt am Main.",
+    "Paris.",
+    "Luxembourg.",
+    "The Hague."
+   ],
+   "ans": "B",
+   "exp": "Frankfurt, Germany — the ECB manages the euro and EU monetary policy. A recurring IMAT-era question; memorise the seat of every major EU institution.",
+   "perm": [
+    0,
+    2,
+    4,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · institutions",
+   "lik": "H"
+  },
+  {
+   "n": 26,
+   "stem": "The official seat of the European Parliament — where the twelve monthly plenary sessions are held — is:",
+   "options": [
+    "Brussels.",
+    "Luxembourg.",
+    "Geneva.",
+    "Strasbourg.",
+    "Bonn."
+   ],
+   "ans": "D",
+   "exp": "Plenary in Strasbourg; committee meetings in Brussels; General Secretariat in Luxembourg. The three-workplace arrangement is itself a favourite exam nugget.",
+   "perm": [
+    3,
+    0,
+    2,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · institutions",
+   "lik": "H"
+  },
+  {
+   "n": 27,
+   "stem": "The Court of Justice of the European Union (CJEU) sits in:",
+   "options": [
+    "Luxembourg.",
+    "Strasbourg.",
+    "Vienna.",
+    "Frankfurt.",
+    "Brussels."
+   ],
+   "ans": "A",
+   "exp": "Luxembourg. Do not confuse with the European Court of Human Rights, which sits in Strasbourg and belongs to the Council of Europe — not an EU body.",
+   "perm": [
+    4,
+    2,
+    3,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · institutions",
+   "lik": "H"
+  },
+  {
+   "n": 28,
+   "stem": "The European Commission is best described as:",
+   "options": [
+    "the assembly of national parliament speakers.",
+    "a court hearing human-rights appeals.",
+    "the EU's executive arm: it proposes legislation and guards the treaties, with one member per member state.",
+    "a committee of central-bank governors.",
+    "the upper house of the EU legislature."
+   ],
+   "ans": "C",
+   "exp": "Commissioners (one per state, including its President) are the only body that initiates EU law; it also enforces the treaties ('guardian of the treaties'). Von der Leyen has presided over it since December 2019.",
+   "perm": [
+    4,
+    3,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · institutions",
+   "lik": "H"
+  },
+  {
+   "n": 29,
+   "stem": "The European Council consists of:",
+   "options": [
+    "the foreign ministers of the member states.",
+    "all members of the European Parliament.",
+    "the presidents of the national constitutional courts.",
+    "the EU commissioners.",
+    "the heads of state or government of the member states, with its President and the Commission President."
+   ],
+   "ans": "E",
+   "exp": "It sets the EU's general political direction and meets in Brussels. Distinguish it from the Council of the EU (national ministers, one formation per policy area), which legislates with Parliament.",
+   "perm": [
+    1,
+    0,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · institutions",
+   "lik": "H"
+  },
+  {
+   "n": 30,
+   "stem": "The Treaty of Rome (1957) established:",
+   "options": [
+    "the North Atlantic Treaty Organization.",
+    "the European Economic Community (EEC).",
+    "the Council of Europe.",
+    "the European Monetary System.",
+    "the Western European Union."
+   ],
+   "ans": "B",
+   "exp": "The EEC — by six founders including Italy (with France, West Germany, Belgium, the Netherlands, Luxembourg). Coal & Steel Community: Paris 1951; the EU proper: Maastricht 1992.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · treaties",
+   "lik": "H"
+  },
+  {
+   "n": 31,
+   "stem": "The Maastricht Treaty (1992) is notable for:",
+   "options": [
+    "creating the Council of Europe.",
+    "founding the EEC.",
+    "abolishing national parliaments.",
+    "establishing the European Union and the path to the single currency.",
+    "creating the Schengen area."
+   ],
+   "ans": "D",
+   "exp": "Maastricht converted the EEC into the EU (three pillars) and set the convergence criteria for the euro. Schengen is older and separate: a 1985 agreement applied from 1995.",
+   "perm": [
+    3,
+    4,
+    0,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · treaties",
+   "lik": "H"
+  },
+  {
+   "n": 32,
+   "stem": "Euro banknotes and coins entered circulation on:",
+   "options": [
+    "1 January 2002.",
+    "1 January 1999.",
+    "1 January 2000.",
+    "1 January 2004.",
+    "1 July 2013."
+   ],
+   "ans": "A",
+   "exp": "1999 saw the euro born as electronic 'book' money; cash arrived 1 January 2002 in twelve countries. A recurring IMAT-era favourite.",
+   "perm": [
+    4,
+    3,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · euro",
+   "lik": "H"
+  },
+  {
+   "n": 33,
+   "stem": "After the United Kingdom left the EU on 31 January 2020 (Brexit), the number of member states is:",
+   "options": [
+    "25",
+    "26",
+    "27",
+    "28",
+    "30"
+   ],
+   "ans": "C",
+   "exp": "27 members since Brexit — the first and so far only withdrawal. Croatia (2013) was the last to join.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · membership",
+   "lik": "H"
+  },
+  {
+   "n": 34,
+   "stem": "Which country was the last to join the European Union, in 2013?",
+   "options": [
+    "Bulgaria",
+    "Romania",
+    "Hungary",
+    "Slovenia",
+    "Croatia"
+   ],
+   "ans": "E",
+   "exp": "Croatia joined 1 July 2013 as the 28th member — an IMAT-era staple. Bulgaria and Romania joined in 2007.",
+   "perm": [
+    2,
+    4,
+    0,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · membership",
+   "lik": "H"
+  },
+  {
+   "n": 35,
+   "stem": "On 1 January 2023, Croatia:",
+   "options": [
+    "withdrew from the European Union.",
+    "adopted the euro and joined the Schengen border-free area.",
+    "changed its currency to the kuna.",
+    "left the Schengen area.",
+    "adopted the Swiss franc."
+   ],
+   "ans": "B",
+   "exp": "Croatia became the 20th euro member and simultaneously entered Schengen — a double first day. Its previous currency was the kuna.",
+   "perm": [
+    2,
+    4,
+    0,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · euro",
+   "lik": "M"
+  },
+  {
+   "n": 36,
+   "stem": "On 1 January 2026 Bulgaria became the 21st country to adopt the euro. Its former currency was:",
+   "options": [
+    "the dinar",
+    "the koruna",
+    "the zloty",
+    "the lev",
+    "the forint"
+   ],
+   "ans": "D",
+   "exp": "Lev, converted at the fixed rate of 1.95583 per euro — the first euro enlargement since Croatia 2023 and a prime 2026-cycle fact. (Dinar: Serbia; koruna: Czechia; zloty: Poland; forint: Hungary.)",
+   "perm": [
+    0,
+    2,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · 2026 watchlist",
+   "lik": "H"
+  },
+  {
+   "n": 37,
+   "stem": "The Schengen area is best described as:",
+   "options": [
+    "a group of European countries that have abolished controls at their common internal borders.",
+    "a military defence alliance.",
+    "a currency union.",
+    "a free-trade zone limited to agriculture.",
+    "the collective name for the EU's outermost regions."
+   ],
+   "ans": "A",
+   "exp": "Schengen ≠ EU: non-members Switzerland, Norway, Iceland and Liechtenstein participate, while EU members Ireland and Cyprus do not.",
+   "perm": [
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · Schengen",
+   "lik": "H"
+  },
+  {
+   "n": 38,
+   "stem": "The European Union as an organisation was awarded the Nobel Peace Prize in:",
+   "options": [
+    "1993",
+    "1999",
+    "2012",
+    "2007",
+    "2020"
+   ],
+   "ans": "C",
+   "exp": "'For over six decades [having] contributed to the advancement of peace and reconciliation, democracy and human rights in Europe.'",
+   "perm": [
+    0,
+    1,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · history",
+   "lik": "M"
+  },
+  {
+   "n": 39,
+   "stem": "Which institution of the European Union is directly elected by the citizens?",
+   "options": [
+    "The European Commission.",
+    "The Council of the EU.",
+    "The European Council.",
+    "The Court of Auditors.",
+    "The European Parliament."
+   ],
+   "ans": "E",
+   "exp": "Directly elected every five years by universal suffrage (since 1979). The June 2024 election returned 720 MEPs. Everyone else is appointed.",
+   "perm": [
+    4,
+    1,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · institutions",
+   "lik": "H"
+  },
+  {
+   "n": 40,
+   "stem": "Which of the following EU member states does not use the euro?",
+   "options": [
+    "France",
+    "Denmark",
+    "Spain",
+    "Portugal",
+    "Greece"
+   ],
+   "ans": "B",
+   "exp": "Denmark negotiated an opt-out (its krone is nonetheless pegged via ERM II). All four other options are euro members. Sweden also stays outside but, lacking an opt-out, is formally committed to join.",
+   "perm": [
+    3,
+    2,
+    1,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "EU · euro",
+   "lik": "M"
+  },
+  {
+   "n": 41,
+   "stem": "The Kingdom of Italy was proclaimed in:",
+   "options": [
+    "1848",
+    "1859",
+    "1866",
+    "1861",
+    "1870"
+   ],
+   "ans": "D",
+   "exp": "17 March 1861 in Turin, with Vittorio Emanuele II as first king. Then: Veneto 1866, Rome 1870, Rome capital 1871.",
+   "perm": [
+    0,
+    1,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "History · Risorgimento",
+   "lik": "H"
+  },
+  {
+   "n": 42,
+   "stem": "The 'Expedition of the Thousand' (1860), which conquered the Kingdom of the Two Sicilies, was led by:",
+   "options": [
+    "Giuseppe Garibaldi",
+    "Camillo Benso di Cavour",
+    "Giuseppe Mazzini",
+    "Vittorio Emanuele II",
+    "Vincenzo Gioberti"
+   ],
+   "ans": "A",
+   "exp": "Garibaldi's redshirts landed at Marsala, took Sicily and marched up the peninsula, handing the South to the king — the popular half of unification to set beside Cavour's diplomacy.",
+   "perm": [
+    1,
+    4,
+    2,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "History · Risorgimento",
+   "lik": "H"
+  },
+  {
+   "n": 43,
+   "stem": "The prime minister of Piedmont who engineered France's support and diplomatic cover for unification was:",
+   "options": [
+    "Giuseppe Mazzini",
+    "Giuseppe Garibaldi",
+    "Camillo Benso di Cavour",
+    "Luigi Einaudi",
+    "Francesco Crispi"
+   ],
+   "ans": "C",
+   "exp": "Cavour, Piedmont's calculating PM: Plombières pact with Napoleon III (1858), war against Austria 1859, plebiscites 1860.",
+   "perm": [
+    4,
+    2,
+    1,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "History · Risorgimento",
+   "lik": "H"
+  },
+  {
+   "n": 44,
+   "stem": "Giuseppe Mazzini is best remembered as:",
+   "options": [
+    "the first king of united Italy.",
+    "the inventor of the electric telegraph.",
+    "Napoleon's viceroy of Italy.",
+    "the ideologue of the Fascist party.",
+    "founder of the republican movement 'Young Italy' (Giovine Italia)."
+   ],
+   "ans": "E",
+   "exp": "Mazzini supplied the soul — a republican, unitary Italy — while Cavour supplied the state and Garibaldi the sword. Triad: soul / state / sword.",
+   "perm": [
+    4,
+    0,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "History · Risorgimento",
+   "lik": "H"
+  },
+  {
+   "n": 45,
+   "stem": "Rome became the capital of Italy in:",
+   "options": [
+    "1861",
+    "1871",
+    "1866",
+    "1870",
+    "1878"
+   ],
+   "ans": "B",
+   "exp": "The city was taken on 20 September 1870 (breach of Porta Pia, ending the Papal State) and formally became capital in 1871, after Turin (1861–65) and Florence (1865–71).",
+   "perm": [
+    0,
+    2,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "History · Risorgimento",
+   "lik": "H"
+  },
+  {
+   "n": 46,
+   "stem": "Italy entered the First World War in 1915 on the side of:",
+   "options": [
+    "the Central Powers (Germany and Austria-Hungary).",
+    "neither — it remained neutral until 1918.",
+    "the Ottoman Empire.",
+    "the Triple Entente (France, Britain, Russia).",
+    "Spain."
+   ],
+   "ans": "D",
+   "exp": "Though nominally allied to the Central Powers (Triple Alliance, 1882), Italy stayed neutral in 1914 and switched after the secret Treaty of London (1915) promised it Austro-Hungarian lands.",
+   "perm": [
+    4,
+    2,
+    0,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "History · WWI",
+   "lik": "H"
+  },
+  {
+   "n": 47,
+   "stem": "The disastrous Italian defeat of October 1917 — followed by recovery and victory at Vittorio Veneto in 1918 — was the battle of:",
+   "options": [
+    "Caporetto",
+    "El Alamein",
+    "Custoza",
+    "Marengo",
+    "Lissa"
+   ],
+   "ans": "A",
+   "exp": "Caporetto: the German-Austrian breakthrough that shattered the Italian front and forced a retreat to the Piave. (Custoza and Lissa were the defeats of 1866; El Alamein 1942.)",
+   "perm": [
+    2,
+    0,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "History · WWI",
+   "lik": "M"
+  },
+  {
+   "n": 48,
+   "stem": "The 'March on Rome' (October 1922) resulted in:",
+   "options": [
+    "the abdication of the king.",
+    "Italy's entry into the First World War.",
+    "Mussolini being appointed Prime Minister by King Vittorio Emanuele III.",
+    "the proclamation of the Republic.",
+    "the signing of the Lateran Pacts."
+   ],
+   "ans": "C",
+   "exp": "Rather than declare a state of siege, the king asked Mussolini to form a government — the constitutional door through which the dictatorship entered.",
+   "perm": [
+    0,
+    3,
+    2,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "History · fascism",
+   "lik": "H"
+  },
+  {
+   "n": 49,
+   "stem": "The Lateran Pacts of 1929 between Italy and the Holy See:",
+   "options": [
+    "transferred Venice to Austria.",
+    "ended Italy's membership of the League of Nations.",
+    "created the region of Trentino-Alto Adige.",
+    "nationalised all Church property.",
+    "established the sovereign Vatican City State, ending the 'Roman Question'."
+   ],
+   "ans": "E",
+   "exp": "Three acts: a political treaty creating the micro-state, a concordat, and financial compensation for the loss of the Papal States. The religious teaching parts were revised in 1984.",
+   "perm": [
+    3,
+    1,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "History · fascism",
+   "lik": "M"
+  },
+  {
+   "n": 50,
+   "stem": "Italy's Liberation Day, 25 April, marks:",
+   "options": [
+    "the end of the First World War.",
+    "the 1945 general insurrection and liberation of Milan and Turin from Nazi-fascist occupation.",
+    "the 1946 institutional referendum.",
+    "the fall of the Berlin Wall.",
+    "the 1969 Piazza Fontana bombing."
+   ],
+   "ans": "B",
+   "exp": "25 April 1945: the Resistance (CLN) rose up as German forces retreated north — now commemorated as Festa della Liberazione.",
+   "perm": [
+    4,
+    1,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "History · WWII",
+   "lik": "H"
+  },
+  {
+   "n": 51,
+   "stem": "On 2 June 1946, Italians voted:",
+   "options": [
+    "to restore the monarchy by a narrow margin.",
+    "to join the North Atlantic Treaty Organization.",
+    "to adopt the single European currency.",
+    "in a referendum that founded the Republic and elected the Constituent Assembly — women voting nationally for the first time.",
+    "for the first President of the Republic directly."
+   ],
+   "ans": "D",
+   "exp": "Republic won 54%–46%; the Constituent Assembly then drafted the Constitution (in force 1 Jan 1948). The first President, De Nicola, was elected by Parliament in 1946.",
+   "perm": [
+    1,
+    2,
+    3,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "History · Republic",
+   "lik": "H"
+  },
+  {
+   "n": 52,
+   "stem": "Italy's post-war 'economic miracle' — rapid industrial growth, the Fiat 500, mass internal migration — occurred chiefly in the:",
+   "options": [
+    "1950s and 1960s.",
+    "1930s.",
+    "late 1940s.",
+    "1980s.",
+    "first decade of the 2000s."
+   ],
+   "ans": "A",
+   "exp": "Roughly 1958–1963 was the peak ('boom'), fuelled by Marshall Plan reconstruction, exports and cheap southern labour moving north.",
+   "perm": [
+    0,
+    3,
+    4,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "History · Republic",
+   "lik": "M"
+  },
+  {
+   "n": 53,
+   "stem": "The kidnapping and murder of former Prime Minister Aldo Moro by the Red Brigades occurred in:",
+   "options": [
+    "1969",
+    "1974",
+    "1978",
+    "1980",
+    "1992"
+   ],
+   "ans": "C",
+   "exp": "Moro was held for 55 days (March–May 1978), the climax of the 'Years of Lead': Piazza Fontana bombing 1969, Bologna station massacre 1980.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "History · Years of Lead",
+   "lik": "M"
+  },
+  {
+   "n": 54,
+   "stem": "The 'Mani pulite' (Clean Hands) judicial investigations opened in 1992 and:",
+   "options": [
+    "prosecuted Nazi war criminals.",
+    "nationalised the major banks.",
+    "rewrote the constitution's labour articles.",
+    "investigated doping in professional football.",
+    "exposed systemic bribery ('Tangentopoli'), dissolving the party system of the 'First Republic'."
+   ],
+   "ans": "E",
+   "exp": "From a kickback scandal at Milan's Pio Albergo Trivulzio, the pool of Milan judges unravelled the financing system of the traditional parties; the Christian Democrats and Socialists collapsed within two years.",
+   "perm": [
+    3,
+    1,
+    0,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "History · First Republic",
+   "lik": "M"
+  },
+  {
+   "n": 55,
+   "stem": "Leonardo da Vinci's Last Supper is a mural painted in:",
+   "options": [
+    "the Uffizi Gallery, Florence.",
+    "the refectory of Santa Maria delle Grazie, Milan.",
+    "the Sistine Chapel, Vatican City.",
+    "St Peter's Basilica, Rome.",
+    "the Louvre, Paris."
+   ],
+   "ans": "B",
+   "exp": "A tempera-on-dry-wall experiment (~1495–98), which is why it has famously flaked; viewable today in Milan under strict booking. (The Mona Lisa, by contrast, is in the Louvre.)",
+   "perm": [
+    4,
+    2,
+    3,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Art · Leonardo",
+   "lik": "H"
+  },
+  {
+   "n": 56,
+   "stem": "Michelangelo's David (1501–04) stands today in:",
+   "options": [
+    "the Louvre, Paris.",
+    "the Vatican Museums.",
+    "the Uffizi Gallery.",
+    "the Galleria dell'Accademia, Florence.",
+    "the Boboli Gardens."
+   ],
+   "ans": "D",
+   "exp": "Carved from a rejected block of Carrara marble for the cathedral works, then placed outside the Palazzo Vecchio — where a replica now stands in Piazza della Signoria.",
+   "perm": [
+    1,
+    3,
+    0,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Art · Michelangelo",
+   "lik": "H"
+  },
+  {
+   "n": 57,
+   "stem": "Michelangelo's Pietà (1499), the only work he ever signed, is in:",
+   "options": [
+    "St Peter's Basilica, Rome.",
+    "Florence Cathedral.",
+    "the Prado, Madrid.",
+    "the Galleria dell'Accademia, Florence.",
+    "Milan Cathedral."
+   ],
+   "ans": "A",
+   "exp": "The Roman Pietà, sculpted when Michelangelo was 24, sits behind bullet-proof glass in St Peter's after the 1972 hammer attack.",
+   "perm": [
+    1,
+    2,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Art · Michelangelo",
+   "lik": "M"
+  },
+  {
+   "n": 58,
+   "stem": "Raphael's The School of Athens is frescoed in:",
+   "options": [
+    "the Uffizi Gallery, Florence.",
+    "the Sistine Chapel.",
+    "the Stanza della Segnatura of the Vatican Apostolic Palace.",
+    "the Scrovegni Chapel, Padua.",
+    "the Doge's Palace, Venice."
+   ],
+   "ans": "C",
+   "exp": "Plato and Aristotle converse at the centre under ideal arches — the High Renaissance synthesis of art and philosophy, painted for Pope Julius II's apartments.",
+   "perm": [
+    1,
+    3,
+    2,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Art · Raphael",
+   "lik": "H"
+  },
+  {
+   "n": 59,
+   "stem": "Botticelli's The Birth of Venus hangs in:",
+   "options": [
+    "the Louvre, Paris.",
+    "the National Gallery, London.",
+    "the Vatican Pinacoteca.",
+    "the Galleria Borghese, Rome.",
+    "the Uffizi Gallery, Florence."
+   ],
+   "ans": "E",
+   "exp": "With the Primavera, the icon of Medici-era Neo-Platonism — Venus arriving on the shell. Uffizi neighbours include Caravaggio's Medusa and Leonardo's Annunciation.",
+   "perm": [
+    0,
+    1,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Art · Botticelli",
+   "lik": "H"
+  },
+  {
+   "n": 60,
+   "stem": "The ceiling of the Sistine Chapel was painted by Michelangelo between:",
+   "options": [
+    "1450 and 1455.",
+    "1508 and 1512.",
+    "1536 and 1541.",
+    "1490 and 1495.",
+    "1575 and 1580."
+   ],
+   "ans": "B",
+   "exp": "Ceiling 1508–12 (Creation, nine Genesis scenes); the altarpiece Last Judgement came a quarter-century later, 1536–41. Don't swap the two date pairs.",
+   "perm": [
+    1,
+    0,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Art · Michelangelo",
+   "lik": "H"
+  },
+  {
+   "n": 61,
+   "stem": "Filippo Brunelleschi's masterpiece of engineering is:",
+   "options": [
+    "the Leaning Tower of Pisa.",
+    "St Mark's Campanile, Venice.",
+    "the dome of St Paul's Cathedral, London.",
+    "the double-shell dome of Florence Cathedral (Santa Maria del Fiore).",
+    "the Baths of Caracalla."
+   ],
+   "ans": "D",
+   "exp": "Completed by 1436, still the largest masonry dome ever raised, built without traditional wooden centring. Brunelleschi also codified linear perspective.",
+   "perm": [
+    2,
+    1,
+    0,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Art · Renaissance",
+   "lik": "M"
+  },
+  {
+   "n": 62,
+   "stem": "The Pantheon in Rome — still the world's largest unreinforced concrete dome — was essentially completed under the emperor:",
+   "options": [
+    "Hadrian",
+    "Augustus",
+    "Nero",
+    "Constantine",
+    "Trajan"
+   ],
+   "ans": "A",
+   "exp": "Rebuilt around 126 AD under Hadrian; its 9-metre oculus is the dome's only light source. Original by Agrippa (27 BC), hence the inscription M·AGRIPPA… on the façade.",
+   "perm": [
+    4,
+    1,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Art · ancient Rome",
+   "lik": "M"
+  },
+  {
+   "n": 63,
+   "stem": "The Colosseum — properly the Flavian Amphitheatre — was inaugurated in:",
+   "options": [
+    "44 BC",
+    "315 AD",
+    "80 AD",
+    "72 BC",
+    "500 AD"
+   ],
+   "ans": "C",
+   "exp": "Completed under Titus in 80 AD with a hundred days of games; begun by his father Vespasian ~70–72 AD. The largest amphitheatre the Romans built.",
+   "perm": [
+    2,
+    0,
+    1,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Art · ancient Rome",
+   "lik": "M"
+  },
+  {
+   "n": 64,
+   "stem": "Caravaggio's revolutionary painting style is characterised by:",
+   "options": [
+    "pastel colours and loose impressionist brushwork.",
+    "geometric cubist fragmentation.",
+    "serene neoclassical balance.",
+    "gold-ground Byzantine flatness.",
+    "dramatic contrasts of light and dark with unsparing realism."
+   ],
+   "ans": "E",
+   "exp": "Tenebrism: figures erupt from darkness under a hard raking light, saints with dirty feet — in works like The Calling of Saint Matthew (San Luigi dei Francesi, Rome).",
+   "perm": [
+    3,
+    2,
+    4,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Art · Baroque",
+   "lik": "M"
+  },
+  {
+   "n": 65,
+   "stem": "Gian Lorenzo Bernini, the leading sculptor-architect of the Roman Baroque, created:",
+   "options": [
+    "the dome of Florence Cathedral.",
+    "the colonnade of St Peter's Square and The Ecstasy of Saint Teresa.",
+    "The Birth of Venus.",
+    "the frescoes of the Scrovegni Chapel.",
+    "the David in the Accademia."
+   ],
+   "ans": "B",
+   "exp": "Bernini defined Baroque Rome for successive popes: the piazza's embracing colonnade (1656–67) and the Cornaro Chapel's Teresa (1645–52) in Santa Maria della Vittoria.",
+   "perm": [
+    2,
+    1,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Art · Baroque",
+   "lik": "M"
+  },
+  {
+   "n": 66,
+   "stem": "The archaeological site of Pompeii was buried — and thus preserved — by:",
+   "options": [
+    "flooding of the Tiber in antiquity.",
+    "the 1908 Messina earthquake.",
+    "medieval urban renewal.",
+    "the eruption of Vesuvius in 79 AD.",
+    "Allied bombing in 1943."
+   ],
+   "ans": "D",
+   "exp": "Pliny the Younger described the catastrophe; ash and pumice sealed the city, making it (with Herculaneum) the unmatched window on Roman daily life — a UNESCO World Heritage Site.",
+   "perm": [
+    2,
+    0,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Art · heritage",
+   "lik": "H"
+  },
+  {
+   "n": 67,
+   "stem": "Dante's Divine Comedy:",
+   "options": [
+    "runs to 100 cantos across three canticles — Inferno, Purgatorio, Paradiso — in vernacular Tuscan.",
+    "is written throughout in Latin.",
+    "was composed after the Council of Trent.",
+    "is a collection of 100 sonnets.",
+    "avoids any religious or political content."
+   ],
+   "ans": "A",
+   "exp": "Composed roughly 1308–1320 in terza rima; the choice of Florentine vernacular over Latin is why Dante is called the father of the Italian language.",
+   "perm": [
+    3,
+    2,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Letters · Dante",
+   "lik": "H"
+  },
+  {
+   "n": 68,
+   "stem": "Boccaccio's Decameron is framed as:",
+   "options": [
+    "a single narrator's deathbed confession.",
+    "a debate among seven saints.",
+    "ten young Florentines telling ten stories each over ten days while plague ravages the city.",
+    "an exchange of letters between two lovers.",
+    "a guided dream-tour of the afterlife."
+   ],
+   "ans": "C",
+   "exp": "Ten days × ten tales = one hundred novelle, set against the Black Death of 1348 — the mercantile, comic answer to Dante's sacred poem.",
+   "perm": [
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Letters · Boccaccio",
+   "lik": "H"
+  },
+  {
+   "n": 69,
+   "stem": "Petrarch, author of the Canzoniere addressed to Laura, is traditionally called:",
+   "options": [
+    "the father of scientific history.",
+    "the father of experimental medicine.",
+    "the poet of the Risorgimento.",
+    "the father of Italian opera.",
+    "the father of Humanism."
+   ],
+   "ans": "E",
+   "exp": "His recovery of classical texts and inward, self-scrutinising lyric (the sonnet form he perfected) open the Renaissance; he crowned poet-laureate in Rome in 1341.",
+   "perm": [
+    4,
+    3,
+    1,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Letters · Petrarch",
+   "lik": "M"
+  },
+  {
+   "n": 70,
+   "stem": "The Prince (1513) — which argues it is safer for a ruler to be feared than loved — was written by:",
+   "options": [
+    "Baldassare Castiglione",
+    "Niccolò Machiavelli",
+    "Thomas More",
+    "Erasmus of Rotterdam",
+    "Dante Alighieri"
+   ],
+   "ans": "B",
+   "exp": "The founding text of political realism, written after Machiavelli's exile from Florentine politics. Castiglione wrote The Book of the Courtier; More wrote Utopia.",
+   "perm": [
+    4,
+    1,
+    2,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Letters · Machiavelli",
+   "lik": "H"
+  },
+  {
+   "n": 71,
+   "stem": "Alessandro Manzoni's novel The Betrothed (I promessi sposi) is set:",
+   "options": [
+    "during the Roman Republic of 1849.",
+    "in the decades of the Risorgimento.",
+    "in Fascist-era Rome.",
+    "in seventeenth-century Lombardy, amid war, famine and the plague of Milan.",
+    "in medieval Sicily."
+   ],
+   "ans": "D",
+   "exp": "The great Italian historical novel (definitive edition 1840): two humble weavers, war and bread riots, and the 1629–31 plague whose misgovernment Manzoni also analysed in The Column of Infamy.",
+   "perm": [
+    1,
+    4,
+    0,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Letters · Manzoni",
+   "lik": "H"
+  },
+  {
+   "n": 72,
+   "stem": "The Name of the Rose (1980), a murder mystery set in a fourteenth-century Italian monastery, was written by:",
+   "options": [
+    "Umberto Eco",
+    "Primo Levi",
+    "Italo Calvino",
+    "Elsa Morante",
+    "Grazia Deledda"
+   ],
+   "ans": "A",
+   "exp": "Semiologist-turned-novelist Eco; the Franciscan detective William of Baskerville is a nod to Sherlock Holmes. Translated into dozens of languages and filmed with Sean Connery.",
+   "perm": [
+    3,
+    1,
+    0,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Letters · Eco",
+   "lik": "H"
+  },
+  {
+   "n": 73,
+   "stem": "The 1934 Nobel Prize in Literature went to the Italian dramatist of Six Characters in Search of an Author:",
+   "options": [
+    "Gabriele D'Annunzio",
+    "Eugenio Montale",
+    "Luigi Pirandello",
+    "Alberto Moravia",
+    "Dario Fo"
+   ],
+   "ans": "C",
+   "exp": "Pirandello's theatre of the unstable self. Other Italian literature Nobels: Deledda 1926, Quasimodo 1959, Montale 1975, Fo 1997 — and Gadda? No: it stops there.",
+   "perm": [
+    1,
+    2,
+    4,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Letters · Italian Nobels",
+   "lik": "M"
+  },
+  {
+   "n": 74,
+   "stem": "If This Is a Man (Se questo è un uomo), the testament of Auschwitz by a deported Jewish chemist, was written by:",
+   "options": [
+    "Cesare Pavese",
+    "Curzio Malaparte",
+    "Giorgio Bassani",
+    "Natalia Ginzburg",
+    "Primo Levi"
+   ],
+   "ans": "E",
+   "exp": "Levi, a Turin chemist, survived Auschwitz-Monowitz and wrote the survivor's classic, followed by The Truce. 'Considerate se questo è un uomo' opens the poem prefacing the book.",
+   "perm": [
+    0,
+    2,
+    3,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Letters · Levi",
+   "lik": "H"
+  },
+  {
+   "n": 75,
+   "stem": "Invisible Cities — in which Marco Polo describes impossible cities to Kublai Khan — is by:",
+   "options": [
+    "Umberto Eco",
+    "Italo Calvino",
+    "Giuseppe Tomasi di Lampedusa",
+    "Luigi Pirandello",
+    "Federigo Tozzi"
+   ],
+   "ans": "B",
+   "exp": "Calvino's 1972 fabulist catalogue of 55 cities that are all, in the end, Venice. Lampedusa's classic, for contrast, is The Leopard.",
+   "perm": [
+    1,
+    4,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Letters · Calvino",
+   "lik": "M"
+  },
+  {
+   "n": 76,
+   "stem": "The Neapolitan Novels, beginning with My Brilliant Friend, are published under the pseudonym:",
+   "options": [
+    "Oriana Fallaci",
+    "Natalia Ginzburg",
+    "Susanna Tamaro",
+    "Elena Ferrante",
+    "Dacia Maraini"
+   ],
+   "ans": "D",
+   "exp": "'Ferrante's' identity remains unknown — the celebrated case of contemporary literature's anonymity. The quartet follows Lila and Lenù from 1950s Naples onward.",
+   "perm": [
+    0,
+    3,
+    4,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Letters · contemporary",
+   "lik": "M"
+  },
+  {
+   "n": 77,
+   "stem": "Plato's allegory of the cave appears in:",
+   "options": [
+    "The Republic (Book VII).",
+    "The Symposium.",
+    "The Nicomachean Ethics.",
+    "The Phaedo.",
+    "Virgil's Aeneid."
+   ],
+   "ans": "A",
+   "exp": "Chained prisoners mistake shadows for reality until one escapes to the sun — Plato's image of education and ascent to the world of the Forms. The Ethics is Aristotle; the Aeneid is poetry, not Plato.",
+   "perm": [
+    0,
+    2,
+    3,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Ideas · Plato",
+   "lik": "H"
+  },
+  {
+   "n": 78,
+   "stem": "Galileo's Dialogue Concerning the Two Chief World Systems (1632) brought him:",
+   "options": [
+    "a papal pension and a cardinal's hat.",
+    "the abolition of the Roman Inquisition.",
+    "trial and condemnation in 1633 for defending Copernican heliocentrism.",
+    "exile to England, where the book was burned.",
+    "the discovery of Jupiter's moons."
+   ],
+   "ans": "C",
+   "exp": "Sentence: abjuration and house arrest, where he continued writing Discourses on Two New Sciences. (Jupiter's moons came from his telescope in 1610 — see the science section.) The Church rehabilitated him in 1992.",
+   "perm": [
+    4,
+    1,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Ideas · Galileo",
+   "lik": "H"
+  },
+  {
+   "n": 79,
+   "stem": "'Man is born free, and everywhere he is in chains' opens:",
+   "options": [
+    "Hobbes's Leviathan.",
+    "Locke's Two Treatises of Government.",
+    "Kant's Critique of Pure Reason.",
+    "Voltaire's Candide.",
+    "Rousseau's The Social Contract."
+   ],
+   "ans": "E",
+   "exp": "Rousseau, 1762: legitimacy flows from the general will of the people — the intellectual battery of both the French Revolution and modern democracy. Hobbes opens from the war of all against all.",
+   "perm": [
+    3,
+    1,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Ideas · Enlightenment",
+   "lik": "H"
+  },
+  {
+   "n": 80,
+   "stem": "One Hundred Years of Solitude, the masterpiece of Latin-American magical realism, is by:",
+   "options": [
+    "Jorge Luis Borges",
+    "Gabriel García Márquez",
+    "Isabel Allende",
+    "Mario Vargas Llosa",
+    "Julio Cortázar"
+   ],
+   "ans": "B",
+   "exp": "1967; the Buendía family across a century of Macondo. Nobel Prize 1982 — a Nobel-author/work pairing of exactly the kind past IMAT papers have tested.",
+   "perm": [
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Letters · world literature",
+   "lik": "M"
+  },
+  {
+   "n": 81,
+   "stem": "Guglielmo Marconi shared the 1909 Nobel Prize in Physics for:",
+   "options": [
+    "the invention of the electric battery.",
+    "the transmission of speech by telephone.",
+    "the discovery of the transistor.",
+    "wireless telegraphy — the basis of radio.",
+    "the first controlled nuclear fission."
+   ],
+   "ans": "D",
+   "exp": "Shared with Karl Ferdinand Braun. Italian Nobel-science trivia of this kind has appeared repeatedly in IMAT general knowledge.",
+   "perm": [
+    4,
+    3,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Science · Marconi",
+   "lik": "H"
+  },
+  {
+   "n": 82,
+   "stem": "Alessandro Volta (1745–1827) is celebrated for:",
+   "options": [
+    "inventing the electric battery — the 'voltaic pile' — in 1800.",
+    "discovering the planet Neptune.",
+    "the first transatlantic radio signal.",
+    "devising the periodic table.",
+    "discovering X-rays."
+   ],
+   "ans": "A",
+   "exp": "Stacks of copper and zinc in brine produced a steady current for the first time; Napoleon made him a count, and the volt carries his name.",
+   "perm": [
+    4,
+    2,
+    1,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Science · Volta",
+   "lik": "H"
+  },
+  {
+   "n": 83,
+   "stem": "Enrico Fermi's team achieved the first controlled nuclear chain reaction on 2 December 1942 at:",
+   "options": [
+    "Los Alamos.",
+    "the Oak Ridge complex.",
+    "the University of Chicago.",
+    "CERN, Geneva.",
+    "the Via Panisperna institute, Rome."
+   ],
+   "ans": "C",
+   "exp": "Chicago Pile-1 under the stands of Stagg Field — the birth of the nuclear age. Fermi had earlier led the Rome 'Via Panisperna boys' and took the 1938 Nobel (emigrating directly to the US).",
+   "perm": [
+    4,
+    3,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Science · Fermi",
+   "lik": "H"
+  },
+  {
+   "n": 84,
+   "stem": "CERN, the European laboratory that runs the Large Hadron Collider, is located near:",
+   "options": [
+    "Paris.",
+    "Vienna.",
+    "Munich.",
+    "Turin.",
+    "Geneva."
+   ],
+   "ans": "E",
+   "exp": "Founded 1954 on the Franco-Swiss border; discovered the Higgs boson (2012); and it is where Tim Berners-Lee invented the World Wide Web (1989) — three facts for the price of one.",
+   "perm": [
+    2,
+    3,
+    4,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Science · CERN",
+   "lik": "H"
+  },
+  {
+   "n": 85,
+   "stem": "With his improved telescope in 1610, Galileo discovered:",
+   "options": [
+    "the planet Neptune.",
+    "the four largest moons of Jupiter.",
+    "Halley's Comet.",
+    "the Antarctic ozone hole.",
+    "the canals of Mars."
+   ],
+   "ans": "B",
+   "exp": "Reported in Sidereus Nuncius: the Medicean stars (Io, Europa, Ganymede, Callisto), plus lunar mountains, sunspots and Venus's phases — evidence that not everything orbits Earth.",
+   "perm": [
+    1,
+    3,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Science · Galileo",
+   "lik": "H"
+  },
+  {
+   "n": 86,
+   "stem": "Avogadro's law states that equal volumes of gases at the same temperature and pressure:",
+   "options": [
+    "have equal mass.",
+    "contain equal numbers of atoms only.",
+    "must both be noble gases.",
+    "contain equal numbers of molecules.",
+    "exert no pressure on their containers."
+   ],
+   "ans": "D",
+   "exp": "Hence the mole and Avogadro's number, 6.022 × 10²³ — named in his honour long after 1811, since molecules themselves were still controversial in his day.",
+   "perm": [
+    2,
+    3,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Science · Avogadro",
+   "lik": "M"
+  },
+  {
+   "n": 87,
+   "stem": "Alexander Fleming's 1928 discovery, later mass-produced for D-Day, was:",
+   "options": [
+    "penicillin.",
+    "aspirin.",
+    "the polio vaccine.",
+    "chloroquine.",
+    "insulin."
+   ],
+   "ans": "A",
+   "exp": "The mould on a neglected staphylococcus culture plate; Florey and Chain turned it into a drug (Nobel 1945, shared three ways — Fleming alone did not 'invent antibiotics').",
+   "perm": [
+    2,
+    1,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Science · medicine",
+   "lik": "M"
+  },
+  {
+   "n": 88,
+   "stem": "The double-helix structure of DNA (1953) was chiefly worked out by:",
+   "options": [
+    "Mendel and Darwin together.",
+    "Linus Pauling working alone.",
+    "Watson and Crick, building crucially on Rosalind Franklin's X-ray data.",
+    "Chargaff and Griffith.",
+    "Hershey and Chase."
+   ],
+   "ans": "C",
+   "exp": "Franklin's 'Photo 51' from King's College London was decisive; the 1962 Nobel went to Watson, Crick and Wilkins (Franklin had died in 1958, and Nobels are not awarded posthumously).",
+   "perm": [
+    1,
+    3,
+    0,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Science · DNA",
+   "lik": "H"
+  },
+  {
+   "n": 89,
+   "stem": "The 2024 Nobel Prize in Physics was awarded to John Hopfield and Geoffrey Hinton for:",
+   "options": [
+    "the detection of gravitational waves.",
+    "the discovery of the Higgs boson.",
+    "the invention of the blue LED.",
+    "high-temperature superconductivity.",
+    "foundational discoveries in artificial neural networks and machine learning."
+   ],
+   "ans": "E",
+   "exp": "A physics Nobel for the ideas behind today's AI — followed in 2025 by Clarke, Devoret and Martinis for superconducting-quantum-circuit work (see the current-affairs section).",
+   "perm": [
+    4,
+    2,
+    1,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Science · Nobel 2024",
+   "lik": "H"
+  },
+  {
+   "n": 90,
+   "stem": "The James Webb Space Telescope, launched on 25 December 2021, observes primarily in:",
+   "options": [
+    "visible light.",
+    "the infrared.",
+    "gamma rays.",
+    "radio waves.",
+    "ultraviolet only."
+   ],
+   "ans": "B",
+   "exp": "A 6.5-metre segmented gold-coated mirror at the Sun–Earth L2 point, reading the light of the earliest galaxies red-shifted into the infrared — Hubble's deep-field successor.",
+   "perm": [
+    4,
+    3,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Science · space",
+   "lik": "M"
+  },
+  {
+   "n": 91,
+   "stem": "Following the death of Pope Francis in April 2025, the conclave of 8 May 2025 elected:",
+   "options": [
+    "Cardinal Pietro Parolin as Benedict XVIII.",
+    "Cardinal Matteo Zuppi as John Paul III.",
+    "Cardinal Luis Tagle as Pius XIII.",
+    "Cardinal Robert Francis Prevost — Leo XIV, the first American pope.",
+    "Cardinal Péter Erdő as Paul VII."
+   ],
+   "ans": "D",
+   "exp": "Leo XIV, born in Chicago in 1955, an Augustinian who spent decades in Peru: 267th pope, first from the United States, second from the Americas after Francis.",
+   "perm": [
+    4,
+    1,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Current · papacy",
+   "lik": "H"
+  },
+  {
+   "n": 92,
+   "stem": "The 2026 Winter Olympics (6–22 February 2026) were hosted by:",
+   "options": [
+    "Milan and Cortina d'Ampezzo.",
+    "Turin alone.",
+    "Oslo.",
+    "Innsbruck.",
+    "Sapporo."
+   ],
+   "ans": "A",
+   "exp": "Italy's third Winter Games after Cortina 1956 and Turin 2006; the Winter Paralympics followed 6–15 March 2026. Prime 2026-cycle GK material.",
+   "perm": [
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Current · sport 2026",
+   "lik": "H"
+  },
+  {
+   "n": 93,
+   "stem": "The 2026 FIFA World Cup — the first 48-team edition, hosted by the USA, Canada and Mexico — was won by:",
+   "options": [
+    "Argentina, beating France.",
+    "France, beating Portugal.",
+    "Spain, beating Argentina 1–0 after extra time.",
+    "Brazil, beating Germany.",
+    "Portugal, beating England."
+   ],
+   "ans": "C",
+   "exp": "19 July 2026, MetLife Stadium (New York/New Jersey): Ferran Torres scored in the 106th minute — Spain's second title after 2010, denying Argentina back-to-back crowns.",
+   "perm": [
+    4,
+    2,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Current · sport 2026",
+   "lik": "H"
+  },
+  {
+   "n": 94,
+   "stem": "After the Paris 2024 Summer Games — the city's third Olympics — the next Summer Olympics will be held in:",
+   "options": [
+    "Madrid in 2027.",
+    "Berlin in 2029.",
+    "Tokyo in 2030.",
+    "Rio de Janeiro in 2026.",
+    "Los Angeles in 2028."
+   ],
+   "ans": "E",
+   "exp": "Paris hosted in 1900, 1924 and 2024; Los Angeles follows in 2028 (its third time too) and Brisbane in 2032. The Olympics always fall in even years.",
+   "perm": [
+    2,
+    3,
+    0,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Current · sport 2024",
+   "lik": "M"
+  },
+  {
+   "n": 95,
+   "stem": "The 2025 Nobel Peace Prize was awarded to:",
+   "options": [
+    "Nihon Hidankyo, Japan's atomic-bomb survivors.",
+    "María Corina Machado, Venezuelan opposition leader.",
+    "the World Health Organization.",
+    "Volodymyr Zelensky.",
+    "the International Atomic Energy Agency."
+   ],
+   "ans": "B",
+   "exp": "'For her tireless work promoting democratic rights for the people of Venezuela' — her daughter accepted in Oslo because Machado was in hiding. (Nihon Hidankyo was the 2024 laureate.)",
+   "perm": [
+    0,
+    3,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Current · Nobel 2025",
+   "lik": "H"
+  },
+  {
+   "n": 96,
+   "stem": "The 2024 Nobel Prize in Literature was awarded to:",
+   "options": [
+    "Kazuo Ishiguro.",
+    "Jon Fosse.",
+    "Annie Ernaux.",
+    "Han Kang — the first South Korean laureate.",
+    "László Krasznahorkai."
+   ],
+   "ans": "D",
+   "exp": "Author of The Vegetarian and Human Acts. For the 2026 cycle also know the 2025 laureate: Hungary's László Krasznahorkai.",
+   "perm": [
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Current · Nobel 2024-25",
+   "lik": "H"
+  },
+  {
+   "n": 97,
+   "stem": "Following the November 2024 US election, the president inaugurated on 20 January 2025 was:",
+   "options": [
+    "Donald Trump — the 47th president, in a second, non-consecutive term.",
+    "Joe Biden, for a second term.",
+    "Kamala Harris, the first woman president.",
+    "Ron DeSantis.",
+    "Barack Obama, in an unprecedented third term."
+   ],
+   "ans": "A",
+   "exp": "Trump is both the 45th and 47th president — the second man after Grover Cleveland (1885–89, 1893–97) to serve split terms.",
+   "perm": [
+    1,
+    2,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Current · politics",
+   "lik": "H"
+  },
+  {
+   "n": 98,
+   "stem": "The Catholic Jubilee (Holy Year) that ran through 2025 under the motto 'Pilgrims of Hope' was centred on:",
+   "options": [
+    "Lourdes.",
+    "Jerusalem.",
+    "Rome.",
+    "Assisi.",
+    "Mexico City."
+   ],
+   "ans": "C",
+   "exp": "Opened by Pope Francis at St Peter's on 24 December 2024 and closed by Leo XIV on 6 January 2026. Jubilees ordinarily come every 25 years — the massive infrastructure works marked Rome's year.",
+   "perm": [
+    4,
+    1,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Current · Jubilee 2025",
+   "lik": "M"
+  },
+  {
+   "n": 99,
+   "stem": "The 2025 Nobel Prize in Physics honoured work on macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit — the foundation of:",
+   "options": [
+    "nuclear fusion reactors.",
+    "mRNA vaccines.",
+    "perovskite solar panels.",
+    "satellite navigation.",
+    "superconducting quantum computers."
+   ],
+   "ans": "E",
+   "exp": "John Clarke, Michel Devoret and John Martinis — one year after the machine-learning physics prize, the Nobel continued its tour of modern information technology.",
+   "perm": [
+    1,
+    4,
+    0,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Current · Nobel 2025",
+   "lik": "H"
+  },
+  {
+   "n": 100,
+   "stem": "The 2025 Nobel Prize in Physiology or Medicine was awarded for discoveries concerning:",
+   "options": [
+    "the CRISPR genetic scissors.",
+    "regulatory T cells and the FOXP3 gene.",
+    "messenger-RNA vaccines.",
+    "microRNAs.",
+    "the hepatitis C virus."
+   ],
+   "ans": "B",
+   "exp": "Brunkow, Ramsdell and Sakaguchi revealed how the immune system's brakes work — directly relevant to autoimmunity and transplant medicine. MicroRNAs won 2024; mRNA vaccines 2023; CRISPR (Chemistry) 2020; hepatitis C (Medicine) 2020.",
+   "perm": [
+    2,
+    0,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Current · Nobel 2025",
+   "lik": "H"
+  }
+ ]
+}

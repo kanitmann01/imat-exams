@@ -1,0 +1,1489 @@
+{
+ "schema": 1,
+ "id": "imat_mock4",
+ "title": "IMAT MOCK EXAM 4 — \"Calculation Spine\"",
+ "kind": "mock",
+ "durationSec": 6000,
+ "maxTenths": 900,
+ "targetScore": 43,
+ "sections": [
+  {
+   "code": "A",
+   "from": 1,
+   "to": 9,
+   "label": "Section A - Logical Reasoning & Reading",
+   "short": "Reasoning"
+  },
+  {
+   "code": "B",
+   "from": 10,
+   "to": 32,
+   "label": "Section B - Biology",
+   "short": "Biology"
+  },
+  {
+   "code": "C",
+   "from": 33,
+   "to": 47,
+   "label": "Section C - Chemistry",
+   "short": "Chemistry"
+  },
+  {
+   "code": "D",
+   "from": 48,
+   "to": 54,
+   "label": "Section D - Mathematics",
+   "short": "Mathematics"
+  },
+  {
+   "code": "E",
+   "from": 55,
+   "to": 60,
+   "label": "Section E - Physics",
+   "short": "Physics"
+  }
+ ],
+ "bankVersion": "b4b3f5360",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "\"Osmosis is the net movement of water across a selectively permeable membrane from a region of lower solute concentration to a region of higher solute concentration. In animal cells, an extracellular solution that is more concentrated than the cytoplasm causes the cell to lose water and shrink; a more dilute solution causes water to enter and the cell to swell.\"\n\nWhich is consistent with the passage?",
+   "options": [
+    "In a dilute external solution, an animal cell shrinks.",
+    "Water moves from high to low solute concentration.",
+    "A concentrated external solution causes animal cells to swell.",
+    "Osmosis requires ATP.",
+    "Water moves toward the higher-solute side."
+   ],
+   "ans": "E",
+   "exp": "Water moves toward the region of higher solute concentration. A, C reverse the effect; B reverses direction; D is wrong (osmosis is passive).",
+   "perm": [
+    4,
+    0,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading",
+   "lik": "H"
+  },
+  {
+   "n": 2,
+   "stem": "\"In genetics, a test cross is used to determine whether an individual displaying a dominant phenotype is homozygous or heterozygous. The individual is crossed with a homozygous recessive partner. If any offspring show the recessive phenotype, the tested individual must be heterozygous.\"\n\nWhich is the strongest inference?",
+   "options": [
+    "A test cross always produces a 3:1 ratio.",
+    "If all offspring show the dominant phenotype, the tested individual is definitely homozygous recessive.",
+    "Observation of any recessive offspring proves the tested individual is heterozygous.",
+    "Test crosses can reveal the genotype only of recessive individuals.",
+    "Test crosses require a homozygous dominant partner."
+   ],
+   "ans": "C",
+   "exp": "Recessive offspring ⇒ the dominant parent contributed a recessive allele ⇒ heterozygous.",
+   "perm": [
+    2,
+    3,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading",
+   "lik": "H"
+  },
+  {
+   "n": 3,
+   "stem": "(GK) The Italian chemist who proposed a number equal to the number of particles in one mole (~6.022 × 10²³), honoured in the constant's name though he did not measure it, is:",
+   "options": [
+    "Mario Molina",
+    "Amedeo Avogadro",
+    "Stanislao Cannizzaro",
+    "Enrico Fermi",
+    "Giulio Natta"
+   ],
+   "ans": "B",
+   "exp": "Avogadro's hypothesis (1811) underpins the mole concept.",
+   "perm": [
+    2,
+    0,
+    4,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "GK",
+   "lik": "L"
+  },
+  {
+   "n": 4,
+   "stem": "Six boxes are stacked. Box R is above S but below T. Box U is immediately below S. Box V is at the very top. The order from top to bottom could be:",
+   "options": [
+    "V, T, R, S, U, (and W)",
+    "T, V, R, S, U, W",
+    "V, R, T, S, U, W",
+    "V, T, S, R, U, W",
+    "V, U, S, R, T, W"
+   ],
+   "ans": "A",
+   "exp": "Top→bottom must be: V (top) … T > R > S > U … with the sixth box (W) at the bottom. Only A satisfies V top, T > R > S > U, then W.",
+   "perm": [
+    0,
+    3,
+    4,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Constraint logic",
+   "lik": "H"
+  },
+  {
+   "n": 5,
+   "stem": "All squares are rectangles. Some rectangles are rhombi. Therefore:",
+   "options": [
+    "All squares are rhombi.",
+    "Some squares are rhombi.",
+    "No square is a rhombus.",
+    "Some rectangles are squares.",
+    "No valid conclusion about squares being rhombi follows."
+   ],
+   "ans": "E",
+   "exp": "The premises do not force a relationship between \"square\" and \"rhombus.\" (In fact a square is a rhombus by definition, but that's an external fact, not derived from the premises.)",
+   "perm": [
+    0,
+    2,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Formal logic",
+   "lik": "H"
+  },
+  {
+   "n": 6,
+   "stem": "If 5 machines make 5 widgets in 5 minutes, how long does it take 100 machines to make 100 widgets?",
+   "options": [
+    "1 minute",
+    "5 minutes",
+    "20 minutes",
+    "100 minutes",
+    "500 minutes"
+   ],
+   "ans": "B",
+   "exp": "Each machine makes 1 widget in 5 min; 100 machines make 100 widgets in the same 5 min. (Classic trick — people intuit 100.)",
+   "perm": [
+    0,
+    2,
+    4,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Numerical reasoning",
+   "lik": "M"
+  },
+  {
+   "n": 7,
+   "stem": "What is the angle between the hands of a clock at 12:30?",
+   "options": [
+    "0°",
+    "15°",
+    "30°",
+    "165°",
+    "180°"
+   ],
+   "ans": "D",
+   "exp": "Minute hand at 30 min = 180°. Hour hand at 12:30 = 0 + 30/60 × 30° = 15°. Difference = 180 − 15 = 165°.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Clock",
+   "lik": "M"
+  },
+  {
+   "n": 8,
+   "stem": "Pointing to a photograph, Maria says, \"Her mother is my mother's only daughter.\" How is the person in the photograph related to Maria?",
+   "options": [
+    "Maria herself",
+    "Maria's daughter",
+    "Maria's sister",
+    "Maria's mother",
+    "Maria's aunt"
+   ],
+   "ans": "B",
+   "exp": "\"My mother's only daughter\" = Maria (since no other daughter). So the photographed person's mother is Maria ⇒ the person is Maria's daughter.",
+   "perm": [
+    1,
+    3,
+    0,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Relational logic",
+   "lik": "M"
+  },
+  {
+   "n": 9,
+   "stem": "A number is doubled, then 8 is added; the result is 20. The number is:",
+   "options": [
+    "4",
+    "6",
+    "8",
+    "10",
+    "12"
+   ],
+   "ans": "B",
+   "exp": "2x + 8 = 20 ⇒ 2x = 12 ⇒ x = 6.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Algebra/numerical",
+   "lik": "M"
+  },
+  {
+   "n": 10,
+   "stem": "The mitochondrial matrix is the site of:",
+   "options": [
+    "Glycolysis",
+    "The Krebs cycle",
+    "The electron transport chain",
+    "Lactate fermentation",
+    "The light reactions of photosynthesis"
+   ],
+   "ans": "B",
+   "exp": "Krebs cycle enzymes are in the matrix; ETC is in the inner membrane.",
+   "perm": [
+    4,
+    0,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 11,
+   "stem": "The net reaction of cellular respiration is:",
+   "options": [
+    "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy",
+    "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+    "C₆H₁₂O₆ → 2 lactate",
+    "C₆H₁₂O₆ → 2 ethanol + 2CO₂",
+    "6O₂ + 6CO₂ → C₆H₁₂O₆"
+   ],
+   "ans": "A",
+   "exp": "Glucose + O₂ → CO₂ + H₂O + energy. (B is photosynthesis.)",
+   "perm": [
+    0,
+    3,
+    1,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 12,
+   "stem": "Which gas is produced by muscle cells during anaerobic respiration in yeast but NOT in humans?",
+   "options": [
+    "O₂",
+    "CO₂",
+    "N₂",
+    "CH₄",
+    "H₂"
+   ],
+   "ans": "B",
+   "exp": "Yeast fermentation: pyruvate → ethanol + CO₂. Human muscle fermentation: pyruvate → lactate (no CO₂).",
+   "perm": [
+    4,
+    2,
+    0,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 13,
+   "stem": "The inner mitochondrial membrane is folded into:",
+   "options": [
+    "Thylakoids",
+    "Cristae",
+    "Cisternae",
+    "Microvilli",
+    "Villi"
+   ],
+   "ans": "B",
+   "exp": "Cristae increase surface area for the ETC and ATP synthase.",
+   "perm": [
+    0,
+    4,
+    1,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell organelles",
+   "lik": "H"
+  },
+  {
+   "n": 14,
+   "stem": "The Calvin cycle of photosynthesis occurs in the:",
+   "options": [
+    "Thylakoid membrane",
+    "Stroma",
+    "Matrix",
+    "Cytosol",
+    "Nucleus"
+   ],
+   "ans": "B",
+   "exp": "The light-independent reactions (Calvin cycle) occur in the stroma.",
+   "perm": [
+    2,
+    3,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bioenergetics",
+   "lik": "M"
+  },
+  {
+   "n": 15,
+   "stem": "Which is the correct site of the light-dependent reactions?",
+   "options": [
+    "Stroma",
+    "Thylakoid membrane",
+    "Matrix",
+    "Cytosol",
+    "Cell wall"
+   ],
+   "ans": "B",
+   "exp": "Light reactions occur on the thylakoid membranes (photosystems, ETC, ATP synthase).",
+   "perm": [
+    1,
+    3,
+    4,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bioenergetics",
+   "lik": "M"
+  },
+  {
+   "n": 16,
+   "stem": "A solution of pH 2 is how many times more acidic than a solution of pH 5?",
+   "options": [
+    "3 times",
+    "10 times",
+    "30 times",
+    "100 times",
+    "1000 times"
+   ],
+   "ans": "E",
+   "exp": "pH difference 3 ⇒ [H⁺] ratio = 10³ = 1000. (Note: this is really chemistry; appears as biology-flavoured.)",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases/biochemistry",
+   "lik": "H"
+  },
+  {
+   "n": 17,
+   "stem": "The four levels of protein structure in order are:",
+   "options": [
+    "Primary, secondary, tertiary, quaternary",
+    "Secondary, primary, tertiary, quaternary",
+    "Primary, tertiary, secondary, quaternary",
+    "Quaternary, tertiary, secondary, primary",
+    "Primary, secondary, quaternary, tertiary"
+   ],
+   "ans": "A",
+   "exp": "Primary → secondary → tertiary → quaternary.",
+   "perm": [
+    2,
+    3,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biological molecules",
+   "lik": "H"
+  },
+  {
+   "n": 18,
+   "stem": "Which monosaccharide is the primary energy source for cells and the product of dietary carbohydrate digestion?",
+   "options": [
+    "Fructose",
+    "Galactose",
+    "Glucose",
+    "Sucrose",
+    "Lactose"
+   ],
+   "ans": "C",
+   "exp": "Glucose is the central fuel molecule. (Sucrose, lactose are disaccharides.)",
+   "perm": [
+    3,
+    0,
+    4,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biological molecules",
+   "lik": "H"
+  },
+  {
+   "n": 19,
+   "stem": "Which of the following is a disaccharide?",
+   "options": [
+    "Glucose",
+    "Fructose",
+    "Sucrose",
+    "Cellulose",
+    "Glycogen"
+   ],
+   "ans": "C",
+   "exp": "Sucrose = glucose + fructose (a disaccharide). Cellulose and glycogen are polysaccharides.",
+   "perm": [
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biological molecules",
+   "lik": "H"
+  },
+  {
+   "n": 20,
+   "stem": "Lipids are largely insoluble in water because they are:",
+   "options": [
+    "Charged",
+    "Non-polar (hydrophobic)",
+    "Highly polar",
+    "Always small molecules",
+    "Composed only of amino acids"
+   ],
+   "ans": "B",
+   "exp": "Lipids' long non-polar hydrocarbon chains make them hydrophobic.",
+   "perm": [
+    2,
+    4,
+    1,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biological molecules",
+   "lik": "H"
+  },
+  {
+   "n": 21,
+   "stem": "DNA differs from RNA in that DNA:",
+   "options": [
+    "Is usually single-stranded",
+    "Contains the sugar ribose",
+    "Contains thymine instead of uracil",
+    "Is found only in the cytoplasm",
+    "Has fewer nucleotide types"
+   ],
+   "ans": "C",
+   "exp": "DNA uses deoxyribose and thymine; RNA uses ribose and uracil. DNA is double-stranded; RNA is usually single-stranded.",
+   "perm": [
+    4,
+    0,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Nucleic acids",
+   "lik": "H"
+  },
+  {
+   "n": 22,
+   "stem": "A population is in Hardy–Weinberg equilibrium for a locus with two alleles A (frequency p) and a (frequency q). The frequency of the heterozygote Aa is:",
+   "options": [
+    "p²",
+    "q²",
+    "2pq",
+    "p + q",
+    "1"
+   ],
+   "ans": "C",
+   "exp": "Heterozygote frequency = 2pq.",
+   "perm": [
+    2,
+    1,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "H"
+  },
+  {
+   "n": 23,
+   "stem": "ABO blood groups are an example of:",
+   "options": [
+    "Sex-linked inheritance",
+    "Codominance (and multiple alleles)",
+    "Mitochondrial inheritance",
+    "Polygenic inheritance",
+    "X-inactivation"
+   ],
+   "ans": "B",
+   "exp": "A and B alleles are codominant; both dominant to O.",
+   "perm": [
+    0,
+    2,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "H"
+  },
+  {
+   "n": 24,
+   "stem": "In humans, the normal diploid number of chromosomes is:",
+   "options": [
+    "23",
+    "44",
+    "46",
+    "48",
+    "92"
+   ],
+   "ans": "C",
+   "exp": "2n = 46 (23 pairs).",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "M"
+  },
+  {
+   "n": 25,
+   "stem": "The cell-cycle phase in which DNA is replicated is:",
+   "options": [
+    "G1",
+    "S phase",
+    "G2",
+    "M phase",
+    "Cytokinesis"
+   ],
+   "ans": "B",
+   "exp": "DNA synthesis occurs in S phase.",
+   "perm": [
+    4,
+    0,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell cycle",
+   "lik": "H"
+  },
+  {
+   "n": 26,
+   "stem": "Which vessels have thick muscular walls and carry blood away from the heart under high pressure?",
+   "options": [
+    "Veins",
+    "Arteries",
+    "Capillaries",
+    "Venules",
+    "Lymph vessels"
+   ],
+   "ans": "B",
+   "exp": "Arteries have thick elastic/muscular walls.",
+   "perm": [
+    4,
+    2,
+    0,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Circulatory system",
+   "lik": "H"
+  },
+  {
+   "n": 27,
+   "stem": "The exchange of O₂ and CO₂ between blood and air occurs by:",
+   "options": [
+    "Active transport",
+    "Diffusion (passive)",
+    "Osmosis",
+    "Phagocytosis",
+    "Exocytosis"
+   ],
+   "ans": "B",
+   "exp": "Gas exchange is by passive diffusion down partial-pressure gradients.",
+   "perm": [
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiratory system",
+   "lik": "H"
+  },
+  {
+   "n": 28,
+   "stem": "The hormone secreted by the adrenal medulla in the \"fight or flight\" response is:",
+   "options": [
+    "Insulin",
+    "Adrenaline (epinephrine)",
+    "Cortisol",
+    "Thyroxine",
+    "Oestrogen"
+   ],
+   "ans": "B",
+   "exp": "Adrenaline raises heart rate, blood glucose, etc.",
+   "perm": [
+    0,
+    1,
+    3,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Endocrine system",
+   "lik": "H"
+  },
+  {
+   "n": 29,
+   "stem": "The longest bone in the human body is the:",
+   "options": [
+    "Tibia",
+    "Femur",
+    "Humerus",
+    "Spine",
+    "Skull"
+   ],
+   "ans": "B",
+   "exp": "The femur is the longest and strongest bone.",
+   "perm": [
+    3,
+    4,
+    2,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Anatomy",
+   "lik": "M"
+  },
+  {
+   "n": 30,
+   "stem": "Smooth muscle is characterised by:",
+   "options": [
+    "Striation and voluntary control",
+    "Lack of striation and involuntary control",
+    "Branched cells with intercalated discs",
+    "Multinucleation",
+    "Presence in the heart only"
+   ],
+   "ans": "B",
+   "exp": "Smooth muscle is non-striated, involuntary, spindle-shaped cells.",
+   "perm": [
+    1,
+    0,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Histology/muscle",
+   "lik": "H"
+  },
+  {
+   "n": 31,
+   "stem": "The organelle responsible for ATP production in animal cells is the:",
+   "options": [
+    "Chloroplast",
+    "Mitochondrion",
+    "Nucleus",
+    "Ribosome",
+    "Lysosome"
+   ],
+   "ans": "B",
+   "exp": "Mitochondria are the site of oxidative phosphorylation.",
+   "perm": [
+    0,
+    3,
+    2,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell organelles",
+   "lik": "H"
+  },
+  {
+   "n": 32,
+   "stem": "Which is the correct sequence of blood flow through the heart, starting from the body?",
+   "options": [
+    "Vena cava → right atrium → right ventricle → pulmonary artery → lungs → pulmonary vein → left atrium → left ventricle → aorta",
+    "Vena cava → left atrium → left ventricle → aorta",
+    "Aorta → right atrium → right ventricle → pulmonary vein",
+    "Pulmonary vein → right atrium → right ventricle → pulmonary artery",
+    "Right atrium → left atrium → right ventricle → left ventricle"
+   ],
+   "ans": "A",
+   "exp": "Standard pathway: body → RA → RV → pulmonary artery → lungs → pulmonary vein → LA → LV → aorta → body.",
+   "perm": [
+    4,
+    3,
+    0,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Circulatory system",
+   "lik": "H"
+  },
+  {
+   "n": 33,
+   "stem": "Calculate the number of moles in 22 g of CO₂. (C = 12, O = 16.)",
+   "options": [
+    "0.25",
+    "0.5",
+    "1",
+    "2",
+    "22"
+   ],
+   "ans": "B",
+   "exp": "Molar mass CO₂ = 44 g/mol; n = 22/44 = 0.5 mol.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Mole",
+   "lik": "H"
+  },
+  {
+   "n": 34,
+   "stem": "What volume does 0.25 mol of an ideal gas occupy at STP (Vm = 22.4 L/mol)?",
+   "options": [
+    "2.8 L",
+    "5.6 L",
+    "11.2 L",
+    "22.4 L",
+    "44.8 L"
+   ],
+   "ans": "B",
+   "exp": "V = n × Vm = 0.25 × 22.4 = 5.6 L.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Gas laws/mole",
+   "lik": "H"
+  },
+  {
+   "n": 35,
+   "stem": "How many atoms are in 1.5 mol of He?",
+   "options": [
+    "9.03 × 10²³",
+    "6.02 × 10²³",
+    "3.01 × 10²³",
+    "1.50 × 10²³",
+    "1.20 × 10²⁴"
+   ],
+   "ans": "A",
+   "exp": "1.5 × 6.022 × 10²³ = 9.03 × 10²³. (He is monatomic.)",
+   "perm": [
+    3,
+    2,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Mole",
+   "lik": "H"
+  },
+  {
+   "n": 36,
+   "stem": "What is the molarity of a solution made by dissolving 5.85 g NaCl (molar mass 58.5) in water to make 500 mL?",
+   "options": [
+    "0.1 M",
+    "0.2 M",
+    "0.5 M",
+    "1.0 M",
+    "2.0 M"
+   ],
+   "ans": "B",
+   "exp": "n = 5.85/58.5 = 0.1 mol; M = 0.1/0.5 = 0.2 M.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Solutions/mole",
+   "lik": "H"
+  },
+  {
+   "n": 37,
+   "stem": "The oxidation number of Cr in Cr₂O₇²⁻ is:",
+   "options": [
+    "+3",
+    "+6",
+    "+7",
+    "−2",
+    "+12"
+   ],
+   "ans": "B",
+   "exp": "2Cr + 7(−2) = −2 ⇒ 2Cr = 12 ⇒ Cr = +6.",
+   "perm": [
+    0,
+    4,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Redox",
+   "lik": "H"
+  },
+  {
+   "n": 38,
+   "stem": "Identify the oxidising agent in: CuO + H₂ → Cu + H₂O.",
+   "options": [
+    "CuO (it is reduced)",
+    "H₂ (it is oxidised)",
+    "Cu",
+    "H₂O",
+    "None"
+   ],
+   "ans": "A",
+   "exp": "Cu²⁺ (in CuO) gains electrons → Cu; the species reduced is the oxidiser.",
+   "perm": [
+    1,
+    0,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Redox",
+   "lik": "H"
+  },
+  {
+   "n": 39,
+   "stem": "Calculate the pH of a 0.05 M solution of a strong base NaOH (assume full dissociation, 25 °C).",
+   "options": [
+    "1.3",
+    "7",
+    "12.7",
+    "13",
+    "14"
+   ],
+   "ans": "C",
+   "exp": "[OH⁻] = 0.05; pOH = −log(0.05) = 1.30; pH = 14 − 1.30 = 12.70.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 40,
+   "stem": "The conjugate base of H₂O is:",
+   "options": [
+    "H₃O⁺",
+    "OH⁻",
+    "O₂",
+    "H₂",
+    "H⁺"
+   ],
+   "ans": "B",
+   "exp": "Water donates a proton → OH⁻ (its conjugate base).",
+   "perm": [
+    2,
+    0,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 41,
+   "stem": "Which has the greatest first ionisation energy?",
+   "options": [
+    "Na",
+    "Mg",
+    "Al",
+    "Ar",
+    "Cl"
+   ],
+   "ans": "D",
+   "exp": "Noble gas Ar has the highest first ionisation energy in Period 3.",
+   "perm": [
+    2,
+    0,
+    4,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Periodic table",
+   "lik": "M"
+  },
+  {
+   "n": 42,
+   "stem": "Which molecule has a linear geometry?",
+   "options": [
+    "H₂O",
+    "NH₃",
+    "CO₂",
+    "CH₄",
+    "SO₂"
+   ],
+   "ans": "C",
+   "exp": "CO₂ is O=C=O, linear (two bonding pairs, no lone pairs on C).",
+   "perm": [
+    2,
+    3,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bonding/VSEPR",
+   "lik": "H"
+  },
+  {
+   "n": 43,
+   "stem": "Which intermolecular force is strongest?",
+   "options": [
+    "London dispersion",
+    "Dipole–dipole",
+    "Hydrogen bonding",
+    "Van der Waals (general)",
+    "Covalent bonding (intramolecular)"
+   ],
+   "ans": "C",
+   "exp": "Hydrogen bonding is the strongest intermolecular force listed (covalent is intramolecular, not intermolecular).",
+   "perm": [
+    1,
+    4,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bonding",
+   "lik": "M"
+  },
+  {
+   "n": 44,
+   "stem": "Increasing pressure on a gas at constant temperature will (Boyle's law):",
+   "options": [
+    "Increase its volume",
+    "Decrease its volume",
+    "Increase its temperature",
+    "Decrease its moles",
+    "Have no effect"
+   ],
+   "ans": "B",
+   "exp": "P ∝ 1/V ⇒ higher P ⇒ lower V.",
+   "perm": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Gas laws",
+   "lik": "H"
+  },
+  {
+   "n": 45,
+   "stem": "The structural formula CH₃–CH₂–OH represents:",
+   "options": [
+    "Methanol",
+    "Ethanol",
+    "Ethanoic acid",
+    "Propanol",
+    "Diethyl ether"
+   ],
+   "ans": "B",
+   "exp": "Two carbons + OH ⇒ ethanol.",
+   "perm": [
+    1,
+    0,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic",
+   "lik": "H"
+  },
+  {
+   "n": 46,
+   "stem": "In the reaction: AgNO₃ + NaCl → AgCl + NaNO₃, the precipitate is:",
+   "options": [
+    "AgNO₃",
+    "NaCl",
+    "AgCl (insoluble)",
+    "NaNO₃",
+    "None — no precipitate forms"
+   ],
+   "ans": "C",
+   "exp": "AgCl is a white insoluble precipitate.",
+   "perm": [
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reactions",
+   "lik": "M"
+  },
+  {
+   "n": 47,
+   "stem": "For a reaction at equilibrium, adding a catalyst will:",
+   "options": [
+    "Shift equilibrium toward products",
+    "Shift equilibrium toward reactants",
+    "Increase the rate of both forward and reverse equally; equilibrium position unchanged",
+    "Decrease K_eq",
+    "Stop the reaction"
+   ],
+   "ans": "C",
+   "exp": "Catalysts speed both directions equally; K_eq and position unchanged.",
+   "perm": [
+    4,
+    1,
+    0,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Equilibrium/kinetics",
+   "lik": "H"
+  },
+  {
+   "n": 48,
+   "stem": "Solve: 2x² − 8 = 0.",
+   "options": [
+    "x = ±2",
+    "x = ±4",
+    "x = 2 only",
+    "x = 4 only",
+    "No real solution"
+   ],
+   "ans": "A",
+   "exp": "2x² = 8 ⇒ x² = 4 ⇒ x = ±2.",
+   "perm": [
+    1,
+    2,
+    0,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Algebra",
+   "lik": "H"
+  },
+  {
+   "n": 49,
+   "stem": "Solve: |x − 3| = 5.",
+   "options": [
+    "x = 8 only",
+    "x = −2 only",
+    "x = 8 or x = −2",
+    "x = 2",
+    "x = 5"
+   ],
+   "ans": "C",
+   "exp": "x − 3 = 5 ⇒ x = 8; x − 3 = −5 ⇒ x = −2.",
+   "perm": [
+    4,
+    1,
+    0,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Algebra/absolute",
+   "lik": "M"
+  },
+  {
+   "n": 50,
+   "stem": "Solve: log₂(x) + log₂(x − 3) = 2 (x > 3).",
+   "options": [
+    "x = 4",
+    "x = −1",
+    "x = 1",
+    "x = 3",
+    "x = 8"
+   ],
+   "ans": "A",
+   "exp": "log₂[x(x − 3)] = 2 ⇒ x(x − 3) = 4 ⇒ x² − 3x − 4 = 0 ⇒ (x−4)(x+1) = 0. With x > 3 ⇒ x = 4.",
+   "perm": [
+    3,
+    0,
+    4,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logs",
+   "lik": "M"
+  },
+  {
+   "n": 51,
+   "stem": "Solve the inequality: x² − 4 < 0.",
+   "options": [
+    "x < −2",
+    "x > 2",
+    "−2 < x < 2",
+    "x < 2",
+    "x ≠ 2"
+   ],
+   "ans": "C",
+   "exp": "x² < 4 ⇒ −2 < x < 2.",
+   "perm": [
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Inequalities",
+   "lik": "H"
+  },
+  {
+   "n": 52,
+   "stem": "A right circular cylinder has radius 3 and height 10. What is its volume? (Use π = 3.14.)",
+   "options": [
+    "30",
+    "94.2",
+    "282.6",
+    "314",
+    "942"
+   ],
+   "ans": "C",
+   "exp": "V = πr²h = 3.14 × 9 × 10 = 282.6.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "general",
+   "lik": "H"
+  },
+  {
+   "n": 53,
+   "stem": "tan 45° = ?",
+   "options": [
+    "0",
+    "1/2",
+    "1",
+    "√3",
+    "√3/3"
+   ],
+   "ans": "C",
+   "exp": "tan 45° = 1.",
+   "perm": [
+    2,
+    3,
+    0,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Trigonometry",
+   "lik": "M"
+  },
+  {
+   "n": 54,
+   "stem": "A die is rolled once. What is the probability of an even number greater than 2?",
+   "options": [
+    "1/6",
+    "1/3",
+    "1/2",
+    "2/3",
+    "5/6"
+   ],
+   "ans": "B",
+   "exp": "Favourable: {4, 6} ⇒ 2/6 = 1/3.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Probability",
+   "lik": "M"
+  },
+  {
+   "n": 55,
+   "stem": "A car accelerates from 5 m/s to 25 m/s in 10 s. What is its acceleration?",
+   "options": [
+    "1 m/s²",
+    "2 m/s²",
+    "5 m/s²",
+    "20 m/s²",
+    "25 m/s²"
+   ],
+   "ans": "B",
+   "exp": "a = (25 − 5)/10 = 2 m/s².",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Kinematics",
+   "lik": "H"
+  },
+  {
+   "n": 56,
+   "stem": "A 12 V battery drives a current through a 4 Ω resistor in series with a 2 Ω resistor. What is the current?",
+   "options": [
+    "1 A",
+    "2 A",
+    "3 A",
+    "6 A",
+    "12 A"
+   ],
+   "ans": "B",
+   "exp": "R_total = 6 Ω; I = V/R = 12/6 = 2 A.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Electricity",
+   "lik": "H"
+  },
+  {
+   "n": 57,
+   "stem": "A 3 A current flows for 2 minutes. What total charge passes a point?",
+   "options": [
+    "6 C",
+    "60 C",
+    "180 C",
+    "360 C",
+    "600 C"
+   ],
+   "ans": "D",
+   "exp": "t = 120 s; Q = It = 3 × 120 = 360 C.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Electricity",
+   "lik": "H"
+  },
+  {
+   "n": 58,
+   "stem": "A 2 kg object moving at 3 m/s collides with a stationary 1 kg object and they stick together. What is their common velocity?",
+   "options": [
+    "1 m/s",
+    "2 m/s",
+    "3 m/s",
+    "4 m/s",
+    "6 m/s"
+   ],
+   "ans": "B",
+   "exp": "Conservation of momentum: (2)(3) + 0 = (2+1)v ⇒ v = 6/3 = 2 m/s.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Dynamics/momentum",
+   "lik": "H"
+  },
+  {
+   "n": 59,
+   "stem": "A 4 kg object is dropped (from rest). Ignoring air resistance, what is its velocity after 3 s? (g = 9.8 m/s².)",
+   "options": [
+    "9.8 m/s",
+    "19.6 m/s",
+    "29.4 m/s",
+    "39.2 m/s",
+    "88.2 m/s"
+   ],
+   "ans": "C",
+   "exp": "v = gt = 9.8 × 3 = 29.4 m/s.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Kinematics/free fall",
+   "lik": "H"
+  },
+  {
+   "n": 60,
+   "stem": "A wave has frequency 50 Hz and wavelength 4 m. What is its speed?",
+   "options": [
+    "12.5 m/s",
+    "50 m/s",
+    "100 m/s",
+    "200 m/s",
+    "400 m/s"
+   ],
+   "ans": "D",
+   "exp": "v = fλ = 50 × 4 = 200 m/s.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Waves",
+   "lik": "M"
+  }
+ ]
+}

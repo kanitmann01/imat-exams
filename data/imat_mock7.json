@@ -1,0 +1,1489 @@
+{
+ "schema": 1,
+ "id": "imat_mock7",
+ "title": "IMAT MOCK EXAM 7 — \"The Real Thing\"",
+ "kind": "mock",
+ "durationSec": 6000,
+ "maxTenths": 900,
+ "targetScore": 38,
+ "sections": [
+  {
+   "code": "A",
+   "from": 1,
+   "to": 9,
+   "label": "Section A - Logical Reasoning & Reading",
+   "short": "Reasoning"
+  },
+  {
+   "code": "B",
+   "from": 10,
+   "to": 32,
+   "label": "Section B - Biology",
+   "short": "Biology"
+  },
+  {
+   "code": "C",
+   "from": 33,
+   "to": 47,
+   "label": "Section C - Chemistry",
+   "short": "Chemistry"
+  },
+  {
+   "code": "D",
+   "from": 48,
+   "to": 54,
+   "label": "Section D - Mathematics",
+   "short": "Mathematics"
+  },
+  {
+   "code": "E",
+   "from": 55,
+   "to": 60,
+   "label": "Section E - Physics",
+   "short": "Physics"
+  }
+ ],
+ "bankVersion": "bbc8d653c",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "\"Resistance to antibiotics commonly arises when random mutations reduce a bacterium's sensitivity to a drug. Under antibiotic treatment, resistant cells survive while their susceptible competitors are killed, so resistant strains spread rapidly. Resistance genes can also move between bacterial species on plasmids. Long-term studies of sites where antibiotic use was halted years ago show that resistant strains sometimes remain common for a very long time, apparently because the fitness cost of resistance was offset by compensatory mutations.\"\n\nWhich statement is most strongly supported by the passage?",
+   "options": [
+    "Antibiotics deliberately induce resistance mutations in bacteria.",
+    "Resistant bacteria are always fitter than susceptible ones.",
+    "Plasmids are a kind of virus.",
+    "Stopping antibiotic use does not guarantee that resistance will disappear.",
+    "Resistance genes cannot transfer between species."
+   ],
+   "ans": "D",
+   "exp": "The closing sentences state resistance can persist after use stops. A contradicts \"random mutations\"; B contradicts the fitness-cost remark; C is unsupported (and false in fact); E contradicts the plasmid transfer.",
+   "perm": [
+    3,
+    1,
+    0,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading comprehension",
+   "lik": "H"
+  },
+  {
+   "n": 2,
+   "stem": "A randomised trial reports that patients given drug X recovered in a median of 5 days versus 7 days with placebo, recovery being recorded by patient self-report. The authors conclude X speeds recovery.\n\nWhich of the following, if true, most weakens the authors' conclusion?",
+   "options": [
+    "A few patients in each arm dropped out before day 7.",
+    "The trial ran in two countries at once.",
+    "Drug X is intensely bitter and clearly distinguishable from the tasteless placebo, so patients knew which arm they were in.",
+    "The placebo tablets were white and the X tablets were also white.",
+    "The trial lasted six months in total."
+   ],
+   "ans": "C",
+   "exp": "If the blind is broken by taste, expectation can drive self-reported recovery, an alternative explanation for the whole effect. D would preserve blinding; A and B affect both arms symmetrically.",
+   "perm": [
+    2,
+    3,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Critical reasoning",
+   "lik": "H"
+  },
+  {
+   "n": 3,
+   "stem": "(General knowledge) The 2025 G7 summit was hosted by:",
+   "options": [
+    "France",
+    "Canada",
+    "Italy",
+    "Japan",
+    "the United Kingdom"
+   ],
+   "ans": "B",
+   "exp": "The 2025 G7 summit met in Kananaskis, Canada (Italy held the 2024 presidency in Apulia).",
+   "perm": [
+    1,
+    2,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "GK",
+   "lik": "L"
+  },
+  {
+   "n": 4,
+   "stem": "A clinic must schedule three locums, X, Y and Z, one for each of Monday, Tuesday and Wednesday. X must work earlier in the week than Z. Y cannot work on Tuesday.\n\nWhich of the following must be true?",
+   "options": [
+    "X works on Monday.",
+    "Y works on Monday.",
+    "Z works on Wednesday.",
+    "X does not work on Wednesday.",
+    "Y works on Wednesday."
+   ],
+   "ans": "D",
+   "exp": "Only two schedules satisfy all constraints: (X Mon, Z Tue, Y Wed) and (Y Mon, X Tue, Z Wed). In both, X is before Wednesday; every other option fails in one of the two schedules.",
+   "perm": [
+    4,
+    3,
+    2,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Constraint logic",
+   "lik": "H"
+  },
+  {
+   "n": 5,
+   "stem": "A chemical test turns blue if and only if protein X is present in a sample. A particular sample did not turn the test blue.\n\nWhich conclusion is valid?",
+   "options": [
+    "The sample contains protein X.",
+    "The test must have been performed incorrectly.",
+    "Protein X turns the test red.",
+    "The sample contains some other protein in quantity.",
+    "The sample does not contain protein X."
+   ],
+   "ans": "E",
+   "exp": "\"Blue if and only if X present\" makes blue a necessary and sufficient marker of X; no blue, therefore no X. (With a one-way \"only if\" this would fail; the iff is given.)",
+   "perm": [
+    4,
+    1,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Formal logic",
+   "lik": "H"
+  },
+  {
+   "n": 6,
+   "stem": "A clock reads 9:18. What is the angle between the hour hand and the minute hand?",
+   "options": [
+    "144°",
+    "162°",
+    "171°",
+    "174°",
+    "180°"
+   ],
+   "ans": "C",
+   "exp": "Minute hand: 18 × 6° = 108°. Hour hand: 9 × 30° + 18 × 0.5° = 270° + 9° = 279°. Difference = 279° − 108° = 171°. (B is the trap for leaving the hour hand fixed at 9: 270 − 108.)",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Clock angles",
+   "lik": "H"
+  },
+  {
+   "n": 7,
+   "stem": "Of 1,000 people screened, 100 have the disease. The test is positive in 90 of the 100 diseased people, and also positive in 180 of the 900 healthy people.\n\nWhat fraction of all positive results are false positives?",
+   "options": [
+    "2/3",
+    "1/3",
+    "9/10",
+    "1/5",
+    "1/2"
+   ],
+   "ans": "A",
+   "exp": "Positives = 90 true + 180 false = 270; false share = 180/270 = 2/3. (D is 1 − sensitivity; the low disease prevalence is what floods the positives.)",
+   "perm": [
+    3,
+    1,
+    4,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Data reasoning",
+   "lik": "H"
+  },
+  {
+   "n": 8,
+   "stem": "A cyclist rides from A to B at 60 km/h and returns immediately along the same route at 120 km/h. The average speed for the whole trip is:",
+   "options": [
+    "90 km/h",
+    "80 km/h",
+    "60 km/h",
+    "75 km/h",
+    "100 km/h"
+   ],
+   "ans": "B",
+   "exp": "Equal distances: harmonic mean, 2 × 60 × 120 / (60 + 120) = 80. (A is the arithmetic-mean trap.)",
+   "perm": [
+    2,
+    3,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Numerical reasoning",
+   "lik": "H"
+  },
+  {
+   "n": 9,
+   "stem": "A sequence begins 2, 3, 5, 9, 17, 33, … Each term follows one rule from the previous term. What is the next term?",
+   "options": [
+    "49",
+    "63",
+    "64",
+    "66",
+    "65"
+   ],
+   "ans": "E",
+   "exp": "Each term is double the previous minus 1: 2×33 − 1 = 65.",
+   "perm": [
+    0,
+    1,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Sequence",
+   "lik": "H"
+  },
+  {
+   "n": 10,
+   "stem": "A plant with genotype AaBb for two unlinked genes is crossed with a double-recessive aabb plant, and the offspring phenotypes appear 1:1:1:1. This result shows that the AaBb parent:",
+   "options": [
+    "is heterozygous at both genes and passes the four allele combinations into gametes equally",
+    "is homozygous dominant at both genes",
+    "has its two genes tightly linked on one chromosome",
+    "produces only two kinds of gametes",
+    "must have undergone a mutation during meiosis"
+   ],
+   "ans": "A",
+   "exp": "The 1:1:1:1 testcross ratio is read backwards: four gamete types in equal proportions means independent assortment and double heterozygosity.",
+   "perm": [
+    4,
+    2,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "H"
+  },
+  {
+   "n": 11,
+   "stem": "In snapdragons, flower colour shows incomplete dominance: CRCR is red, CRCW is pink, CWCW is white. Two pink plants are crossed. The expected offspring ratio is:",
+   "options": [
+    "3 red : 1 white",
+    "1 red : 1 white",
+    "all pink",
+    "1 red : 2 pink : 1 white",
+    "9:3:3:1"
+   ],
+   "ans": "D",
+   "exp": "With incomplete dominance the F2 shows the genotypic 1:2:1 as a phenotypic ratio; heterozygotes are visibly intermediate.",
+   "perm": [
+    1,
+    3,
+    0,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "H"
+  },
+  {
+   "n": 12,
+   "stem": "Two genes assort independently. A cross AaBb × aabb is performed. What fraction of the offspring is expected to be aabb?",
+   "options": [
+    "1/16",
+    "1/4",
+    "1/8",
+    "1/2",
+    "0"
+   ],
+   "ans": "B",
+   "exp": "The AaBb parent makes four gametes (AB, Ab, aB, ab) at 1/4 each; only gamete ab meets ab from the other parent: 1/4.",
+   "perm": [
+    4,
+    0,
+    2,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "M"
+  },
+  {
+   "n": 13,
+   "stem": "Two unaffected parents have a child affected by a rare autosomal recessive disease. What is the probability that their next child is affected?",
+   "options": [
+    "0 (immunity has developed)",
+    "1/2",
+    "1/4",
+    "1/8",
+    "2/3"
+   ],
+   "ans": "C",
+   "exp": "The affected child proves both parents are carriers (Aa × Aa); each pregnancy is independent with a 1/4 affected risk. (E is the carrier-risk among unaffected children, a different question.)",
+   "perm": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "H"
+  },
+  {
+   "n": 14,
+   "stem": "On the lagging strand, DNA polymerase works away from the replication fork, producing short Okazaki fragments. Which enzyme joins these fragments into a continuous strand?",
+   "options": [
+    "helicase",
+    "primase",
+    "topoisomerase",
+    "single-strand binding protein",
+    "DNA ligase"
+   ],
+   "ans": "E",
+   "exp": "Ligase seals the nicks between fragments by forming phosphodiester bonds.",
+   "perm": [
+    4,
+    3,
+    0,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Molecular biology",
+   "lik": "H"
+  },
+  {
+   "n": 15,
+   "stem": "A DNA template strand contains the triplet 3'-TAC-5'. The mRNA produced from this triplet is:",
+   "options": [
+    "5'-AUG-3'",
+    "5'-ATG-3'",
+    "5'-GUA-3'",
+    "5'-CAT-3'",
+    "5'-UAC-3'"
+   ],
+   "ans": "A",
+   "exp": "RNA polymerase reads 3'→5' and builds antiparallel 5'→3', replacing T with U: template T-A-C becomes A-U-G, the start codon. (E is the naive same-direction complement.)",
+   "perm": [
+    4,
+    1,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Molecular biology",
+   "lik": "H"
+  },
+  {
+   "n": 16,
+   "stem": "Which of the following codons signals termination of translation?",
+   "options": [
+    "AUG",
+    "UGG",
+    "UAC",
+    "UGA",
+    "GGG"
+   ],
+   "ans": "D",
+   "exp": "The three stop codons are UAA, UAG and UGA. AUG starts translation (Met); UGG codes tryptophan.",
+   "perm": [
+    1,
+    3,
+    4,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Molecular biology",
+   "lik": "H"
+  },
+  {
+   "n": 17,
+   "stem": "A protein is heated to 70 °C and denatures. What has happened to its structure?",
+   "options": [
+    "Peptide bonds along the backbone have broken.",
+    "Weak interactions (hydrogen bonds, ionic and hydrophobic contacts) have been disrupted while the amino-acid sequence is preserved.",
+    "The primary structure has been changed.",
+    "Individual amino acids have been chemically destroyed.",
+    "The protein has become a different protein."
+   ],
+   "ans": "B",
+   "exp": "Denaturation unfolds higher-order structure; the covalent backbone survives.",
+   "perm": [
+    1,
+    3,
+    2,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Proteins",
+   "lik": "M"
+  },
+  {
+   "n": 18,
+   "stem": "An inhibitor reduces an enzyme's Vmax by 75% but leaves Km exactly unchanged. The inhibitor is best described as:",
+   "options": [
+    "competitive",
+    "an allosteric activator",
+    "a cofactor",
+    "a substrate analogue competing for the active site",
+    "non-competitive"
+   ],
+   "ans": "E",
+   "exp": "Unchanged Km with lowered Vmax means the inhibitor binds elsewhere (or the enzyme-inhibitor complex is dead regardless of substrate): non-competitive. Competitive inhibition raises Km.",
+   "perm": [
+    0,
+    2,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Enzymes",
+   "lik": "H"
+  },
+  {
+   "n": 19,
+   "stem": "A poison blocks complex I of the mitochondrial electron transport chain. Which statement follows?",
+   "options": [
+    "All electron transport through complexes II, III and IV stops immediately and completely.",
+    "Glycolysis stops.",
+    "Oxidation of NADH halts, but electrons from FADH₂ can still enter at complex II and reach oxygen.",
+    "ATP synthase reverses and consumes water.",
+    "Pyruvate oxidation accelerates to compensate."
+   ],
+   "ans": "C",
+   "exp": "Complex II feeds electrons into the chain downstream of complex I, so the FADH₂ route survives (with reduced proton pumping), while all NADH oxidation is blocked.",
+   "perm": [
+    0,
+    3,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 20,
+   "stem": "The Calvin cycle cannot keep running for long in darkness because it directly requires:",
+   "options": [
+    "ATP and NADPH supplied by the light reactions",
+    "oxygen released by photosystem II",
+    "glucose from starch breakdown",
+    "chlorophyll excitation",
+    "carbonic acid"
+   ],
+   "ans": "A",
+   "exp": "G3P production consumes ATP and NADPH; in darkness their pools drain and the cycle stops.",
+   "perm": [
+    2,
+    0,
+    1,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Photosynthesis",
+   "lik": "H"
+  },
+  {
+   "n": 21,
+   "stem": "A red blood cell is placed in seawater, which is hypertonic to blood plasma. What happens?",
+   "options": [
+    "Water enters the cell and it swells.",
+    "Nothing: cells are always in osmotic balance.",
+    "Sodium ions are pumped out to compensate, so volume is constant.",
+    "Water leaves the cell and it shrinks (crenates).",
+    "The cell divides."
+   ],
+   "ans": "D",
+   "exp": "Hypertonic outside means lower water potential outside: water exits down its gradient. A applies to hypotonic media.",
+   "perm": [
+    3,
+    0,
+    2,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Membranes / osmosis",
+   "lik": "H"
+  },
+  {
+   "n": 22,
+   "stem": "The protein p53 accumulates when DNA is damaged in G1. Its role is to:",
+   "options": [
+    "push the cell directly into mitosis",
+    "halt the cell cycle so repair can occur, triggering apoptosis if damage is unrepairable",
+    "replicate the damaged DNA segment",
+    "phosphorylate the nuclear envelope",
+    "move the cell into S phase regardless of damage"
+   ],
+   "ans": "B",
+   "exp": "p53 is the guardian of the G1 checkpoint: arrest, repair, or programmed death.",
+   "perm": [
+    4,
+    0,
+    2,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell cycle",
+   "lik": "H"
+  },
+  {
+   "n": 23,
+   "stem": "Nondisjunction occurs during meiosis in a human oocyte, producing an egg with 24 chromosomes. Fertilisation by a normal sperm gives a zygote with:",
+   "options": [
+    "45 chromosomes (monosomy)",
+    "46 chromosomes, normal",
+    "46 chromosomes with a deletion",
+    "certain death of the zygote in all cases",
+    "47 chromosomes (a trisomy, such as trisomy 21 if chromosome 21 is involved)"
+   ],
+   "ans": "E",
+   "exp": "24 + 23 = 47: one chromosome is present in three copies.",
+   "perm": [
+    2,
+    0,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics / meiosis",
+   "lik": "H"
+  },
+  {
+   "n": 24,
+   "stem": "The rapid rising (depolarisation) phase of a nerve action potential is caused by:",
+   "options": [
+    "opening of voltage-gated potassium channels, K⁺ entering",
+    "the sodium-potassium pump running forward at maximum speed",
+    "opening of voltage-gated sodium channels, Na⁺ rushing in",
+    "chloride ions leaving the axon",
+    "the membrane becoming impermeable to all ions"
+   ],
+   "ans": "C",
+   "exp": "Depolarisation to threshold opens Na⁺ channels; the inward Na⁺ current drives the upstroke. K⁺ exit drives the falling phase.",
+   "perm": [
+    2,
+    3,
+    0,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Nervous system",
+   "lik": "H"
+  },
+  {
+   "n": 25,
+   "stem": "At a chemical synapse, the immediate trigger for neurotransmitter release from the presynaptic terminal is:",
+   "options": [
+    "influx of calcium ions into the terminal",
+    "influx of sodium into the postsynaptic cell",
+    "exit of potassium from the terminal",
+    "reuptake of neurotransmitter",
+    "arrival of the neurotransmitter enzyme"
+   ],
+   "ans": "A",
+   "exp": "The action potential opens voltage-gated Ca²⁺ channels; Ca²⁺ causes vesicles to fuse with the membrane.",
+   "perm": [
+    3,
+    0,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Nervous system",
+   "lik": "M"
+  },
+  {
+   "n": 26,
+   "stem": "Several hours after a carbohydrate-rich meal, blood glucose is falling. Which endocrine change is occurring?",
+   "options": [
+    "insulin rises, glucagon rises",
+    "insulin rises, glucagon falls",
+    "insulin falls, glucagon falls",
+    "insulin falls, glucagon rises",
+    "neither hormone changes"
+   ],
+   "ans": "D",
+   "exp": "Falling glucose switches off insulin and switches on glucagon (glycogenolysis, gluconeogenesis).",
+   "perm": [
+    0,
+    2,
+    3,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Endocrine",
+   "lik": "H"
+  },
+  {
+   "n": 27,
+   "stem": "Antivenom is produced by immunising horses, then collecting and purifying the antibodies. A snakebite victim receiving antivenom acquires:",
+   "options": [
+    "active natural immunity",
+    "passive artificial immunity: ready-made antibodies, protection that is immediate but without immune memory",
+    "active artificial immunity with lasting memory",
+    "immunity produced by the victim's own plasma cells weeks later",
+    "no immunity, since antibodies cannot be injected"
+   ],
+   "ans": "B",
+   "exp": "Pre-formed foreign antibodies = passive artificial; fast, short-lived, no memory cells generated.",
+   "perm": [
+    2,
+    3,
+    0,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Immunity",
+   "lik": "H"
+  },
+  {
+   "n": 28,
+   "stem": "A patient is blood group O, Rh-negative. Which donor red-cell type can be transfused to this patient without a risk of agglutination (within the ABO and Rh systems)?",
+   "options": [
+    "O positive",
+    "AB negative",
+    "A negative",
+    "any type, as long as it is Rh-negative",
+    "O negative"
+   ],
+   "ans": "E",
+   "exp": "Group O recipients have anti-A and anti-B antibodies, so only O red cells fit; Rh-negative adds the D constraint. O negative carries neither A, B nor D antigens.",
+   "perm": [
+    2,
+    3,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Blood / circulatory",
+   "lik": "H"
+  },
+  {
+   "n": 29,
+   "stem": "Pancreatic lipase, acting in the small intestine, digests:",
+   "options": [
+    "proteins into amino acids",
+    "starch into maltose",
+    "triglycerides (fats) into fatty acids and glycerol",
+    "nucleic acids into nucleotides",
+    "vitamins into coenzymes"
+   ],
+   "ans": "C",
+   "exp": "Lipase hydrolyses dietary triglycerides; protein digestion uses proteases (trypsin, pepsin) and starch uses amylase.",
+   "perm": [
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Digestive system",
+   "lik": "M"
+  },
+  {
+   "n": 30,
+   "stem": "Glucose that is filtered at the glomerulus is normally:",
+   "options": [
+    "almost completely reabsorbed in the proximal convoluted tubule",
+    "excreted entirely in the urine",
+    "reabsorbed only in the collecting duct under ADH control",
+    "secreted into the filtrate by the distal tubule",
+    "converted to urea in the nephron"
+   ],
+   "ans": "A",
+   "exp": "PCT reabsorbs essentially all filtered glucose by active co-transport; glycosuria appears only when the transport maximum is exceeded (diabetes).",
+   "perm": [
+    1,
+    0,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Excretory system",
+   "lik": "H"
+  },
+  {
+   "n": 31,
+   "stem": "Which cells deposit new bone matrix during bone growth and remodeling?",
+   "options": [
+    "osteoclasts",
+    "osteocytes in lacunae",
+    "chondrocytes",
+    "osteoblasts",
+    "red marrow stem cells"
+   ],
+   "ans": "D",
+   "exp": "Osteoblasts secrete osteoid; osteoclasts resorb bone (the opposite).",
+   "perm": [
+    4,
+    1,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Tissues / skeleton",
+   "lik": "M"
+  },
+  {
+   "n": 32,
+   "stem": "Cells are briefly exposed to radioactively labelled thymidine. Radioactivity will be incorporated into DNA during which phase?",
+   "options": [
+    "G1",
+    "S",
+    "G2",
+    "M",
+    "G0"
+   ],
+   "ans": "B",
+   "exp": "Thymidine is a DNA building block; DNA synthesis happens in S phase.",
+   "perm": [
+    1,
+    0,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell cycle",
+   "lik": "M"
+  },
+  {
+   "n": 33,
+   "stem": "What are the oxidation numbers of nitrogen in the ammonium ion (NH₄⁺) and in the nitrate ion (NO₃⁻), respectively?",
+   "options": [
+    "−3 and +5",
+    "+5 and +5",
+    "−3 and −3",
+    "+1 and +1 (the average of the two nitrogens)",
+    "−5 and +3"
+   ],
+   "ans": "A",
+   "exp": "NH₄⁺: x + 4 = +1, x = −3. NO₃⁻: x + 3(−2) = −1, x = +5. Ammonium nitrate carries both ions, so both values are needed.",
+   "perm": [
+    2,
+    4,
+    0,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Redox / oxidation numbers",
+   "lik": "H"
+  },
+  {
+   "n": 34,
+   "stem": "Given the activity series Mg > Zn > Cu > Ag, which reaction occurs spontaneously at room temperature?",
+   "options": [
+    "Cu(s) + Zn²⁺(aq) → Cu²⁺(aq) + Zn(s)",
+    "Ag(s) + Cu²⁺(aq) → Ag⁺(aq) + Cu(s)",
+    "Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)",
+    "Cu(s) + Mg²⁺(aq) → Cu²⁺(aq) + Mg(s)",
+    "none of these reactions occurs spontaneously"
+   ],
+   "ans": "C",
+   "exp": "A metal displaces only ions of metals below it. Zinc sits above copper, so zinc reduces Cu²⁺. A, B and D each ask a lower metal to reduce a higher one.",
+   "perm": [
+    1,
+    0,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Redox / reactivity",
+   "lik": "M"
+  },
+  {
+   "n": 35,
+   "stem": "Which bond is the most polar (largest electronegativity difference)? (EN: H 2.2, C 2.55, N 3.04, O 3.44)",
+   "options": [
+    "C–H",
+    "C–N",
+    "N–H",
+    "C–O",
+    "O–H"
+   ],
+   "ans": "E",
+   "exp": "Differences: O–H = 1.24, C–O = 0.89, N–H = 0.84, C–N = 0.49, C–H = 0.35. (D is the trap for \"bigger atoms, bigger polarity\".)",
+   "perm": [
+    4,
+    0,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bonding / polarity",
+   "lik": "H"
+  },
+  {
+   "n": 36,
+   "stem": "Which molecule contains polar bonds but has zero net dipole moment?",
+   "options": [
+    "H₂O",
+    "CO₂",
+    "NH₃",
+    "SO₂ (bent)",
+    "CHCl₃"
+   ],
+   "ans": "B",
+   "exp": "CO₂ is linear and symmetric: two equal bond dipoles cancel. H₂O, NH₃, SO₂ and CHCl₃ are asymmetric, so their dipoles survive.",
+   "perm": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bonding / polarity",
+   "lik": "H"
+  },
+  {
+   "n": 37,
+   "stem": "100 mL of 0.1 M HCl is mixed with 100 mL of 0.3 M NaOH. The pH of the resulting solution is:",
+   "options": [
+    "1",
+    "7",
+    "12",
+    "13",
+    "2"
+   ],
+   "ans": "D",
+   "exp": "H⁺ = 0.010 mol, OH⁻ = 0.030 mol; excess OH⁻ = 0.020 mol in 0.200 L = 0.1 M, so pOH = 1 and pH = 13.",
+   "perm": [
+    0,
+    4,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 38,
+   "stem": "An aqueous solution of HCl is prepared at the extraordinarily low concentration of 1.0 × 10⁻⁸ M. At 25 °C its pH is:",
+   "options": [
+    "about 2",
+    "exactly 7",
+    "slightly below 7",
+    "slightly above 7",
+    "undefined, because the concentration is below 10⁻⁷"
+   ],
+   "ans": "C",
+   "exp": "Water's own 10⁻⁷ M H⁺ dominates; adding 10⁻⁸ M acid raises [H⁺] to about 1.05 × 10⁻⁷ M, pH ≈ 6.98. An acid solution can approach 7 but never cross it.",
+   "perm": [
+    4,
+    2,
+    3,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 39,
+   "stem": "25.0 mL of H₂SO₄ solution is completely neutralised by 20.0 mL of 0.15 M NaOH (H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O). The molarity of the acid is:",
+   "options": [
+    "0.12 M",
+    "0.06 M",
+    "0.03 M",
+    "0.15 M",
+    "0.30 M"
+   ],
+   "ans": "B",
+   "exp": "NaOH: 0.020 × 0.15 = 0.0030 mol; acid = 0.0015 mol in 0.0250 L = 0.060 M. (A forgets the 2:1 ratio.)",
+   "perm": [
+    2,
+    1,
+    0,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Stoichiometry / titration",
+   "lik": "H"
+  },
+  {
+   "n": 40,
+   "stem": "2.50 g of a hydrate of copper(II) sulfate (CuSO₄·nH₂O, M(CuSO₄) = 160 g/mol) is heated to constant mass, leaving 1.60 g of anhydrous CuSO₄. The value of n is:",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "ans": "E",
+   "exp": "CuSO₄: 1.60/160 = 0.010 mol; water lost: 0.90/18 = 0.050 mol; n = 0.050/0.010 = 5.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Stoichiometry",
+   "lik": "H"
+  },
+  {
+   "n": 41,
+   "stem": "What is the mass of 5.6 L of oxygen gas O₂ measured at STP (molar volume 22.4 L/mol; M(O₂) = 32 g/mol)?",
+   "options": [
+    "8 g",
+    "16 g",
+    "32 g",
+    "4 g",
+    "2 g"
+   ],
+   "ans": "A",
+   "exp": "5.6/22.4 = 0.25 mol; 0.25 × 32 = 8 g.",
+   "perm": [
+    4,
+    3,
+    0,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Gases / mole",
+   "lik": "H"
+  },
+  {
+   "n": 42,
+   "stem": "The species Na⁺, Mg²⁺, F⁻, O²⁻ and Ne all have 10 electrons. Which is the smallest?",
+   "options": [
+    "Na⁺",
+    "F⁻",
+    "O²⁻",
+    "Mg²⁺",
+    "Ne"
+   ],
+   "ans": "D",
+   "exp": "Isoelectronic series: radius shrinks as nuclear charge grows. Mg²⁺ has 12 protons pulling on the same 10 electrons, so it is the smallest.",
+   "perm": [
+    4,
+    3,
+    0,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Periodic table / ions",
+   "lik": "H"
+  },
+  {
+   "n": 43,
+   "stem": "Which of the following can exist as cis and trans isomers?",
+   "options": [
+    "but-1-ene",
+    "2-methylpropene",
+    "but-2-ene",
+    "ethene",
+    "propane"
+   ],
+   "ans": "C",
+   "exp": "Each carbon of the C=C in but-2-ene carries two different groups (H and CH₃), allowing geometrical isomerism. Terminal alkenes (A, D) have two identical H on one carbon; B has two identical CH₃.",
+   "perm": [
+    2,
+    0,
+    4,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic chemistry",
+   "lik": "H"
+  },
+  {
+   "n": 44,
+   "stem": "Propan-1-ol is oxidised with acidified potassium dichromate, and the volatile organic product is distilled off as it forms. The product is:",
+   "options": [
+    "propanone",
+    "propanal",
+    "propanoic acid",
+    "propane",
+    "propan-2-ol"
+   ],
+   "ans": "B",
+   "exp": "Distilling off the product stops at the aldehyde (propanal); refluxing to completion would give propanoic acid. Propanone needs a secondary alcohol.",
+   "perm": [
+    2,
+    4,
+    3,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic chemistry",
+   "lik": "H"
+  },
+  {
+   "n": 45,
+   "stem": "For the equilibrium A ⇌ B, a solution initially containing only A at 1.0 M reaches equilibrium with [B] = 0.75 M. The equilibrium constant Kc is:",
+   "options": [
+    "3.0",
+    "0.75",
+    "1.33",
+    "0.25",
+    "4.0"
+   ],
+   "ans": "A",
+   "exp": "[A]eq = 1.00 − 0.75 = 0.25 M; Kc = [B]/[A] = 0.75/0.25 = 3.0.",
+   "perm": [
+    3,
+    1,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Equilibrium",
+   "lik": "H"
+  },
+  {
+   "n": 46,
+   "stem": "For an exothermic reaction at equilibrium, increasing the temperature:",
+   "options": [
+    "leaves Kc unchanged",
+    "increases Kc",
+    "increases Kc, which then returns to its old value",
+    "has an unpredictable effect without the numerical Kc",
+    "decreases Kc"
+   ],
+   "ans": "E",
+   "exp": "Heating adds \"product heat\": the endothermic (reverse) direction is favoured, so the equilibrium constant itself falls. Rate still increases, but Kc is about position, not speed.",
+   "perm": [
+    0,
+    1,
+    3,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Equilibrium / energetics",
+   "lik": "H"
+  },
+  {
+   "n": 47,
+   "stem": "What is the approximate molarity of pure water at 25 °C (density 1.0 g/mL, M(H₂O) = 18 g/mol)?",
+   "options": [
+    "1.0 M",
+    "18 M",
+    "55.6 M",
+    "100 M",
+    "0.056 M"
+   ],
+   "ans": "C",
+   "exp": "1 L weighs 1000 g: 1000/18 ≈ 55.6 mol/L.",
+   "perm": [
+    4,
+    0,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Solutions",
+   "lik": "H"
+  },
+  {
+   "n": 48,
+   "stem": "Solve x² − 5x + 6 > 0.",
+   "options": [
+    "2 < x < 3",
+    "all real x",
+    "x < 2 only",
+    "x < 2 or x > 3",
+    "−3 < x < −2"
+   ],
+   "ans": "D",
+   "exp": "(x − 2)(x − 3) > 0 holds outside the roots. (A is the trap for solving the < 0 version.)",
+   "perm": [
+    0,
+    2,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Inequalities",
+   "lik": "H"
+  },
+  {
+   "n": 49,
+   "stem": "Solve |2x − 1| ≤ 5.",
+   "options": [
+    "x ≤ 3",
+    "−2 ≤ x ≤ 3",
+    "−3 ≤ x ≤ 2",
+    "x ≥ −2",
+    "no solution"
+   ],
+   "ans": "B",
+   "exp": "−5 ≤ 2x − 1 ≤ 5, so −4 ≤ 2x ≤ 6, giving −2 ≤ x ≤ 3.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Inequalities",
+   "lik": "H"
+  },
+  {
+   "n": 50,
+   "stem": "Given log₁₀ 2 = 0.30, the value of log₁₀ 5 is:",
+   "options": [
+    "0.70",
+    "0.50",
+    "1.30",
+    "0.60",
+    "2.30"
+   ],
+   "ans": "A",
+   "exp": "5 = 10/2, so log 5 = log 10 − log 2 = 1 − 0.30 = 0.70.",
+   "perm": [
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logarithms",
+   "lik": "H"
+  },
+  {
+   "n": 51,
+   "stem": "Two fair dice are rolled. What is the probability of getting at least one six?",
+   "options": [
+    "1/6",
+    "1/12",
+    "1/36",
+    "5/36",
+    "11/36"
+   ],
+   "ans": "E",
+   "exp": "P(no six) = (5/6)² = 25/36; 1 − 25/36 = 11/36. (D is (1/6)(5/6) for one named die, forgetting to double it for the two dice that could show the six.)",
+   "perm": [
+    2,
+    1,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Probability",
+   "lik": "H"
+  },
+  {
+   "n": 52,
+   "stem": "A vertical pole 6 m tall casts a shadow when the sun's elevation is 45°. How long is the shadow? (tan 45° = 1, tan 30° = 0.58)",
+   "options": [
+    "3 m",
+    "8.5 m",
+    "6 m",
+    "12 m",
+    "4.2 m"
+   ],
+   "ans": "C",
+   "exp": "tan 45° = height/shadow = 1, so shadow = 6 m.",
+   "perm": [
+    0,
+    4,
+    2,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Trigonometry",
+   "lik": "M"
+  },
+  {
+   "n": 53,
+   "stem": "If f(x) = (2x + 3)/5, then f⁻¹(x), the inverse function, is:",
+   "options": [
+    "(5x + 3)/2",
+    "(2x − 3)/5",
+    "5/(2x + 3)",
+    "(5x − 3)/2",
+    "2x + 3/5"
+   ],
+   "ans": "D",
+   "exp": "y = (2x+3)/5 ⇒ 5y = 2x + 3 ⇒ x = (5y − 3)/2; swap to get f⁻¹(x) = (5x − 3)/2.",
+   "perm": [
+    0,
+    4,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Functions",
+   "lik": "H"
+  },
+  {
+   "n": 54,
+   "stem": "What is the vertex (turning point) of the parabola y = x² − 4x + 7?",
+   "options": [
+    "(2, 3)",
+    "(−2, 3)",
+    "(2, 11)",
+    "(4, 7)",
+    "(−2, 19)"
+   ],
+   "ans": "A",
+   "exp": "x = −b/2a = 4/2 = 2; y = 4 − 8 + 7 = 3.",
+   "perm": [
+    2,
+    4,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Graphs / quadratics",
+   "lik": "H"
+  },
+  {
+   "n": 55,
+   "stem": "A 12 V battery drives a 4 Ω resistor in series with a parallel pair of two 4 Ω resistors. What power is dissipated in one of the two parallel resistors?",
+   "options": [
+    "2 W",
+    "4 W",
+    "8 W",
+    "16 W",
+    "24 W"
+   ],
+   "ans": "B",
+   "exp": "Pair = 2 Ω; total = 6 Ω; I = 2 A. Voltage across the pair = 2 × 2 = 4 V; P(one) = V²/R = 16/4 = 4 W. (C is the whole pair, 8 W; D runs the full 2 A through one resistor without the current split; E is the whole circuit, 12 × 2.)",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Circuits",
+   "lik": "H"
+  },
+  {
+   "n": 56,
+   "stem": "A stone is dropped from rest from a height of 5 m (g = 10 m/s², air resistance negligible). Its speed just before impact is:",
+   "options": [
+    "5 m/s",
+    "20 m/s",
+    "25 m/s",
+    "50 m/s",
+    "10 m/s"
+   ],
+   "ans": "E",
+   "exp": "v² = 2gh = 2 × 10 × 5 = 100, so v = 10 m/s. (D is g × h = 50, using the wrong formula.)",
+   "perm": [
+    0,
+    4,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Energy / kinematics",
+   "lik": "H"
+  },
+  {
+   "n": 57,
+   "stem": "1 kg of water and 1 kg of iron each receive 10 kJ of heat. (c_water = 4200, c_iron = 450 J/(kg·K).) Which statement is correct?",
+   "options": [
+    "The water ends at the higher temperature.",
+    "Both end at the same temperature.",
+    "It depends on the shape of the containers.",
+    "The iron ends at the higher temperature, rising about 22 K versus about 2.4 K for the water.",
+    "Neither changes temperature."
+   ],
+   "ans": "D",
+   "exp": "ΔT = Q/(mc): the smaller specific heat wins by the ratio 4200/450 ≈ 9.3.",
+   "perm": [
+    3,
+    4,
+    1,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Thermal physics",
+   "lik": "H"
+  },
+  {
+   "n": 58,
+   "stem": "A ball falls freely from rest for 2.0 s (g = 10 m/s²). The distance it falls is:",
+   "options": [
+    "10 m",
+    "40 m",
+    "20 m",
+    "5 m",
+    "80 m"
+   ],
+   "ans": "C",
+   "exp": "s = ½gt² = ½ × 10 × 4 = 20 m. (A is ½gt, forgetting to square the time.)",
+   "perm": [
+    3,
+    0,
+    2,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Kinematics",
+   "lik": "M"
+  },
+  {
+   "n": 59,
+   "stem": "A person stands on bathroom scales inside a lift that is accelerating upward. Compared with the person's true weight:",
+   "options": [
+    "the scale reads more, because the floor must supply m(g + a)",
+    "the scale reads less",
+    "the scale reads exactly the true weight",
+    "the scale reads zero",
+    "the reading depends on the lift's velocity, not its acceleration"
+   ],
+   "ans": "A",
+   "exp": "N − mg = ma upward ⇒ N = m(g + a) > mg. Velocity is irrelevant; acceleration is what matters.",
+   "perm": [
+    2,
+    3,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Dynamics",
+   "lik": "H"
+  },
+  {
+   "n": 60,
+   "stem": "A sound wave of frequency 500 Hz has a wavelength of 0.68 m in air. The speed of sound is:",
+   "options": [
+    "170 m/s",
+    "340 m/s",
+    "680 m/s",
+    "34 m/s",
+    "500 m/s"
+   ],
+   "ans": "B",
+   "exp": "v = fλ = 500 × 0.68 = 340 m/s.",
+   "perm": [
+    3,
+    0,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Waves",
+   "lik": "M"
+  }
+ ]
+}

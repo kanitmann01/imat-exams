@@ -1,0 +1,1489 @@
+{
+ "schema": 1,
+ "id": "imat_mock6",
+ "title": "IMAT MOCK EXAM 6 — \"At-Level Calibration\"",
+ "kind": "mock",
+ "durationSec": 6000,
+ "maxTenths": 900,
+ "targetScore": 45,
+ "sections": [
+  {
+   "code": "A",
+   "from": 1,
+   "to": 9,
+   "label": "Section A - Logical Reasoning & Reading",
+   "short": "Reasoning"
+  },
+  {
+   "code": "B",
+   "from": 10,
+   "to": 32,
+   "label": "Section B - Biology",
+   "short": "Biology"
+  },
+  {
+   "code": "C",
+   "from": 33,
+   "to": 47,
+   "label": "Section C - Chemistry",
+   "short": "Chemistry"
+  },
+  {
+   "code": "D",
+   "from": 48,
+   "to": 54,
+   "label": "Section D - Mathematics",
+   "short": "Mathematics"
+  },
+  {
+   "code": "E",
+   "from": 55,
+   "to": 60,
+   "label": "Section E - Physics",
+   "short": "Physics"
+  }
+ ],
+ "bankVersion": "bb2eff9d8",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "\"Bacteria store fragments of viral DNA in ordered arrays (CRISPR loci) in their own genome. These fragments are transcribed into guide molecules used by Cas proteins, which cut any invading DNA whose sequence matches a guide. A virus escapes this defence only if it mutates the exact targeted sequence. Because the array is inherited, daughter cells of a survivor remain protected.\"\n\nWhich of the following is not supported by the passage?",
+   "options": [
+    "A bacterium that survives infection can pass protection on to its offspring.",
+    "The defence is guided by RNA copies of stored viral sequences.",
+    "During infection, bacteria deliberately rewrite their own DNA to match the invading virus.",
+    "Mutation of the targeted sequence can let a virus evade the defence.",
+    "The system behaves as a form of inherited immunity."
+   ],
+   "ans": "C",
+   "exp": "Bacteria store fragments of the invader; nothing in the passage says they rewrite their own genes in a directed way during infection. A, B, D and E are each stated or directly implied.",
+   "perm": [
+    2,
+    4,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading comprehension",
+   "lik": "H"
+  },
+  {
+   "n": 2,
+   "stem": "Five friends P, Q, R, S and T sit in a row of five seats, all facing the same direction, with seat 1 at the left end and seat 5 at the right end. Q sits immediately to the right of P. R does not sit adjacent to P. S sits at an end seat. T sits somewhere to the left of S.\n\nWhich of the following must be true?",
+   "options": [
+    "P sits at the far left.",
+    "T is not at an end seat.",
+    "R sits between P and T.",
+    "S sits at seat 5 (the far right).",
+    "Q is not adjacent to R."
+   ],
+   "ans": "D",
+   "exp": "Ends are seats 1 and 5. T must have a seat to its left, so S cannot be at seat 1; S must be at an end, so S = 5. The valid arrangement T1, P2, Q3, R4, S5 falsifies A, B, C and E all at once (P is not at the far left, T is at an end, R is not between P and T, and Q sits adjacent to R).",
+   "perm": [
+    1,
+    2,
+    4,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Constraint logic",
+   "lik": "H"
+  },
+  {
+   "n": 3,
+   "stem": "(General knowledge) The 2026 Winter Olympic Games, held in February 2026, are hosted by:",
+   "options": [
+    "Milano and Cortina d'Ampezzo, Italy",
+    "Turin, Italy",
+    "Rome, Italy",
+    "Venice, Italy",
+    "Palermo, Italy"
+   ],
+   "ans": "A",
+   "exp": "Milano Cortina 2026 (6 to 22 February) is the third time Italy hosts the Winter Games, after Cortina d'Ampezzo 1956 and Turin 2006.",
+   "perm": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "GK",
+   "lik": "L"
+  },
+  {
+   "n": 4,
+   "stem": "No reptile is warm-blooded. Some reptiles are kept as pets.\n\nWhich conclusion necessarily follows?",
+   "options": [
+    "Some pets are warm-blooded.",
+    "No pet is a reptile.",
+    "Some warm-blooded animals are kept as pets.",
+    "Some pets are not warm-blooded.",
+    "All pets are cold-blooded."
+   ],
+   "ans": "D",
+   "exp": "The pet-keeping reptiles are reptiles, hence not warm-blooded; so at least some pets are not warm-blooded. A, C and E are not derivable; B contradicts the second premise.",
+   "perm": [
+    4,
+    1,
+    2,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Formal logic",
+   "lik": "H"
+  },
+  {
+   "n": 5,
+   "stem": "A clock shows 4:40. What is the angle between the hour hand and the minute hand?",
+   "options": [
+    "60°",
+    "100°",
+    "120°",
+    "40°",
+    "260°"
+   ],
+   "ans": "B",
+   "exp": "Minute hand: 40 × 6° = 240°. Hour hand: 4 × 30° + 40 × 0.5° = 120° + 20° = 140°. Difference = 240° − 140° = 100°. (120° is the trap for leaving the hour hand fixed at 4.)",
+   "perm": [
+    3,
+    0,
+    1,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Clock angles",
+   "lik": "H"
+  },
+  {
+   "n": 6,
+   "stem": "An enzyme was assayed at three pH values. Without inhibitor, the measured rates at pH 5, 7 and 9 were 20, 100 and 20 respectively. With a fixed concentration of inhibitor I present, the rates were 18, 50 and 18 at the same three pH values.\n\nWhich conclusion is best supported by the data?",
+   "options": [
+    "The inhibitor destroys the enzyme at acidic pH.",
+    "The enzyme's optimum lies between pH 7 and pH 9.",
+    "The enzyme is most active at pH 7, and the inhibitor's relative effect is also greatest at pH 7.",
+    "The inhibitor reduces the rate by the same fraction at every pH.",
+    "The enzyme is inactive at pH 9."
+   ],
+   "ans": "C",
+   "exp": "Activity peaks at pH 7 (100), and only there does the inhibitor halve the rate (50% reduction vs 10% at pH 5 and 9). B contradicts the peak at 7; D is false (10% vs 50%); E is false (rate 20).",
+   "perm": [
+    2,
+    1,
+    3,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Data reasoning",
+   "lik": "H"
+  },
+  {
+   "n": 7,
+   "stem": "A large national audit reports that patients operated on in city hospitals have fewer post-surgical complications than patients operated on in small rural hospitals. The authors conclude that the quality of surgical care is worse in rural hospitals.\n\nWhich of the following, if true, most weakens the authors' conclusion?",
+   "options": [
+    "City hospitals have more beds than rural hospitals.",
+    "Rural surgeons work longer shifts than city surgeons.",
+    "Some city hospitals are also teaching hospitals.",
+    "City hospitals have newer pieces of equipment on average.",
+    "Rural hospitals carry out a higher proportion of emergency operations, which have higher complication rates in any setting."
+   ],
+   "ans": "E",
+   "exp": "If rural hospitals take harder cases (emergency work), the complication gap may reflect case mix, not quality. B and D, if anything, support the conclusion; A and C are irrelevant to case severity.",
+   "perm": [
+    1,
+    3,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Critical reasoning",
+   "lik": "H"
+  },
+  {
+   "n": 8,
+   "stem": "A sequence begins 2, 4, 7, 14, 17, 34, … following a repeating two-step rule. What is the next term?",
+   "options": [
+    "35",
+    "37",
+    "51",
+    "68",
+    "71"
+   ],
+   "ans": "B",
+   "exp": "The rule alternates ×2 and +3: 2×2=4, 4+3=7, 7×2=14, 14+3=17, 17×2=34, 34+3=37.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Sequence",
+   "lik": "M"
+  },
+  {
+   "n": 9,
+   "stem": "A jacket costing 120 is discounted by 20%, and the new price is then discounted by a further 25%. What is the total percentage reduction from the original price?",
+   "options": [
+    "40%",
+    "45%",
+    "42.5%",
+    "46%",
+    "35%"
+   ],
+   "ans": "A",
+   "exp": "120 × 0.80 = 96; 96 × 0.75 = 72; reduction = 48/120 = 40%. (45% is the trap for adding 20% + 25%.)",
+   "perm": [
+    4,
+    0,
+    2,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Numerical reasoning",
+   "lik": "H"
+  },
+  {
+   "n": 10,
+   "stem": "In a dihybrid cross AaBb × AaBb with two unlinked genes (complete dominance at both), what is the probability that an offspring has genotype AaBb?",
+   "options": [
+    "1/16",
+    "1/4",
+    "1/2",
+    "3/16",
+    "9/16"
+   ],
+   "ans": "B",
+   "exp": "P(Aa) = 1/2 and P(Bb) = 1/2, and the genes assort independently: 1/2 × 1/2 = 1/4.",
+   "perm": [
+    0,
+    3,
+    1,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "H"
+  },
+  {
+   "n": 11,
+   "stem": "Which cross is expected to produce a phenotypic ratio of 9:3:3:1 (two traits, complete dominance)?",
+   "options": [
+    "AABB × aabb",
+    "Aa × Aa",
+    "AaBb × aabb",
+    "AABb × AaBB",
+    "AaBb × AaBb"
+   ],
+   "ans": "E",
+   "exp": "Only the double heterozygote × double heterozygote cross yields 9:3:3:1. A gives all AaBb; B is monohybrid 3:1; C is the testcross 1:1:1:1.",
+   "perm": [
+    2,
+    0,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "H"
+  },
+  {
+   "n": 12,
+   "stem": "A mother is a carrier of red-green colour blindness (XᴴXʰ) and the father has normal vision (XᴴY). What fraction of their sons is expected to be colour-blind?",
+   "options": [
+    "1/2",
+    "0",
+    "1/4",
+    "all of them",
+    "3/4"
+   ],
+   "ans": "A",
+   "exp": "Sons get their single X from the mother: half receive Xʰ and are colour-blind. Fathers pass their X only to daughters.",
+   "perm": [
+    0,
+    4,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "H"
+  },
+  {
+   "n": 13,
+   "stem": "DNA replication is described as \"semiconservative\" because each daughter double helix:",
+   "options": [
+    "is made entirely of new nucleotides",
+    "conserves only the sugar-phosphate backbone of the parent",
+    "contains one intact parental strand and one newly synthesised strand",
+    "contains randomly mixed old and new nucleotides within each strand",
+    "conserves half of the parent's genes"
+   ],
+   "ans": "C",
+   "exp": "Each parental strand templates a new partner; the classic Meselson-Stahl result. D describes dispersive replication, which was ruled out.",
+   "perm": [
+    4,
+    0,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Molecular biology",
+   "lik": "H"
+  },
+  {
+   "n": 14,
+   "stem": "The enzyme that synthesises an RNA strand from a DNA template during transcription is:",
+   "options": [
+    "DNA polymerase",
+    "helicase",
+    "reverse transcriptase",
+    "RNA polymerase",
+    "primase"
+   ],
+   "ans": "D",
+   "exp": "RNA polymerase reads the DNA template 3'→5' and joins ribonucleotides 5'→3'. Reverse transcriptase copies RNA into DNA (retroviruses only).",
+   "perm": [
+    1,
+    4,
+    2,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Molecular biology",
+   "lik": "H"
+  },
+  {
+   "n": 15,
+   "stem": "Which nucleic-acid molecule physically carries the anticodon?",
+   "options": [
+    "mRNA",
+    "tRNA",
+    "rRNA",
+    "small nuclear RNA",
+    "the DNA template strand"
+   ],
+   "ans": "B",
+   "exp": "The anticodon is the three-base loop of transfer RNA that base-pairs with the mRNA codon; rRNA is structural/catalytic in the ribosome.",
+   "perm": [
+    1,
+    0,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Molecular biology",
+   "lik": "H"
+  },
+  {
+   "n": 16,
+   "stem": "The α-helix of a protein is stabilised primarily by:",
+   "options": [
+    "hydrogen bonds between backbone groups",
+    "disulfide bridges",
+    "peptide bonds between side chains",
+    "hydrophobic cores",
+    "ionic bonds between consecutive amino acids"
+   ],
+   "ans": "A",
+   "exp": "Secondary structure (α-helix, β-sheet) is backbone hydrogen bonding. Disulfide bridges belong to tertiary structure, and side chains are not involved in the α-helix backbone pattern.",
+   "perm": [
+    1,
+    2,
+    3,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Proteins",
+   "lik": "H"
+  },
+  {
+   "n": 17,
+   "stem": "A point mutation changes an mRNA codon from AUG (methionine) to UGA. UGA is a stop codon. The most likely consequence is:",
+   "options": [
+    "no change in the protein",
+    "substitution of one amino acid by another",
+    "a frameshift downstream",
+    "an elongated protein",
+    "premature termination, giving a truncated protein"
+   ],
+   "ans": "E",
+   "exp": "A sense codon becoming a stop codon is a nonsense mutation: translation ends early. It changes one codon only, so no frameshift.",
+   "perm": [
+    4,
+    2,
+    1,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Molecular biology",
+   "lik": "M"
+  },
+  {
+   "n": 18,
+   "stem": "In aerobic respiration, CO₂ is released:",
+   "options": [
+    "in the cytosol, during glycolysis",
+    "on the inner mitochondrial membrane, during electron transport",
+    "in the mitochondrial matrix, during pyruvate oxidation and the Krebs cycle",
+    "in the intermembrane space, during proton pumping",
+    "by ATP synthase"
+   ],
+   "ans": "C",
+   "exp": "Pyruvate dehydrogenase and the Krebs cycle (steps of isocitrate and α-ketoglutarate oxidation) run in the matrix and release all 6 CO₂ per glucose. Glycolysis and the electron transport chain release none.",
+   "perm": [
+    4,
+    0,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 19,
+   "stem": "Cyanide blocks complex IV of the electron transport chain. Why does ATP synthesis by ATP synthase then stop?",
+   "options": [
+    "ATP synthase is directly inhibited by cyanide.",
+    "Glycolysis stops, so there is no pyruvate.",
+    "The Krebs cycle accelerates and floods the matrix with protons.",
+    "Electron transfer stops, protons are no longer pumped, and the gradient that powers ATP synthase dissipates.",
+    "ATP synthase can run without a gradient for only a few minutes."
+   ],
+   "ans": "D",
+   "exp": "ATP synthase is driven by the proton-motive force; no pumping at complex IV (and upstream) means the gradient collapses and chemiosmosis halts.",
+   "perm": [
+    4,
+    2,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 20,
+   "stem": "The main purpose of the fermentation step (lactic acid or alcoholic) in anaerobic conditions is to:",
+   "options": [
+    "produce additional ATP beyond glycolysis",
+    "regenerate NAD⁺ so glycolysis can continue",
+    "remove glucose from the cell",
+    "synthesise NADH for the electron transport chain",
+    "eliminate CO₂ from the cell"
+   ],
+   "ans": "B",
+   "exp": "Fermentation re-oxidises the NADH made in glycolysis; the ATP all comes from glycolysis itself (2 net).",
+   "perm": [
+    3,
+    1,
+    4,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "M"
+  },
+  {
+   "n": 21,
+   "stem": "Two inhibitors were characterised for an enzyme. With inhibitor I, the apparent Km is 4× higher and Vmax is unchanged. With inhibitor II, Km is unchanged and Vmax falls to a quarter. Inhibitor I is best classified as:",
+   "options": [
+    "non-competitive",
+    "uncompetitive",
+    "competitive",
+    "an irreversible poison",
+    "an allosteric activator"
+   ],
+   "ans": "C",
+   "exp": "Raising Km at constant Vmax is the signature of a competitive inhibitor: substrate can outcompete it, so Vmax survives. II (Vmax down, Km same) is non-competitive.",
+   "perm": [
+    3,
+    0,
+    4,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Enzymes",
+   "lik": "H"
+  },
+  {
+   "n": 22,
+   "stem": "A cell's ATP is rapidly depleted by a metabolic poison. Which transport process will fail first?",
+   "options": [
+    "Na⁺/K⁺ pump activity",
+    "water movement through aquaporins",
+    "diffusion of oxygen through the membrane",
+    "facilitated diffusion of glucose down its gradient",
+    "osmosis"
+   ],
+   "ans": "A",
+   "exp": "Primary active transport consumes ATP directly. B, C, D and E are passive processes driven by gradients.",
+   "perm": [
+    2,
+    0,
+    4,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Membranes / transport",
+   "lik": "H"
+  },
+  {
+   "n": 23,
+   "stem": "The neurotransmitter released at the neuromuscular junction of vertebrates is:",
+   "options": [
+    "adrenaline",
+    "dopamine",
+    "GABA",
+    "acetylcholine",
+    "serotonin"
+   ],
+   "ans": "D",
+   "exp": "Acetylcholine crosses the neuromuscular junction and binds nicotinic receptors on the muscle fibre.",
+   "perm": [
+    2,
+    4,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Nervous system",
+   "lik": "H"
+  },
+  {
+   "n": 24,
+   "stem": "The resting membrane potential of a typical vertebrate neurone is closest to:",
+   "options": [
+    "0 mV",
+    "+30 mV",
+    "−30 mV",
+    "−55 mV",
+    "−70 mV"
+   ],
+   "ans": "E",
+   "exp": "Resting potential ≈ −70 mV; −55 mV is the typical threshold, and +30 mV the peak of the action potential.",
+   "perm": [
+    4,
+    3,
+    2,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Nervous system",
+   "lik": "H"
+  },
+  {
+   "n": 25,
+   "stem": "Vitamin K is required in the liver for the synthesis of:",
+   "options": [
+    "haemoglobin",
+    "prothrombin and other clotting factors",
+    "bile salts",
+    "insulin",
+    "albumin only"
+   ],
+   "ans": "B",
+   "exp": "Vitamin K is the cofactor for γ-carboxylation of clotting factors II, VII, IX and X; deficiency impairs clotting.",
+   "perm": [
+    1,
+    0,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Blood / circulatory",
+   "lik": "H"
+  },
+  {
+   "n": 26,
+   "stem": "After 12 hours without drinking, blood plasma osmolality rises. Which endocrine response helps conserve water?",
+   "options": [
+    "ADH (vasopressin) secretion increases",
+    "aldosterone secretion increases",
+    "insulin secretion increases",
+    "atrial natriuretic peptide secretion increases",
+    "cortisol secretion stops"
+   ],
+   "ans": "A",
+   "exp": "Raised osmolality is the primary stimulus for ADH, which inserts aquaporins in the collecting duct. ANP does the opposite; aldosterone mainly conserves sodium.",
+   "perm": [
+    2,
+    3,
+    1,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Endocrine / excretory",
+   "lik": "H"
+  },
+  {
+   "n": 27,
+   "stem": "In skeletal muscle contraction, which event directly exposes the myosin-binding sites on actin?",
+   "options": [
+    "ATP binding to myosin heads",
+    "calcium binding to tropomyosin",
+    "calcium binding to troponin",
+    "acetylcholine binding to the sarcolemma",
+    "sodium entering the sarcoplasmic reticulum"
+   ],
+   "ans": "C",
+   "exp": "Ca²⁺ binds troponin, which pulls tropomyosin away from the binding sites. (B reverses the two proteins; A is the power-stroke reset.)",
+   "perm": [
+    4,
+    2,
+    0,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Muscle",
+   "lik": "H"
+  },
+  {
+   "n": 28,
+   "stem": "Antibodies circulating in plasma are produced by:",
+   "options": [
+    "T helper cells",
+    "plasma cells differentiated from B lymphocytes",
+    "macrophages",
+    "platelets",
+    "cytotoxic T cells"
+   ],
+   "ans": "B",
+   "exp": "Activated B cells differentiate into antibody-secreting plasma cells. T cells coordinate or kill but do not secrete antibodies.",
+   "perm": [
+    2,
+    0,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Immunity",
+   "lik": "M"
+  },
+  {
+   "n": 29,
+   "stem": "A human cell has just completed DNA replication (S phase). Which chromosome/chromatid count is correct?",
+   "options": [
+    "23 chromosomes, 23 chromatids",
+    "46 chromosomes, 46 chromatids",
+    "92 chromosomes, 92 chromatids",
+    "46 chromosomes, 92 chromatids",
+    "92 chromosomes, 46 chromatids"
+   ],
+   "ans": "D",
+   "exp": "S phase doubles the DNA: the 46 chromosomes now each consist of 2 sister chromatids, still joined at centromeres, so the chromosome count stays 46.",
+   "perm": [
+    4,
+    1,
+    0,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell cycle",
+   "lik": "H"
+  },
+  {
+   "n": 30,
+   "stem": "The walls of the pulmonary alveoli are lined by:",
+   "options": [
+    "ciliated columnar epithelium",
+    "stratified squamous epithelium",
+    "transitional epithelium",
+    "simple cuboidal epithelium",
+    "simple squamous epithelium"
+   ],
+   "ans": "E",
+   "exp": "Gas exchange needs the thinnest possible barrier: one layer of flattened (squamous) cells.",
+   "perm": [
+    4,
+    3,
+    2,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Tissues",
+   "lik": "M"
+  },
+  {
+   "n": 31,
+   "stem": "The light-independent reactions of photosynthesis (Calvin cycle) take place in the:",
+   "options": [
+    "stroma of the chloroplast",
+    "thylakoid membranes",
+    "mitochondrial matrix",
+    "cytosol",
+    "thylakoid lumen"
+   ],
+   "ans": "A",
+   "exp": "Carbon fixation enzymes (including RuBisCO) are stromal; the thylakoid membranes host the light reactions.",
+   "perm": [
+    3,
+    0,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Photosynthesis",
+   "lik": "M"
+  },
+  {
+   "n": 32,
+   "stem": "Yeast cells are switched from aerobic to strictly anaerobic conditions. Which process can still produce ATP?",
+   "options": [
+    "the Krebs cycle",
+    "oxidative phosphorylation",
+    "glycolysis",
+    "proton flow through ATP synthase",
+    "fatty-acid β-oxidation feeding the electron transport chain"
+   ],
+   "ans": "C",
+   "exp": "Glycolysis needs no oxygen. Without O₂ the electron transport chain backs up, NAD⁺ runs short, and fermentation regenerates it; the Krebs cycle and β-oxidation stall.",
+   "perm": [
+    3,
+    1,
+    0,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 33,
+   "stem": "What is the oxidation number of chromium in the dichromate ion, Cr₂O₇²⁻?",
+   "options": [
+    "+3",
+    "+5",
+    "+6",
+    "+7",
+    "+12"
+   ],
+   "ans": "C",
+   "exp": "2x + 7(−2) = −2, so 2x = +12 and x = +6. (+12 is the undivided 2x; +7 is the permanganate manganese.)",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Redox / oxidation numbers",
+   "lik": "H"
+  },
+  {
+   "n": 34,
+   "stem": "In the reaction Zn(s) + 2HCl(aq) → ZnCl₂(aq) + H₂(g), the reducing agent is:",
+   "options": [
+    "Zn",
+    "H⁺",
+    "Cl⁻",
+    "H₂",
+    "Zn²⁺"
+   ],
+   "ans": "A",
+   "exp": "Zn is oxidised (0 → +2) and donates the electrons that reduce H⁺ (+1 → 0). The reducing agent is the species that is itself oxidised.",
+   "perm": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Redox",
+   "lik": "H"
+  },
+  {
+   "n": 35,
+   "stem": "Which molecule has a net dipole moment (is polar overall)?",
+   "options": [
+    "CO₂",
+    "CCl₄",
+    "CH₃Cl",
+    "BF₃",
+    "CH₄"
+   ],
+   "ans": "C",
+   "exp": "CH₃Cl is tetrahedral but asymmetric: the polar C–Cl bond is not cancelled. CO₂, CCl₄, BF₃ and CH₄ are all symmetric, so their bond dipoles cancel.",
+   "perm": [
+    1,
+    3,
+    4,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bonding / polarity",
+   "lik": "H"
+  },
+  {
+   "n": 36,
+   "stem": "0.001 M hydrochloric acid (pH 3) is diluted tenfold with water. The pH of the new solution is:",
+   "options": [
+    "2",
+    "4",
+    "3 (unchanged)",
+    "5",
+    "7"
+   ],
+   "ans": "B",
+   "exp": "[H⁺] falls from 10⁻³ to 10⁻⁴ M, so pH rises by exactly one unit to 4. Each tenfold dilution of strong acid adds 1 pH unit.",
+   "perm": [
+    0,
+    4,
+    2,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 37,
+   "stem": "What is the pH of a 0.01 M solution of NaOH at 25 °C? (Kw = 1.0 × 10⁻¹⁴)",
+   "options": [
+    "2",
+    "10",
+    "11",
+    "12",
+    "13"
+   ],
+   "ans": "D",
+   "exp": "[OH⁻] = 10⁻², so pOH = 2 and pH = 14 − 2 = 12.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 38,
+   "stem": "3 mol of H₂ are mixed with 2 mol of O₂ and sparked: 2H₂ + O₂ → 2H₂O. What is the maximum amount of water formed?",
+   "options": [
+    "3 mol",
+    "2 mol",
+    "4 mol",
+    "1.5 mol",
+    "6 mol"
+   ],
+   "ans": "A",
+   "exp": "H₂ is limiting: 3 mol H₂ needs only 1.5 mol O₂ (available: 2), and the ratio gives 3 mol H₂O. (2 mol answers treat the ratio as 1:1.)",
+   "perm": [
+    3,
+    1,
+    0,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Stoichiometry",
+   "lik": "H"
+  },
+  {
+   "n": 39,
+   "stem": "20 mL of a 1.5 M HCl solution is diluted with water to a final volume of 150 mL. The concentration of the diluted solution is:",
+   "options": [
+    "0.10 M",
+    "0.15 M",
+    "0.20 M",
+    "0.25 M",
+    "0.30 M"
+   ],
+   "ans": "C",
+   "exp": "Moles stay constant: 0.020 L × 1.5 M = 0.030 mol; 0.030/0.150 = 0.20 M.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Solutions",
+   "lik": "H"
+  },
+  {
+   "n": 40,
+   "stem": "How many molecules are present in 0.50 mol of CO₂? (Nₐ = 6.02 × 10²³ mol⁻¹)",
+   "options": [
+    "3.01 × 10²²",
+    "3.01 × 10²³",
+    "6.02 × 10²³",
+    "1.20 × 10²⁴",
+    "9.03 × 10²³"
+   ],
+   "ans": "B",
+   "exp": "0.50 × 6.02 × 10²³ = 3.01 × 10²³ molecules. (E is the number of atoms in the sample, 3 × 3.01 × 10²³; the question asked for molecules.)",
+   "perm": [
+    0,
+    1,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Mole concept",
+   "lik": "H"
+  },
+  {
+   "n": 41,
+   "stem": "A sealed elastic balloon at constant pressure holds air at 27 °C. It is warmed to 327 °C. Its volume:",
+   "options": [
+    "halves",
+    "stays the same",
+    "increases about 12-fold",
+    "doubles",
+    "increases about 1.1-fold"
+   ],
+   "ans": "D",
+   "exp": "Charles's law uses kelvin: 300 K → 600 K, so V doubles. (C is the trap for using Celsius: 327/27 ≈ 12.)",
+   "perm": [
+    4,
+    3,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Gas laws",
+   "lik": "M"
+  },
+  {
+   "n": 42,
+   "stem": "Which atom has the largest radius?",
+   "options": [
+    "Na",
+    "Mg",
+    "Al",
+    "Cl",
+    "K"
+   ],
+   "ans": "E",
+   "exp": "Radius grows down a group and shrinks across a period. K is one period below Na, Mg, Al and Cl, so it is the largest.",
+   "perm": [
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Periodic table",
+   "lik": "M"
+  },
+  {
+   "n": 43,
+   "stem": "A white crystalline solid has a high melting point, shatters when struck, and conducts electricity only when molten or dissolved. It is most likely:",
+   "options": [
+    "an ionic compound such as NaCl",
+    "a metal such as copper",
+    "a covalent molecular solid such as wax",
+    "graphite",
+    "a network covalent solid such as quartz"
+   ],
+   "ans": "A",
+   "exp": "Ionic solids: ions locked in place (insulating) until molten/dissolved; brittleness comes from ion layers slipping and repelling. B conducts as a solid; C (a molecular solid) fails on melting point; D (graphite) also conducts as a solid.",
+   "perm": [
+    1,
+    2,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bonding",
+   "lik": "M"
+  },
+  {
+   "n": 44,
+   "stem": "Ethanoic acid reacts with ethanol in the presence of a few drops of concentrated H₂SO₄. The organic product is:",
+   "options": [
+    "ethanol",
+    "ethanoic anhydride",
+    "ethyl ethanoate",
+    "ethanal",
+    "sodium ethanoate"
+   ],
+   "ans": "C",
+   "exp": "Acid + alcohol → ester + water (esterification); the ester here is ethyl ethanoate.",
+   "perm": [
+    4,
+    3,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic chemistry",
+   "lik": "H"
+  },
+  {
+   "n": 45,
+   "stem": "Which single observation distinguishes ethene from ethane?",
+   "options": [
+    "Both burn in air with a luminous flame.",
+    "Ethene decolourises bromine water; ethane does not (under these conditions).",
+    "Ethane is a gas; ethene is a liquid at room temperature.",
+    "Ethene dissolves freely in water.",
+    "Ethane contains a carbon-carbon double bond."
+   ],
+   "ans": "B",
+   "exp": "The C=C bond of ethene adds bromine rapidly, decolourising it; ethane reacts only under UV substitution, too slow/slight to see here. Both are gases at room temperature and neither is water-soluble.",
+   "perm": [
+    1,
+    3,
+    4,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic chemistry",
+   "lik": "H"
+  },
+  {
+   "n": 46,
+   "stem": "For the exothermic equilibrium 2SO₂ + O₂ ⇌ 2SO₃, raising the temperature at constant pressure:",
+   "options": [
+    "increases both the rate and the equilibrium yield",
+    "decreases the rate but increases the yield",
+    "increases the rate and leaves the yield unchanged",
+    "increases the rate but decreases the equilibrium yield",
+    "affects neither rate nor yield"
+   ],
+   "ans": "D",
+   "exp": "Heating always speeds a reaction (more molecules exceed Eₐ), but for an exothermic equilibrium it shifts the position left (Le Chatelier), lowering the yield.",
+   "perm": [
+    1,
+    4,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Equilibrium / kinetics",
+   "lik": "H"
+  },
+  {
+   "n": 47,
+   "stem": "A solution contains 0.10 mol of glucose dissolved in 500 g of water. Its molality is:",
+   "options": [
+    "0.20 mol/kg",
+    "0.10 mol/kg",
+    "0.50 mol/kg",
+    "2.0 mol/kg",
+    "0.05 mol/kg"
+   ],
+   "ans": "A",
+   "exp": "Molality = mol solute / kg solvent = 0.10 / 0.500 = 0.20 mol/kg. (C confuses solvent with solution mass.)",
+   "perm": [
+    4,
+    1,
+    0,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Solutions",
+   "lik": "M"
+  },
+  {
+   "n": 48,
+   "stem": "Solve the inequality 5 − 3x ≥ 14.",
+   "options": [
+    "x ≥ −3",
+    "x ≤ −3",
+    "x ≤ 3",
+    "x ≥ 3",
+    "x < −3"
+   ],
+   "ans": "B",
+   "exp": "−3x ≥ 9; dividing by the negative −3 flips the sign: x ≤ −3. (A is the classic no-flip trap; E drops the equality.)",
+   "perm": [
+    4,
+    1,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Inequalities",
+   "lik": "H"
+  },
+  {
+   "n": 49,
+   "stem": "What is the domain of f(x) = √(4 − x) / (x − 2)?",
+   "options": [
+    "all real numbers",
+    "x < 4",
+    "x ≤ 4",
+    "x ≤ 4 with x ≠ 4",
+    "x ≤ 4 with x ≠ 2"
+   ],
+   "ans": "E",
+   "exp": "The square root needs 4 − x ≥ 0, i.e. x ≤ 4; the denominator excludes x = 2.",
+   "perm": [
+    0,
+    2,
+    3,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Functions / domain",
+   "lik": "H"
+  },
+  {
+   "n": 50,
+   "stem": "What is the value of log₃ 81?",
+   "options": [
+    "3",
+    "9",
+    "27",
+    "4",
+    "81"
+   ],
+   "ans": "D",
+   "exp": "3⁴ = 81, so the logarithm is 4. (C answers \"log of 27\" instead.)",
+   "perm": [
+    0,
+    3,
+    1,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logarithms",
+   "lik": "H"
+  },
+  {
+   "n": 51,
+   "stem": "Three fair coins are tossed. What is the probability of getting at least one head?",
+   "options": [
+    "1/2",
+    "3/8",
+    "7/8",
+    "1/8",
+    "2/3"
+   ],
+   "ans": "C",
+   "exp": "P(no head) = (1/2)³ = 1/8, so P(at least one) = 1 − 1/8 = 7/8.",
+   "perm": [
+    3,
+    1,
+    0,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Probability",
+   "lik": "H"
+  },
+  {
+   "n": 52,
+   "stem": "A straight ramp 10 m long makes a 60° angle with the horizontal ground. How far along the ground does the ramp span (horizontal distance between its two ends)? (cos 60° = 0.5, sin 60° = 0.87)",
+   "options": [
+    "5 m",
+    "8.7 m",
+    "10 m",
+    "2.5 m",
+    "6.7 m"
+   ],
+   "ans": "A",
+   "exp": "Horizontal projection = 10 × cos 60° = 5 m. (B is the vertical height: 10 × sin 60°.)",
+   "perm": [
+    3,
+    0,
+    4,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Trigonometry",
+   "lik": "H"
+  },
+  {
+   "n": 53,
+   "stem": "If f(x) = 2x − 3 and g(x) = x², what is f(g(2))?",
+   "options": [
+    "1",
+    "2",
+    "4",
+    "8",
+    "5"
+   ],
+   "ans": "E",
+   "exp": "g(2) = 4, then f(4) = 8 − 3 = 5. (D drops the −3 after doubling; g(f(2)) = 1 is option A.)",
+   "perm": [
+    0,
+    1,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Functions",
+   "lik": "M"
+  },
+  {
+   "n": 54,
+   "stem": "Simplify (2⁵ × 2³) ÷ 2⁴.",
+   "options": [
+    "8",
+    "16",
+    "32",
+    "64",
+    "4"
+   ],
+   "ans": "B",
+   "exp": "Exponents add then subtract: 2^(5+3−4) = 2⁴ = 16.",
+   "perm": [
+    4,
+    0,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Exponents",
+   "lik": "M"
+  },
+  {
+   "n": 55,
+   "stem": "A 6 V battery drives a current through a 2 Ω resistor connected in series with a parallel pair made of a 6 Ω and a 3 Ω resistor. What current flows from the battery?",
+   "options": [
+    "0.5 A",
+    "1.0 A",
+    "3.0 A",
+    "1.5 A",
+    "6.0 A"
+   ],
+   "ans": "D",
+   "exp": "Parallel pair: 1/R = 1/6 + 1/3 = 1/2, so R = 2 Ω. Total = 2 + 2 = 4 Ω; I = 6/4 = 1.5 A. (C forgets the series 2 Ω and gives 6/2; A puts all three in series, 11 Ω.)",
+   "perm": [
+    0,
+    1,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Circuits",
+   "lik": "H"
+  },
+  {
+   "n": 56,
+   "stem": "A kettle draws 4.6 A from a 230 V supply. Its power consumption is closest to:",
+   "options": [
+    "50 W",
+    "230 W",
+    "1060 W",
+    "2300 W",
+    "4600 W"
+   ],
+   "ans": "C",
+   "exp": "P = VI = 230 × 4.6 ≈ 1058 W ≈ 1060 W.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Electricity",
+   "lik": "H"
+  },
+  {
+   "n": 57,
+   "stem": "Equal masses of aluminium (specific heat 900 J/(kg·K)) and copper (specific heat 385 J/(kg·K)) receive the same quantity of heat. Which statement is correct?",
+   "options": [
+    "Copper's temperature rises about 2.3 times more than aluminium's.",
+    "Aluminium's temperature rises more than copper's.",
+    "Both rise by the same amount.",
+    "Copper's temperature does not change.",
+    "It cannot be determined without knowing the exact heat supplied."
+   ],
+   "ans": "A",
+   "exp": "ΔT = Q/(mc): same Q and m means ΔT ∝ 1/c, so 900/385 ≈ 2.3. The ratio is all that matters, not the value of Q.",
+   "perm": [
+    0,
+    3,
+    1,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Thermal physics",
+   "lik": "H"
+  },
+  {
+   "n": 58,
+   "stem": "A car travelling at 20 m/s brakes uniformly and comes to rest in 4.0 s. The magnitude of its deceleration is:",
+   "options": [
+    "0.2 m/s²",
+    "4 m/s²",
+    "16 m/s²",
+    "20 m/s²",
+    "5 m/s²"
+   ],
+   "ans": "E",
+   "exp": "a = Δv/t = (20 − 0)/4.0 = 5 m/s².",
+   "perm": [
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Kinematics",
+   "lik": "H"
+  },
+  {
+   "n": 59,
+   "stem": "A velocity-time graph shows: a linear rise from 0 to 4 m/s during the first 4 s, a constant 4 m/s for the next 4 s, then a linear fall back to 0 over the final 4 s. What total distance is covered?",
+   "options": [
+    "16 m",
+    "24 m",
+    "32 m",
+    "40 m",
+    "48 m"
+   ],
+   "ans": "C",
+   "exp": "Distance = area under the graph = trapezoid with parallel sides 12 s and 4 s, height 4 m/s: ½ × (12 + 4) × 4 = 32 m.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Kinematics / graphs",
+   "lik": "H"
+  },
+  {
+   "n": 60,
+   "stem": "A block floats stationary in water. Which statement must be true?",
+   "options": [
+    "The block displaces a volume of water equal to its own volume.",
+    "The weight of the displaced water equals the weight of the block.",
+    "The density of the block is greater than that of water.",
+    "The buoyant force is zero.",
+    "The mass of displaced water equals the volume of the block."
+   ],
+   "ans": "B",
+   "exp": "Floating equilibrium: buoyant force (weight of displaced fluid) = weight of the object. A holds only for a density-matched block; C would sink; D contradicts equilibrium.",
+   "perm": [
+    2,
+    0,
+    4,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Fluid mechanics",
+   "lik": "M"
+  }
+ ]
+}

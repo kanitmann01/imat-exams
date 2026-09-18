@@ -1,0 +1,1743 @@
+{
+ "schema": 1,
+ "id": "Repair_Drill_1",
+ "title": "IMAT REPAIR DRILL — Repeat Offenders",
+ "kind": "repair_drill",
+ "durationSec": 6000,
+ "maxTenths": 1050,
+ "targetScore": null,
+ "sections": [
+  {
+   "code": "A",
+   "from": 1,
+   "to": 12,
+   "label": "Section A - Respiration & Bioenergetics",
+   "short": "Respiration"
+  },
+  {
+   "code": "B",
+   "from": 13,
+   "to": 20,
+   "label": "Section B - Body Systems",
+   "short": "Body Systems"
+  },
+  {
+   "code": "C",
+   "from": 21,
+   "to": 30,
+   "label": "Section C - Cell Division & Cell Biology",
+   "short": "Cell & Division"
+  },
+  {
+   "code": "D",
+   "from": 31,
+   "to": 44,
+   "label": "Section D - Quantitative Chemistry",
+   "short": "Quant Chem"
+  },
+  {
+   "code": "E",
+   "from": 45,
+   "to": 53,
+   "label": "Section E - Mathematics",
+   "short": "Maths"
+  },
+  {
+   "code": "F",
+   "from": 54,
+   "to": 62,
+   "label": "Section F - Physics",
+   "short": "Physics"
+  },
+  {
+   "code": "G",
+   "from": 63,
+   "to": 70,
+   "label": "Section G - Logic & Reasoning",
+   "short": "Logic"
+  }
+ ],
+ "bankVersion": "bad8db1e0",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "In a eukaryotic cell, the enzymes that catalyse the citric acid (Krebs) cycle are located mainly in the:",
+   "options": [
+    "inner mitochondrial membrane",
+    "cytosol",
+    "intermembrane space",
+    "mitochondrial matrix",
+    "outer mitochondrial membrane"
+   ],
+   "ans": "D",
+   "exp": "The Krebs cycle enzymes (all except succinate dehydrogenase) sit free in the matrix, where acetyl-CoA enters the cycle. The inner membrane is the site of the electron transport chain and ATP synthase, so that option confuses the cycle's location with the chemiosmotic machinery.",
+   "perm": [
+    1,
+    0,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiration & Bioenergetics · Krebs location",
+   "lik": "H"
+  },
+  {
+   "n": 2,
+   "stem": "Which of the following processes occurs in the mitochondrial matrix?",
+   "options": [
+    "oxidation of acetyl-CoA to CO2 in the citric acid cycle",
+    "ATP synthesis driven by a proton gradient",
+    "conversion of glucose to pyruvate",
+    "electron transfer between respiratory complexes I and IV",
+    "reduction of O2 to water at complex IV"
+   ],
+   "ans": "A",
+   "exp": "Only the citric acid cycle runs in the matrix; ATP synthesis, electron transport and O2 reduction occur at the inner membrane, and glycolysis is cytosolic. A common error is placing the whole respiratory chain in the matrix instead of the inner membrane.",
+   "perm": [
+    1,
+    2,
+    3,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiration & Bioenergetics · Matrix vs membrane processes",
+   "lik": "M"
+  },
+  {
+   "n": 3,
+   "stem": "In human cells, ATP synthase is located in the:",
+   "options": [
+    "mitochondrial matrix",
+    "outer mitochondrial membrane",
+    "inner mitochondrial membrane",
+    "intermembrane space",
+    "cytosol"
+   ],
+   "ans": "C",
+   "exp": "ATP synthase is embedded in the inner mitochondrial membrane, where it uses the H+ gradient between the intermembrane space and the matrix to make ATP. Placing it in the matrix confuses the site of the Krebs cycle with the site of oxidative phosphorylation.",
+   "perm": [
+    4,
+    3,
+    0,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiration & Bioenergetics · ATP synthase location",
+   "lik": "H"
+  },
+  {
+   "n": 4,
+   "stem": "Cyanide blocks complex IV, the last complex of the electron transport chain. What is the most immediate effect on ATP synthase?",
+   "options": [
+    "It continues making ATP because it phosphorylates ADP by substrate-level phosphorylation.",
+    "It makes more ATP because protons accumulate in the matrix.",
+    "It switches to using electrons taken directly from glucose.",
+    "It keeps working normally because ATP synthase is not part of the electron transport chain.",
+    "It stops making ATP because the H+ gradient across the inner membrane dissipates."
+   ],
+   "ans": "E",
+   "exp": "O2 is the final electron acceptor at complex IV; when it cannot accept electrons the chain backs up, proton pumping stops, and the gradient that powers ATP synthase collapses. Although ATP synthase is not itself an ETC complex, it depends entirely on that gradient, so option 4 is wrong.",
+   "perm": [
+    4,
+    0,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiration & Bioenergetics · Proton gradient and complex IV",
+   "lik": "H"
+  },
+  {
+   "n": 5,
+   "stem": "During the complete aerobic oxidation of one glucose molecule, carbon dioxide is released:",
+   "options": [
+    "during glycolysis only",
+    "during pyruvate oxidation and the citric acid cycle",
+    "during the electron transport chain only",
+    "during glycolysis and the electron transport chain",
+    "during substrate-level phosphorylation only"
+   ],
+   "ans": "B",
+   "exp": "CO2 is released when carbon leaves the fuel: twice per glucose in pyruvate oxidation (the link reaction) and four more times in the Krebs cycle. Glycolysis and the electron transport chain release no CO2, because the ETC moves electrons, not carbon skeletons.",
+   "perm": [
+    1,
+    0,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiration & Bioenergetics · CO2 release phases",
+   "lik": "H"
+  },
+  {
+   "n": 6,
+   "stem": "A working muscle cell temporarily carries out only glycolysis followed by lactic acid fermentation. How many molecules of CO2 are released per molecule of glucose consumed?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "0",
+    "6"
+   ],
+   "ans": "D",
+   "exp": "Glycolysis converts glucose to pyruvate without losing any carbon, and lactic acid fermentation reduces pyruvate to lactate without decarboxylation, so no CO2 forms. The tempting '2' wrongly imports the CO2 count of pyruvate oxidation, a step that does not occur in this anaerobic pathway.",
+   "perm": [
+    3,
+    0,
+    1,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiration & Bioenergetics · Anaerobic CO2 output",
+   "lik": "H"
+  },
+  {
+   "n": 7,
+   "stem": "Most of the carbon dioxide carried in human blood is transported:",
+   "options": [
+    "as bicarbonate ions (HCO3-) in the plasma",
+    "as carbaminohemoglobin bound to hemoglobin",
+    "dissolved as CO2 in the plasma",
+    "as carbonic acid bound to albumin",
+    "attached to the heme iron of hemoglobin"
+   ],
+   "ans": "A",
+   "exp": "About 70% of blood CO2 travels as bicarbonate ions, generated by carbonic anhydrase in red blood cells; only about 23% travels as carbaminohemoglobin and about 7% dissolves in plasma. Choosing carbaminohemoglobin overrates a real but minority route, and CO2 binds the globin part of hemoglobin, not the heme iron that carries O2.",
+   "perm": [
+    4,
+    2,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiration & Bioenergetics · CO2 transport in blood",
+   "lik": "H"
+  },
+  {
+   "n": 8,
+   "stem": "Approximately what percentage of the carbon dioxide in human blood is transported as bicarbonate ions (HCO3-)?",
+   "options": [
+    "about 23%",
+    "about 7%",
+    "about 70%",
+    "about 97%",
+    "about 50%"
+   ],
+   "ans": "C",
+   "exp": "Roughly 70% of CO2 travels as bicarbonate formed via carbonic anhydrase in red blood cells. The 23% option is the true figure for carbaminohemoglobin and 7% is the dissolved fraction, so both distractors come from swapping the genuine transport pools; 97% is the familiar O2 saturation figure.",
+   "perm": [
+    2,
+    1,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiration & Bioenergetics · CO2 transport percentages",
+   "lik": "H"
+  },
+  {
+   "n": 9,
+   "stem": "When a cell's ATP concentration is high, the rate of glycolysis falls. This happens because ATP:",
+   "options": [
+    "competes with fructose-6-phosphate for the active site of phosphofructokinase-1",
+    "activates phosphofructokinase-1 and accelerates glucose breakdown",
+    "competitively inhibits pyruvate kinase",
+    "irreversibly blocks the active site of hexokinase",
+    "binds allosterically to phosphofructokinase-1 and lowers its activity"
+   ],
+   "ans": "E",
+   "exp": "ATP is an allosteric (non-competitive) inhibitor of PFK-1, the rate-limiting enzyme of glycolysis; AMP allosterically activates PFK-1 and citrate adds further allosteric inhibition. The classic wrong pick is 'competitive': ATP binds a regulatory site away from the active site, not the substrate-binding pocket.",
+   "perm": [
+    1,
+    2,
+    0,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiration & Bioenergetics · PFK-1 allosteric regulation",
+   "lik": "H"
+  },
+  {
+   "n": 10,
+   "stem": "In a eukaryotic cell, complete oxidation of one glucose molecule yields roughly 30-32 ATP. Most of this ATP is produced by:",
+   "options": [
+    "substrate-level phosphorylation in glycolysis",
+    "oxidative phosphorylation powered by the electron transport chain",
+    "substrate-level phosphorylation in the citric acid cycle",
+    "direct phosphorylation during pyruvate oxidation",
+    "lactic acid fermentation inside the mitochondria"
+   ],
+   "ans": "B",
+   "exp": "Glycolysis nets only 2 ATP by substrate-level phosphorylation and the Krebs cycle adds just 2 GTP, so the remaining ~26-28 ATP come from chemiosmosis at the inner membrane. Picking a substrate-level step mistakes the small direct yield for the bulk of the total.",
+   "perm": [
+    0,
+    3,
+    2,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiration & Bioenergetics · Majority ATP from ETC",
+   "lik": "M"
+  },
+  {
+   "n": 11,
+   "stem": "During skeletal muscle contraction, the myosin heads attach directly to:",
+   "options": [
+    "troponin",
+    "tropomyosin",
+    "calcium ions",
+    "actin",
+    "the Z disc"
+   ],
+   "ans": "D",
+   "exp": "Cross-bridge cycling requires myosin heads to bind actin filaments; Ca2+ instead binds troponin, which shifts tropomyosin aside to expose the myosin-binding sites on actin. Choosing troponin or tropomyosin confuses the regulatory proteins with myosin's direct mechanical partner.",
+   "perm": [
+    3,
+    2,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiration & Bioenergetics · Myosin-actin binding",
+   "lik": "M"
+  },
+  {
+   "n": 12,
+   "stem": "When oxygen is unavailable, yeast and muscle cells run fermentation chiefly in order to:",
+   "options": [
+    "regenerate NAD+ so that glycolysis can continue",
+    "generate extra ATP beyond that made in glycolysis",
+    "produce NADH for the electron transport chain",
+    "convert NAD+ into NADP+",
+    "remove excess NAD+ from the cytosol"
+   ],
+   "ans": "A",
+   "exp": "Fermentation's payoff is recycling the NADH produced by glycolysis back to NAD+, keeping the net-2-ATP glycolytic pathway running without O2. 'Extra ATP' is the classic error, because the fermentation steps themselves make no ATP at all.",
+   "perm": [
+    4,
+    2,
+    3,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiration & Bioenergetics · Fermentation and NAD+",
+   "lik": "H"
+  },
+  {
+   "n": 13,
+   "stem": "Bile, which is produced by the liver and stored in the gallbladder, assists fat digestion primarily by...",
+   "options": [
+    "activating pepsinogen into pepsin in the stomach",
+    "hydrolysing triglycerides into fatty acids and glycerol",
+    "emulsifying large fat globules into tiny droplets, increasing the surface area available to lipase",
+    "secreting lipase, the enzyme that chemically digests fats",
+    "lowering the pH of chyme so that pancreatic enzymes can act"
+   ],
+   "ans": "C",
+   "exp": "Bile salts mechanically emulsify fats into small droplets so lipase can work on a larger surface; bile itself contains no enzymes. The classic wrong pick, 'activates pepsinogen', describes the job of hydrochloric acid in the stomach, not bile.",
+   "perm": [
+    3,
+    0,
+    4,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Body systems · bile",
+   "lik": "H"
+  },
+  {
+   "n": 14,
+   "stem": "During a normal inhalation, which sequence of events occurs?",
+   "options": [
+    "The diaphragm contracts and flattens, thoracic volume decreases, and pressure inside the lungs rises.",
+    "The diaphragm contracts and flattens, thoracic volume increases, and pressure inside the lungs rises above atmospheric.",
+    "The diaphragm relaxes and domes upward, thoracic volume decreases, and pressure inside the lungs rises above atmospheric.",
+    "The diaphragm relaxes and domes upward, thoracic volume increases, and pressure in the lungs falls below atmospheric.",
+    "The diaphragm contracts and flattens, thoracic volume increases, and pressure in the lungs falls below atmospheric, drawing air in."
+   ],
+   "ans": "E",
+   "exp": "Contraction flattens the diaphragm and enlarges the thoracic cavity; the greater volume lowers lung pressure below atmospheric, so air flows in. The picks 'lung volume decreases' and 'pressure inside the lungs rises' invert the actual volume and pressure changes of inhalation.",
+   "perm": [
+    1,
+    3,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Body systems · inhalation mechanics",
+   "lik": "H"
+  },
+  {
+   "n": 15,
+   "stem": "During quiet breathing at rest, expiration is best described as...",
+   "options": [
+    "an active process in which the diaphragm contracts and flattens to push air out",
+    "a passive process in which the diaphragm relaxes and domes upward, reducing thoracic volume",
+    "a passive process in which the diaphragm relaxes while thoracic volume increases",
+    "an active process in which the abdominal muscles contract forcibly to empty the lungs",
+    "a passive process in which the diaphragm contracts while thoracic volume stays constant"
+   ],
+   "ans": "B",
+   "exp": "Quiet expiration is passive: the diaphragm relaxes and domes up, thoracic volume falls, and elastic recoil pushes air out. Contracting and flattening is what the diaphragm does in inhalation, and forceful abdominal contraction belongs to forced, not quiet, expiration.",
+   "perm": [
+    4,
+    0,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Body systems · expiration",
+   "lik": "M"
+  },
+  {
+   "n": 16,
+   "stem": "Oxygenated blood is delivered to the systemic circulation by which route?",
+   "options": [
+    "From the right atrium into the vena cava",
+    "From the right ventricle into the aorta",
+    "From the left atrium into the pulmonary vein",
+    "From the left ventricle into the aorta",
+    "From the left ventricle into the pulmonary artery"
+   ],
+   "ans": "D",
+   "exp": "The left ventricle pumps oxygenated blood into the aorta for distribution to the whole body. The right atrium only receives deoxygenated blood returning through the venae cavae, and the right ventricle sends blood to the lungs via the pulmonary artery.",
+   "perm": [
+    4,
+    0,
+    1,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Body systems · heart chambers",
+   "lik": "H"
+  },
+  {
+   "n": 17,
+   "stem": "The semilunar valves of the heart prevent...",
+   "options": [
+    "blood from flowing back from the aorta and pulmonary artery into the ventricles",
+    "blood from flowing back from the ventricles into the atria",
+    "blood from flowing back from the atria into the venae cavae and pulmonary veins",
+    "blood from flowing from the atria into the ventricles during diastole",
+    "blood from flowing from the pulmonary veins into the left atrium"
+   ],
+   "ans": "A",
+   "exp": "Semilunar valves guard the ventricular exits (aorta, pulmonary artery), closing when the ventricles relax so blood cannot re-enter them. The classic wrong pick, backflow from ventricles into atria, is prevented by the AV valves (tricuspid and mitral), not the semilunar valves.",
+   "perm": [
+    0,
+    1,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Body systems · heart valves",
+   "lik": "M"
+  },
+  {
+   "n": 18,
+   "stem": "The urinary bladder must tolerate repeated stretching as it fills with urine. Which epithelium lines it?",
+   "options": [
+    "Simple columnar epithelium",
+    "Simple squamous epithelium",
+    "Transitional epithelium",
+    "Stratified squamous epithelium",
+    "Ciliated pseudostratified epithelium"
+   ],
+   "ans": "C",
+   "exp": "Transitional (urothelial) epithelium is specialised to stretch and recoil without leaking, which is why it lines the bladder and ureters. Columnar epithelium is built for secretion and absorption and cannot accommodate that degree of distension.",
+   "perm": [
+    0,
+    2,
+    1,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Body systems · epithelial tissues",
+   "lik": "M"
+  },
+  {
+   "n": 19,
+   "stem": "The kidney tubules and many secretory glands are lined mainly by which epithelium?",
+   "options": [
+    "Simple squamous epithelium",
+    "Simple columnar epithelium",
+    "Stratified squamous epithelium",
+    "Transitional epithelium",
+    "Simple cuboidal epithelium"
+   ],
+   "ans": "E",
+   "exp": "Simple cuboidal cells, with enough cytoplasm for secretion and absorption, dominate glandular tissue and kidney tubules. The classic wrong pick, simple squamous, is thin and flat for diffusion and is found in the alveoli and vessel linings, not in secretory glands.",
+   "perm": [
+    3,
+    2,
+    0,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Body systems · epithelial tissues",
+   "lik": "M"
+  },
+  {
+   "n": 20,
+   "stem": "Ciliated epithelium lining the trachea serves mainly to...",
+   "options": [
+    "secrete the mucus that traps inhaled particles",
+    "sweep mucus with trapped dust and microbes upward toward the pharynx",
+    "provide the main surface for gas exchange with the blood",
+    "absorb oxygen directly from the air passing through the trachea",
+    "contract rhythmically to narrow the airway during coughing"
+   ],
+   "ans": "B",
+   "exp": "Coordinated ciliary beating transports the mucus blanket, with trapped debris, upward so it can be swallowed or expelled. Mucus is secreted by goblet cells rather than produced by the beating itself, and gas exchange occurs in the simple squamous alveoli.",
+   "perm": [
+    3,
+    4,
+    1,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Body systems · ciliated epithelium",
+   "lik": "M"
+  },
+  {
+   "n": 21,
+   "stem": "Nondisjunction in meiosis I, meaning the failure of homologous chromosomes to separate from each other, occurs during:",
+   "options": [
+    "telophase I",
+    "prophase I",
+    "metaphase I",
+    "anaphase I",
+    "anaphase II"
+   ],
+   "ans": "D",
+   "exp": "Homologous chromosomes physically separate in anaphase I, so their failure to part is anaphase I nondisjunction. Telophase I is the classic wrong pick, but by telophase the chromosomes have already reached the poles, so a separation failure must have happened earlier, during anaphase.",
+   "perm": [
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell Division, Genetics & Cell Biology · Nondisjunction timing",
+   "lik": "H"
+  },
+  {
+   "n": 22,
+   "stem": "In a human primary spermatocyte (2n = 46) undergoing meiosis II, nondisjunction would be the failure of which structures to separate?",
+   "options": [
+    "sister chromatids of each chromosome",
+    "homologous chromosomes of each pair",
+    "bivalents at the metaphase plate",
+    "non-sister chromatids at the chiasmata",
+    "chromosomes from the spindle poles"
+   ],
+   "ans": "A",
+   "exp": "Meiosis II separates sister chromatids, the identical DNA copies of one chromosome held together at the centromere, so their failure to part defines meiosis-II nondisjunction. Homologous chromosomes already separated in anaphase I, the usual mix-up; a normal sperm from this cell ends up with 23 chromosomes.",
+   "perm": [
+    4,
+    1,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell Division, Genetics & Cell Biology · Sister chromatids and meiosis II",
+   "lik": "M"
+  },
+  {
+   "n": 23,
+   "stem": "Independent assortment of maternal and paternal chromosomes results from their random orientation at the metaphase plate. This alignment of homologous pairs occurs during:",
+   "options": [
+    "metaphase II of meiosis",
+    "prophase I of meiosis",
+    "metaphase I of meiosis",
+    "metaphase of mitosis",
+    "telophase I of meiosis"
+   ],
+   "ans": "C",
+   "exp": "Homologous pairs line up randomly as tetrads at metaphase I, and this orientation alone decides which combinations reach the gametes. Metaphase II is the classic wrong pick, but by then homologues have already separated and only individual chromosomes align.",
+   "perm": [
+    1,
+    4,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell Division, Genetics & Cell Biology · Independent assortment",
+   "lik": "H"
+  },
+  {
+   "n": 24,
+   "stem": "Crossing over, the exchange of corresponding segments between homologous chromosomes, takes place during:",
+   "options": [
+    "metaphase I",
+    "anaphase I",
+    "prophase II",
+    "telophase II",
+    "prophase I"
+   ],
+   "ans": "E",
+   "exp": "While homologues are paired as bivalents in prophase I, non-sister chromatids form chiasmata and exchange segments. Metaphase I only aligns the already-crossed-over pairs, so placing crossing over there confuses pairing and exchange with orientation on the spindle.",
+   "perm": [
+    4,
+    1,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell Division, Genetics & Cell Biology · Crossing over",
+   "lik": "M"
+  },
+  {
+   "n": 25,
+   "stem": "Glucose and galactose differ in the spatial arrangement of the hydroxyl group at a single chiral carbon, C-4. They are therefore classified as:",
+   "options": [
+    "enantiomers",
+    "epimers",
+    "anomers",
+    "structural isomers",
+    "cis-trans isomers"
+   ],
+   "ans": "B",
+   "exp": "Sugars differing in configuration at exactly one of several chiral centres are epimers, so glucose and galactose are C-4 epimers. 'Enantiomers' is the classic wrong pick, but enantiomers must be mirror images at every chiral centre, which glucose and galactose are not.",
+   "perm": [
+    4,
+    3,
+    2,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell Division, Genetics & Cell Biology · Epimers",
+   "lik": "H"
+  },
+  {
+   "n": 26,
+   "stem": "Tay-Sachs disease is caused by a defective enzyme, hexosaminidase A, so an undegraded membrane lipid (GM2 ganglioside) accumulates. In which organelle does the lipid build up?",
+   "options": [
+    "peroxisome",
+    "smooth endoplasmic reticulum",
+    "Golgi apparatus",
+    "lysosome",
+    "mitochondrion"
+   ],
+   "ans": "D",
+   "exp": "Hexosaminidase A normally degrades GM2 ganglioside inside lysosomes, so the undigested lipid accumulates there, which is why Tay-Sachs is a lysosomal storage disease. Peroxisome is the tempting wrong pick, but peroxisomes handle very-long-chain fatty acid oxidation and catalase reactions, not ganglioside breakdown.",
+   "perm": [
+    0,
+    3,
+    4,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell Division, Genetics & Cell Biology · Lysosomal storage disease",
+   "lik": "H"
+  },
+  {
+   "n": 27,
+   "stem": "The accumulation of misfolded proteins inside the endoplasmic reticulum triggers the unfolded protein response. This misfolded-protein build-up is sensed in the:",
+   "options": [
+    "rough endoplasmic reticulum",
+    "smooth endoplasmic reticulum",
+    "Golgi apparatus",
+    "lysosome",
+    "cytosol"
+   ],
+   "ans": "A",
+   "exp": "Secretory and membrane proteins are synthesised and folded in the rough ER, so misfolded-protein accumulation is detected by stress sensors there, signalling to slow translation and expand ER folding capacity. Smooth ER is the classic wrong pick because it specialises in lipid synthesis and detoxification, not protein folding.",
+   "perm": [
+    4,
+    1,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell Division, Genetics & Cell Biology · Unfolded protein response",
+   "lik": "H"
+  },
+  {
+   "n": 28,
+   "stem": "Parathyroid hormone raises blood calcium concentration. Parathyroid hormone does all of the following EXCEPT:",
+   "options": [
+    "stimulate osteoclast-mediated bone resorption",
+    "increase reabsorption of calcium in the kidney",
+    "stimulate the release of calcitonin from the thyroid gland",
+    "promote activation of vitamin D",
+    "increase phosphate excretion in the urine"
+   ],
+   "ans": "C",
+   "exp": "PTH raises blood Ca2+ through bone resorption, renal calcium reabsorption and activation of vitamin D (which also boosts intestinal uptake), plus phosphaturia. The EXCEPT answer is calcitonin release: calcitonin is a separate thyroid hormone that lowers blood calcium, so naming it a PTH effect reverses the two hormones' opposite roles.",
+   "perm": [
+    0,
+    4,
+    1,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell Division, Genetics & Cell Biology · PTH vs calcitonin",
+   "lik": "H"
+  },
+  {
+   "n": 29,
+   "stem": "An intravenous drip delivers 0.9% saline, whose osmolarity matches that of blood plasma. Red blood cells suspended in this solution will:",
+   "options": [
+    "swell and possibly lyse because the solution is hypotonic",
+    "shrink and crenate because the solution is hypertonic",
+    "shrink because the solution is hypotonic",
+    "swell because the solution is hypertonic",
+    "keep their normal shape because the solution is isotonic"
+   ],
+   "ans": "E",
+   "exp": "0.9% NaCl has the same osmolarity as plasma, so water moves equally in and out of the cells and they keep their normal volume, which defines an isotonic solution. 'Hypertonic' is the classic wrong pick, but a hypertonic solution would need a higher solute concentration than plasma and would shrink the cells.",
+   "perm": [
+    1,
+    3,
+    2,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell Division, Genetics & Cell Biology · Tonicity of 0.9% saline",
+   "lik": "H"
+  },
+  {
+   "n": 30,
+   "stem": "A catastrophe reduces a large population to a few randomly surviving individuals, which then rebuild the population. The restored population shows greatly reduced genetic diversity. This is an example of:",
+   "options": [
+    "the founder effect",
+    "the bottleneck effect",
+    "stabilising selection",
+    "gene flow",
+    "sexual selection"
+   ],
+   "ans": "B",
+   "exp": "A population crash followed by rebound from a random, non-representative sample of survivors is the bottleneck effect, a form of genetic drift that strips allelic diversity. The founder effect is the classic wrong pick, but it describes a few individuals colonising new habitat and starting a new population, not survivors rebounding in place.",
+   "perm": [
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell Division, Genetics & Cell Biology · Bottleneck effect",
+   "lik": "H"
+  },
+  {
+   "n": 31,
+   "stem": "Sulfur forms sulfuric acid, H₂SO₄. Which of the following correctly gives both the oxidation number of sulfur in H₂SO₄ and the position of sulfur in the periodic table?",
+   "options": [
+    "+4; Period 3, Group 16",
+    "+6; Period 3, Group 17",
+    "+2; Period 2, Group 16",
+    "+6; Period 3, Group 16",
+    "−2; Period 4, Group 16"
+   ],
+   "ans": "D",
+   "exp": "The oxidation numbers in H₂SO₄ must sum to 0: 2(+1) + S + 4(−2) = 0, so S = +6, and sulfur sits in Period 3, Group 16 (directly below oxygen). Period 3 Group 17 is chlorine, a halogen — the classic location mix-up for Group 16 elements.",
+   "perm": [
+    2,
+    4,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · oxidation numbers + periodic table position",
+   "lik": "H"
+  },
+  {
+   "n": 32,
+   "stem": "What is the oxidation number of manganese in KMnO₄?",
+   "options": [
+    "+7",
+    "+8",
+    "+6",
+    "+4",
+    "+2"
+   ],
+   "ans": "A",
+   "exp": "Oxygen is −2 and potassium is +1: (+1) + Mn + 4(−2) = 0, so Mn = +7. The +8 slip forgets potassium's +1 contribution, and +2 is the state of the Mn²⁺ ion formed when permanganate is reduced.",
+   "perm": [
+    4,
+    3,
+    2,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · oxidation numbers (permanganate ion)",
+   "lik": "H"
+  },
+  {
+   "n": 33,
+   "stem": "Zinc metal is placed in copper(II) sulfate solution: Zn + CuSO₄ → ZnSO₄ + Cu. Which statement about this reaction is correct?",
+   "options": [
+    "Zn is reduced because it gains electrons",
+    "Cu²⁺ is oxidised because it loses electrons",
+    "Cu²⁺ is reduced because it gains electrons",
+    "Zn²⁺ is reduced because it loses electrons",
+    "Cu metal acts as the reducing agent"
+   ],
+   "ans": "C",
+   "exp": "Zinc loses two electrons (0 → +2, oxidation) and those electrons are gained by Cu²⁺ (+2 → 0, reduction), so Cu²⁺ is reduced to copper metal. Any option pairing 'loses electrons' with 'reduced' is self-contradictory, and Zn — not Cu — is the species oxidised.",
+   "perm": [
+    1,
+    2,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · redox in single displacement",
+   "lik": "H"
+  },
+  {
+   "n": 34,
+   "stem": "What is the hydrogen ion concentration in a solution of pH 4.0?",
+   "options": [
+    "4.0 × 10⁻¹ mol dm⁻³",
+    "1.0 × 10⁻¹⁰ mol dm⁻³",
+    "1.0 × 10⁻³ mol dm⁻³",
+    "1.0 × 10⁴ mol dm⁻³",
+    "1.0 × 10⁻⁴ mol dm⁻³"
+   ],
+   "ans": "E",
+   "exp": "Since pH = −log [H⁺], pH 4.0 means [H⁺] = 10⁻⁴ = 1.0 × 10⁻⁴ mol dm⁻³. The 1.0 × 10⁻¹⁰ value is the hydroxide concentration (pH + pOH = 14 gives pOH = 10), and 10⁻³ would correspond to pH 3, not 4.",
+   "perm": [
+    1,
+    4,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · pH ↔ [H⁺]",
+   "lik": "H"
+  },
+  {
+   "n": 35,
+   "stem": "At 25 °C, Kw = 1.0 × 10⁻¹⁴ mol² dm⁻⁶. A solution has [OH⁻] = 1.0 × 10⁻⁴ mol dm⁻³. What is the pH of this solution?",
+   "options": [
+    "4",
+    "10",
+    "7",
+    "11",
+    "14"
+   ],
+   "ans": "B",
+   "exp": "pOH = −log(10⁻⁴) = 4, and pH + pOH = 14, so pH = 14 − 4 = 10. Answering 4 reports the pOH instead of the pH, and 7 would only hold for a neutral solution with [OH⁻] = 10⁻⁷.",
+   "perm": [
+    0,
+    2,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · Kw and pOH → pH",
+   "lik": "H"
+  },
+  {
+   "n": 36,
+   "stem": "What is the pH of a 0.001 mol dm⁻³ solution of hydrochloric acid, a strong monoprotic acid?",
+   "options": [
+    "−3",
+    "0.001",
+    "11",
+    "3",
+    "2"
+   ],
+   "ans": "D",
+   "exp": "HCl dissociates completely, so [H⁺] = 0.001 = 10⁻³ mol dm⁻³ and pH = −log(10⁻³) = 3. The value −3 is the logarithm itself with the sign slipped, and 11 is 14 − 3, which confusingly gives the pOH.",
+   "perm": [
+    0,
+    4,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · pH of a strong acid from molarity",
+   "lik": "M"
+  },
+  {
+   "n": 37,
+   "stem": "How many molecules are present in 22.4 dm³ of oxygen gas at STP? (Molar volume at STP = 22.4 dm³ mol⁻¹; Avogadro constant = 6.02 × 10²³ mol⁻¹)",
+   "options": [
+    "6.02 × 10²³",
+    "1.204 × 10²⁴",
+    "3.01 × 10²³",
+    "6.02 × 10²²",
+    "1.35 × 10²⁵"
+   ],
+   "ans": "A",
+   "exp": "22.4 dm³ at STP is exactly 1 mol of gas, giving 1 × 6.02 × 10²³ = 6.02 × 10²³ molecules. Doubling to 1.204 × 10²⁴ wrongly assumes 2 mol, while 1.35 × 10²⁵ comes from multiplying by 22.4 as if it were a mole count.",
+   "perm": [
+    3,
+    2,
+    0,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · Avogadro constant & molar volume at STP",
+   "lik": "H"
+  },
+  {
+   "n": 38,
+   "stem": "0.5 mol of sodium hydroxide is dissolved in water and the solution is made up to 250 cm³. What is the concentration of the solution in mol dm⁻³?",
+   "options": [
+    "0.125 mol dm⁻³",
+    "0.5 mol dm⁻³",
+    "2.0 mol dm⁻³",
+    "1.25 mol dm⁻³",
+    "5.0 mol dm⁻³"
+   ],
+   "ans": "C",
+   "exp": "250 cm³ = 0.250 dm³, so concentration = 0.5 ÷ 0.250 = 2.0 mol dm⁻³. The 0.125 slip multiplies by the volume instead of dividing, and 0.5 ignores the dilution altogether.",
+   "perm": [
+    0,
+    1,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · molarity from moles and volume",
+   "lik": "M"
+  },
+  {
+   "n": 39,
+   "stem": "Which law states that the volume of a gas is directly proportional to the number of moles of gas present, provided the temperature and pressure are constant?",
+   "options": [
+    "Boyle's law",
+    "Charles's law",
+    "Gay-Lussac's law",
+    "Dalton's law of partial pressures",
+    "Avogadro's law"
+   ],
+   "ans": "E",
+   "exp": "V ∝ n at constant T and P is Avogadro's law: equal volumes of gas at the same T and P contain equal numbers of moles. Charles's law links volume to absolute temperature and Boyle's law links volume to pressure, so neither describes a moles–volume relationship.",
+   "perm": [
+    0,
+    4,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · gas laws (Avogadro's law)",
+   "lik": "M"
+  },
+  {
+   "n": 40,
+   "stem": "A gas occupies 9.0 dm³ at 27 °C and constant pressure. It is then cooled to −73 °C, still at the same pressure. What volume does it now occupy?",
+   "options": [
+    "−24.3 dm³",
+    "6.0 dm³",
+    "13.5 dm³",
+    "24.3 dm³",
+    "3.0 dm³"
+   ],
+   "ans": "B",
+   "exp": "Charles's law requires kelvin: 27 °C = 300 K and −73 °C = 200 K, so V₂ = 9.0 × (200/300) = 6.0 dm³. The −24.3 dm³ option is exactly the trap of using the Celsius readings directly (9.0 × −73/27).",
+   "perm": [
+    1,
+    4,
+    2,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · Charles's law (°C → K conversion)",
+   "lik": "H"
+  },
+  {
+   "n": 41,
+   "stem": "A gas occupies 500 cm³ at a pressure of 100 kPa, the temperature remaining constant. The pressure is increased to 250 kPa. What is the new volume?",
+   "options": [
+    "1250 cm³",
+    "250 cm³",
+    "100 cm³",
+    "200 cm³",
+    "50 cm³"
+   ],
+   "ans": "D",
+   "exp": "At constant temperature P₁V₁ = P₂V₂, so V₂ = 500 × (100/250) = 200 cm³. The 1250 cm³ option inverts the pressure ratio (500 × 250/100), even though raising the pressure must compress the gas.",
+   "perm": [
+    4,
+    2,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · Boyle's law (P₁V₁ = P₂V₂)",
+   "lik": "M"
+  },
+  {
+   "n": 42,
+   "stem": "Each of the following compounds contains two carbon atoms. Which has the highest boiling point?",
+   "options": [
+    "CH₃COOH (ethanoic acid)",
+    "CH₃CH₂OH (ethanol)",
+    "CH₃CHO (ethanal)",
+    "CH₃OCH₃ (methoxymethane)",
+    "CH₃CH₃ (ethane)"
+   ],
+   "ans": "A",
+   "exp": "Carboxylic acids pair up through two hydrogen bonds at once, forming cyclic dimers, so CH₃COOH (bp about 118 °C) beats ethanol (78 °C), whose molecules hydrogen-bond only one-to-one. Ethanal, the ether and ethane have no O–H donor, so their dipole and dispersion forces are progressively weaker.",
+   "perm": [
+    2,
+    1,
+    3,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · intermolecular forces & boiling point",
+   "lik": "H"
+  },
+  {
+   "n": 43,
+   "stem": "Which one of the following molecules is polar?",
+   "options": [
+    "CO₂",
+    "BeCl₂",
+    "NH₃",
+    "BF₃",
+    "CCl₄"
+   ],
+   "ans": "C",
+   "exp": "NH₃ is pyramidal with a lone pair on nitrogen, so the three N–H bond dipoles do not cancel and the molecule is polar. CO₂ and BeCl₂ (linear), BF₃ (trigonal planar) and CCl₄ (tetrahedral) are all symmetric, so their bond dipoles cancel to give non-polar molecules.",
+   "perm": [
+    3,
+    4,
+    1,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · molecular polarity (molecular shape)",
+   "lik": "H"
+  },
+  {
+   "n": 44,
+   "stem": "Given the following data: C(s) + O₂(g) → CO₂(g), ΔH = −394 kJ mol⁻¹; CO(g) + ½O₂(g) → CO₂(g), ΔH = −283 kJ mol⁻¹. What is ΔH for the reaction C(s) + ½O₂(g) → CO(g)?",
+   "options": [
+    "+111 kJ mol⁻¹",
+    "−677 kJ mol⁻¹",
+    "−394 kJ mol⁻¹",
+    "−283 kJ mol⁻¹",
+    "−111 kJ mol⁻¹"
+   ],
+   "ans": "E",
+   "exp": "Reverse the second equation (CO₂ → CO + ½O₂, ΔH = +283) and add it to the first: ΔH = −394 + 283 = −111 kJ mol⁻¹. The −677 option adds the two given values without reversing the second equation, i.e. it forgets the sign flip.",
+   "perm": [
+    0,
+    1,
+    3,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · Hess's law (reversing and combining steps)",
+   "lik": "H"
+  },
+  {
+   "n": 45,
+   "stem": "Solve for x: √(3x − 2) = 4.",
+   "options": [
+    "x = 14/3",
+    "x = 6",
+    "x = 18",
+    "x = 4",
+    "x = 2"
+   ],
+   "ans": "B",
+   "exp": "Square both sides: 3x − 2 = 16, so 3x = 18 and x = 6. Check: √(18 − 2) = √16 = 4, valid. The 14/3 distractor comes from computing 3x = 16 − 2 (subtracting 2 instead of adding it after squaring).",
+   "perm": [
+    2,
+    1,
+    4,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · radical equations",
+   "lik": "H"
+  },
+  {
+   "n": 46,
+   "stem": "Solve for x: √(x + 6) = x. Which answer lists ALL valid solutions?",
+   "options": [
+    "x = 3 and x = −2",
+    "x = −2 only",
+    "x = 6",
+    "x = 3 only",
+    "x = 2"
+   ],
+   "ans": "D",
+   "exp": "Squaring gives x + 6 = x², so x² − x − 6 = 0, giving (x − 3)(x + 2) = 0. Check both: x = 3 works since √9 = 3, but x = −2 fails because √4 = 2 ≠ −2, so −2 is extraneous. Choosing 'both' is the trap — always substitute candidates back, since a square root can never equal a negative number.",
+   "perm": [
+    0,
+    2,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · radical equations (extraneous roots)",
+   "lik": "H"
+  },
+  {
+   "n": 47,
+   "stem": "Solve the inequality: 5 − 3x ≥ 20.",
+   "options": [
+    "x ≤ −5",
+    "x ≥ −5",
+    "x ≥ 5",
+    "x ≤ 5",
+    "x < −5"
+   ],
+   "ans": "A",
+   "exp": "Rearranging: −3x ≥ 15, and dividing both sides by −3 FLIPS the inequality sign, giving x ≤ −5. The tempting pick x ≥ −5 forgets the flip; x < −5 is wrong because the original inequality is non-strict (≥ stays ≤).",
+   "perm": [
+    4,
+    3,
+    1,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · linear inequalities (sign flip)",
+   "lik": "H"
+  },
+  {
+   "n": 48,
+   "stem": "Solve the inequality: −2x + 7 > 15.",
+   "options": [
+    "x > −4",
+    "x < 4",
+    "x < −4",
+    "x > 4",
+    "x < −11"
+   ],
+   "ans": "C",
+   "exp": "Subtract 7: −2x > 8, then divide by −2 and flip the sign to get x < −4. The pick x > −4 forgets the flip, and x < −11 comes from adding 7 to the right side (−2x > 22) instead of subtracting it.",
+   "perm": [
+    2,
+    4,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · linear inequalities (dividing by a negative)",
+   "lik": "H"
+  },
+  {
+   "n": 49,
+   "stem": "If f(x) = 3x² − 4x + 5, what is f(2)?",
+   "options": [
+    "13",
+    "4",
+    "25",
+    "33",
+    "9"
+   ],
+   "ans": "E",
+   "exp": "f(2) = 3(4) − 4(2) + 5 = 12 − 8 + 5 = 9. The pick 13 comes from treating −4x as just −4 (12 − 4 + 5), and 33 comes from squaring 3x first: (3·2)² − 8 + 5 = 33.",
+   "perm": [
+    1,
+    4,
+    0,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · function evaluation",
+   "lik": "M"
+  },
+  {
+   "n": 50,
+   "stem": "A 15 m ladder leans against a vertical wall with its foot 9 m from the base of the wall. How high up the wall does the ladder reach?",
+   "options": [
+    "17.5 m",
+    "12 m",
+    "13 m",
+    "6 m",
+    "24 m"
+   ],
+   "ans": "B",
+   "exp": "Height = √(15² − 9²) = √(225 − 81) = √144 = 12 m (a scaled 3-4-5 triple). The pick 17.5 m comes from ADDING the squares, √(225 + 81) = √306 — the ladder is the hypotenuse, so subtract, not add.",
+   "perm": [
+    3,
+    1,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · Pythagoras (ladder problem, 3-4-5)",
+   "lik": "M"
+  },
+  {
+   "n": 51,
+   "stem": "A rectangle has a width of 16 cm and a diagonal of 34 cm. What is its perimeter?",
+   "options": [
+    "100 cm",
+    "46 cm",
+    "62 cm",
+    "92 cm",
+    "128 cm"
+   ],
+   "ans": "D",
+   "exp": "Height = √(34² − 16²) = √(1156 − 256) = √900 = 30 cm (double the 8-15-17 triple), so perimeter = 2(16 + 30) = 92 cm. The pick 100 cm uses the diagonal as if it were a side, 2(16 + 34); 46 cm forgets to double (16 + 30).",
+   "perm": [
+    1,
+    2,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · Pythagoras (perimeter, 8-15-17)",
+   "lik": "H"
+  },
+  {
+   "n": 52,
+   "stem": "Solve for x: 4(x − 2) = 2x + 2.",
+   "options": [
+    "x = 5",
+    "x = 4",
+    "x = 2",
+    "x = −3",
+    "x = 10"
+   ],
+   "ans": "A",
+   "exp": "Expand carefully: 4x − 8 = 2x + 2, so 2x = 10 and x = 5. The pick x = 4 comes from the classic expansion slip 4(x − 2) = 4x − 6 (multiplying 4 × 2 as 6), and x = 2 comes from 4x − 2 = 2x + 2 — distribute the 4 to BOTH terms inside the bracket.",
+   "perm": [
+    2,
+    4,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · bracket expansion (linear equation)",
+   "lik": "H"
+  },
+  {
+   "n": 53,
+   "stem": "Using π = 3.14, what is the area of a circle with a diameter of 12 cm?",
+   "options": [
+    "37.68 cm²",
+    "452.16 cm²",
+    "113.04 cm²",
+    "226.08 cm²",
+    "75.36 cm²"
+   ],
+   "ans": "C",
+   "exp": "Radius = 12/2 = 6 cm, so area = 3.14 × 6² = 3.14 × 36 = 113.04 cm². The pick 452.16 cm² forgets to halve the diameter (3.14 × 144), and 37.68 cm² is the circumference, 2 × 3.14 × 6 — read whether the question asks area or circumference.",
+   "perm": [
+    0,
+    4,
+    2,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · circle area and circumference",
+   "lik": "M"
+  },
+  {
+   "n": 54,
+   "stem": "A car travels at 72 km/h. What is this speed in m/s?",
+   "options": [
+    "24 m/s",
+    "36 m/s",
+    "240 m/s",
+    "7.2 m/s",
+    "20 m/s"
+   ],
+   "ans": "E",
+   "exp": "Divide by 3.6: 72 ÷ 3.6 = 20 m/s (equivalently × 1000/3600). The picks 24 and 36 come from dividing by 3 or 2 instead of 3.6, and 240 comes from multiplying by 10/3 — remember m/s is the SMALLER number, so you must divide.",
+   "perm": [
+    3,
+    4,
+    0,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · unit conversion (km/h to m/s)",
+   "lik": "H"
+  },
+  {
+   "n": 55,
+   "stem": "A cyclist rides at 15 m/s. What is this speed in km/h?",
+   "options": [
+    "45 km/h",
+    "54 km/h",
+    "4.2 km/h",
+    "5 km/h",
+    "150 km/h"
+   ],
+   "ans": "B",
+   "exp": "Multiply by 3.6: 15 × 3.6 = 54 km/h (15 × 3 = 45 plus 15 × 0.6 = 9). The pick 4.2 km/h divides by 3.6 instead of multiplying — going from m/s to km/h must give a BIGGER number since 1 m/s covers 3.6 km in an hour.",
+   "perm": [
+    2,
+    3,
+    0,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · unit conversion (m/s to km/h, reverse)",
+   "lik": "H"
+  },
+  {
+   "n": 56,
+   "stem": "Two 6 Ω resistors are connected in parallel. What is the total resistance?",
+   "options": [
+    "12 Ω",
+    "6 Ω",
+    "36 Ω",
+    "3 Ω",
+    "1/3 Ω"
+   ],
+   "ans": "D",
+   "exp": "1/R = 1/6 + 1/6 = 1/3, so R = 3 Ω (for two equal resistors, just halve one). The pick 12 Ω is the series sum — in parallel the total is always SMALLER than the smallest resistor; 1/3 Ω forgets the final inversion of 1/R.",
+   "perm": [
+    4,
+    3,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · parallel resistors",
+   "lik": "H"
+  },
+  {
+   "n": 57,
+   "stem": "Three resistors of 4 Ω, 4 Ω and 2 Ω are connected in parallel. What is the total resistance?",
+   "options": [
+    "1 Ω",
+    "10 Ω",
+    "3.3 Ω",
+    "2 Ω",
+    "0.25 Ω"
+   ],
+   "ans": "A",
+   "exp": "1/R = 1/4 + 1/4 + 1/2 = 0.25 + 0.25 + 0.5 = 1, so R = 1 Ω. The pick 10 Ω is the naive sum (which would be the series total) — parallel totals must come out SMALLER than the smallest branch (2 Ω), so 10 Ω is impossible.",
+   "perm": [
+    4,
+    0,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · parallel resistors (three branches)",
+   "lik": "H"
+  },
+  {
+   "n": 58,
+   "stem": "A current of 3 A flows through a 4 Ω resistor. What power is dissipated?",
+   "options": [
+    "12 W",
+    "144 W",
+    "36 W",
+    "48 W",
+    "7 W"
+   ],
+   "ans": "C",
+   "exp": "P = I²R = 3² × 4 = 9 × 4 = 36 W. The pick 12 W uses P = IR (forgetting to square the current), 144 W squares the product instead (12²), and 48 W squares R instead (3 × 16) — only the CURRENT gets squared here.",
+   "perm": [
+    4,
+    0,
+    2,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · electrical power (P = I²R)",
+   "lik": "H"
+  },
+  {
+   "n": 59,
+   "stem": "An appliance draws a current of 2.5 A when connected to a 12 V supply. What power does it use?",
+   "options": [
+    "14.5 W",
+    "4.8 W",
+    "60 W",
+    "0.21 W",
+    "30 W"
+   ],
+   "ans": "E",
+   "exp": "P = VI = 12 × 2.5 = 30 W. The pick 4.8 W divides instead of multiplying (12/2.5), and 14.5 W adds them — power is voltage TIMES current, always in watts.",
+   "perm": [
+    3,
+    1,
+    0,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · electrical power (P = VI)",
+   "lik": "M"
+  },
+  {
+   "n": 60,
+   "stem": "What is the gauge pressure at a depth of 5 m in water? (ρ = 1000 kg/m³, g = 9.8 m/s²)",
+   "options": [
+    "4,900 Pa",
+    "49,000 Pa",
+    "490,000 Pa",
+    "9,800 Pa",
+    "49 Pa"
+   ],
+   "ans": "B",
+   "exp": "P = ρgh = 1000 × 9.8 × 5 = 49,000 Pa. The pick 4,900 Pa drops a zero in the multiplication, and 9,800 Pa forgets the depth factor (1000 × 9.8 = ρg alone) — always multiply all three quantities in ρgh.",
+   "perm": [
+    4,
+    2,
+    0,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · pressure in fluids (P = ρgh)",
+   "lik": "H"
+  },
+  {
+   "n": 61,
+   "stem": "A block has a mass of 540 g and a volume of 200 cm³. What is its density, and which metal is it consistent with?",
+   "options": [
+    "0.37 g/cm³ — a light alloy",
+    "27 g/cm³ — a heavy alloy",
+    "740 g/cm³ — lead",
+    "2.7 g/cm³ — aluminium",
+    "108 g/cm³ — gold"
+   ],
+   "ans": "D",
+   "exp": "ρ = m/V = 540/200 = 2.7 g/cm³, which matches aluminium. The pick 0.37 g/cm³ inverts the fraction (V/m) — density is mass DIVIDED by volume, and dividing mass by a smaller volume gives a larger density.",
+   "perm": [
+    3,
+    0,
+    1,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · density (ρ = m/V)",
+   "lik": "M"
+  },
+  {
+   "n": 62,
+   "stem": "A lamp produces a light intensity of 90 W/m² at a distance of 1 m. What is the intensity at 3 m from the lamp?",
+   "options": [
+    "10 W/m²",
+    "30 W/m²",
+    "810 W/m²",
+    "270 W/m²",
+    "90 W/m²"
+   ],
+   "ans": "A",
+   "exp": "Inverse-square law: tripling the distance divides the intensity by 3² = 9, so 90/9 = 10 W/m². The pick 30 W/m² treats it as inversely proportional (÷3) rather than inverse-SQUARE — you already know doubling gives ÷4, so tripling gives ÷9.",
+   "perm": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · inverse-square law (consolidation)",
+   "lik": "M"
+  },
+  {
+   "n": 63,
+   "stem": "'If Maria catches the 8:00 train, she arrives before noon.' Maria did not arrive before noon. Which conclusion necessarily follows?",
+   "options": [
+    "If Maria does not catch the 8:00 train, she does not arrive before noon.",
+    "If Maria arrives before noon, she caught the 8:00 train.",
+    "Maria did not catch the 8:00 train.",
+    "Maria missed the 8:00 train because she overslept.",
+    "Maria caught the 8:00 train, but the train was delayed."
+   ],
+   "ans": "C",
+   "exp": "From P implies Q with not-Q, the valid inference is the contrapositive: not-Q implies not-P, so she missed the train. The converse and inverse options are not equivalent to the original conditional, and the delay story contradicts the given facts.",
+   "perm": [
+    1,
+    3,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic & reasoning · conditional logic (contrapositive)",
+   "lik": "H"
+  },
+  {
+   "n": 64,
+   "stem": "A technician states: 'If the sample is contaminated, the result is unreliable.' Which statement, if true, contradicts this?",
+   "options": [
+    "The sample is contaminated and the result is unreliable.",
+    "The sample is not contaminated and the result is unreliable.",
+    "The sample is not contaminated and the result is reliable.",
+    "If the sample is not contaminated, the result is reliable.",
+    "The sample is contaminated and the result is reliable."
+   ],
+   "ans": "E",
+   "exp": "A conditional is falsified only when its antecedent is true and its consequent is false: contaminated sample yet reliable result. Cases where the antecedent is false, and the contaminated-plus-unreliable case, all remain consistent with the statement.",
+   "perm": [
+    0,
+    4,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic & reasoning · contradicting a conditional",
+   "lik": "H"
+  },
+  {
+   "n": 65,
+   "stem": "Anna reasons: 'If the alarm rings, the neighbours call the police. The alarm did not ring, so the neighbours did not call the police.' Her reasoning is...",
+   "options": [
+    "valid: it correctly applies the contrapositive of the original statement",
+    "invalid: it denies the antecedent, and the inverse is not equivalent to the original conditional",
+    "valid: the neighbours can only call the police when the alarm rings",
+    "invalid: the original conditional itself must be false because the neighbours might call anyway",
+    "valid: the inverse of a conditional always follows from it"
+   ],
+   "ans": "B",
+   "exp": "The alarm not ringing does not rule out the neighbours calling for some other reason; 'no P, therefore no Q' is the inverse, which is not equivalent to the original conditional. The contrapositive would be 'no call implies no ringing', a different inference.",
+   "perm": [
+    2,
+    1,
+    4,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic & reasoning · converse/inverse fallacy",
+   "lik": "H"
+  },
+  {
+   "n": 66,
+   "stem": "All cardiologists are doctors. Some teachers are doctors. No cardiologist is a teacher. Which conclusion follows necessarily?",
+   "options": [
+    "All doctors are either cardiologists or teachers.",
+    "Some cardiologists are teachers.",
+    "No teacher is a doctor.",
+    "Some teachers are not cardiologists.",
+    "All teachers are doctors."
+   ],
+   "ans": "D",
+   "exp": "The teachers who are doctors lie outside the cardiologist set, since no cardiologist is a teacher, so at least some teachers are not cardiologists. 'All teachers are doctors' goes beyond the premises and 'some cardiologists are teachers' directly contradicts one.",
+   "perm": [
+    3,
+    1,
+    0,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic & reasoning · syllogisms (all/some/no)",
+   "lik": "H"
+  },
+  {
+   "n": 67,
+   "stem": "No reptiles are warm-blooded. All snakes are reptiles. Which conclusion follows necessarily?",
+   "options": [
+    "No snakes are warm-blooded.",
+    "Some snakes are warm-blooded.",
+    "Some reptiles are warm-blooded.",
+    "All warm-blooded animals are reptiles.",
+    "No animal other than reptiles is warm-blooded."
+   ],
+   "ans": "A",
+   "exp": "Snakes lie entirely inside the reptile set, and that set is disjoint from the warm-blooded animals, so no snake can be warm-blooded. The other options either reverse the sets, as in 'all warm-blooded animals are reptiles', or assert relationships the premises do not support.",
+   "perm": [
+    3,
+    2,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic & reasoning · syllogisms (all/no)",
+   "lik": "M"
+  },
+  {
+   "n": 68,
+   "stem": "A study of 5,000 cyclists found that riders without helmets were more than three times as likely to sustain head injuries as riders wearing helmets. Which conclusion is best supported?",
+   "options": [
+    "Unhelmeted riders take more risks than helmeted riders.",
+    "Helmets prevent all head injuries in cycling accidents.",
+    "In this study, unhelmeted riders had a higher incidence of head injury than helmeted riders.",
+    "Cycling without a helmet causes riders to crash more often.",
+    "Helmet laws should be introduced to reduce all cycling injuries."
+   ],
+   "ans": "C",
+   "exp": "Only the statistical comparison within the study is licensed by the data. The risk-taking and crash-frequency options are causal leaps beyond the numbers, and 'all head injuries' or 'all injuries' over-generalises what was actually measured.",
+   "perm": [
+    4,
+    3,
+    2,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic & reasoning · drawing conclusions",
+   "lik": "H"
+  },
+  {
+   "n": 69,
+   "stem": "A survey of 2,000 employees found that those who walk to work reported, on average, higher job satisfaction than those who commute by car. Which conclusion follows?",
+   "options": [
+    "Walking to work causes greater job satisfaction.",
+    "Every employee who walks to work is more satisfied than every employee who drives.",
+    "Car commuters would become more satisfied if they switched to walking.",
+    "Employers should subsidise walking programmes in order to raise productivity.",
+    "Among surveyed employees, walking commuters reported higher average satisfaction than car commuters."
+   ],
+   "ans": "E",
+   "exp": "The data support only the aggregate comparison for the surveyed group. The causal claim, the universal 'every walker more satisfied than every driver' claim, and the switch counterfactual all go beyond the correlational statistics reported.",
+   "perm": [
+    2,
+    3,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic & reasoning · drawing conclusions",
+   "lik": "M"
+  },
+  {
+   "n": 70,
+   "stem": "What is the angle between the hour hand and the minute hand of an analogue clock at 3:15?",
+   "options": [
+    "0 degrees",
+    "7.5 degrees",
+    "15 degrees",
+    "30 degrees",
+    "82.5 degrees"
+   ],
+   "ans": "B",
+   "exp": "Hour hand: 3 x 30 + 15 x 0.5 = 97.5 degrees from 12; minute hand: 15 x 6 = 90 degrees; difference is 7.5 degrees. The trap '0 degrees' assumes both hands sit exactly on the 3, ignoring that the hour hand has moved a quarter of the way toward 4.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic & reasoning · clock angles",
+   "lik": "M"
+  }
+ ]
+}

@@ -1,0 +1,1489 @@
+{
+ "schema": 1,
+ "id": "imat_mock5",
+ "title": "IMAT MOCK EXAM 5 — \"The Discriminator\"",
+ "kind": "mock",
+ "durationSec": 6000,
+ "maxTenths": 900,
+ "targetScore": 42,
+ "sections": [
+  {
+   "code": "A",
+   "from": 1,
+   "to": 9,
+   "label": "Section A - Logical Reasoning & Reading",
+   "short": "Reasoning"
+  },
+  {
+   "code": "B",
+   "from": 10,
+   "to": 32,
+   "label": "Section B - Biology",
+   "short": "Biology"
+  },
+  {
+   "code": "C",
+   "from": 33,
+   "to": 47,
+   "label": "Section C - Chemistry",
+   "short": "Chemistry"
+  },
+  {
+   "code": "D",
+   "from": 48,
+   "to": 54,
+   "label": "Section D - Mathematics",
+   "short": "Mathematics"
+  },
+  {
+   "code": "E",
+   "from": 55,
+   "to": 60,
+   "label": "Section E - Physics",
+   "short": "Physics"
+  }
+ ],
+ "bankVersion": "b9c1bce9e",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "\"In oxidative phosphorylation, the proton gradient across the inner mitochondrial membrane is coupled to ATP synthesis. If the membrane is made permeable to protons by an uncoupler such as dinitrophenol, the gradient dissipates, electron transport accelerates, but ATP synthesis falls. Heat is produced instead.\"\n\nWhich is the strongest inference?",
+   "options": [
+    "Uncoupling stops electron transport.",
+    "Without a proton gradient, ATP synthesis rises.",
+    "Uncoupling disconnects electron transport from ATP synthesis.",
+    "Uncouplers raise ATP yield.",
+    "The proton gradient is independent of electron transport."
+   ],
+   "ans": "C",
+   "exp": "Uncouplers dissipate the gradient, decoupling oxidation from phosphorylation. A is wrong (ETC accelerates); B, D reverse; E is wrong (ETC builds the gradient).",
+   "perm": [
+    2,
+    1,
+    0,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading",
+   "lik": "H"
+  },
+  {
+   "n": 2,
+   "stem": "\"A population bottleneck occurs when a population's size is drastically reduced for at least one generation. The genetic diversity of the surviving population is typically much lower than that of the original, because alleles are lost by chance. After the bottleneck, even rare alleles that remain can rise in frequency by genetic drift.\"\n\nWhich follows?",
+   "options": [
+    "Bottlenecks always raise genetic diversity.",
+    "Bottlenecks reduce genetic diversity regardless of which alleles happen to survive.",
+    "After a bottleneck, the surviving diversity depends partly on which alleles randomly survived.",
+    "Genetic drift stops after a bottleneck.",
+    "Bottlenecks have no evolutionary consequence."
+   ],
+   "ans": "C",
+   "exp": "The passage explicitly says which alleles survive is by chance, and rare surviving alleles may later rise. (B is also broadly true but C is the most precise inference the passage supports about outcome depending on chance survival.)",
+   "perm": [
+    2,
+    1,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading",
+   "lik": "H"
+  },
+  {
+   "n": 3,
+   "stem": "(GK) The Italian physician and educator who developed an eponymous educational method emphasising self-directed activity in a prepared environment, and was nominated for the Nobel Peace Prize multiple times, was:",
+   "options": [
+    "Maria Montessori",
+    "Elena Lucrezia Cornaro Piscopia",
+    "Sofia Vanni",
+    "Nilde Iotti",
+    "Rita Levi-Montalcini"
+   ],
+   "ans": "A",
+   "exp": "Maria Montessori (1870–1952), founder of the Montessori method.",
+   "perm": [
+    2,
+    1,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "GK",
+   "lik": "L"
+  },
+  {
+   "n": 4,
+   "stem": "Five people — F, G, H, I, J — are in a queue. F is immediately behind G. H is somewhere in front of G. I is not at either end. J is at the back. Which must be true?",
+   "options": [
+    "G is at the front.",
+    "H is at the front.",
+    "F is third.",
+    "I is between H and G.",
+    "F is immediately in front of J."
+   ],
+   "ans": "E",
+   "exp": "J is at the back; the order ends …F, J (since F is immediately behind G, F has G in front of it; with J at back, F is immediately before J). H is front of G but we don't know H is at the front (could be H...G F J with I somewhere). The forced relationship is F immediately in front of J.",
+   "perm": [
+    4,
+    3,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Constraint logic",
+   "lik": "H"
+  },
+  {
+   "n": 5,
+   "stem": "\"All metals conduct electricity. X conducts electricity.\" From these, we can conclude:",
+   "options": [
+    "X is a metal.",
+    "X is not a metal.",
+    "X might or might not be a metal (affirming the consequent is invalid).",
+    "No metal is X.",
+    "X is an insulator."
+   ],
+   "ans": "C",
+   "exp": "Affirming the consequent: (Metal → Conducts) + Conducts does not imply Metal. Many non-metals (graphite, electrolytes) conduct.",
+   "perm": [
+    0,
+    3,
+    4,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Formal logic",
+   "lik": "H"
+  },
+  {
+   "n": 6,
+   "stem": "A number, when divided by 3, gives remainder 2; when divided by 5, gives remainder 3. The smallest positive such number is:",
+   "options": [
+    "5",
+    "7",
+    "8",
+    "11",
+    "13"
+   ],
+   "ans": "C",
+   "exp": "Check: 8 ÷ 3 = 2 r 2 ✓; 8 ÷ 5 = 1 r 3 ✓. (Smaller candidates: 5 ÷ 3 r 2 ✓ but 5 ÷ 5 r 0 ✗; 7 ÷ 3 r 1 ✗.)",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Modular reasoning",
+   "lik": "M"
+  },
+  {
+   "n": 7,
+   "stem": "A clock reads 8:20. What is the angle between the hands?",
+   "options": [
+    "0°",
+    "100°",
+    "120°",
+    "130°",
+    "140°"
+   ],
+   "ans": "D",
+   "exp": "Minute hand: 20 × 6° = 120°. Hour hand: 8 × 30 + 20/60 × 30 = 240 + 10 = 250°. Diff = 250 − 120 = 130°.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Clock",
+   "lik": "M"
+  },
+  {
+   "n": 8,
+   "stem": "If the 5th of a month is a Tuesday, what day is the 27th of the same month?",
+   "options": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "ans": "B",
+   "exp": "27 − 5 = 22 days = 3 weeks + 1 day. Tuesday + 1 = Wednesday.",
+   "perm": [
+    1,
+    4,
+    0,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Calendar",
+   "lik": "M"
+  },
+  {
+   "n": 9,
+   "stem": "Complete the letter series: A, C, F, J, O, ?",
+   "options": [
+    "S",
+    "T",
+    "U",
+    "V",
+    "W"
+   ],
+   "ans": "C",
+   "exp": "Differences: +2 (A→C), +3 (C→F), +4 (F→J), +5 (J→O), +6 (O→U).",
+   "perm": [
+    2,
+    0,
+    3,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Sequence",
+   "lik": "M"
+  },
+  {
+   "n": 10,
+   "stem": "In glycolysis, the committed (rate-limiting) step is catalysed by:",
+   "options": [
+    "Hexokinase",
+    "Phosphofructokinase-1 (PFK-1)",
+    "Pyruvate kinase",
+    "Phosphoglycerate kinase",
+    "Aldolase"
+   ],
+   "ans": "B",
+   "exp": "PFK-1 catalyses fructose-6-phosphate → fructose-1,6-bisphosphate; it is the principal control point.",
+   "perm": [
+    4,
+    2,
+    1,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration/enzymes",
+   "lik": "H"
+  },
+  {
+   "n": 11,
+   "stem": "In the electron transport chain, FADH₂ donates electrons to:",
+   "options": [
+    "Complex I",
+    "Complex II (succinate dehydrogenase)",
+    "Complex III",
+    "Complex IV",
+    "ATP synthase"
+   ],
+   "ans": "B",
+   "exp": "FADH₂ (from succinate) enters at Complex II, bypassing Complex I — yielding ~1.5 ATP vs. ~2.5 for NADH.",
+   "perm": [
+    0,
+    3,
+    2,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 12,
+   "stem": "The chemiosmotic synthesis of ATP in mitochondria is driven by the flow of protons through ATP synthase from:",
+   "options": [
+    "Matrix to intermembrane space",
+    "Intermembrane space to matrix",
+    "Cytosol to matrix",
+    "Matrix to cytosol",
+    "Outer to inner membrane (no gradient)"
+   ],
+   "ans": "B",
+   "exp": "H⁺ flows back into the matrix (down its electrochemical gradient) through ATP synthase.",
+   "perm": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 13,
+   "stem": "Under anaerobic conditions, yeast cells regenerate NAD⁺ by reducing pyruvate to:",
+   "options": [
+    "Lactate",
+    "Ethanol and CO₂",
+    "Acetyl-CoA",
+    "Glucose",
+    "Water"
+   ],
+   "ans": "B",
+   "exp": "Alcoholic fermentation: pyruvate → acetaldehyde → ethanol, oxidising NADH → NAD⁺.",
+   "perm": [
+    3,
+    1,
+    0,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 14,
+   "stem": "During muscle contraction, calcium ions released from the sarcoplasmic reticulum bind to:",
+   "options": [
+    "Myosin heads",
+    "Actin directly",
+    "Troponin, causing tropomyosin to move and expose myosin-binding sites",
+    "ATP",
+    "The sarcolemma only"
+   ],
+   "ans": "C",
+   "exp": "Ca²⁺ binds troponin C; the troponin–tropomyosin complex shifts, exposing actin's binding sites.",
+   "perm": [
+    4,
+    1,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Muscle physiology",
+   "lik": "H"
+  },
+  {
+   "n": 15,
+   "stem": "The sliding filament theory states that during contraction:",
+   "options": [
+    "Myosin filaments shorten.",
+    "Actin filaments shorten.",
+    "Both filaments shorten in proportion.",
+    "The sarcomere shortens, but the filaments themselves do not change length (they slide past each other).",
+    "The Z-lines move apart."
+   ],
+   "ans": "D",
+   "exp": "Filaments slide; sarcomere shortens; filament lengths are constant.",
+   "perm": [
+    4,
+    1,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Muscle physiology",
+   "lik": "H"
+  },
+  {
+   "n": 16,
+   "stem": "Slow-twitch (Type I) muscle fibres are specialised for:",
+   "options": [
+    "Rapid, powerful, short-duration contractions using anaerobic glycolysis",
+    "Endurance activity using oxidative metabolism (many mitochondria, high myoglobin)",
+    "Generating action potentials",
+    "Storing calcium",
+    "Replacing damaged neurons"
+   ],
+   "ans": "B",
+   "exp": "Type I fibres are oxidative, fatigue-resistant, mitochondria-rich.",
+   "perm": [
+    1,
+    3,
+    2,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Histology/muscle",
+   "lik": "M"
+  },
+  {
+   "n": 17,
+   "stem": "Most CO₂ transported in the blood is carried:",
+   "options": [
+    "Dissolved as CO₂ gas in plasma",
+    "Bound to haemoglobin (carbaminohaemoglobin)",
+    "As bicarbonate ions (HCO₃⁻) in plasma",
+    "Bound to albumin",
+    "Within erythrocyte nuclei"
+   ],
+   "ans": "C",
+   "exp": "~70% of CO₂ is transported as HCO₃⁻ (formed in RBCs via carbonic anhydrase, then exported). ~23% as carbamino, ~7% dissolved.",
+   "perm": [
+    1,
+    0,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiratory physiology",
+   "lik": "H"
+  },
+  {
+   "n": 18,
+   "stem": "The enzyme carbonic anhydrase, abundant in red blood cells, catalyses:",
+   "options": [
+    "CO₂ + H₂O ⇌ H₂CO₃",
+    "The conversion of haemoglobin to oxyhaemoglobin",
+    "Glycolysis",
+    "The clotting cascade",
+    "Pyruvate → acetyl-CoA"
+   ],
+   "ans": "A",
+   "exp": "CO₂ + H₂O → H₂CO₃ → H⁺ + HCO₃⁻.",
+   "perm": [
+    2,
+    1,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiratory physiology",
+   "lik": "H"
+  },
+  {
+   "n": 19,
+   "stem": "In the nephron, the majority of filtered water and solutes is reabsorbed in the:",
+   "options": [
+    "Distal convoluted tubule",
+    "Collecting duct",
+    "Proximal convoluted tubule (~65%)",
+    "Loop of Henle (descending limb only)",
+    "Renal pelvis"
+   ],
+   "ans": "C",
+   "exp": "The PCT reabsorbs ~65% of filtered Na⁺, water, and nutrients.",
+   "perm": [
+    0,
+    2,
+    4,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Excretory physiology",
+   "lik": "H"
+  },
+  {
+   "n": 20,
+   "stem": "Antidiuretic hormone (ADH) increases water reabsorption by inserting aquaporins into the:",
+   "options": [
+    "Glomerulus",
+    "Proximal tubule",
+    "Collecting duct (principal cells)",
+    "Loop of Henle (thin limb)",
+    "Afferent arteriole"
+   ],
+   "ans": "C",
+   "exp": "ADH → V2 receptors → aquaporin-2 channels inserted into the collecting duct.",
+   "perm": [
+    0,
+    4,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Endocrine/excretory",
+   "lik": "H"
+  },
+  {
+   "n": 21,
+   "stem": "Aldosterone, secreted by the adrenal cortex, acts on the kidney to increase reabsorption of:",
+   "options": [
+    "K⁺",
+    "Na⁺ (and water), and increase K⁺/H⁺ excretion",
+    "Glucose",
+    "Urea",
+    "Albumin"
+   ],
+   "ans": "B",
+   "exp": "Aldosterone → Na⁺ reabsorption (with water follows), K⁺/H⁺ secretion.",
+   "perm": [
+    1,
+    0,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Endocrine/excretory",
+   "lik": "H"
+  },
+  {
+   "n": 22,
+   "stem": "In nervous tissue, the myelin sheath is produced in the CNS by __ and in the PNS by __.",
+   "options": [
+    "Astrocytes / Schwann cells",
+    "Oligodendrocytes / Schwann cells",
+    "Microglia / satellite cells",
+    "Neurons / oligodendrocytes",
+    "Ependymal cells / astrocytes"
+   ],
+   "ans": "B",
+   "exp": "Oligodendrocytes (CNS) and Schwann cells (PNS) myelinate axons.",
+   "perm": [
+    4,
+    3,
+    2,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Histology/nervous",
+   "lik": "M"
+  },
+  {
+   "n": 23,
+   "stem": "During an action potential, the rapid depolarisation is due to:",
+   "options": [
+    "K⁺ efflux",
+    "Na⁺ influx (voltage-gated Na⁺ channels open)",
+    "Cl⁻ influx",
+    "Ca²⁺ influx at the soma",
+    "Active transport of Na⁺ out"
+   ],
+   "ans": "B",
+   "exp": "Voltage-gated Na⁺ channels open ⇒ Na⁺ rushes in ⇒ depolarisation toward +30 mV.",
+   "perm": [
+    2,
+    4,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Nervous physiology",
+   "lik": "M"
+  },
+  {
+   "n": 24,
+   "stem": "A cross between two plants both with red flowers produces 3 red : 1 white offspring. This is consistent with:",
+   "options": [
+    "Incomplete dominance",
+    "Complete dominance (red dominant, parents heterozygous)",
+    "Codominance",
+    "Sex-linkage",
+    "Polygenic inheritance"
+   ],
+   "ans": "B",
+   "exp": "A 3:1 phenotypic ratio from two phenotypically identical parents ⇒ heterozygotes with complete dominance.",
+   "perm": [
+    2,
+    0,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "H"
+  },
+  {
+   "n": 25,
+   "stem": "A man with blood group A (genotype AO) and a woman with blood group B (genotype BO) can have children with which blood groups?",
+   "options": [
+    "A only",
+    "B only",
+    "AB only",
+    "A, B, AB, and O",
+    "O only"
+   ],
+   "ans": "D",
+   "exp": "AO × BO → AB, AO, BO, OO ⇒ groups A, B, AB, O.",
+   "perm": [
+    0,
+    3,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "H"
+  },
+  {
+   "n": 26,
+   "stem": "DNA polymerase synthesises new DNA in which direction?",
+   "options": [
+    "3' → 5' on the new strand",
+    "5' → 3' on the new strand",
+    "In both directions simultaneously on one strand",
+    "From the C-terminus",
+    "Without direction"
+   ],
+   "ans": "B",
+   "exp": "DNA pol adds nucleotides only to the 3'-OH, so the new strand grows 5' → 3'.",
+   "perm": [
+    1,
+    0,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "DNA replication",
+   "lik": "H"
+  },
+  {
+   "n": 27,
+   "stem": "The genetic code is described as \"degenerate\" because:",
+   "options": [
+    "One codon codes for multiple amino acids.",
+    "Multiple codons can code for the same amino acid.",
+    "Codons overlap.",
+    "The code is ambiguous (one codon → multiple amino acids).",
+    "The code differs between species."
+   ],
+   "ans": "B",
+   "exp": "Most amino acids are specified by more than one codon. (D = ambiguous, which it is not — it is unambiguous.)",
+   "perm": [
+    4,
+    1,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Translation",
+   "lik": "H"
+  },
+  {
+   "n": 28,
+   "stem": "A bacterial operon whose transcription is increased in the presence of a small molecule (e.g., lactose for the lac operon) is:",
+   "options": [
+    "Negatively regulated only",
+    "Inducible (the molecule is an inducer)",
+    "Repressible",
+    "Constitutive",
+    "Always off"
+   ],
+   "ans": "B",
+   "exp": "The lac operon is induced by allolactose (a lactose derivative).",
+   "perm": [
+    3,
+    2,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Molecular/regulation",
+   "lik": "M"
+  },
+  {
+   "n": 29,
+   "stem": "Which cell type produces antibodies?",
+   "options": [
+    "T-helper cells",
+    "B cells (plasma cells, the differentiated form)",
+    "Macrophages",
+    "Mast cells",
+    "Platelets"
+   ],
+   "ans": "B",
+   "exp": "Plasma cells (differentiated B lymphocytes) secrete antibodies.",
+   "perm": [
+    1,
+    4,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Immunology",
+   "lik": "M"
+  },
+  {
+   "n": 30,
+   "stem": "In photosynthesis, the oxygen released comes from:",
+   "options": [
+    "CO₂",
+    "H₂O (water, split in the light reactions)",
+    "Glucose",
+    "O₂ taken from the air",
+    "NADPH"
+   ],
+   "ans": "B",
+   "exp": "Oxygen-evolving complex splits water → electrons, H⁺, and O₂. (Confirmed by isotope labelling using ¹⁸O.)",
+   "perm": [
+    2,
+    4,
+    3,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bioenergetics",
+   "lik": "M"
+  },
+  {
+   "n": 31,
+   "stem": "In a DNA double helix, 20% of bases are adenine. The percentage of guanine is:",
+   "options": [
+    "20%",
+    "30%",
+    "40%",
+    "60%",
+    "80%"
+   ],
+   "ans": "B",
+   "exp": "A = T = 20% each ⇒ A + T = 40% ⇒ G + C = 60% ⇒ G = C = 30%. (Chargaff's rules.)",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Nucleic acids",
+   "lik": "H"
+  },
+  {
+   "n": 32,
+   "stem": "A mutation that inserts a single nucleotide into a coding sequence (not in multiples of 3) is called a:",
+   "options": [
+    "Missense mutation",
+    "Nonsense mutation",
+    "Frameshift mutation",
+    "Silent mutation",
+    "Point mutation only"
+   ],
+   "ans": "C",
+   "exp": "A single-nucleotide insertion shifts the reading frame downstream.",
+   "perm": [
+    3,
+    0,
+    4,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics/molecular",
+   "lik": "H"
+  },
+  {
+   "n": 33,
+   "stem": "How many grams of CO₂ are produced when 0.5 mol of C reacts completely with O₂? (C = 12, O = 16.)",
+   "options": [
+    "11 g",
+    "22 g",
+    "44 g",
+    "88 g",
+    "4.4 g"
+   ],
+   "ans": "B",
+   "exp": "C + O₂ → CO₂; 0.5 mol C → 0.5 mol CO₂; mass = 0.5 × 44 = 22 g.",
+   "perm": [
+    4,
+    0,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Stoichiometry",
+   "lik": "H"
+  },
+  {
+   "n": 34,
+   "stem": "Balance: __ Fe + __ O₂ → __ Fe₂O₃. The coefficient of Fe is:",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "ans": "D",
+   "exp": "4 Fe + 3 O₂ → 2 Fe₂O₃.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Stoichiometry",
+   "lik": "H"
+  },
+  {
+   "n": 35,
+   "stem": "What volume of 0.1 M H₂SO₄ is needed to neutralise 25 mL of 0.2 M NaOH? (H₂SO₄ is diprotic.)",
+   "options": [
+    "12.5 mL",
+    "25 mL",
+    "50 mL",
+    "100 mL",
+    "5 mL"
+   ],
+   "ans": "B",
+   "exp": "Moles NaOH = 0.025 × 0.2 = 0.005. Need 0.005 mol H⁺ = 0.0025 mol H₂SO₄ (2 H⁺ each). V = 0.0025/0.1 = 0.025 L = 25 mL.",
+   "perm": [
+    4,
+    0,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acid-base/stoichiometry",
+   "lik": "H"
+  },
+  {
+   "n": 36,
+   "stem": "The pH of a buffer containing 0.1 M acetic acid (pKa = 4.76) and 0.1 M sodium acetate is:",
+   "options": [
+    "3.76",
+    "4.76",
+    "5.76",
+    "7.0",
+    "9.24"
+   ],
+   "ans": "B",
+   "exp": "pH = pKa + log([A⁻]/[HA]) = 4.76 + log(0.1/0.1) = 4.76 + 0 = 4.76 (Henderson–Hasselbalch; when [A⁻] = [HA], pH = pKa).",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 37,
+   "stem": "The oxidation number of oxygen in hydrogen peroxide (H₂O₂) is:",
+   "options": [
+    "−2",
+    "−1",
+    "0",
+    "+1",
+    "+2"
+   ],
+   "ans": "B",
+   "exp": "In peroxides O is −1 (not the usual −2). H is +1: 2(+1) + 2(O) = 0 ⇒ O = −1.",
+   "perm": [
+    3,
+    1,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "general",
+   "lik": "H"
+  },
+  {
+   "n": 38,
+   "stem": "Which species is reduced in: 2Na + Cl₂ → 2NaCl?",
+   "options": [
+    "Na (Na → Na⁺)",
+    "Cl₂ (Cl₂ → 2Cl⁻)",
+    "NaCl",
+    "Nothing",
+    "Both Na and Cl₂"
+   ],
+   "ans": "B",
+   "exp": "Cl₂ gains electrons (oxidation 0 → −1). Na is oxidised.",
+   "perm": [
+    0,
+    3,
+    2,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Redox",
+   "lik": "H"
+  },
+  {
+   "n": 39,
+   "stem": "An ideal gas occupies 2 L at 1 atm and 300 K. What is its volume at 2 atm and 300 K?",
+   "options": [
+    "0.5 L",
+    "1 L",
+    "2 L",
+    "4 L",
+    "8 L"
+   ],
+   "ans": "B",
+   "exp": "Constant T, n: P₁V₁ = P₂V₂ ⇒ 1 × 2 = 2 × V₂ ⇒ V₂ = 1 L.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Gas laws",
+   "lik": "H"
+  },
+  {
+   "n": 40,
+   "stem": "How many electrons can occupy the d-subshell (5 orbitals)?",
+   "options": [
+    "2",
+    "6",
+    "8",
+    "10",
+    "14"
+   ],
+   "ans": "D",
+   "exp": "5 orbitals × 2 electrons = 10.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Atomic structure",
+   "lik": "M"
+  },
+  {
+   "n": 41,
+   "stem": "Which element has the electron configuration 1s² 2s² 2p⁶ 3s¹?",
+   "options": [
+    "Na",
+    "Mg",
+    "Ne",
+    "Al",
+    "K"
+   ],
+   "ans": "A",
+   "exp": "11 electrons; 1s² 2s² 2p⁶ 3s¹ = sodium.",
+   "perm": [
+    1,
+    2,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Atomic structure",
+   "lik": "H"
+  },
+  {
+   "n": 42,
+   "stem": "The geometry of NH₃ (ammonia) is:",
+   "options": [
+    "Linear",
+    "Trigonal planar",
+    "Tetrahedral (electron-pair geometry) / trigonal pyramidal (molecular shape)",
+    "Octahedral",
+    "Square planar"
+   ],
+   "ans": "C",
+   "exp": "Three bonds + one lone pair ⇒ trigonal pyramidal shape (tetrahedral electron geometry). Best answer captures the molecular shape: pyramidal.",
+   "perm": [
+    2,
+    1,
+    3,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bonding/VSEPR",
+   "lik": "H"
+  },
+  {
+   "n": 43,
+   "stem": "Which compound is most soluble in water?",
+   "options": [
+    "CH₄ (methane)",
+    "C₂H₆ (ethane)",
+    "CH₃OH (methanol)",
+    "C₆H₆ (benzene)",
+    "CCl₄"
+   ],
+   "ans": "C",
+   "exp": "Methanol can H-bond with water; the non-polar hydrocarbons cannot.",
+   "perm": [
+    0,
+    1,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bonding/solutions",
+   "lik": "H"
+  },
+  {
+   "n": 44,
+   "stem": "An exothermic reaction has:",
+   "options": [
+    "ΔH > 0",
+    "ΔH < 0",
+    "ΔH = 0",
+    "Products higher in energy than reactants",
+    "No activation energy"
+   ],
+   "ans": "B",
+   "exp": "Exothermic releases energy ⇒ products lower ⇒ ΔH < 0.",
+   "perm": [
+    1,
+    4,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Thermo",
+   "lik": "M"
+  },
+  {
+   "n": 45,
+   "stem": "The IUPAC name of CH₃–CH₂–CH₂–CH₃ is:",
+   "options": [
+    "Methane",
+    "Ethane",
+    "Propane",
+    "Butane",
+    "Pentane"
+   ],
+   "ans": "D",
+   "exp": "4 carbons, single bonds = butane.",
+   "perm": [
+    1,
+    3,
+    4,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic",
+   "lik": "H"
+  },
+  {
+   "n": 46,
+   "stem": "For the equilibrium H₂(g) + I₂(g) ⇌ 2HI(g), ΔH < 0. Increasing pressure at constant T will:",
+   "options": [
+    "Shift right",
+    "Shift left",
+    "Have no effect (equal moles of gas on both sides)",
+    "Increase ΔH",
+    "Decrease the rate"
+   ],
+   "ans": "C",
+   "exp": "2 mol gas on each side ⇒ pressure has no effect on position. (This is a common trap — students over-apply Le Chatelier.)",
+   "perm": [
+    1,
+    4,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Equilibrium",
+   "lik": "H"
+  },
+  {
+   "n": 47,
+   "stem": "If the rate constant doubles when temperature increases by 10 °C, and the rate at T₁ is r, the rate at T₁ + 20 °C is approximately:",
+   "options": [
+    "2r",
+    "3r",
+    "4r",
+    "8r",
+    "10r"
+   ],
+   "ans": "C",
+   "exp": "Doubling per 10 °C ⇒ two 10 °C steps ⇒ 2 × 2 = 4r. (Approximate \"Q10 rule\".)",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Kinetics",
+   "lik": "M"
+  },
+  {
+   "n": 48,
+   "stem": "Solve: x² − 5x − 6 = 0.",
+   "options": [
+    "x = 1, −6",
+    "x = −1, 6",
+    "x = 2, 3",
+    "x = 5, 1",
+    "No real roots"
+   ],
+   "ans": "B",
+   "exp": "(x − 6)(x + 1) = 0 ⇒ x = 6 or x = −1.",
+   "perm": [
+    2,
+    3,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Quadratics",
+   "lik": "H"
+  },
+  {
+   "n": 49,
+   "stem": "Solve: log₃(x) = −2.",
+   "options": [
+    "x = −6",
+    "x = −2",
+    "x = 1/9",
+    "x = 9",
+    "x = 1/3"
+   ],
+   "ans": "C",
+   "exp": "x = 3⁻² = 1/9.",
+   "perm": [
+    4,
+    1,
+    0,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logs",
+   "lik": "M"
+  },
+  {
+   "n": 50,
+   "stem": "Solve: (2x − 1)/(x + 1) = 3 (x ≠ −1).",
+   "options": [
+    "x = −4",
+    "x = −2",
+    "x = 2",
+    "x = 4",
+    "x = 1"
+   ],
+   "ans": "A",
+   "exp": "2x − 1 = 3(x + 1) = 3x + 3 ⇒ −x = 4 ⇒ x = −4. Check: (−9)/(−3) = 3 ✓.",
+   "perm": [
+    4,
+    1,
+    0,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Rational",
+   "lik": "H"
+  },
+  {
+   "n": 51,
+   "stem": "Solve the inequality: x² − 5x + 6 > 0.",
+   "options": [
+    "2 < x < 3",
+    "x < 2 or x > 3",
+    "x < 3",
+    "x > 2",
+    "All real x"
+   ],
+   "ans": "B",
+   "exp": "Roots 2 and 3; the parabola opens up, so > 0 outside the interval: x < 2 or x > 3.",
+   "perm": [
+    4,
+    0,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Inequalities",
+   "lik": "H"
+  },
+  {
+   "n": 52,
+   "stem": "A circle has circumference 12π. What is its area?",
+   "options": [
+    "6π",
+    "12π",
+    "24π",
+    "36π",
+    "144π"
+   ],
+   "ans": "D",
+   "exp": "C = 2πr = 12π ⇒ r = 6. Area = πr² = 36π.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Geometry",
+   "lik": "H"
+  },
+  {
+   "n": 53,
+   "stem": "In a right triangle, the side opposite the 30° angle has length 5. What is the length of the hypotenuse?",
+   "options": [
+    "5",
+    "5√2",
+    "10",
+    "5√3",
+    "15"
+   ],
+   "ans": "C",
+   "exp": "In a 30-60-90 triangle, side opposite 30° = half hypotenuse ⇒ hypotenuse = 10.",
+   "perm": [
+    2,
+    1,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Trigonometry/geometry",
+   "lik": "M"
+  },
+  {
+   "n": 54,
+   "stem": "Two dice are rolled. What is the probability that the sum is 7?",
+   "options": [
+    "1/12",
+    "1/9",
+    "1/6",
+    "5/36",
+    "7/36"
+   ],
+   "ans": "C",
+   "exp": "6 favourable outcomes {(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)} out of 36 = 6/36 = 1/6.",
+   "perm": [
+    0,
+    1,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Probability",
+   "lik": "M"
+  },
+  {
+   "n": 55,
+   "stem": "A car starts from rest and accelerates uniformly at 3 m/s². How far does it travel in 4 s?",
+   "options": [
+    "12 m",
+    "24 m",
+    "36 m",
+    "48 m",
+    "72 m"
+   ],
+   "ans": "B",
+   "exp": "s = ½at² = ½ × 3 × 16 = 24 m.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Kinematics",
+   "lik": "H"
+  },
+  {
+   "n": 56,
+   "stem": "A 6 Ω and a 3 Ω resistor are connected in parallel across a 12 V battery. What is the total current from the battery?",
+   "options": [
+    "1 A",
+    "2 A",
+    "3 A",
+    "4 A",
+    "6 A"
+   ],
+   "ans": "E",
+   "exp": "1/R = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2 ⇒ R = 2 Ω. I = V/R = 12/2 = 6 A.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Electricity",
+   "lik": "H"
+  },
+  {
+   "n": 57,
+   "stem": "A 100 W bulb is operated on a 200 V supply for 10 s. How much electrical energy is used?",
+   "options": [
+    "100 J",
+    "200 J",
+    "1000 J",
+    "2000 J",
+    "20,000 J"
+   ],
+   "ans": "C",
+   "exp": "E = Pt = 100 × 10 = 1000 J.",
+   "perm": [
+    4,
+    2,
+    0,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Electricity/energy",
+   "lik": "H"
+  },
+  {
+   "n": 58,
+   "stem": "A 2 kg ball moving at 5 m/s strikes a wall and rebounds at 3 m/s. What is the magnitude of the change in momentum?",
+   "options": [
+    "2 kg·m/s",
+    "4 kg·m/s",
+    "8 kg·m/s",
+    "10 kg·m/s",
+    "16 kg·m/s"
+   ],
+   "ans": "E",
+   "exp": "Taking rebound as negative direction: Δp = m(v_f − v_i) = 2(−3 − 5) = −16 ⇒ magnitude 16 kg·m/s.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Dynamics/momentum",
+   "lik": "H"
+  },
+  {
+   "n": 59,
+   "stem": "A satellite orbits Earth at a radius where gravitational acceleration is 2 m/s². If Earth's radius is R and the satellite is at 3R from the centre, the surface gravitational acceleration is:",
+   "options": [
+    "2 m/s²",
+    "6 m/s²",
+    "9 m/s²",
+    "18 m/s²",
+    "27 m/s²"
+   ],
+   "ans": "D",
+   "exp": "g ∝ 1/r². At r = 3R, g = 2. At surface (r = R), g = 2 × (3R/R)² = 2 × 9 = 18 m/s².",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Gravitation",
+   "lik": "M"
+  },
+  {
+   "n": 60,
+   "stem": "A 0.5 kg block of iron (c = 450 J/kg·°C) is heated from 20 °C to 100 °C. How much heat is required?",
+   "options": [
+    "9,000 J",
+    "18,000 J",
+    "22,500 J",
+    "45,000 J",
+    "90,000 J"
+   ],
+   "ans": "B",
+   "exp": "Q = mcΔT = 0.5 × 450 × (100 − 20) = 0.5 × 450 × 80 = 18,000 J.",
+   "perm": [
+    0,
+    3,
+    4,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Thermodynamics",
+   "lik": "M"
+  }
+ ]
+}

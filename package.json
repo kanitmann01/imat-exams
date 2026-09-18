@@ -1,0 +1,12 @@
+{
+  "name": "imat-exam-platform",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "IMAT mock exam platform (static SPA for GitHub Pages)",
+  "scripts": {
+    "test": "node --test tests/",
+    "build:banks": "python tools/build_banks.py --src ../IMAT_Research_2026/02_EXAMS/HTML --out data --check",
+    "audit": "python tools/audit_banks.py"
+  }
+}

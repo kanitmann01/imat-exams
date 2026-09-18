@@ -1,0 +1,1489 @@
+{
+ "schema": 1,
+ "id": "imat_mock1",
+ "title": "IMAT MOCK EXAM 1 — \"Baseline\"",
+ "kind": "mock",
+ "durationSec": 6000,
+ "maxTenths": 900,
+ "targetScore": 47,
+ "sections": [
+  {
+   "code": "A",
+   "from": 1,
+   "to": 9,
+   "label": "Section A - Logical Reasoning & Reading",
+   "short": "Reasoning"
+  },
+  {
+   "code": "B",
+   "from": 10,
+   "to": 32,
+   "label": "Section B - Biology",
+   "short": "Biology"
+  },
+  {
+   "code": "C",
+   "from": 33,
+   "to": 47,
+   "label": "Section C - Chemistry",
+   "short": "Chemistry"
+  },
+  {
+   "code": "D",
+   "from": 48,
+   "to": 54,
+   "label": "Section D - Mathematics",
+   "short": "Mathematics"
+  },
+  {
+   "code": "E",
+   "from": 55,
+   "to": 60,
+   "label": "Section E - Physics",
+   "short": "Physics"
+  }
+ ],
+ "bankVersion": "b0674bffa",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "\"Vaccination operates on the principle of immunological memory. Upon first exposure to an antigen, naïve lymphocytes proliferate and differentiate, generating both effector cells that clear the pathogen and long-lived memory cells. A subsequent encounter with the same antigen triggers a faster and stronger response because memory cells respond at lower antigen concentrations and divide more rapidly than naïve cells.\"\n\nWhich of the following is not supported by the passage?",
+   "options": [
+    "Memory cells persist after the initial infection has been cleared.",
+    "The secondary immune response exceeds the primary one in magnitude.",
+    "Memory cells require a higher antigen concentration to activate than naïve cells.",
+    "Naïve lymphocytes proliferate during the primary response.",
+    "Effector cells contribute to pathogen clearance."
+   ],
+   "ans": "C",
+   "exp": "The passage states the opposite — memory cells respond at lower antigen concentrations.",
+   "perm": [
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading comprehension",
+   "lik": "H"
+  },
+  {
+   "n": 2,
+   "stem": "\"Enzymes lower the activation energy of a reaction without altering the free energy difference between substrates and products. Consequently, an enzyme changes the rate at which equilibrium is reached but never the position of equilibrium.\"\n\nWhich statement is a valid inference?",
+   "options": [
+    "An enzyme can make an endergonic reaction exergonic.",
+    "Adding an enzyme increases the equilibrium constant.",
+    "A reaction that is unfavourable thermodynamically can be made favourable by adding more enzyme.",
+    "The ratio of products to substrates at equilibrium is unchanged by the enzyme.",
+    "Enzymes shift the equilibrium toward products."
+   ],
+   "ans": "D",
+   "exp": "Equilibrium position (and hence K_eq) is determined by ΔG°, which the enzyme does not change. A, B, C, E all claim the enzyme alters thermodynamics — false.",
+   "perm": [
+    4,
+    2,
+    0,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading comprehension",
+   "lik": "H"
+  },
+  {
+   "n": 3,
+   "stem": "(General knowledge) Which of the following Italian scientists is best known for discovering a method of staining nervous tissue that allowed the visualisation of individual neurons, a contribution that shared the 1906 Nobel Prize in Physiology or Medicine?",
+   "options": [
+    "Galileo Galilei",
+    "Camillo Golgi",
+    "Rita Levi-Montalcini",
+    "Antonio Meucci",
+    "Guglielmo Marconi"
+   ],
+   "ans": "B",
+   "exp": "Golgi shared the 1906 Nobel with Ramón y Cajal. MUR includes occasional Italian-cultural GK; this is a \"must-know\" if it appears.",
+   "perm": [
+    1,
+    2,
+    4,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "GK",
+   "lik": "L"
+  },
+  {
+   "n": 4,
+   "stem": "Five friends — A, B, C, D, E — sit in a row. B sits immediately to the right of A. C is not adjacent to A. D sits at one of the ends. E sits to the left of D. Which of the following must be true?",
+   "options": [
+    "A is at the far left.",
+    "C sits between B and E.",
+    "E is not at an end.",
+    "D sits at the far right.",
+    "B is to the left of C."
+   ],
+   "ans": "D",
+   "exp": "D must be at an end, and E sits to the left of D. If D were at the left end, there would be no seat to its left for E — contradiction. So D is at the far right.",
+   "perm": [
+    1,
+    4,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Constraint logic",
+   "lik": "H"
+  },
+  {
+   "n": 5,
+   "stem": "All patients with disease X have elevated marker M. Some patients with disease Y also have elevated marker M. No patient with disease X has disease Y. From these, which conclusion necessarily follows?",
+   "options": [
+    "Every patient with elevated M has disease X or Y.",
+    "Some patients with disease Y do not have disease X.",
+    "Anyone with elevated M has disease X.",
+    "No patient with disease Y has elevated M.",
+    "Patients with disease X always have disease Y."
+   ],
+   "ans": "B",
+   "exp": "\"No X has Y\" combined with \"all X have elevated M\" tells us the Y-patients with elevated M are not X-patients; hence those Y-patients are not X-patients. Formally: ∃y(Y(y) ∧ M(y)), and X and Y are disjoint, so ∃y(Y(y) ∧ ¬X(y)).",
+   "perm": [
+    4,
+    2,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Formal logic",
+   "lik": "H"
+  },
+  {
+   "n": 6,
+   "stem": "In a certain code, READING is written as SFB EJ OH. How is MONKEY written?",
+   "options": [
+    "NPO LFZ",
+    "NPO MFZ",
+    "NPO LFY",
+    "NQO LFZ",
+    "NPO LEZ"
+   ],
+   "ans": "A",
+   "exp": "Each letter shifts +1: M→N, O→P, N→O, K→L, E→F, Y→Z. Gives NPO LFZ.",
+   "perm": [
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Code/sequence logic",
+   "lik": "M"
+  },
+  {
+   "n": 7,
+   "stem": "A clock shows 3:15. What is the angle between the hour and minute hands?",
+   "options": [
+    "0°",
+    "7.5°",
+    "15°",
+    "22.5°",
+    "30°"
+   ],
+   "ans": "B",
+   "exp": "Minute hand at 15 min = 90°. Hour hand at 3:15 = 3×30° + 15/60×30° = 90° + 7.5° = 97.5°. Difference = 7.5°.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Numerical reasoning",
+   "lik": "M"
+  },
+  {
+   "n": 8,
+   "stem": "If the day after tomorrow is Wednesday, what day was it three days before yesterday?",
+   "options": [
+    "Friday",
+    "Thursday",
+    "Saturday",
+    "Sunday",
+    "Tuesday"
+   ],
+   "ans": "B",
+   "exp": "\"Day after tomorrow = Wednesday\" ⇒ today = Monday ⇒ yesterday = Sunday ⇒ three days before yesterday (Sunday) = Thursday.",
+   "perm": [
+    1,
+    0,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Calendar reasoning",
+   "lik": "M"
+  },
+  {
+   "n": 9,
+   "stem": "A sequence begins 2, 6, 12, 20, 30, … What is the next term?",
+   "options": [
+    "36",
+    "40",
+    "42",
+    "44",
+    "50"
+   ],
+   "ans": "C",
+   "exp": "Differences: 4, 6, 8, 10, 12. Next term = 30 + 12 = 42. (These are n(n+1): 1·2, 2·3, 3·4, 4·5, 5·6, 6·7=42.)",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Sequence",
+   "lik": "M"
+  },
+  {
+   "n": 10,
+   "stem": "In which cellular compartment does the Krebs (citric acid) cycle take place?",
+   "options": [
+    "Cytosol",
+    "Mitochondrial matrix",
+    "Mitochondrial intermembrane space",
+    "Rough endoplasmic reticulum",
+    "Nucleus"
+   ],
+   "ans": "B",
+   "exp": "Pyruvate is imported into the matrix, converted to acetyl-CoA, and oxidised in the TCA cycle.",
+   "perm": [
+    2,
+    3,
+    0,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 11,
+   "stem": "How many net ATP molecules are produced by substrate-level phosphorylation during glycolysis per molecule of glucose?",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "4",
+    "6"
+   ],
+   "ans": "C",
+   "exp": "Glycolysis invests 2 ATP (hexokinase, PFK-1) and produces 4 ATP (PGK, pyruvate kinase), net 2.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 12,
+   "stem": "Which molecule serves as the final electron acceptor of the mitochondrial electron transport chain?",
+   "options": [
+    "NAD⁺",
+    "FAD",
+    "Water",
+    "Oxygen",
+    "Pyruvate"
+   ],
+   "ans": "D",
+   "exp": "O₂ accepts electrons at complex IV and is reduced to water. Without O₂ the chain backs up and oxidative phosphorylation halts.",
+   "perm": [
+    3,
+    1,
+    0,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 13,
+   "stem": "The ATP synthase enzyme is located in the:",
+   "options": [
+    "Outer mitochondrial membrane",
+    "Inner mitochondrial membrane",
+    "Thylakoid stroma",
+    "Cytosol",
+    "Nuclear envelope"
+   ],
+   "ans": "B",
+   "exp": "ATP synthase (complex V) sits in the inner mitochondrial membrane (cristae), using the H⁺ gradient across it to drive ATP synthesis.",
+   "perm": [
+    2,
+    3,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 14,
+   "stem": "During which phase of cellular respiration is the majority of CO₂ released?",
+   "options": [
+    "Glycolysis",
+    "Pyruvate oxidation and the Krebs cycle",
+    "Oxidative phosphorylation",
+    "Lactic acid fermentation",
+    "Substrate-level phosphorylation"
+   ],
+   "ans": "B",
+   "exp": "Pyruvate → acetyl-CoA releases 1 CO₂ per pyruvate; each turn of the Krebs cycle releases 2 CO₂.",
+   "perm": [
+    4,
+    2,
+    0,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 15,
+   "stem": "Which organelle is the primary site of protein synthesis for proteins destined for secretion?",
+   "options": [
+    "Smooth endoplasmic reticulum",
+    "Rough endoplasmic reticulum",
+    "Lysosome",
+    "Peroxisome",
+    "Nucleolus"
+   ],
+   "ans": "B",
+   "exp": "Ribosomes on the rough ER synthesise secretory, membrane, and lysosomal proteins.",
+   "perm": [
+    2,
+    0,
+    4,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell organelles",
+   "lik": "H"
+  },
+  {
+   "n": 16,
+   "stem": "Which of the following is a function of the Golgi apparatus?",
+   "options": [
+    "Synthesis of ribosomal RNA",
+    "Modification, sorting, and packaging of proteins",
+    "ATP production via oxidative phosphorylation",
+    "Detoxification of hydrogen peroxide",
+    "Storage of genetic information"
+   ],
+   "ans": "B",
+   "exp": "Golgi receives vesicles from the ER, modifies (glycosylation, sorting), and dispatches to destinations.",
+   "perm": [
+    4,
+    1,
+    0,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell organelles",
+   "lik": "H"
+  },
+  {
+   "n": 17,
+   "stem": "Which structure is responsible for the selective permeability of the cell membrane?",
+   "options": [
+    "The peptidoglycan layer",
+    "The phospholipid bilayer with embedded proteins",
+    "The cell wall of cellulose",
+    "The nuclear pore complex alone",
+    "The cytoskeleton"
+   ],
+   "ans": "B",
+   "exp": "The fluid mosaic bilayer with integral/channel proteins confers selective permeability.",
+   "perm": [
+    1,
+    0,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell membrane",
+   "lik": "H"
+  },
+  {
+   "n": 18,
+   "stem": "Which transport mechanism requires the direct hydrolysis of ATP to move a substance against its concentration gradient?",
+   "options": [
+    "Simple diffusion",
+    "Facilitated diffusion via channels",
+    "Osmosis",
+    "Primary active transport",
+    "Passive carrier-mediated diffusion"
+   ],
+   "ans": "D",
+   "exp": "Pumps like Na⁺/K⁺-ATPase directly use ATP. E is a form of facilitated diffusion (passive).",
+   "perm": [
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell membrane / transport",
+   "lik": "H"
+  },
+  {
+   "n": 19,
+   "stem": "Which of the following correctly describes the induced-fit model of enzyme action?",
+   "options": [
+    "The active site is rigid and only one substrate can bind.",
+    "The enzyme changes shape upon substrate binding to improve the fit.",
+    "The substrate is permanently altered and the enzyme consumed.",
+    "The enzyme raises ΔG of the reaction.",
+    "Competitively bound inhibitors bind allosteric sites."
+   ],
+   "ans": "B",
+   "exp": "Induced fit: the active site conforms to the substrate upon binding.",
+   "perm": [
+    1,
+    2,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Enzymes",
+   "lik": "H"
+  },
+  {
+   "n": 20,
+   "stem": "A competitive inhibitor of an enzyme:",
+   "options": [
+    "Binds covalently to the active site, inactivating the enzyme permanently.",
+    "Binds reversibly at a site other than the active site.",
+    "Increases Km but does not change Vmax.",
+    "Decreases Vmax but does not change Km.",
+    "Cannot be overcome by increasing substrate concentration."
+   ],
+   "ans": "C",
+   "exp": "A competitive inhibitor competes with substrate for the active site, raising the apparent Km; Vmax is unchanged because enough substrate can outcompete it.",
+   "perm": [
+    1,
+    4,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Enzymes",
+   "lik": "H"
+  },
+  {
+   "n": 21,
+   "stem": "Which type of muscle is involuntary, striated, and has branched cells connected by intercalated discs?",
+   "options": [
+    "Skeletal muscle",
+    "Smooth muscle",
+    "Cardiac muscle",
+    "Myoepithelium",
+    "Tendons"
+   ],
+   "ans": "C",
+   "exp": "Cardiac muscle is striated, involuntary, branched, and joined by intercalated discs.",
+   "perm": [
+    1,
+    3,
+    0,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Muscle/tissue",
+   "lik": "H"
+  },
+  {
+   "n": 22,
+   "stem": "The functional unit of contraction in skeletal muscle is the:",
+   "options": [
+    "Myofibril",
+    "Sarcomere",
+    "Sarcoplasm",
+    "Sarcolemma",
+    "Sarcoplasmic reticulum"
+   ],
+   "ans": "B",
+   "exp": "The sarcomere (Z-disc to Z-disc) is the smallest contractile unit.",
+   "perm": [
+    0,
+    3,
+    1,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Muscle/tissue",
+   "lik": "H"
+  },
+  {
+   "n": 23,
+   "stem": "During the sliding filament mechanism, myosin binds to:",
+   "options": [
+    "Troponin",
+    "Tropomyosin",
+    "Actin",
+    "Myosin-binding site on titin",
+    "Calcium directly"
+   ],
+   "ans": "C",
+   "exp": "Myosin heads bind actin (after Ca²⁺ binds troponin, moving tropomyosin aside).",
+   "perm": [
+    3,
+    2,
+    1,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Muscle/tissue",
+   "lik": "H"
+  },
+  {
+   "n": 24,
+   "stem": "Oxygen is transported in blood primarily:",
+   "options": [
+    "Dissolved in plasma",
+    "Bound to haemoglobin in red blood cells",
+    "As bicarbonate ions",
+    "Bound to albumin",
+    "Within leucocytes"
+   ],
+   "ans": "B",
+   "exp": "~98% of O₂ is bound to haemoglobin; only ~2% is dissolved in plasma.",
+   "perm": [
+    1,
+    0,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiratory system",
+   "lik": "H"
+  },
+  {
+   "n": 25,
+   "stem": "In which part of the human digestive system does the majority of nutrient absorption occur?",
+   "options": [
+    "Stomach",
+    "Large intestine",
+    "Small intestine",
+    "Liver",
+    "Oesophagus"
+   ],
+   "ans": "C",
+   "exp": "The small intestine (especially jejunum), with its villi and microvilli, is the principal site of absorption.",
+   "perm": [
+    0,
+    4,
+    1,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Digestive system",
+   "lik": "H"
+  },
+  {
+   "n": 26,
+   "stem": "Which hormone, produced by the beta cells of the pancreas, lowers blood glucose concentration?",
+   "options": [
+    "Glucagon",
+    "Insulin",
+    "Cortisol",
+    "Adrenaline",
+    "Thyroxine"
+   ],
+   "ans": "B",
+   "exp": "Insulin promotes glucose uptake and storage, lowering blood glucose.",
+   "perm": [
+    2,
+    4,
+    0,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Endocrine system",
+   "lik": "H"
+  },
+  {
+   "n": 27,
+   "stem": "Which hormone is released from the posterior pituitary and causes water reabsorption in the kidney collecting duct?",
+   "options": [
+    "Aldosterone",
+    "Antidiuretic hormone (ADH / vasopressin)",
+    "Atrial natriuretic peptide",
+    "Prolactin",
+    "Growth hormone"
+   ],
+   "ans": "B",
+   "exp": "ADH inserts aquaporins into the collecting duct, increasing water reabsorption.",
+   "perm": [
+    0,
+    2,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Endocrine / excretory",
+   "lik": "H"
+  },
+  {
+   "n": 28,
+   "stem": "Which bone of the upper limb is the humerus? It is the:",
+   "options": [
+    "Thigh bone",
+    "Upper arm bone",
+    "Forearm bone (thumb side)",
+    "Shin bone",
+    "Collar bone"
+   ],
+   "ans": "B",
+   "exp": "The humerus is the long bone of the upper arm.",
+   "perm": [
+    0,
+    2,
+    3,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bones/anatomy",
+   "lik": "M"
+  },
+  {
+   "n": 29,
+   "stem": "In DNA replication, the enzyme that unwinds the double helix at the replication fork is:",
+   "options": [
+    "DNA polymerase",
+    "Helicase",
+    "Ligase",
+    "Primase",
+    "Telomerase"
+   ],
+   "ans": "B",
+   "exp": "Helicase breaks H-bonds between strands; DNA pol then synthesises.",
+   "perm": [
+    1,
+    3,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "DNA replication",
+   "lik": "M"
+  },
+  {
+   "n": 30,
+   "stem": "In a diploid organism with 2n = 46, how many chromosomes are present in a mature gamete?",
+   "options": [
+    "23",
+    "46",
+    "92",
+    "44",
+    "48"
+   ],
+   "ans": "A",
+   "exp": "Gametes are haploid (n = 23).",
+   "perm": [
+    0,
+    3,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "M"
+  },
+  {
+   "n": 31,
+   "stem": "A man with blood group AB and a woman with blood group O have a child. Which blood groups are possible in their offspring?",
+   "options": [
+    "A and B only",
+    "AB only",
+    "O only",
+    "A, B, AB, and O",
+    "A and AB"
+   ],
+   "ans": "A",
+   "exp": "AB × OO → offspring are AO (group A) or BO (Group B) only.",
+   "perm": [
+    3,
+    0,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "H"
+  },
+  {
+   "n": 32,
+   "stem": "During translation, the codon AUG serves to:",
+   "options": [
+    "Terminate translation",
+    "Code for tryptophan only",
+    "Act as the start codon and code for methionine",
+    "Bind release factors",
+    "Recruit RNA polymerase"
+   ],
+   "ans": "C",
+   "exp": "AUG is the start codon and codes for methionine (N-formyl-methionine in prokaryotes).",
+   "perm": [
+    3,
+    1,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Translation",
+   "lik": "H"
+  },
+  {
+   "n": 33,
+   "stem": "What is the oxidation number of sulfur in H₂SO₄?",
+   "options": [
+    "+2",
+    "+4",
+    "+6",
+    "−2",
+    "0"
+   ],
+   "ans": "C",
+   "exp": "H = +1 (×2 = +2), O = −2 (×4 = −8); total 0, so S = +6.",
+   "perm": [
+    2,
+    3,
+    0,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Redox",
+   "lik": "H"
+  },
+  {
+   "n": 34,
+   "stem": "In the reaction Zn + CuSO₄ → ZnSO₄ + Cu, which species is reduced?",
+   "options": [
+    "Zn",
+    "Cu²⁺",
+    "SO₄²⁻",
+    "Zn²⁺",
+    "Cu (metal)"
+   ],
+   "ans": "B",
+   "exp": "Cu²⁺ gains electrons (Cu²⁺ + 2e⁻ → Cu); Zn is oxidised.",
+   "perm": [
+    3,
+    2,
+    1,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Redox",
+   "lik": "H"
+  },
+  {
+   "n": 35,
+   "stem": "An acidic aqueous solution at 25 °C has a pH of 3. The concentration of H⁺ is:",
+   "options": [
+    "3 × 10⁻¹ M",
+    "1 × 10⁻³ M",
+    "1 × 10³ M",
+    "1 × 10⁻¹¹ M",
+    "3 M"
+   ],
+   "ans": "B",
+   "exp": "pH = −log[H⁺] ⇒ [H⁺] = 10⁻ᵖᴴ = 10⁻³ M.",
+   "perm": [
+    3,
+    1,
+    0,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 36,
+   "stem": "What is the pH of a 0.01 M solution of a strong monoprotic acid (e.g., HCl) at 25 °C?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "12",
+    "13"
+   ],
+   "ans": "B",
+   "exp": "[H⁺] = 0.01 = 10⁻² ⇒ pH = 2.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 37,
+   "stem": "Which type of bond involves the complete transfer of electrons from one atom to another?",
+   "options": [
+    "Covalent bond",
+    "Ionic bond",
+    "Hydrogen bond",
+    "Metallic bond",
+    "Van der Waals interaction"
+   ],
+   "ans": "B",
+   "exp": "Ionic bonding involves electron transfer forming cations and anions.",
+   "perm": [
+    2,
+    1,
+    0,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bonding",
+   "lik": "H"
+  },
+  {
+   "n": 38,
+   "stem": "How many electrons are shared in a double covalent bond between two atoms?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "ans": "D",
+   "exp": "A double bond = 2 shared pairs = 4 electrons.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bonding",
+   "lik": "H"
+  },
+  {
+   "n": 39,
+   "stem": "At constant temperature and pressure, the volume of a gas is directly proportional to the number of moles. This is:",
+   "options": [
+    "Boyle's law",
+    "Charles's law",
+    "Avogadro's law",
+    "Dalton's law",
+    "Henry's law"
+   ],
+   "ans": "C",
+   "exp": "V ∝ n (at fixed T, P) is Avogadro's law.",
+   "perm": [
+    0,
+    4,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Gas laws",
+   "lik": "H"
+  },
+  {
+   "n": 40,
+   "stem": "Calculate the number of molecules in 0.5 mol of N₂ (Avogadro's number = 6.022 × 10²³).",
+   "options": [
+    "3.01 × 10²³",
+    "6.02 × 10²³",
+    "1.20 × 10²⁴",
+    "1.50 × 10²³",
+    "6.02 × 10²²"
+   ],
+   "ans": "A",
+   "exp": "0.5 × 6.022 × 10²³ = 3.011 × 10²³.",
+   "perm": [
+    4,
+    3,
+    0,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Stoichiometry/mole",
+   "lik": "H"
+  },
+  {
+   "n": 41,
+   "stem": "Which element is in Group 17 and Period 3 of the periodic table?",
+   "options": [
+    "Fluorine",
+    "Chlorine",
+    "Bromine",
+    "Iodine",
+    "Sulfur"
+   ],
+   "ans": "B",
+   "exp": "Period 3, Group 17 = chlorine (Cl).",
+   "perm": [
+    4,
+    3,
+    0,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Periodic table",
+   "lik": "M"
+  },
+  {
+   "n": 42,
+   "stem": "Which subatomic particle has no electric charge and a mass of approximately 1 amu?",
+   "options": [
+    "Proton",
+    "Neutron",
+    "Electron",
+    "Positron",
+    "Photon"
+   ],
+   "ans": "B",
+   "exp": "The neutron is neutral and ~1 amu.",
+   "perm": [
+    3,
+    4,
+    1,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Atomic structure",
+   "lik": "M"
+  },
+  {
+   "n": 43,
+   "stem": "For the equilibrium N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH < 0. Increasing the pressure at constant temperature will:",
+   "options": [
+    "Shift equilibrium to the left (fewer moles side is reactants — wrong)",
+    "Shift equilibrium to the right, producing more NH₃",
+    "Have no effect",
+    "Decrease the rate only",
+    "Increase the temperature"
+   ],
+   "ans": "B",
+   "exp": "Higher pressure favours the side with fewer gas moles: 4 mol reactant → 2 mol product, so rightward.",
+   "perm": [
+    1,
+    0,
+    3,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Equilibrium",
+   "lik": "H"
+  },
+  {
+   "n": 44,
+   "stem": "The functional group –COOH characterises which class of organic compounds?",
+   "options": [
+    "Alcohols",
+    "Aldehydes",
+    "Carboxylic acids",
+    "Ketones",
+    "Ethers"
+   ],
+   "ans": "C",
+   "exp": "–COOH = carboxyl group = carboxylic acids.",
+   "perm": [
+    3,
+    2,
+    1,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic",
+   "lik": "M"
+  },
+  {
+   "n": 45,
+   "stem": "Which of the following compounds is an alkane?",
+   "options": [
+    "C₂H₄",
+    "C₃H₆",
+    "C₄H₁₀",
+    "C₆H₆",
+    "C₂H₂"
+   ],
+   "ans": "C",
+   "exp": "Alkanes follow CₙH₂ₙ₊₂; C₄H₁₀ (butane) fits. C₂H₄ alkene, C₃H₆ alkene (or cyclopropane), C₆H₆ benzene, C₂H₂ alkyne.",
+   "perm": [
+    1,
+    3,
+    0,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic",
+   "lik": "H"
+  },
+  {
+   "n": 46,
+   "stem": "The rate of a chemical reaction generally increases with temperature because:",
+   "options": [
+    "The activation energy decreases.",
+    "The equilibrium constant always increases.",
+    "More collisions occur with energy ≥ Eₐ per unit time.",
+    "The reaction becomes exothermic.",
+    "Catalysts form spontaneously."
+   ],
+   "ans": "C",
+   "exp": "Per Arrhenius, raising T increases the fraction of collisions with E ≥ Eₐ (and collision frequency), increasing rate. Eₐ itself is unchanged.",
+   "perm": [
+    4,
+    0,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Kinetics",
+   "lik": "M"
+  },
+  {
+   "n": 47,
+   "stem": "What is the molar concentration of a solution containing 0.2 mol of NaCl dissolved to make 500 mL of solution?",
+   "options": [
+    "0.1 M",
+    "0.2 M",
+    "0.4 M",
+    "0.5 M",
+    "1.0 M"
+   ],
+   "ans": "C",
+   "exp": "M = mol / L = 0.2 / 0.500 = 0.4 M.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Solutions",
+   "lik": "M"
+  },
+  {
+   "n": 48,
+   "stem": "Solve for x: √(2x − 1) = 3.",
+   "options": [
+    "x = 2",
+    "x = 3",
+    "x = 4",
+    "x = 5",
+    "x = 6"
+   ],
+   "ans": "D",
+   "exp": "Square both sides: 2x − 1 = 9 ⇒ 2x = 10 ⇒ x = 5. Check: √9 = 3. ✓ (Domain requires 2x−1 ≥ 0.)",
+   "perm": [
+    2,
+    3,
+    0,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Algebra/roots",
+   "lik": "H"
+  },
+  {
+   "n": 49,
+   "stem": "Solve: 2x − 5 < 3x + 1.",
+   "options": [
+    "x < −6",
+    "x > −6",
+    "x < 6",
+    "x > 6",
+    "x = −6"
+   ],
+   "ans": "B",
+   "exp": "2x − 5 < 3x + 1 ⇒ −6 < x ⇒ x > −6.",
+   "perm": [
+    3,
+    4,
+    2,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Inequalities",
+   "lik": "H"
+  },
+  {
+   "n": 50,
+   "stem": "In a triangle, two angles are 50° and 60°. What is the third angle?",
+   "options": [
+    "60°",
+    "70°",
+    "80°",
+    "50°",
+    "90°"
+   ],
+   "ans": "B",
+   "exp": "Sum = 180° ⇒ 180 − 50 − 60 = 70°.",
+   "perm": [
+    3,
+    0,
+    1,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Geometry",
+   "lik": "H"
+  },
+  {
+   "n": 51,
+   "stem": "If f(x) = 2x² − 3x + 1, what is f(2)?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "7"
+   ],
+   "ans": "C",
+   "exp": "f(2) = 2(4) − 3(2) + 1 = 8 − 6 + 1 = 3.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Functions",
+   "lik": "M"
+  },
+  {
+   "n": 52,
+   "stem": "A circle has radius 5 cm. What is its area? (Take π = 3.14.)",
+   "options": [
+    "31.4 cm²",
+    "62.8 cm²",
+    "78.5 cm²",
+    "15.7 cm²",
+    "25 cm²"
+   ],
+   "ans": "C",
+   "exp": "A = πr² = 3.14 × 25 = 78.5 cm².",
+   "perm": [
+    3,
+    4,
+    0,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Geometry",
+   "lik": "H"
+  },
+  {
+   "n": 53,
+   "stem": "A bag contains 3 red and 2 blue balls. One ball is drawn at random. What is the probability it is blue?",
+   "options": [
+    "1/5",
+    "2/5",
+    "3/5",
+    "2/3",
+    "1/2"
+   ],
+   "ans": "B",
+   "exp": "P = 2/(3+2) = 2/5.",
+   "perm": [
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Probability",
+   "lik": "M"
+  },
+  {
+   "n": 54,
+   "stem": "A rectangle has length 12 cm and diagonal 13 cm. What is its perimeter?",
+   "options": [
+    "24 cm",
+    "28 cm",
+    "30 cm",
+    "34 cm",
+    "36 cm"
+   ],
+   "ans": "D",
+   "exp": "Width = √(13² − 12²) = √(169 − 144) = √25 = 5. Perimeter = 2(12+5) = 34 cm.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Geometry",
+   "lik": "H"
+  },
+  {
+   "n": 55,
+   "stem": "A car travels 120 km in 2 hours at constant velocity. What is its speed in m/s?",
+   "options": [
+    "16.7 m/s",
+    "33.3 m/s",
+    "60 m/s",
+    "50 m/s",
+    "120 m/s"
+   ],
+   "ans": "A",
+   "exp": "v = 120 km / 2 h = 60 km/h = 60 × (1000/3600) = 16.67 m/s.",
+   "perm": [
+    0,
+    1,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Kinematics",
+   "lik": "H"
+  },
+  {
+   "n": 56,
+   "stem": "Three resistors of 2 Ω, 3 Ω, and 6 Ω are connected in parallel. What is the equivalent resistance?",
+   "options": [
+    "1 Ω",
+    "11 Ω",
+    "3.66 Ω",
+    "0.5 Ω",
+    "6 Ω"
+   ],
+   "ans": "A",
+   "exp": "1/R = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1 ⇒ R = 1 Ω.",
+   "perm": [
+    3,
+    0,
+    2,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Electricity",
+   "lik": "H"
+  },
+  {
+   "n": 57,
+   "stem": "A current of 2 A flows through a 5 Ω resistor. What is the power dissipated?",
+   "options": [
+    "5 W",
+    "10 W",
+    "20 W",
+    "50 W",
+    "100 W"
+   ],
+   "ans": "C",
+   "exp": "P = I²R = (2)² × 5 = 20 W.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Electricity",
+   "lik": "H"
+  },
+  {
+   "n": 58,
+   "stem": "A book rests on a table. The reaction force of the table on the book is an example of which law?",
+   "options": [
+    "Newton's first law only",
+    "Newton's second law only",
+    "Newton's third law",
+    "Hooke's law",
+    "Ohm's law"
+   ],
+   "ans": "C",
+   "exp": "The normal force is paired (by Newton's third law) with the book's push on the table.",
+   "perm": [
+    2,
+    0,
+    3,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Dynamics",
+   "lik": "H"
+  },
+  {
+   "n": 59,
+   "stem": "The gravitational force between two bodies is F = Gm₁m₂/r². If the distance between the two bodies is halved, the gravitational force becomes:",
+   "options": [
+    "2F",
+    "F",
+    "F/2",
+    "4F",
+    "F/4"
+   ],
+   "ans": "D",
+   "exp": "Halving r multiplies the force by 1/(½)² = 4.",
+   "perm": [
+    4,
+    2,
+    3,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Gravitation",
+   "lik": "M"
+  },
+  {
+   "n": 60,
+   "stem": "The pressure at depth h in a fluid of density ρ is given by P = ρgh. If ρ = 1000 kg/m³, g = 9.8 m/s², and h = 10 m, what is the gauge pressure?",
+   "options": [
+    "98 Pa",
+    "980 Pa",
+    "9,800 Pa",
+    "98,000 Pa",
+    "980,000 Pa"
+   ],
+   "ans": "D",
+   "exp": "P = 1000 × 9.8 × 10 = 98,000 Pa.",
+   "perm": [
+    4,
+    1,
+    0,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Fluid mechanics",
+   "lik": "M"
+  }
+ ]
+}

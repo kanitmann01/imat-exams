@@ -1,0 +1,115 @@
+{
+ "schema": 1,
+ "exams": [
+  {
+   "id": "imat_mock1",
+   "title": "IMAT MOCK EXAM 1 — \"Baseline\"",
+   "kind": "mock",
+   "qCount": 60,
+   "durationSec": 6000,
+   "maxTenths": 900,
+   "targetScore": 47,
+   "sectionCount": 5,
+   "bankVersion": "b0674bffa"
+  },
+  {
+   "id": "imat_mock2",
+   "title": "IMAT MOCK EXAM 2 — \"Bioenergetics Spine\"",
+   "kind": "mock",
+   "qCount": 60,
+   "durationSec": 6000,
+   "maxTenths": 900,
+   "targetScore": 47,
+   "sectionCount": 5,
+   "bankVersion": "b078f952c"
+  },
+  {
+   "id": "imat_mock3",
+   "title": "IMAT MOCK EXAM 3 — \"Genetics & Molecular Rotation\"",
+   "kind": "mock",
+   "qCount": 60,
+   "durationSec": 6000,
+   "maxTenths": 900,
+   "targetScore": 45,
+   "sectionCount": 5,
+   "bankVersion": "bb1b53a10"
+  },
+  {
+   "id": "imat_mock4",
+   "title": "IMAT MOCK EXAM 4 — \"Calculation Spine\"",
+   "kind": "mock",
+   "qCount": 60,
+   "durationSec": 6000,
+   "maxTenths": 900,
+   "targetScore": 43,
+   "sectionCount": 5,
+   "bankVersion": "b4b3f5360"
+  },
+  {
+   "id": "imat_mock5",
+   "title": "IMAT MOCK EXAM 5 — \"The Discriminator\"",
+   "kind": "mock",
+   "qCount": 60,
+   "durationSec": 6000,
+   "maxTenths": 900,
+   "targetScore": 42,
+   "sectionCount": 5,
+   "bankVersion": "b9c1bce9e"
+  },
+  {
+   "id": "imat_mock6",
+   "title": "IMAT MOCK EXAM 6 — \"At-Level Calibration\"",
+   "kind": "mock",
+   "qCount": 60,
+   "durationSec": 6000,
+   "maxTenths": 900,
+   "targetScore": 45,
+   "sectionCount": 5,
+   "bankVersion": "bb2eff9d8"
+  },
+  {
+   "id": "imat_mock7",
+   "title": "IMAT MOCK EXAM 7 — \"The Real Thing\"",
+   "kind": "mock",
+   "qCount": 60,
+   "durationSec": 6000,
+   "maxTenths": 900,
+   "targetScore": 38,
+   "sectionCount": 5,
+   "bankVersion": "bbc8d653c"
+  },
+  {
+   "id": "imat_mock8",
+   "title": "IMAT MOCK EXAM 8 — \"Final Rehearsal\"",
+   "kind": "mock",
+   "qCount": 60,
+   "durationSec": 6000,
+   "maxTenths": 900,
+   "targetScore": 44,
+   "sectionCount": 5,
+   "bankVersion": "bc6410034"
+  },
+  {
+   "id": "GK_Drill_100",
+   "title": "IMAT GK DRILL — 100 Questions",
+   "kind": "gk_drill",
+   "qCount": 100,
+   "durationSec": 6000,
+   "maxTenths": 1500,
+   "targetScore": null,
+   "sectionCount": 8,
+   "bankVersion": "bdf05c706"
+  },
+  {
+   "id": "Repair_Drill_1",
+   "title": "IMAT REPAIR DRILL — Repeat Offenders",
+   "kind": "repair_drill",
+   "qCount": 70,
+   "durationSec": 6000,
+   "maxTenths": 1050,
+   "targetScore": null,
+   "sectionCount": 7,
+   "bankVersion": "bad8db1e0"
+  }
+ ]
+}

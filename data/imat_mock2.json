@@ -1,0 +1,1489 @@
+{
+ "schema": 1,
+ "id": "imat_mock2",
+ "title": "IMAT MOCK EXAM 2 — \"Bioenergetics Spine\"",
+ "kind": "mock",
+ "durationSec": 6000,
+ "maxTenths": 900,
+ "targetScore": 47,
+ "sections": [
+  {
+   "code": "A",
+   "from": 1,
+   "to": 9,
+   "label": "Section A - Logical Reasoning & Reading",
+   "short": "Reasoning"
+  },
+  {
+   "code": "B",
+   "from": 10,
+   "to": 32,
+   "label": "Section B - Biology",
+   "short": "Biology"
+  },
+  {
+   "code": "C",
+   "from": 33,
+   "to": 47,
+   "label": "Section C - Chemistry",
+   "short": "Chemistry"
+  },
+  {
+   "code": "D",
+   "from": 48,
+   "to": 54,
+   "label": "Section D - Mathematics",
+   "short": "Mathematics"
+  },
+  {
+   "code": "E",
+   "from": 55,
+   "to": 60,
+   "label": "Section E - Physics",
+   "short": "Physics"
+  }
+ ],
+ "bankVersion": "b078f952c",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "\"Antibiotic resistance arises when bacteria acquire genetic changes — by mutation or horizontal gene transfer — that reduce susceptibility to a drug. Resistant strains survive treatment and proliferate, so each course of antibiotics applies selective pressure favouring resistance. Resistance spreads faster in populations with high antibiotic use.\"\n\nWhich is the best-supported conclusion?",
+   "options": [
+    "Antibiotic use creates genetic mutations directly.",
+    "Resistance cannot arise without horizontal gene transfer.",
+    "Reducing unnecessary antibiotic use would slow the spread of resistance.",
+    "All bacteria become resistant after one course.",
+    "Resistance is independent of selection pressure."
+   ],
+   "ans": "C",
+   "exp": "If use applies selection favouring resistance, lowering use reduces that pressure. A misstates mutation origin; B and D are absolute/false; E contradicts the passage.",
+   "perm": [
+    2,
+    4,
+    3,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading",
+   "lik": "H"
+  },
+  {
+   "n": 2,
+   "stem": "\"Homeostasis refers to the maintenance of a constant internal environment despite external changes. Core variables such as body temperature, blood pH, and blood glucose are regulated by negative feedback loops: a sensor detects deviation, a control centre orchestrates a response, and an effector returns the variable to its set point.\"\n\nWhich is consistent with the passage?",
+   "options": [
+    "A positive-feedback loop is the main homeostatic mechanism.",
+    "The effector's job is to push the variable further from the set point.",
+    "Negative feedback returns a variable toward its set point.",
+    "Body temperature is not a homeostatically regulated variable.",
+    "Homeostasis requires no sensor."
+   ],
+   "ans": "C",
+   "exp": "Negative feedback returns the variable to set point.",
+   "perm": [
+    2,
+    1,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading",
+   "lik": "H"
+  },
+  {
+   "n": 3,
+   "stem": "(GK) The Italian Renaissance anatomist who published De humani corporis fabrica (1543), correcting many Galenic errors through direct dissection, was:",
+   "options": [
+    "Leonardo da Vinci",
+    "Andreas Vesalius",
+    "William Harvey",
+    "Marcello Malpighi",
+    "Luigi Galvani"
+   ],
+   "ans": "B",
+   "exp": "Vesalius's Fabrica is a foundation of modern anatomy. (Note: Harvey — blood circulation — was English.)",
+   "perm": [
+    3,
+    2,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "GK",
+   "lik": "L"
+  },
+  {
+   "n": 4,
+   "stem": "Four students — P, Q, R, S — are ranked in an exam. P scored higher than Q but lower than R. S scored lower than Q. Who scored lowest?",
+   "options": [
+    "P",
+    "Q",
+    "R",
+    "S",
+    "Cannot be determined"
+   ],
+   "ans": "D",
+   "exp": "Order from high to low: R > P > Q > S. Lowest = S.",
+   "perm": [
+    3,
+    0,
+    4,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Ordering logic",
+   "lik": "H"
+  },
+  {
+   "n": 5,
+   "stem": "\"If it rains, the match is cancelled.\" The match was not cancelled. Therefore:",
+   "options": [
+    "It rained.",
+    "It did not rain.",
+    "The match was cancelled.",
+    "It might have rained.",
+    "The teams refused to play."
+   ],
+   "ans": "B",
+   "exp": "Modus tollens on (Rain → Cancelled); ¬Cancelled ⇒ ¬Rain.",
+   "perm": [
+    2,
+    0,
+    3,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Formal logic",
+   "lik": "H"
+  },
+  {
+   "n": 6,
+   "stem": "A machine applies the rule: take a number, square it, then subtract 4. If the output is 32, the input could be:",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "ans": "C",
+   "exp": "x² − 4 = 32 ⇒ x² = 36 ⇒ x = ±6.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Numerical reasoning",
+   "lik": "M"
+  },
+  {
+   "n": 7,
+   "stem": "At 9:45, what is the angle between the hour and minute hands of a clock?",
+   "options": [
+    "0°",
+    "15°",
+    "22.5°",
+    "30°",
+    "45°"
+   ],
+   "ans": "C",
+   "exp": "Minute hand: 45 min × 6° = 270°. Hour hand: 9×30 + 45/60×30 = 270 + 22.5 = 292.5°. Diff = 22.5°.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Clock",
+   "lik": "M"
+  },
+  {
+   "n": 8,
+   "stem": "A is the father of B. B is the sister of C. How is A related to C?",
+   "options": [
+    "Father",
+    "Uncle",
+    "Brother",
+    "Grandfather",
+    "Cousin"
+   ],
+   "ans": "A",
+   "exp": "B and C are siblings sharing father A.",
+   "perm": [
+    0,
+    4,
+    1,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Family/relational logic",
+   "lik": "M"
+  },
+  {
+   "n": 9,
+   "stem": "Complete the series: 1, 4, 9, 16, 25, ?",
+   "options": [
+    "30",
+    "33",
+    "36",
+    "49",
+    "64"
+   ],
+   "ans": "C",
+   "exp": "Perfect squares: 1², 2², 3², 4², 5², 6² = 36.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Sequence",
+   "lik": "M"
+  },
+  {
+   "n": 10,
+   "stem": "Glycolysis occurs in the:",
+   "options": [
+    "Mitochondrial matrix",
+    "Cytosol",
+    "Inner mitochondrial membrane",
+    "Nucleus",
+    "Chloroplast stroma"
+   ],
+   "ans": "B",
+   "exp": "Glycolysis is cytosolic.",
+   "perm": [
+    3,
+    1,
+    2,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 11,
+   "stem": "Under anaerobic conditions in human muscle, pyruvate is converted to:",
+   "options": [
+    "Ethanol and CO₂",
+    "Lactate (lactic acid)",
+    "Acetyl-CoA",
+    "Glucose",
+    "Acetate"
+   ],
+   "ans": "B",
+   "exp": "Lactic acid fermentation regenerates NAD⁺ so glycolysis can continue.",
+   "perm": [
+    4,
+    2,
+    0,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 12,
+   "stem": "The net reaction of aerobic respiration (per glucose) produces approximately how many ATP in eukaryotes (modern estimate)?",
+   "options": [
+    "2",
+    "4",
+    "6–8",
+    "30–32",
+    "100"
+   ],
+   "ans": "D",
+   "exp": "Modern estimates: ~30–32 ATP/glucose in eukaryotes (older texts cite 36–38).",
+   "perm": [
+    4,
+    3,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 13,
+   "stem": "Which coenzyme carries electrons from glycolysis and the Krebs cycle to the electron transport chain?",
+   "options": [
+    "ATP",
+    "NAD⁺ / NADH and FAD / FADH₂",
+    "Coenzyme A",
+    "ADP",
+    "AMP"
+   ],
+   "ans": "B",
+   "exp": "NADH and FADH₂ deliver electrons to complexes I and II respectively.",
+   "perm": [
+    1,
+    3,
+    2,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 14,
+   "stem": "The proton-motive force across the inner mitochondrial membrane is generated by:",
+   "options": [
+    "ATP hydrolysis",
+    "Pumping of H⁺ from matrix to intermembrane space by electron transport complexes",
+    "Diffusion of O₂",
+    "Pyruvate transport",
+    "Ca²⁺ release"
+   ],
+   "ans": "B",
+   "exp": "Complexes I, III, IV pump H⁺, storing energy as an electrochemical gradient.",
+   "perm": [
+    3,
+    4,
+    2,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 15,
+   "stem": "Which metabolic pathway occurs in both cellular respiration and photosynthesis?",
+   "options": [
+    "Calvin cycle",
+    "The Krebs cycle",
+    "Glycolysis-like reactions of the Calvin cycle only",
+    "Electron transport chain with chemiosmosis",
+    "Light-dependent reactions"
+   ],
+   "ans": "D",
+   "exp": "Both processes use an electron transport chain coupled to chemiosmotic ATP synthesis.",
+   "perm": [
+    4,
+    2,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cellular respiration",
+   "lik": "H"
+  },
+  {
+   "n": 16,
+   "stem": "In which organelle does photosynthesis take place in plant cells?",
+   "options": [
+    "Mitochondrion",
+    "Chloroplast",
+    "Nucleus",
+    "Vacuole",
+    "Peroxisome"
+   ],
+   "ans": "B",
+   "exp": "Chloroplasts contain thylakoids (light reactions) and stroma (Calvin cycle).",
+   "perm": [
+    1,
+    2,
+    0,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bioenergetics",
+   "lik": "M"
+  },
+  {
+   "n": 17,
+   "stem": "The light-dependent reactions of photosynthesis produce:",
+   "options": [
+    "Glucose and O₂",
+    "ATP, NADPH, and O₂",
+    "CO₂ and H₂O",
+    "Pyruvate",
+    "Lactate"
+   ],
+   "ans": "B",
+   "exp": "Light energy splits water (releasing O₂) and drives ATP + NADPH synthesis.",
+   "perm": [
+    2,
+    3,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bioenergetics",
+   "lik": "M"
+  },
+  {
+   "n": 18,
+   "stem": "Which blood vessels carry oxygenated blood from the lungs to the heart?",
+   "options": [
+    "Pulmonary arteries",
+    "Pulmonary veins",
+    "Vena cavae",
+    "Aorta",
+    "Coronary arteries"
+   ],
+   "ans": "B",
+   "exp": "Pulmonary veins return oxygenated blood to the left atrium. (Note: pulmonary arteries carry deoxygenated blood — an exception to the usual pattern.)",
+   "perm": [
+    4,
+    1,
+    0,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiratory/circulatory",
+   "lik": "H"
+  },
+  {
+   "n": 19,
+   "stem": "Gas exchange in the lungs occurs across the walls of the:",
+   "options": [
+    "Bronchi",
+    "Trachea",
+    "Alveoli",
+    "Aorta",
+    "Pharynx"
+   ],
+   "ans": "C",
+   "exp": "Alveoli have thin walls + large surface area for O₂/CO₂ diffusion.",
+   "perm": [
+    2,
+    1,
+    0,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiratory system",
+   "lik": "H"
+  },
+  {
+   "n": 20,
+   "stem": "Which cells of the gastric glands secrete hydrochloric acid?",
+   "options": [
+    "Parietal (oxyntic) cells",
+    "Chief cells",
+    "Goblet cells",
+    "Mucous neck cells",
+    "Enterocytes"
+   ],
+   "ans": "A",
+   "exp": "Parietal cells secrete HCl and intrinsic factor.",
+   "perm": [
+    1,
+    2,
+    0,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Digestive system",
+   "lik": "H"
+  },
+  {
+   "n": 21,
+   "stem": "Bile, which emulsifies fats, is produced by the __ and stored in the __.",
+   "options": [
+    "Pancreas / gallbladder",
+    "Liver / gallbladder",
+    "Stomach / pancreas",
+    "Gallbladder / liver",
+    "Small intestine / liver"
+   ],
+   "ans": "B",
+   "exp": "Bile is made in the liver and concentrated/stored in the gallbladder.",
+   "perm": [
+    2,
+    1,
+    0,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Digestive system",
+   "lik": "H"
+  },
+  {
+   "n": 22,
+   "stem": "The basic functional unit of the kidney is the:",
+   "options": [
+    "Alveolus",
+    "Nephron",
+    "Neuron",
+    "Sarcomere",
+    "Hepatocyte"
+   ],
+   "ans": "B",
+   "exp": "Each kidney has ~1 million nephrons performing filtration, reabsorption, secretion.",
+   "perm": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Excretory system",
+   "lik": "H"
+  },
+  {
+   "n": 23,
+   "stem": "Filtration of blood in the nephron occurs at the:",
+   "options": [
+    "Loop of Henle",
+    "Glomerulus (Bowman's capsule)",
+    "Collecting duct",
+    "Distal convoluted tubule",
+    "Renal pelvis"
+   ],
+   "ans": "B",
+   "exp": "The glomerulus filters plasma into Bowman's capsule.",
+   "perm": [
+    0,
+    3,
+    2,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Excretory system",
+   "lik": "H"
+  },
+  {
+   "n": 24,
+   "stem": "Which tissue lines the inner surface of the stomach and intestines?",
+   "options": [
+    "Stratified squamous epithelium",
+    "Simple columnar epithelium",
+    "Simple cuboidal epithelium",
+    "Pseudostratified ciliated epithelium",
+    "Transitional epithelium"
+   ],
+   "ans": "B",
+   "exp": "Simple columnar epithelium with microvilli lines the GI tract for absorption.",
+   "perm": [
+    2,
+    4,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Histology",
+   "lik": "H"
+  },
+  {
+   "n": 25,
+   "stem": "Smooth muscle is found in the walls of all of the following EXCEPT:",
+   "options": [
+    "Blood vessels",
+    "The intestines",
+    "The uterus",
+    "Skeletal attachments to bone (tendons are connective tissue, not muscle)",
+    "The bronchi"
+   ],
+   "ans": "D",
+   "exp": "Tendons are connective tissue; smooth muscle is involuntary and lines hollow organs/vessels. (Skeletal muscle attaches to bone via tendons.)",
+   "perm": [
+    2,
+    3,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Histology/muscle",
+   "lik": "H"
+  },
+  {
+   "n": 26,
+   "stem": "Which connective tissue cell type produces the fibres of regular dense connective tissue (e.g., tendons)?",
+   "options": [
+    "Chondrocytes",
+    "Osteocytes",
+    "Fibroblasts",
+    "Adipocytes",
+    "Erythrocytes"
+   ],
+   "ans": "C",
+   "exp": "Fibroblasts secrete collagen fibres.",
+   "perm": [
+    4,
+    3,
+    1,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Histology",
+   "lik": "M"
+  },
+  {
+   "n": 27,
+   "stem": "The primary stimulus for ventilation during moderate exercise is the rise in:",
+   "options": [
+    "Blood O₂",
+    "Blood CO₂ (and H⁺), sensed by central and peripheral chemoreceptors",
+    "Blood nitrogen",
+    "Atmospheric pressure",
+    "Body temperature only"
+   ],
+   "ans": "B",
+   "exp": "CO₂ (via H⁺) is the main driver of ventilation under most conditions.",
+   "perm": [
+    0,
+    2,
+    3,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Respiratory physiology",
+   "lik": "H"
+  },
+  {
+   "n": 28,
+   "stem": "Insulin promotes which of the following in liver and muscle?",
+   "options": [
+    "Glycogenolysis and gluconeogenesis",
+    "Glycogen synthesis (glycogenesis) and glucose uptake",
+    "Lipolysis",
+    "Ketogenesis",
+    "Glucose release into blood"
+   ],
+   "ans": "B",
+   "exp": "Insulin drives glucose uptake (GLUT4) and glycogenesis.",
+   "perm": [
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Endocrine/metabolism",
+   "lik": "H"
+  },
+  {
+   "n": 29,
+   "stem": "The long bone of the thigh is the:",
+   "options": [
+    "Tibia",
+    "Fibula",
+    "Femur",
+    "Humerus",
+    "Patella"
+   ],
+   "ans": "C",
+   "exp": "Femur = thigh bone (longest bone in the body).",
+   "perm": [
+    1,
+    4,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Anatomy",
+   "lik": "M"
+  },
+  {
+   "n": 30,
+   "stem": "A red blood cell placed in a hypertonic solution will:",
+   "options": [
+    "Swell and burst",
+    "Shrink (crenate)",
+    "Remain unchanged",
+    "Divide",
+    "Become a leucocyte"
+   ],
+   "ans": "B",
+   "exp": "Water leaves the cell by osmosis → crenation.",
+   "perm": [
+    4,
+    2,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell membrane/osmosis",
+   "lik": "H"
+  },
+  {
+   "n": 31,
+   "stem": "The phase of mitosis in which chromosomes align at the cell's equator is:",
+   "options": [
+    "Prophase",
+    "Metaphase",
+    "Anaphase",
+    "Telophase",
+    "Cytokinesis"
+   ],
+   "ans": "B",
+   "exp": "Chromosomes line up at the metaphase plate.",
+   "perm": [
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cell cycle",
+   "lik": "M"
+  },
+  {
+   "n": 32,
+   "stem": "Which of the following is the correct base-pairing rule in DNA?",
+   "options": [
+    "A – T and G – C",
+    "A – G and T – C",
+    "A – U and G – C (this is DNA–RNA, not DNA–DNA)",
+    "A – C and G – T",
+    "A – A and T – T"
+   ],
+   "ans": "A",
+   "exp": "In DNA, adenine pairs with thymine, guanine with cytosine.",
+   "perm": [
+    0,
+    2,
+    4,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Nucleic acids",
+   "lik": "H"
+  },
+  {
+   "n": 33,
+   "stem": "Balance: __ Al + __ O₂ → __ Al₂O₃. The coefficient of O₂ is:",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "ans": "C",
+   "exp": "4 Al + 3 O₂ → 2 Al₂O₃.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Stoichiometry",
+   "lik": "H"
+  },
+  {
+   "n": 34,
+   "stem": "What is the oxidation number of Mn in KMnO₄?",
+   "options": [
+    "+2",
+    "+4",
+    "+6",
+    "+7",
+    "−1"
+   ],
+   "ans": "D",
+   "exp": "K = +1, O = −2 (×4 = −8); Mn = +7.",
+   "perm": [
+    2,
+    4,
+    1,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Redox",
+   "lik": "H"
+  },
+  {
+   "n": 35,
+   "stem": "25.0 mL of 0.10 M HCl is neutralised by 0.05 M NaOH. What volume of NaOH is required?",
+   "options": [
+    "25 mL",
+    "50 mL",
+    "12.5 mL",
+    "100 mL",
+    "5 mL"
+   ],
+   "ans": "B",
+   "exp": "Moles HCl = 0.025 × 0.10 = 0.0025 mol. Need equal moles OH⁻: V = 0.0025 / 0.05 = 0.050 L = 50 mL.",
+   "perm": [
+    4,
+    2,
+    0,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acid-base/stoichiometry",
+   "lik": "H"
+  },
+  {
+   "n": 36,
+   "stem": "A buffer solution resists changes in pH when small amounts of acid or base are added. A typical buffer consists of:",
+   "options": [
+    "A strong acid and its conjugate base",
+    "A weak acid and its conjugate base (or weak base and its conjugate acid)",
+    "Two strong acids",
+    "A strong acid and a strong base",
+    "Pure water"
+   ],
+   "ans": "B",
+   "exp": "Weak acid/conjugate base pairs (e.g., acetic acid/acetate) resist pH change.",
+   "perm": [
+    4,
+    0,
+    2,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 37,
+   "stem": "Which has the highest electronegativity?",
+   "options": [
+    "Na",
+    "Cl",
+    "F",
+    "O",
+    "Cs"
+   ],
+   "ans": "C",
+   "exp": "Fluorine is the most electronegative element (4.0 on Pauling scale).",
+   "perm": [
+    4,
+    1,
+    0,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Periodic table/bonding",
+   "lik": "M"
+  },
+  {
+   "n": 38,
+   "stem": "The shape of a methane (CH₄) molecule is:",
+   "options": [
+    "Linear",
+    "Trigonal planar",
+    "Tetrahedral",
+    "Pyramidal",
+    "Octahedral"
+   ],
+   "ans": "C",
+   "exp": "Four bonding pairs, no lone pairs → tetrahedral, 109.5°.",
+   "perm": [
+    0,
+    2,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bonding/VSEPR",
+   "lik": "H"
+  },
+  {
+   "n": 39,
+   "stem": "At STP, what volume is occupied by 1 mole of an ideal gas? (Use standard value.)",
+   "options": [
+    "11.2 L",
+    "22.4 L",
+    "24.0 L",
+    "1.0 L",
+    "6.02 L"
+   ],
+   "ans": "B",
+   "exp": "1 mol ideal gas at STP (0 °C, 1 atm) = 22.4 L.",
+   "perm": [
+    3,
+    4,
+    0,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Gas laws",
+   "lik": "H"
+  },
+  {
+   "n": 40,
+   "stem": "Calculate the molar mass of CaCO₃. (Ca = 40, C = 12, O = 16.)",
+   "options": [
+    "68 g/mol",
+    "84 g/mol",
+    "100 g/mol",
+    "116 g/mol",
+    "56 g/mol"
+   ],
+   "ans": "C",
+   "exp": "40 + 12 + (16×3) = 100 g/mol.",
+   "perm": [
+    4,
+    0,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Mole",
+   "lik": "H"
+  },
+  {
+   "n": 41,
+   "stem": "Which has the lowest pH?",
+   "options": [
+    "0.1 M HCl",
+    "0.01 M HCl",
+    "0.1 M CH₃COOH (acetic acid, weak)",
+    "Pure water",
+    "0.1 M NaOH"
+   ],
+   "ans": "A",
+   "exp": "0.1 M HCl → pH 1 (lowest, most acidic among options).",
+   "perm": [
+    0,
+    4,
+    2,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 42,
+   "stem": "Which of the following is an aromatic compound?",
+   "options": [
+    "Ethene",
+    "Ethanol",
+    "Benzene",
+    "Methane",
+    "Acetylene"
+   ],
+   "ans": "C",
+   "exp": "Benzene (C₆H₆) is the archetypal aromatic compound.",
+   "perm": [
+    0,
+    3,
+    2,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic",
+   "lik": "M"
+  },
+  {
+   "n": 43,
+   "stem": "Which functional group is present in aldehydes?",
+   "options": [
+    "–OH",
+    "–CHO",
+    "–COOH",
+    "–NH₂",
+    "–C=O (internal, no H)"
+   ],
+   "ans": "B",
+   "exp": "Aldehydes have the –CHO group (carbonyl with at least one H).",
+   "perm": [
+    1,
+    2,
+    4,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic",
+   "lik": "M"
+  },
+  {
+   "n": 44,
+   "stem": "For the equilibrium 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), ΔH < 0. Increasing temperature will:",
+   "options": [
+    "Shift the equilibrium to the right",
+    "Shift the equilibrium to the left (favours endothermic direction)",
+    "Have no effect on position",
+    "Increase SO₃ yield only",
+    "Stop the reaction"
+   ],
+   "ans": "B",
+   "exp": "Forward reaction is exothermic; raising T favours the reverse (endothermic) direction.",
+   "perm": [
+    0,
+    1,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Equilibrium",
+   "lik": "H"
+  },
+  {
+   "n": 45,
+   "stem": "The isotope ¹⁴C has how many neutrons? (C atomic number = 6.)",
+   "options": [
+    "6",
+    "7",
+    "8",
+    "14",
+    "20"
+   ],
+   "ans": "C",
+   "exp": "Neutrons = mass number − protons = 14 − 6 = 8.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Atomic structure",
+   "lik": "M"
+  },
+  {
+   "n": 46,
+   "stem": "A catalyst increases the rate of a reaction by:",
+   "options": [
+    "Increasing the temperature",
+    "Increasing the activation energy",
+    "Providing an alternative pathway with lower activation energy",
+    "Shifting equilibrium toward products",
+    "Being consumed in the net reaction"
+   ],
+   "ans": "C",
+   "exp": "Catalysts lower Eₐ (alternate pathway); they are regenerated and do not change K_eq.",
+   "perm": [
+    3,
+    1,
+    0,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Kinetics",
+   "lik": "M"
+  },
+  {
+   "n": 47,
+   "stem": "What type of reaction is: CH₄ + Cl₂ → CH₃Cl + HCl (in light)?",
+   "options": [
+    "Addition",
+    "Substitution",
+    "Elimination",
+    "Neutralisation",
+    "Combustion"
+   ],
+   "ans": "B",
+   "exp": "A H atom of methane is substituted by Cl — free-radical substitution.",
+   "perm": [
+    3,
+    2,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic reactions",
+   "lik": "M"
+  },
+  {
+   "n": 48,
+   "stem": "Solve: (x − 2)(x + 3) = 0.",
+   "options": [
+    "x = 2 only",
+    "x = −3 only",
+    "x = 2 or x = −3",
+    "x = 6",
+    "x = −6"
+   ],
+   "ans": "C",
+   "exp": "Product zero ⇒ either factor zero.",
+   "perm": [
+    4,
+    1,
+    0,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Algebra",
+   "lik": "H"
+  },
+  {
+   "n": 49,
+   "stem": "Solve: x² − 5x + 6 = 0.",
+   "options": [
+    "x = 1, 6",
+    "x = 2, 3",
+    "x = −2, −3",
+    "x = 1, 5",
+    "No real roots"
+   ],
+   "ans": "B",
+   "exp": "(x−2)(x−3) = 0.",
+   "perm": [
+    1,
+    3,
+    4,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Quadratics",
+   "lik": "H"
+  },
+  {
+   "n": 50,
+   "stem": "Solve: 3/x = 9. (x ≠ 0.)",
+   "options": [
+    "x = 27",
+    "x = 3",
+    "x = 1/3",
+    "x = −3",
+    "x = 1/9"
+   ],
+   "ans": "C",
+   "exp": "3/x = 9 ⇒ x = 3/9 = 1/3.",
+   "perm": [
+    4,
+    3,
+    1,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Algebra/rational",
+   "lik": "H"
+  },
+  {
+   "n": 51,
+   "stem": "Solve the inequality: −2x + 1 > 7.",
+   "options": [
+    "x > 3",
+    "x < −3",
+    "x > −3",
+    "x < 3",
+    "x = −3"
+   ],
+   "ans": "B",
+   "exp": "−2x > 6 ⇒ divide by −2 and flip: x < −3.",
+   "perm": [
+    2,
+    3,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Inequalities",
+   "lik": "H"
+  },
+  {
+   "n": 52,
+   "stem": "In a right triangle with legs 6 and 8, what is the hypotenuse?",
+   "options": [
+    "9",
+    "10",
+    "11",
+    "12",
+    "14"
+   ],
+   "ans": "B",
+   "exp": "√(36 + 64) = √100 = 10. (Classic 6-8-10 triple.)",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Geometry",
+   "lik": "H"
+  },
+  {
+   "n": 53,
+   "stem": "sin 30° = ?",
+   "options": [
+    "0",
+    "1/2",
+    "√2/2",
+    "√3/2",
+    "1"
+   ],
+   "ans": "B",
+   "exp": "sin 30° = 1/2.",
+   "perm": [
+    3,
+    4,
+    2,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Trigonometry",
+   "lik": "M"
+  },
+  {
+   "n": 54,
+   "stem": "A is the set {1, 2, 3}; B is the set {a, b}. How many ordered pairs are in A × B (the Cartesian product)?",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "6",
+    "9"
+   ],
+   "ans": "D",
+   "exp": "|A × B| = |A| × |B| = 3 × 2 = 6.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "general",
+   "lik": "H"
+  },
+  {
+   "n": 55,
+   "stem": "A body accelerates uniformly from rest at 2 m/s² for 5 s. What distance does it cover?",
+   "options": [
+    "10 m",
+    "20 m",
+    "25 m",
+    "50 m",
+    "100 m"
+   ],
+   "ans": "C",
+   "exp": "s = ½at² = ½ × 2 × 25 = 25 m.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Kinematics",
+   "lik": "H"
+  },
+  {
+   "n": 56,
+   "stem": "Two resistors, 4 Ω and 6 Ω, are in series across a 10 V battery. What is the current?",
+   "options": [
+    "0.5 A",
+    "1 A",
+    "2 A",
+    "2.5 A",
+    "10 A"
+   ],
+   "ans": "B",
+   "exp": "R_total = 10 Ω; I = V/R = 10/10 = 1 A.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Electricity",
+   "lik": "H"
+  },
+  {
+   "n": 57,
+   "stem": "A 1.5 V cell delivers 0.3 A through a lamp. What is the lamp's resistance?",
+   "options": [
+    "0.2 Ω",
+    "0.45 Ω",
+    "2 Ω",
+    "5 Ω",
+    "4.5 Ω"
+   ],
+   "ans": "D",
+   "exp": "R = V/I = 1.5/0.3 = 5 Ω.",
+   "perm": [
+    0,
+    1,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Electricity/Ohm's law",
+   "lik": "H"
+  },
+  {
+   "n": 58,
+   "stem": "A 2 kg block is pushed with a force of 10 N on a frictionless surface. What is its acceleration?",
+   "options": [
+    "2 m/s²",
+    "5 m/s²",
+    "8 m/s²",
+    "10 m/s²",
+    "20 m/s²"
+   ],
+   "ans": "B",
+   "exp": "a = F/m = 10/2 = 5 m/s².",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Dynamics",
+   "lik": "H"
+  },
+  {
+   "n": 59,
+   "stem": "A 5 kg object is lifted 2 m. How much gravitational PE is gained? (g = 9.8 m/s².)",
+   "options": [
+    "9.8 J",
+    "49 J",
+    "98 J",
+    "196 J",
+    "10 J"
+   ],
+   "ans": "C",
+   "exp": "PE = mgh = 5 × 9.8 × 2 = 98 J.",
+   "perm": [
+    0,
+    4,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Dynamics/energy",
+   "lik": "H"
+  },
+  {
+   "n": 60,
+   "stem": "The acceleration due to gravity on the Moon is about 1/6 of that on Earth. An astronaut's weight on the Moon compared to Earth is:",
+   "options": [
+    "The same",
+    "6 times greater",
+    "1/6 as great",
+    "1/36 as great",
+    "Zero"
+   ],
+   "ans": "C",
+   "exp": "W = mg; with g_Moon = g_Earth/6, weight is 1/6 as great.",
+   "perm": [
+    1,
+    2,
+    0,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Gravitation",
+   "lik": "M"
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IMAT Exam Platform",
+  "short_name": "IMAT",
+  "description": "IMAT 2026 mock exams: sit, review, reattempt, compare. Autosaves and works offline.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1F3864",
+  "theme_color": "#1F3864",
+  "icons": [
+    { "src": "./assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
