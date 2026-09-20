@@ -16,6 +16,7 @@
 | bank_bio_hard | 26 | 26 | 26 | 26 | 26 | 0 | 0/0/0 |
 | bank_chem_hard | 13 | 13 | 13 | 13 | 13 | 0 | 0/0/0 |
 | bank_mpl_hard | 19 | 19 | 19 | 19 | 19 | 0 | 0/0/0 |
+| GK_Bank_Hard | 12 | 12 | 12 | 12 | 12 | 0 | 0/0/0 |
 
 ## Change log
 - imat_mock1 Q1 stem: removed directive line: Read the following passage and answer the question.

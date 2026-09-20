@@ -16,7 +16,7 @@ export async function mount(ctx) {
 
   main.append(el("div", { class: "page-head" },
     el("h1", { text: "Papers" }),
-    el("p", { class: "page-sub", text: "Nine full mocks, two drills and three hard question banks. Progress autosaves; leave and resume any time." })));
+    el("p", { class: "page-sub", text: "Nine full mocks, two drills and four hard question banks. Progress autosaves; leave and resume any time." })));
 
   // resume card
   const inProgress = attempts

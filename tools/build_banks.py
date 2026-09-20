@@ -22,6 +22,7 @@ TARGETS = {
     "imat_mock9": 35,
     "GK_Drill_100": None, "Repair_Drill_1": None,
     "bank_bio_hard": None, "bank_chem_hard": None, "bank_mpl_hard": None,
+    "GK_Bank_Hard": None,
 }
 KINDS = {
     "imat_mock1": "mock", "imat_mock2": "mock", "imat_mock3": "mock", "imat_mock4": "mock",
@@ -29,10 +30,11 @@ KINDS = {
     "imat_mock9": "mock",
     "GK_Drill_100": "gk_drill", "Repair_Drill_1": "repair_drill",
     "bank_bio_hard": "bank", "bank_chem_hard": "bank", "bank_mpl_hard": "bank",
+    "GK_Bank_Hard": "bank",
 }
 EXPECTED_COUNTS = {"mock": 60, "gk_drill": 100, "repair_drill": 70}
-BANK_COUNTS = {"bank_bio_hard": 130, "bank_chem_hard": 65, "bank_mpl_hard": 95}
-DURATIONS = {"bank_bio_hard": 13000, "bank_chem_hard": 6500, "bank_mpl_hard": 9500}
+BANK_COUNTS = {"bank_bio_hard": 130, "bank_chem_hard": 65, "bank_mpl_hard": 95, "GK_Bank_Hard": 60}
+DURATIONS = {"bank_bio_hard": 13000, "bank_chem_hard": 6500, "bank_mpl_hard": 9500, "GK_Bank_Hard": 6000}
 
 SHORT_LABELS = {
     "A": "Reasoning", "B": "Biology", "C": "Chemistry", "D": "Mathematics", "E": "Physics",
@@ -48,9 +50,10 @@ BANK_CHEM_SHORT = {"A": "Organic", "B": "StoichGas", "C": "AcidsBases",
                    "D": "Redox", "E": "Bonding", "F": "Kinetics"}
 BANK_MPL_SHORT = {"A": "Algebra", "B": "Geometry", "C": "Prob", "D": "Units",
                   "E": "Kinematics", "F": "FluidsThermo", "G": "Logic"}
+BANK_GK_SHORT = {"A": "History", "B": "Lit", "C": "Intl", "D": "Civics", "E": "Italy",
+                 "F": "HistSci", "G": "Geo", "H": "Society", "I": "Current"}
 BANK_SHORTS = {"bank_bio_hard": BANK_BIO_SHORT, "bank_chem_hard": BANK_CHEM_SHORT,
-               "bank_mpl_hard": BANK_MPL_SHORT}
-
+               "bank_mpl_hard": BANK_MPL_SHORT, "GK_Bank_Hard": BANK_GK_SHORT}
 INTERNAL_TAG_KEYWORDS = [
     "formula recall", "common trap", "new entrant", "repeat offender",
     "as in 20", "forecast",
@@ -153,12 +156,12 @@ def extract_sections(html, exam_id):
     ranges = {}
     m = re.search(r"SEC_RANGES\s*=\s*\{(.*?)\}", html, re.S)
     if m:
-        for code, lo, hi in re.findall(r"([A-H])\s*:\s*\[\s*(\d+)\s*,\s*(\d+)\s*\]", m.group(1)):
+        for code, lo, hi in re.findall(r"([A-I])\s*:\s*\[\s*(\d+)\s*,\s*(\d+)\s*\]", m.group(1)):
             ranges[code] = (int(lo), int(hi))
     labels = {}
     m = re.search(r"SECTION_LABEL\s*=\s*\{(.*?)\}", html, re.S)
     if m:
-        for code, lab in re.findall(r"([A-H])\s*:\s*\"([^\"]+)\"", m.group(1)):
+        for code, lab in re.findall(r"([A-I])\s*:\s*\"([^\"]+)\"", m.group(1)):
             labels[code] = lab
     long_labels = {}
     # long labels: prefer full "Section X - ..." strings found in engine source
@@ -475,6 +478,7 @@ def main():
     src_files["bank_bio_hard"] = os.path.join(args.src, "Hard_Bank_Biology.html")
     src_files["bank_chem_hard"] = os.path.join(args.src, "Hard_Bank_Chemistry.html")
     src_files["bank_mpl_hard"] = os.path.join(args.src, "Hard_Bank_Maths_Physics_Logic.html")
+    src_files["GK_Bank_Hard"] = os.path.join(args.src, "Hard_Bank_GK.html")
 
     log = []
     all_problems = []
@@ -483,7 +487,7 @@ def main():
     dist_rows = []
     banks = {}
     for exam_id in ["imat_mock%d" % i for i in range(1, 10)] + ["GK_Drill_100", "Repair_Drill_1"] \
-            + ["bank_bio_hard", "bank_chem_hard", "bank_mpl_hard"]:
+            + ["bank_bio_hard", "bank_chem_hard", "bank_mpl_hard", "GK_Bank_Hard"]:
         with open(src_files[exam_id], encoding="utf-8") as f:
             html = f.read()
         bank, counts, unsafe_map, scrub_totals = build_bank(html, exam_id, overrides, log)

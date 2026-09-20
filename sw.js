@@ -1,36 +1,36 @@
 /* Service worker: PWA-lite. Precache the shell + banks; network-first for
    navigations, data and config so content fixes propagate; cache-first for
    versioned static assets. Never touches cross-origin (Supabase) traffic. */
-const VERSION = "f428eb2c";
+const VERSION = "8490e30e";
 const CACHE = "imatex-" + VERSION;
 const PRECACHE = [
   "./",
   "./index.html",
   "./404.html",
   "./manifest.webmanifest",
-  "./config.js?v=f428eb2c",
-  "./css/app.css?v=f428eb2c",
+  "./config.js?v=8490e30e",
+  "./css/app.css?v=8490e30e",
   "./assets/icons/favicon.svg",
   "./assets/icons/icon-192.png",
   "./assets/icons/icon-512.png",
-  "./js/app.js?v=f428eb2c",
-  "./js/banks.js?v=f428eb2c",
-  "./js/core.js?v=f428eb2c",
-  "./js/grader.js?v=f428eb2c",
-  "./js/timer.js?v=f428eb2c",
-  "./js/store.js?v=f428eb2c",
-  "./js/ui.js?v=f428eb2c",
-  "./js/analytics.js?v=f428eb2c",
-  "./js/legacy.js?v=f428eb2c",
-  "./js/legacy-run.js?v=f428eb2c",
-  "./js/sync.js?v=f428eb2c",
-  "./js/view-home.js?v=f428eb2c",
-  "./js/view-exam.js?v=f428eb2c",
-  "./js/view-review.js?v=f428eb2c",
-  "./js/view-history.js?v=f428eb2c",
-  "./js/view-compare.js?v=f428eb2c",
-  "./js/view-analytics.js?v=f428eb2c",
-  "./js/view-settings.js?v=f428eb2c",
+  "./js/app.js?v=8490e30e",
+  "./js/banks.js?v=8490e30e",
+  "./js/core.js?v=8490e30e",
+  "./js/grader.js?v=8490e30e",
+  "./js/timer.js?v=8490e30e",
+  "./js/store.js?v=8490e30e",
+  "./js/ui.js?v=8490e30e",
+  "./js/analytics.js?v=8490e30e",
+  "./js/legacy.js?v=8490e30e",
+  "./js/legacy-run.js?v=8490e30e",
+  "./js/sync.js?v=8490e30e",
+  "./js/view-home.js?v=8490e30e",
+  "./js/view-exam.js?v=8490e30e",
+  "./js/view-review.js?v=8490e30e",
+  "./js/view-history.js?v=8490e30e",
+  "./js/view-compare.js?v=8490e30e",
+  "./js/view-analytics.js?v=8490e30e",
+  "./js/view-settings.js?v=8490e30e",
   "./data/exams.json",
 ];
 const BANKS = [
@@ -39,6 +39,7 @@ const BANKS = [
   "./data/imat_mock7.json", "./data/imat_mock8.json", "./data/imat_mock9.json",
   "./data/GK_Drill_100.json", "./data/Repair_Drill_1.json",
   "./data/bank_bio_hard.json", "./data/bank_chem_hard.json", "./data/bank_mpl_hard.json",
+  "./data/GK_Bank_Hard.json",
 ];
 
 self.addEventListener("install", (e) => {

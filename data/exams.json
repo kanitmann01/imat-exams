@@ -154,6 +154,17 @@
    "targetScore": null,
    "sectionCount": 7,
    "bankVersion": "bce9a9230"
+  },
+  {
+   "id": "GK_Bank_Hard",
+   "title": "IMAT QUESTION BANK: General Knowledge (Medium-Hard)",
+   "kind": "bank",
+   "qCount": 60,
+   "durationSec": 6000,
+   "maxTenths": 900,
+   "targetScore": null,
+   "sectionCount": 9,
+   "bankVersion": "b158794b4"
   }
  ]
 }

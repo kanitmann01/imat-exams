@@ -1,0 +1,36 @@
+{
+ "bank": "GK_Bank_Hard",
+ "section": "I",
+ "questions": [
+  {
+   "stem": "Which of the following statements about the WHO Pandemic Agreement is correct?",
+   "options": [
+    "It was adopted by the United Nations General Assembly in New York in September 2025.",
+    "It is a binding treaty that has been in force worldwide since May 2025, replacing the International Health Regulations.",
+    "It was negotiated and adopted by the G20 health ministers at their Rome summit.",
+    "It was adopted by consensus at the 78th World Health Assembly in Geneva on 20 May 2025.",
+    "It entered into force in December 2025, once 60 countries had ratified it."
+   ],
+   "ans": "D",
+   "exp": "The 78th World Health Assembly adopted the Pandemic Agreement by consensus on 20 May 2025, the first such accord born of the COVID-19 experience. It is not yet in force: entry into force requires 60 ratifications, which cannot begin before the PABS annex is finalised, so both the December 2025 and since-May-2025 claims fail.",
+   "topic": "General knowledge · Current affairs",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "The EU Artificial Intelligence Act, which entered into force on 1 August 2024, applies its rules in phases. In which year did the obligations for providers of general-purpose AI models first become applicable?",
+   "options": [
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "2027"
+   ],
+   "ans": "C",
+   "exp": "The general-purpose AI model obligations became applicable on 2 August 2025. Prohibitions and the AI literacy duty had applied since 2 February 2025; the high-risk system rules, originally due on 2 August 2026, were postponed by the Digital Omnibus adopted in July 2026 to December 2027 and August 2028. The 2024 option matches only the entry into force of the Act.",
+   "topic": "General knowledge · Current affairs",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  }
+ ]
+}

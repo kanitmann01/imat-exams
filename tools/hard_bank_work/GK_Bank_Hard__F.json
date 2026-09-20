@@ -1,0 +1,111 @@
+{
+ "bank": "GK_Bank_Hard",
+ "section": "F",
+ "questions": [
+  {
+   "stem": "Which of the following statements about the first public announcement of evolution by natural selection is correct?",
+   "options": [
+    "Alfred Russel Wallace published his theory of natural selection in 1858, and Charles Darwin's On the Origin of Species appeared only after Wallace's death in 1913.",
+    "In July 1858, papers by Darwin and Wallace were read together at a meeting of the Linnean Society of London, in the absence of both authors.",
+    "Darwin attended the 1858 reading in person, but Wallace could not attend because he was away on HMS Beagle.",
+    "The 1858 papers were presented on Darwin's behalf by his brother Erasmus, since Darwin was gravely ill.",
+    "Wallace sent his essay at Darwin's request, so the two men appeared together on a stage in London in 1858."
+   ],
+   "ans": "B",
+   "exp": "On 1 July 1858 the Linnean Society heard extracts of Darwin's 1844 essay and Wallace's Ternate essay, presented by Joseph Hooker and Charles Lyell; Darwin stayed away, mourning his young son, and Wallace was in the Malay Archipelago. The tempting picture of a joint stage appearance is wrong, and On the Origin of Species followed in November 1859, long before Wallace died in 1913.",
+   "topic": "General knowledge · History of science",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about the Newton-Leibniz dispute over the invention of calculus is correct?",
+   "options": [
+    "Isaac Newton published his method of fluxions in the Principia of 1687, more than a decade before Leibniz published anything on the subject.",
+    "Gottfried Leibniz developed his differential calculus in the 1660s, before Newton, and published it in 1684.",
+    "Leibniz published the first printed account of differential calculus in 1684, although Newton had developed his method of fluxions about twenty years earlier without publishing it.",
+    "A Royal Society commission, guided by neutral referees from the French Academy of Sciences, awarded priority to Leibniz in 1712.",
+    "The two men settled the dispute amicably and agreed to share credit in joint publications of the Royal Society."
+   ],
+   "ans": "C",
+   "exp": "Historians agree the two worked independently: Newton created fluxions in 1665 to 1666 but left them unpublished, Leibniz printed his differential calculus in Acta Eruditorum in 1684, and Newton's own account appeared only in 1704 as an appendix to Opticks. The 1712 Royal Society report backed Newton, hardly a neutral verdict since he was the Society's president.",
+   "topic": "General knowledge · History of science",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Gregor Mendel's paper on his pea plant experiments, published in 1866, was largely ignored for decades. Its laws were rediscovered and cited in 1900 by which three botanists?",
+   "options": [
+    "Hugo de Vries, Carl Correns and Erich von Tschermak",
+    "James Watson, Francis Crick and Maurice Wilkins",
+    "Robert Koch, Paul Ehrlich and Emil von Behring",
+    "Thomas Hunt Morgan, Alfred Sturtevant and Calvin Bridges",
+    "Joseph Hooker, Charles Lyell and Asa Gray"
+   ],
+   "ans": "A",
+   "exp": "Three botanists working independently, de Vries in the Netherlands, Correns in Germany and Tschermak in Austria, each arrived at Mendel's laws in 1900 and each cited the 1866 paper, launching modern genetics. The Morgan-Sturtevant-Bridges group belongs to the later chromosome mapping work in fruit flies.",
+   "topic": "General knowledge · History of science",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about the Michelson-Morley experiment of 1887 is correct?",
+   "options": [
+    "It detected a marked aether wind, confirming that light waves need a material medium and opening the way to special relativity.",
+    "It measured the charge of the electron suspended in oil droplets, work honoured by the 1907 Nobel Prize in Physics.",
+    "It was designed to test Newton's law of universal gravitation, and its positive result led Einstein directly to general relativity.",
+    "Its null result, obtained by splitting a light beam with an interferometer in Cleveland, showed no measurable difference in light speed with Earth's motion, undermining the luminiferous aether.",
+    "It confirmed that light travels at different speeds depending on the direction of Earth's orbital motion, as aether theory predicted."
+   ],
+   "ans": "D",
+   "exp": "Using Michelson's interferometer in Cleveland, Ohio, the 1887 experiment found no aether drift: light speed appeared the same in every direction, the first strong evidence against the aether and a key step toward Einstein's special relativity of 1905. Michelson's 1907 prize, the first Nobel in the sciences for an American, was for the interferometer and precision optical work, not for any electron measurement.",
+   "topic": "General knowledge · History of science",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Rosalind Franklin's X-ray diffraction work at King's College London was central to the discovery of the DNA double helix. Why did she not share the 1962 Nobel Prize in Physiology or Medicine awarded to Watson, Crick and Wilkins?",
+   "options": [
+    "Her Photo 51 had been shown to Watson without her knowledge, and she refused on principle to appear alongside him in Stockholm.",
+    "Her data had by then disproved the double-helix model, so the Nobel committee excluded her work.",
+    "Her contribution was recognised instead by the 1962 Nobel Prize in Chemistry, which she shared with Max Perutz.",
+    "Nobel Foundation rules of the time did not allow women to share science prizes.",
+    "She had died in 1958, and Nobel prizes are not awarded posthumously, which made her ineligible for the 1962 award."
+   ],
+   "ans": "E",
+   "exp": "Franklin died of cancer in April 1958 at the age of 37, four years before the prize, and Nobel rules exclude a person who has died. The refusal-on-principle story and the chemistry-prize story are both wrong: the 1962 chemistry prize went to Perutz and Kendrew for protein structure work.",
+   "topic": "General knowledge · History of science",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "In their famous 1952 blender experiment, Alfred Hershey and Martha Chase labelled T2 bacteriophages with radioactive isotopes. Which of the following statements describes their finding correctly?",
+   "options": [
+    "The sulphur-labelled protein, 35S, entered the bacterial cells, showing that protein is the genetic material.",
+    "Both the 32P-labelled DNA and the 35S-labelled protein entered the cells, showing that genes contain DNA and protein together.",
+    "The phosphorus-labelled DNA, 32P, entered the bacterial cells while the sulphur-labelled protein coats stayed outside, showing that DNA is the genetic material.",
+    "The experiment used X-ray diffraction of phage crystals to reveal the double-helical shape of DNA inside the virus.",
+    "The experiment transferred a transforming principle extracted from dead, heat-killed bacteria into live cells."
+   ],
+   "ans": "C",
+   "exp": "Hershey and Chase found that only the 32P label, marking DNA, entered the infected bacteria while the 35S label, marking protein, was sheared off in the blender, confirming DNA as the hereditary material of the phage. The transforming-principle description belongs to Griffith and Avery, and the X-ray claim belongs to the DNA structure story, not to this experiment.",
+   "topic": "General knowledge · History of science",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about the development of penicillin into a usable drug is correct?",
+   "options": [
+    "Howard Florey and Ernst Chain led the Oxford team that purified penicillin and ran its first clinical trials, and they shared the 1945 Nobel Prize with Alexander Fleming.",
+    "Joseph Lister purified penicillin in the 1870s and used it as his antiseptic in surgery.",
+    "Paul Ehrlich's laboratory mass-produced penicillin as the first magic bullet against syphilis.",
+    "Selman Waksman isolated penicillin from soil bacteria, work honoured by the 1952 Nobel Prize.",
+    "Gerhard Domagk's team developed penicillin as the first sulphonamide drug in the 1930s."
+   ],
+   "ans": "A",
+   "exp": "Fleming discovered penicillin in 1928 but could not purify it; the Oxford team of Florey and Chain did, treating the first patient in 1941, and the three shared the 1945 Nobel Prize in Physiology or Medicine. Lister's antiseptic was carbolic acid, Ehrlich's magic bullet was Salvarsan, and Waksman's prize was for streptomycin.",
+   "topic": "General knowledge · History of science",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  }
+ ]
+}

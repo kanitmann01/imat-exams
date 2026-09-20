@@ -1,0 +1,126 @@
+{
+ "bank": "GK_Bank_Hard",
+ "section": "C",
+ "questions": [
+  {
+   "stem": "Which of the following statements about international courts is correct?",
+   "options": [
+    "The International Court of Justice prosecutes individual government officials for war crimes.",
+    "The International Criminal Court decides legal disputes submitted by one state against another state.",
+    "Only states may be parties in cases before the International Court of Justice, while the International Criminal Court prosecutes individuals.",
+    "The International Criminal Court is the principal judicial organ of the United Nations.",
+    "The International Court of Justice hands down sentences of imprisonment against states that lose their cases."
+   ],
+   "ans": "C",
+   "exp": "The ICJ, the UN's principal judicial organ, hears contentious cases only between states that have accepted its jurisdiction; the ICC, established by the Rome Statute in force since 2002, prosecutes individuals for genocide, crimes against humanity, war crimes and aggression. The option making the ICC a UN organ is wrong: it is independent, and states such as the United States, Russia and China are not parties to its statute.",
+   "topic": "General knowledge · International institutions",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "A resolution on a matter of peace and security needs nine affirmative votes out of fifteen in the UN Security Council. What is the effect of the abstention of a permanent member?",
+   "options": [
+    "It does not block adoption: settled practice treats an abstention as not a veto, so the resolution passes if the other requirements are met.",
+    "It counts as a veto, because the Charter requires the concurring votes of all five permanent members.",
+    "It converts the matter into a procedural one, which the General Assembly then decides by simple majority.",
+    "It suspends the vote until the Secretary General has mediated between the permanent members.",
+    "It invalidates the vote entirely, forcing the Council to retable the resolution at a later session."
+   ],
+   "ans": "A",
+   "exp": "Since the earliest years of the UN, settled practice has held that a permanent member's abstention, or absence, is not a veto: Article 27 requires nine affirmative votes and no negative vote from a permanent member. The option demanding all five concurring votes misreads the Charter text and would have blocked almost every resolution ever adopted.",
+   "topic": "General knowledge · International institutions",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about the mandates of international economic institutions is correct?",
+   "options": [
+    "The IMF lends mainly for long-term infrastructure projects such as highways and power plants.",
+    "The World Bank exists to provide emergency balance-of-payments support to countries in currency crisis.",
+    "The WTO is a specialized agency of the United Nations with a mandate over exchange-rate stability.",
+    "The IMF supports member countries facing balance-of-payments difficulties, while the World Bank finances long-term development and poverty-reduction projects.",
+    "The IMF and the World Bank together set binding exchange rates for all their member states."
+   ],
+   "ans": "D",
+   "exp": "The IMF is the macroeconomic stability institution, lending short and medium term to members with balance-of-payments problems; the World Bank is the long-term development lender. The infrastructure option describes the World Bank's mandate, and the WTO, although it cooperates closely with the UN, is not a UN specialized agency.",
+   "topic": "General knowledge · International institutions",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about United Nations peacekeeping is correct?",
+   "options": [
+    "The UN keeps a standing army that it deploys wherever the Secretary General decides.",
+    "Operations are authorized by the Security Council and are manned by troops voluntarily contributed by member states.",
+    "Peacekeepers may use force at will to impose a settlement, because they are combat troops of a UN army.",
+    "A mission can be imposed on the parties to a conflict even when they refuse any UN presence.",
+    "During operations, national contingents remain under the exclusive operational command of their own governments."
+   ],
+   "ans": "B",
+   "exp": "Every peacekeeping operation is established by a Security Council resolution and staffed by national contingents seconded by their governments; the UN has no standing army. The classic principles are consent of the parties, impartiality and use of force only in self-defence and defence of the mandate, so the option allowing peacekeepers to impose a settlement at will is wrong.",
+   "topic": "General knowledge · International institutions",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about the Geneva Conventions of 1949 is correct?",
+   "options": [
+    "They regulate the design and use of specific weapons such as chemical munitions.",
+    "They bind only the states that have accepted the Additional Protocols of 1977.",
+    "They apply only to armed conflicts between states that have formally declared war.",
+    "They are enforced by an international tribunal that sentences states for violating them.",
+    "They protect wounded and sick combatants, prisoners of war and civilians, and have been ratified by virtually every state in the world."
+   ],
+   "ans": "E",
+   "exp": "The four Conventions of 1949 protect people no longer taking part in the fighting, and with 196 states parties they are the most universally ratified treaties in existence. The weapons option confuses them with Hague law on the means of warfare, and they apply to every armed conflict, whether or not war has been formally declared.",
+   "topic": "General knowledge · International institutions",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "NATO's Article 5 declares that an armed attack against one ally is considered an attack against all. Which statement about it is correct?",
+   "options": [
+    "It obliges every ally to respond militarily under a single NATO command within a fixed deadline.",
+    "It has been invoked three times, during the Korean War, the Cuban missile crisis and the Falklands War.",
+    "It has been invoked only once, after the attacks of 11 September 2001, and each ally then decided for itself what action to take.",
+    "It can be triggered only by a nuclear attack on alliance territory in Europe.",
+    "It transfers the armed forces of all allies to the permanent control of the NATO Secretary General."
+   ],
+   "ans": "C",
+   "exp": "Article 5 was invoked once, following the attacks of 11 September 2001; it requires each ally to take such action as it deems necessary, including the use of armed force, not an automatic identical response. The Korean War, the Cuban missile crisis and the Falklands War were never met with an Article 5 invocation.",
+   "topic": "General knowledge · International institutions",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "A state signs a multilateral treaty subject to ratification. Under the international law of treaties, which statement is correct?",
+   "options": [
+    "The signature does not yet bind the state to the treaty, although before ratification it must refrain from acts that would defeat the treaty's object and purpose.",
+    "The signature makes the treaty fully binding at once, and ratification is only a ceremonial act of deposit.",
+    "The signature binds the state only if the treaty is deposited with the Secretary General of the United Nations.",
+    "Ratification is required only for peace treaties and military alliances, never for trade or environmental conventions.",
+    "The state may withdraw its signature at any moment without any consequence whatsoever."
+   ],
+   "ans": "A",
+   "exp": "Under the Vienna Convention on the Law of Treaties, a state that has signed subject to ratification is not yet a party, but Article 18 already obliges it to act in good faith and not to defeat the treaty's object and purpose. The fully-binding-at-once option confuses signature with ratification, the act by which consent to be bound is expressed.",
+   "topic": "General knowledge · International institutions",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about the main organs of the United Nations is correct?",
+   "options": [
+    "General Assembly resolutions on peace and security are legally binding on all member states.",
+    "The Security Council may only recommend sanctions and can never take decisions binding every member.",
+    "Member states are free to disregard Security Council decisions that conflict with their domestic constitutions.",
+    "Members must accept and carry out the Security Council's decisions, while the General Assembly may only make recommendations.",
+    "The General Assembly may authorize the use of force whenever the Security Council is blocked by a veto."
+   ],
+   "ans": "D",
+   "exp": "Article 25 of the Charter obliges members to accept and carry out Security Council decisions, while the Assembly's resolutions are recommendations with political rather than legal force. The veto-workaround option overstates the Assembly's role: it can recommend action, but it cannot authorize binding enforcement measures.",
+   "topic": "General knowledge · International institutions",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  }
+ ]
+}

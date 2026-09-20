@@ -1,0 +1,126 @@
+{
+ "bank": "GK_Bank_Hard",
+ "section": "B",
+ "questions": [
+  {
+   "stem": "Midnight's Children (1981), the novel whose hero Saleem Sinai is born at the exact moment of Indian independence on 15 August 1947, is by:",
+   "options": [
+    "V. S. Naipaul",
+    "Arundhati Roy",
+    "Kazuo Ishiguro",
+    "Salman Rushdie",
+    "Rohinton Mistry"
+   ],
+   "ans": "D",
+   "exp": "Salman Rushdie won the 1981 Booker Prize for Midnight's Children, which was later voted the Booker of Bookers. The other four are major novelists of India, its diaspora and the wider postcolonial world, so the discrimination rests on real knowledge of author and work.",
+   "topic": "General knowledge · World literature",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about The Tale of Genji is correct?",
+   "options": [
+    "It was written in the early eleventh century by Murasaki Shikibu, a lady-in-waiting at the Heian court.",
+    "It was compiled by the court lady Sei Shonagon from lists, essays and observations of palace life.",
+    "It chronicles the rise of the samurai class under the Tokugawa shoguns.",
+    "It was the first book printed in Japan with movable type in the sixteenth century.",
+    "It is the poetic travel diary in which Matsuo Basho describes his journeys through Japan."
+   ],
+   "ans": "A",
+   "exp": "The Tale of Genji, by the Heian court lady Murasaki Shikibu, is often called the world's first novel. The collection of lists and observations describes Sei Shonagon's Pillow Book, and Basho wrote his travel diaries in the seventeenth century.",
+   "topic": "General knowledge · World literature",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "The novel that opens with the words 'It was the best of times, it was the worst of times' is:",
+   "options": [
+    "Great Expectations",
+    "Oliver Twist",
+    "Hard Times",
+    "David Copperfield",
+    "A Tale of Two Cities"
+   ],
+   "ans": "E",
+   "exp": "The line opens A Tale of Two Cities of 1859, set in London and Paris in the age of the French Revolution. All the other titles are Dickens novels, so only recall of which novel carries which opening settles the item.",
+   "topic": "General knowledge · World literature",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "The Stranger (L'Etranger, 1942), the short novel narrated by the unemotional Meursault, is by:",
+   "options": [
+    "Jean-Paul Sartre",
+    "Albert Camus",
+    "Andre Malraux",
+    "Samuel Beckett",
+    "Eugene Ionesco"
+   ],
+   "ans": "B",
+   "exp": "Albert Camus published L'Etranger in 1942 and received the Nobel Prize in Literature in 1957. The Sartre option is tempting because of the existentialist connection; Sartre was offered the prize in 1964 and declined it, while Beckett and Ionesco are best known as dramatists.",
+   "topic": "General knowledge · World literature",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Ulysses (1922), the modernist novel that follows Leopold Bloom through Dublin on a single day, 16 June 1904, is by:",
+   "options": [
+    "Virginia Woolf",
+    "T. S. Eliot",
+    "James Joyce",
+    "Joseph Conrad",
+    "D. H. Lawrence"
+   ],
+   "ans": "C",
+   "exp": "Joyce's Ulysses transposes the wanderings of the Odyssey onto one Dublin day and is a landmark of modernist fiction. Woolf is the tempting distractor, since her Mrs Dalloway is also a single-day novel of the same modernist generation.",
+   "topic": "General knowledge · World literature",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about Things Fall Apart is correct?",
+   "options": [
+    "It is the 1958 novel by Wole Soyinka, the first African winner of the Nobel Prize in Literature.",
+    "It is Kenyan novelist Ngugi wa Thiong'o's novel about the Mau Mau uprising.",
+    "It is Nadine Gordimer's novel of life under apartheid in South Africa.",
+    "It is Chinua Achebe's 1958 debut novel, centred on the Igbo villager Okonkwo under colonial rule.",
+    "It is J. M. Coetzee's novel about the colonial frontier of the Eastern Cape."
+   ],
+   "ans": "D",
+   "exp": "Things Fall Apart, published in 1958, is Chinua Achebe's debut and a foundation of modern African literature. Soyinka was indeed the first African laureate in literature, but his medium is drama, and Ngugi, Gordimer and Coetzee are the authors of other books.",
+   "topic": "General knowledge · World literature",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "The adventures of Gilgamesh, the legendary king of Uruk, are told in:",
+   "options": [
+    "the Aeneid",
+    "the Epic of Gilgamesh",
+    "Beowulf",
+    "the Ramayana",
+    "the Song of Roland"
+   ],
+   "ans": "B",
+   "exp": "The Epic of Gilgamesh, from ancient Mesopotamia, is the oldest surviving major narrative literature. The Aeneid follows the Trojan Aeneas, Beowulf the hero of the Geats, the Ramayana prince Rama, and the Song of Roland Charlemagne's rearguard at Roncevaux.",
+   "topic": "General knowledge · World literature",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about the Russian novelists of the nineteenth century is correct?",
+   "options": [
+    "Leo Tolstoy wrote Crime and Punishment as well as Anna Karenina.",
+    "Ivan Turgenev wrote War and Peace and Fathers and Sons.",
+    "Nikolai Gogol wrote Dead Souls and Eugene Onegin.",
+    "Alexander Pushkin wrote The Brothers Karamazov and The Queen of Spades.",
+    "Fyodor Dostoevsky wrote Crime and Punishment, The Idiot and The Brothers Karamazov."
+   ],
+   "ans": "E",
+   "exp": "Dostoevsky published Crime and Punishment in 1866, The Idiot in 1869 and The Brothers Karamazov in 1880. Tolstoy wrote War and Peace and Anna Karenina, Turgenev is famous for Fathers and Sons, and Eugene Onegin is Pushkin's novel in verse.",
+   "topic": "General knowledge · World literature",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  }
+ ]
+}

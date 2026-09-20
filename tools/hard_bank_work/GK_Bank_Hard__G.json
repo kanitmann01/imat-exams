@@ -1,0 +1,96 @@
+{
+ "bank": "GK_Bank_Hard",
+ "section": "G",
+ "questions": [
+  {
+   "stem": "A flight leaves Tokyo (UTC+9, no daylight saving) at 08:00 local time on a Monday in January and lands in Los Angeles (UTC-8, winter standard time) after exactly 10 hours of flying. What is the local date and time of arrival?",
+   "options": [
+    "18:00 on Monday",
+    "01:00 on Monday",
+    "17:00 on Monday",
+    "11:00 on Tuesday",
+    "18:00 on Sunday"
+   ],
+   "ans": "B",
+   "exp": "Tokyo 08:00 Monday is 23:00 Sunday UTC; adding the 10 hour flight gives 09:00 Monday UTC, and Los Angeles, 8 hours behind UTC, reaches 01:00 Monday. The 18:00 Monday option simply adds the flight time and ignores both time zones, while 18:00 Sunday wrongly subtracts a whole day for the date line.",
+   "topic": "General knowledge · Geography",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about straits and canals is correct?",
+   "options": [
+    "The Bosporus joins the Black Sea directly to the Aegean Sea, without passing through any intermediate sea.",
+    "The Strait of Hormuz joins the Persian Gulf directly to the Red Sea.",
+    "The Suez Canal joins the Red Sea to the Persian Gulf.",
+    "The Dardanelles join the Sea of Marmara to the Aegean Sea, while the Bosporus joins the Sea of Marmara to the Black Sea.",
+    "The Panama Canal joins the Pacific Ocean to the Gulf of Mexico."
+   ],
+   "ans": "D",
+   "exp": "Ships from the Black Sea reach the Mediterranean in two steps: the Bosporus into the Sea of Marmara, then the Dardanelles into the Aegean. Hormuz opens the Persian Gulf into the Gulf of Oman, Suez runs between the Red Sea and the Mediterranean, and the Panama Canal links the Pacific with the Caribbean side of the Atlantic.",
+   "topic": "General knowledge · Geography",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about major world rivers is correct?",
+   "options": [
+    "The Danube flows through four national capitals, Vienna, Bratislava, Budapest and Belgrade, more than any other river.",
+    "The Volga flows through more national capitals than any other river, including Warsaw and Budapest.",
+    "The Rhine passes through four national capitals, among them Vienna and Prague.",
+    "The Volga, Europe's longest river, empties into the Black Sea.",
+    "The Nile carries a larger volume of water to the sea than any other river on Earth."
+   ],
+   "ans": "A",
+   "exp": "Only the Danube threads four national capitals, Vienna, Bratislava, Budapest and Belgrade, and it also passes through or borders ten countries. The Volga, Europe's longest river, reaches the Caspian Sea, and the Amazon, not the Nile, carries by far the greatest volume of water.",
+   "topic": "General knowledge · Geography",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about the highest points of Europe and the European Union is correct?",
+   "options": [
+    "Mount Elbrus, at 5642 m, is the highest mountain of the European Union, rising in the Caucasus.",
+    "The highest mountain of the European Union is Mount Etna, the tallest active volcano in Europe.",
+    "The highest mountain of the European Union is Mulhacen, the summit of mainland Spain's Sierra Nevada.",
+    "The highest mountain of the European Union lies in the Carpathians of Romania.",
+    "The highest mountain of the European Union is Mont Blanc, about 4808 m, on the border between France and Italy in the Alps."
+   ],
+   "ans": "E",
+   "exp": "Elbrus is Europe's highest peak under the Caucasus definition, but it stands in Russia, outside the EU, so the EU's highest summit is Mont Blanc in the Alps. Etna is indeed Europe's tallest active volcano, yet at about 3350 m it is far below Mont Blanc.",
+   "topic": "General knowledge · Geography",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about capitals and largest cities is correct?",
+   "options": [
+    "Australia's largest city, Sydney, is also its national capital.",
+    "Turkey's capital and largest city is Istanbul, which straddles the Bosporus.",
+    "Switzerland's largest city is Zurich, but its seat of government, the de facto capital, is Bern.",
+    "Canada's capital is Toronto, which is also its largest city.",
+    "Brazil moved its capital back to Rio de Janeiro after building Brasilia."
+   ],
+   "ans": "C",
+   "exp": "Bern hosts Switzerland's federal government while Zurich remains the largest city, and the same capital-versus-largest-city split appears in Australia (Canberra, not Sydney), Turkey (Ankara, not Istanbul), Canada (Ottawa, not Toronto) and Brazil (Brasilia, capital since 1960).",
+   "topic": "General knowledge · Geography",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about small European states and the European Union is correct?",
+   "options": [
+    "San Marino is an EU member state that mints its own euro coins under EU membership rules.",
+    "Malta, a small island republic in the Mediterranean, is a full EU member state and uses the euro.",
+    "Vatican City joined the EU in 2004 together with Malta.",
+    "Andorra became an EU member state when it adopted the euro.",
+    "Liechtenstein's membership of the EEA makes it an EU member state using the euro."
+   ],
+   "ans": "B",
+   "exp": "Malta joined the EU in 2004 and adopted the euro in 2008, and it is the only state listed here that is inside the Union. San Marino, Andorra and Vatican City use the euro only through monetary agreements with the EU, and Liechtenstein, an EEA member through EFTA, uses the Swiss franc.",
+   "topic": "General knowledge · Geography",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  }
+ ]
+}

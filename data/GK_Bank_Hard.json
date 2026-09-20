@@ -1,0 +1,1517 @@
+{
+ "schema": 1,
+ "id": "GK_Bank_Hard",
+ "title": "IMAT QUESTION BANK: General Knowledge (Medium-Hard)",
+ "kind": "bank",
+ "durationSec": 6000,
+ "maxTenths": 900,
+ "targetScore": null,
+ "sections": [
+  {
+   "code": "A",
+   "from": 1,
+   "to": 10,
+   "label": "Section A - World and European history",
+   "short": "History"
+  },
+  {
+   "code": "B",
+   "from": 11,
+   "to": 18,
+   "label": "Section B - World literature",
+   "short": "Lit"
+  },
+  {
+   "code": "C",
+   "from": 19,
+   "to": 26,
+   "label": "Section C - International institutions and law",
+   "short": "Intl"
+  },
+  {
+   "code": "D",
+   "from": 27,
+   "to": 34,
+   "label": "Section D - Economics and citizenship",
+   "short": "Civics"
+  },
+  {
+   "code": "E",
+   "from": 35,
+   "to": 40,
+   "label": "Section E - Italian institutions",
+   "short": "Italy"
+  },
+  {
+   "code": "F",
+   "from": 41,
+   "to": 47,
+   "label": "Section F - History of science",
+   "short": "HistSci"
+  },
+  {
+   "code": "G",
+   "from": 48,
+   "to": 53,
+   "label": "Section G - Geography",
+   "short": "Geo"
+  },
+  {
+   "code": "H",
+   "from": 54,
+   "to": 58,
+   "label": "Section H - Philosophy, religion and society",
+   "short": "Society"
+  },
+  {
+   "code": "I",
+   "from": 59,
+   "to": 60,
+   "label": "Section I - Recent settled events",
+   "short": "Current"
+  }
+ ],
+ "bankVersion": "b158794b4",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "Which of the following statements about the Peace of Westphalia is correct?",
+   "options": [
+    "It transferred the Spanish Netherlands to the Dutch Republic.",
+    "It left the Spanish crown to Philip V, the grandson of Louis XIV.",
+    "It was signed in 1648 and recognised the independence of the Dutch Republic.",
+    "It dissolved the Holy Roman Empire and proclaimed a unified German nation state.",
+    "It confirmed English rule over Normandy and ended the Hundred Years' War."
+   ],
+   "ans": "C",
+   "exp": "The Peace of Westphalia of 1648 ended the Thirty Years' War and the Eighty Years' War, with Spain recognising the Dutch Republic. The Spanish succession settlement in favour of Philip V belongs to the Peace of Utrecht of 1713, and the Holy Roman Empire survived until 1806.",
+   "perm": [
+    3,
+    4,
+    0,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World history",
+   "lik": "H"
+  },
+  {
+   "n": 2,
+   "stem": "The War of the Spanish Succession (1701 to 1714) was brought to an end by:",
+   "options": [
+    "the Peace of Westphalia of 1648.",
+    "the Peace of Ryswick of 1697.",
+    "the Treaty of Nystad of 1721.",
+    "the Treaty of Aix-la-Chapelle of 1748.",
+    "the Peace of Utrecht of 1713."
+   ],
+   "ans": "E",
+   "exp": "The Peace of Utrecht of 1713 ended the war and recognised Philip V as king of Spain on condition that the French and Spanish crowns never unite. Ryswick closed the Nine Years' War, Nystad the Great Northern War, and Aix-la-Chapelle the War of the Austrian Succession.",
+   "perm": [
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World history",
+   "lik": "H"
+  },
+  {
+   "n": 3,
+   "stem": "Which of the following statements about the Russian revolutions of 1917 is correct?",
+   "options": [
+    "The Bolsheviks deposed Tsar Nicholas II and ended the Romanov dynasty.",
+    "The Bolsheviks overthrew the Provisional Government of Alexander Kerensky.",
+    "The insurrection was led by the Mensheviks, who had won the elections to the Constituent Assembly.",
+    "The insurrection dissolved the Constituent Assembly, which had been elected the previous week.",
+    "The insurrection completed the defeat of Admiral Kolchak's White armies in Siberia."
+   ],
+   "ans": "B",
+   "exp": "In October 1917, November by the new calendar, the Bolsheviks under Lenin seized power from Kerensky's Provisional Government. The deposition of Tsar Nicholas II was the work of the February Revolution, and the Constituent Assembly, elected in November, was dissolved only in January 1918.",
+   "perm": [
+    2,
+    3,
+    0,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World history",
+   "lik": "H"
+  },
+  {
+   "n": 4,
+   "stem": "Which of the following statements about the Glorious Revolution of 1688 is correct?",
+   "options": [
+    "It ended with the execution of Charles I and the proclamation of a republic.",
+    "It brought Charles II back from exile and restored the Stuart monarchy.",
+    "It gave the crown to James II's infant son, later known as the Old Pretender.",
+    "It deposed the Catholic king James II and gave the throne to William of Orange and his wife Mary.",
+    "It transferred the crown to the elector of Hanover, George I."
+   ],
+   "ans": "D",
+   "exp": "The revolution of 1688 deposed James II and replaced him with his daughter Mary II and William III of Orange, ruling jointly, and confirmed parliamentary supremacy through the Bill of Rights of 1689. The execution of Charles I belongs to the Civil War of the 1640s, and the Hanoverian succession came only in 1714.",
+   "perm": [
+    3,
+    1,
+    0,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World history",
+   "lik": "H"
+  },
+  {
+   "n": 5,
+   "stem": "Which of the following statements about the Meiji Restoration of 1868 is correct?",
+   "options": [
+    "It restored supreme power to the emperor and ended the Tokugawa shogunate.",
+    "It restored governing power to the last shogun, Tokugawa Yoshinobu.",
+    "It ended the Qing dynasty in China and proclaimed a republic under Sun Yat-sen.",
+    "It renamed the shogunal capital of Edo after the new era, as the city of Meiji.",
+    "It established the first shogunate in Japan under Minamoto no Yoritomo."
+   ],
+   "ans": "A",
+   "exp": "In 1868 the Meiji Restoration returned supreme executive power to Emperor Meiji and abolished the Tokugawa shogunate, whose last shogun was Yoshinobu. Edo was renamed Tokyo, since Meiji is the name of the era rather than the city, and the Kamakura shogunate of Yoritomo dates from the twelfth century.",
+   "perm": [
+    0,
+    2,
+    1,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World history",
+   "lik": "H"
+  },
+  {
+   "n": 6,
+   "stem": "The Treaty of Trianon, signed in June 1920 as part of the Paris peace settlement, imposed its terms on:",
+   "options": [
+    "Germany",
+    "Austria",
+    "Bulgaria",
+    "Hungary",
+    "the Ottoman Empire"
+   ],
+   "ans": "D",
+   "exp": "The Treaty of Trianon drastically reduced the kingdom of Hungary in territory and population. Austria had signed the Treaty of Saint-Germain-en-Laye in 1919, Bulgaria that of Neuilly, the Ottoman Empire that of Sevres, and Germany that of Versailles.",
+   "perm": [
+    2,
+    0,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World history",
+   "lik": "M"
+  },
+  {
+   "n": 7,
+   "stem": "Which of the following statements about Ottoman expansion is correct?",
+   "options": [
+    "Suleiman the Magnificent captured Vienna in 1529.",
+    "Sultan Selim I captured Baghdad from the Mongols in 1258.",
+    "Belgrade fell to the Ottomans during their failed siege of 1683.",
+    "Rhodes remained in the hands of the knights of St John because the Ottomans never took it.",
+    "Constantinople fell to Mehmed II in 1453, ending the Byzantine Empire."
+   ],
+   "ans": "E",
+   "exp": "Mehmed II captured Constantinople on 29 May 1453 after a siege of about seven weeks. Vienna resisted Ottoman sieges in 1529 and 1683, Baghdad was sacked by the Mongols under Hulagu in 1258, Belgrade fell to the Ottomans in 1521, and Rhodes was taken by Suleiman in 1522.",
+   "perm": [
+    0,
+    3,
+    2,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World history",
+   "lik": "M"
+  },
+  {
+   "n": 8,
+   "stem": "Which of the following statements about the Spanish conquests in the Americas is correct?",
+   "options": [
+    "Hernan Cortes overthrew the Inca Empire and executed its emperor Atahualpa.",
+    "Vasco Nunez de Balboa led the Spanish force that captured Tenochtitlan in 1521.",
+    "Francisco Pizarro captured the Inca emperor Atahualpa in 1532 and had him executed the following year.",
+    "Ferdinand Magellan completed the first circumnavigation of the globe before dying in the Philippines in 1521.",
+    "Diego Velazquez, governor of Cuba, personally commanded the assault on the Aztec capital."
+   ],
+   "ans": "C",
+   "exp": "Cortes took Tenochtitlan in 1521, ending the Aztec Empire, while Pizarro was the conqueror of the Inca, seizing Atahualpa at Cajamarca in 1532 and executing him in 1533. Balboa crossed Panama to reach the Pacific, and Magellan died in the Philippines before his expedition completed the circumnavigation.",
+   "perm": [
+    1,
+    0,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World history",
+   "lik": "M"
+  },
+  {
+   "n": 9,
+   "stem": "Which of the following statements about the colonisation of the Congo is correct?",
+   "options": [
+    "The Berlin Conference of 1884 and 1885, convened by Bismarck, recognised the Congo claims of Leopold II.",
+    "From its foundation in 1885 the Congo Free State was administered as a colony by the Belgian government.",
+    "Leopold I, the first king of the Belgians, was the ruler whose Congo regime provoked international protest.",
+    "The Berlin Conference assigned the Congo basin to Germany as a protectorate under Kaiser Wilhelm II.",
+    "Belgium annexed the Congo Free State in 1885, immediately after the conference."
+   ],
+   "ans": "A",
+   "exp": "Leopold II secured international recognition of his Association's claims at the Berlin Conference and ruled the Congo Free State as his personal possession until Belgium annexed it in 1908. His father Leopold I never ruled the Congo, and the Belgian state took over only after international protest at the atrocities.",
+   "perm": [
+    2,
+    0,
+    4,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World history",
+   "lik": "M"
+  },
+  {
+   "n": 10,
+   "stem": "Which of the following statements about the reunification of Germany is correct?",
+   "options": [
+    "It was completed on 9 November 1989, when the Berlin Wall was opened.",
+    "It was completed on 3 October 1990, when the German Democratic Republic acceded to the Federal Republic of Germany.",
+    "It was completed when both German states were admitted to the United Nations in 1973.",
+    "It was completed when West Germany joined the North Atlantic Treaty Organization in 1955.",
+    "It was completed in 1991, following the dissolution of the Warsaw Pact."
+   ],
+   "ans": "B",
+   "exp": "Unification took effect on 3 October 1990 under the Unification Treaty, after the Two Plus Four settlement with the four former occupying powers. The opening of the Wall on 9 November 1989 preceded it but did not complete it, and the Warsaw Pact was dissolved only after unification.",
+   "perm": [
+    4,
+    2,
+    3,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World history",
+   "lik": "H"
+  },
+  {
+   "n": 11,
+   "stem": "Midnight's Children (1981), the novel whose hero Saleem Sinai is born at the exact moment of Indian independence on 15 August 1947, is by:",
+   "options": [
+    "V. S. Naipaul",
+    "Arundhati Roy",
+    "Kazuo Ishiguro",
+    "Salman Rushdie",
+    "Rohinton Mistry"
+   ],
+   "ans": "D",
+   "exp": "Salman Rushdie won the 1981 Booker Prize for Midnight's Children, which was later voted the Booker of Bookers. The other four are major novelists of India, its diaspora and the wider postcolonial world, so the discrimination rests on real knowledge of author and work.",
+   "perm": [
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World literature",
+   "lik": "H"
+  },
+  {
+   "n": 12,
+   "stem": "Which of the following statements about The Tale of Genji is correct?",
+   "options": [
+    "It was written in the early eleventh century by Murasaki Shikibu, a lady-in-waiting at the Heian court.",
+    "It was compiled by the court lady Sei Shonagon from lists, essays and observations of palace life.",
+    "It chronicles the rise of the samurai class under the Tokugawa shoguns.",
+    "It was the first book printed in Japan with movable type in the sixteenth century.",
+    "It is the poetic travel diary in which Matsuo Basho describes his journeys through Japan."
+   ],
+   "ans": "A",
+   "exp": "The Tale of Genji, by the Heian court lady Murasaki Shikibu, is often called the world's first novel. The collection of lists and observations describes Sei Shonagon's Pillow Book, and Basho wrote his travel diaries in the seventeenth century.",
+   "perm": [
+    3,
+    0,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World literature",
+   "lik": "H"
+  },
+  {
+   "n": 13,
+   "stem": "The novel that opens with the words 'It was the best of times, it was the worst of times' is:",
+   "options": [
+    "Great Expectations",
+    "Oliver Twist",
+    "Hard Times",
+    "David Copperfield",
+    "A Tale of Two Cities"
+   ],
+   "ans": "E",
+   "exp": "The line opens A Tale of Two Cities of 1859, set in London and Paris in the age of the French Revolution. All the other titles are Dickens novels, so only recall of which novel carries which opening settles the item.",
+   "perm": [
+    3,
+    0,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World literature",
+   "lik": "H"
+  },
+  {
+   "n": 14,
+   "stem": "The Stranger (L'Etranger, 1942), the short novel narrated by the unemotional Meursault, is by:",
+   "options": [
+    "Jean-Paul Sartre",
+    "Albert Camus",
+    "Andre Malraux",
+    "Samuel Beckett",
+    "Eugene Ionesco"
+   ],
+   "ans": "B",
+   "exp": "Albert Camus published L'Etranger in 1942 and received the Nobel Prize in Literature in 1957. The Sartre option is tempting because of the existentialist connection; Sartre was offered the prize in 1964 and declined it, while Beckett and Ionesco are best known as dramatists.",
+   "perm": [
+    4,
+    2,
+    1,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World literature",
+   "lik": "H"
+  },
+  {
+   "n": 15,
+   "stem": "Ulysses (1922), the modernist novel that follows Leopold Bloom through Dublin on a single day, 16 June 1904, is by:",
+   "options": [
+    "Virginia Woolf",
+    "T. S. Eliot",
+    "James Joyce",
+    "Joseph Conrad",
+    "D. H. Lawrence"
+   ],
+   "ans": "C",
+   "exp": "Joyce's Ulysses transposes the wanderings of the Odyssey onto one Dublin day and is a landmark of modernist fiction. Woolf is the tempting distractor, since her Mrs Dalloway is also a single-day novel of the same modernist generation.",
+   "perm": [
+    1,
+    0,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World literature",
+   "lik": "H"
+  },
+  {
+   "n": 16,
+   "stem": "Which of the following statements about Things Fall Apart is correct?",
+   "options": [
+    "It is the 1958 novel by Wole Soyinka, the first African winner of the Nobel Prize in Literature.",
+    "It is Kenyan novelist Ngugi wa Thiong'o's novel about the Mau Mau uprising.",
+    "It is Nadine Gordimer's novel of life under apartheid in South Africa.",
+    "It is Chinua Achebe's 1958 debut novel, centred on the Igbo villager Okonkwo under colonial rule.",
+    "It is J. M. Coetzee's novel about the colonial frontier of the Eastern Cape."
+   ],
+   "ans": "D",
+   "exp": "Things Fall Apart, published in 1958, is Chinua Achebe's debut and a foundation of modern African literature. Soyinka was indeed the first African laureate in literature, but his medium is drama, and Ngugi, Gordimer and Coetzee are the authors of other books.",
+   "perm": [
+    3,
+    1,
+    2,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World literature",
+   "lik": "M"
+  },
+  {
+   "n": 17,
+   "stem": "The adventures of Gilgamesh, the legendary king of Uruk, are told in:",
+   "options": [
+    "the Aeneid",
+    "the Epic of Gilgamesh",
+    "Beowulf",
+    "the Ramayana",
+    "the Song of Roland"
+   ],
+   "ans": "B",
+   "exp": "The Epic of Gilgamesh, from ancient Mesopotamia, is the oldest surviving major narrative literature. The Aeneid follows the Trojan Aeneas, Beowulf the hero of the Geats, the Ramayana prince Rama, and the Song of Roland Charlemagne's rearguard at Roncevaux.",
+   "perm": [
+    3,
+    1,
+    4,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World literature",
+   "lik": "M"
+  },
+  {
+   "n": 18,
+   "stem": "Which of the following statements about the Russian novelists of the nineteenth century is correct?",
+   "options": [
+    "Leo Tolstoy wrote Crime and Punishment as well as Anna Karenina.",
+    "Ivan Turgenev wrote War and Peace and Fathers and Sons.",
+    "Nikolai Gogol wrote Dead Souls and Eugene Onegin.",
+    "Alexander Pushkin wrote The Brothers Karamazov and The Queen of Spades.",
+    "Fyodor Dostoevsky wrote Crime and Punishment, The Idiot and The Brothers Karamazov."
+   ],
+   "ans": "E",
+   "exp": "Dostoevsky published Crime and Punishment in 1866, The Idiot in 1869 and The Brothers Karamazov in 1880. Tolstoy wrote War and Peace and Anna Karenina, Turgenev is famous for Fathers and Sons, and Eugene Onegin is Pushkin's novel in verse.",
+   "perm": [
+    2,
+    0,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World literature",
+   "lik": "M"
+  },
+  {
+   "n": 19,
+   "stem": "Which of the following statements about international courts is correct?",
+   "options": [
+    "The International Court of Justice prosecutes individual government officials for war crimes.",
+    "The International Criminal Court decides legal disputes submitted by one state against another state.",
+    "Only states may be parties in cases before the International Court of Justice, while the International Criminal Court prosecutes individuals.",
+    "The International Criminal Court is the principal judicial organ of the United Nations.",
+    "The International Court of Justice hands down sentences of imprisonment against states that lose their cases."
+   ],
+   "ans": "C",
+   "exp": "The ICJ, the UN's principal judicial organ, hears contentious cases only between states that have accepted its jurisdiction; the ICC, established by the Rome Statute in force since 2002, prosecutes individuals for genocide, crimes against humanity, war crimes and aggression. The option making the ICC a UN organ is wrong: it is independent, and states such as the United States, Russia and China are not parties to its statute.",
+   "perm": [
+    1,
+    0,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · International institutions",
+   "lik": "H"
+  },
+  {
+   "n": 20,
+   "stem": "A resolution on a matter of peace and security needs nine affirmative votes out of fifteen in the UN Security Council. What is the effect of the abstention of a permanent member?",
+   "options": [
+    "It does not block adoption: settled practice treats an abstention as not a veto, so the resolution passes if the other requirements are met.",
+    "It counts as a veto, because the Charter requires the concurring votes of all five permanent members.",
+    "It converts the matter into a procedural one, which the General Assembly then decides by simple majority.",
+    "It suspends the vote until the Secretary General has mediated between the permanent members.",
+    "It invalidates the vote entirely, forcing the Council to retable the resolution at a later session."
+   ],
+   "ans": "A",
+   "exp": "Since the earliest years of the UN, settled practice has held that a permanent member's abstention, or absence, is not a veto: Article 27 requires nine affirmative votes and no negative vote from a permanent member. The option demanding all five concurring votes misreads the Charter text and would have blocked almost every resolution ever adopted.",
+   "perm": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · International institutions",
+   "lik": "H"
+  },
+  {
+   "n": 21,
+   "stem": "Which of the following statements about the mandates of international economic institutions is correct?",
+   "options": [
+    "The IMF lends mainly for long-term infrastructure projects such as highways and power plants.",
+    "The World Bank exists to provide emergency balance-of-payments support to countries in currency crisis.",
+    "The WTO is a specialized agency of the United Nations with a mandate over exchange-rate stability.",
+    "The IMF supports member countries facing balance-of-payments difficulties, while the World Bank finances long-term development and poverty-reduction projects.",
+    "The IMF and the World Bank together set binding exchange rates for all their member states."
+   ],
+   "ans": "D",
+   "exp": "The IMF is the macroeconomic stability institution, lending short and medium term to members with balance-of-payments problems; the World Bank is the long-term development lender. The infrastructure option describes the World Bank's mandate, and the WTO, although it cooperates closely with the UN, is not a UN specialized agency.",
+   "perm": [
+    0,
+    1,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · International institutions",
+   "lik": "H"
+  },
+  {
+   "n": 22,
+   "stem": "Which of the following statements about United Nations peacekeeping is correct?",
+   "options": [
+    "The UN keeps a standing army that it deploys wherever the Secretary General decides.",
+    "Operations are authorized by the Security Council and are manned by troops voluntarily contributed by member states.",
+    "Peacekeepers may use force at will to impose a settlement, because they are combat troops of a UN army.",
+    "A mission can be imposed on the parties to a conflict even when they refuse any UN presence.",
+    "During operations, national contingents remain under the exclusive operational command of their own governments."
+   ],
+   "ans": "B",
+   "exp": "Every peacekeeping operation is established by a Security Council resolution and staffed by national contingents seconded by their governments; the UN has no standing army. The classic principles are consent of the parties, impartiality and use of force only in self-defence and defence of the mandate, so the option allowing peacekeepers to impose a settlement at will is wrong.",
+   "perm": [
+    4,
+    0,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · International institutions",
+   "lik": "H"
+  },
+  {
+   "n": 23,
+   "stem": "Which of the following statements about the Geneva Conventions of 1949 is correct?",
+   "options": [
+    "They regulate the design and use of specific weapons such as chemical munitions.",
+    "They bind only the states that have accepted the Additional Protocols of 1977.",
+    "They apply only to armed conflicts between states that have formally declared war.",
+    "They are enforced by an international tribunal that sentences states for violating them.",
+    "They protect wounded and sick combatants, prisoners of war and civilians, and have been ratified by virtually every state in the world."
+   ],
+   "ans": "E",
+   "exp": "The four Conventions of 1949 protect people no longer taking part in the fighting, and with 196 states parties they are the most universally ratified treaties in existence. The weapons option confuses them with Hague law on the means of warfare, and they apply to every armed conflict, whether or not war has been formally declared.",
+   "perm": [
+    2,
+    0,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · International institutions",
+   "lik": "H"
+  },
+  {
+   "n": 24,
+   "stem": "NATO's Article 5 declares that an armed attack against one ally is considered an attack against all. Which statement about it is correct?",
+   "options": [
+    "It obliges every ally to respond militarily under a single NATO command within a fixed deadline.",
+    "It has been invoked three times, during the Korean War, the Cuban missile crisis and the Falklands War.",
+    "It has been invoked only once, after the attacks of 11 September 2001, and each ally then decided for itself what action to take.",
+    "It can be triggered only by a nuclear attack on alliance territory in Europe.",
+    "It transfers the armed forces of all allies to the permanent control of the NATO Secretary General."
+   ],
+   "ans": "C",
+   "exp": "Article 5 was invoked once, following the attacks of 11 September 2001; it requires each ally to take such action as it deems necessary, including the use of armed force, not an automatic identical response. The Korean War, the Cuban missile crisis and the Falklands War were never met with an Article 5 invocation.",
+   "perm": [
+    3,
+    2,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · International institutions",
+   "lik": "M"
+  },
+  {
+   "n": 25,
+   "stem": "A state signs a multilateral treaty subject to ratification. Under the international law of treaties, which statement is correct?",
+   "options": [
+    "The signature does not yet bind the state to the treaty, although before ratification it must refrain from acts that would defeat the treaty's object and purpose.",
+    "The signature makes the treaty fully binding at once, and ratification is only a ceremonial act of deposit.",
+    "The signature binds the state only if the treaty is deposited with the Secretary General of the United Nations.",
+    "Ratification is required only for peace treaties and military alliances, never for trade or environmental conventions.",
+    "The state may withdraw its signature at any moment without any consequence whatsoever."
+   ],
+   "ans": "A",
+   "exp": "Under the Vienna Convention on the Law of Treaties, a state that has signed subject to ratification is not yet a party, but Article 18 already obliges it to act in good faith and not to defeat the treaty's object and purpose. The fully-binding-at-once option confuses signature with ratification, the act by which consent to be bound is expressed.",
+   "perm": [
+    4,
+    3,
+    0,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · International institutions",
+   "lik": "M"
+  },
+  {
+   "n": 26,
+   "stem": "Which of the following statements about the main organs of the United Nations is correct?",
+   "options": [
+    "General Assembly resolutions on peace and security are legally binding on all member states.",
+    "The Security Council may only recommend sanctions and can never take decisions binding every member.",
+    "Member states are free to disregard Security Council decisions that conflict with their domestic constitutions.",
+    "Members must accept and carry out the Security Council's decisions, while the General Assembly may only make recommendations.",
+    "The General Assembly may authorize the use of force whenever the Security Council is blocked by a veto."
+   ],
+   "ans": "D",
+   "exp": "Article 25 of the Charter obliges members to accept and carry out Security Council decisions, while the Assembly's resolutions are recommendations with political rather than legal force. The veto-workaround option overstates the Assembly's role: it can recommend action, but it cannot authorize binding enforcement measures.",
+   "perm": [
+    2,
+    1,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · International institutions",
+   "lik": "M"
+  },
+  {
+   "n": 27,
+   "stem": "Which of the following statements about the European Central Bank is correct?",
+   "options": [
+    "The ECB must give priority to financing the public deficits of euro-area governments in periods of recession.",
+    "Price stability is the ECB's primary objective, and support for the Union's other economic policies applies only without prejudice to that goal.",
+    "The ECB sets the income-tax rates that euro-area governments may apply to their citizens.",
+    "The ECB's primary objective is to keep the euro at a fixed exchange rate against the dollar.",
+    "The national central banks of the euro area retain full control over their own interest rates."
+   ],
+   "ans": "B",
+   "exp": "Article 127 TFEU makes price stability the primary objective of the European System of Central Banks, with support for general economic policies expressly subordinated to it, and Article 123 forbids the ECB and national central banks from financing government deficits. Interest-rate setting is a single centralised competence, so the option of national control over rates is wrong.",
+   "perm": [
+    4,
+    0,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Economics",
+   "lik": "H"
+  },
+  {
+   "n": 28,
+   "stem": "If a central bank raises its key interest rates, the expected short-term effects include which of the following?",
+   "options": [
+    "Borrowing becomes cheaper, so spending and investment expand and inflation accelerates.",
+    "The currency depreciates against other currencies, making imports immediately cheaper.",
+    "Savings accounts earn less interest, so household consumption automatically rises.",
+    "Government deficits disappear, because higher rates increase tax revenues one for one.",
+    "Credit becomes more expensive, demand cools and inflationary pressure eases, while the currency tends to appreciate."
+   ],
+   "ans": "E",
+   "exp": "Higher policy rates make borrowing dearer, dampening demand and easing inflation, and the higher yields tend to attract capital inflows that strengthen the currency. The depreciation option reverses the exchange-rate effect: rising rates pull capital in rather than pushing it out.",
+   "perm": [
+    2,
+    4,
+    0,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Economics",
+   "lik": "H"
+  },
+  {
+   "n": 29,
+   "stem": "A factory owned by a Japanese multinational operates in Lombardy, and part of its profits is sent to shareholders in Japan. Which statement is correct?",
+   "options": [
+    "The factory's production counts in Italian gross domestic product, and the profits paid to Japanese residents count in Japanese gross national income.",
+    "The factory's production counts in Japanese gross domestic product, because the owners are Japanese.",
+    "The factory's production counts in Italian gross national income only if the workers are Italian citizens.",
+    "The profits repatriated to Japan raise Italian gross domestic product when they arrive, because GDP includes all income received by a country.",
+    "The production is excluded from both Italian GDP and Italian GNI, because ownership of the plant is foreign."
+   ],
+   "ans": "A",
+   "exp": "GDP records output produced on the national territory whatever the owners' nationality, so the Lombardy plant enters Italian GDP; GNI instead follows residents' income, so the profit share paid to Japanese residents enters Japan's GNI. The option counting the output as Japanese GDP confuses the location of production with the nationality of ownership.",
+   "perm": [
+    0,
+    1,
+    3,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Economics",
+   "lik": "H"
+  },
+  {
+   "n": 30,
+   "stem": "In Germany, Article 67 of the Basic Law institutes the constructive vote of no confidence. Which statement describes this mechanism correctly?",
+   "options": [
+    "The Bundestag can dismiss the Chancellor with a simple majority of those present, after which new elections are held.",
+    "The Federal President may dismiss the Chancellor whenever the Cabinet loses a single parliamentary vote.",
+    "The Chancellor can be removed only by the Federal Constitutional Court, on the request of a majority of the federal states.",
+    "The Bundestag may remove the Chancellor only by electing a successor with the votes of a majority of all its members.",
+    "A no-confidence vote automatically dissolves the Bundestag and triggers new elections within a fixed short period."
+   ],
+   "ans": "D",
+   "exp": "The Bundestag cannot merely oust the Chancellor: it must at the same time elect a successor by the majority of all its members, a rule adopted after the Weimar experience to protect governmental stability. The simple-majority and automatic-dissolution options describe precisely the cabinet instability that the mechanism was designed to prevent.",
+   "perm": [
+    2,
+    3,
+    0,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Citizenship",
+   "lik": "H"
+  },
+  {
+   "n": 31,
+   "stem": "A member state of the European Union that does not use the euro wants to adopt it. Which statement about the convergence criteria is correct?",
+   "options": [
+    "Its public debt must be below 100 percent of GDP and its government deficit below 5 percent.",
+    "Its inflation must be no more than 1.5 percentage points above that of the three best-performing member states, and it must have participated in the exchange-rate mechanism for at least two years without devaluing.",
+    "It must adopt the euro immediately upon joining the European Union, without any transitional criteria.",
+    "It must run a trade surplus and peg its currency to the dollar for two years.",
+    "Its long-term interest rates must be at least two percentage points below the EU average, and its deficit must be exactly zero."
+   ],
+   "ans": "B",
+   "exp": "The Maastricht criteria cap inflation at 1.5 points above the three best performers, require two years of stable exchange-rate mechanism membership without devaluation, limit the deficit to 3 percent and the debt to 60 percent of GDP or sufficiently diminishing, and keep long-term interest rates within 2 points of the best performers. The 100 percent debt and zero-deficit options invent figures that appear nowhere in the criteria.",
+   "perm": [
+    2,
+    4,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Economics",
+   "lik": "H"
+  },
+  {
+   "n": 32,
+   "stem": "In a progressive income-tax system, a worker's taxable income rises just above the threshold of the next higher bracket. Which statement is correct?",
+   "options": [
+    "The whole of the income is taxed at the new higher rate.",
+    "The worker's tax bill falls, because higher brackets carry extra allowances.",
+    "Only the portion of income above the threshold is taxed at the higher rate.",
+    "The previous brackets stop applying, so the tax paid on the lower slabs is refunded.",
+    "The total tax due remains exactly the same as before the increase in income."
+   ],
+   "ans": "C",
+   "exp": "Progressivity works slab by slab: each marginal rate applies only to the income falling within its own bracket, so crossing a threshold raises the tax only on the excess. Taxing the whole income at the new rate is the classic misunderstanding of how marginal brackets operate.",
+   "perm": [
+    2,
+    1,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Economics",
+   "lik": "M"
+  },
+  {
+   "n": 33,
+   "stem": "Which of the following statements about the history of voting rights is correct?",
+   "options": [
+    "France was the first country to give women the vote at national level, in 1893.",
+    "Swiss women obtained the vote in federal elections before the First World War.",
+    "New Zealand granted women the parliamentary vote only after the Second World War.",
+    "The United Kingdom gave all women the parliamentary vote on the same terms as men in 1918.",
+    "New Zealand was the first self-governing country to give women the vote in parliamentary elections, in 1893."
+   ],
+   "ans": "E",
+   "exp": "New Zealand's Electoral Act of 1893 made it the first self-governing country with women's suffrage in national elections. The 1918 British franchise was partial, covering mainly older women with property qualifications, and Swiss women waited until 1971 for the federal vote.",
+   "perm": [
+    3,
+    2,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Citizenship",
+   "lik": "M"
+  },
+  {
+   "n": 34,
+   "stem": "In a plurality system with single-member constituencies, often called first past the post, the winner of each seat is:",
+   "options": [
+    "the candidate with the most votes cast, even without an absolute majority.",
+    "the candidate who obtains the support of at least half of all registered voters, or else the seat stays vacant.",
+    "the candidate chosen in a second round between the two leading candidates, held in every constituency.",
+    "the party that wins the national popular vote, which then fills every constituency with its own candidate.",
+    "the candidate whose votes are distributed most evenly across all the constituencies of the country."
+   ],
+   "ans": "A",
+   "exp": "Plurality asks only who leads the count in the constituency: fifty percent plus one is not required, so a candidate opposed by most voters can still win when the vote is split. The second-round option describes a majority or runoff system instead.",
+   "perm": [
+    3,
+    4,
+    2,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Citizenship",
+   "lik": "M"
+  },
+  {
+   "n": 35,
+   "stem": "Under Article 138 of the Italian Constitution, a law amending the Constitution that was not approved by two thirds of the members of each chamber can be sent to a confirmatory referendum if so requested by a parliamentary minority, by five regional councils or by 500,000 voters. Which statement is correct?",
+   "options": [
+    "The referendum is valid only if at least half of the eligible voters take part, exactly as for abrogative referendums.",
+    "The referendum is advisory: Parliament alone decides afterwards whether to enact the amendment.",
+    "The amendment is rejected if a majority of the valid votes cast are against it, and turnout plays no role in the validity of the vote.",
+    "The referendum can be requested only by the Government or by a majority of the regional councils.",
+    "If the referendum approves the amendment, the law must be passed a second time by a two-thirds majority of Parliament."
+   ],
+   "ans": "C",
+   "exp": "The 2020 referendum that cut the Chamber from 630 to 400 deputies and the Senate from 315 to 200 senators was approved with about 70 percent yes on a turnout of roughly 51 percent: under Article 138 a simple majority of valid votes decides and there is no turnout quorum. The half-turnout condition belongs to Article 75 abrogative referendums, not to this procedure.",
+   "perm": [
+    3,
+    2,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Italian institutions",
+   "lik": "H"
+  },
+  {
+   "n": 36,
+   "stem": "Italy's constitutional reform of 2016 was put to a referendum on 4 December 2016 even though both chambers had already approved it. Why?",
+   "options": [
+    "Because it had not obtained a two-thirds majority in the second vote, a parliamentary minority was able to request a confirmatory referendum, which the No side won with about 59 percent.",
+    "Because the Constitutional Court had found the reform unconstitutional and ordered a popular confirmation.",
+    "Because every constitutional law must in all cases be ratified by the people, whatever the size of the parliamentary majority.",
+    "Because the President of the Republic refused to promulgate the law before a popular vote had been held.",
+    "Because parliamentary approval had come from fewer than half the members, which always forces a popular vote."
+   ],
+   "ans": "A",
+   "exp": "Under Article 138 a constitutional law passed without two-thirds majorities is not promulgated if one fifth of the members of a chamber, five regions or 500,000 voters ask for a referendum; the 2016 reform, which would have replaced the elected Senate with a 100-member body, was rejected and Renzi resigned. The compulsory-plebiscite option is wrong: with two-thirds approval no referendum would ever be needed.",
+   "perm": [
+    4,
+    1,
+    0,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Italian institutions",
+   "lik": "H"
+  },
+  {
+   "n": 37,
+   "stem": "Which of the following statements about the President of the Italian Republic is correct?",
+   "options": [
+    "The President may dismiss the Prime Minister at will, because the head of the government serves directly at presidential pleasure.",
+    "The President's acts take effect on the President's own signature alone, and ministers are never involved in validating them.",
+    "The President may freely dissolve the Chambers during the last six months of the presidential term of office.",
+    "The President legislates directly in matters of foreign policy through presidential decrees having the force of law.",
+    "The President's acts require the counter-signature of the proposing ministers, and the President may not dissolve the Chambers in the last six months of the presidential term, save narrow exceptions."
+   ],
+   "ans": "E",
+   "exp": "Article 89 makes ministerial counter-signature a condition of validity for presidential acts, and Article 88 bars dissolution in the final six months of the President's mandate, except when that period coincides with the last six months of the legislature or falls within the first three months of a newly elected President's mandate, the recognised exception for resolving a crisis predating the election. The dismissal-at-will option swaps powers, since the government must retain the confidence of Parliament, not of the President.",
+   "perm": [
+    4,
+    2,
+    1,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Italian institutions",
+   "lik": "H"
+  },
+  {
+   "n": 38,
+   "stem": "In a case before an ordinary Italian judge, the judge believes that the statutory provision to be applied conflicts with the Constitution. What can the judge do?",
+   "options": [
+    "Set the provision aside directly and decide the case under the Constitution, as Italian judges may do with any unconstitutional statute.",
+    "Stay the proceedings and refer the question of constitutionality to the Constitutional Court, which alone may declare the law unconstitutional with effect for everyone.",
+    "Ask the regional council whose statute is affected to invalidate the offending provision.",
+    "Rule against the statute by a qualified majority of all the judges of the Court of Cassation sitting in joint divisions.",
+    "Nothing at all: an ordinary judge must always apply statutes exactly as written, whatever doubts may exist about them."
+   ],
+   "ans": "B",
+   "exp": "Italian constitutional review is incidental: the ordinary judge raises the question and the Constitutional Court alone can strike a statute down with general effect. Direct disapplication describes the treatment of EU law, where courts of any level must set aside conflicting national provisions; for the national Constitution the referral route is mandatory.",
+   "perm": [
+    3,
+    4,
+    2,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Italian institutions",
+   "lik": "H"
+  },
+  {
+   "n": 39,
+   "stem": "In the abrogative referendums of 8 and 9 June 2025, the Yes option prevailed on all five questions, including the reduction of the residence requirement for acquiring citizenship from ten years to five. What was the outcome?",
+   "options": [
+    "All five questions were approved, because a majority of the valid votes decides an abrogative referendum.",
+    "Parliament re-enacted all the abrogated provisions by absolute majority within sixty days of the vote.",
+    "The Constitutional Court annulled the ballots, because the citizenship question touched on a constitutional matter reserved to Parliament.",
+    "All five referendums were declared invalid, because turnout of about 30 percent fell far below the quorum of half the electorate required for validity.",
+    "Only the labour questions took effect, while the citizenship question lapsed for lack of a majority."
+   ],
+   "ans": "D",
+   "exp": "Article 75 makes an abrogative referendum void unless a majority of those entitled to vote actually take part: in June 2025 turnout was about 30 percent, so every question failed despite the Yes majorities among those who voted. The option treating the valid votes alone as decisive ignores precisely the quorum rule that sank all five ballots.",
+   "perm": [
+    4,
+    0,
+    2,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Italian institutions",
+   "lik": "M"
+  },
+  {
+   "n": 40,
+   "stem": "Which of the following statements about the distribution of legislative power in Italy is correct?",
+   "options": [
+    "Since the 2001 reform of Title V of the Constitution, the regions have legislative power in all matters not expressly reserved to State legislation.",
+    "The State holds legislative power in all matters, and the regions may issue only administrative regulations.",
+    "The provinces legislate on criminal law and the organisation of the judiciary, within the limits set by the regional statutes.",
+    "The regions legislate only where the State has expressly delegated each single competence to them one by one.",
+    "Criminal law is a concurrent matter in which the regions may legislate within the fundamental principles set by State law."
+   ],
+   "ans": "A",
+   "exp": "The 2001 reform inverted the competence logic of Article 117: it lists the State's exclusive matters and the concurrent ones, and the residual power over all remaining matters belongs to the regions. Criminal law, however, is among the State's exclusive competences, so the option making it a concurrent matter misreads the list.",
+   "perm": [
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Italian institutions",
+   "lik": "M"
+  },
+  {
+   "n": 41,
+   "stem": "Which of the following statements about the first public announcement of evolution by natural selection is correct?",
+   "options": [
+    "Alfred Russel Wallace published his theory of natural selection in 1858, and Charles Darwin's On the Origin of Species appeared only after Wallace's death in 1913.",
+    "In July 1858, papers by Darwin and Wallace were read together at a meeting of the Linnean Society of London, in the absence of both authors.",
+    "Darwin attended the 1858 reading in person, but Wallace could not attend because he was away on HMS Beagle.",
+    "The 1858 papers were presented on Darwin's behalf by his brother Erasmus, since Darwin was gravely ill.",
+    "Wallace sent his essay at Darwin's request, so the two men appeared together on a stage in London in 1858."
+   ],
+   "ans": "B",
+   "exp": "On 1 July 1858 the Linnean Society heard extracts of Darwin's 1844 essay and Wallace's Ternate essay, presented by Joseph Hooker and Charles Lyell; Darwin stayed away, mourning his young son, and Wallace was in the Malay Archipelago. The tempting picture of a joint stage appearance is wrong, and On the Origin of Species followed in November 1859, long before Wallace died in 1913.",
+   "perm": [
+    4,
+    0,
+    2,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · History of science",
+   "lik": "H"
+  },
+  {
+   "n": 42,
+   "stem": "Which of the following statements about the Newton-Leibniz dispute over the invention of calculus is correct?",
+   "options": [
+    "Isaac Newton published his method of fluxions in the Principia of 1687, more than a decade before Leibniz published anything on the subject.",
+    "Gottfried Leibniz developed his differential calculus in the 1660s, before Newton, and published it in 1684.",
+    "Leibniz published the first printed account of differential calculus in 1684, although Newton had developed his method of fluxions about twenty years earlier without publishing it.",
+    "A Royal Society commission, guided by neutral referees from the French Academy of Sciences, awarded priority to Leibniz in 1712.",
+    "The two men settled the dispute amicably and agreed to share credit in joint publications of the Royal Society."
+   ],
+   "ans": "C",
+   "exp": "Historians agree the two worked independently: Newton created fluxions in 1665 to 1666 but left them unpublished, Leibniz printed his differential calculus in Acta Eruditorum in 1684, and Newton's own account appeared only in 1704 as an appendix to Opticks. The 1712 Royal Society report backed Newton, hardly a neutral verdict since he was the Society's president.",
+   "perm": [
+    3,
+    2,
+    1,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · History of science",
+   "lik": "H"
+  },
+  {
+   "n": 43,
+   "stem": "Gregor Mendel's paper on his pea plant experiments, published in 1866, was largely ignored for decades. Its laws were rediscovered and cited in 1900 by which three botanists?",
+   "options": [
+    "Hugo de Vries, Carl Correns and Erich von Tschermak",
+    "James Watson, Francis Crick and Maurice Wilkins",
+    "Robert Koch, Paul Ehrlich and Emil von Behring",
+    "Thomas Hunt Morgan, Alfred Sturtevant and Calvin Bridges",
+    "Joseph Hooker, Charles Lyell and Asa Gray"
+   ],
+   "ans": "A",
+   "exp": "Three botanists working independently, de Vries in the Netherlands, Correns in Germany and Tschermak in Austria, each arrived at Mendel's laws in 1900 and each cited the 1866 paper, launching modern genetics. The Morgan-Sturtevant-Bridges group belongs to the later chromosome mapping work in fruit flies.",
+   "perm": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · History of science",
+   "lik": "M"
+  },
+  {
+   "n": 44,
+   "stem": "Which of the following statements about the Michelson-Morley experiment of 1887 is correct?",
+   "options": [
+    "It detected a marked aether wind, confirming that light waves need a material medium and opening the way to special relativity.",
+    "It measured the charge of the electron suspended in oil droplets, work honoured by the 1907 Nobel Prize in Physics.",
+    "It was designed to test Newton's law of universal gravitation, and its positive result led Einstein directly to general relativity.",
+    "Its null result, obtained by splitting a light beam with an interferometer in Cleveland, showed no measurable difference in light speed with Earth's motion, undermining the luminiferous aether.",
+    "It confirmed that light travels at different speeds depending on the direction of Earth's orbital motion, as aether theory predicted."
+   ],
+   "ans": "D",
+   "exp": "Using Michelson's interferometer in Cleveland, Ohio, the 1887 experiment found no aether drift: light speed appeared the same in every direction, the first strong evidence against the aether and a key step toward Einstein's special relativity of 1905. Michelson's 1907 prize, the first Nobel in the sciences for an American, was for the interferometer and precision optical work, not for any electron measurement.",
+   "perm": [
+    4,
+    2,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · History of science",
+   "lik": "H"
+  },
+  {
+   "n": 45,
+   "stem": "Rosalind Franklin's X-ray diffraction work at King's College London was central to the discovery of the DNA double helix. Why did she not share the 1962 Nobel Prize in Physiology or Medicine awarded to Watson, Crick and Wilkins?",
+   "options": [
+    "Her Photo 51 had been shown to Watson without her knowledge, and she refused on principle to appear alongside him in Stockholm.",
+    "Her data had by then disproved the double-helix model, so the Nobel committee excluded her work.",
+    "Her contribution was recognised instead by the 1962 Nobel Prize in Chemistry, which she shared with Max Perutz.",
+    "Nobel Foundation rules of the time did not allow women to share science prizes.",
+    "She had died in 1958, and Nobel prizes are not awarded posthumously, which made her ineligible for the 1962 award."
+   ],
+   "ans": "E",
+   "exp": "Franklin died of cancer in April 1958 at the age of 37, four years before the prize, and Nobel rules exclude a person who has died. The refusal-on-principle story and the chemistry-prize story are both wrong: the 1962 chemistry prize went to Perutz and Kendrew for protein structure work.",
+   "perm": [
+    4,
+    0,
+    2,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · History of science",
+   "lik": "H"
+  },
+  {
+   "n": 46,
+   "stem": "In their famous 1952 blender experiment, Alfred Hershey and Martha Chase labelled T2 bacteriophages with radioactive isotopes. Which of the following statements describes their finding correctly?",
+   "options": [
+    "The sulphur-labelled protein, 35S, entered the bacterial cells, showing that protein is the genetic material.",
+    "Both the 32P-labelled DNA and the 35S-labelled protein entered the cells, showing that genes contain DNA and protein together.",
+    "The phosphorus-labelled DNA, 32P, entered the bacterial cells while the sulphur-labelled protein coats stayed outside, showing that DNA is the genetic material.",
+    "The experiment used X-ray diffraction of phage crystals to reveal the double-helical shape of DNA inside the virus.",
+    "The experiment transferred a transforming principle extracted from dead, heat-killed bacteria into live cells."
+   ],
+   "ans": "C",
+   "exp": "Hershey and Chase found that only the 32P label, marking DNA, entered the infected bacteria while the 35S label, marking protein, was sheared off in the blender, confirming DNA as the hereditary material of the phage. The transforming-principle description belongs to Griffith and Avery, and the X-ray claim belongs to the DNA structure story, not to this experiment.",
+   "perm": [
+    1,
+    0,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · History of science",
+   "lik": "M"
+  },
+  {
+   "n": 47,
+   "stem": "Which of the following statements about the development of penicillin into a usable drug is correct?",
+   "options": [
+    "Howard Florey and Ernst Chain led the Oxford team that purified penicillin and ran its first clinical trials, and they shared the 1945 Nobel Prize with Alexander Fleming.",
+    "Joseph Lister purified penicillin in the 1870s and used it as his antiseptic in surgery.",
+    "Paul Ehrlich's laboratory mass-produced penicillin as the first magic bullet against syphilis.",
+    "Selman Waksman isolated penicillin from soil bacteria, work honoured by the 1952 Nobel Prize.",
+    "Gerhard Domagk's team developed penicillin as the first sulphonamide drug in the 1930s."
+   ],
+   "ans": "A",
+   "exp": "Fleming discovered penicillin in 1928 but could not purify it; the Oxford team of Florey and Chain did, treating the first patient in 1941, and the three shared the 1945 Nobel Prize in Physiology or Medicine. Lister's antiseptic was carbolic acid, Ehrlich's magic bullet was Salvarsan, and Waksman's prize was for streptomycin.",
+   "perm": [
+    1,
+    2,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · History of science",
+   "lik": "M"
+  },
+  {
+   "n": 48,
+   "stem": "A flight leaves Tokyo (UTC+9, no daylight saving) at 08:00 local time on a Monday in January and lands in Los Angeles (UTC-8, winter standard time) after exactly 10 hours of flying. What is the local date and time of arrival?",
+   "options": [
+    "18:00 on Monday",
+    "01:00 on Monday",
+    "17:00 on Monday",
+    "11:00 on Tuesday",
+    "18:00 on Sunday"
+   ],
+   "ans": "B",
+   "exp": "Tokyo 08:00 Monday is 23:00 Sunday UTC; adding the 10 hour flight gives 09:00 Monday UTC, and Los Angeles, 8 hours behind UTC, reaches 01:00 Monday. The 18:00 Monday option simply adds the flight time and ignores both time zones, while 18:00 Sunday wrongly subtracts a whole day for the date line.",
+   "perm": [
+    2,
+    4,
+    0,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Geography",
+   "lik": "H"
+  },
+  {
+   "n": 49,
+   "stem": "Which of the following statements about straits and canals is correct?",
+   "options": [
+    "The Bosporus joins the Black Sea directly to the Aegean Sea, without passing through any intermediate sea.",
+    "The Strait of Hormuz joins the Persian Gulf directly to the Red Sea.",
+    "The Suez Canal joins the Red Sea to the Persian Gulf.",
+    "The Dardanelles join the Sea of Marmara to the Aegean Sea, while the Bosporus joins the Sea of Marmara to the Black Sea.",
+    "The Panama Canal joins the Pacific Ocean to the Gulf of Mexico."
+   ],
+   "ans": "D",
+   "exp": "Ships from the Black Sea reach the Mediterranean in two steps: the Bosporus into the Sea of Marmara, then the Dardanelles into the Aegean. Hormuz opens the Persian Gulf into the Gulf of Oman, Suez runs between the Red Sea and the Mediterranean, and the Panama Canal links the Pacific with the Caribbean side of the Atlantic.",
+   "perm": [
+    1,
+    3,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Geography",
+   "lik": "H"
+  },
+  {
+   "n": 50,
+   "stem": "Which of the following statements about major world rivers is correct?",
+   "options": [
+    "The Danube flows through four national capitals, Vienna, Bratislava, Budapest and Belgrade, more than any other river.",
+    "The Volga flows through more national capitals than any other river, including Warsaw and Budapest.",
+    "The Rhine passes through four national capitals, among them Vienna and Prague.",
+    "The Volga, Europe's longest river, empties into the Black Sea.",
+    "The Nile carries a larger volume of water to the sea than any other river on Earth."
+   ],
+   "ans": "A",
+   "exp": "Only the Danube threads four national capitals, Vienna, Bratislava, Budapest and Belgrade, and it also passes through or borders ten countries. The Volga, Europe's longest river, reaches the Caspian Sea, and the Amazon, not the Nile, carries by far the greatest volume of water.",
+   "perm": [
+    1,
+    3,
+    4,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Geography",
+   "lik": "H"
+  },
+  {
+   "n": 51,
+   "stem": "Which of the following statements about the highest points of Europe and the European Union is correct?",
+   "options": [
+    "Mount Elbrus, at 5642 m, is the highest mountain of the European Union, rising in the Caucasus.",
+    "The highest mountain of the European Union is Mount Etna, the tallest active volcano in Europe.",
+    "The highest mountain of the European Union is Mulhacen, the summit of mainland Spain's Sierra Nevada.",
+    "The highest mountain of the European Union lies in the Carpathians of Romania.",
+    "The highest mountain of the European Union is Mont Blanc, about 4808 m, on the border between France and Italy in the Alps."
+   ],
+   "ans": "E",
+   "exp": "Elbrus is Europe's highest peak under the Caucasus definition, but it stands in Russia, outside the EU, so the EU's highest summit is Mont Blanc in the Alps. Etna is indeed Europe's tallest active volcano, yet at about 3350 m it is far below Mont Blanc.",
+   "perm": [
+    1,
+    2,
+    0,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Geography",
+   "lik": "H"
+  },
+  {
+   "n": 52,
+   "stem": "Which of the following statements about capitals and largest cities is correct?",
+   "options": [
+    "Australia's largest city, Sydney, is also its national capital.",
+    "Turkey's capital and largest city is Istanbul, which straddles the Bosporus.",
+    "Switzerland's largest city is Zurich, but its seat of government, the de facto capital, is Bern.",
+    "Canada's capital is Toronto, which is also its largest city.",
+    "Brazil moved its capital back to Rio de Janeiro after building Brasilia."
+   ],
+   "ans": "C",
+   "exp": "Bern hosts Switzerland's federal government while Zurich remains the largest city, and the same capital-versus-largest-city split appears in Australia (Canberra, not Sydney), Turkey (Ankara, not Istanbul), Canada (Ottawa, not Toronto) and Brazil (Brasilia, capital since 1960).",
+   "perm": [
+    2,
+    4,
+    3,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Geography",
+   "lik": "M"
+  },
+  {
+   "n": 53,
+   "stem": "Which of the following statements about small European states and the European Union is correct?",
+   "options": [
+    "San Marino is an EU member state that mints its own euro coins under EU membership rules.",
+    "Malta, a small island republic in the Mediterranean, is a full EU member state and uses the euro.",
+    "Vatican City joined the EU in 2004 together with Malta.",
+    "Andorra became an EU member state when it adopted the euro.",
+    "Liechtenstein's membership of the EEA makes it an EU member state using the euro."
+   ],
+   "ans": "B",
+   "exp": "Malta joined the EU in 2004 and adopted the euro in 2008, and it is the only state listed here that is inside the Union. San Marino, Andorra and Vatican City use the euro only through monetary agreements with the EU, and Liechtenstein, an EEA member through EFTA, uses the Swiss franc.",
+   "perm": [
+    4,
+    3,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Geography",
+   "lik": "M"
+  },
+  {
+   "n": 54,
+   "stem": "The Ninety-five Theses of 1517, which attacked the sale of indulgences and opened the Protestant Reformation, were issued by:",
+   "options": [
+    "John Calvin at Geneva",
+    "Martin Luther at Wittenberg",
+    "Ulrich Zwingli at Zurich",
+    "Henry VIII at London",
+    "Jan Hus at Prague"
+   ],
+   "ans": "B",
+   "exp": "Martin Luther posted the theses at Wittenberg in October 1517. Calvin led the reformed church at Geneva, Zwingli at Zurich, Henry VIII's break with Rome came through the Act of Supremacy of 1534, and Hus was burned at the Council of Constance a century before the Reformation.",
+   "perm": [
+    2,
+    1,
+    0,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Reformation and society",
+   "lik": "H"
+  },
+  {
+   "n": 55,
+   "stem": "The description of the natural condition of mankind as a 'war of every man against every man', in which life would be 'solitary, poor, nasty, brutish, and short', occurs in:",
+   "options": [
+    "John Locke's Two Treatises of Government",
+    "Jean-Jacques Rousseau's The Social Contract",
+    "Thomas More's Utopia",
+    "Niccolo Machiavelli's The Prince",
+    "Thomas Hobbes's Leviathan"
+   ],
+   "ans": "E",
+   "exp": "Hobbes argues in Leviathan of 1651, written against the background of the English Civil War, that only submission to an absolute sovereign can deliver people from the state of nature. Locke's Two Treatises defend natural rights and limited government, and More's Utopia imagines an ideal island society.",
+   "perm": [
+    4,
+    0,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Political philosophy",
+   "lik": "H"
+  },
+  {
+   "n": 56,
+   "stem": "Which of the following statements about the Bhagavad Gita is correct?",
+   "options": [
+    "It is a Sanskrit dialogue between the warrior Arjuna and the god Krishna, contained in the Mahabharata.",
+    "It is the Sanskrit epic recounting the exile of prince Rama and the rescue of his wife Sita.",
+    "It is the oldest of the four Vedas, a collection of more than a thousand hymns addressed largely to Indra.",
+    "It is an ancient Indian treatise on statecraft attributed to Kautilya.",
+    "It is the body of philosophical texts forming the concluding portions of the Vedas."
+   ],
+   "ans": "A",
+   "exp": "The Gita is the episode of the Mahabharata in which Krishna instructs the despondent Arjuna on duty before the battle of Kurukshetra. Rama's exile belongs to the Ramayana, the hymn collection to the Rigveda, the statecraft treatise to the Arthashastra, and the concluding portions of the Vedas are the Upanishads.",
+   "perm": [
+    3,
+    1,
+    0,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World religions (Hinduism)",
+   "lik": "H"
+  },
+  {
+   "n": 57,
+   "stem": "The Guru Granth Sahib, revered by its followers as the eternal living guru, is the principal sacred text of:",
+   "options": [
+    "Hinduism",
+    "Buddhism",
+    "Jainism",
+    "Sikhism",
+    "Zoroastrianism"
+   ],
+   "ans": "D",
+   "exp": "Sikhs honour the Guru Granth Sahib as their final guru, its core being the hymns of Guru Nanak and his successors. The Vedas are the ancient scriptures of Hinduism, the Tripitaka is Buddhist, the Agamas are Jain, and the Avesta is the Zoroastrian corpus.",
+   "perm": [
+    1,
+    0,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · World religions (Sikhism)",
+   "lik": "M"
+  },
+  {
+   "n": 58,
+   "stem": "The Critique of Pure Reason of 1781, which examines what human reason can and cannot know, was written by:",
+   "options": [
+    "Rene Descartes",
+    "David Hume",
+    "Immanuel Kant",
+    "Baruch Spinoza",
+    "Georg Wilhelm Friedrich Hegel"
+   ],
+   "ans": "C",
+   "exp": "The Critique of Pure Reason is Kant's work, restricting knowledge to objects of possible experience. Hume's scepticism, which Kant said woke him from his dogmatic slumber, prompted the project, while Descartes wrote the Meditations, Spinoza the Ethics and Hegel the Phenomenology of Spirit.",
+   "perm": [
+    3,
+    2,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Enlightenment philosophy",
+   "lik": "M"
+  },
+  {
+   "n": 59,
+   "stem": "Which of the following statements about the WHO Pandemic Agreement is correct?",
+   "options": [
+    "It was adopted by the United Nations General Assembly in New York in September 2025.",
+    "It is a binding treaty that has been in force worldwide since May 2025, replacing the International Health Regulations.",
+    "It was negotiated and adopted by the G20 health ministers at their Rome summit.",
+    "It was adopted by consensus at the 78th World Health Assembly in Geneva on 20 May 2025.",
+    "It entered into force in December 2025, once 60 countries had ratified it."
+   ],
+   "ans": "D",
+   "exp": "The 78th World Health Assembly adopted the Pandemic Agreement by consensus on 20 May 2025, the first such accord born of the COVID-19 experience. It is not yet in force: entry into force requires 60 ratifications, which cannot begin before the PABS annex is finalised, so both the December 2025 and since-May-2025 claims fail.",
+   "perm": [
+    2,
+    0,
+    4,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Current affairs",
+   "lik": "H"
+  },
+  {
+   "n": 60,
+   "stem": "The EU Artificial Intelligence Act, which entered into force on 1 August 2024, applies its rules in phases. In which year did the obligations for providers of general-purpose AI models first become applicable?",
+   "options": [
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "2027"
+   ],
+   "ans": "C",
+   "exp": "The general-purpose AI model obligations became applicable on 2 August 2025. Prohibitions and the AI literacy duty had applied since 2 February 2025; the high-risk system rules, originally due on 2 August 2026, were postponed by the Digital Omnibus adopted in July 2026 to December 2027 and August 2028. The 2024 option matches only the entry into force of the Act.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge · Current affairs",
+   "lik": "M"
+  }
+ ]
+}

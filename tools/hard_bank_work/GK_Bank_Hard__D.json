@@ -1,0 +1,126 @@
+{
+ "bank": "GK_Bank_Hard",
+ "section": "D",
+ "questions": [
+  {
+   "stem": "Which of the following statements about the European Central Bank is correct?",
+   "options": [
+    "The ECB must give priority to financing the public deficits of euro-area governments in periods of recession.",
+    "Price stability is the ECB's primary objective, and support for the Union's other economic policies applies only without prejudice to that goal.",
+    "The ECB sets the income-tax rates that euro-area governments may apply to their citizens.",
+    "The ECB's primary objective is to keep the euro at a fixed exchange rate against the dollar.",
+    "The national central banks of the euro area retain full control over their own interest rates."
+   ],
+   "ans": "B",
+   "exp": "Article 127 TFEU makes price stability the primary objective of the European System of Central Banks, with support for general economic policies expressly subordinated to it, and Article 123 forbids the ECB and national central banks from financing government deficits. Interest-rate setting is a single centralised competence, so the option of national control over rates is wrong.",
+   "topic": "General knowledge · Economics",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "If a central bank raises its key interest rates, the expected short-term effects include which of the following?",
+   "options": [
+    "Borrowing becomes cheaper, so spending and investment expand and inflation accelerates.",
+    "The currency depreciates against other currencies, making imports immediately cheaper.",
+    "Savings accounts earn less interest, so household consumption automatically rises.",
+    "Government deficits disappear, because higher rates increase tax revenues one for one.",
+    "Credit becomes more expensive, demand cools and inflationary pressure eases, while the currency tends to appreciate."
+   ],
+   "ans": "E",
+   "exp": "Higher policy rates make borrowing dearer, dampening demand and easing inflation, and the higher yields tend to attract capital inflows that strengthen the currency. The depreciation option reverses the exchange-rate effect: rising rates pull capital in rather than pushing it out.",
+   "topic": "General knowledge · Economics",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "A factory owned by a Japanese multinational operates in Lombardy, and part of its profits is sent to shareholders in Japan. Which statement is correct?",
+   "options": [
+    "The factory's production counts in Italian gross domestic product, and the profits paid to Japanese residents count in Japanese gross national income.",
+    "The factory's production counts in Japanese gross domestic product, because the owners are Japanese.",
+    "The factory's production counts in Italian gross national income only if the workers are Italian citizens.",
+    "The profits repatriated to Japan raise Italian gross domestic product when they arrive, because GDP includes all income received by a country.",
+    "The production is excluded from both Italian GDP and Italian GNI, because ownership of the plant is foreign."
+   ],
+   "ans": "A",
+   "exp": "GDP records output produced on the national territory whatever the owners' nationality, so the Lombardy plant enters Italian GDP; GNI instead follows residents' income, so the profit share paid to Japanese residents enters Japan's GNI. The option counting the output as Japanese GDP confuses the location of production with the nationality of ownership.",
+   "topic": "General knowledge · Economics",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "In Germany, Article 67 of the Basic Law institutes the constructive vote of no confidence. Which statement describes this mechanism correctly?",
+   "options": [
+    "The Bundestag can dismiss the Chancellor with a simple majority of those present, after which new elections are held.",
+    "The Federal President may dismiss the Chancellor whenever the Cabinet loses a single parliamentary vote.",
+    "The Chancellor can be removed only by the Federal Constitutional Court, on the request of a majority of the federal states.",
+    "The Bundestag may remove the Chancellor only by electing a successor with the votes of a majority of all its members.",
+    "A no-confidence vote automatically dissolves the Bundestag and triggers new elections within a fixed short period."
+   ],
+   "ans": "D",
+   "exp": "The Bundestag cannot merely oust the Chancellor: it must at the same time elect a successor by the majority of all its members, a rule adopted after the Weimar experience to protect governmental stability. The simple-majority and automatic-dissolution options describe precisely the cabinet instability that the mechanism was designed to prevent.",
+   "topic": "General knowledge · Citizenship",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "A member state of the European Union that does not use the euro wants to adopt it. Which statement about the convergence criteria is correct?",
+   "options": [
+    "Its public debt must be below 100 percent of GDP and its government deficit below 5 percent.",
+    "Its inflation must be no more than 1.5 percentage points above that of the three best-performing member states, and it must have participated in the exchange-rate mechanism for at least two years without devaluing.",
+    "It must adopt the euro immediately upon joining the European Union, without any transitional criteria.",
+    "It must run a trade surplus and peg its currency to the dollar for two years.",
+    "Its long-term interest rates must be at least two percentage points below the EU average, and its deficit must be exactly zero."
+   ],
+   "ans": "B",
+   "exp": "The Maastricht criteria cap inflation at 1.5 points above the three best performers, require two years of stable exchange-rate mechanism membership without devaluation, limit the deficit to 3 percent and the debt to 60 percent of GDP or sufficiently diminishing, and keep long-term interest rates within 2 points of the best performers. The 100 percent debt and zero-deficit options invent figures that appear nowhere in the criteria.",
+   "topic": "General knowledge · Economics",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "In a progressive income-tax system, a worker's taxable income rises just above the threshold of the next higher bracket. Which statement is correct?",
+   "options": [
+    "The whole of the income is taxed at the new higher rate.",
+    "The worker's tax bill falls, because higher brackets carry extra allowances.",
+    "Only the portion of income above the threshold is taxed at the higher rate.",
+    "The previous brackets stop applying, so the tax paid on the lower slabs is refunded.",
+    "The total tax due remains exactly the same as before the increase in income."
+   ],
+   "ans": "C",
+   "exp": "Progressivity works slab by slab: each marginal rate applies only to the income falling within its own bracket, so crossing a threshold raises the tax only on the excess. Taxing the whole income at the new rate is the classic misunderstanding of how marginal brackets operate.",
+   "topic": "General knowledge · Economics",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about the history of voting rights is correct?",
+   "options": [
+    "France was the first country to give women the vote at national level, in 1893.",
+    "Swiss women obtained the vote in federal elections before the First World War.",
+    "New Zealand granted women the parliamentary vote only after the Second World War.",
+    "The United Kingdom gave all women the parliamentary vote on the same terms as men in 1918.",
+    "New Zealand was the first self-governing country to give women the vote in parliamentary elections, in 1893."
+   ],
+   "ans": "E",
+   "exp": "New Zealand's Electoral Act of 1893 made it the first self-governing country with women's suffrage in national elections. The 1918 British franchise was partial, covering mainly older women with property qualifications, and Swiss women waited until 1971 for the federal vote.",
+   "topic": "General knowledge · Citizenship",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "In a plurality system with single-member constituencies, often called first past the post, the winner of each seat is:",
+   "options": [
+    "the candidate with the most votes cast, even without an absolute majority.",
+    "the candidate who obtains the support of at least half of all registered voters, or else the seat stays vacant.",
+    "the candidate chosen in a second round between the two leading candidates, held in every constituency.",
+    "the party that wins the national popular vote, which then fills every constituency with its own candidate.",
+    "the candidate whose votes are distributed most evenly across all the constituencies of the country."
+   ],
+   "ans": "A",
+   "exp": "Plurality asks only who leads the count in the constituency: fifty percent plus one is not required, so a candidate opposed by most voters can still win when the vote is split. The second-round option describes a majority or runoff system instead.",
+   "topic": "General knowledge · Citizenship",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  }
+ ]
+}

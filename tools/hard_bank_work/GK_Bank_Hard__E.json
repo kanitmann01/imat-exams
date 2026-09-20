@@ -1,0 +1,96 @@
+{
+ "bank": "GK_Bank_Hard",
+ "section": "E",
+ "questions": [
+  {
+   "stem": "Under Article 138 of the Italian Constitution, a law amending the Constitution that was not approved by two thirds of the members of each chamber can be sent to a confirmatory referendum if so requested by a parliamentary minority, by five regional councils or by 500,000 voters. Which statement is correct?",
+   "options": [
+    "The referendum is valid only if at least half of the eligible voters take part, exactly as for abrogative referendums.",
+    "The referendum is advisory: Parliament alone decides afterwards whether to enact the amendment.",
+    "The amendment is rejected if a majority of the valid votes cast are against it, and turnout plays no role in the validity of the vote.",
+    "The referendum can be requested only by the Government or by a majority of the regional councils.",
+    "If the referendum approves the amendment, the law must be passed a second time by a two-thirds majority of Parliament."
+   ],
+   "ans": "C",
+   "exp": "The 2020 referendum that cut the Chamber from 630 to 400 deputies and the Senate from 315 to 200 senators was approved with about 70 percent yes on a turnout of roughly 51 percent: under Article 138 a simple majority of valid votes decides and there is no turnout quorum. The half-turnout condition belongs to Article 75 abrogative referendums, not to this procedure.",
+   "topic": "General knowledge · Italian institutions",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Italy's constitutional reform of 2016 was put to a referendum on 4 December 2016 even though both chambers had already approved it. Why?",
+   "options": [
+    "Because it had not obtained a two-thirds majority in the second vote, a parliamentary minority was able to request a confirmatory referendum, which the No side won with about 59 percent.",
+    "Because the Constitutional Court had found the reform unconstitutional and ordered a popular confirmation.",
+    "Because every constitutional law must in all cases be ratified by the people, whatever the size of the parliamentary majority.",
+    "Because the President of the Republic refused to promulgate the law before a popular vote had been held.",
+    "Because parliamentary approval had come from fewer than half the members, which always forces a popular vote."
+   ],
+   "ans": "A",
+   "exp": "Under Article 138 a constitutional law passed without two-thirds majorities is not promulgated if one fifth of the members of a chamber, five regions or 500,000 voters ask for a referendum; the 2016 reform, which would have replaced the elected Senate with a 100-member body, was rejected and Renzi resigned. The compulsory-plebiscite option is wrong: with two-thirds approval no referendum would ever be needed.",
+   "topic": "General knowledge · Italian institutions",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about the President of the Italian Republic is correct?",
+   "options": [
+    "The President may dismiss the Prime Minister at will, because the head of the government serves directly at presidential pleasure.",
+    "The President's acts take effect on the President's own signature alone, and ministers are never involved in validating them.",
+    "The President may freely dissolve the Chambers during the last six months of the presidential term of office.",
+    "The President legislates directly in matters of foreign policy through presidential decrees having the force of law.",
+    "The President's acts require the counter-signature of the proposing ministers, and the President may not dissolve the Chambers in the last six months of the presidential term, save narrow exceptions."
+   ],
+   "ans": "E",
+   "exp": "Article 89 makes ministerial counter-signature a condition of validity for presidential acts, and Article 88 bars dissolution in the final six months of the President's mandate, except when that period coincides with the last six months of the legislature or falls within the first three months of a newly elected President's mandate, the recognised exception for resolving a crisis predating the election. The dismissal-at-will option swaps powers, since the government must retain the confidence of Parliament, not of the President.",
+   "topic": "General knowledge · Italian institutions",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "In a case before an ordinary Italian judge, the judge believes that the statutory provision to be applied conflicts with the Constitution. What can the judge do?",
+   "options": [
+    "Set the provision aside directly and decide the case under the Constitution, as Italian judges may do with any unconstitutional statute.",
+    "Stay the proceedings and refer the question of constitutionality to the Constitutional Court, which alone may declare the law unconstitutional with effect for everyone.",
+    "Ask the regional council whose statute is affected to invalidate the offending provision.",
+    "Rule against the statute by a qualified majority of all the judges of the Court of Cassation sitting in joint divisions.",
+    "Nothing at all: an ordinary judge must always apply statutes exactly as written, whatever doubts may exist about them."
+   ],
+   "ans": "B",
+   "exp": "Italian constitutional review is incidental: the ordinary judge raises the question and the Constitutional Court alone can strike a statute down with general effect. Direct disapplication describes the treatment of EU law, where courts of any level must set aside conflicting national provisions; for the national Constitution the referral route is mandatory.",
+   "topic": "General knowledge · Italian institutions",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "In the abrogative referendums of 8 and 9 June 2025, the Yes option prevailed on all five questions, including the reduction of the residence requirement for acquiring citizenship from ten years to five. What was the outcome?",
+   "options": [
+    "All five questions were approved, because a majority of the valid votes decides an abrogative referendum.",
+    "Parliament re-enacted all the abrogated provisions by absolute majority within sixty days of the vote.",
+    "The Constitutional Court annulled the ballots, because the citizenship question touched on a constitutional matter reserved to Parliament.",
+    "All five referendums were declared invalid, because turnout of about 30 percent fell far below the quorum of half the electorate required for validity.",
+    "Only the labour questions took effect, while the citizenship question lapsed for lack of a majority."
+   ],
+   "ans": "D",
+   "exp": "Article 75 makes an abrogative referendum void unless a majority of those entitled to vote actually take part: in June 2025 turnout was about 30 percent, so every question failed despite the Yes majorities among those who voted. The option treating the valid votes alone as decisive ignores precisely the quorum rule that sank all five ballots.",
+   "topic": "General knowledge · Italian institutions",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about the distribution of legislative power in Italy is correct?",
+   "options": [
+    "Since the 2001 reform of Title V of the Constitution, the regions have legislative power in all matters not expressly reserved to State legislation.",
+    "The State holds legislative power in all matters, and the regions may issue only administrative regulations.",
+    "The provinces legislate on criminal law and the organisation of the judiciary, within the limits set by the regional statutes.",
+    "The regions legislate only where the State has expressly delegated each single competence to them one by one.",
+    "Criminal law is a concurrent matter in which the regions may legislate within the fundamental principles set by State law."
+   ],
+   "ans": "A",
+   "exp": "The 2001 reform inverted the competence logic of Article 117: it lists the State's exclusive matters and the concurrent ones, and the residual power over all remaining matters belongs to the regions. Criminal law, however, is among the State's exclusive competences, so the option making it a concurrent matter misreads the list.",
+   "topic": "General knowledge · Italian institutions",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  }
+ ]
+}

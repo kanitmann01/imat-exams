@@ -1,0 +1,81 @@
+{
+ "bank": "GK_Bank_Hard",
+ "section": "H",
+ "questions": [
+  {
+   "stem": "The Ninety-five Theses of 1517, which attacked the sale of indulgences and opened the Protestant Reformation, were issued by:",
+   "options": [
+    "John Calvin at Geneva",
+    "Martin Luther at Wittenberg",
+    "Ulrich Zwingli at Zurich",
+    "Henry VIII at London",
+    "Jan Hus at Prague"
+   ],
+   "ans": "B",
+   "exp": "Martin Luther posted the theses at Wittenberg in October 1517. Calvin led the reformed church at Geneva, Zwingli at Zurich, Henry VIII's break with Rome came through the Act of Supremacy of 1534, and Hus was burned at the Council of Constance a century before the Reformation.",
+   "topic": "General knowledge · Reformation and society",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "The description of the natural condition of mankind as a 'war of every man against every man', in which life would be 'solitary, poor, nasty, brutish, and short', occurs in:",
+   "options": [
+    "John Locke's Two Treatises of Government",
+    "Jean-Jacques Rousseau's The Social Contract",
+    "Thomas More's Utopia",
+    "Niccolo Machiavelli's The Prince",
+    "Thomas Hobbes's Leviathan"
+   ],
+   "ans": "E",
+   "exp": "Hobbes argues in Leviathan of 1651, written against the background of the English Civil War, that only submission to an absolute sovereign can deliver people from the state of nature. Locke's Two Treatises defend natural rights and limited government, and More's Utopia imagines an ideal island society.",
+   "topic": "General knowledge · Political philosophy",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "Which of the following statements about the Bhagavad Gita is correct?",
+   "options": [
+    "It is a Sanskrit dialogue between the warrior Arjuna and the god Krishna, contained in the Mahabharata.",
+    "It is the Sanskrit epic recounting the exile of prince Rama and the rescue of his wife Sita.",
+    "It is the oldest of the four Vedas, a collection of more than a thousand hymns addressed largely to Indra.",
+    "It is an ancient Indian treatise on statecraft attributed to Kautilya.",
+    "It is the body of philosophical texts forming the concluding portions of the Vedas."
+   ],
+   "ans": "A",
+   "exp": "The Gita is the episode of the Mahabharata in which Krishna instructs the despondent Arjuna on duty before the battle of Kurukshetra. Rama's exile belongs to the Ramayana, the hymn collection to the Rigveda, the statecraft treatise to the Arthashastra, and the concluding portions of the Vedas are the Upanishads.",
+   "topic": "General knowledge · World religions (Hinduism)",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "The Guru Granth Sahib, revered by its followers as the eternal living guru, is the principal sacred text of:",
+   "options": [
+    "Hinduism",
+    "Buddhism",
+    "Jainism",
+    "Sikhism",
+    "Zoroastrianism"
+   ],
+   "ans": "D",
+   "exp": "Sikhs honour the Guru Granth Sahib as their final guru, its core being the hymns of Guru Nanak and his successors. The Vedas are the ancient scriptures of Hinduism, the Tripitaka is Buddhist, the Agamas are Jain, and the Avesta is the Zoroastrian corpus.",
+   "topic": "General knowledge · World religions (Sikhism)",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  },
+  {
+   "stem": "The Critique of Pure Reason of 1781, which examines what human reason can and cannot know, was written by:",
+   "options": [
+    "Rene Descartes",
+    "David Hume",
+    "Immanuel Kant",
+    "Baruch Spinoza",
+    "Georg Wilhelm Friedrich Hegel"
+   ],
+   "ans": "C",
+   "exp": "The Critique of Pure Reason is Kant's work, restricting knowledge to objects of possible experience. Hume's scepticism, which Kant said woke him from his dogmatic slumber, prompted the project, while Descartes wrote the Meditations, Spinoza the Ethics and Hegel the Phenomenology of Spirit.",
+   "topic": "General knowledge · Enlightenment philosophy",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies (general knowledge)"
+  }
+ ]
+}

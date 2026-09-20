@@ -61,6 +61,18 @@ PLAN = {
         ("D", "Mathematics", "Mathematics", 7),
         ("E", "Physics", "Physics", 6),
     ]),
+    "GK_Bank_Hard": ("Hard_Bank_GK.html", "GK_Bank_Hard",
+                     "IMAT QUESTION BANK: General Knowledge (Medium-Hard)", 60, [
+        ("A", "History", "World and European history", 10),
+        ("B", "Lit", "World literature", 8),
+        ("C", "Intl", "International institutions and law", 8),
+        ("D", "Civics", "Economics and citizenship", 8),
+        ("E", "Italy", "Italian institutions", 6),
+        ("F", "HistSci", "History of science", 7),
+        ("G", "Geo", "Geography", 6),
+        ("H", "Society", "Philosophy, religion and society", 5),
+        ("I", "Current", "Recent settled events", 2),
+    ]),
 }
 
 FORBIDDEN = [
