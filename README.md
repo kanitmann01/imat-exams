@@ -1,9 +1,10 @@
 # IMAT Exam Platform
 
 A free, static web app for sitting and reviewing IMAT 2026 practice papers:
-8 full mocks (60 Q, max 90), a 100-question GK drill (max 150) and a 70-question
-repair drill (max 105). Grading is the real IMAT scheme: +1.5 correct, -0.4
-wrong, 0 blank, 100 minutes.
+9 full mocks (60 Q, max 90), a 100-question GK drill (max 150), a 70-question
+repair drill (max 105) and three hard topic banks (biology 130 Q, chemistry 65 Q,
+maths/physics/logic 95 Q, all medium-hard). Grading is the real IMAT scheme:
++1.5 correct, -0.4 wrong, 0 blank, 100 minutes for mocks.
 
 Live: https://kanitmann01.github.io/imat-exams/
 

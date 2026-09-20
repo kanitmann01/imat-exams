@@ -1,0 +1,2460 @@
+{
+ "bank_bio_hard": [
+  {
+   "section": "A",
+   "topic": "Biology · amino acid classes",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "The side chains of four amino acids are considered: serine bears a hydroxyl grou"
+  },
+  {
+   "section": "A",
+   "topic": "Biology · ionisation of peptides at pH",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "A tripeptide is assembled in the order glutamic acid, glycine, lysine. Peptide b"
+  },
+  {
+   "section": "A",
+   "topic": "Biology · proline and secondary structure",
+   "lik": "M",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "Collagen aside, proline is rarely found in the middle of an alpha helix. The bes"
+  },
+  {
+   "section": "A",
+   "topic": "Biology · disulfide bonds and tertiary structure",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "A reagent breaks the four intrachain disulfide bridges of a protein made of a si"
+  },
+  {
+   "section": "A",
+   "topic": "Biology · alpha helix vs beta sheet",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "Two synthetic peptides of equal length adopt different secondary structures: pep"
+  },
+  {
+   "section": "A",
+   "topic": "Biology · globular and fibrous proteins",
+   "lik": "M",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "A newly characterised protein is a long, water-insoluble strand that gives tendo"
+  },
+  {
+   "section": "A",
+   "topic": "Biology · levels of protein structure",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "Which statement about levels of protein structure is correct?"
+  },
+  {
+   "section": "A",
+   "topic": "Biology · cellulose vs starch",
+   "lik": "M",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "Cellulose and starch are both polymers of glucose, yet cellulose passes through "
+  },
+  {
+   "section": "A",
+   "topic": "Biology · glycogen mobilisation",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "Muscle glycogen releases usable glucose units faster than the amylopectin of a s"
+  },
+  {
+   "section": "A",
+   "topic": "Biology · carotenoids and xanthophylls",
+   "lik": "M",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "In a chromatogram of a leaf extract, the yellow-orange bands contain carotenes a"
+  },
+  {
+   "section": "A",
+   "topic": "Biology · lipid energy storage",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "Per gram, fat stores about twice as much usable energy as glycogen. Which statem"
+  },
+  {
+   "section": "A",
+   "topic": "Biology · starch digestion by amylase",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "Starch is incubated with purified amylase under gut-like conditions, and the mix"
+  },
+  {
+   "section": "A",
+   "topic": "Biology · lactose digestion",
+   "lik": "M",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "Lactose, the disaccharide in milk, is hydrolysed at the intestinal brush border "
+  },
+  {
+   "section": "A",
+   "topic": "Biology · enzyme concentration and rate",
+   "lik": "M",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "In a tube containing enzyme and a large excess of its substrate, the enzyme conc"
+  },
+  {
+   "section": "A",
+   "topic": "Biology · enzyme amount vs substrate amount",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "Two tubes contain the same small, fixed amount of substrate. Tube X receives 1 u"
+  },
+  {
+   "section": "A",
+   "topic": "Biology · enzymes and equilibrium",
+   "lik": "M",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "An enzyme is added to a reaction mixture that has already reached chemical equil"
+  },
+  {
+   "section": "A",
+   "topic": "Biology · prion misfolding cascade",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "In prion diseases, a misfolded form of a normal membrane protein acts as a templ"
+  },
+  {
+   "section": "A",
+   "topic": "Biology · chaperones and aggregation",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "A cell line carries a mutation that disables its main chaperone proteins, while "
+  },
+  {
+   "section": "B",
+   "topic": "Biology · products of smooth ER and lysosome action",
+   "lik": "H",
+   "syl": "3. Biology: The cell as the basis of life",
+   "stem": "In a steroid-producing gland cell, the smooth endoplasmic reticulum is actively "
+  },
+  {
+   "section": "B",
+   "topic": "Biology · peroxisomes vs lysosomes",
+   "lik": "M",
+   "syl": "3. Biology: The cell as the basis of life",
+   "stem": "Which of the following statements about peroxisomes and lysosomes is correct?"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · peroxisome catalase failure",
+   "lik": "H",
+   "syl": "3. Biology: The cell as the basis of life",
+   "stem": "In animal cells the first step of peroxisomal fatty acid oxidation is catalysed "
+  },
+  {
+   "section": "B",
+   "topic": "Biology · ATP dependence of transport",
+   "lik": "H",
+   "syl": "3. Biology: The cell membrane",
+   "stem": "A metabolic poison halts ATP production in an animal cell kept in an isotonic me"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · facilitated diffusion case",
+   "lik": "M",
+   "syl": "3. Biology: The cell membrane",
+   "stem": "Cells are cultured in a medium whose glucose concentration is higher than the gl"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · osmosis with a penetrating solute",
+   "lik": "H",
+   "syl": "3. Biology: The cell membrane",
+   "stem": "A red blood cell whose interior behaves as 300 mmol/dm³ of non-penetrating solut"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · fluid mosaic model",
+   "lik": "M",
+   "syl": "3. Biology: The cell membrane",
+   "stem": "Which statement about the fluid mosaic model of the plasma membrane is correct?"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · integral vs peripheral proteins",
+   "lik": "H",
+   "syl": "3. Biology: The cell membrane",
+   "stem": "Researchers treat sealed vesicles of plasma membrane in two ways. Treatment 1 us"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · hypertonic solution, animal cell",
+   "lik": "M",
+   "syl": "3. Biology: The cell membrane",
+   "stem": "A red blood cell is moved from an isotonic medium into a solution with a higher "
+  },
+  {
+   "section": "B",
+   "topic": "Biology · tonicity in plant vs animal cells",
+   "lik": "H",
+   "syl": "3. Biology: The cell membrane",
+   "stem": "Cells from the same tissue are divided into two samples: one sample is placed in"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · viruses as acellular",
+   "lik": "M",
+   "syl": "3. Biology: The cell as the basis of life",
+   "stem": "Viruses are described as acellular. Which statement gives the main reason?"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · viral structure and replication",
+   "lik": "H",
+   "syl": "3. Biology: The cell as the basis of life",
+   "stem": "Which of the following statements about viruses is correct?"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · plastid storage types",
+   "lik": "M",
+   "syl": "3. Biology: The cell as the basis of life",
+   "stem": "Which pairing of a plastid type with what it stores is correct?"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · plastid differentiation in ripening",
+   "lik": "H",
+   "syl": "3. Biology: The cell as the basis of life",
+   "stem": "During the ripening of a tomato fruit the green colour fades, red pigments accum"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · lysosomal storage disease",
+   "lik": "H",
+   "syl": "3. Biology: The cell as the basis of life",
+   "stem": "In Tay-Sachs disease, a defective gene leaves one enzyme inactive inside a parti"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · organelle malfunction matching",
+   "lik": "H",
+   "syl": "3. Biology: The cell as the basis of life",
+   "stem": "Three treatments each disable one organelle in a cell line. After treatment 1, s"
+  },
+  {
+   "section": "C",
+   "topic": "Biology · replication enzymes (topoisomerase)",
+   "lik": "H",
+   "syl": "3. Biology: Molecular genetics",
+   "stem": "A bacterial culture is treated with a drug that completely inhibits DNA gyrase, "
+  },
+  {
+   "section": "C",
+   "topic": "Biology · replication enzymes (ligase)",
+   "lik": "M",
+   "syl": "3. Biology: Molecular genetics",
+   "stem": "In a temperature-sensitive bacterial mutant shifted to the restrictive temperatu"
+  },
+  {
+   "section": "C",
+   "topic": "Biology · nucleosomes and chromatin",
+   "lik": "H",
+   "syl": "3. Biology: Molecular genetics",
+   "stem": "In a eukaryotic species, nucleosomes are arranged with a repeat length of 200 bp"
+  },
+  {
+   "section": "C",
+   "topic": "Biology · histone properties",
+   "lik": "M",
+   "syl": "3. Biology: Molecular genetics",
+   "stem": "Which statement about histones is correct?"
+  },
+  {
+   "section": "C",
+   "topic": "Biology · semi-conservative replication (Meselson-Stahl)",
+   "lik": "H",
+   "syl": "3. Biology: Molecular genetics",
+   "stem": "Bacteria are grown for many generations in a medium whose only nitrogen source i"
+  },
+  {
+   "section": "C",
+   "topic": "Biology · Meselson-Stahl two-generation readout",
+   "lik": "H",
+   "syl": "3. Biology: Molecular genetics",
+   "stem": "In a Meselson-Stahl type experiment, bacteria grown in 15N medium are shifted to"
+  },
+  {
+   "section": "C",
+   "topic": "Biology · eukaryotic ribosome structure and assembly",
+   "lik": "M",
+   "syl": "3. Biology: Molecular genetics",
+   "stem": "Which statement about the eukaryotic (80S) ribosome is correct?"
+  },
+  {
+   "section": "C",
+   "topic": "Biology · RNA splicing (introns in prokaryotes)",
+   "lik": "H",
+   "syl": "3. Biology: Molecular genetics",
+   "stem": "A eukaryotic gene consists of two exons separated by one intron, and that intron"
+  },
+  {
+   "section": "C",
+   "topic": "Biology · RNA splicing (eukaryote vs prokaryote)",
+   "lik": "M",
+   "syl": "3. Biology: Molecular genetics",
+   "stem": "Which statement about RNA splicing is correct?"
+  },
+  {
+   "section": "C",
+   "topic": "Biology · mutation types (nonsense)",
+   "lik": "M",
+   "syl": "3. Biology: Molecular genetics",
+   "stem": "A codon table shows that CAG codes for glutamine and that UAG is a stop codon. I"
+  },
+  {
+   "section": "C",
+   "topic": "Biology · mutation types (frameshift)",
+   "lik": "M",
+   "syl": "3. Biology: Molecular genetics",
+   "stem": "The beginning of an mRNA reads AUG CCU GGU UGA, where UGA is the fourth codon an"
+  },
+  {
+   "section": "C",
+   "topic": "Biology · mutation types (silent and missense)",
+   "lik": "H",
+   "syl": "3. Biology: Molecular genetics",
+   "stem": "A codon table gives: GAA and GAG both code for glutamate, GUA codes for valine, "
+  },
+  {
+   "section": "C",
+   "topic": "Biology · PCR components (primers and Taq polymerase)",
+   "lik": "H",
+   "syl": "3. Biology: Biotechnologies (recombinant DNA technology and its applications)",
+   "stem": "A researcher sets up a PCR containing the DNA template, Taq polymerase and all f"
+  },
+  {
+   "section": "C",
+   "topic": "Biology · PCR amplification (copy counting)",
+   "lik": "H",
+   "syl": "3. Biology: Biotechnologies (recombinant DNA technology and its applications)",
+   "stem": "A PCR tube starts with exactly one double-stranded DNA molecule. The reaction ru"
+  },
+  {
+   "section": "D",
+   "topic": "Biology · cell cycle checkpoints (G1 DNA damage)",
+   "lik": "H",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)",
+   "stem": "A culture of actively dividing fibroblasts is exposed to UV radiation while all "
+  },
+  {
+   "section": "D",
+   "topic": "Biology · cell cycle phases (G1, S, G2, M, G0)",
+   "lik": "M",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)",
+   "stem": "Which statement about the phases of the eukaryotic cell cycle is correct?"
+  },
+  {
+   "section": "D",
+   "topic": "Biology · mitotic nondisjunction (mosaicism)",
+   "lik": "H",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)",
+   "stem": "During an early mitotic division of a chromosomally normal human embryo (2n = 46"
+  },
+  {
+   "section": "D",
+   "topic": "Biology · meiosis I stages",
+   "lik": "H",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)",
+   "stem": "Which of the following statements about meiosis I is false?"
+  },
+  {
+   "section": "D",
+   "topic": "Biology · crossing over (prophase I)",
+   "lik": "M",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)",
+   "stem": "Crossing over, a major source of new allele combinations, occurs:"
+  },
+  {
+   "section": "D",
+   "topic": "Biology · anaphase II chromosome counts",
+   "lik": "H",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)",
+   "stem": "A plant species has a diploid number of 2n = 10. During anaphase II of meiosis, "
+  },
+  {
+   "section": "D",
+   "topic": "Biology · nondisjunction in meiosis I",
+   "lik": "H",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)",
+   "stem": "In a primary spermatocyte with 2n = 12, a nondisjunction of one homologous pair "
+  },
+  {
+   "section": "D",
+   "topic": "Biology · nondisjunction in meiosis II",
+   "lik": "H",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)",
+   "stem": "A primary spermatocyte (2n = 24) completes meiosis I normally. During meiosis II"
+  },
+  {
+   "section": "D",
+   "topic": "Biology · identifying nondisjunction stage",
+   "lik": "H",
+   "syl": "3. Biology: Human genetics",
+   "stem": "A male with 2n = 20 produces a sperm sample in which a single nondisjunction eve"
+  },
+  {
+   "section": "D",
+   "topic": "Biology · sources of genetic variability",
+   "lik": "M",
+   "syl": "3. Biology: Mendelian genetics",
+   "stem": "Which statement about the origin of genetic variability in sexually reproducing "
+  },
+  {
+   "section": "D",
+   "topic": "Biology · independent assortment (2ⁿ combinations)",
+   "lik": "M",
+   "syl": "3. Biology: Classical genetics",
+   "stem": "In an animal species with 2n = 12, how many genetically different chromosome com"
+  },
+  {
+   "section": "D",
+   "topic": "Biology · codominance (1:2:1 ratio)",
+   "lik": "M",
+   "syl": "3. Biology: Mendelian genetics",
+   "stem": "In humans the M and N blood-group alleles are codominant. A couple are both of t"
+  },
+  {
+   "section": "D",
+   "topic": "Biology · Mendelian ratios",
+   "lik": "M",
+   "syl": "3. Biology: Mendelian genetics",
+   "stem": "Which of the following statements about Mendelian crosses is false?"
+  },
+  {
+   "section": "D",
+   "topic": "Biology · dihybrid genotype counting",
+   "lik": "H",
+   "syl": "3. Biology: Mendelian genetics",
+   "stem": "Two pea plants heterozygous for seed shape and for seed colour (AaBb × AaBb) are"
+  },
+  {
+   "section": "D",
+   "topic": "Biology · dihybrid phenotype fractions",
+   "lik": "H",
+   "syl": "3. Biology: Mendelian genetics",
+   "stem": "In a cross AaBb × aaBb, with the two genes assorting independently, what is expe"
+  },
+  {
+   "section": "D",
+   "topic": "Biology · Hardy-Weinberg (carrier frequency)",
+   "lik": "H",
+   "syl": "3. Biology: Mutations (selection, evolutionary theories)",
+   "stem": "In a population of 500 people at Hardy-Weinberg equilibrium, 20 people show an a"
+  },
+  {
+   "section": "D",
+   "topic": "Biology · Hardy-Weinberg (allele frequency)",
+   "lik": "M",
+   "syl": "3. Biology: Mutations (selection, evolutionary theories)",
+   "stem": "A population is in Hardy-Weinberg equilibrium, and 9 percent of its members show"
+  },
+  {
+   "section": "D",
+   "topic": "Biology · bottleneck effect and spontaneous generation",
+   "lik": "M",
+   "syl": "3. Biology: Mutations (selection, evolutionary theories)",
+   "stem": "Which statement about evolution and the history of evolutionary thought is corre"
+  },
+  {
+   "section": "E",
+   "topic": "Biology · epithelial types and their locations",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Which option pairs every site with the epithelium that normally lines it?"
+  },
+  {
+   "section": "E",
+   "topic": "Biology · epithelial classification",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Which of the following statements about epithelial tissue is false?"
+  },
+  {
+   "section": "E",
+   "topic": "Biology · pseudostratified epithelium",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A light micrograph shows a single layer of tall cells, all resting on the same b"
+  },
+  {
+   "section": "E",
+   "topic": "Biology · exchange surfaces and endothelium",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Oxygen travels from the air inside an alveolus into the blood by crossing the al"
+  },
+  {
+   "section": "E",
+   "topic": "Biology · kidney epithelia (proximal tubule)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A toxin selectively destroys the brush border of the cells lining the proximal c"
+  },
+  {
+   "section": "E",
+   "topic": "Biology · kidney epithelia (loop of Henle)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Which nephron segment is correctly matched to its lining epithelium and to the r"
+  },
+  {
+   "section": "E",
+   "topic": "Biology · apical specializations and junctions",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A student wrote the following notes on the surface specializations of epithelial"
+  },
+  {
+   "section": "E",
+   "topic": "Biology · cilia versus microvilli (motility)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "In a hereditary disorder the dynein arms of cilia are absent, so cilia cannot be"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · valve failure (mitral regurgitation)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A patient's mitral (bicuspid) valve no longer closes completely. What happens du"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · valve failure (aortic incompetence)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "The aortic semilunar valve of a patient becomes incompetent, so that it fails to"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · heart valves (semilunar vs atrioventricular)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Which pairing of a heart valve with its position and its type is correct?"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · double circulation (flow ordering)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A drop of blood enters the heart through the superior vena cava. On its way to t"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · pulmonary circuit (oxygen status of vessels)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A red blood cell leaves the right ventricle and is followed until it re-enters t"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · double circulation (pressure and vessel roles)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Which statement about the human double circulation is correct?"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · breathing mechanics (inhalation)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "At the start of a quiet inhalation the diaphragm contracts. Which chain of event"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · breathing mechanics (forced exhalation)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A person blows out a candle forcefully. Which combination of events occurs durin"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · pleura (layers and fluid)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Which statement about the pleural membranes is correct?"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · pleura (pneumothorax cascade)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A stab wound lets air enter the left pleural cavity (pneumothorax). What immedia"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · CO2 transport (share of each form)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "In human blood, which option gives the approximate shares of carbon dioxide tran"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · hemoglobin binding sites (heme vs globin)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Oxygen and carbon dioxide are both carried with the help of hemoglobin. Which st"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · O2 transport (dissolved vs bound)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Approximately what percentage of the oxygen transported in systemic arterial blo"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · anemia and oxygen delivery",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A patient has a severely reduced hemoglobin concentration, yet the partial press"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · disease matching (emphysema)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Emphysema progressively destroys the walls between the pulmonary alveoli. Which "
+  },
+  {
+   "section": "F",
+   "topic": "Biology · disease-to-system matching",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Which pairing of a condition with the structure primarily affected is incorrect?"
+  },
+  {
+   "section": "F",
+   "topic": "Biology · coronary circulation under exertion",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Fatty plaques narrow a patient's coronary arteries. Why is the heart muscle enda"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · pancreatic enzymes (zymogen activation cascade)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "In the small intestine, the enzyme enterokinase converts pancreatic trypsinogen "
+  },
+  {
+   "section": "G",
+   "topic": "Biology · bile (production, storage, emulsification)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Which statement about bile in human digestion is correct?"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · stomach (hydrochloric acid and pepsin)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A drug almost completely abolishes hydrochloric acid secretion by the stomach. W"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · stomach (rennin and milk)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Rennin (chymosin), secreted by the gastric mucosa of young mammals, turns liquid"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · digestive enzymes (integrated check)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Which of the following statements about human digestion is false?"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · thyroid (T3/T4 and calcitonin)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A treatment destroys most of a patient's thyroid gland, including both the folli"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · calcium homeostasis (PTH and calcitonin)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Blood tests show that a person's plasma calcium concentration is abnormally high"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · kidney (renal threshold for glucose)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "In untreated type 1 diabetes, insulin secretion is nearly absent and blood gluco"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · pancreatic islets (insulin and glucagon)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "During a long fast, glucagon helps to keep the blood glucose level stable. Which"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · nephron (loop of Henle, medullary gradient)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A drug blocks the active pumping of sodium ions out of the ascending limb of the"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · nephron (filtration, reabsorption, secretion)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A drug enters the fluid of the kidney tubule by two routes: filtration at the gl"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · kidney (ADH and water balance)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A healthy person quickly drinks one litre of pure water and plasma osmolarity fa"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · bone (osteoblasts and osteoclasts)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Which statement about the cells of bone tissue is correct?"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · neuron (action potential phases)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A toxin blocks the voltage-gated potassium channels of a neuron but leaves all o"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · neuron (synapse)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A poison blocks the voltage-gated calcium channels in the presynaptic terminal o"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · neuron (myelin and saltatory conduction)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A disease progressively destroys the myelin sheath of peripheral motor axons. Wh"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · autonomic division (sympathetic vs parasympathetic)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A patient is given a drug that mimics acetylcholine at the receptors of the para"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · eye (rods, cones, dark adaptation)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A person walks from bright sunshine into a dim cinema, sees almost nothing at fi"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · nervous system divisions (CNS and PNS)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Which statement about the organisation of the human nervous system is correct?"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · meninges and cerebrospinal fluid",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A lumbar puncture is performed to sample the fluid that cushions the brain and s"
+  },
+  {
+   "section": "G",
+   "topic": "Biology · vagus nerve and autonomic control",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "In an animal experiment both vagus nerves are cut, and the animal is observed af"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · glycolysis regulation (PFK-1)",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "Phosphofructokinase-1 (PFK-1) catalyses the committed step of glycolysis. Which "
+  },
+  {
+   "section": "H",
+   "topic": "Biology · PFK-1 and the AMP:ATP ratio",
+   "lik": "M",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "During a sprint, the ATP concentration inside a fast muscle fibre falls and its "
+  },
+  {
+   "section": "H",
+   "topic": "Biology · link reaction (pyruvate oxidation)",
+   "lik": "M",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "In the aerobic respiration of one glucose molecule, what do the two link reactio"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · pyruvate oxidation (inhibitor cascade)",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "A toxin irreversibly inhibits the pyruvate dehydrogenase complex in cells that a"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · citric acid cycle products",
+   "lik": "M",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "What are the products of one complete turn of the citric acid cycle?"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · citric acid cycle (carbon tracing)",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "Acetyl-CoA labelled with ¹⁴C on its methyl (CH₃) carbon enters the citric acid c"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · citric acid cycle (organisation)",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "Which of the following statements about the citric acid cycle is false?"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · electron transport chain complexes",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "Which of the following statements about the mitochondrial electron transport cha"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · ETC inhibitors (rotenone)",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "Rotenone specifically blocks electron transfer at complex I of the respiratory c"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · ETC inhibitors (cyanide)",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "Cyanide binds the Fe³⁺ of cytochrome a₃ in complex IV and halts electron transfe"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · chemiosmosis (uncoupling)",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "A molecule that makes the inner mitochondrial membrane leaky to protons is added"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · NADH and FADH₂ entry points",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "Per molecule delivered to the respiratory chain, FADH₂ yields roughly two ATP, w"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · NAD⁺, FAD and ATP as carriers",
+   "lik": "M",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "Which of the following statements about the roles of NAD⁺, FAD and ATP in metabo"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · alcoholic fermentation",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "Which of the following statements about alcoholic fermentation in yeast is corre"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · lactic acid fermentation",
+   "lik": "M",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "A muscle fibre metabolises glucose entirely by glycolysis followed by lactic aci"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · cross-bridge cycle and ATP",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "During skeletal muscle contraction, what is the role of ATP at the moment a myos"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · dystrophin and sarcolemma stability",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Dystrophin is absent or non-functional in Duchenne muscular dystrophy. What is i"
+  },
+  {
+   "section": "H",
+   "topic": "Biology · fibre type I versus type II",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A muscle biopsy from an athlete shows fibres rich in mitochondria and myoglobin,"
+  }
+ ],
+ "bank_chem_hard": [
+  {
+   "section": "A",
+   "topic": "Chemistry · epimers and stereoisomer classes",
+   "lik": "M",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry",
+   "stem": "D-glucose and D-galactose are both aldohexoses with the same bonding order; thei"
+  },
+  {
+   "section": "A",
+   "topic": "Chemistry · enantiomers (full R/S inversion)",
+   "lik": "H",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry",
+   "stem": "A synthesis produces a molecule with the same bonding order as (2R,3S,4R)-hexane"
+  },
+  {
+   "section": "A",
+   "topic": "Chemistry · anomers of glucose",
+   "lik": "M",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry",
+   "stem": "In water, D-glucose cyclises and exists as two forms that differ only at carbon "
+  },
+  {
+   "section": "A",
+   "topic": "Chemistry · diastereomers from R/S pairs",
+   "lik": "H",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry",
+   "stem": "Butane-2,3-diol exists in stereoisomeric forms: one has the configuration (2R,3R"
+  },
+  {
+   "section": "A",
+   "topic": "Chemistry · functional group isomerism",
+   "lik": "H",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry",
+   "stem": "Compound X is CH₃OCH₂CH₃ (methoxyethane) and compound Y is CH₃CH₂CH₂OH (propan-1"
+  },
+  {
+   "section": "A",
+   "topic": "Chemistry · aldose versus ketose isomerism",
+   "lik": "M",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry",
+   "stem": "D-glucose is an aldohexose with an aldehyde group at C-1, while D-fructose is a "
+  },
+  {
+   "section": "A",
+   "topic": "Chemistry · amide nomenclature",
+   "lik": "M",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry",
+   "stem": "The structure CH₃CH₂CONH₂ is named:"
+  },
+  {
+   "section": "A",
+   "topic": "Chemistry · functional group recognition (wintergreen)",
+   "lik": "H",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry",
+   "stem": "Oil of wintergreen (methyl 2-hydroxybenzoate) consists of a benzene ring bearing"
+  },
+  {
+   "section": "A",
+   "topic": "Chemistry · ether nomenclature",
+   "lik": "M",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry",
+   "stem": "The structure CH₃CH₂OCH₂CH₃ is named:"
+  },
+  {
+   "section": "A",
+   "topic": "Chemistry · ketone identification with constraints",
+   "lik": "M",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry",
+   "stem": "Which of the following compounds is a ketone and contains exactly four carbon at"
+  },
+  {
+   "section": "A",
+   "topic": "Chemistry · D and L assignment",
+   "lik": "H",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry",
+   "stem": "An aldohexose is drawn as a Fischer projection with the aldehyde at the top as C"
+  },
+  {
+   "section": "A",
+   "topic": "Chemistry · alpha versus beta glycosidic bonds",
+   "lik": "H",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry",
+   "stem": "Maltose and cellobiose are both disaccharides of two glucose units with molecula"
+  },
+  {
+   "section": "A",
+   "topic": "Chemistry · reducing end logic",
+   "lik": "H",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry",
+   "stem": "In sucrose, the glycosidic bond links the anomeric carbon C-1 of glucose to the "
+  },
+  {
+   "section": "B",
+   "topic": "Chemistry · moles to molecules",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry",
+   "stem": "How many molecules are present in 4.4 g of propane, C₃H₈? (H = 1, C = 12; Avogad"
+  },
+  {
+   "section": "B",
+   "topic": "Chemistry · atom counting via Avogadro",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry",
+   "stem": "How many hydrogen atoms are present in 0.25 mol of water, H₂O? (Avogadro constan"
+  },
+  {
+   "section": "B",
+   "topic": "Chemistry · mole bridge between compounds",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry",
+   "stem": "What mass of ammonia, NH₃, contains the same number of molecules as 4.4 g of car"
+  },
+  {
+   "section": "B",
+   "topic": "Chemistry · molar volume at STP",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry",
+   "stem": "What volume does 8.8 g of carbon dioxide, CO₂, occupy at STP? (C = 12, O = 16; m"
+  },
+  {
+   "section": "B",
+   "topic": "Chemistry · gas volume to particle count",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry",
+   "stem": "How many molecules are present in 560 cm³ of an ideal gas at STP? (1 dm³ = 1000 "
+  },
+  {
+   "section": "B",
+   "topic": "Chemistry · mass from gas volume",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry",
+   "stem": "What is the mass of 4.48 dm³ of oxygen gas, O₂, measured at STP? (O = 16; molar "
+  },
+  {
+   "section": "B",
+   "topic": "Chemistry · limiting reagent with gas volume",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry",
+   "stem": "10.0 g of calcium carbonate (M = 100 g/mol) is treated with 100 cm³ of 1.0 mol/d"
+  },
+  {
+   "section": "B",
+   "topic": "Chemistry · percentage yield",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry",
+   "stem": "In theory, 9.2 g of ethanol (M = 46 g/mol) dehydrates completely to ethene (M = "
+  },
+  {
+   "section": "B",
+   "topic": "Chemistry · Boyle's law",
+   "lik": "M",
+   "syl": "4. Chemistry: Ideal gas laws",
+   "stem": "A diver exhales an air bubble of volume 2.0 dm³ at a depth where the pressure is"
+  },
+  {
+   "section": "B",
+   "topic": "Chemistry · Gay-Lussac's law",
+   "lik": "H",
+   "syl": "4. Chemistry: Ideal gas laws",
+   "stem": "A rigid sealed canister holds a fixed amount of gas at 27 °C and 100 kPa. It is "
+  },
+  {
+   "section": "B",
+   "topic": "Chemistry · combined gas law",
+   "lik": "H",
+   "syl": "4. Chemistry: Ideal gas laws",
+   "stem": "A gas occupies 9.0 dm³ at 27 °C and 100 kPa. What volume does it occupy at 127 °"
+  },
+  {
+   "section": "B",
+   "topic": "Chemistry · Dalton's law of partial pressures",
+   "lik": "H",
+   "syl": "4. Chemistry: Ideal gas laws",
+   "stem": "A sealed vessel contains 0.20 mol of nitrogen gas and 0.30 mol of oxygen gas at "
+  },
+  {
+   "section": "B",
+   "topic": "Chemistry · concentration after mixing",
+   "lik": "H",
+   "syl": "4. Chemistry: Solutions (ways of expressing concentration)",
+   "stem": "100 cm³ of 0.80 mol/dm³ hydrochloric acid is mixed with 400 cm³ of 0.20 mol/dm³ "
+  },
+  {
+   "section": "B",
+   "topic": "Chemistry · dilution to a target volume",
+   "lik": "H",
+   "syl": "4. Chemistry: Solutions (ways of expressing concentration)",
+   "stem": "A solution is prepared by diluting 25 cm³ of a 2.0 mol/dm³ solution to a concent"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · pH of a strong acid",
+   "lik": "M",
+   "syl": "4. Chemistry: Acids and bases",
+   "stem": "What is the pH of a 2.0 × 10⁻⁴ mol/dm³ solution of hydrochloric acid, a strong a"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · pOH from a strong acid",
+   "lik": "M",
+   "syl": "4. Chemistry: Acids and bases",
+   "stem": "What is the pOH of a 5.0 × 10⁻² mol/dm³ solution of nitric acid, a strong acid t"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · pH from a dibasic strong base",
+   "lik": "H",
+   "syl": "4. Chemistry: Acids and bases",
+   "stem": "Strontium hydroxide, Sr(OH)₂, is a strong base that is fully dissociated in wate"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · ordering pH across acid and base solutions",
+   "lik": "H",
+   "syl": "4. Chemistry: Acids and bases",
+   "stem": "Four solutions are prepared at 25 °C (Kw = 1.0 × 10⁻¹⁴) from fully ionised solut"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · Kw and the pH of neutral water",
+   "lik": "H",
+   "syl": "4. Chemistry: Equilibria in aqueous solution",
+   "stem": "Pure water is heated from 25 °C to 60 °C. As the temperature rises, Kw increases"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · ionic product of water",
+   "lik": "H",
+   "syl": "4. Chemistry: Equilibria in aqueous solution",
+   "stem": "At 10 °C the ionic product of water has fallen to Kw = 3.0 × 10⁻¹⁵ mol² dm⁻⁶. Wh"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · pH shift on dilution",
+   "lik": "H",
+   "syl": "4. Chemistry: Acids and bases",
+   "stem": "10 cm³ of 0.10 mol/dm³ hydrochloric acid, fully ionised, is diluted with water t"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · dilution to a target pH",
+   "lik": "M",
+   "syl": "4. Chemistry: Solutions",
+   "stem": "What volume of water must be added to 20 cm³ of 1.0 × 10⁻² mol/dm³ hydrochloric "
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · recognising a buffer mixture",
+   "lik": "M",
+   "syl": "4. Chemistry: Equilibria in aqueous solution",
+   "stem": "Which of the following mixtures, made up with pure water as solvent, can act as "
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · buffer behaviour on dilution",
+   "lik": "H",
+   "syl": "4. Chemistry: Equilibria in aqueous solution",
+   "stem": "A buffer solution contains comparable amounts of ethanoic acid and sodium ethano"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · hydrolysis of salt ions",
+   "lik": "H",
+   "syl": "4. Chemistry: Equilibria in aqueous solution",
+   "stem": "Which of the following statements about the behaviour of salts dissolved in wate"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · percent w/v converted to molarity",
+   "lik": "M",
+   "syl": "4. Chemistry: Solutions",
+   "stem": "A drip bag holds 500 cm³ of glucose solution containing 9.0 g of glucose (M = 18"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · solubility converted to molarity and pH",
+   "lik": "H",
+   "syl": "4. Chemistry: Solutions",
+   "stem": "At 25 °C the solubility of calcium hydroxide in water is 1.85 g per dm³ of satur"
+  },
+  {
+   "section": "D",
+   "topic": "Chemistry · oxidation number of carbon in an organic molecule",
+   "lik": "M",
+   "syl": "4. Chemistry: Oxidation and reduction",
+   "stem": "What is the oxidation number of the carbon atom in methanal, HCHO?"
+  },
+  {
+   "section": "D",
+   "topic": "Chemistry · oxidation numbers in the thiosulfate ion",
+   "lik": "H",
+   "syl": "4. Chemistry: Oxidation and reduction",
+   "stem": "In the thiosulfate ion, S₂O₃²⁻, the structure has a central sulfur atom bonded t"
+  },
+  {
+   "section": "D",
+   "topic": "Chemistry · oxidation numbers in sulfate and nitrite",
+   "lik": "M",
+   "syl": "4. Chemistry: Oxidation and reduction",
+   "stem": "Which of the following statements about oxidation numbers in oxoanions is correc"
+  },
+  {
+   "section": "D",
+   "topic": "Chemistry · oxidation-number change in alcohol oxidation",
+   "lik": "H",
+   "syl": "4. Chemistry: Oxidation and reduction",
+   "stem": "Ethanol, CH₃CH₂OH, is oxidised to ethanal, CH₃CHO. Which of the following statem"
+  },
+  {
+   "section": "D",
+   "topic": "Chemistry · identifying the oxidising agent",
+   "lik": "M",
+   "syl": "4. Chemistry: Oxidation and reduction",
+   "stem": "In aqueous solution, 2FeCl₃ + SnCl₂ → 2FeCl₂ + SnCl₄. Which species acts as the "
+  },
+  {
+   "section": "D",
+   "topic": "Chemistry · agents in the MnO₂ and hydrochloric acid reaction",
+   "lik": "H",
+   "syl": "4. Chemistry: Oxidation and reduction",
+   "stem": "In the laboratory preparation of chlorine, MnO₂ reacts with concentrated hydroch"
+  },
+  {
+   "section": "D",
+   "topic": "Chemistry · disproportionation of chlorine",
+   "lik": "H",
+   "syl": "4. Chemistry: Oxidation and reduction",
+   "stem": "Chlorine gas is bubbled into cold dilute sodium hydroxide: Cl₂ + 2NaOH → NaCl + "
+  },
+  {
+   "section": "D",
+   "topic": "Chemistry · electrons in a balanced half-equation",
+   "lik": "H",
+   "syl": "4. Chemistry: Oxidation and reduction",
+   "stem": "Sulfite ions, SO₃²⁻, are oxidised to sulfate ions, SO₄²⁻, in acidic solution. Wh"
+  },
+  {
+   "section": "D",
+   "topic": "Chemistry · electron count and coefficients in a redox equation",
+   "lik": "H",
+   "syl": "4. Chemistry: Oxidation and reduction",
+   "stem": "In acidic solution, manganate(VII) ions, MnO₄⁻, oxidise iron(II) ions, Fe²⁺, to "
+  },
+  {
+   "section": "E",
+   "topic": "Chemistry · IMF type and boiling point at similar molar mass",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical bonding",
+   "stem": "Butane (C₄H₁₀, Mr 58), propanone (C₃H₆O, Mr 58) and propan-1-ol (C₃H₈O, Mr 60) b"
+  },
+  {
+   "section": "E",
+   "topic": "Chemistry · isomer branching and boiling point",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical bonding",
+   "stem": "Butan-1-ol, butan-2-ol and 2-methylpropan-2-ol are isomers that all contain an O"
+  },
+  {
+   "section": "E",
+   "topic": "Chemistry · hydrogen bonding versus molar mass",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical bonding",
+   "stem": "Hydrogen fluoride (Mr 20) boils at approximately 20 °C, while hydrogen chloride "
+  },
+  {
+   "section": "E",
+   "topic": "Chemistry · molecular polarity from geometry",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical bonding",
+   "stem": "Which of the following statements is correct?"
+  },
+  {
+   "section": "E",
+   "topic": "Chemistry · dipole cancellation in tetrahedral molecules",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical bonding",
+   "stem": "Carbon tetrachloride, CCl₄, chloroform, CHCl₃, and dichloromethane, CH₂Cl₂, are "
+  },
+  {
+   "section": "E",
+   "topic": "Chemistry · shape and net dipole (SO2 versus CO2)",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical bonding",
+   "stem": "Carbon dioxide and sulfur dioxide both contain polar bonds to oxygen, yet CO₂ is"
+  },
+  {
+   "section": "E",
+   "topic": "Chemistry · bond type from melting point and conductivity data",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical bonding",
+   "stem": "Four unknown substances were tested, with these results. P: melting point 801 °C"
+  },
+  {
+   "section": "E",
+   "topic": "Chemistry · melting points of ionic versus molecular solids",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical bonding",
+   "stem": "Sodium chloride melts at 801 °C while iodine melts at 114 °C, although iodine ha"
+  },
+  {
+   "section": "E",
+   "topic": "Chemistry · bond energy accounting and sign of ΔH",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical bonding",
+   "stem": "Use these average bond energies: H-H 436 kJ/mol, Cl-Cl 242 kJ/mol, H-Cl 431 kJ/m"
+  },
+  {
+   "section": "E",
+   "topic": "Chemistry · endothermic reactions and enthalpy level",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical bonding",
+   "stem": "The thermal decomposition of calcium carbonate, CaCO₃ → CaO + CO₂, has ΔH = +178"
+  },
+  {
+   "section": "F",
+   "topic": "Chemistry · rate constant units by reaction order",
+   "lik": "H",
+   "syl": "4. Chemistry: Elements of chemical kinetics and catalysis",
+   "stem": "For reactions in dilute solution at a fixed temperature, the units of reaction r"
+  },
+  {
+   "section": "F",
+   "topic": "Chemistry · first-order half-life decay",
+   "lik": "H",
+   "syl": "4. Chemistry: Elements of chemical kinetics and catalysis",
+   "stem": "A drug is removed from the bloodstream by first-order kinetics with a half-life "
+  },
+  {
+   "section": "F",
+   "topic": "Chemistry · order from rate data and units of k",
+   "lik": "H",
+   "syl": "4. Chemistry: Elements of chemical kinetics and catalysis",
+   "stem": "For the reaction A + B → products, kept at constant temperature: doubling [A] wh"
+  },
+  {
+   "section": "F",
+   "topic": "Chemistry · catalysis versus equilibrium position",
+   "lik": "H",
+   "syl": "4. Chemistry: Elements of chemical kinetics and catalysis",
+   "stem": "The Haber process, N₂(g) + 3H₂(g) ⇌ 2NH₃(g) with ΔH = −92 kJ/mol, uses an iron c"
+  },
+  {
+   "section": "F",
+   "topic": "Chemistry · catalyst as an unconsumed pathway provider",
+   "lik": "M",
+   "syl": "4. Chemistry: Elements of chemical kinetics and catalysis",
+   "stem": "Manganese(IV) oxide speeds up the decomposition of hydrogen peroxide, 2H₂O₂ → 2H"
+  },
+  {
+   "section": "F",
+   "topic": "Chemistry · collision theory and temperature",
+   "lik": "M",
+   "syl": "4. Chemistry: Elements of chemical kinetics and catalysis",
+   "stem": "A reaction mixture is heated from 25 °C to 55 °C and the rate rises sharply. Acc"
+  }
+ ],
+ "bank_mpl_hard": [
+  {
+   "section": "A",
+   "topic": "Maths · logarithm properties (quotient and complement)",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "Given that log₁₀ 2 ≈ 0.30 and log₁₀ 3 ≈ 0.48, what is the value of log₁₀ 7.5?"
+  },
+  {
+   "section": "A",
+   "topic": "Maths · log equations (domain check)",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "Solve the equation log₃(x + 1) + log₃(x − 1) = 1."
+  },
+  {
+   "section": "A",
+   "topic": "Maths · change of base",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "What is the value of log₈ 32?"
+  },
+  {
+   "section": "A",
+   "topic": "Maths · mixed-base log equation",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "What is the solution of log₂ x + log₄ x = 6?"
+  },
+  {
+   "section": "A",
+   "topic": "Maths · inequalities (three-factor sign study)",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "Which interval is the solution set of (x − 1)(x + 2)(x − 4) > 0?"
+  },
+  {
+   "section": "A",
+   "topic": "Maths · rational inequalities",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "What is the solution set of the inequality (x − 3)/(x + 2) ≤ 0?"
+  },
+  {
+   "section": "A",
+   "topic": "Maths · absolute value inequality",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "What is the solution set of |2x − 5| < 7?"
+  },
+  {
+   "section": "A",
+   "topic": "Maths · quadratic inequality (dividing by x)",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "What is the solution set of the inequality x² < x?"
+  },
+  {
+   "section": "A",
+   "topic": "Maths · nested radicals",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "Which expression is equal to √(7 + 4√3)?"
+  },
+  {
+   "section": "A",
+   "topic": "Maths · rational exponents",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "What is the value of 27^(2/3) + 16^(3/4)?"
+  },
+  {
+   "section": "A",
+   "topic": "Maths · exponent laws (building a number)",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "If 2^a = 3 and 2^b = 5, which of the following is equal to 60?"
+  },
+  {
+   "section": "A",
+   "topic": "Maths · linear systems (ticket sales)",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "For a school show, adult tickets cost 12 euro and child tickets cost 7 euro. In "
+  },
+  {
+   "section": "A",
+   "topic": "Maths · linear system (sum and difference)",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "The sum of two numbers is 45 and their difference is 13. What is the larger numb"
+  },
+  {
+   "section": "A",
+   "topic": "Maths · linear systems (mixture)",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "A laboratory technician mixes a 20% saline solution with a 50% saline solution t"
+  },
+  {
+   "section": "A",
+   "topic": "Maths · composite functions",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "The function f is defined by f(x) = (x + 1)/(x − 1) for x ≠ 1. What is f(f(3))?"
+  },
+  {
+   "section": "A",
+   "topic": "Maths · inverse functions",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "The function f is defined by f(x) = (2x + 1)/(x − 3) for x ≠ 3. Which of the fol"
+  },
+  {
+   "section": "B",
+   "topic": "Maths · composite solids (cylinder and cone)",
+   "lik": "M",
+   "syl": "5. Mathematics: Geometry",
+   "stem": "A solid wooden block has the shape of a right circular cylinder of radius 6 cm a"
+  },
+  {
+   "section": "B",
+   "topic": "Maths · shaded areas (circle in a square)",
+   "lik": "H",
+   "syl": "5. Mathematics: Geometry",
+   "stem": "A circle of radius 5 cm is inscribed in a square. Taking π = 3.14, what is the a"
+  },
+  {
+   "section": "B",
+   "topic": "Maths · equilateral triangle (area from the height)",
+   "lik": "H",
+   "syl": "5. Mathematics: Geometry",
+   "stem": "An equilateral triangle has sides of length 12 cm. What is its area?"
+  },
+  {
+   "section": "B",
+   "topic": "Maths · cylinder surface area",
+   "lik": "M",
+   "syl": "5. Mathematics: Geometry",
+   "stem": "A closed cylindrical tin has radius 3 cm and height 8 cm. What is its total surf"
+  },
+  {
+   "section": "B",
+   "topic": "Maths · clock angles",
+   "lik": "H",
+   "syl": "5. Mathematics: Geometry",
+   "stem": "What is the angle between the hour hand and the minute hand of a clock at 3:40? "
+  },
+  {
+   "section": "B",
+   "topic": "Maths · clock angles",
+   "lik": "H",
+   "syl": "5. Mathematics: Geometry",
+   "stem": "Between 7:00 and 8:00 the hands of a clock are exactly 100 degrees apart at 7:20"
+  },
+  {
+   "section": "B",
+   "topic": "Maths · notable trigonometric values",
+   "lik": "M",
+   "syl": "5. Mathematics: Geometry",
+   "stem": "What is the value of tan 30° × tan 60°?"
+  },
+  {
+   "section": "B",
+   "topic": "Maths · trig identities (expansion and cancellation)",
+   "lik": "H",
+   "syl": "5. Mathematics: Geometry",
+   "stem": "For an angle θ, what is the value of (sin θ + cos θ)² − 2 sin θ cos θ?"
+  },
+  {
+   "section": "B",
+   "topic": "Maths · notable values combined",
+   "lik": "H",
+   "syl": "5. Mathematics: Geometry",
+   "stem": "What is the value of (sin 45° − cos 45°)² + 2 sin 30° cos 60°?"
+  },
+  {
+   "section": "B",
+   "topic": "Maths · slope between two points",
+   "lik": "M",
+   "syl": "5. Mathematics: Functions",
+   "stem": "A straight line passes through the points (2, 5) and (6, 17). What is its slope?"
+  },
+  {
+   "section": "B",
+   "topic": "Maths · rate of change from data (unit conversion)",
+   "lik": "H",
+   "syl": "5. Mathematics: Functions",
+   "stem": "A cyclist rides along a straight road at a constant speed. Her distance from the"
+  },
+  {
+   "section": "B",
+   "topic": "Maths · average rate of change",
+   "lik": "H",
+   "syl": "5. Mathematics: Functions",
+   "stem": "Water is pumped into a tank that already contains 40 L. The volume reaches 90 L "
+  },
+  {
+   "section": "C",
+   "topic": "Maths · two-dice sums",
+   "lik": "H",
+   "syl": "5. Mathematics: Probability and statistics",
+   "stem": "Two fair six-sided dice are rolled once. What is the probability that the sum of"
+  },
+  {
+   "section": "C",
+   "topic": "Maths · joint condition on three dice",
+   "lik": "M",
+   "syl": "5. Mathematics: Probability and statistics",
+   "stem": "Three fair six-sided dice are rolled. What is the probability that all three sho"
+  },
+  {
+   "section": "C",
+   "topic": "Maths · ordered vs unordered dice pairs",
+   "lik": "M",
+   "syl": "5. Mathematics: Probability and statistics",
+   "stem": "Two fair six-sided dice are rolled. What is the probability that the two scores "
+  },
+  {
+   "section": "C",
+   "topic": "Maths · combined events (inclusion-exclusion)",
+   "lik": "H",
+   "syl": "5. Mathematics: Probability and statistics",
+   "stem": "Two fair six-sided dice are rolled. What is the probability that the sum is 7 or"
+  },
+  {
+   "section": "C",
+   "topic": "Maths · exactly-two-heads counting",
+   "lik": "H",
+   "syl": "5. Mathematics: Probability and statistics",
+   "stem": "A fair coin is flipped four times. What is the probability of getting exactly tw"
+  },
+  {
+   "section": "C",
+   "topic": "Maths · complement without replacement",
+   "lik": "H",
+   "syl": "5. Mathematics: Probability and statistics",
+   "stem": "An urn contains 3 red, 4 green and 5 blue balls. Two balls are drawn at random w"
+  },
+  {
+   "section": "C",
+   "topic": "Maths · independent events (exactly one)",
+   "lik": "H",
+   "syl": "5. Mathematics: Probability and statistics",
+   "stem": "The probability that a candidate passes a maths test is 2/3, and the probability"
+  },
+  {
+   "section": "C",
+   "topic": "Maths · independent events (coin and die)",
+   "lik": "M",
+   "syl": "5. Mathematics: Probability and statistics",
+   "stem": "A fair coin is tossed and a fair six-sided die is rolled. What is the probabilit"
+  },
+  {
+   "section": "D",
+   "topic": "Maths · speed conversion (km/h to m/s)",
+   "lik": "H",
+   "syl": "6. Physics: Physical quantities and their measurement",
+   "stem": "A high-speed train covers 270 km in 3.0 h at a constant speed. Expressed in m/s,"
+  },
+  {
+   "section": "D",
+   "topic": "Maths · volume prefixes (m³ to litres)",
+   "lik": "H",
+   "syl": "6. Physics: Physical quantities and their measurement",
+   "stem": "A swimming pool is 5.0 m long, 2.0 m wide and 1.2 m deep. What volume of water d"
+  },
+  {
+   "section": "D",
+   "topic": "Maths · fractions in context (common denominator)",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "A water tank is 2/3 full. A valve then drains 1/4 of the tank's total capacity. "
+  },
+  {
+   "section": "D",
+   "topic": "Maths · fractions of a quantity",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "A water tank is one third full. After 40 more litres are poured in, the tank is "
+  },
+  {
+   "section": "E",
+   "topic": "Physics · velocity-time table (non-uniform acceleration)",
+   "lik": "H",
+   "syl": "6. Physics: Kinematics",
+   "stem": "The velocity of a trolley moving along a straight track is recorded every 2 s: a"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · average speed from a velocity-time graph",
+   "lik": "H",
+   "syl": "6. Physics: Kinematics",
+   "stem": "In a race, a sprinter increases her speed steadily from 0 to 8.0 m/s during the "
+  },
+  {
+   "section": "E",
+   "topic": "Physics · average vs instantaneous (light gates)",
+   "lik": "H",
+   "syl": "6. Physics: Kinematics",
+   "stem": "On a straight air track, a glider passes sensor P moving at 2.0 m/s and sensor Q"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · motion graphs (gradient and area)",
+   "lik": "M",
+   "syl": "6. Physics: Kinematics",
+   "stem": "Which of the following statements about motion graphs is correct?"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · tangential vs centripetal acceleration",
+   "lik": "M",
+   "syl": "6. Physics: Kinematics",
+   "stem": "Which statement correctly distinguishes the tangential and the centripetal compo"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · centripetal acceleration (value and direction)",
+   "lik": "H",
+   "syl": "6. Physics: Kinematics",
+   "stem": "A cyclist rides around a circular track of radius 20 m at a constant speed of 10"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · circular motion (speeding up)",
+   "lik": "H",
+   "syl": "6. Physics: Kinematics",
+   "stem": "A car is driven around a circular test track while the driver steadily presses t"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · stopping distance (reaction plus braking)",
+   "lik": "H",
+   "syl": "6. Physics: Kinematics",
+   "stem": "A car travels at 72 km/h along a straight road when the driver sees a hazard. He"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · braking deceleration from stopping distance",
+   "lik": "M",
+   "syl": "6. Physics: Kinematics",
+   "stem": "A train travelling at 30 m/s applies its brakes and comes to rest after covering"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · Newton's second law with friction",
+   "lik": "M",
+   "syl": "6. Physics: Dynamics",
+   "stem": "A crate of mass 4.0 kg is pulled along a horizontal floor by a horizontal force "
+  },
+  {
+   "section": "E",
+   "topic": "Physics · weight component on a slope",
+   "lik": "H",
+   "syl": "6. Physics: Dynamics",
+   "stem": "A block of mass 2.0 kg slides down a frictionless slope inclined at 30° to the h"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · Newton's second law with weight",
+   "lik": "H",
+   "syl": "6. Physics: Dynamics",
+   "stem": "A crane lifts a 50 kg load by applying a vertical upward force of 550 N. What is"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · recoil (momentum conservation)",
+   "lik": "M",
+   "syl": "6. Physics: Dynamics",
+   "stem": "An astronaut of mass 60 kg floats at rest in space and throws a tool of mass 2.0"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · impulse at a wall",
+   "lik": "H",
+   "syl": "6. Physics: Dynamics",
+   "stem": "A ball of mass 0.50 kg strikes a wall horizontally at 12 m/s and rebounds along "
+  },
+  {
+   "section": "E",
+   "topic": "Physics · power from work and time",
+   "lik": "M",
+   "syl": "6. Physics: Dynamics",
+   "stem": "A motor lifts a 60 kg load at constant speed through a height of 10 m in 20 s. W"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · power at constant speed (P = Fv)",
+   "lik": "H",
+   "syl": "6. Physics: Dynamics",
+   "stem": "A car moves at a constant 20 m/s along a horizontal road. The total resistive fo"
+  },
+  {
+   "section": "F",
+   "topic": "Physics · pressure (gauge vs absolute)",
+   "lik": "H",
+   "syl": "6. Physics: Fluid mechanics",
+   "stem": "A diver works at a depth of 15 m in a fresh-water lake. The density of water is "
+  },
+  {
+   "section": "F",
+   "topic": "Physics · manometer",
+   "lik": "H",
+   "syl": "6. Physics: Fluid mechanics",
+   "stem": "An open-tube manometer contains mercury of density 13600 kg/m3. The mercury leve"
+  },
+  {
+   "section": "F",
+   "topic": "Physics · Stevin (layered liquids)",
+   "lik": "H",
+   "syl": "6. Physics: Fluid mechanics",
+   "stem": "A tank contains 0.80 m of oil of density 800 kg/m3 floating on 1.2 m of water of"
+  },
+  {
+   "section": "F",
+   "topic": "Physics · floating (density ordering)",
+   "lik": "H",
+   "syl": "6. Physics: Fluid mechanics",
+   "stem": "Three blocks are placed in oil of density 800 kg/m3. Block P floats with exactly"
+  },
+  {
+   "section": "F",
+   "topic": "Physics · floating equilibrium",
+   "lik": "M",
+   "syl": "6. Physics: Fluid mechanics",
+   "stem": "A block of weight 6.0 N and density 750 kg/m3 floats freely in water of density "
+  },
+  {
+   "section": "F",
+   "topic": "Physics · calorimetry (q = mcΔT)",
+   "lik": "M",
+   "syl": "6. Physics: Thermodynamics",
+   "stem": "How much heat must be supplied to 2.0 kg of water to raise its temperature from "
+  },
+  {
+   "section": "F",
+   "topic": "Physics · calorimetry (mixing two substances)",
+   "lik": "H",
+   "syl": "6. Physics: Thermodynamics",
+   "stem": "A 0.40 kg block of aluminium at 100 °C is dropped into 0.60 kg of water at 20 °C"
+  },
+  {
+   "section": "F",
+   "topic": "Physics · calorimetry (mixing, unknown mass)",
+   "lik": "H",
+   "syl": "6. Physics: Thermodynamics",
+   "stem": "In an insulated cup, 0.50 kg of water at 12 °C is mixed with hot water at 82 °C,"
+  },
+  {
+   "section": "F",
+   "topic": "Physics · energy (kWh conversion)",
+   "lik": "M",
+   "syl": "6. Physics: Electricity and electromagnetism",
+   "stem": "An electric heater consumes 2.5 kWh of energy. (1 kWh = 3.6 MJ.) This energy, ex"
+  },
+  {
+   "section": "F",
+   "topic": "Physics · Joule heating (E = Pt)",
+   "lik": "M",
+   "syl": "6. Physics: Electricity and electromagnetism",
+   "stem": "A heating element connected across a 12 V supply carries a current of 2.0 A. How"
+  },
+  {
+   "section": "F",
+   "topic": "Physics · power in series vs parallel",
+   "lik": "H",
+   "syl": "6. Physics: Electricity and electromagnetism",
+   "stem": "Two identical 6.0 Ω resistors are connected, first in series and then in paralle"
+  },
+  {
+   "section": "F",
+   "topic": "Physics · resistor networks (equivalent resistance)",
+   "lik": "M",
+   "syl": "6. Physics: Electricity and electromagnetism",
+   "stem": "A 6.0 Ω resistor is connected in parallel with a 3.0 Ω resistor, and this pair i"
+  },
+  {
+   "section": "F",
+   "topic": "Physics · series-parallel network",
+   "lik": "H",
+   "syl": "6. Physics: Electricity and electromagnetism",
+   "stem": "A battery of negligible internal resistance supplies 24 V to an 8.0 Ω resistor c"
+  },
+  {
+   "section": "F",
+   "topic": "Physics · parallel branch resistance",
+   "lik": "H",
+   "syl": "6. Physics: Electricity and electromagnetism",
+   "stem": "A 6.0 Ω resistor draws 2.0 A from a battery of negligible internal resistance. W"
+  },
+  {
+   "section": "F",
+   "topic": "Physics · short circuit in a network",
+   "lik": "H",
+   "syl": "6. Physics: Electricity and electromagnetism",
+   "stem": "A 4.0 Ω resistor and a 12 Ω resistor are connected in series across a 6.0 V batt"
+  },
+  {
+   "section": "F",
+   "topic": "Physics · intensity (definition and units)",
+   "lik": "M",
+   "syl": "6. Physics: Physical quantities and their measurement",
+   "stem": "Intensity measures how fast a wave delivers energy to a surface, per unit area o"
+  },
+  {
+   "section": "F",
+   "topic": "Physics · intensity (inverse-square scaling)",
+   "lik": "H",
+   "syl": "6. Physics: Physical quantities and their measurement",
+   "stem": "A small lamp is treated as a point source radiating uniformly in all directions."
+  },
+  {
+   "section": "F",
+   "topic": "Physics · heat transfer (convection)",
+   "lik": "M",
+   "syl": "6. Physics: Thermodynamics",
+   "stem": "In a heated room, a radiator warms the air beside it. This air rises, cooler air"
+  },
+  {
+   "section": "F",
+   "topic": "Physics · heat transfer (vacuum flask, three modes)",
+   "lik": "H",
+   "syl": "6. Physics: Thermodynamics",
+   "stem": "A vacuum flask keeps a drink hot. It has double walls with silvered surfaces and"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · syllogisms (valid conclusion)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "In a library, every manuscript in the special archive is catalogued. Some of the"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · syllogisms (only-if conversion)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "At a tennis club, only members with a current season pass may book the courts, a"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · syllogisms (chained universals)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "Every swimmer who won a medal this season trains at the Riverside pool, and nobo"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · syllogisms (particular and negative premises)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "Some players in the squad are left-footed. No left-footed player takes the corne"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · syllogisms (valid conclusion)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "Every baker at the Saturday market arrives before dawn, and some bakers at the m"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · syllogisms (universal instantiation)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "Every member of the rowing club can swim, and no member of the rowing club is un"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · truth-tellers and liars (conjunction self-test)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "About a postponed football match, Ria says: 'The match was postponed because of "
+  },
+  {
+   "section": "G",
+   "topic": "Logic · truth-tellers and liars (three speakers)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "Three pupils, Amara, Ben and Cara, are asked about a missing lab key. Each of th"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · truth-tellers and liars (contradictory pair)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "Three teachers are questioned about a borrowed stopwatch. Exactly one of them is"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · truth-tellers and liars (unique truth teller)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "After a match, the scoreboard was found broken. Exactly one of the three candida"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · consistency puzzles (exactly one true)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "At a lost property office, exactly one of Pia's two statements is true and exact"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · conditional equivalence (contrapositive)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "A notice at the swimming pool reads: 'If the pool is at capacity, new swimmers a"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · conditional equivalence (inverse vs contrapositive)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "The coach tells the squad: 'If a player attends every training session this mont"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · conditional equivalence (only-if decoding)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "Under the library's loan rule, a book may be borrowed for a full term only if it"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · conditional equivalence (chained conditionals)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "A ferry company's policy states that if a sailing is delayed, meal vouchers are "
+  },
+  {
+   "section": "G",
+   "topic": "Logic · conditional equivalence (biconditional)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "A security manual states: 'The side gate stays locked if and only if the alarm i"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · hidden assumption",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "A council reports that streets repaved with a new porous surface drain rainwater"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · weakening an argument",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "At a gym, members on the flexible plan attend twice as often as members on the s"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · strengthening an argument",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "A ferry operator installed automatic ticket scanners on two of its six routes. B"
+  },
+  {
+   "section": "G",
+   "topic": "Logic · inference from data",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "Last year a sports centre cut its evening swim sessions from five per week to th"
+  }
+ ],
+ "imat_mock9": [
+  {
+   "section": "A",
+   "topic": "Logic · inference from a controlled study",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies",
+   "stem": "\"Researchers followed two groups of office workers for a year. Group A worked in"
+  },
+  {
+   "section": "A",
+   "topic": "Logic · separating correlation from causation",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies",
+   "stem": "\"Last year a city began charging drivers to enter its central zone. Within six m"
+  },
+  {
+   "section": "A",
+   "topic": "Logic · syllogism (quantifier chain)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "Every student who passed the practical examination attended all of the laborator"
+  },
+  {
+   "section": "A",
+   "topic": "Logic · one-true-statement consistency puzzle",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "Exactly one of four office workers jammed the shared printer, and exactly one of"
+  },
+  {
+   "section": "A",
+   "topic": "Logic · weakening an argument (alternative cause)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "A town installed automatic speed cameras along its main road. During the followi"
+  },
+  {
+   "section": "A",
+   "topic": "Logic · conditional equivalence (converse and inverse traps)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "A safety rule states: whenever the fire alarm sounds, all staff evacuate the bui"
+  },
+  {
+   "section": "A",
+   "topic": "Logic · linear seating (cannot be true)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "Six friends stand in a row for a photograph, in positions numbered 1 to 6 from l"
+  },
+  {
+   "section": "A",
+   "topic": "Logic · scheduling with an adjacency rule",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "The four lectures Anthropology, Botany, Chemistry and Demography are scheduled o"
+  },
+  {
+   "section": "A",
+   "topic": "Logic · ranking with a chain of conditions",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems",
+   "stem": "Five entries, P, Q, R, S and T, are ranked from 1st (best) to 5th in a short-sto"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · pH, ionisation and salt bridges",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things",
+   "stem": "A protein's folded shape is held partly by ionic bonds (salt bridges) between th"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · digestive enzymes and pH optima",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A patient takes a drug that keeps the pH of the stomach contents close to 7 inst"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · glycogen entry into glycolysis",
+   "lik": "M",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "Glucose units released from glycogen inside a muscle cell enter glycolysis as gl"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · primary and secondary active transport",
+   "lik": "H",
+   "syl": "3. Biology: The cell membrane",
+   "stem": "In the epithelial cells lining the small intestine, glucose is absorbed from the"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · osmosis, plasmolysis and turgor",
+   "lik": "M",
+   "syl": "3. Biology: The cell membrane",
+   "stem": "A plant leaf cell is placed in a solution whose concentration of non-penetrating"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · nucleolus, ribosome assembly and translation",
+   "lik": "M",
+   "syl": "3. Biology: The cell as the basis of life",
+   "stem": "A drug stops the transcription of ribosomal RNA in the nucleolus of a eukaryotic"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · promoter versus coding mutations",
+   "lik": "H",
+   "syl": "3. Biology: Molecular genetics",
+   "stem": "In a eukaryotic gene, a single base substitution occurs well upstream of the cod"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · nondisjunction in meiosis I and gamete outcomes",
+   "lik": "H",
+   "syl": "3. Biology: Reproduction and inheritance",
+   "stem": "During meiosis I in a human oocyte, one pair of homologous chromosomes fails to "
+  },
+  {
+   "section": "B",
+   "topic": "Biology · dihybrid cross with independent assortment",
+   "lik": "M",
+   "syl": "3. Biology: Reproduction and inheritance",
+   "stem": "Two guinea pigs, both heterozygous for coat colour (Bb) and for hair length (Ll)"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · Hardy-Weinberg carrier frequency",
+   "lik": "M",
+   "syl": "3. Biology: Reproduction and inheritance",
+   "stem": "In a population in Hardy-Weinberg equilibrium, one child in 2,500 is born with a"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · spindle poisons and mitotic arrest",
+   "lik": "M",
+   "syl": "3. Biology: Reproduction and inheritance",
+   "stem": "Colchicine prevents the assembly of spindle microtubules. A cell that has comple"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · ATP synthase block with fermentation logic",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics",
+   "stem": "A toxin blocks the proton channel of mitochondrial ATP synthase, so protons can "
+  },
+  {
+   "section": "B",
+   "topic": "Biology · cross-bridge cycle and rigor mortis",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "After death, calcium ions leak out of the sarcoplasmic reticulum and are never p"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · aortic stenosis and ventricular workload",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "The aortic semilunar valve of a patient is narrowed (stenosed), so the opening t"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · pleural pressure and lung recoil",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "In a healthy chest, the pressure in the pleural cavity between the lung and the "
+  },
+  {
+   "section": "B",
+   "topic": "Biology · carbon monoxide and oxygen transport",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "Carbon monoxide binds to haemoglobin at the same sites as oxygen, with an affini"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · hepatic portal circulation",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A glucose molecule is absorbed from the lumen of the small intestine into a capi"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · thyroid feedback with exogenous hormone",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A person takes tablets containing thyroxine (T4) every day in fairly high doses,"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · ADH, thirst and water balance",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A hill walker walks for hours in extreme heat, loses a large volume of sweat and"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · hypoglycaemia counter-regulation",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A person with type 1 diabetes injects insulin but then skips the next meal and t"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · epithelium matched to function",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "The oesophagus is lined by stratified squamous epithelium many cells thick, whil"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · cartilage structure and repair",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans",
+   "stem": "A patient tears the meniscus, a pad of cartilage in the knee, and is told that i"
+  },
+  {
+   "section": "B",
+   "topic": "Biology · bottleneck effect and allele frequency",
+   "lik": "H",
+   "syl": "3. Biology: Reproduction and inheritance",
+   "stem": "A large beetle population has an allele frequency of 0.4 for allele A at one loc"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · isomer classification (constitutional vs stereoisomers)",
+   "lik": "H",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry",
+   "stem": "Consider three pairs of organic compounds. Pair P: butan-1-ol and butan-2-ol. Pa"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · limiting reagent with gas volumes",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry",
+   "stem": "4.8 g of methane (M = 16 g/mol) is mixed with 4.8 g of oxygen gas (M = 32 g/mol)"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · molarity to pH, then dilution",
+   "lik": "H",
+   "syl": "4. Chemistry: Acids and bases",
+   "stem": "0.40 g of sodium hydroxide (M = 40 g/mol), a strong base that is fully dissociat"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · Kw and pH of a base (temperature shift)",
+   "lik": "H",
+   "syl": "4. Chemistry: Acids and bases",
+   "stem": "At 25 °C the ionic product of water is Kw = 1.0 × 10^-14, but at a higher temper"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · dilution with a non-tenfold factor",
+   "lik": "H",
+   "syl": "4. Chemistry: Solutions",
+   "stem": "20 cm3 of 0.010 mol/dm3 hydrochloric acid, a strong acid that is fully ionised, "
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · IMF type and boiling point ordering",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical bonding",
+   "stem": "Four pure molecular liquids with similar molar masses are: propane CH₃CH₂CH₃ (Mr"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · rate law exponents",
+   "lik": "M",
+   "syl": "4. Chemistry: Elements of chemical kinetics and catalysis",
+   "stem": "For the reaction A + 2B → products, experiments at fixed temperature show that t"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · oxidation numbers in an oxoanion",
+   "lik": "H",
+   "syl": "4. Chemistry: Oxidation and reduction",
+   "stem": "What is the average oxidation number of a sulfur atom in the tetrathionate ion, "
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · oxidation number matching",
+   "lik": "M",
+   "syl": "4. Chemistry: Oxidation and reduction",
+   "stem": "In which species does nitrogen have the same oxidation number as sulfur has in t"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · first-order half-life with concentration",
+   "lik": "H",
+   "syl": "4. Chemistry: Elements of chemical kinetics and catalysis",
+   "stem": "A substance decomposes by first-order kinetics with a half-life of 20 minutes at"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · mole bridge to atom counts",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry",
+   "stem": "Sample X contains 4.4 g of carbon dioxide, CO₂, and sample Y contains 4.9 g of s"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · neutralisation excess with pH",
+   "lik": "H",
+   "syl": "4. Chemistry: Acids and bases",
+   "stem": "50 cm3 of 0.20 mol/dm3 hydrochloric acid, fully ionised, is mixed with 150 cm3 o"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · limiting reagent with gas volume and leftover",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry",
+   "stem": "1.08 g of aluminium (M = 27 g/mol) is added to 100 cm3 of 0.10 mol/dm3 sulfuric "
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · concentration on evaporation",
+   "lik": "M",
+   "syl": "4. Chemistry: Solutions",
+   "stem": "A student evaporates water from 500 cm3 of a 0.20 mol/dm3 sodium chloride soluti"
+  },
+  {
+   "section": "C",
+   "topic": "Chemistry · pH scale as powers of ten",
+   "lik": "M",
+   "syl": "4. Chemistry: Acids and bases",
+   "stem": "Two solutions at 25 °C have pH values of 3.5 and 5.5. The hydrogen ion concentra"
+  },
+  {
+   "section": "D",
+   "topic": "Maths · logarithm properties",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "Given that log₁₀ 5 = 0.70 and log₁₀ 3 = 0.48, what is the value of log₁₀ 45?"
+  },
+  {
+   "section": "D",
+   "topic": "Maths · discriminant condition (inequality)",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "For which values of k does the equation x^2 + kx + 9 = 0 have no real solutions?"
+  },
+  {
+   "section": "D",
+   "topic": "Maths · composite solids (conservation of volume)",
+   "lik": "H",
+   "syl": "5. Mathematics: Geometry",
+   "stem": "A solid metal sphere of radius 3 cm is melted down and recast into a solid right"
+  },
+  {
+   "section": "D",
+   "topic": "Maths · probability (same colour, without replacement)",
+   "lik": "H",
+   "syl": "5. Mathematics: Probability and statistics",
+   "stem": "A bag contains 3 red balls and 5 blue balls. Two balls are drawn at random witho"
+  },
+  {
+   "section": "D",
+   "topic": "Maths · rate of change from a table",
+   "lik": "H",
+   "syl": "5. Mathematics: Functions",
+   "stem": "A toy train runs along a straight track away from its start point, and its dista"
+  },
+  {
+   "section": "D",
+   "topic": "Maths · simplifying radicals",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra",
+   "stem": "What is the value of √50 + √18 - √8, written in the form a√2?"
+  },
+  {
+   "section": "D",
+   "topic": "Maths · probability of combined events",
+   "lik": "M",
+   "syl": "5. Mathematics: Geometry",
+   "stem": "For two events A and B, P(A) = 0.5, P(B) = 0.4 and P(A and B) = 0.2. What is P(A"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · acceleration from a velocity-time table",
+   "lik": "H",
+   "syl": "6. Physics: Kinematics",
+   "stem": "A trolley moves along a straight track and its velocity is recorded every 2.0 s:"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · circular motion (centripetal acceleration)",
+   "lik": "M",
+   "syl": "6. Physics: Kinematics",
+   "stem": "A car travels around a circular bend of radius 50 m at a constant speed of 10 m/"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · series-parallel network",
+   "lik": "H",
+   "syl": "6. Physics: Electricity and electromagnetism",
+   "stem": "A battery of negligible internal resistance supplies 24 V to an 8.0 Ω resistor c"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · calorimetry (mixing two water samples)",
+   "lik": "H",
+   "syl": "6. Physics: Thermodynamics",
+   "stem": "In an insulated container, 0.40 kg of water at 20 °C is mixed with 0.20 kg of wa"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · gauge pressure in a liquid",
+   "lik": "M",
+   "syl": "6. Physics: Fluid mechanics",
+   "stem": "A farm tank contains a liquid of density 800 kg/m3 filled to a depth of 3.0 m an"
+  },
+  {
+   "section": "E",
+   "topic": "Physics · power and energy (unit conversions)",
+   "lik": "H",
+   "syl": "6. Physics: Electricity and electromagnetism",
+   "stem": "An electric kettle rated at 2.0 kW takes 3.0 minutes to bring its water to the b"
+  }
+ ]
+}

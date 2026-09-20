@@ -1,0 +1,96 @@
+{
+ "bank": "imat_mock9",
+ "section": "E",
+ "questions": [
+  {
+   "stem": "A trolley moves along a straight track and its velocity is recorded every 2.0 s: 0 m/s at 0 s, 10 m/s at 2.0 s, 14 m/s at 4.0 s, 14 m/s at 6.0 s and 6 m/s at 8.0 s. What is the magnitude of the trolley's acceleration between 6.0 s and 8.0 s?",
+   "options": [
+    "2 m/s2",
+    "4 m/s2",
+    "5 m/s2",
+    "6 m/s2",
+    "8 m/s2"
+   ],
+   "ans": "B",
+   "exp": "Between 6.0 s and 8.0 s the velocity falls from 14 m/s to 6 m/s, so a = (6 - 14)/2.0 = -4 m/s2 and the magnitude is 4 m/s2. The 8 m/s2 option is the velocity change itself, not divided by the time.",
+   "topic": "Physics · acceleration from a velocity-time table",
+   "lik": "H",
+   "syl": "6. Physics: Kinematics"
+  },
+  {
+   "stem": "A car travels around a circular bend of radius 50 m at a constant speed of 10 m/s. Which of the following statements is correct?",
+   "options": [
+    "The acceleration is 2.0 m/s2, directed towards the centre of the bend.",
+    "The acceleration is zero, because the speed is constant.",
+    "The acceleration is 2.0 m/s2, directed away from the centre of the bend.",
+    "The acceleration is 2.0 m/s2, directed along the direction of travel.",
+    "The acceleration is 0.20 m/s2, directed towards the centre of the bend."
+   ],
+   "ans": "A",
+   "exp": "Uniform circular motion has centripetal acceleration v^2/r = 100/50 = 2.0 m/s2, always pointing towards the centre; constant speed does not mean zero acceleration because the direction of travel keeps changing. The 0.20 m/s2 option divides v/r instead of squaring first.",
+   "topic": "Physics · circular motion (centripetal acceleration)",
+   "lik": "M",
+   "syl": "6. Physics: Kinematics"
+  },
+  {
+   "stem": "A battery of negligible internal resistance supplies 24 V to an 8.0 Ω resistor connected in series with a parallel combination of a 12 Ω resistor and a 6.0 Ω resistor. What current does the battery supply?",
+   "options": [
+    "1.5 A",
+    "2.0 A",
+    "2.4 A",
+    "3.0 A",
+    "6.0 A"
+   ],
+   "ans": "B",
+   "exp": "The parallel pair has resistance (12 × 6.0)/(12 + 6.0) = 4.0 Ω, so the total is 8.0 + 4.0 = 12 Ω and I = 24/12 = 2.0 A. The 3.0 A option ignores the parallel section entirely (24/8.0), and 1.5 A comes from doubling the total resistance.",
+   "topic": "Physics · series-parallel network",
+   "lik": "H",
+   "syl": "6. Physics: Electricity and electromagnetism"
+  },
+  {
+   "stem": "In an insulated container, 0.40 kg of water at 20 °C is mixed with 0.20 kg of water at 65 °C. Assuming no heat is exchanged with the surroundings, what is the final temperature of the mixture?",
+   "options": [
+    "20 °C",
+    "35 °C",
+    "42.5 °C",
+    "50 °C",
+    "65 °C"
+   ],
+   "ans": "B",
+   "exp": "With the same specific heat capacity, the heat balance is 0.40 × (T - 20) = 0.20 × (65 - T), which gives 0.6T = 21 and T = 35 °C. The 42.5 °C option averages the two temperatures and ignores that the cooler sample has twice the mass, and 50 °C comes from swapping the two masses.",
+   "topic": "Physics · calorimetry (mixing two water samples)",
+   "lik": "H",
+   "syl": "6. Physics: Thermodynamics"
+  },
+  {
+   "stem": "A farm tank contains a liquid of density 800 kg/m3 filled to a depth of 3.0 m and open to the atmosphere (100 kPa). What is the gauge pressure exerted by the liquid at the bottom of the tank? (g = 10 m/s2)",
+   "options": [
+    "2.4 kPa",
+    "8.0 kPa",
+    "24 kPa",
+    "124 kPa",
+    "240 kPa"
+   ],
+   "ans": "C",
+   "exp": "Gauge pressure is ρgh = 800 × 10 × 3.0 = 24000 Pa = 24 kPa, and the word gauge means the 100 kPa of atmospheric pressure on the open surface is excluded. The 124 kPa option is the absolute pressure, and 8.0 kPa forgets the depth.",
+   "topic": "Physics · gauge pressure in a liquid",
+   "lik": "M",
+   "syl": "6. Physics: Fluid mechanics"
+  },
+  {
+   "stem": "An electric kettle rated at 2.0 kW takes 3.0 minutes to bring its water to the boil. How much electrical energy does the kettle transfer in that time?",
+   "options": [
+    "6.0 × 10^3 J",
+    "3.6 × 10^4 J",
+    "3.6 × 10^5 J",
+    "6.0 × 10^5 J",
+    "3.6 × 10^6 J"
+   ],
+   "ans": "C",
+   "exp": "2.0 kW = 2000 W and 3.0 minutes = 180 s, so E = Pt = 2000 × 180 = 3.6 × 10^5 J. The 6.0 × 10^3 J option multiplies the rating in kW by the time in minutes without converting either unit.",
+   "topic": "Physics · power and energy (unit conversions)",
+   "lik": "H",
+   "syl": "6. Physics: Electricity and electromagnetism"
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "bank": "bank_chem_hard",
+ "section": "E",
+ "questions": [
+  {
+   "stem": "Butane (C₄H₁₀, Mr 58), propanone (C₃H₆O, Mr 58) and propan-1-ol (C₃H₈O, Mr 60) boil at approximately 0 °C, 56 °C and 97 °C, in some order. Which assignment is correct?",
+   "options": [
+    "Butane 0 °C, propanone 56 °C, propan-1-ol 97 °C.",
+    "Propan-1-ol 0 °C, propanone 56 °C, butane 97 °C.",
+    "Butane 0 °C, propan-1-ol 56 °C, propanone 97 °C.",
+    "Propanone 0 °C, butane 56 °C, propan-1-ol 97 °C.",
+    "Butane 56 °C, propanone 97 °C, propan-1-ol 0 °C."
+   ],
+   "ans": "A",
+   "exp": "The three substances have almost the same molar mass, so boiling point is decided by intermolecular force strength: propan-1-ol hydrogen bonds through its O-H group, propanone has permanent dipole-dipole forces only, and butane has only London forces. Hydrogen bonding therefore gives the highest boiling point and London forces the lowest. The option ranking propanone above propan-1-ol fails because dipole-dipole attraction between propanone molecules is weaker than hydrogen bonding.",
+   "topic": "Chemistry · IMF type and boiling point at similar molar mass",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical bonding"
+  },
+  {
+   "stem": "Butan-1-ol, butan-2-ol and 2-methylpropan-2-ol are isomers that all contain an O-H group. Their boiling points are approximately 118 °C, 100 °C and 82 °C respectively. Which statement correctly explains this trend?",
+   "options": [
+    "All three have the same boiling point, because hydrogen bonding dominates in each of them.",
+    "2-methylpropan-2-ol has the highest boiling point, because its compact shape packs the molecules closest together.",
+    "Butan-1-ol has the highest boiling point, because its least branched chain gives the greatest molecular surface contact and so the strongest London forces, which act in addition to the hydrogen bonding present in all three isomers.",
+    "Branching lowers the boiling point because it weakens the O-H bonds inside the molecules.",
+    "The boiling points differ because the three isomers contain different functional groups."
+   ],
+   "ans": "C",
+   "exp": "All three isomers hydrogen bond equally well, so the spread comes from the London component, which grows with molecular surface area: the straight chain of butan-1-ol allows the closest contact and the strongest dispersion forces, while branching in 2-methylpropan-2-ol reduces contact and gives the lowest boiling point. The claim that branching weakens the O-H bonds fails because boiling breaks intermolecular forces, not the covalent bonds inside the molecules.",
+   "topic": "Chemistry · isomer branching and boiling point",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical bonding"
+  },
+  {
+   "stem": "Hydrogen fluoride (Mr 20) boils at approximately 20 °C, while hydrogen chloride (Mr 36.5) boils at approximately -85 °C. Which statement explains this comparison?",
+   "options": [
+    "HCl has the higher molar mass, so its London forces should make it boil higher, and the quoted temperatures cannot both be right.",
+    "The H-F covalent bond is stronger than the H-Cl covalent bond, and covalent bond strength sets the boiling point.",
+    "HF is ionic while HCl is covalent, and ionic compounds boil much higher.",
+    "HF molecules hydrogen bond to one another, a force much stronger than the dipole-dipole and London forces between HCl molecules, and this outweighs the higher molar mass of HCl.",
+    "HCl is non-polar, so only very weak London forces act between its molecules, while HF is also non-polar but lighter."
+   ],
+   "ans": "D",
+   "exp": "Fluorine is so electronegative that HF molecules form strong hydrogen bonds, whereas HCl molecules attract each other only by dipole-dipole and London forces, so HF boils far higher despite its lower molar mass. The covalent-bond option fails because boiling separates molecules by overcoming intermolecular forces, and the strong H-F covalent bonds survive intact in the gas.",
+   "topic": "Chemistry · hydrogen bonding versus molar mass",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical bonding"
+  },
+  {
+   "stem": "Which of the following statements is correct?",
+   "options": [
+    "Water is non-polar, because its two identical O-H bonds pull equally in opposite directions.",
+    "Carbon dioxide is polar, because each C=O bond is strongly polar.",
+    "Boron trifluoride is non-polar, because its three identical B-F bond dipoles cancel in the trigonal planar arrangement.",
+    "Ammonia is non-polar, because the lone pair on nitrogen makes the molecule symmetrical.",
+    "Any molecule that contains polar bonds must be polar overall."
+   ],
+   "ans": "C",
+   "exp": "BF₃ is trigonal planar with three identical B-F dipoles at 120 degrees, so they sum to zero and the molecule is non-polar. The water option fails because the bent shape means the two O-H dipoles do not oppose each other exactly, leaving a net dipole, and the claim that polar bonds always give a polar molecule is defeated by every symmetric case such as BF₃, CO₂ and CCl₄.",
+   "topic": "Chemistry · molecular polarity from geometry",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical bonding"
+  },
+  {
+   "stem": "Carbon tetrachloride, CCl₄, chloroform, CHCl₃, and dichloromethane, CH₂Cl₂, are all tetrahedral molecules. Which statement about their polarity is correct?",
+   "options": [
+    "All three are non-polar, because the tetrahedral shape of each molecule cancels every bond dipole.",
+    "CCl₄ is non-polar because its four identical C-Cl dipoles cancel, while CHCl₃ and CH₂Cl₂ are polar because the C-H bonds do not balance the C-Cl dipoles.",
+    "All three are polar, because every tetrahedral molecule containing polar bonds is polar overall.",
+    "CCl₄ is the most polar of the three, because it contains the greatest number of C-Cl dipoles.",
+    "The polarity of each molecule is decided only by its molar mass, so the heaviest molecule is the most polar."
+   ],
+   "ans": "B",
+   "exp": "In CCl₄ the four identical, symmetrically arranged C-Cl dipoles cancel exactly, but replacing Cl by H makes the arrangement of dipoles unsymmetrical, so both CHCl₃ and CH₂Cl₂ have a net dipole. The option calling CCl₄ the most polar fails because adding identical dipoles in a symmetric tetrahedron makes the resultant smaller, not larger.",
+   "topic": "Chemistry · dipole cancellation in tetrahedral molecules",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical bonding"
+  },
+  {
+   "stem": "Carbon dioxide and sulfur dioxide both contain polar bonds to oxygen, yet CO₂ is non-polar and SO₂ is polar. Why?",
+   "options": [
+    "CO₂ is linear, so its two C=O bond dipoles point in opposite directions and cancel, while SO₂ is bent, so its two S=O dipoles add to give a net dipole.",
+    "The C=O bonds in CO₂ are non-polar, because carbon and oxygen have almost equal electronegativities.",
+    "SO₂ is bent, which makes its S=O bonds polar, while the linear shape of CO₂ makes its C=O bonds non-polar.",
+    "SO₂ is polar because its molecules are heavier than CO₂ molecules and attract each other more strongly.",
+    "Both molecules are linear, but only SO₂ has a lone pair on the central atom strong enough to create a dipole."
+   ],
+   "ans": "A",
+   "exp": "Both molecules have polar bonds, and the difference is geometry: the linear CO₂ dipoles cancel vectorially, while the bent SO₂ (about 119 degrees, from the lone pair on sulfur) leaves a resultant dipole. The option saying shape changes whether the bonds themselves are polar fails, because bond polarity depends on electronegativity difference, not on molecular shape.",
+   "topic": "Chemistry · shape and net dipole (SO2 versus CO2)",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical bonding"
+  },
+  {
+   "stem": "Four unknown substances were tested, with these results. P: melting point 801 °C, conducts electricity only when molten or dissolved in water. Q: melting point −95 °C, never conducts electricity. R: melting point 1085 °C, conducts electricity as a solid. S: melting point 1710 °C, never conducts electricity, even when molten. Which statement correctly identifies one of the substances?",
+   "options": [
+    "P is metallic, because it conducts electricity when molten.",
+    "Q is ionic, because ionic bonds are weak and break at a low temperature.",
+    "S is ionic, because its very high melting point proves strong ionic bonds.",
+    "P is a simple molecular substance, because molecular substances dissolve well in water.",
+    "R is metallic, because conduction in the solid state requires mobile delocalised electrons."
+   ],
+   "ans": "E",
+   "exp": "Solid conduction is the signature of metallic bonding, since only delocalised electrons can carry charge through a rigid lattice, so R is metallic. P, conducting only when molten or dissolved, is ionic, because then and only then are its ions mobile, and S, which never conducts even molten, is giant covalent with strong bonds but no charged particles; the option assigning S to ionic bonding ignores that molten ionic compounds conduct.",
+   "topic": "Chemistry · bond type from melting point and conductivity data",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical bonding"
+  },
+  {
+   "stem": "Sodium chloride melts at 801 °C while iodine melts at 114 °C, although iodine has the larger molar mass. Which statement explains the comparison?",
+   "options": [
+    "Sodium chloride contains covalent bonds, which are stronger than the covalent bonds inside iodine molecules.",
+    "Iodine melts easily because the covalent bonds between its molecules are weak.",
+    "Melting sodium chloride means overcoming strong electrostatic attractions between oppositely charged ions in a giant lattice, while melting iodine only overcomes weak London forces between I₂ molecules, and the I-I covalent bonds stay intact.",
+    "Sodium chloride has the higher melting point because its molar mass is greater than that of iodine.",
+    "Both solids are giant lattices, and iodine simply has a lattice built from lighter particles."
+   ],
+   "ans": "C",
+   "exp": "NaCl is a giant ionic lattice whose melting requires breaking strong ion-ion electrostatic attractions throughout the crystal, whereas solid iodine is simple molecular, so melting overcomes only the weak London forces between I₂ molecules. The covalent-bonds-between-molecules option fails because the forces between separate iodine molecules are intermolecular London forces, not covalent bonds.",
+   "topic": "Chemistry · melting points of ionic versus molecular solids",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical bonding"
+  },
+  {
+   "stem": "Use these average bond energies: H-H 436 kJ/mol, Cl-Cl 242 kJ/mol, H-Cl 431 kJ/mol. For the reaction H₂ + Cl₂ → 2HCl, the enthalpy change is approximately:",
+   "options": [
+    "−368 kJ/mol",
+    "−247 kJ/mol",
+    "−184 kJ/mol",
+    "+184 kJ/mol",
+    "+247 kJ/mol"
+   ],
+   "ans": "C",
+   "exp": "Bonds broken cost 436 + 242 = 678 kJ/mol and bonds formed release 2 × 431 = 862 kJ/mol, so ΔH = 678 − 862 = −184 kJ/mol; the negative sign makes the reaction exothermic, as expected when stronger bonds form than break. The +184 option simply reverses the subtraction, and the ±247 options forget that two H-Cl bonds are formed per equation.",
+   "topic": "Chemistry · bond energy accounting and sign of ΔH",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical bonding"
+  },
+  {
+   "stem": "The thermal decomposition of calcium carbonate, CaCO₃ → CaO + CO₂, has ΔH = +178 kJ/mol. Which statement is correct?",
+   "options": [
+    "The products are lower in enthalpy than the reactants, so heat is released to the surroundings.",
+    "The positive sign means energy is released by the system, so the reaction is exothermic.",
+    "Bonds formed in the products are stronger than bonds broken in the reactants, which explains the positive ΔH.",
+    "The products are higher in enthalpy than the reactants, and the difference is absorbed as heat from the surroundings.",
+    "At a sufficiently high temperature ΔH becomes negative, so the decomposition turns exothermic."
+   ],
+   "ans": "D",
+   "exp": "A positive ΔH marks an endothermic change: the products sit higher in enthalpy than the reactants and the extra energy is taken in as heat. The option about stronger bonds formed fails because stronger bonds forming releases energy and would give a negative ΔH, the signature of an exothermic reaction.",
+   "topic": "Chemistry · endothermic reactions and enthalpy level",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical bonding"
+  }
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "bank": "bank_bio_hard",
+ "section": "F",
+ "questions": [
+  {
+   "stem": "A patient's mitral (bicuspid) valve no longer closes completely. What happens during ventricular systole?",
+   "options": [
+    "Blood regurgitates from the aorta back into the left ventricle, so aortic pressure rises.",
+    "Blood regurgitates from the left ventricle back into the left atrium, so the stroke volume entering the aorta is reduced.",
+    "Blood regurgitates from the right ventricle back into the right atrium, so venous return falls.",
+    "The valve cannot open, so the left ventricle fills completely during diastole.",
+    "Blood flows from the left atrium into the left ventricle more rapidly during systole."
+   ],
+   "ans": "B",
+   "exp": "The mitral valve guards the opening between the left atrium and the left ventricle and must stay shut while that ventricle contracts, so incompetence lets part of the ejected volume leak back into the atrium instead of entering the aorta. The aortic backflow option describes a failing aortic (semilunar) valve, which leaks during diastole, not systole.",
+   "topic": "Biology · valve failure (mitral regurgitation)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "The aortic semilunar valve of a patient becomes incompetent, so that it fails to close after ventricular systole. Which combination of effects during ventricular diastole follows?",
+   "options": [
+    "Blood flows from the pulmonary artery into the left ventricle and arterial pressure rises.",
+    "Blood flows from the left atrium into the aorta and ventricular filling is prevented.",
+    "Blood leaks from the aorta back into the left ventricle, so aortic pressure falls steeply during diastole while the ventricle receives an extra volume of blood.",
+    "Blood leaks from the aorta back into the left atrium, so atrial pressure rises.",
+    "Blood stays in the aorta because the valve cannot reopen during diastole, so arterial pressure is unchanged."
+   ],
+   "ans": "C",
+   "exp": "A semilunar valve must hold up the column of blood in the aorta between beats; if it leaks, blood runs back into the relaxing ventricle, aortic diastolic pressure collapses and the ventricle ends up overfilled before the next contraction. The left-atrium option confuses the aortic valve with the mitral valve, which is the valve that actually separates those two chambers.",
+   "topic": "Biology · valve failure (aortic incompetence)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Which pairing of a heart valve with its position and its type is correct?",
+   "options": [
+    "The tricuspid valve is a semilunar valve between the right ventricle and the pulmonary artery.",
+    "The bicuspid (mitral) valve lies between the right atrium and the right ventricle.",
+    "The pulmonary valve is an atrioventricular valve between the right atrium and the right ventricle.",
+    "The bicuspid (mitral) valve is an atrioventricular valve between the left atrium and the left ventricle.",
+    "The aortic valve is an atrioventricular valve between the left ventricle and the left atrium."
+   ],
+   "ans": "D",
+   "exp": "The two atrioventricular valves sit between atrium and ventricle, tricuspid on the right side and bicuspid (mitral) on the left, while the aortic and pulmonary valves form the semilunar pair at the exits of the ventricles. The tricuspid option misplaces the pulmonary valve and assigns it the wrong class of valve.",
+   "topic": "Biology · heart valves (semilunar vs atrioventricular)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A drop of blood enters the heart through the superior vena cava. On its way to the aorta it must pass the following structures: pulmonary artery, pulmonary vein, right ventricle, left atrium, left ventricle. In which order does it meet them?",
+   "options": [
+    "Right ventricle, pulmonary artery, pulmonary vein, left atrium, left ventricle.",
+    "Right ventricle, pulmonary vein, pulmonary artery, left ventricle, left atrium.",
+    "Pulmonary artery, right ventricle, pulmonary vein, left ventricle, left atrium.",
+    "Right ventricle, pulmonary artery, left atrium, pulmonary vein, left ventricle.",
+    "Left atrium, left ventricle, pulmonary artery, pulmonary vein, right ventricle."
+   ],
+   "ans": "A",
+   "exp": "From the vena cava the blood crosses the right atrium into the right ventricle, leaves by the pulmonary artery for the lungs, returns by the pulmonary veins to the left atrium and finally reaches the left ventricle, whose outflow is the aorta. The option that visits the pulmonary vein before the pulmonary artery reverses the actual direction of pulmonary flow.",
+   "topic": "Biology · double circulation (flow ordering)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A red blood cell leaves the right ventricle and is followed until it re-enters the heart. Which option gives the correct route, with the oxygenation status of the blood at each named stage?",
+   "options": [
+    "Pulmonary artery (oxygenated), lung capillaries, pulmonary vein (deoxygenated), right atrium.",
+    "Pulmonary artery (oxygenated), lung capillaries, pulmonary vein (oxygenated), left atrium.",
+    "Pulmonary artery (deoxygenated), lung capillaries, pulmonary vein (oxygenated), right atrium.",
+    "Pulmonary vein (deoxygenated), lung capillaries, pulmonary artery (oxygenated), left atrium.",
+    "Pulmonary artery (deoxygenated), lung capillaries, pulmonary vein (oxygenated), left atrium."
+   ],
+   "ans": "E",
+   "exp": "The right ventricle pumps blood out through the pulmonary artery, so the blood is still deoxygenated there; it becomes oxygenated in the lung capillaries and returns by the pulmonary veins to the left atrium. The option ending at the right atrium gets the vessels right but sends the blood back to the wrong side of the heart.",
+   "topic": "Biology · pulmonary circuit (oxygen status of vessels)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Which statement about the human double circulation is correct?",
+   "options": [
+    "The right ventricle has the thickest muscular wall because it serves all the organs of the body.",
+    "The right side of the heart pumps blood through the short pulmonary circuit, so blood in the pulmonary arteries travels at a lower pressure than blood in the aorta.",
+    "Pulmonary veins carry deoxygenated blood because every vein in the body carries deoxygenated blood.",
+    "The left ventricle pumps blood to the lungs, where the pressure must be high to push blood through the alveolar capillaries.",
+    "Systemic arteries and pulmonary arteries both carry oxygenated blood because all arteries leave the heart."
+   ],
+   "ans": "B",
+   "exp": "The pulmonary circuit runs only from heart to lungs and back, so it is a short, low-resistance circuit served by the thin-walled right ventricle, and its pressure is far lower than aortic pressure. The blanket rule about veins, and its mirror about arteries, both fail exactly at the pulmonary vessels: pulmonary arteries carry deoxygenated blood and pulmonary veins carry oxygenated blood.",
+   "topic": "Biology · double circulation (pressure and vessel roles)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "At the start of a quiet inhalation the diaphragm contracts. Which chain of events follows?",
+   "options": [
+    "The diaphragm flattens, thoracic volume increases, pressure inside the alveoli falls below atmospheric pressure, and air flows inward.",
+    "The diaphragm domes upward, thoracic volume increases, alveolar pressure rises above atmospheric pressure, and air flows inward.",
+    "The diaphragm flattens, thoracic volume decreases, alveolar pressure rises above atmospheric pressure, and air flows inward.",
+    "The diaphragm flattens, thoracic volume increases, alveolar pressure rises above atmospheric pressure, and air flows outward.",
+    "The diaphragm relaxes, thoracic volume decreases, alveolar pressure falls below atmospheric pressure, and air flows inward."
+   ],
+   "ans": "A",
+   "exp": "Contraction pulls the dome of the diaphragm downward so the thoracic cavity enlarges; by the inverse volume-pressure relation the alveolar pressure drops below atmospheric, and air flows down this gradient into the lungs. The option with rising alveolar pressure and inward flow breaks that link, and a relaxing diaphragm belongs to exhalation.",
+   "topic": "Biology · breathing mechanics (inhalation)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A person blows out a candle forcefully. Which combination of events occurs during this forced exhalation?",
+   "options": [
+    "The diaphragm contracts and alveolar pressure falls below atmospheric pressure.",
+    "The abdominal muscles and the internal intercostal muscles contract, the relaxed diaphragm is pushed upward, thoracic volume decreases, and alveolar pressure rises well above atmospheric pressure.",
+    "The diaphragm relaxes while the ribs are pulled upward and outward, so thoracic volume increases.",
+    "Only the diaphragm relaxes, exactly as in quiet breathing at rest, and no other muscles contribute, so alveolar pressure rises only slightly.",
+    "The external intercostal muscles lift the ribs while the diaphragm flattens, so thoracic volume increases."
+   ],
+   "ans": "B",
+   "exp": "Forced exhalation is active: abdominal muscles push the relaxed diaphragm up and the internal intercostals pull the ribs down, shrinking thoracic volume below its resting level so alveolar pressure rises well above atmospheric and air is driven out. The upward-and-outward rib movement with a flattening diaphragm is the pattern of inhalation.",
+   "topic": "Biology · breathing mechanics (forced exhalation)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Which statement about the pleural membranes is correct?",
+   "options": [
+    "The visceral pleura lines the inside of the chest wall, and the parietal pleura covers the lung surface.",
+    "The pleural cavity is a large air-filled space that lets the lungs float freely.",
+    "The pleural membranes secrete the mucus that moistens the alveoli for gas exchange.",
+    "The pleural cavity normally holds a thin film of serous fluid, so the two layers slide smoothly over each other and the lungs follow the movements of the chest wall.",
+    "The pleural cavity contains cartilage rings that keep the bronchi open during breathing."
+   ],
+   "ans": "D",
+   "exp": "The parietal layer lines the chest wall and the visceral layer covers the lungs, and between them lies only a thin film of serous fluid under negative pressure, which lubricates the sliding surfaces and couples each lung to the chest wall. Mucus belongs to the airway lining rather than the pleura, and a normally air-filled cavity would uncouple the lung from the chest wall instead of coupling it.",
+   "topic": "Biology · pleura (layers and fluid)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A stab wound lets air enter the left pleural cavity (pneumothorax). What immediate effect does this have on the left lung?",
+   "options": [
+    "The left lung inflates further, because the extra air increases the pressure gradient into the alveoli.",
+    "Nothing changes in the lung, because each side's diaphragm contracts independently of the pleura.",
+    "The left lung stiffens and expands, because serous fluid in the cavity is replaced by air.",
+    "The trachea seals the left main bronchus, so airflow into the left lung simply stops.",
+    "The left lung recoils and collapses, because intrapleural pressure rises toward atmospheric pressure and the coupling between chest wall and lung is lost."
+   ],
+   "ans": "E",
+   "exp": "Ventilation depends on the negative pressure of the pleural cavity holding each lung against the chest wall; air entering the cavity abolishes that pressure difference, so the elastic lung recoils and collapses on that side. The further-inflation option mistakes the injury for a stronger ventilatory gradient, and there is no reflex that seals a bronchus.",
+   "topic": "Biology · pleura (pneumothorax cascade)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "In human blood, which option gives the approximate shares of carbon dioxide transported as bicarbonate ions, bound to hemoglobin, and dissolved in plasma, respectively?",
+   "options": [
+    "About 23%, about 70%, about 7%.",
+    "About 70%, about 23%, about 7%.",
+    "About 70%, about 7%, about 23%.",
+    "About 97%, about 3%, about 0%.",
+    "About 50%, about 43%, about 7%."
+   ],
+   "ans": "B",
+   "exp": "Most carbon dioxide travels as bicarbonate ions (about 70%), a substantial fraction binds to the globin of hemoglobin as carbaminohemoglobin (about 23%), and only a small part stays dissolved in plasma (about 7%). The 97 and 3 figures belong to oxygen transport, and swapping the bicarbonate and carbamino shares is the classic slip.",
+   "topic": "Biology · CO2 transport (share of each form)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Oxygen and carbon dioxide are both carried with the help of hemoglobin. Which statement about their binding sites on hemoglobin is correct?",
+   "options": [
+    "Oxygen binds to the iron of the heme group, while carbon dioxide binds to amino groups of the globin polypeptide chains.",
+    "Oxygen binds to the globin chains, while carbon dioxide binds to the iron of the heme group.",
+    "Both gases bind to the iron of the heme group and compete for the same site.",
+    "Oxygen binds to the heme iron, while carbon dioxide is carried entirely dissolved in plasma with no binding to hemoglobin.",
+    "Oxygen binds to the globin chains, while carbon dioxide binds to the cell membrane of the red blood cell."
+   ],
+   "ans": "A",
+   "exp": "The heme iron is the site for oxygen, forming oxyhemoglobin, whereas carbon dioxide forms carbaminohemoglobin on amino groups of the globin proteins, so the two gases occupy different parts of the molecule and can be carried at the same time. The shared-site option is the standard error: carbon dioxide does not load onto the heme iron.",
+   "topic": "Biology · hemoglobin binding sites (heme vs globin)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Approximately what percentage of the oxygen transported in systemic arterial blood is carried bound to hemoglobin as oxyhemoglobin?",
+   "options": [
+    "3%",
+    "7%",
+    "23%",
+    "50%",
+    "97%"
+   ],
+   "ans": "E",
+   "exp": "Hemoglobin is by far the main oxygen carrier: about 97% of the oxygen in arterial blood rides on hemoglobin as oxyhemoglobin and only about 3% dissolves in the plasma. The 7 and 23 figures belong to the dissolved and carbamino shares of carbon dioxide transport, not to oxygen.",
+   "topic": "Biology · O2 transport (dissolved vs bound)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A patient has a severely reduced hemoglobin concentration, yet the partial pressure of oxygen in her arterial blood is normal. Which statement explains why her tissues still receive too little oxygen?",
+   "options": [
+    "Her alveolar walls have become too thick for oxygen to diffuse across at a normal partial pressure.",
+    "Dissolved oxygen in plasma normally supplies about 70% of the tissues' demand, so small changes matter greatly.",
+    "About 97% of the oxygen in arterial blood is bound to hemoglobin, so with less hemoglobin the total oxygen content of the blood falls even though its partial pressure is normal.",
+    "With less hemoglobin, oxygen binds more tightly to the remaining molecules and therefore cannot be released at the tissues.",
+    "The dissolved fraction rises until it equals the normal total oxygen content of the blood."
+   ],
+   "ans": "C",
+   "exp": "Arterial partial pressure determines how saturated the available hemoglobin becomes, not how much oxygen the blood carries in total; since roughly 97% of oxygen travels on hemoglobin, anemia cuts total delivery while the partial pressure and the small dissolved share stay normal. The tight-binding claim describes a shift of the dissociation curve, not anemia, and normal lung diffusion cannot make up for a lack of carrier.",
+   "topic": "Biology · anemia and oxygen delivery",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Emphysema progressively destroys the walls between the pulmonary alveoli. Which direct consequence for gas exchange follows?",
+   "options": [
+    "The total surface area available for gas exchange decreases, so oxygen uptake per breath falls.",
+    "The bronchioles constrict by smooth muscle spasm, so air cannot reach the alveoli.",
+    "The amount of hemoglobin in the blood falls, so oxygen carriage drops.",
+    "The diaphragm can no longer contract, so thoracic volume cannot increase.",
+    "The pleural cavity fills with mucus, so the lungs cannot slide along the chest wall."
+   ],
+   "ans": "A",
+   "exp": "The alveolar walls are themselves the exchange surface, so merging alveoli into fewer, larger sacs cuts the diffusion area and oxygen uptake falls. Bronchiolar spasm defines asthma, a low hemoglobin count defines anemia, and neither diaphragm function nor pleural fluid is touched by alveolar destruction.",
+   "topic": "Biology · disease matching (emphysema)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Which pairing of a condition with the structure primarily affected is incorrect?",
+   "options": [
+    "Pleurisy: the pleural membranes.",
+    "Myocardial infarction: a coronary artery.",
+    "Varicose veins: incompetent valves in the veins of the legs.",
+    "Asthma: destruction of the walls between the alveoli.",
+    "Chronic bronchitis: the mucus-producing glands of the bronchi."
+   ],
+   "ans": "D",
+   "exp": "Asthma is a reversible narrowing of the airways caused by contraction of bronchiolar smooth muscle together with inflammation, not by destruction of alveolar walls, which is the hallmark of emphysema. The other four pairs are correct: pleurisy inflames the pleura, infarction follows a blocked coronary artery, varicose veins involve failing venous valves, and bronchitis involves bronchial mucus glands.",
+   "topic": "Biology · disease-to-system matching",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Fatty plaques narrow a patient's coronary arteries. Why is the heart muscle endangered especially during physical exertion?",
+   "options": [
+    "Because the coronary arteries supply the lungs, and exertion raises pulmonary blood flow above what the narrowed vessels can carry.",
+    "Because the coronary arteries supply the myocardium itself, and exertion raises the heart's oxygen demand faster than blood flow through the narrowed vessels can increase.",
+    "Because exertion diverts all coronary blood flow to the skeletal muscles, leaving the myocardium without perfusion even in healthy people.",
+    "Because coronary arteries fill with blood during ventricular systole, and the higher heart rate of exertion shortens systole below what filling needs.",
+    "Because the myocardium switches to anaerobic fermentation during exertion, and the narrowed arteries cannot deliver the extra glucose this requires."
+   ],
+   "ans": "B",
+   "exp": "The coronary arteries branch from the aorta and feed the heart muscle itself; during exercise the myocardium's oxygen demand climbs steeply, and a stenosed vessel cannot raise its flow enough, so the muscle becomes ischemic. The systole option inverts the timing, since coronary filling occurs mainly during diastole, and the coronary circulation never supplies the lungs.",
+   "topic": "Biology · coronary circulation under exertion",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  }
+ ]
+}

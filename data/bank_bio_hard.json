@@ -1,0 +1,3190 @@
+{
+ "schema": 1,
+ "id": "bank_bio_hard",
+ "title": "IMAT QUESTION BANK: Biology (Medium-Hard)",
+ "kind": "bank",
+ "durationSec": 13000,
+ "maxTenths": 1950,
+ "targetScore": null,
+ "sections": [
+  {
+   "code": "A",
+   "from": 1,
+   "to": 18,
+   "label": "Section A - Chemistry of life and biological molecules",
+   "short": "Molecules"
+  },
+  {
+   "code": "B",
+   "from": 19,
+   "to": 34,
+   "label": "Section B - Cells, organelles and membrane transport",
+   "short": "Cells"
+  },
+  {
+   "code": "C",
+   "from": 35,
+   "to": 48,
+   "label": "Section C - Molecular genetics and biotechnology",
+   "short": "MolGen"
+  },
+  {
+   "code": "D",
+   "from": 49,
+   "to": 66,
+   "label": "Section D - Cell cycle, heredity and evolution",
+   "short": "Heredity"
+  },
+  {
+   "code": "E",
+   "from": 67,
+   "to": 74,
+   "label": "Section E - Animal tissues",
+   "short": "Tissues"
+  },
+  {
+   "code": "F",
+   "from": 75,
+   "to": 91,
+   "label": "Section F - Cardiovascular, respiratory and blood physiology",
+   "short": "CardioResp"
+  },
+  {
+   "code": "G",
+   "from": 92,
+   "to": 112,
+   "label": "Section G - Digestive, endocrine, renal and nervous systems",
+   "short": "Systems"
+  },
+  {
+   "code": "H",
+   "from": 113,
+   "to": 130,
+   "label": "Section H - Bioenergetics and muscle",
+   "short": "BioEnergy"
+  }
+ ],
+ "bankVersion": "b678b0c34",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "The side chains of four amino acids are considered: serine bears a hydroxyl group, alanine bears a methyl group, aspartic acid bears a second carboxyl group, and lysine bears a terminal amino group. Which statement is correct?",
+   "options": [
+    "Serine and alanine belong together to the polar, uncharged class.",
+    "At pH 7, aspartic acid carries a net negative charge and lysine carries a net positive charge.",
+    "Aspartic acid is basic, because its extra carboxyl group accepts protons at pH 7.",
+    "Lysine is acidic, because its terminal amino group releases protons readily at pH 7.",
+    "All four side chains are uncharged at pH 7."
+   ],
+   "ans": "B",
+   "exp": "A carboxyl side chain loses its proton well below pH 7, so aspartate is negative there, while the amino group of lysine stays protonated and positive. The option that calls carboxyl groups proton acceptors reverses their acid behaviour, and alanine's methyl side chain makes it nonpolar rather than polar.",
+   "perm": [
+    1,
+    0,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · amino acid classes",
+   "lik": "H"
+  },
+  {
+   "n": 2,
+   "stem": "A tripeptide is assembled in the order glutamic acid, glycine, lysine. Peptide bonds are not ionisable, and the only groups carrying charge near pH 7 are the terminal amino and carboxyl groups plus the side chains of the glutamic and lysine residues. What is the net charge of this tripeptide at pH 7?",
+   "options": [
+    "-2",
+    "-1",
+    "0",
+    "+1",
+    "+2"
+   ],
+   "ans": "C",
+   "exp": "At pH 7 the N-terminal amino group and the lysine side chain are protonated, giving +2 in total, while the C-terminal carboxyl group and the glutamate side chain are deprotonated, giving -2, so the net charge is zero. The +2 option counts only the positive groups and forgets the two deprotonated ones.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · ionisation of peptides at pH",
+   "lik": "H"
+  },
+  {
+   "n": 3,
+   "stem": "Collagen aside, proline is rarely found in the middle of an alpha helix. The best explanation is that proline:",
+   "options": [
+    "carries a charged side chain that repels the peptide backbone",
+    "cannot form peptide bonds with the residues on either side",
+    "is nonpolar, and alpha helices form only around polar side chains",
+    "has its side chain bonded back to the backbone nitrogen, so it cannot donate the helix hydrogen bond",
+    "is too small to reach across one full turn of the helix"
+   ],
+   "ans": "D",
+   "exp": "Proline is a secondary amine: its side chain ties up the backbone nitrogen, so the N-H that should donate the helix hydrogen bond is missing and the rigid ring introduces a kink. The nonpolar option fails because many nonpolar residues such as alanine and leucine sit comfortably inside helices; the problem is the missing N-H, not the polarity.",
+   "perm": [
+    0,
+    3,
+    2,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · proline and secondary structure",
+   "lik": "M"
+  },
+  {
+   "n": 4,
+   "stem": "A reagent breaks the four intrachain disulfide bridges of a protein made of a single polypeptide chain, without touching any peptide bond. Which levels of protein structure are directly lost, and which are preserved?",
+   "options": [
+    "Tertiary structure is directly lost; the primary structure is fully preserved.",
+    "Primary and tertiary structures are lost; the secondary structure is preserved.",
+    "Secondary structure is directly lost; the tertiary structure is preserved.",
+    "All four levels of structure are lost, including the primary sequence.",
+    "Quaternary structure is lost, because disulfide bridges are the bonds that hold separate chains together."
+   ],
+   "ans": "A",
+   "exp": "Disulfide bridges lock the folded tertiary shape in place, so cutting them unfolds the chain while the covalent amino acid sequence survives. A single chain has no quaternary level to lose, and the option that loses the primary structure mistakes disulfide bridges for peptide bonds.",
+   "perm": [
+    0,
+    3,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · disulfide bonds and tertiary structure",
+   "lik": "H"
+  },
+  {
+   "n": 5,
+   "stem": "Two synthetic peptides of equal length adopt different secondary structures: peptide P forms an alpha helix and peptide Q forms an antiparallel beta sheet. Which statement is correct?",
+   "options": [
+    "Both structures are stabilised by covalent bonds between side chains.",
+    "In peptide P the hydrogen bonds form between side chains, while in peptide Q they form along the backbone.",
+    "In peptide P the backbone hydrogen bonds run between neighbouring strands, while in peptide Q they run within one chain.",
+    "Neither structure uses hydrogen bonds: peptide P is held by disulfide bridges and peptide Q by ionic bonds.",
+    "In peptide P the hydrogen bonds join backbone atoms within the same chain, while in peptide Q they join backbone atoms of neighbouring strands."
+   ],
+   "ans": "E",
+   "exp": "Both structures are built from hydrogen bonds between backbone C=O and N-H groups: within one chain, four residues apart, in an alpha helix, and across adjacent strands in a beta sheet. The side-chain option fails because the regular hydrogen-bonding pattern that holds either structure uses backbone atoms, and all these bonds are noncovalent.",
+   "perm": [
+    1,
+    4,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · alpha helix vs beta sheet",
+   "lik": "H"
+  },
+  {
+   "n": 6,
+   "stem": "A newly characterised protein is a long, water-insoluble strand that gives tendon its tensile strength and forms insoluble fibres outside the body. Which classification and justification are correct?",
+   "options": [
+    "Globular, because tendon proteins need a compact soluble shape to transmit force.",
+    "Fibrous, because long insoluble strands with a mechanical role are the hallmark of fibrous proteins such as collagen.",
+    "Conjugated, because an insoluble protein must carry a non-protein prosthetic group.",
+    "Globular, because every structural protein is globular and only metabolic proteins are fibrous.",
+    "Fibrous, because all proteins found outside cells are fibrous."
+   ],
+   "ans": "B",
+   "exp": "Shape and role decide the class: fibrous proteins are long, insoluble strands with structural functions (collagen, keratin), while globular proteins are compact and soluble (enzymes, transport proteins). The extracellular-location option fails because albumin works outside cells yet is a soluble globular protein.",
+   "perm": [
+    1,
+    4,
+    0,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · globular and fibrous proteins",
+   "lik": "M"
+  },
+  {
+   "n": 7,
+   "stem": "Which statement about levels of protein structure is correct?",
+   "options": [
+    "Quaternary structure is present in every protein that contains more than one amino acid.",
+    "The primary structure of a protein is the ordered list of its alpha helices and beta sheets.",
+    "Tertiary structure is stabilised only by the sequence and never by interactions between side chains.",
+    "Replacing a single amino acid in the primary structure can change the tertiary structure of the whole chain.",
+    "Hydrogen bonds between backbone atoms define the tertiary structure rather than the secondary structure."
+   ],
+   "ans": "D",
+   "exp": "The side-chain interactions that build the tertiary fold are dictated by the sequence, so one substitution, classically in sickle-cell haemoglobin, can remodel the fold or the behaviour of the whole protein. Quaternary structure requires several separate polypeptide chains, not merely many residues, and backbone hydrogen bonds are the hallmark of secondary structure.",
+   "perm": [
+    2,
+    3,
+    1,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · levels of protein structure",
+   "lik": "H"
+  },
+  {
+   "n": 8,
+   "stem": "Cellulose and starch are both polymers of glucose, yet cellulose passes through the human gut largely undigested. The reason is that:",
+   "options": [
+    "cellulose is built from fructose units that the human gut cannot absorb",
+    "cellulose is unbranched, and no enzyme anywhere can attack an unbranched glucose chain",
+    "cellulose is joined by beta-1,4 glycosidic bonds, and humans lack cellulase, the enzyme that hydrolyses them",
+    "cellulose repels water so strongly that digestive enzymes cannot reach its bonds",
+    "cellulose molecules are too long to be broken down by any organism"
+   ],
+   "ans": "C",
+   "exp": "The two polymers differ in the geometry of the glycosidic bond: human amylase handles the alpha linkages of starch, but the beta-1,4 bonds of cellulose require cellulase, which humans do not secrete. Ruminants digest cellulose only with help from symbiotic microbes, so the too-long-for-any-organism option fails.",
+   "perm": [
+    3,
+    0,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · cellulose vs starch",
+   "lik": "M"
+  },
+  {
+   "n": 9,
+   "stem": "Muscle glycogen releases usable glucose units faster than the amylopectin of a starchy meal, although both are branched polymers of alpha-glucose. The best explanation is that glycogen:",
+   "options": [
+    "is more highly branched than amylopectin, so many more non-reducing ends can be attacked at the same time by the mobilising enzymes",
+    "contains some beta bonds that are hydrolysed faster than alpha bonds",
+    "is first converted to fat, which diffuses through the muscle faster than glucose",
+    "is a smaller molecule, so fewer glycosidic bonds need to be broken per gram",
+    "is partly digested by salivary amylase before it reaches the muscle"
+   ],
+   "ans": "A",
+   "exp": "Branching multiplies the number of chain ends: glycogen phosphorylase and the debranching system work from the non-reducing ends, and a densely branched polymer offers far more ends in parallel than amylopectin. The beta-bond option fails because both polymers are alpha-glucose polymers, and muscle mobilises its own glycogen inside the cell with no digestive enzyme involved.",
+   "perm": [
+    0,
+    4,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · glycogen mobilisation",
+   "lik": "H"
+  },
+  {
+   "n": 10,
+   "stem": "In a chromatogram of a leaf extract, the yellow-orange bands contain carotenes and xanthophylls. Which statement about these pigments is correct?",
+   "options": [
+    "They are water-soluble proteins that transfer electrons to photosystem II.",
+    "They are breakdown products of chlorophyll a that have lost their magnesium atom.",
+    "They are water-soluble pigments dissolved in the stroma of the chloroplast.",
+    "They are lipid-soluble accessory pigments of the thylakoid membranes, and xanthophylls are oxygen-containing carotenoids.",
+    "They are lipid-soluble pigments that absorb light only in the infrared range."
+   ],
+   "ans": "D",
+   "exp": "Carotenes are hydrocarbons and xanthophylls their oxygenated derivatives; both are lipid-soluble carotenoids embedded in the thylakoid membranes, where they broaden light capture and help dissipate excess energy. They are distinct molecules from chlorophyll, not its degradation products, and they absorb in the visible range, not the infrared.",
+   "perm": [
+    2,
+    3,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · carotenoids and xanthophylls",
+   "lik": "M"
+  },
+  {
+   "n": 11,
+   "stem": "Per gram, fat stores about twice as much usable energy as glycogen. Which statement explains this most directly?",
+   "options": [
+    "Fat cells store more water than glycogen deposits, and the water raises the energy yield.",
+    "Fats contain more peptide bonds per gram than carbohydrates.",
+    "The long hydrocarbon chains of fatty acids are highly reduced, and triglycerides are stored almost without water, while glycogen binds a large mass of water.",
+    "Glycogen is chemically a lipid, and its branching makes it less efficient.",
+    "Fat is oxidised anaerobically, so none of its energy is lost as heat."
+   ],
+   "ans": "C",
+   "exp": "Energy yield per gram tracks the reduction state of the molecule: the many C-H bonds of fatty acid chains oxidise to release more energy than the partially oxidised glucose units, and triglyceride droplets carry no stored water, whereas hydrated glycogen pays a large water mass penalty. Fat oxidation is aerobic, so the anaerobic option fails.",
+   "perm": [
+    3,
+    1,
+    4,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · lipid energy storage",
+   "lik": "H"
+  },
+  {
+   "n": 12,
+   "stem": "Starch is incubated with purified amylase under gut-like conditions, and the mixture then meets the brush-border enzymes of the small intestine. Which statement describes the carbohydrate products of the two stages correctly?",
+   "options": [
+    "Amylase releases free glucose from starch, and the brush-border enzymes then split glucose into smaller sugars.",
+    "Amylase digests starch only to water and carbon dioxide; the brush-border enzymes finish the job.",
+    "Starch digestion cannot begin until bacteria in the large intestine supply the needed amylase.",
+    "Amylase mainly releases maltose and similar short chains, and the brush-border disaccharidases then release the monosaccharides.",
+    "Amylase converts starch into lactose, and brush-border lactase then splits the lactose."
+   ],
+   "ans": "D",
+   "exp": "Amylase hydrolyses the alpha-1,4 bonds of starch but stops at short products, so its output is maltose, maltotriose and limit dextrins rather than free glucose; membrane-bound maltase, isomaltase and sucrase then release the monosaccharides. The direct-glucose option is the classic error, and lactose is a milk sugar that starch cannot yield.",
+   "perm": [
+    2,
+    0,
+    4,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · starch digestion by amylase",
+   "lik": "H"
+  },
+  {
+   "n": 13,
+   "stem": "Lactose, the disaccharide in milk, is hydrolysed at the intestinal brush border by lactase. The correct reaction is:",
+   "options": [
+    "lactose + water → glucose + galactose",
+    "lactose + water → glucose + fructose",
+    "lactose + water → glucose + glucose",
+    "lactose → glucose + galactose, with water released",
+    "lactose + water → galactose + galactose"
+   ],
+   "ans": "A",
+   "exp": "Lactose is glucose joined to galactose, so hydrolysis consumes water and releases both monosaccharides. The glucose-plus-fructose option describes sucrose digestion, the two-glucose option describes maltose, and hydrolysis uses water rather than releasing it.",
+   "perm": [
+    3,
+    1,
+    4,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · lactose digestion",
+   "lik": "M"
+  },
+  {
+   "n": 14,
+   "stem": "In a tube containing enzyme and a large excess of its substrate, the enzyme concentration is doubled while temperature and pH are held constant. The initial reaction rate will:",
+   "options": [
+    "fall to half, because the substrate is now shared among more active sites",
+    "stay the same, because enzymes are not consumed by the reaction",
+    "double, because with substrate in excess the initial rate is proportional to the enzyme concentration",
+    "double immediately and then double again every few minutes",
+    "drop to zero, because excess substrate competes with the enzyme"
+   ],
+   "ans": "C",
+   "exp": "At saturating substrate every enzyme molecule already works at its maximum turnover, so doubling the number of enzyme molecules doubles the total rate. The not-consumed option confuses the enzyme's persistence with the capacity of the enzyme amount present.",
+   "perm": [
+    4,
+    1,
+    0,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · enzyme concentration and rate",
+   "lik": "M"
+  },
+  {
+   "n": 15,
+   "stem": "Two tubes contain the same small, fixed amount of substrate. Tube X receives 1 unit of enzyme and tube Y receives 4 units of the same enzyme; temperature and pH are equal and optimal. Which outcome is expected?",
+   "options": [
+    "Tube Y yields four times the final amount of product that tube X yields.",
+    "Tube X yields more product in the end, because its substrate lasts longer.",
+    "Neither tube produces product, because the substrate amount is below the saturation point.",
+    "Tube Y reacts more slowly at first and then overtakes tube X near the end.",
+    "Both tubes yield the same final amount of product, but tube Y reaches it sooner."
+   ],
+   "ans": "E",
+   "exp": "Enzyme concentration sets the speed, not the ceiling: with the substrate amount fixed, both tubes approach the same total product, and the tube with four times the enzyme arrives sooner. The four-times-product option wrongly multiplies the yield by the rate factor.",
+   "perm": [
+    1,
+    4,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · enzyme amount vs substrate amount",
+   "lik": "H"
+  },
+  {
+   "n": 16,
+   "stem": "An enzyme is added to a reaction mixture that has already reached chemical equilibrium. Which statement is correct?",
+   "options": [
+    "The enzyme pushes the equilibrium toward the products and raises the final yield.",
+    "The enzyme lowers the activation energy of both directions, so equilibrium is reached sooner at the same position.",
+    "The enzyme lowers the activation energy of the forward direction only.",
+    "The enzyme increases the energy difference between reactants and products.",
+    "The enzyme is gradually consumed, so the mixture returns to its original state."
+   ],
+   "ans": "B",
+   "exp": "Catalysts reduce the activation barrier equally for the forward and reverse steps, so both rates rise while the equilibrium composition, which depends only on the relative energies of the states, is untouched. The yield-raising option confuses a faster approach to equilibrium with a different end point.",
+   "perm": [
+    1,
+    2,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · enzymes and equilibrium",
+   "lik": "M"
+  },
+  {
+   "n": 17,
+   "stem": "In prion diseases, a misfolded form of a normal membrane protein acts as a template: contact converts the normal form into the misfolded shape, which then joins growing aggregates. Which statement follows from this mechanism?",
+   "options": [
+    "Each converted molecule becomes a new template that converts others, so the number of misfolded molecules can grow exponentially without any nucleic acid.",
+    "The misfolded protein carries a nucleic acid sequence that mutates the DNA of the cells it enters.",
+    "The aggregates are composed of lipid that has been misread from membrane phospholipids.",
+    "The process requires a virus to replicate, because no protein can propagate information alone.",
+    "The reaction is self-limiting, because one misfolded molecule can convert at most one other molecule in its lifetime."
+   ],
+   "ans": "A",
+   "exp": "Templated misfolding is autocatalytic: every newly converted molecule is itself infectious material, so the misfolded population can grow exponentially even though prions contain no nucleic acid. The one-to-one option ignores the chain reaction, and the virus option fails because protein conformation alone transmits the information.",
+   "perm": [
+    4,
+    1,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · prion misfolding cascade",
+   "lik": "H"
+  },
+  {
+   "n": 18,
+   "stem": "A cell line carries a mutation that disables its main chaperone proteins, while protein synthesis continues normally and amino acid sequences are unchanged. The most likely consequence inside the cell is that:",
+   "options": [
+    "the primary structure of each new protein is edited, because chaperones remove wrong amino acids during folding",
+    "new proteins are exported while still unfolded, because folding normally happens outside the cell",
+    "ribosomes stop translating, because chaperones supply the energy for peptide bond formation",
+    "many new chains expose their hydrophobic regions, bind each other, and aggregate instead of reaching the native fold",
+    "nothing changes, because the amino acid sequence alone always guarantees correct folding inside a living cell"
+   ],
+   "ans": "D",
+   "exp": "Chaperones shield exposed hydrophobic patches and give new chains time to find the native fold, so without them those patches stick to one another and aggregates form. The sequence itself is untouched because chaperones affect conformation, not covalent structure, and the do-nothing option ignores that aggregation competes with folding in the crowded cell.",
+   "perm": [
+    0,
+    4,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · chaperones and aggregation",
+   "lik": "H"
+  },
+  {
+   "n": 19,
+   "stem": "In a steroid-producing gland cell, the smooth endoplasmic reticulum is actively making hormones, while a lysosome is digesting a bacterium taken in by phagocytosis. Which pair of products is formed by the smooth endoplasmic reticulum and by lysosomal action, respectively?",
+   "options": [
+    "Peptide hormones by the smooth endoplasmic reticulum; small soluble digestion products such as amino acids and monosaccharides by the lysosome.",
+    "Steroid hormones by the smooth endoplasmic reticulum; small soluble digestion products such as amino acids and monosaccharides by the lysosome.",
+    "Steroid hormones by the smooth endoplasmic reticulum; hydrogen peroxide and water by the lysosome.",
+    "Steroid hormones by the rough endoplasmic reticulum; intact bacterial fragments kept permanently inside the lysosome.",
+    "Steroid hormones by the smooth endoplasmic reticulum; fully digested proteins exported out of the cell by the lysosome."
+   ],
+   "ans": "B",
+   "exp": "The smooth endoplasmic reticulum is the site of lipid and steroid synthesis, so the gland's product is a steroid, while lysosomal acid hydrolases break the bacterium down into small soluble molecules that pass into the cytosol. The peptide-hormone option belongs to rough-ER products, and the hydrogen-peroxide option describes peroxisomes, not lysosomes.",
+   "perm": [
+    1,
+    4,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · products of smooth ER and lysosome action",
+   "lik": "H"
+  },
+  {
+   "n": 20,
+   "stem": "Which of the following statements about peroxisomes and lysosomes is correct?",
+   "options": [
+    "Peroxisomal catalase decomposes the hydrogen peroxide formed inside the organelle into water and oxygen.",
+    "Lysosomes generate hydrogen peroxide while oxidising fatty acids and amino acids.",
+    "Peroxisomes are formed as vesicles budding from the Golgi apparatus and are filled with acid hydrolases.",
+    "The interior of peroxisomes is strongly acidic, which is the optimum for catalase.",
+    "Lysosomal hydrolases convert hydrogen peroxide into water and molecular oxygen."
+   ],
+   "ans": "A",
+   "exp": "Oxidases inside peroxisomes produce hydrogen peroxide, and catalase, also located in the peroxisome, splits it into water and oxygen. The hydrogen-peroxide options misplace this reaction in lysosomes, the Golgi-derived vesicles filled with acid hydrolases are lysosomes, and the strongly acidic interior belongs to the lysosome rather than the peroxisome.",
+   "perm": [
+    2,
+    0,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · peroxisomes vs lysosomes",
+   "lik": "M"
+  },
+  {
+   "n": 21,
+   "stem": "In animal cells the first step of peroxisomal fatty acid oxidation is catalysed by an oxidase that passes electrons directly to oxygen, forming hydrogen peroxide. A mutation abolishes the activity of peroxisomal catalase. Which outcome is expected?",
+   "options": [
+    "Fatty acid oxidation in the peroxisome stops immediately, because catalase performs the first oxidation step.",
+    "Hydrogen peroxide is delivered to lysosomes, where hydrolases split it safely into water and oxygen.",
+    "Hydrogen peroxide leaves the cell unchanged at a rate that fully protects the cytosol.",
+    "Hydrogen peroxide generated in the peroxisome is no longer decomposed, so it accumulates and can reach the cytosol, where it damages cellular components.",
+    "The mitochondrion takes over the decomposition of hydrogen peroxide at the cost of extra ATP consumption."
+   ],
+   "ans": "D",
+   "exp": "Catalase normally splits the peroxide produced by peroxisomal oxidases into water and oxygen; without it the peroxide accumulates and, being a small uncharged molecule, can diffuse out and oxidise cytosolic components. The first-step option is wrong because the oxidase, not catalase, performs that step, and lysosomes carry hydrolases, not peroxide-splitting catalase.",
+   "perm": [
+    4,
+    1,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · peroxisome catalase failure",
+   "lik": "H"
+  },
+  {
+   "n": 22,
+   "stem": "A metabolic poison halts ATP production in an animal cell kept in an isotonic medium. Which combination of transport processes continues at its normal rate for some time?",
+   "options": [
+    "Sodium-potassium pumping out of the cell continues, while osmosis through aquaporins stops.",
+    "Facilitated diffusion of glucose down its concentration gradient and osmosis of water continue, while sodium-potassium pumping stops.",
+    "Every carrier-mediated process stops, because all carrier proteins are driven directly by ATP hydrolysis.",
+    "Active uptake of calcium into the endoplasmic reticulum continues, while osmosis stops.",
+    "Sodium-potassium pumping and osmosis continue, while facilitated diffusion of glucose stops."
+   ],
+   "ans": "B",
+   "exp": "Osmosis and facilitated diffusion are passive and run without ATP, whereas the sodium-potassium pump and the calcium pump of the endoplasmic reticulum hydrolyse ATP directly and stop first. The claim that all carrier-mediated transport needs ATP confuses active transport with passive carrier-mediated diffusion.",
+   "perm": [
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · ATP dependence of transport",
+   "lik": "H"
+  },
+  {
+   "n": 23,
+   "stem": "Cells are cultured in a medium whose glucose concentration is higher than the glucose concentration inside the cells. The cells take up glucose through a membrane carrier protein, and the uptake rate is unchanged when ATP synthesis is blocked by a poison. Which process accounts for the uptake?",
+   "options": [
+    "Simple diffusion through the phospholipid bilayer",
+    "Primary active transport coupled to ATP hydrolysis",
+    "Facilitated diffusion through the carrier protein",
+    "Secondary active transport driven by the sodium gradient",
+    "Endocytosis of glucose in membrane vesicles"
+   ],
+   "ans": "C",
+   "exp": "Glucose moves down its concentration gradient through a specific carrier and proceeds without ATP, which is exactly facilitated diffusion; glucose is polar and cannot cross the bilayer by simple diffusion. The active-transport options would slow or stop when ATP production is blocked, and glucose uptake here needs no sodium gradient.",
+   "perm": [
+    1,
+    0,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · facilitated diffusion case",
+   "lik": "M"
+  },
+  {
+   "n": 24,
+   "stem": "A red blood cell whose interior behaves as 300 mmol/dm³ of non-penetrating solute is placed in a large volume of solution containing 150 mmol/dm³ sodium chloride (fully dissociated) and 100 mmol/dm³ urea. Sodium chloride cannot cross the membrane; urea crosses freely. What happens to the cell?",
+   "options": [
+    "Water first leaves the cell and it shrinks; once urea has equilibrated across the membrane, water returns and the cell regains its original volume.",
+    "Water first leaves the cell and it shrinks; later, water re-enters and the cell swells until it lyses.",
+    "No net movement of water occurs at any time, because the sodium chloride by itself is already isotonic with the cytosol.",
+    "Water enters the cell continuously from the start and the cell lyses, because the outside solution has the higher total concentration of solute particles.",
+    "The cell shrinks permanently, because urea that has entered the cytosol cannot leave again."
+   ],
+   "ans": "A",
+   "exp": "The solution initially exerts about 400 mmol/dm³ of particles against 300 inside, so water leaves and the cell shrinks. Urea then diffuses in down its gradient until both sides hold 100 mmol/dm³, water follows back, and the cell returns to its original volume, since 300 fixed particles plus 100 urea inside now match 300 plus 100 outside. The lysis outcome would apply to a penetrating solute without any non-penetrating salt, and the no-movement option ignores the initial excess of urea.",
+   "perm": [
+    1,
+    4,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · osmosis with a penetrating solute",
+   "lik": "H"
+  },
+  {
+   "n": 25,
+   "stem": "Which statement about the fluid mosaic model of the plasma membrane is correct?",
+   "options": [
+    "The membrane is a rigid structure in which every protein is fixed in one position for the life of the cell.",
+    "The hydrophobic fatty acid tails of the phospholipids face the aqueous solutions on both sides of the membrane.",
+    "The core of the bilayer is hydrophilic, which is why small ions cross it freely.",
+    "Cholesterol is the main component of plant-cell membranes and is absent from animal cells.",
+    "Phospholipids and many membrane proteins can move laterally within the bilayer, which behaves as a two-dimensional fluid."
+   ],
+   "ans": "E",
+   "exp": "In the fluid mosaic model the bilayer is a two-dimensional fluid in which lipids and many proteins diffuse laterally, with proteins embedded as a mosaic. The tails face inward, the hydrophobic core actually blocks ions, and cholesterol is a characteristic component of animal-cell membranes rather than being absent from them.",
+   "perm": [
+    0,
+    4,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · fluid mosaic model",
+   "lik": "M"
+  },
+  {
+   "n": 26,
+   "stem": "Researchers treat sealed vesicles of plasma membrane in two ways. Treatment 1 uses a concentrated salt solution that disrupts ionic and polar interactions but leaves the bilayer intact. Treatment 2 uses a mild detergent that dissolves the bilayer. Which result is expected?",
+   "options": [
+    "Treatment 1 releases peripheral proteins bound to the membrane surfaces, while treatment 2 releases integral proteins such as transmembrane channels.",
+    "Treatment 1 releases integral proteins, because their transmembrane segments bind ions, while treatment 2 releases only peripheral proteins.",
+    "Both treatments release only peripheral proteins, because integral proteins are protected by carbohydrate chains.",
+    "Neither treatment can release integral proteins, because transmembrane segments cannot be separated from lipids.",
+    "Treatment 1 releases both classes of protein equally, because ionic interactions anchor the integral proteins in the bilayer."
+   ],
+   "ans": "A",
+   "exp": "Peripheral proteins attach to the membrane surface through ionic and polar interactions and come away with high salt, while integral proteins are anchored by hydrophobic transmembrane segments and are freed only when detergent disrupts the bilayer. The option claiming ionic anchoring reverses the chemistry: the transmembrane anchor is hydrophobic, not ionic.",
+   "perm": [
+    0,
+    2,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · integral vs peripheral proteins",
+   "lik": "H"
+  },
+  {
+   "n": 27,
+   "stem": "A red blood cell is moved from an isotonic medium into a solution with a higher total concentration of non-penetrating solutes than the cytosol. What is the outcome?",
+   "options": [
+    "Water enters the cell by osmosis and the cell swells.",
+    "Water leaves the cell by osmosis and the cell shrivels.",
+    "Non-penetrating solutes enter the cell until the two concentrations are equal, so the volume stays constant.",
+    "The volume stays constant, because a cell wall resists any change in water content.",
+    "Water leaves the cell until the membrane bursts."
+   ],
+   "ans": "B",
+   "exp": "The hypertonic medium draws water out by osmosis, so the animal cell shrivels. The bursting outcome belongs to the opposite case, a hypotonic medium, red blood cells have no cell wall, and non-penetrating solutes cannot cross the membrane to equalise the concentrations.",
+   "perm": [
+    0,
+    4,
+    2,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · hypertonic solution, animal cell",
+   "lik": "M"
+  },
+  {
+   "n": 28,
+   "stem": "Cells from the same tissue are divided into two samples: one sample is placed in solution X, which is hypertonic to the cells, and the other in solution Y, which is hypotonic to the cells. Both plant and animal cells are treated this way. Which statement about the outcomes is correct?",
+   "options": [
+    "In solution X the plant cells show plasmolysis, with the plasma membrane pulling away from the intact wall, while in solution Y the animal cells swell and may burst.",
+    "In solution X both cell types burst, while in solution Y both cell types shrink.",
+    "In solution X the plant cell walls collapse inward together with the membrane, while in solution Y the animal cells become turgid.",
+    "In solution X the animal cells become turgid, while in solution Y the plant cells show plasmolysis.",
+    "In solution X the animal cells remain unchanged because their membrane is elastic, while in solution Y the plant cells burst."
+   ],
+   "ans": "A",
+   "exp": "In the hypertonic solution water leaves: the plant protoplast shrinks and the membrane pulls away from the rigid wall, which itself does not collapse, while the animal cell simply shrivels. In the hypotonic solution water flows in: the wall lets the plant cell build turgor pressure without bursting, whereas the wall-less animal cell swells and may lyse.",
+   "perm": [
+    0,
+    3,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · tonicity in plant vs animal cells",
+   "lik": "H"
+  },
+  {
+   "n": 29,
+   "stem": "Viruses are described as acellular. Which statement gives the main reason?",
+   "options": [
+    "A virus particle contains either DNA or RNA, but never both at once.",
+    "A virus has no cytoplasm, no ribosomes and no metabolism of its own, and it can multiply only inside a host cell.",
+    "A virus particle is far too small to be seen with a light microscope.",
+    "A virus has no cell wall around its nucleic acid.",
+    "A virus can be crystallised and stored like a chemical substance."
+   ],
+   "ans": "B",
+   "exp": "A virus lacks cytoplasm, ribosomes and independent metabolism, and it reproduces only by hijacking a host cell, so it satisfies none of the defining features of a cell. The single-genome statement is a true property of viruses but not the reason they are acellular, and small size or crystallisation do not define cellularity.",
+   "perm": [
+    3,
+    2,
+    1,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · viruses as acellular",
+   "lik": "M"
+  },
+  {
+   "n": 30,
+   "stem": "Which of the following statements about viruses is correct?",
+   "options": [
+    "The envelope of an enveloped virus is assembled on its own ribosomes from lipids synthesised by viral enzymes.",
+    "A single virus particle may contain one DNA genome and one RNA genome at the same time.",
+    "Viruses increase in number by binary fission within the host cytoplasm.",
+    "An enveloped virus takes its lipid envelope from a host-cell membrane as it leaves the cell and inserts its own glycoproteins into that envelope.",
+    "Viruses carry ribosomes that switch on only after the nucleic acid has entered the host cell."
+   ],
+   "ans": "D",
+   "exp": "Enveloped viruses obtain their lipid envelope from host membranes during budding or exocytosis and embed virus-encoded glycoproteins in it. Viruses never hold two genome types at once, possess no ribosomes at all, and binary fission is a cellular process they do not perform.",
+   "perm": [
+    1,
+    2,
+    0,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · viral structure and replication",
+   "lik": "H"
+  },
+  {
+   "n": 31,
+   "stem": "Which pairing of a plastid type with what it stores is correct?",
+   "options": [
+    "Amyloplasts store starch, for example in potato tubers.",
+    "Elaioplasts store proteins, for example in cereal grains.",
+    "Aleuroplasts store oils and lipids, for example in oil seeds.",
+    "Chromoplasts store chlorophyll, for example in mature leaves.",
+    "Amyloplasts store the red and yellow pigments, for example in tomato fruits."
+   ],
+   "ans": "A",
+   "exp": "Amyloplasts are starch-storing leucoplasts, elaioplasts store oils and lipids, and aleuroplasts store protein, while the carotenoid pigments of fruit and petals sit in chromoplasts and leaf chlorophyll sits in chloroplasts. The elaioplast and aleuroplast pairings in the other options are swapped.",
+   "perm": [
+    2,
+    0,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · plastid storage types",
+   "lik": "M"
+  },
+  {
+   "n": 32,
+   "stem": "During the ripening of a tomato fruit the green colour fades, red pigments accumulate, and the starch stored in the fruit is converted into sugars. Which combination of plastid events fits these changes?",
+   "options": [
+    "Chloroplasts differentiate into amyloplasts as starch accumulates, while chromoplasts break the sugars down further.",
+    "Elaioplasts differentiate into chloroplasts as chlorophyll returns, while aleuroplasts release carotenoids.",
+    "Chloroplasts differentiate into chromoplasts as carotenoids accumulate, while amyloplasts release the starch that is hydrolysed to sugars.",
+    "Chromoplasts differentiate back into chloroplasts as the fruit ripens, while elaioplasts hydrolyse the starch.",
+    "Chloroplasts differentiate into leucoplasts that store the red pigments, while amyloplasts build new starch from the sugars."
+   ],
+   "ans": "C",
+   "exp": "In ripening fruit, chloroplasts change into chromoplasts, which accumulate the red carotenoid lycopene, and the starch held in amyloplasts is hydrolysed to sugars that sweeten the tissue. The reversed-conversion options get the direction of differentiation wrong, and carotenoids are stored in chromoplasts rather than in leucoplasts or elaioplasts.",
+   "perm": [
+    2,
+    4,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · plastid differentiation in ripening",
+   "lik": "H"
+  },
+  {
+   "n": 33,
+   "stem": "In Tay-Sachs disease, a defective gene leaves one enzyme inactive inside a particular organelle. Nerve cells of affected children develop swollen vesicles packed with undigested ganglioside lipids. Which statement identifies the organelle and explains the accumulation?",
+   "options": [
+    "The peroxisome lacks catalase, so lipids taken in for oxidation accumulate inside it.",
+    "The smooth endoplasmic reticulum overproduces lipids faster than they can be exported, so lipid-filled vesicles swell up.",
+    "The lysosome lacks a functional hydrolytic enzyme, so lipid delivered to it for digestion is not broken down and accumulates inside it.",
+    "The Golgi apparatus fails to package secretory proteins, so undigested lipid collects in secretory vesicles.",
+    "The mitochondrion cannot oxidise the gangliosides, so the lipid is stored inside mitochondrial cristae."
+   ],
+   "ans": "C",
+   "exp": "Tay-Sachs is a lysosomal storage disease: a defective acid hydrolase cannot degrade gangliosides, so the lipid delivered to lysosomes for digestion accumulates in swollen vesicles. The peroxisome performs oxidation reactions such as very-long-chain fatty acid breakdown, not ganglioside digestion, and the ER and Golgi options describe synthesis and packaging steps that are not the defect.",
+   "perm": [
+    3,
+    1,
+    4,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · lysosomal storage disease",
+   "lik": "H"
+  },
+  {
+   "n": 34,
+   "stem": "Three treatments each disable one organelle in a cell line. After treatment 1, secreted proteins are synthesised but are never given mature carbohydrate chains and are not sorted to their destinations. After treatment 2, the cells cannot break down very-long-chain fatty acids. After treatment 3, engulfed bacteria are not digested even though acid hydrolases are produced normally. Which set of organelles is disabled by treatments 1, 2 and 3, respectively?",
+   "options": [
+    "Rough endoplasmic reticulum; lysosome; peroxisome",
+    "Golgi apparatus; lysosome; peroxisome",
+    "Smooth endoplasmic reticulum; peroxisome; Golgi apparatus",
+    "Rough endoplasmic reticulum; peroxisome; lysosome",
+    "Golgi apparatus; peroxisome; lysosome"
+   ],
+   "ans": "E",
+   "exp": "The Golgi apparatus matures carbohydrate chains and sorts proteins for export, the peroxisome houses the breakdown of very-long-chain fatty acids, and lysosomes provide the acid hydrolases that digest engulfed bacteria. Sorting to final destinations is a Golgi function, so the rough-ER option for treatment 1 is not the best match even though the first glycosylation step happens there, and the option assigning the lysosome to the fatty-acid defect swaps peroxisomal oxidation for lysosomal digestion.",
+   "perm": [
+    1,
+    0,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · organelle malfunction matching",
+   "lik": "H"
+  },
+  {
+   "n": 35,
+   "stem": "A bacterial culture is treated with a drug that completely inhibits DNA gyrase, a topoisomerase. Helicase and DNA polymerase are unaffected, and replication was already under way at several forks when the drug was added. Which outcome is expected?",
+   "options": [
+    "Replication continues at normal speed, because topoisomerase acts only at the very end of replication to link the two daughter molecules.",
+    "Replication forks stall shortly after drug addition, because unwinding by helicase leaves the unreplicated DNA ahead of each fork increasingly overwound and torsionally strained.",
+    "Helicase can no longer separate the two strands, because topoisomerase is the enzyme that breaks the hydrogen bonds between complementary bases.",
+    "Okazaki fragments accumulate on the lagging strand, because topoisomerase normally seals the nicks between adjacent fragments.",
+    "The separated parental strands cannot act as templates, because topoisomerase proofreads newly synthesized DNA."
+   ],
+   "ans": "B",
+   "exp": "Topoisomerase relieves the positive supercoiling that builds up ahead of a moving fork; without it the torsional strain rapidly blocks helicase, so forks stall even though helicase and polymerase themselves are intact. The Okazaki option describes the job of DNA ligase, which seals nicks between fragments and is a different enzyme.",
+   "perm": [
+    2,
+    0,
+    3,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · replication enzymes (topoisomerase)",
+   "lik": "H"
+  },
+  {
+   "n": 36,
+   "stem": "In a temperature-sensitive bacterial mutant shifted to the restrictive temperature, DNA ligase is inactive while helicase, primase and DNA polymerase still function normally. Which observation is expected in cells that were replicating at the time of the shift?",
+   "options": [
+    "The lagging strand remains as a series of separate Okazaki fragments, because the nicks between adjacent fragments are not sealed.",
+    "The leading strand also remains in fragments, because ligase normally cuts the leading strand into pieces during replication.",
+    "Helicase stops unwinding the parental double helix, because the torsional stress generated by unwinding can only be resolved by ligase.",
+    "No new Okazaki fragments are synthesized at all, because the synthesis of each fragment requires ligase.",
+    "RNA primers are no longer removed from the fragments, because primer removal is carried out by DNA ligase."
+   ],
+   "ans": "A",
+   "exp": "Primase and polymerase make each Okazaki fragment, so fragments still form at the restrictive temperature; ligase only forms the final phosphodiester bond between adjacent fragments, so the lagging strand stays discontinuous. The helicase option assigns ligase the torsion-relieving role that belongs to topoisomerase.",
+   "perm": [
+    2,
+    0,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · replication enzymes (ligase)",
+   "lik": "M"
+  },
+  {
+   "n": 37,
+   "stem": "In a eukaryotic species, nucleosomes are arranged with a repeat length of 200 bp of DNA per nucleosome. Each nucleosome core particle contains two copies each of histones H2A, H2B, H3 and H4, with 147 bp of DNA wrapped around the octamer. A linear stretch of this chromatin is 24,000 bp long. How many molecules of histone H3 are present in its nucleosome core particles?",
+   "options": [
+    "60 molecules",
+    "120 molecules",
+    "240 molecules",
+    "480 molecules",
+    "960 molecules"
+   ],
+   "ans": "C",
+   "exp": "The stretch holds 24000 / 200 = 120 core particles, and each core particle contains two H3 molecules, giving 2 x 120 = 240. The 480 option counts all four core histone types as if each contributed H3, and the 960 option counts every protein in the octamer as H3.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · nucleosomes and chromatin",
+   "lik": "H"
+  },
+  {
+   "n": 38,
+   "stem": "Which statement about histones is correct?",
+   "options": [
+    "Histones are acidic proteins that bind DNA through attraction between their negatively charged side chains and the positively charged DNA backbone.",
+    "Histones are covalently joined to DNA by a ligation reaction, which is what holds each nucleosome together.",
+    "Bacterial chromosomes are organized around histone octamers in the same way as eukaryotic chromosomes.",
+    "Histones are small basic proteins whose positive charges bind the negatively charged phosphate groups of the DNA backbone.",
+    "Each nucleosome core particle contains eight different histone types, one molecule of each kind."
+   ],
+   "ans": "D",
+   "exp": "Histones are rich in lysine and arginine, so they are basic and bind the acidic phosphate backbone mainly through ionic interactions, not covalent bonds. The acidic-protein option reverses the charge logic: acidic side chains would repel the DNA phosphates rather than attract them.",
+   "perm": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · histone properties",
+   "lik": "M"
+  },
+  {
+   "n": 39,
+   "stem": "Bacteria are grown for many generations in a medium whose only nitrogen source is the heavy isotope 15N, so that all their DNA is fully heavy. The culture is then transferred to ordinary 14N medium and allowed to complete three further rounds of replication. Assuming semiconservative replication, what fraction of the double-stranded DNA molecules present at the end contain 15N in at least one of their strands?",
+   "options": [
+    "1/16",
+    "1/8",
+    "1/4",
+    "1/2",
+    "3/4"
+   ],
+   "ans": "C",
+   "exp": "The two original heavy strands never disappear: in every generation each sits in exactly one hybrid molecule, so there are always 2 molecules containing 15N, while the total number of molecules doubles each round. After three rounds there are 8 molecules, so the fraction is 2/8 = 1/4; the answer 3/4 is the fraction that is entirely new instead.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · semi-conservative replication (Meselson-Stahl)",
+   "lik": "H"
+  },
+  {
+   "n": 40,
+   "stem": "In a Meselson-Stahl type experiment, bacteria grown in 15N medium are shifted to 14N medium and allowed to replicate for exactly two rounds. Centrifugation then separates the DNA into two distinct bands: one at intermediate density and one fully light, with no heavy band anywhere in the tube. Which conclusion is justified?",
+   "options": [
+    "Semiconservative replication is excluded, because it predicts a single intermediate band after two rounds.",
+    "Only the conservative model is excluded, because the dispersive model still predicts two separate bands.",
+    "Only the dispersive model is excluded, because the conservative model still predicts an intermediate band.",
+    "Both the conservative and the dispersive models are excluded, which is the classic evidence for semiconservative replication.",
+    "The experiment is uninterpretable, because no model predicts a light band after only two rounds."
+   ],
+   "ans": "D",
+   "exp": "After two rounds semiconservative replication gives half hybrid molecules (the intermediate band) and half fully light molecules (the light band). The conservative model would still show a fully heavy band, and the dispersive model would give one single band of uniform intermediate density, so two bands with no heavy band rule out both rivals at once.",
+   "perm": [
+    0,
+    4,
+    2,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · Meselson-Stahl two-generation readout",
+   "lik": "H"
+  },
+  {
+   "n": 41,
+   "stem": "Which statement about the eukaryotic (80S) ribosome is correct?",
+   "options": [
+    "Its large and small subunits are assembled in the nucleolus and are exported separately to the cytoplasm, where they combine only when translation begins.",
+    "The complete 80S particle is assembled in the cytoplasm on the rough endoplasmic reticulum.",
+    "It is built from a 50S large subunit and a 30S small subunit, as is the case in all living cells.",
+    "One of its subunits is made of protein only and the other of RNA only.",
+    "Its subunits are assembled in the Golgi apparatus and delivered to the cytoplasm inside transport vesicles."
+   ],
+   "ans": "A",
+   "exp": "Ribosomal RNA is transcribed and the subunits begin assembling in the nucleolus; the mature 60S and 40S subunits are then exported separately and only associate on an mRNA at initiation. The 50S plus 30S option describes the prokaryotic 70S ribosome, not the eukaryotic one.",
+   "perm": [
+    0,
+    4,
+    1,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · eukaryotic ribosome structure and assembly",
+   "lik": "M"
+  },
+  {
+   "n": 42,
+   "stem": "A eukaryotic gene consists of two exons separated by one intron, and that intron contains a stop codon in the reading frame. The DNA of the gene, intron included, is inserted into a bacterium under the control of a bacterial promoter, transcribed and translated. Which outcome is expected?",
+   "options": [
+    "The normal-length protein is produced, because bacteria remove introns from RNA using the same spliceosome as eukaryotes.",
+    "No polypeptide is produced, because a bacterial ribosome cannot translate a transcript that contains intron sequences.",
+    "A protein longer than the normal one is produced, because the entire intron is translated in addition to both exons.",
+    "The normal protein is produced, with the amino acids encoded by the intron simply inserted between the two exons.",
+    "A shortened polypeptide is produced, because translation stops at the stop codon inside the intron, before the second exon is ever reached."
+   ],
+   "ans": "E",
+   "exp": "Prokaryotes generally lack spliceosomes, so the transcript keeps the intron; the ribosome translates exon 1 into the intron and terminates at the in-frame stop codon there, giving a truncated polypeptide that lacks the second exon. The inserted-amino-acids option fails because translation halts inside the intron at that stop codon rather than continuing into exon 2.",
+   "perm": [
+    1,
+    2,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · RNA splicing (introns in prokaryotes)",
+   "lik": "H"
+  },
+  {
+   "n": 43,
+   "stem": "Which statement about RNA splicing is correct?",
+   "options": [
+    "Splicing removes the exons and joins the introns together to build the mature mRNA that is translated.",
+    "Splicing takes place in the cytoplasm, on the ribosome, immediately before translation begins.",
+    "In eukaryotes, introns are removed and exons joined before the mature mRNA leaves the nucleus, whereas most bacterial genes contain no introns and their transcripts are not spliced.",
+    "Bacterial mRNAs must be spliced before translation, because bacterial genes are normally rich in introns.",
+    "Splicing alters the nucleotide sequence of the exons so that they come to encode different amino acids."
+   ],
+   "ans": "C",
+   "exp": "Eukaryotic pre-mRNA is spliced in the nucleus before export, and bacterial genes are typically intron-free, so no splicing step exists in bacteria. The first option reverses the two elements: splicing removes introns and joins exons, and it does not change exon sequence.",
+   "perm": [
+    1,
+    2,
+    0,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · RNA splicing (eukaryote vs prokaryote)",
+   "lik": "M"
+  },
+  {
+   "n": 44,
+   "stem": "A codon table shows that CAG codes for glutamine and that UAG is a stop codon. In an mRNA molecule, the codon CAG is changed to UAG by a single base substitution. This mutation is best classified as:",
+   "options": [
+    "A nonsense mutation.",
+    "A missense mutation.",
+    "A silent mutation.",
+    "A frameshift mutation.",
+    "An insertion mutation."
+   ],
+   "ans": "A",
+   "exp": "The change turns a glutamine codon into a stop signal, so translation ends prematurely and a truncated polypeptide results, which is the definition of a nonsense mutation. A missense classification would require the new codon to specify a different amino acid, and a single base substitution cannot shift the reading frame.",
+   "perm": [
+    0,
+    4,
+    2,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · mutation types (nonsense)",
+   "lik": "M"
+  },
+  {
+   "n": 45,
+   "stem": "The beginning of an mRNA reads AUG CCU GGU UGA, where UGA is the fourth codon and is a stop signal. Given the code AUG = methionine, CCU = proline, GGU = glycine, ACC = threonine, UGG = tryptophan, UUG = leucine, a mutation inserts one extra nucleotide, A, immediately after the first codon. Which statement is correct?",
+   "options": [
+    "Only one amino acid changes, because the ribosome re-establishes the original reading frame after a single inserted nucleotide.",
+    "Methionine is still the first amino acid, but proline, glycine and every later position change, and the original UGA stop signal is never read because it is split across the new codon boundaries.",
+    "The protein becomes just methionine followed by threonine, because the new codon ACC acts as a stop signal.",
+    "The insertion is silent, because adding a single nucleotide leaves each existing codon intact.",
+    "Translation now ends at the position of the former UGA codon, but the amino acids before that point are all unchanged."
+   ],
+   "ans": "B",
+   "exp": "Inserting one nucleotide shifts every downstream group of three bases: the new codons are ACC, UGG, UUG, so proline and glycine are replaced by threonine and tryptophan, and the old UGA stop is consumed inside new codons and never read as a stop. The claim that the ribosome restores the frame misses the defining feature of a frameshift: the one-base offset persists to the end of the message.",
+   "perm": [
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · mutation types (frameshift)",
+   "lik": "M"
+  },
+  {
+   "n": 46,
+   "stem": "A codon table gives: GAA and GAG both code for glutamate, GUA codes for valine, and UAA is a stop codon. In the same gene in two different individuals, single-base substitutions occur at the same codon: in mutant X the codon GAA becomes GAG, and in mutant Y the codon GAA becomes GUA. Which classification is correct?",
+   "options": [
+    "X is a missense mutation and Y is a silent mutation.",
+    "X is a nonsense mutation and Y is a missense mutation.",
+    "X is a silent mutation and Y is a nonsense mutation.",
+    "X is a silent mutation and Y is a missense mutation.",
+    "X is a frameshift mutation and Y is a missense mutation."
+   ],
+   "ans": "D",
+   "exp": "In X the codon still specifies glutamate, so the amino acid sequence is unchanged and the mutation is silent; in Y glutamate is replaced by valine, a different amino acid, so it is missense. The nonsense option is wrong because replacing an acidic residue is not a stop signal: a nonsense mutation needs the codon itself to become a stop codon such as UAA.",
+   "perm": [
+    2,
+    1,
+    4,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · mutation types (silent and missense)",
+   "lik": "H"
+  },
+  {
+   "n": 47,
+   "stem": "A researcher sets up a PCR containing the DNA template, Taq polymerase and all four dNTPs, but accidentally omits the primers. The thermal cycler still runs its full programme of denaturation, annealing and extension. Which outcome is expected?",
+   "options": [
+    "Amplification occurs but more slowly, because Taq polymerase is able to start synthesis on a single-stranded template without a primer.",
+    "The dNTPs anneal to the template in place of the missing primers and allow amplification to proceed.",
+    "The reaction fails because Taq polymerase is destroyed at the annealing temperature of the cycle.",
+    "One copy of the template is produced in each cycle, so the DNA accumulates linearly instead of exponentially.",
+    "No amplification occurs, because DNA polymerase cannot start a new strand and can only extend from the free 3' end that a paired primer provides."
+   ],
+   "ans": "E",
+   "exp": "Taq polymerase is thermostable but can only add nucleotides to an existing strand, so without oligonucleotide primers supplying a paired 3' end there is no extension step and no product ever accumulates. The linear-accumulation option wrongly assumes that synthesis can begin on a bare single-stranded template.",
+   "perm": [
+    1,
+    2,
+    0,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · PCR components (primers and Taq polymerase)",
+   "lik": "H"
+  },
+  {
+   "n": 48,
+   "stem": "A PCR tube starts with exactly one double-stranded DNA molecule. The reaction runs three complete cycles, and in every cycle each single strand present serves as the template for one newly synthesized complementary strand. After the third cycle, how many of the double-stranded molecules consist of two newly synthesized strands, with no original template strand at all?",
+   "options": [
+    "0 molecules",
+    "2 molecules",
+    "4 molecules",
+    "6 molecules",
+    "8 molecules"
+   ],
+   "ans": "D",
+   "exp": "After cycle 1 there are 2 molecules, both hybrids of one old and one new strand; after cycle 2 there are 4 molecules, of which 2 are entirely new; after cycle 3 there are 8 molecules, and only the two strands of the original template still sit in hybrid molecules, leaving 8 - 2 = 6 that are entirely new. The 8 option forgets that each original strand persists in one hybrid molecule forever.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · PCR amplification (copy counting)",
+   "lik": "H"
+  },
+  {
+   "n": 49,
+   "stem": "A culture of actively dividing fibroblasts is exposed to UV radiation while all cells are in G1, producing numerous thymine dimers. The G1 checkpoint responds normally. Which outcome is expected?",
+   "options": [
+    "Cells proceed into S phase on schedule, because the G1 checkpoint monitors spindle attachment rather than DNA integrity.",
+    "Cells arrest in mitosis, because DNA damage is detected only at the metaphase checkpoint.",
+    "Cells arrest in G1 and do not enter S phase until the damage is repaired, so damaged DNA is not replicated.",
+    "Cells complete division and enter G0, because DNA repair can occur only after cytokinesis is finished.",
+    "Cells replicate the damaged DNA normally in S phase and repair it at the G2 checkpoint before mitosis begins."
+   ],
+   "ans": "C",
+   "exp": "The G1 checkpoint halts the cycle while repair systems remove the dimers, so replication of damaged templates is avoided. The claim that the G1 checkpoint monitors spindle attachment confuses it with the metaphase checkpoint, and waiting for repair at G2 would let the dimers be copied first.",
+   "perm": [
+    1,
+    4,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · cell cycle checkpoints (G1 DNA damage)",
+   "lik": "H"
+  },
+  {
+   "n": 50,
+   "stem": "Which statement about the phases of the eukaryotic cell cycle is correct?",
+   "options": [
+    "A cell in the G0 phase actively replicates its DNA in preparation for a future division.",
+    "DNA replication takes place during the S phase, so a cell entering mitosis contains twice the amount of DNA it had at the start of interphase.",
+    "Chromosome condensation and spindle formation take place during the S phase.",
+    "Cytokinesis, the division of the cytoplasm, is completed during the G2 phase.",
+    "The amount of DNA per cell doubles during mitosis and is halved during the S phase."
+   ],
+   "ans": "B",
+   "exp": "DNA synthesis occurs only in S phase, so the DNA content is doubled before mitosis begins. The G0 option mistakes a quiescent, non-dividing state for a preparatory one, and condensation plus spindle assembly belong to prophase of the M phase.",
+   "perm": [
+    3,
+    4,
+    2,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · cell cycle phases (G1, S, G2, M, G0)",
+   "lik": "M"
+  },
+  {
+   "n": 51,
+   "stem": "During an early mitotic division of a chromosomally normal human embryo (2n = 46), the two sister chromatids of chromosome 21 fail to separate in anaphase of one cell. Which outcome is expected in the two daughter cells produced by that division?",
+   "options": [
+    "One daughter cell has 47 chromosomes and the other has 45, so the embryo becomes a mosaic of two cell lines.",
+    "Both daughter cells have 47 chromosomes, so the whole embryo becomes trisomic for chromosome 21.",
+    "Both daughter cells have 46 chromosomes, because mitotic segregation corrects the failed separation.",
+    "One daughter cell has 45 chromosomes and the other has 45, because both copies of chromosome 21 are lost.",
+    "One daughter cell has 47 chromosomes and the other has 45, but both lines die so the embryo does not survive."
+   ],
+   "ans": "A",
+   "exp": "Both sister chromatids travel to one pole and none to the other, so the daughters are 47 and 45; the monosomic line usually dies while the trisomic line keeps dividing, producing mosaicism. Whole-embryo trisomy arises from a nondisjunction during meiosis, and mitosis has no mechanism that corrects a segregation failure.",
+   "perm": [
+    3,
+    4,
+    0,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · mitotic nondisjunction (mosaicism)",
+   "lik": "H"
+  },
+  {
+   "n": 52,
+   "stem": "Which of the following statements about meiosis I is false?",
+   "options": [
+    "During prophase I, homologous chromosomes pair up in synapsis and may exchange segments by crossing over.",
+    "During metaphase I, paired homologous chromosomes align at the equator, with each pair oriented independently of the others.",
+    "During anaphase I, sister chromatids separate and move to opposite poles of the cell.",
+    "At the end of telophase I, each cell contains half the original chromosome number, and its chromosomes are still made of two sister chromatids.",
+    "Meiosis I is called the reductional division because it halves the chromosome number, unlike meiosis II."
+   ],
+   "ans": "C",
+   "exp": "In anaphase I, whole homologous chromosomes, each still formed by two sister chromatids, move to opposite poles; centromeres split only in anaphase II. The other statements match meiosis I: synapsis and crossing over in prophase I, random bivalent orientation in metaphase I, and halving of the chromosome number by telophase I.",
+   "perm": [
+    4,
+    2,
+    0,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · meiosis I stages",
+   "lik": "H"
+  },
+  {
+   "n": 53,
+   "stem": "Crossing over, a major source of new allele combinations, occurs:",
+   "options": [
+    "between the two sister chromatids of the same chromosome during prophase I of meiosis.",
+    "between homologous chromosomes during metaphase II, when the pairs align at the equator.",
+    "between non-sister chromatids during anaphase II, when the chromatids separate.",
+    "between homologous chromosomes during the S phase, while the DNA is being copied.",
+    "between non-sister chromatids of homologous chromosomes during prophase I of meiosis."
+   ],
+   "ans": "E",
+   "exp": "Chiasmata form while homologues are synapsed in prophase I, and the exchange involves non-sister chromatids of the two homologues. An exchange between sister chromatids would be genetically invisible, because they carry identical alleles.",
+   "perm": [
+    1,
+    0,
+    3,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · crossing over (prophase I)",
+   "lik": "M"
+  },
+  {
+   "n": 54,
+   "stem": "A plant species has a diploid number of 2n = 10. During anaphase II of meiosis, how many chromosomes move toward each pole, and what does each of them consist of?",
+   "options": [
+    "10 chromosomes, each made of two sister chromatids, move to each pole.",
+    "10 chromosomes, each made of a single chromatid, move to each pole.",
+    "20 chromatids move as separate chromosomes toward each pole.",
+    "5 chromosomes, each made of a single chromatid, move to each pole.",
+    "5 chromosomes, each still made of two sister chromatids, move to each pole."
+   ],
+   "ans": "D",
+   "exp": "After meiosis I the secondary meiocyte holds n = 5 double-chromatid chromosomes, and anaphase II splits every centromere, so five single-chromatid chromosomes reach each pole. The options with ten chromosomes per pole ignore the reduction that already occurred in meiosis I.",
+   "perm": [
+    3,
+    1,
+    0,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · anaphase II chromosome counts",
+   "lik": "H"
+  },
+  {
+   "n": 55,
+   "stem": "In a primary spermatocyte with 2n = 12, a nondisjunction of one homologous pair occurs during meiosis I, and meiosis II then proceeds normally. How many of the four resulting gametes have an abnormal chromosome number?",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "ans": "E",
+   "exp": "Both cells leaving meiosis I are already unbalanced, one with n+1 = 7 and one with n-1 = 5 chromosomes, and each of them produces two abnormal gametes in meiosis II, so all four gametes are abnormal. The count of two abnormal gametes is the signature of a nondisjunction in meiosis II instead.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · nondisjunction in meiosis I",
+   "lik": "H"
+  },
+  {
+   "n": 56,
+   "stem": "A primary spermatocyte (2n = 24) completes meiosis I normally. During meiosis II, in one of the two secondary spermatocytes the sister chromatids of one chromosome fail to separate, while the other secondary spermatocyte divides normally. Which set of sperm is produced?",
+   "options": [
+    "Two sperm with 13 chromosomes and two sperm with 11 chromosomes.",
+    "Two sperm with 12 chromosomes, one sperm with 13 and one sperm with 11 chromosomes.",
+    "Four sperm with 12 chromosomes each.",
+    "One sperm with 12 chromosomes, two sperm with 13 and one sperm with 11 chromosomes.",
+    "Two sperm with 24 chromosomes and two sperm with 12 chromosomes."
+   ],
+   "ans": "B",
+   "exp": "Only one secondary spermatocyte is affected, so it yields one n+1 sperm (13 chromosomes) and one n-1 sperm (11 chromosomes), while the unaffected one yields two normal sperm with 12. The pattern of two 13s and two 11s would follow from a nondisjunction in meiosis I, where both secondary spermatocytes are already unbalanced.",
+   "perm": [
+    4,
+    3,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · nondisjunction in meiosis II",
+   "lik": "H"
+  },
+  {
+   "n": 57,
+   "stem": "A male with 2n = 20 produces a sperm sample in which a single nondisjunction event occurred in one meiocyte. The four sperm from that meiocyte carry 11, 10, 10 and 9 chromosomes respectively. In which division did the nondisjunction occur, and why?",
+   "options": [
+    "Meiosis II, because one pair of sister chromatids failed to separate and only one of the two secondary spermatocytes was affected.",
+    "Meiosis I, because both cells leaving the first division were already aneuploid.",
+    "Meiosis I, because a pair of homologous chromosomes failed to separate and all four sperm are abnormal.",
+    "Meiosis II, because the failure of sister chromatids to separate makes all four gametes abnormal.",
+    "Either division can be concluded, because both errors produce the same counts of normal and abnormal sperm."
+   ],
+   "ans": "A",
+   "exp": "Two normal (10) and two aneuploid (11 and 9) sperm is the signature of a meiosis II error, since only one secondary spermatocyte carries the fault. A meiosis I failure leaves both secondary spermatocytes unbalanced and therefore all four sperm abnormal.",
+   "perm": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · identifying nondisjunction stage",
+   "lik": "H"
+  },
+  {
+   "n": 58,
+   "stem": "Which statement about the origin of genetic variability in sexually reproducing organisms is correct?",
+   "options": [
+    "Independent assortment occurs during meiosis II, when sister chromatids are distributed at random to the gametes.",
+    "Crossing over generates variability by exchanging alleles between the two sister chromatids of a chromosome.",
+    "Random fertilisation adds variability because homologous chromosomes exchange segments just before the gametes fuse.",
+    "Independent assortment arises because each homologous pair takes a random orientation at the metaphase I plate, independently of every other pair.",
+    "Independent assortment can occur only in cells that have first completed crossing over, since unexchanged pairs always segregate identically."
+   ],
+   "ans": "D",
+   "exp": "At metaphase I each bivalent attaches to the spindle in a random orientation, so maternal and paternal chromosomes are shuffled independently into the gametes. Crossing over involves non-sister chromatids of homologues, not sister chromatids, and it is independent of, not a requirement for, random bivalent orientation.",
+   "perm": [
+    1,
+    4,
+    0,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · sources of genetic variability",
+   "lik": "M"
+  },
+  {
+   "n": 59,
+   "stem": "In an animal species with 2n = 12, how many genetically different chromosome combinations can the gametes acquire through independent assortment alone, ignoring crossing over?",
+   "options": [
+    "12",
+    "24",
+    "36",
+    "64",
+    "4096"
+   ],
+   "ans": "D",
+   "exp": "There are n = 6 homologous pairs and each orients independently at metaphase I, giving 2⁶ = 64 combinations. The value 4096 wrongly raises 2 to the diploid number, and 24 is simply the diploid chromosome count itself.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · independent assortment (2ⁿ combinations)",
+   "lik": "M"
+  },
+  {
+   "n": 60,
+   "stem": "In humans the M and N blood-group alleles are codominant. A couple are both of type MN. Which phenotype ratio is expected among their children?",
+   "options": [
+    "3 children of type M for every 1 child of type N",
+    "1 child of type M for every 2 children of type MN and 1 child of type N",
+    "1 child of type M for every 1 child of type MN and 1 child of type N",
+    "2 children of type MN for every 1 child of type M and 1 child of type N",
+    "9 children of type M for every 3 children of type MN and 4 children of type N"
+   ],
+   "ans": "B",
+   "exp": "Two MN parents produce MM, MN and NN offspring in the genotypic ratio 1:2:1, and because the heterozygote is codominant all three genotypes are visible as distinct phenotypes. The 3:1 option would require M to be dominant over N, which codominance rules out.",
+   "perm": [
+    0,
+    2,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · codominance (1:2:1 ratio)",
+   "lik": "M"
+  },
+  {
+   "n": 61,
+   "stem": "Which of the following statements about Mendelian crosses is false?",
+   "options": [
+    "A monohybrid cross between two heterozygous parents gives a 3:1 ratio of dominant to recessive phenotypes.",
+    "A dihybrid cross between two individuals heterozygous for both genes gives a 9:3:3:1 phenotypic ratio when the genes assort independently.",
+    "A testcross between a heterozygous dominant individual and a homozygous recessive partner gives a 1:1 phenotypic ratio.",
+    "A cross between two heterozygous parents for a codominant trait gives a 1:2:1 phenotypic ratio.",
+    "A cross between a homozygous dominant individual and a homozygous recessive partner gives a 1:1 phenotypic ratio."
+   ],
+   "ans": "E",
+   "exp": "A homozygous dominant parent crossed with a homozygous recessive one yields only heterozygous offspring, all showing the dominant phenotype. The 1:1 ratio belongs to the testcross with a heterozygous parent, which the other statements describe correctly.",
+   "perm": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · Mendelian ratios",
+   "lik": "M"
+  },
+  {
+   "n": 62,
+   "stem": "Two pea plants heterozygous for seed shape and for seed colour (AaBb × AaBb) are crossed, and the two genes assort independently. How many different genotypes are expected among the offspring?",
+   "options": [
+    "4",
+    "6",
+    "9",
+    "12",
+    "16"
+   ],
+   "ans": "C",
+   "exp": "Each locus separately gives 3 genotypes (AA, Aa and aa), so the offspring show 3 × 3 = 9 different genotypes, distributed over only 4 phenotype classes. The value 16 counts the Punnett squares, not the distinct genotypes.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · dihybrid genotype counting",
+   "lik": "H"
+  },
+  {
+   "n": 63,
+   "stem": "In a cross AaBb × aaBb, with the two genes assorting independently, what is expected among the offspring?",
+   "options": [
+    "Four different phenotypes, with one eighth of the offspring showing both recessive traits (aabb).",
+    "Four different phenotypes, with one sixteenth of the offspring showing both recessive traits.",
+    "Three different phenotypes, with one quarter of the offspring showing both recessive traits.",
+    "Two different phenotypes, with one eighth of the offspring showing both recessive traits.",
+    "Four different phenotypes, with three sixteenths of the offspring showing both recessive traits."
+   ],
+   "ans": "A",
+   "exp": "Aa × aa gives half Aa and half aa, and Bb × Bb gives three quarters B_ and one quarter bb, so the phenotypes are A_B_ (3/8), A_bb (1/8), aaB_ (3/8) and aabb (1/8), four classes in total. The one-sixteenth value would fit a self-fertilisation of a double heterozygote, not this cross.",
+   "perm": [
+    3,
+    1,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · dihybrid phenotype fractions",
+   "lik": "H"
+  },
+  {
+   "n": 64,
+   "stem": "In a population of 500 people at Hardy-Weinberg equilibrium, 20 people show an autosomal recessive condition (genotype aa). How many people are expected to be heterozygous carriers?",
+   "options": [
+    "80",
+    "100",
+    "160",
+    "200",
+    "320"
+   ],
+   "ans": "C",
+   "exp": "The affected individuals give q² = 20/500 = 0.04, so q = 0.2 and p = 0.8; the carrier frequency is 2pq = 2 × 0.8 × 0.2 = 0.32, which is 0.32 × 500 = 160 people. The value 80 applies pq = 0.16 and forgets the factor of 2.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · Hardy-Weinberg (carrier frequency)",
+   "lik": "H"
+  },
+  {
+   "n": 65,
+   "stem": "A population is in Hardy-Weinberg equilibrium, and 9 percent of its members show a phenotype caused by a recessive allele. What is the frequency of the dominant allele in this population?",
+   "options": [
+    "0.3",
+    "0.49",
+    "0.51",
+    "0.7",
+    "0.9"
+   ],
+   "ans": "D",
+   "exp": "The recessive phenotype marks q² = 0.09, so q = 0.3 and p = 1 - 0.3 = 0.7. The value 0.49 is p², the frequency of homozygous dominant individuals, not of the allele itself.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · Hardy-Weinberg (allele frequency)",
+   "lik": "M"
+  },
+  {
+   "n": 66,
+   "stem": "Which statement about evolution and the history of evolutionary thought is correct?",
+   "options": [
+    "A population bottleneck increases genetic diversity, because only the best-adapted individuals survive the crisis.",
+    "Pasteur's swan-necked flask experiment showed that microorganisms appear in nutrient broth only when the broth is exposed to airborne microbes, refuting spontaneous generation.",
+    "Pasteur's experiment demonstrated that new species arise through the inheritance of characteristics acquired during an organism's life.",
+    "After a bottleneck, the surviving population keeps the allele frequencies of the original population, because which individuals survive is random.",
+    "The bottleneck effect generates new alleles, because mutation rates rise when a population becomes small."
+   ],
+   "ans": "B",
+   "exp": "Pasteur's curved neck admitted air but trapped microbes and dust, and the broth spoiled only once the neck was broken, so life was shown to arise from existing life. In a bottleneck the small random sample of survivors loses alleles, so heterozygosity falls rather than rises and no new alleles are produced.",
+   "perm": [
+    2,
+    3,
+    0,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · bottleneck effect and spontaneous generation",
+   "lik": "M"
+  },
+  {
+   "n": 67,
+   "stem": "Which option pairs every site with the epithelium that normally lines it?",
+   "options": [
+    "Alveolus: simple cuboidal; trachea: ciliated pseudostratified columnar; oesophagus: stratified squamous; small intestine: simple columnar",
+    "Alveolus: simple squamous; trachea: stratified squamous; oesophagus: stratified squamous; small intestine: simple columnar",
+    "Alveolus: simple squamous; trachea: ciliated pseudostratified columnar; oesophagus: stratified squamous; small intestine: simple columnar",
+    "Alveolus: simple squamous; trachea: ciliated pseudostratified columnar; oesophagus: transitional; small intestine: simple columnar",
+    "Alveolus: simple squamous; trachea: ciliated pseudostratified columnar; oesophagus: stratified squamous; small intestine: simple cuboidal"
+   ],
+   "ans": "C",
+   "exp": "Alveoli are lined by simple squamous epithelium for rapid diffusion, the trachea by ciliated pseudostratified columnar epithelium, the oesophagus by stratified squamous epithelium against abrasion, and the small intestine by simple columnar epithelium for absorption. The tempting alveolus-plus-cuboidal chain overlooks that only the surfactant-secreting type II cells are cuboidal, while the exchange surface itself is the flat type I cell.",
+   "perm": [
+    4,
+    2,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · epithelial types and their locations",
+   "lik": "H"
+  },
+  {
+   "n": 68,
+   "stem": "Which of the following statements about epithelial tissue is false?",
+   "options": [
+    "Epithelia are classified by the number of cell layers and by the shape of the cells at the free surface.",
+    "In stratified epithelia the tissue is named for the shape of the cells at the apical surface, not the basal layer.",
+    "A gland that develops as an invagination of an epithelium and keeps a duct is still classified as epithelial tissue.",
+    "Pseudostratified columnar epithelium is built of several true layers, because only some of its cells reach the free surface.",
+    "An epithelium is avascular and takes its nourishment by diffusion from capillaries in the underlying connective tissue."
+   ],
+   "ans": "D",
+   "exp": "Pseudostratified columnar epithelium is a single layer: every cell rests on the basement membrane, and the staggered nuclei together with some cells not reaching the free surface create only the illusion of layers. The remaining claims are correct: classification uses layer number plus apical cell shape, ducted glands stay epithelial, and avascular epithelia are fed by diffusion from the tissue beneath.",
+   "perm": [
+    0,
+    4,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · epithelial classification",
+   "lik": "H"
+  },
+  {
+   "n": 69,
+   "stem": "A light micrograph shows a single layer of tall cells, all resting on the same basement membrane. The nuclei lie at several different heights, giving a layered look, and the free surface carries motile projections. This epithelium is:",
+   "options": [
+    "stratified columnar epithelium lining the oesophagus",
+    "ciliated pseudostratified columnar epithelium lining the trachea",
+    "transitional epithelium lining the urinary bladder",
+    "simple columnar epithelium with a microvillus border lining the small intestine",
+    "stratified squamous epithelium lining the vagina"
+   ],
+   "ans": "B",
+   "exp": "Nuclei at different heights with every cell still touching the basement membrane define pseudostratified columnar epithelium, and motile surface projections mark it as ciliated, the hallmark lining of the trachea. The stratified columnar option misreads the staggered nuclei as several true layers.",
+   "perm": [
+    1,
+    4,
+    2,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · pseudostratified epithelium",
+   "lik": "M"
+  },
+  {
+   "n": 70,
+   "stem": "Oxygen travels from the air inside an alveolus into the blood by crossing the alveolar wall and then the capillary wall. Which statement about these exchange surfaces is correct?",
+   "options": [
+    "The alveolar wall is stratified squamous epithelium, because the moving air continually abrades it.",
+    "Both walls are simple cuboidal epithelium, whose extra cytoplasm pumps the gases across actively.",
+    "The capillary wall is ciliated epithelium, and the cilia propel the blood along the vessel.",
+    "The alveolar wall is ciliated pseudostratified columnar epithelium, a direct continuation of the airway lining.",
+    "Both walls are simple squamous epithelium, the thinnest arrangement possible, which keeps the diffusion path short."
+   ],
+   "ans": "E",
+   "exp": "Both barriers are simple squamous epithelium, the type I alveolar cells and the capillary endothelium, so the diffusion path from air to blood is as short as possible. The cuboidal option fails because gases diffuse passively and need no pumping cytoplasm, while the ciliated pseudostratified lining belongs to the conducting airways, not to the alveoli.",
+   "perm": [
+    4,
+    3,
+    0,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · exchange surfaces and endothelium",
+   "lik": "M"
+  },
+  {
+   "n": 71,
+   "stem": "A toxin selectively destroys the brush border of the cells lining the proximal convoluted tubule, leaving the rest of the nephron intact. Which outcome is expected?",
+   "options": [
+    "Glucose appears in the urine, because the loss of microvilli removes much of the reabsorptive surface and transport capacity of the tubule.",
+    "Glomerular filtration stops, because the podocytes of the capsule depend on the same brush border.",
+    "Urine volume falls to nearly zero, because most of the filtrate is produced in the proximal tubule.",
+    "The collecting duct takes over glucose reabsorption, so the composition of the urine stays normal.",
+    "Nothing changes, because microvilli are a feature of the small intestine and not of the kidney."
+   ],
+   "ans": "A",
+   "exp": "Proximal tubule cells are simple cuboidal cells with a microvillus brush border that carries the cotransporters reabsorbing essentially all filtered glucose; destroying the border removes that surface, so glucose escapes into the urine while glomerular filtration continues unchanged. The podocyte option confuses the filtration barrier with the tubule lining, and the collecting duct cannot take over glucose reabsorption.",
+   "perm": [
+    3,
+    1,
+    4,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · kidney epithelia (proximal tubule)",
+   "lik": "H"
+  },
+  {
+   "n": 72,
+   "stem": "Which nephron segment is correctly matched to its lining epithelium and to the reason that epithelium suits it?",
+   "options": [
+    "Thin limb of the loop of Henle: stratified squamous epithelium, a many-layered wall that resists abrasion by the filtrate.",
+    "Proximal convoluted tubule: simple squamous epithelium, whose flat cells make active pumping of glucose faster.",
+    "Collecting duct: transitional epithelium, so that the duct can stretch as urine volume rises.",
+    "Thin limb of the loop of Henle: simple squamous epithelium, a wall so thin that water and solutes cross it passively with little resistance.",
+    "Distal convoluted tubule: ciliated columnar epithelium, whose cilia keep the filtrate well mixed."
+   ],
+   "ans": "D",
+   "exp": "The thin limb of the loop of Henle is lined by simple squamous epithelium, ideal for the passive movement of water and solutes on which the counter-current system depends. The proximal tubule option fails on both tissue and logic, since it is simple cuboidal with a brush border for bulk active reabsorption, and transitional epithelium lines the renal pelvis, ureters and bladder, never the nephron itself.",
+   "perm": [
+    2,
+    1,
+    4,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · kidney epithelia (loop of Henle)",
+   "lik": "M"
+  },
+  {
+   "n": 73,
+   "stem": "A student wrote the following notes on the surface specializations of epithelial cells. Which note is correct?",
+   "options": [
+    "Cilia contain an actin core and bend through dynein-powered sliding to sweep fluid along the epithelial surface.",
+    "Microvilli are non-motile finger-like folds supported by bundles of actin filaments, and they enlarge the absorptive surface of the cell.",
+    "Goblet cells release a thin, enzyme-rich secretion that chemically breaks down particles trapped on the epithelium.",
+    "Tight junctions anchor the intermediate filaments of neighbouring cells to each other, spreading mechanical stress across the sheet.",
+    "The stereocilia of the epididymis beat rhythmically to drive sperm towards the vas deferens."
+   ],
+   "ans": "B",
+   "exp": "Microvilli are actin-supported, non-motile folds whose main job is enlarging the apical surface for absorption, as in the intestinal brush border. The cilia note is wrong because cilia are built on a microtubule axoneme rather than actin, goblet cells secrete mucus rather than enzymes, the anchoring of intermediate filaments is the job of desmosomes rather than tight junctions, and epididymal stereocilia do not beat.",
+   "perm": [
+    3,
+    1,
+    2,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · apical specializations and junctions",
+   "lik": "H"
+  },
+  {
+   "n": 74,
+   "stem": "In a hereditary disorder the dynein arms of cilia are absent, so cilia cannot beat. Which consequence is expected?",
+   "options": [
+    "Nutrient absorption in the small intestine largely fails, because microvilli use the same dynein motor as cilia.",
+    "Mucus clearance is unaffected, because the mucus blanket is dragged along by microvilli rather than cilia.",
+    "Mucus accumulates in the airways and transport of the egg along the oviduct is impaired.",
+    "Sperm swim normally, because a flagellum is built on a different internal framework from a cilium.",
+    "Only the airways are affected, because ciliated cells occur nowhere else in the human body."
+   ],
+   "ans": "C",
+   "exp": "Motile cilia in the airways and oviducts and the sperm flagellum all share the same microtubule axoneme driven by dynein, so mucus clearance, egg transport and sperm swimming fail together. Microvilli have an actin core and no dynein, which is why the option blaming failed nutrient absorption is wrong.",
+   "perm": [
+    1,
+    3,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · cilia versus microvilli (motility)",
+   "lik": "H"
+  },
+  {
+   "n": 75,
+   "stem": "A patient's mitral (bicuspid) valve no longer closes completely. What happens during ventricular systole?",
+   "options": [
+    "Blood regurgitates from the aorta back into the left ventricle, so aortic pressure rises.",
+    "Blood regurgitates from the left ventricle back into the left atrium, so the stroke volume entering the aorta is reduced.",
+    "Blood regurgitates from the right ventricle back into the right atrium, so venous return falls.",
+    "The valve cannot open, so the left ventricle fills completely during diastole.",
+    "Blood flows from the left atrium into the left ventricle more rapidly during systole."
+   ],
+   "ans": "B",
+   "exp": "The mitral valve guards the opening between the left atrium and the left ventricle and must stay shut while that ventricle contracts, so incompetence lets part of the ejected volume leak back into the atrium instead of entering the aorta. The aortic backflow option describes a failing aortic (semilunar) valve, which leaks during diastole, not systole.",
+   "perm": [
+    3,
+    1,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · valve failure (mitral regurgitation)",
+   "lik": "M"
+  },
+  {
+   "n": 76,
+   "stem": "The aortic semilunar valve of a patient becomes incompetent, so that it fails to close after ventricular systole. Which combination of effects during ventricular diastole follows?",
+   "options": [
+    "Blood flows from the pulmonary artery into the left ventricle and arterial pressure rises.",
+    "Blood flows from the left atrium into the aorta and ventricular filling is prevented.",
+    "Blood leaks from the aorta back into the left ventricle, so aortic pressure falls steeply during diastole while the ventricle receives an extra volume of blood.",
+    "Blood leaks from the aorta back into the left atrium, so atrial pressure rises.",
+    "Blood stays in the aorta because the valve cannot reopen during diastole, so arterial pressure is unchanged."
+   ],
+   "ans": "C",
+   "exp": "A semilunar valve must hold up the column of blood in the aorta between beats; if it leaks, blood runs back into the relaxing ventricle, aortic diastolic pressure collapses and the ventricle ends up overfilled before the next contraction. The left-atrium option confuses the aortic valve with the mitral valve, which is the valve that actually separates those two chambers.",
+   "perm": [
+    3,
+    4,
+    2,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · valve failure (aortic incompetence)",
+   "lik": "H"
+  },
+  {
+   "n": 77,
+   "stem": "Which pairing of a heart valve with its position and its type is correct?",
+   "options": [
+    "The tricuspid valve is a semilunar valve between the right ventricle and the pulmonary artery.",
+    "The bicuspid (mitral) valve lies between the right atrium and the right ventricle.",
+    "The pulmonary valve is an atrioventricular valve between the right atrium and the right ventricle.",
+    "The bicuspid (mitral) valve is an atrioventricular valve between the left atrium and the left ventricle.",
+    "The aortic valve is an atrioventricular valve between the left ventricle and the left atrium."
+   ],
+   "ans": "D",
+   "exp": "The two atrioventricular valves sit between atrium and ventricle, tricuspid on the right side and bicuspid (mitral) on the left, while the aortic and pulmonary valves form the semilunar pair at the exits of the ventricles. The tricuspid option misplaces the pulmonary valve and assigns it the wrong class of valve.",
+   "perm": [
+    3,
+    1,
+    2,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · heart valves (semilunar vs atrioventricular)",
+   "lik": "M"
+  },
+  {
+   "n": 78,
+   "stem": "A drop of blood enters the heart through the superior vena cava. On its way to the aorta it must pass the following structures: pulmonary artery, pulmonary vein, right ventricle, left atrium, left ventricle. In which order does it meet them?",
+   "options": [
+    "Right ventricle, pulmonary artery, pulmonary vein, left atrium, left ventricle.",
+    "Right ventricle, pulmonary vein, pulmonary artery, left ventricle, left atrium.",
+    "Pulmonary artery, right ventricle, pulmonary vein, left ventricle, left atrium.",
+    "Right ventricle, pulmonary artery, left atrium, pulmonary vein, left ventricle.",
+    "Left atrium, left ventricle, pulmonary artery, pulmonary vein, right ventricle."
+   ],
+   "ans": "A",
+   "exp": "From the vena cava the blood crosses the right atrium into the right ventricle, leaves by the pulmonary artery for the lungs, returns by the pulmonary veins to the left atrium and finally reaches the left ventricle, whose outflow is the aorta. The option that visits the pulmonary vein before the pulmonary artery reverses the actual direction of pulmonary flow.",
+   "perm": [
+    1,
+    4,
+    2,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · double circulation (flow ordering)",
+   "lik": "H"
+  },
+  {
+   "n": 79,
+   "stem": "A red blood cell leaves the right ventricle and is followed until it re-enters the heart. Which option gives the correct route, with the oxygenation status of the blood at each named stage?",
+   "options": [
+    "Pulmonary artery (oxygenated), lung capillaries, pulmonary vein (deoxygenated), right atrium.",
+    "Pulmonary artery (oxygenated), lung capillaries, pulmonary vein (oxygenated), left atrium.",
+    "Pulmonary artery (deoxygenated), lung capillaries, pulmonary vein (oxygenated), right atrium.",
+    "Pulmonary vein (deoxygenated), lung capillaries, pulmonary artery (oxygenated), left atrium.",
+    "Pulmonary artery (deoxygenated), lung capillaries, pulmonary vein (oxygenated), left atrium."
+   ],
+   "ans": "E",
+   "exp": "The right ventricle pumps blood out through the pulmonary artery, so the blood is still deoxygenated there; it becomes oxygenated in the lung capillaries and returns by the pulmonary veins to the left atrium. The option ending at the right atrium gets the vessels right but sends the blood back to the wrong side of the heart.",
+   "perm": [
+    3,
+    2,
+    0,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · pulmonary circuit (oxygen status of vessels)",
+   "lik": "H"
+  },
+  {
+   "n": 80,
+   "stem": "Which statement about the human double circulation is correct?",
+   "options": [
+    "The right ventricle has the thickest muscular wall because it serves all the organs of the body.",
+    "The right side of the heart pumps blood through the short pulmonary circuit, so blood in the pulmonary arteries travels at a lower pressure than blood in the aorta.",
+    "Pulmonary veins carry deoxygenated blood because every vein in the body carries deoxygenated blood.",
+    "The left ventricle pumps blood to the lungs, where the pressure must be high to push blood through the alveolar capillaries.",
+    "Systemic arteries and pulmonary arteries both carry oxygenated blood because all arteries leave the heart."
+   ],
+   "ans": "B",
+   "exp": "The pulmonary circuit runs only from heart to lungs and back, so it is a short, low-resistance circuit served by the thin-walled right ventricle, and its pressure is far lower than aortic pressure. The blanket rule about veins, and its mirror about arteries, both fail exactly at the pulmonary vessels: pulmonary arteries carry deoxygenated blood and pulmonary veins carry oxygenated blood.",
+   "perm": [
+    3,
+    4,
+    0,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · double circulation (pressure and vessel roles)",
+   "lik": "M"
+  },
+  {
+   "n": 81,
+   "stem": "At the start of a quiet inhalation the diaphragm contracts. Which chain of events follows?",
+   "options": [
+    "The diaphragm flattens, thoracic volume increases, pressure inside the alveoli falls below atmospheric pressure, and air flows inward.",
+    "The diaphragm domes upward, thoracic volume increases, alveolar pressure rises above atmospheric pressure, and air flows inward.",
+    "The diaphragm flattens, thoracic volume decreases, alveolar pressure rises above atmospheric pressure, and air flows inward.",
+    "The diaphragm flattens, thoracic volume increases, alveolar pressure rises above atmospheric pressure, and air flows outward.",
+    "The diaphragm relaxes, thoracic volume decreases, alveolar pressure falls below atmospheric pressure, and air flows inward."
+   ],
+   "ans": "A",
+   "exp": "Contraction pulls the dome of the diaphragm downward so the thoracic cavity enlarges; by the inverse volume-pressure relation the alveolar pressure drops below atmospheric, and air flows down this gradient into the lungs. The option with rising alveolar pressure and inward flow breaks that link, and a relaxing diaphragm belongs to exhalation.",
+   "perm": [
+    3,
+    0,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · breathing mechanics (inhalation)",
+   "lik": "H"
+  },
+  {
+   "n": 82,
+   "stem": "A person blows out a candle forcefully. Which combination of events occurs during this forced exhalation?",
+   "options": [
+    "The diaphragm contracts and alveolar pressure falls below atmospheric pressure.",
+    "The abdominal muscles and the internal intercostal muscles contract, the relaxed diaphragm is pushed upward, thoracic volume decreases, and alveolar pressure rises well above atmospheric pressure.",
+    "The diaphragm relaxes while the ribs are pulled upward and outward, so thoracic volume increases.",
+    "Only the diaphragm relaxes, exactly as in quiet breathing at rest, and no other muscles contribute, so alveolar pressure rises only slightly.",
+    "The external intercostal muscles lift the ribs while the diaphragm flattens, so thoracic volume increases."
+   ],
+   "ans": "B",
+   "exp": "Forced exhalation is active: abdominal muscles push the relaxed diaphragm up and the internal intercostals pull the ribs down, shrinking thoracic volume below its resting level so alveolar pressure rises well above atmospheric and air is driven out. The upward-and-outward rib movement with a flattening diaphragm is the pattern of inhalation.",
+   "perm": [
+    4,
+    2,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · breathing mechanics (forced exhalation)",
+   "lik": "M"
+  },
+  {
+   "n": 83,
+   "stem": "Which statement about the pleural membranes is correct?",
+   "options": [
+    "The visceral pleura lines the inside of the chest wall, and the parietal pleura covers the lung surface.",
+    "The pleural cavity is a large air-filled space that lets the lungs float freely.",
+    "The pleural membranes secrete the mucus that moistens the alveoli for gas exchange.",
+    "The pleural cavity normally holds a thin film of serous fluid, so the two layers slide smoothly over each other and the lungs follow the movements of the chest wall.",
+    "The pleural cavity contains cartilage rings that keep the bronchi open during breathing."
+   ],
+   "ans": "D",
+   "exp": "The parietal layer lines the chest wall and the visceral layer covers the lungs, and between them lies only a thin film of serous fluid under negative pressure, which lubricates the sliding surfaces and couples each lung to the chest wall. Mucus belongs to the airway lining rather than the pleura, and a normally air-filled cavity would uncouple the lung from the chest wall instead of coupling it.",
+   "perm": [
+    4,
+    1,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · pleura (layers and fluid)",
+   "lik": "M"
+  },
+  {
+   "n": 84,
+   "stem": "A stab wound lets air enter the left pleural cavity (pneumothorax). What immediate effect does this have on the left lung?",
+   "options": [
+    "The left lung inflates further, because the extra air increases the pressure gradient into the alveoli.",
+    "Nothing changes in the lung, because each side's diaphragm contracts independently of the pleura.",
+    "The left lung stiffens and expands, because serous fluid in the cavity is replaced by air.",
+    "The trachea seals the left main bronchus, so airflow into the left lung simply stops.",
+    "The left lung recoils and collapses, because intrapleural pressure rises toward atmospheric pressure and the coupling between chest wall and lung is lost."
+   ],
+   "ans": "E",
+   "exp": "Ventilation depends on the negative pressure of the pleural cavity holding each lung against the chest wall; air entering the cavity abolishes that pressure difference, so the elastic lung recoils and collapses on that side. The further-inflation option mistakes the injury for a stronger ventilatory gradient, and there is no reflex that seals a bronchus.",
+   "perm": [
+    4,
+    2,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · pleura (pneumothorax cascade)",
+   "lik": "H"
+  },
+  {
+   "n": 85,
+   "stem": "In human blood, which option gives the approximate shares of carbon dioxide transported as bicarbonate ions, bound to hemoglobin, and dissolved in plasma, respectively?",
+   "options": [
+    "About 23%, about 70%, about 7%.",
+    "About 70%, about 23%, about 7%.",
+    "About 70%, about 7%, about 23%.",
+    "About 97%, about 3%, about 0%.",
+    "About 50%, about 43%, about 7%."
+   ],
+   "ans": "B",
+   "exp": "Most carbon dioxide travels as bicarbonate ions (about 70%), a substantial fraction binds to the globin of hemoglobin as carbaminohemoglobin (about 23%), and only a small part stays dissolved in plasma (about 7%). The 97 and 3 figures belong to oxygen transport, and swapping the bicarbonate and carbamino shares is the classic slip.",
+   "perm": [
+    0,
+    2,
+    3,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · CO2 transport (share of each form)",
+   "lik": "M"
+  },
+  {
+   "n": 86,
+   "stem": "Oxygen and carbon dioxide are both carried with the help of hemoglobin. Which statement about their binding sites on hemoglobin is correct?",
+   "options": [
+    "Oxygen binds to the iron of the heme group, while carbon dioxide binds to amino groups of the globin polypeptide chains.",
+    "Oxygen binds to the globin chains, while carbon dioxide binds to the iron of the heme group.",
+    "Both gases bind to the iron of the heme group and compete for the same site.",
+    "Oxygen binds to the heme iron, while carbon dioxide is carried entirely dissolved in plasma with no binding to hemoglobin.",
+    "Oxygen binds to the globin chains, while carbon dioxide binds to the cell membrane of the red blood cell."
+   ],
+   "ans": "A",
+   "exp": "The heme iron is the site for oxygen, forming oxyhemoglobin, whereas carbon dioxide forms carbaminohemoglobin on amino groups of the globin proteins, so the two gases occupy different parts of the molecule and can be carried at the same time. The shared-site option is the standard error: carbon dioxide does not load onto the heme iron.",
+   "perm": [
+    0,
+    4,
+    2,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · hemoglobin binding sites (heme vs globin)",
+   "lik": "M"
+  },
+  {
+   "n": 87,
+   "stem": "Approximately what percentage of the oxygen transported in systemic arterial blood is carried bound to hemoglobin as oxyhemoglobin?",
+   "options": [
+    "3%",
+    "7%",
+    "23%",
+    "50%",
+    "97%"
+   ],
+   "ans": "E",
+   "exp": "Hemoglobin is by far the main oxygen carrier: about 97% of the oxygen in arterial blood rides on hemoglobin as oxyhemoglobin and only about 3% dissolves in the plasma. The 7 and 23 figures belong to the dissolved and carbamino shares of carbon dioxide transport, not to oxygen.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · O2 transport (dissolved vs bound)",
+   "lik": "M"
+  },
+  {
+   "n": 88,
+   "stem": "A patient has a severely reduced hemoglobin concentration, yet the partial pressure of oxygen in her arterial blood is normal. Which statement explains why her tissues still receive too little oxygen?",
+   "options": [
+    "Her alveolar walls have become too thick for oxygen to diffuse across at a normal partial pressure.",
+    "Dissolved oxygen in plasma normally supplies about 70% of the tissues' demand, so small changes matter greatly.",
+    "About 97% of the oxygen in arterial blood is bound to hemoglobin, so with less hemoglobin the total oxygen content of the blood falls even though its partial pressure is normal.",
+    "With less hemoglobin, oxygen binds more tightly to the remaining molecules and therefore cannot be released at the tissues.",
+    "The dissolved fraction rises until it equals the normal total oxygen content of the blood."
+   ],
+   "ans": "C",
+   "exp": "Arterial partial pressure determines how saturated the available hemoglobin becomes, not how much oxygen the blood carries in total; since roughly 97% of oxygen travels on hemoglobin, anemia cuts total delivery while the partial pressure and the small dissolved share stay normal. The tight-binding claim describes a shift of the dissociation curve, not anemia, and normal lung diffusion cannot make up for a lack of carrier.",
+   "perm": [
+    0,
+    3,
+    1,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · anemia and oxygen delivery",
+   "lik": "H"
+  },
+  {
+   "n": 89,
+   "stem": "Emphysema progressively destroys the walls between the pulmonary alveoli. Which direct consequence for gas exchange follows?",
+   "options": [
+    "The total surface area available for gas exchange decreases, so oxygen uptake per breath falls.",
+    "The bronchioles constrict by smooth muscle spasm, so air cannot reach the alveoli.",
+    "The amount of hemoglobin in the blood falls, so oxygen carriage drops.",
+    "The diaphragm can no longer contract, so thoracic volume cannot increase.",
+    "The pleural cavity fills with mucus, so the lungs cannot slide along the chest wall."
+   ],
+   "ans": "A",
+   "exp": "The alveolar walls are themselves the exchange surface, so merging alveoli into fewer, larger sacs cuts the diffusion area and oxygen uptake falls. Bronchiolar spasm defines asthma, a low hemoglobin count defines anemia, and neither diaphragm function nor pleural fluid is touched by alveolar destruction.",
+   "perm": [
+    4,
+    0,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · disease matching (emphysema)",
+   "lik": "M"
+  },
+  {
+   "n": 90,
+   "stem": "Which pairing of a condition with the structure primarily affected is incorrect?",
+   "options": [
+    "Pleurisy: the pleural membranes.",
+    "Myocardial infarction: a coronary artery.",
+    "Varicose veins: incompetent valves in the veins of the legs.",
+    "Asthma: destruction of the walls between the alveoli.",
+    "Chronic bronchitis: the mucus-producing glands of the bronchi."
+   ],
+   "ans": "D",
+   "exp": "Asthma is a reversible narrowing of the airways caused by contraction of bronchiolar smooth muscle together with inflammation, not by destruction of alveolar walls, which is the hallmark of emphysema. The other four pairs are correct: pleurisy inflames the pleura, infarction follows a blocked coronary artery, varicose veins involve failing venous valves, and bronchitis involves bronchial mucus glands.",
+   "perm": [
+    2,
+    4,
+    3,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · disease-to-system matching",
+   "lik": "M"
+  },
+  {
+   "n": 91,
+   "stem": "Fatty plaques narrow a patient's coronary arteries. Why is the heart muscle endangered especially during physical exertion?",
+   "options": [
+    "Because the coronary arteries supply the lungs, and exertion raises pulmonary blood flow above what the narrowed vessels can carry.",
+    "Because the coronary arteries supply the myocardium itself, and exertion raises the heart's oxygen demand faster than blood flow through the narrowed vessels can increase.",
+    "Because exertion diverts all coronary blood flow to the skeletal muscles, leaving the myocardium without perfusion even in healthy people.",
+    "Because coronary arteries fill with blood during ventricular systole, and the higher heart rate of exertion shortens systole below what filling needs.",
+    "Because the myocardium switches to anaerobic fermentation during exertion, and the narrowed arteries cannot deliver the extra glucose this requires."
+   ],
+   "ans": "B",
+   "exp": "The coronary arteries branch from the aorta and feed the heart muscle itself; during exercise the myocardium's oxygen demand climbs steeply, and a stenosed vessel cannot raise its flow enough, so the muscle becomes ischemic. The systole option inverts the timing, since coronary filling occurs mainly during diastole, and the coronary circulation never supplies the lungs.",
+   "perm": [
+    0,
+    2,
+    1,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · coronary circulation under exertion",
+   "lik": "H"
+  },
+  {
+   "n": 92,
+   "stem": "In the small intestine, the enzyme enterokinase converts pancreatic trypsinogen into active trypsin, and trypsin then activates the other pancreatic proenzymes. A drug that fully inhibits enterokinase is given. Which outcome is expected?",
+   "options": [
+    "All digestion of food in the intestine stops, because every pancreatic enzyme is released as an inactive precursor.",
+    "Fat digestion falls to almost zero, because trypsin must first convert prolipase into active lipase.",
+    "Protein digestion in the intestine is strongly impaired, because trypsin and the proenzymes it activates stay inactive, while fat and starch digestion continue, since lipase and amylase are secreted already active.",
+    "Starch digestion stops, because pancreatic amylase is released as an inactive zymogen that only trypsin can switch on.",
+    "Protein digestion ceases entirely, because pepsinogen can no longer be activated without enterokinase."
+   ],
+   "ans": "C",
+   "exp": "Only the proteases travel as zymogens; without enterokinase no trypsin forms, so chymotrypsinogen and procarboxypeptidase are never activated either. The prolipase and amylase options fail because lipase and amylase are secreted already active, and pepsinogen is activated by stomach acid, not by enterokinase.",
+   "perm": [
+    2,
+    4,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · pancreatic enzymes (zymogen activation cascade)",
+   "lik": "H"
+  },
+  {
+   "n": 93,
+   "stem": "Which statement about bile in human digestion is correct?",
+   "options": [
+    "Bile is produced by the liver and emulsifies fat into fine droplets, enlarging the surface area exposed to lipase, but it hydrolyses no chemical bonds.",
+    "Bile is produced by the gallbladder, which synthesises it anew each time a fatty meal reaches the duodenum.",
+    "Bile is produced by the liver and digests triglycerides into fatty acids and glycerol by means of its own enzymes.",
+    "Bile is produced by the pancreas and stored by the liver until a fatty meal arrives.",
+    "Bile is produced by the liver and its main digestive role is the breakdown of nucleic acids into nucleotides."
+   ],
+   "ans": "A",
+   "exp": "Bile is made by the liver, stored and concentrated in the gallbladder, and released into the duodenum; emulsification is a physical dispersion that enlarges the surface lipase works on, and bile itself contains no digestive enzymes. The option crediting the gallbladder with production names the standard confusion: the gallbladder only stores and concentrates.",
+   "perm": [
+    4,
+    1,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · bile (production, storage, emulsification)",
+   "lik": "M"
+  },
+  {
+   "n": 94,
+   "stem": "A drug almost completely abolishes hydrochloric acid secretion by the stomach. Which outcome follows most directly?",
+   "options": [
+    "The stomach stops secreting pepsinogen altogether, because pepsinogen release is triggered by acid itself.",
+    "Gastric protein digestion is unaffected, because pepsinogen activates itself independently of pH once the food is churned.",
+    "Gastric fat digestion stops completely, because gastric lipase is active only at pH 2 or below.",
+    "Activation of pepsinogen into pepsin is largely prevented, so gastric protein digestion slows, while digestion of protein can still continue in the intestine through pancreatic proteases.",
+    "Bile release stops, because the gallbladder contracts only in response to acid produced by the stomach."
+   ],
+   "ans": "D",
+   "exp": "Acid both converts pepsinogen to active pepsin and supplies the low pH at which pepsin works, so gastric protein digestion drops. Pepsinogen secretion does not require acid, gastric lipase operates at the moderately acidic pH of the stomach, and gallbladder contraction is driven mainly by cholecystokinin, so the other options overstate or misplace the role of acid.",
+   "perm": [
+    4,
+    2,
+    0,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · stomach (hydrochloric acid and pepsin)",
+   "lik": "H"
+  },
+  {
+   "n": 95,
+   "stem": "Rennin (chymosin), secreted by the gastric mucosa of young mammals, turns liquid milk into a solid curd so that it stays longer in the stomach. The substance on which rennin acts is:",
+   "options": [
+    "lactose, the sugar of milk, which is split into glucose and galactose",
+    "casein, the main protein of milk, which coagulates in the presence of calcium ions",
+    "milk fat, which is dispersed into fine droplets",
+    "calcium phosphate dissolved in the milk, which precipitates out",
+    "the immunoglobulins of milk, which are degraded so the young can absorb other nutrients"
+   ],
+   "ans": "B",
+   "exp": "Rennin is a protease: it clots the milk protein casein, with calcium ions stabilising the curd. The lactose option confuses rennin with lactase, and the fat option confuses it with lipase or bile.",
+   "perm": [
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · stomach (rennin and milk)",
+   "lik": "M"
+  },
+  {
+   "n": 96,
+   "stem": "Which of the following statements about human digestion is false?",
+   "options": [
+    "Pepsin is secreted as the inactive precursor pepsinogen and is activated by the acid environment of the stomach.",
+    "Pancreatic juice supplies proteases, amylase, lipase and nucleases, which act in the small intestine.",
+    "Bile contains no digestive enzymes, yet efficient fat digestion depends on it.",
+    "Salivary amylase starts starch digestion in the mouth, and its action ceases once the food meets the acid stomach.",
+    "The gallbladder produces bile in response to the hormone cholecystokinin and releases it into the duodenum."
+   ],
+   "ans": "E",
+   "exp": "Cholecystokinin does make the gallbladder contract, but bile is produced by the liver; the gallbladder only stores and concentrates it. The other four statements correctly describe pepsinogen, the contents of pancreatic juice, the enzyme-free role of bile and the fate of salivary amylase.",
+   "perm": [
+    4,
+    1,
+    2,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · digestive enzymes (integrated check)",
+   "lik": "H"
+  },
+  {
+   "n": 97,
+   "stem": "A treatment destroys most of a patient's thyroid gland, including both the follicular cells and the parafollicular (C) cells, while the four parathyroid glands remain intact. Which outcome is expected?",
+   "options": [
+    "Basal metabolic rate rises, because the thyroid hormones are the hormones that slow metabolism down.",
+    "Blood calcium falls to dangerous levels, because calcitonin was the principal hormone that raises blood calcium.",
+    "Basal metabolic rate falls, and blood calcium stays close to normal, because parathyroid hormone from the intact parathyroids is the principal regulator of blood calcium.",
+    "Basal metabolic rate is unaffected, because the thyroid hormones act only on bone remodelling.",
+    "Blood calcium rises uncontrollably, because the loss of calcitonin leaves parathyroid hormone completely unopposed."
+   ],
+   "ans": "C",
+   "exp": "The follicular cells secrete T3 and T4, which set the basal metabolic rate, so their loss lowers it. Calcitonin only fine-tunes calcium downward while parathyroid hormone is the dominant regulator, so calcium remains near normal; the option that makes calcitonin the main calcium-raising hormone reverses its action.",
+   "perm": [
+    0,
+    2,
+    4,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · thyroid (T3/T4 and calcitonin)",
+   "lik": "H"
+  },
+  {
+   "n": 98,
+   "stem": "Blood tests show that a person's plasma calcium concentration is abnormally high. Which endocrine response is expected?",
+   "options": [
+    "Parathyroid hormone secretion falls and calcitonin secretion rises, favouring the deposition of calcium in bone.",
+    "Parathyroid hormone secretion rises, stimulating osteoclasts to release further calcium from bone.",
+    "Calcitonin secretion falls, which allows calcium to accumulate still further in the blood.",
+    "Both parathyroid hormone and calcitonin secretion fall, because both hormones raise blood calcium.",
+    "Insulin secretion falls, because insulin normally removes calcium from the blood along with glucose."
+   ],
+   "ans": "A",
+   "exp": "A high calcium level suppresses parathyroid hormone and stimulates calcitonin, which inhibits osteoclasts and favours calcium deposition, restoring the level by negative feedback. The option raising parathyroid hormone describes the response to low calcium, and the claim that both hormones raise calcium is wrong, since parathyroid hormone raises and calcitonin lowers it.",
+   "perm": [
+    4,
+    2,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · calcium homeostasis (PTH and calcitonin)",
+   "lik": "M"
+  },
+  {
+   "n": 99,
+   "stem": "In untreated type 1 diabetes, insulin secretion is nearly absent and blood glucose rises far above the normal renal threshold. Why does glucose appear in the urine?",
+   "options": [
+    "Insulin normally seals the glomerular filter against glucose; without it, glucose filters freely and none of it can be reabsorbed.",
+    "High blood glucose triggers the active secretion of glucose from the blood into the distal convoluted tubule.",
+    "The sodium-potassium pumps of the proximal tubule fail, so every reabsorptive process in the nephron stops.",
+    "The filtered glucose load exceeds the transport capacity of the reabsorption mechanisms in the proximal convoluted tubule, so the surplus escapes reabsorption and is excreted.",
+    "The collecting duct destroys glucose molecules, so any glucose reaching it can no longer be recovered."
+   ],
+   "ans": "D",
+   "exp": "The proximal convoluted tubule normally reabsorbs essentially all filtered glucose through specific co-transporters, but these have a finite maximum; above the renal threshold the surplus passes on into the urine. Glucose filtration and reabsorption do not depend on insulin, so the option blaming the glomerular filter misstates the mechanism.",
+   "perm": [
+    1,
+    2,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · kidney (renal threshold for glucose)",
+   "lik": "H"
+  },
+  {
+   "n": 100,
+   "stem": "During a long fast, glucagon helps to keep the blood glucose level stable. Which statement about this hormone is correct?",
+   "options": [
+    "It triggers glycogen breakdown equally in liver and muscle, so both tissues feed glucose into the blood.",
+    "It triggers glycogen breakdown mainly in the liver, while muscle keeps its stores because muscle cells lack glucagon receptors and use their glycogen for their own contraction.",
+    "It promotes the uptake of glucose by muscle cells, lowering the blood glucose level during the fast.",
+    "It is released by the alpha cells of the pancreas when blood glucose rises after a meal.",
+    "It converts muscle glycogen directly into blood glucose before the liver is involved at all."
+   ],
+   "ans": "B",
+   "exp": "Glucagon acts chiefly on the liver, driving glycogenolysis and gluconeogenesis; muscle lacks glucagon receptors, so its glycogen serves local contraction only. The option of equal breakdown in both tissues ignores this receptor distribution, and the claim of release when glucose rises reverses the actual trigger.",
+   "perm": [
+    0,
+    3,
+    1,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · pancreatic islets (insulin and glucagon)",
+   "lik": "M"
+  },
+  {
+   "n": 101,
+   "stem": "A drug blocks the active pumping of sodium ions out of the ascending limb of the loop of Henle. Which outcome follows?",
+   "options": [
+    "The salt gradient in the medulla weakens, so the collecting duct reabsorbs less water and a large volume of dilute urine is produced, even when ADH is present.",
+    "ADH secretion rises and concentrates the urine beyond the normal maximum, fully compensating for the block.",
+    "Filtration at the glomerulus stops, because the loop of Henle generates the filtration pressure.",
+    "Glucose escapes into the urine, because the loop of Henle is normally where glucose is reabsorbed.",
+    "The urine becomes maximally concentrated, because sodium accumulates unchecked in the medulla."
+   ],
+   "ans": "A",
+   "exp": "Active sodium transport out of the ascending limb builds the medullary osmotic gradient on which ADH-driven water reabsorption in the collecting duct depends; without it the gradient collapses and dilute urine flows out. No amount of ADH can act on a gradient that no longer exists, and glomerular filtration pressure is independent of the loop.",
+   "perm": [
+    1,
+    4,
+    2,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · nephron (loop of Henle, medullary gradient)",
+   "lik": "H"
+  },
+  {
+   "n": 102,
+   "stem": "A drug enters the fluid of the kidney tubule by two routes: filtration at the glomerulus, and active transport from the peritubular blood into the tubule. The second route of entry is called:",
+   "options": [
+    "reabsorption",
+    "pressure filtration",
+    "countercurrent multiplication",
+    "dialysis",
+    "tubular secretion"
+   ],
+   "ans": "E",
+   "exp": "Secretion is the active transfer of substances from the peritubular blood into the filtrate, the reverse of reabsorption, which carries substances from the tubule back to the blood. Filtration is the pressure-driven, non-selective process at the glomerulus and cannot describe an active second route.",
+   "perm": [
+    0,
+    4,
+    2,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · nephron (filtration, reabsorption, secretion)",
+   "lik": "M"
+  },
+  {
+   "n": 103,
+   "stem": "A healthy person quickly drinks one litre of pure water and plasma osmolarity falls slightly. Which sequence of events follows?",
+   "options": [
+    "ADH release is stimulated, the collecting duct becomes less permeable to water, and a small volume of concentrated urine is produced.",
+    "ADH release is suppressed, the collecting duct becomes more permeable to water, and urine output falls.",
+    "ADH release is suppressed, the collecting duct becomes less permeable to water, and a large volume of dilute urine is produced.",
+    "Aldosterone release stops while ADH stays high, so sodium alone is excreted.",
+    "Glomerular filtration ceases until plasma osmolarity returns to normal, so no urine is produced."
+   ],
+   "ans": "C",
+   "exp": "Osmoreceptors in the hypothalamus detect the falling osmolarity and cut ADH release from the posterior pituitary; the collecting duct becomes water-impermeable and the dilute filtrate leaves as copious pale urine. The option that pairs suppression with increased water permeability reverses the effect of ADH, which inserts aquaporins.",
+   "perm": [
+    2,
+    1,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · kidney (ADH and water balance)",
+   "lik": "H"
+  },
+  {
+   "n": 104,
+   "stem": "Which statement about the cells of bone tissue is correct?",
+   "options": [
+    "Osteoblasts dissolve bone matrix and release calcium, while osteoclasts build new matrix.",
+    "Osteoclasts resorb bone matrix, releasing calcium and phosphate into the blood, while osteoblasts deposit new matrix.",
+    "Osteocytes are the main cells that form new bone matrix during growth.",
+    "Chondrocytes resorb calcified matrix in order to release stored calcium.",
+    "Osteoclasts end up trapped in lacunae as mature cells that maintain the matrix."
+   ],
+   "ans": "B",
+   "exp": "Osteoclasts resorb bone and osteoblasts deposit osteoid, and the balance between them, steered by parathyroid hormone and calcitonin, sets blood calcium. The first option swaps the two roles, the usual confusion, while the trapped-in-lacunae description belongs to osteocytes.",
+   "perm": [
+    4,
+    2,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · bone (osteoblasts and osteoclasts)",
+   "lik": "M"
+  },
+  {
+   "n": 105,
+   "stem": "A toxin blocks the voltage-gated potassium channels of a neuron but leaves all other channels and the sodium-potassium pump intact. Which outcome follows when the axon is stimulated above threshold?",
+   "options": [
+    "Depolarisation still occurs, but repolarisation is delayed because K⁺ efflux is blocked, so the membrane stays depolarised far longer and cannot carry rapid repeated impulses.",
+    "No depolarisation occurs, because the rising phase of the action potential is driven by potassium leaving the cell.",
+    "The action potential runs normally, because the rising phase depends on chloride and the falling phase on sodium.",
+    "The membrane repolarises faster than normal, because the sodium channels stay open for longer.",
+    "The resting potential is lost at once, because the resting membrane potential is maintained by voltage-gated potassium channels."
+   ],
+   "ans": "A",
+   "exp": "The upstroke of the action potential uses voltage-gated Na⁺ channels and the falling phase uses voltage-gated K⁺ channels; blocking the latter leaves the membrane depolarised and prolongs the refractory period. The last option fails because the resting potential is set by potassium leak through non-gated channels together with the pump, not by gated channels.",
+   "perm": [
+    1,
+    3,
+    4,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · neuron (action potential phases)",
+   "lik": "H"
+  },
+  {
+   "n": 106,
+   "stem": "A poison blocks the voltage-gated calcium channels in the presynaptic terminal of a chemical synapse, while impulse conduction along the axon itself is normal. Which outcome follows?",
+   "options": [
+    "The action potential fails to travel along the presynaptic axon, because calcium carries the impulse current there.",
+    "Neurotransmitter is released continuously, even without impulses, and permanently stimulates the postsynaptic cell.",
+    "The postsynaptic cell depolarises normally, because transmission at chemical synapses is electrical rather than chemical.",
+    "The impulse still arrives at the terminal, but vesicle fusion with the membrane is not triggered, so the postsynaptic cell receives no chemical signal.",
+    "Reuptake of neurotransmitter stops, so the synapse becomes overstimulated by transmitter left in the cleft."
+   ],
+   "ans": "D",
+   "exp": "Ca²⁺ entry is the coupling step between the arriving action potential and the fusion of transmitter vesicles; blocking it silences transmission while conduction remains intact. The overstimulation option describes blocked reuptake or breakdown, a different lesion, and chemical synapses are not electrical.",
+   "perm": [
+    0,
+    1,
+    3,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · neuron (synapse)",
+   "lik": "H"
+  },
+  {
+   "n": 107,
+   "stem": "A disease progressively destroys the myelin sheath of peripheral motor axons. Which chain of consequences follows for a signal travelling toward the muscle?",
+   "options": [
+    "The impulse travels faster, because bare membrane conducts electrical current more readily than insulated membrane.",
+    "The impulse continues normally, because saltatory conduction is an optional shortcut rather than a necessity.",
+    "The impulse slows and then fails to reach the terminal, because the demyelinated stretches of membrane lack the dense voltage-gated sodium channels needed to regenerate the signal, so muscle activation weakens.",
+    "The resting potential reverses along the whole axon at once, producing continuous contraction.",
+    "Neurotransmitter release increases automatically to compensate, keeping muscle activation normal."
+   ],
+   "ans": "C",
+   "exp": "Voltage-gated Na⁺ channels sit at the nodes of Ranvier, so only there can the signal regenerate itself; across a demyelinated stretch the local current decays below threshold and conduction fails. The faster-conduction option inverts the role of insulation, which forces the impulse to jump node to node at high speed.",
+   "perm": [
+    0,
+    1,
+    3,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · neuron (myelin and saltatory conduction)",
+   "lik": "H"
+  },
+  {
+   "n": 108,
+   "stem": "A patient is given a drug that mimics acetylcholine at the receptors of the parasympathetic division of the autonomic nervous system. Which set of effects is expected?",
+   "options": [
+    "Heart rate rises, pupils dilate, airways widen and digestive activity is inhibited.",
+    "Heart rate falls, pupils constrict, airways narrow and digestive activity is stimulated.",
+    "Heart rate falls, pupils dilate, airways widen and digestive activity is stimulated.",
+    "Heart rate rises, pupils constrict, airways narrow and digestive activity is inhibited.",
+    "Heart rate falls, pupils constrict, airways widen and digestive activity is inhibited."
+   ],
+   "ans": "B",
+   "exp": "The parasympathetic division is the rest-and-digest state: it slows the heart, constricts the pupils, narrows the airways and promotes gut motility and secretion. The option with raised heart rate and dilated pupils lists sympathetic effects, and each remaining option mixes one effect of one division with the effects of the other.",
+   "perm": [
+    1,
+    4,
+    0,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · autonomic division (sympathetic vs parasympathetic)",
+   "lik": "H"
+  },
+  {
+   "n": 109,
+   "stem": "A person walks from bright sunshine into a dim cinema, sees almost nothing at first and regains useful vision over several minutes. Which explanation is correct?",
+   "options": [
+    "Bright light destroyed the cones, and new ones must be produced by cell division before vision returns.",
+    "In dim light the lens changes shape so that more light is admitted directly into the eye.",
+    "The pupil reaches its maximum diameter at once, so vision should be sharp immediately.",
+    "Bright light bleached the pigment of the photoreceptors packed in the fovea, where dim vision is normally sharpest.",
+    "In bright light the rod pigment rhodopsin was largely bleached and the cones did most of the work; in darkness rhodopsin is resynthesised over minutes and the rods gradually take over."
+   ],
+   "ans": "E",
+   "exp": "Rhodopsin in the rods is bleached by bright light and takes minutes to regenerate, matching the timescale of dark adaptation, while the cones serve bright-light vision. The fovea option fails because the fovea contains only cones, and the lens focuses light rather than controlling how much of it enters.",
+   "perm": [
+    0,
+    3,
+    2,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · eye (rods, cones, dark adaptation)",
+   "lik": "H"
+  },
+  {
+   "n": 110,
+   "stem": "Which statement about the organisation of the human nervous system is correct?",
+   "options": [
+    "The central nervous system consists of brain and spinal cord, while the peripheral nervous system divides into the somatic and autonomic systems, the latter carrying sympathetic and parasympathetic branches.",
+    "The sympathetic and parasympathetic divisions are subdivisions of the somatic nervous system.",
+    "The autonomic nervous system lies entirely within the brain and spinal cord.",
+    "The spinal cord belongs to the peripheral nervous system, because peripheral nerves run through it.",
+    "The autonomic nervous system controls the contraction of skeletal muscles during voluntary movements."
+   ],
+   "ans": "A",
+   "exp": "The CNS is brain plus spinal cord; the PNS splits into the somatic system (voluntary, skeletal muscle) and the autonomic system (involuntary control of smooth and cardiac muscle and glands), which carries the two named branches. Placing the autonomic branches under the somatic system, or crediting the autonomic system with voluntary skeletal muscle control, mixes the divisions up.",
+   "perm": [
+    1,
+    0,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · nervous system divisions (CNS and PNS)",
+   "lik": "M"
+  },
+  {
+   "n": 111,
+   "stem": "A lumbar puncture is performed to sample the fluid that cushions the brain and spinal cord. The needle passes through the dura mater and then through one further meningeal layer before reaching the fluid. Which layer is pierced last, and which fluid is sampled?",
+   "options": [
+    "the pia mater, and the sample is tissue fluid from the subdural space",
+    "the dura mater, and the sample is lymph from the epidural space",
+    "the arachnoid mater, and the sample is blood from the subdural space",
+    "the arachnoid mater, and the sample is cerebrospinal fluid from the subarachnoid space",
+    "the pia mater, and the sample is cerebrospinal fluid from the subdural space"
+   ],
+   "ans": "D",
+   "exp": "From outside inwards the meninges run dura mater, arachnoid mater, pia mater, and cerebrospinal fluid fills the subarachnoid space between arachnoid and pia, so the arachnoid is the last layer crossed. The subdural options place the fluid in a space that normally contains essentially none.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · meninges and cerebrospinal fluid",
+   "lik": "M"
+  },
+  {
+   "n": 112,
+   "stem": "In an animal experiment both vagus nerves are cut, and the animal is observed after recovery from the surgery. Which set of consequences is expected?",
+   "options": [
+    "Heart rate falls, because the vagus carries the main sympathetic acceleration of the heart.",
+    "Heart rate is unchanged, because the heartbeat is driven entirely by the sinoatrial node itself.",
+    "Heart rate rises above normal, because the tonic parasympathetic slowing exerted by the vagus is lost, while digestive motility and secretion decrease.",
+    "Digestive activity accelerates, because the vagus normally inhibits the gut.",
+    "The pupils dilate permanently, because the vagus supplies the muscles of the iris."
+   ],
+   "ans": "C",
+   "exp": "The vagus carries parasympathetic fibres that keep a constant brake on the heart and stimulate digestive activity; cutting it releases the brake and withdraws the stimulus, so the heart speeds up and the gut slows. The unchanged-heart option ignores this resting parasympathetic tone, and the iris is not supplied by the vagus.",
+   "perm": [
+    4,
+    2,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · vagus nerve and autonomic control",
+   "lik": "H"
+  },
+  {
+   "n": 113,
+   "stem": "Phosphofructokinase-1 (PFK-1) catalyses the committed step of glycolysis. Which of the following statements about its control is false?",
+   "options": [
+    "ATP binds to an allosteric regulatory site on PFK-1 and lowers the enzyme's activity.",
+    "AMP binds to PFK-1 and relieves the inhibition caused by high ATP.",
+    "Citrate, an intermediate of the citric acid cycle, allosterically inhibits PFK-1.",
+    "ATP acts only as an inhibitor of PFK-1 and plays no role whatsoever as its substrate.",
+    "A high AMP:ATP ratio in the cytosol favours flux through the PFK-1 step."
+   ],
+   "ans": "D",
+   "exp": "PFK-1 uses ATP to phosphorylate fructose-6-phosphate, so ATP is a substrate at the active site as well as an allosteric inhibitor at a separate regulatory site. AMP and citrate act exactly as the other statements describe, so the claim denying ATP any substrate role is the false one.",
+   "perm": [
+    1,
+    0,
+    3,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · glycolysis regulation (PFK-1)",
+   "lik": "H"
+  },
+  {
+   "n": 114,
+   "stem": "During a sprint, the ATP concentration inside a fast muscle fibre falls and its AMP concentration rises. What is the most likely immediate effect on glycolysis in that fibre?",
+   "options": [
+    "Glycolysis accelerates, because AMP allosterically activates PFK-1, the enzyme catalysing the committed step.",
+    "Glycolysis stops, because PFK-1 requires ATP as an allosteric activator.",
+    "Glycolysis continues at the same rate, because AMP has no effect on glycolytic enzymes.",
+    "Glycolysis slows, because AMP competes with glucose for hexokinase at the entry to the pathway.",
+    "Glycolysis accelerates, because AMP directly phosphorylates ADP to make extra ATP inside the enzyme."
+   ],
+   "ans": "A",
+   "exp": "AMP signals a low energy charge and allosterically activates PFK-1, so the committed step speeds up even though cellular ATP has fallen. The claim that PFK-1 needs ATP as an activator inverts the real control: ATP at high concentration inhibits, while a small amount serves only as substrate.",
+   "perm": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · PFK-1 and the AMP:ATP ratio",
+   "lik": "M"
+  },
+  {
+   "n": 115,
+   "stem": "In the aerobic respiration of one glucose molecule, what do the two link reactions (oxidative decarboxylation of pyruvate) together yield, and where do they occur?",
+   "options": [
+    "2 acetyl-CoA, 4 CO₂ and 2 NADH, inside the mitochondrial matrix",
+    "2 acetyl-CoA, 2 CO₂ and 2 NADH, inside the mitochondrial matrix",
+    "2 acetyl-CoA, 2 CO₂ and 2 FADH₂, on the inner mitochondrial membrane",
+    "1 acetyl-CoA, 1 CO₂ and 1 NADH, inside the mitochondrial matrix",
+    "2 acetyl-CoA, 2 CO₂ and 2 NADH, in the cytosol"
+   ],
+   "ans": "B",
+   "exp": "Each of the two pyruvates from one glucose loses one carbon as CO₂ and reduces one NAD⁺ to NADH while being joined to coenzyme A, so together the link reactions give 2 acetyl-CoA, 2 CO₂ and 2 NADH. The pyruvate dehydrogenase complex sits in the mitochondrial matrix, so the cytosol option confuses this step with glycolysis.",
+   "perm": [
+    2,
+    4,
+    3,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · link reaction (pyruvate oxidation)",
+   "lik": "M"
+  },
+  {
+   "n": 116,
+   "stem": "A toxin irreversibly inhibits the pyruvate dehydrogenase complex in cells that are supplied only with glucose. Which outcome follows?",
+   "options": [
+    "Pyruvate accumulates, acetyl-CoA production falls and the ATP yield from glucose oxidation drops sharply.",
+    "Pyruvate accumulates but the citric acid cycle speeds up to compensate, keeping ATP output normal.",
+    "Acetyl-CoA accumulates and activates the citric acid cycle, raising ATP output.",
+    "Glycolysis stops, because pyruvate dehydrogenase catalyses an essential step of glycolysis itself.",
+    "The electron transport chain accelerates, because NADH from glycolysis alone floods into the mitochondria."
+   ],
+   "ans": "A",
+   "exp": "Pyruvate dehydrogenase is the gateway between cytosolic glycolysis and the mitochondrial citric acid cycle, so blocking it starves the cycle of acetyl-CoA, cutting NADH and FADH₂ generation and with them the ATP yield. Glycolysis itself is unaffected, which is why pyruvate piles up, and the respiratory chain slows rather than accelerates because it runs short of electron supply.",
+   "perm": [
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · pyruvate oxidation (inhibitor cascade)",
+   "lik": "H"
+  },
+  {
+   "n": 117,
+   "stem": "What are the products of one complete turn of the citric acid cycle?",
+   "options": [
+    "2 NADH, 2 FADH₂, 1 GTP and 2 CO₂",
+    "4 NADH, 1 FADH₂, 1 GTP and 1 CO₂",
+    "3 NADH, 1 FADH₂, 1 GTP and 2 CO₂",
+    "3 NADH, 1 FADH₂, 1 ATP by oxidative phosphorylation and 2 CO₂",
+    "3 NADH, 1 FADH₂, 1 GTP and 1 CO₂"
+   ],
+   "ans": "C",
+   "exp": "One turn reduces three NAD⁺ to NADH and one FAD to FADH₂, generates one GTP by substrate-level phosphorylation and releases two CO₂. Counting two FADH₂ overstates the single FAD-dependent step, and the GTP is not a product of oxidative phosphorylation.",
+   "perm": [
+    3,
+    2,
+    1,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · citric acid cycle products",
+   "lik": "M"
+  },
+  {
+   "n": 118,
+   "stem": "Acetyl-CoA labelled with ¹⁴C on its methyl (CH₃) carbon enters the citric acid cycle. When is the label first released as ¹⁴CO₂?",
+   "options": [
+    "During the first turn of the cycle, as one of the two CO₂ molecules released",
+    "During the second turn, after the label has passed into oxaloacetate",
+    "Immediately on entry, because citrate synthase decarboxylates acetyl-CoA as it condenses",
+    "From the third turn onwards: neither carbon of the entering acetyl group is released during the first turn, and the methyl carbon survives even longer than the carbonyl carbon",
+    "Never, because the methyl carbon is fully conserved for as long as the cycle runs"
+   ],
+   "ans": "D",
+   "exp": "The two CO₂ released in any turn come from carbons that were part of oxaloacetate, so an incoming acetyl group survives its first complete passage intact; with a ¹⁴C label the carbonyl carbon appears in CO₂ mainly in the second turn and the methyl carbon mainly from the third turn onwards. Citrate synthase condenses acetyl-CoA with oxaloacetate without any decarboxylation, so the immediate-release option misunderstands that step.",
+   "perm": [
+    2,
+    4,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · citric acid cycle (carbon tracing)",
+   "lik": "H"
+  },
+  {
+   "n": 119,
+   "stem": "Which of the following statements about the citric acid cycle is false?",
+   "options": [
+    "The cycle runs mainly in the mitochondrial matrix, with succinate dehydrogenase embedded in the inner membrane.",
+    "Succinate dehydrogenase transfers electrons from succinate to FAD, and the resulting FADH₂ passes them on directly within the respiratory chain.",
+    "The GTP formed in the cycle is produced by substrate-level phosphorylation.",
+    "Acetyl-CoA condenses with oxaloacetate, which is regenerated at the end of every turn.",
+    "Each turn of the cycle consumes two molecules of acetyl-CoA and regenerates one molecule of oxaloacetate."
+   ],
+   "ans": "E",
+   "exp": "A single turn oxidises one acetyl group and regenerates the oxaloacetate carrier, so the two-acetyl-CoA claim confuses per-turn and per-glucose accounting. The other claims hold: succinate dehydrogenase is the cycle's membrane-bound enzyme and hands its FADH₂ electrons straight to ubiquinone, and the GTP arises by substrate-level phosphorylation.",
+   "perm": [
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · citric acid cycle (organisation)",
+   "lik": "H"
+  },
+  {
+   "n": 120,
+   "stem": "Which of the following statements about the mitochondrial electron transport chain is false?",
+   "options": [
+    "Complex I transfers electrons from NADH to ubiquinone and pumps protons to the intermembrane space.",
+    "The final electron acceptor for the electrons carried by NADH is cytochrome c of complex III.",
+    "Complex II transfers electrons from succinate, via FADH₂, to ubiquinone without pumping protons.",
+    "Complex III passes electrons from ubiquinol to cytochrome c and pumps protons.",
+    "Complex IV transfers electrons to O₂, reducing it to water, and pumps protons."
+   ],
+   "ans": "B",
+   "exp": "Cytochrome c is only an intermediate shuttle between complexes III and IV, so the electrons carried by NADH end on O₂ at complex IV, not on cytochrome c. The remaining statements match the standard division of labour, including complex II feeding ubiquinone without pumping protons, the very reason FADH₂ electrons bypass complex I.",
+   "perm": [
+    1,
+    2,
+    3,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · electron transport chain complexes",
+   "lik": "H"
+  },
+  {
+   "n": 121,
+   "stem": "Rotenone specifically blocks electron transfer at complex I of the respiratory chain. A respiring cell is then supplied with succinate as its main oxidisable substrate. Which outcome is expected?",
+   "options": [
+    "ATP synthesis continues at a reduced rate, because electrons from succinate FADH₂ enter the chain at complex II and drive pumping at complexes III and IV.",
+    "ATP synthesis stops completely, because every electron entering the chain must first pass through complex I.",
+    "ATP synthesis continues at the normal rate, because complex II pumps protons and takes over the work of complex I.",
+    "The proton gradient rises above its normal value, because succinate oxidation pumps more protons than NADH oxidation.",
+    "Oxygen consumption stops completely, even though the proton gradient persists."
+   ],
+   "ans": "A",
+   "exp": "Succinate oxidation passes electrons to ubiquinone through complex II, leaving the blocked complex I out of the circuit, so complexes III and IV still pump protons and ATP synthesis continues, though at a lower rate because complex I's contribution is lost. Complex II pumps no protons, so the gradient cannot rise above normal, and with succinate feeding the chain oxygen consumption continues rather than stopping.",
+   "perm": [
+    3,
+    4,
+    1,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · ETC inhibitors (rotenone)",
+   "lik": "H"
+  },
+  {
+   "n": 122,
+   "stem": "Cyanide binds the Fe³⁺ of cytochrome a₃ in complex IV and halts electron transfer to oxygen. In a mitochondrion poisoned in this way, what happens?",
+   "options": [
+    "Complexes I, II and III become fully oxidised while NADH accumulates in the matrix.",
+    "Proton pumping continues at complexes I and III even though complex IV is blocked.",
+    "Complexes I, II and III become fully reduced, proton pumping stops and ATP synthesis falls to zero.",
+    "The proton gradient is unaffected, because ATP synthase can still run in reverse.",
+    "Oxygen consumption continues at a lower rate while NAD⁺ is steadily regenerated."
+   ],
+   "ans": "C",
+   "exp": "With the final acceptor blocked, electrons pile up behind complex IV, trapping complexes I, II and III in their reduced states, stopping all proton pumping and letting the gradient drain until ATP synthase has nothing left to exploit. The mirror-image option, fully oxidised upstream carriers with accumulating NADH, describes exactly what cannot happen, since oxidising NADH is what stops.",
+   "perm": [
+    1,
+    2,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · ETC inhibitors (cyanide)",
+   "lik": "H"
+  },
+  {
+   "n": 123,
+   "stem": "A molecule that makes the inner mitochondrial membrane leaky to protons is added to actively respiring mitochondria. Which outcome is expected?",
+   "options": [
+    "Electron transport stops, because the proton gradient is the driving force for electron flow.",
+    "ATP synthesis continues at its normal rate, because ATP synthase is not part of the electron transport chain.",
+    "ATP synthesis increases, because protons now return to the matrix faster.",
+    "Electron transport slows down, while ATP synthesis is unaffected.",
+    "Electron transport and oxygen consumption speed up, most of the released energy appears as heat, and ATP synthesis falls."
+   ],
+   "ans": "E",
+   "exp": "The leak dissipates the proton gradient that limits electron flow, so the chain and oxygen consumption speed up, but the energy escapes as heat instead of turning ATP synthase, which is exactly how brown fat thermogenesis works. Faster proton return cannot raise ATP output, because the stored energy is dissipated rather than harnessed.",
+   "perm": [
+    3,
+    1,
+    4,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · chemiosmosis (uncoupling)",
+   "lik": "H"
+  },
+  {
+   "n": 124,
+   "stem": "Per molecule delivered to the respiratory chain, FADH₂ yields roughly two ATP, whereas NADH yields roughly two to three times as many. What is the main reason for the difference?",
+   "options": [
+    "FADH₂ enters the chain at complex II, so its electrons bypass complex I and its oxidation pumps fewer protons.",
+    "FADH₂ carries only one electron, whereas NADH carries two.",
+    "FADH₂ cannot be reoxidised inside the mitochondrion and is excreted from the cell.",
+    "FADH₂ donates its electrons directly to oxygen at complex IV.",
+    "FADH₂ releases its electrons into the intermembrane space, where they cannot reach the chain."
+   ],
+   "ans": "A",
+   "exp": "FADH₂ delivers its electrons to ubiquinone at complex II, which pumps no protons, so those electrons skip the proton-pumping step of complex I and store less energy in the gradient. Both carriers carry two electrons, so a difference in electron count cannot explain the lower yield.",
+   "perm": [
+    0,
+    2,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · NADH and FADH₂ entry points",
+   "lik": "H"
+  },
+  {
+   "n": 125,
+   "stem": "Which of the following statements about the roles of NAD⁺, FAD and ATP in metabolism is correct?",
+   "options": [
+    "ATP accepts electrons from oxidised substrates and passes them on to the electron transport chain.",
+    "NAD⁺ and FAD store the energy they harvest as a proton gradient inside their own rings.",
+    "FAD accepts two electrons and two protons during glycolysis, while NAD⁺ accepts single electrons only.",
+    "NAD⁺ and FAD accept electrons, together with protons, from oxidised substrates, while ATP transfers usable energy mainly through its terminal phosphate bond.",
+    "ATP is reduced to ADP when it transfers its terminal phosphate group to a substrate."
+   ],
+   "ans": "D",
+   "exp": "NAD⁺ and FAD are the electron and hydrogen acceptors of dehydrogenase reactions, while ATP is the currency that moves energy through its terminal phosphate, two distinct roles. Phosphate transfer is not a redox event, so describing ATP as reduced to ADP misapplies the term.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · NAD⁺, FAD and ATP as carriers",
+   "lik": "M"
+  },
+  {
+   "n": 126,
+   "stem": "Which of the following statements about alcoholic fermentation in yeast is correct?",
+   "options": [
+    "Pyruvate is reduced directly to ethanol, so no CO₂ is produced.",
+    "Alcoholic fermentation generates extra ATP beyond glycolysis by substrate-level phosphorylation.",
+    "Pyruvate is first decarboxylated to acetaldehyde with release of CO₂, then reduced to ethanol by NADH, regenerating NAD⁺ with no further ATP synthesis.",
+    "Yeast regenerates NAD⁺ during fermentation using lactate dehydrogenase.",
+    "The NADH that reduces acetaldehyde is supplied by the electron transport chain running in reverse."
+   ],
+   "ans": "C",
+   "exp": "Yeast first decarboxylates pyruvate to acetaldehyde, releasing the CO₂ of fermentation, and alcohol dehydrogenase then spends glycolytic NADH reducing acetaldehyde to ethanol, which is precisely how NAD⁺ is regenerated for further glycolysis; neither fermentation step makes ATP. Lactate dehydrogenase is the muscle route, and the NADH used comes from glycolysis in the cytosol, not from a reversed respiratory chain.",
+   "perm": [
+    0,
+    3,
+    2,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · alcoholic fermentation",
+   "lik": "H"
+  },
+  {
+   "n": 127,
+   "stem": "A muscle fibre metabolises glucose entirely by glycolysis followed by lactic acid fermentation. What is the net ATP yield per glucose, and why does fermentation remain indispensable?",
+   "options": [
+    "2 ATP: fermentation regenerates the NAD⁺ that glycolysis needs at the step oxidising glyceraldehyde-3-phosphate.",
+    "4 ATP: the fermentation steps themselves produce two extra ATP per pyruvate.",
+    "8 ATP: the conversion of pyruvate to lactate feeds electrons into the electron transport chain.",
+    "0 ATP: glycolysis cannot even start without oxygen.",
+    "6 ATP: fermentation converts the NADH of glycolysis into ATP inside the mitochondria."
+   ],
+   "ans": "A",
+   "exp": "Glycolysis spends 2 ATP and recovers 4, and converting pyruvate to lactate reoxidises that NADH back to NAD⁺, so the pathway can keep running without oxygen for a net of 2 ATP per glucose. The extra-ATP option is the classic error: the fermentation steps themselves produce no ATP at all.",
+   "perm": [
+    3,
+    1,
+    4,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · lactic acid fermentation",
+   "lik": "M"
+  },
+  {
+   "n": 128,
+   "stem": "During skeletal muscle contraction, what is the role of ATP at the moment a myosin head detaches from actin?",
+   "options": [
+    "ATP phosphorylates actin so that myosin can bind it again at a fresh site.",
+    "ATP binding to the myosin head weakens its grip on actin and causes detachment; hydrolysis of that ATP then re-cocks the head for the next stroke.",
+    "Calcium released by ATP detaches myosin from actin.",
+    "ATP is consumed only at the end of the power stroke, to pull the filaments past each other.",
+    "Detachment requires no ATP, because the release of ADP alone breaks the cross-bridge."
+   ],
+   "ans": "B",
+   "exp": "ATP binding to the myosin head weakens its attachment to actin and detaches the cross-bridge, and the energy of the following hydrolysis re-cocks the head into its high-energy position; without ATP the bridges stay locked, as in rigor mortis. Calcium's role is regulatory, exposing myosin-binding sites through troponin and tropomyosin, not releasing heads.",
+   "perm": [
+    1,
+    4,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · cross-bridge cycle and ATP",
+   "lik": "M"
+  },
+  {
+   "n": 129,
+   "stem": "Dystrophin is absent or non-functional in Duchenne muscular dystrophy. What is its normal role in a skeletal muscle fibre?",
+   "options": [
+    "It binds calcium to troponin, exposing the myosin-binding sites on actin.",
+    "It hydrolyses ATP to supply the power stroke of myosin.",
+    "It forms the thick filaments of the sarcomere together with myosin.",
+    "It stores oxygen inside the fibre, as myoglobin does.",
+    "It anchors the actin cytoskeleton to membrane glycoproteins, stabilising the sarcolemma during contraction."
+   ],
+   "ans": "E",
+   "exp": "Dystrophin links the sub-sarcolemmal actin network to the dystrophin-glycoprotein complex of the membrane, so losing it lets the sarcolemma tear under the mechanical stress of repeated contraction, which underlies Duchenne muscular dystrophy. ATP hydrolysis belongs to myosin and oxygen storage to myoglobin, so those options assign other proteins' jobs to a structural linker.",
+   "perm": [
+    3,
+    0,
+    2,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · dystrophin and sarcolemma stability",
+   "lik": "M"
+  },
+  {
+   "n": 130,
+   "stem": "A muscle biopsy from an athlete shows fibres rich in mitochondria and myoglobin, with few glycogen granules and strong resistance to fatigue. Which fibre type is this, and in which sport would such fibres predominate?",
+   "options": [
+    "Type II fast glycolytic fibres, as in a sprinter",
+    "Type II fast glycolytic fibres, as in a marathon runner",
+    "Type I slow oxidative fibres, as in a sprinter",
+    "Type I slow oxidative fibres, as in a marathon runner",
+    "Cardiac muscle fibres, as in a long-distance swimmer"
+   ],
+   "ans": "D",
+   "exp": "Dense mitochondria and abundant myoglobin with little stored glycogen are the signature of type I slow oxidative fibres, built for continuous aerobic work and therefore predominant in endurance athletes such as marathon runners. The sprinter pairing is the trap: fast glycolytic fibres depend on glycolysis, are relatively pale and fatigue rapidly.",
+   "perm": [
+    1,
+    3,
+    4,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · fibre type I versus type II",
+   "lik": "M"
+  }
+ ]
+}

@@ -1,0 +1,584 @@
+### bank_chem_hard n=1  [ans=D]  topic=Organic · epimers and stereoisomer classes  lik=M
+STEM: D-glucose and D-galactose are both aldohexoses with the same bonding order; their Fischer projections differ only at carbon 4, where the OH points right in glucose and left in galactose. Which term most precisely classifies the pair?
+  A) They are enantiomers, because the OH at C-4 is on opposite sides in the two sugars.
+  B) They are anomers, because any two aldohexoses that differ at a single carbon are anomers.
+  C) They are constitutional isomers, because in galactose the C-4 OH is bonded to a different carbon.
+  D) They are epimers, because they differ in configuration at exactly one chiral center, C-4.
+  E) They are identical compounds drawn as different Fischer projections.
+EXP: Same formula, same connectivity and exactly one stereocenter changed (C-4) is the definition of epimers. They are not mirror images because C-2, C-3 and C-5 still match, and the OH is bonded to C-4 in both sugars, so no connectivity has changed.
+
+### bank_chem_hard n=2  [ans=E]  topic=Organic · enantiomers (full R/S inversion)  lik=H
+STEM: A synthesis produces a molecule with the same bonding order as (2R,3S,4R)-hexane-2,3,4-triol but with configurations (2S,3R,4S) at its three chiral centers. Which term most precisely classifies the relationship between the two molecules?
+  A) They are identical molecules, because they share the same molecular formula.
+  B) They are diastereomers, because some of the stereocenters are inverted.
+  C) They are constitutional isomers, because the OH groups occupy different positions.
+  D) They are epimers, because several chiral centers change at the same time.
+  E) They are enantiomers, because every chiral center is inverted, giving two non-superimposable mirror images.
+EXP: Inverting all three stereocenters gives the mirror image of the original molecule, so the pair are enantiomers. Diastereomers must keep at least one center unchanged, and epimers differ at exactly one, so both fail here; the bonding order never changed.
+
+### bank_chem_hard n=3  [ans=B]  topic=Organic · anomers of glucose  lik=M
+STEM: In water, D-glucose cyclises and exists as two forms that differ only at carbon 1: in the alpha form the new OH points down from the ring, in the beta form it points up, while the configurations at carbons 2 to 5 are identical. Which term most precisely classifies the two forms?
+  A) Conformational isomers, interconvertible by rotation about a single bond.
+  B) Anomers, because they differ in configuration at the anomeric carbon, C-1.
+  C) Enantiomers, because the anomeric carbon is the most important stereocenter.
+  D) Constitutional isomers, because the OH is attached to the ring in two different ways.
+  E) Identical compounds, because the two forms have the same molecular formula.
+EXP: Two cyclic sugars differing only at the hemiacetal carbon C-1 are anomers by definition. A rotation about a bond cannot interconvert them, because switching alpha to beta requires breaking and reforming the bond at C-1, so they are configurational isomers.
+
+### bank_chem_hard n=4  [ans=A]  topic=Organic · diastereomers from R/S pairs  lik=H
+STEM: Butane-2,3-diol exists in stereoisomeric forms: one has the configuration (2R,3R) and another has (2R,3S). Which term most precisely classifies these two forms?
+  A) They are diastereomers, because they are stereoisomers that are not mirror images of each other.
+  B) They are enantiomers, because one form contains an R descriptor and the other an S descriptor.
+  C) They are constitutional isomers, because an OH group has moved from C-2 to C-3.
+  D) They are identical, because rotation about the C-2 to C-3 bond superimposes them.
+  E) They are conformational isomers, because they interconvert by bond rotation at room temperature.
+EXP: The mirror image of (2R,3R) is (2S,3S), not (2R,3S), so the two named forms are stereoisomers that are not mirror images: diastereomers. Sharing one unchanged R center is exactly what rules out the enantiomer option, and no bond rotation can change a configuration.
+
+### bank_chem_hard n=5  [ans=C]  topic=Organic · functional group isomerism  lik=H
+STEM: Compound X is CH₃OCH₂CH₃ (methoxyethane) and compound Y is CH₃CH₂CH₂OH (propan-1-ol); both have molecular formula C₃H₈O. Which statement is correct?
+  A) They are the same compound drawn differently, since both have formula C₃H₈O.
+  B) They are enantiomers, because the alcohol is a chiral molecule.
+  C) They are constitutional isomers with different functional groups: an ether and an alcohol.
+  D) They are both ethers, because both contain a C-O single bond.
+  E) They are diastereomers, because their physical properties differ.
+EXP: Identical formulas with different connectivity and different functional groups (C-O-C versus C-O-H) makes them functional-group isomers, a subtype of constitutional isomers. Propan-1-ol has no chiral center, since its C-2 carries two hydrogen atoms, so the enantiomer option fails.
+
+### bank_chem_hard n=6  [ans=D]  topic=Organic · aldose versus ketose isomerism  lik=M
+STEM: D-glucose is an aldohexose with an aldehyde group at C-1, while D-fructose is a ketohexose with a ketone group at C-2. Both have molecular formula C₆H₁₂O₆. Which term most precisely classifies the pair?
+  A) Epimers, because they differ at one carbon atom.
+  B) Enantiomers, because both are hexoses with the same formula.
+  C) Anomers, because the carbonyl sits at C-2 in one sugar and C-1 in the other.
+  D) Constitutional isomers, because the same atoms are joined in a different order.
+  E) Stereoisomers, because only the position of the carbonyl differs.
+EXP: Moving the carbonyl from C-1 to C-2 changes which atoms are bonded to which, so the two hexoses share a formula but not a bonding order: they are constitutional isomers. Epimers and anomers must keep identical connectivity, which these sugars do not.
+
+### bank_chem_hard n=7  [ans=B]  topic=Organic · amide nomenclature  lik=M
+STEM: The structure CH₃CH₂CONH₂ is named:
+  A) Propanamine
+  B) Propanamide
+  C) Propanoic acid
+  D) Methyl ethanoate
+  E) Propanenitrile
+EXP: The CONH₂ group is an amide, and the three-carbon chain gives propanamide. Propanamine would be CH₃CH₂CH₂NH₂ with no carbonyl, and methyl ethanoate is the ester CH₃COOCH₃.
+
+### bank_chem_hard n=8  [ans=C]  topic=Organic · functional group recognition (wintergreen)  lik=H
+STEM: Oil of wintergreen (methyl 2-hydroxybenzoate) consists of a benzene ring bearing an OH group attached directly to the ring, plus a COOCH₃ group joined through the carbonyl carbon. Which two functional groups does the molecule contain?
+  A) An alcohol and a carboxylic acid
+  B) A carboxylic acid and an ester
+  C) A phenol and an ester
+  D) An ether and a ketone
+  E) A phenol and an amide
+EXP: An OH bonded directly to a benzene ring is a phenol, not an alcohol, and the COOCH₃ linkage is an ester. The parent carboxylic acid group was converted into the ester, so no free COOH remains.
+
+### bank_chem_hard n=9  [ans=A]  topic=Organic · ether nomenclature  lik=M
+STEM: The structure CH₃CH₂OCH₂CH₃ is named:
+  A) Ethoxyethane
+  B) Butan-1-ol
+  C) Butanal
+  D) Butan-2-one
+  E) Butanoic acid
+EXP: An oxygen atom bridging two ethyl groups is the ether ethoxyethane, also called diethyl ether. Butan-1-ol shares its molecular formula C₄H₁₀O but carries a terminal OH instead of the C-O-C linkage.
+
+### bank_chem_hard n=10  [ans=C]  topic=Organic · ketone identification with constraints  lik=H
+STEM: Which of the following compounds is a ketone and contains exactly four carbon atoms?
+  A) Butanal, CH₃CH₂CH₂CHO
+  B) Propanone, CH₃COCH₃
+  C) Butan-2-one, CH₃COCH₂CH₃
+  D) Butan-2-ol, CH₃CH(OH)CH₂CH₃
+  E) Butanoic acid, CH₃CH₂CH₂COOH
+EXP: Butan-2-one has its C=O on an internal carbon, which defines a ketone, and its chain holds four carbons. Butanal and butanoic acid satisfy the carbon count but are an aldehyde and a carboxylic acid, while propanone is a ketone with only three carbons.
+
+### bank_chem_hard n=11  [ans=E]  topic=Organic · D and L assignment  lik=H
+STEM: An aldohexose is drawn as a Fischer projection with the aldehyde at the top as C-1. The OH groups at C-2, C-3 and C-4 point right, right and left respectively, and the OH at C-5, the chiral center farthest from the aldehyde, points left. How is the sugar classified?
+  A) It is a D-sugar, because two of its four OH groups point right.
+  B) It is a D-sugar, because D/L is fixed by the OH closest to the aldehyde group.
+  C) It is meso, because left- and right-pointing OH groups balance two against two.
+  D) It is a D-sugar, because the aldehyde group is drawn at the top of the projection.
+  E) It is an L-sugar, because the OH on the stereocenter farthest from the aldehyde points left.
+EXP: The D/L descriptor is set solely by the stereocenter farthest from the carbonyl group, C-5 in an aldohexose: a left-pointing OH there places the sugar in the L series regardless of the other centers. Counting all OH directions, as the two-and-two options do, is the classic error, and meso describes internal mirror symmetry, not Fischer classification.
+
+### bank_chem_hard n=12  [ans=A]  topic=Organic · alpha versus beta glycosidic bonds  lik=H
+STEM: Maltose and cellobiose are both disaccharides of two glucose units with molecular formula C₁₂H₂₂O₁₁. Maltose joins its units with an alpha-1,4 glycosidic bond and cellobiose with a beta-1,4 bond. Human enzymes hydrolyse maltose efficiently but cannot digest cellobiose. Which statement explains this best?
+  A) Human enzymes fit the alpha-1,4 geometry of maltose but not the beta-1,4 geometry of cellobiose, so cellobiose is not hydrolysed.
+  B) Cellobiose cannot be digested because its molecular formula differs from that of maltose.
+  C) Cellobiose is indigestible because beta glycosidic bonds are chemically stronger than alpha bonds and cannot be broken in water.
+  D) Maltose is digested because it is a reducing sugar, whereas cellobiose is non-reducing.
+  E) Cellobiose passes through the gut unchanged because no enzyme can release glucose from a beta bond.
+EXP: The two disaccharides share their formula and atoms; only the three-dimensional geometry of the linkage differs, and enzyme specificity is stereochemical, so only the alpha geometry fits the human glucosidase. Human lactase in fact digests the beta bond of lactose, and cellobiose, with one free anomeric carbon, is itself a reducing sugar.
+
+### bank_chem_hard n=13  [ans=D]  topic=Organic · reducing end logic  lik=H
+STEM: In sucrose, the glycosidic bond links the anomeric carbon C-1 of glucose to the anomeric carbon C-2 of fructose. In maltose, the glycosidic bond uses the anomeric carbon of only one of its two glucose units. Which statement is correct?
+  A) Sucrose is reducing because fructose is a ketose, and ketoses are always stronger reducing agents.
+  B) Both sugars are non-reducing, because any glycosidic bond blocks reduction.
+  C) Maltose is non-reducing, because it is built only from glucose units.
+  D) Sucrose is non-reducing because both anomeric carbons are locked inside its glycosidic bond, while maltose is reducing because one anomeric carbon stays free.
+  E) Sucrose is reducing, because the fructose ring can still open at C-2 while glycosidically bonded.
+EXP: A sugar is reducing only if it has a free anomeric carbon able to open to the carbonyl form. Sucrose ties up both anomeric carbons in its bond, so neither ring can open, whereas in maltose the second glucose keeps a free anomeric OH.
+
+### bank_chem_hard n=14  [ans=C]  topic=Stoichiometry · moles to molecules  lik=M
+STEM: How many molecules are present in 4.4 g of propane, C₃H₈? (H = 1, C = 12; Avogadro constant = 6.02 × 10²³ mol⁻¹)
+  A) 6.02 × 10²¹
+  B) 3.01 × 10²²
+  C) 6.02 × 10²²
+  D) 1.204 × 10²³
+  E) 6.02 × 10²³
+EXP: M(C₃H₈) = 44 g/mol, so n = 4.4/44 = 0.1 mol and the count is 0.1 × 6.02 × 10²³ = 6.02 × 10²² molecules. The 6.02 × 10²³ option treats 4.4 g as one mole, and 1.204 × 10²³ doubles the mole count.
+
+### bank_chem_hard n=15  [ans=B]  topic=Stoichiometry · atom counting via Avogadro  lik=H
+STEM: How many hydrogen atoms are present in 0.25 mol of water, H₂O? (Avogadro constant = 6.02 × 10²³ mol⁻¹)
+  A) 1.505 × 10²³
+  B) 3.01 × 10²³
+  C) 6.02 × 10²³
+  D) 9.03 × 10²³
+  E) 1.204 × 10²⁴
+EXP: Each water molecule carries two hydrogen atoms, so n(H) = 0.25 × 2 = 0.5 mol, giving 0.5 × 6.02 × 10²³ = 3.01 × 10²³ atoms. The 1.505 × 10²³ option counts molecules and forgets the factor of two, while 9.03 × 10²³ counts all three atoms per molecule instead of only the hydrogens.
+
+### bank_chem_hard n=16  [ans=A]  topic=Stoichiometry · mole bridge between compounds  lik=H
+STEM: What mass of ammonia, NH₃, contains the same number of molecules as 4.4 g of carbon dioxide, CO₂? (C = 12, O = 16, N = 14, H = 1)
+  A) 1.7 g
+  B) 3.4 g
+  C) 4.4 g
+  D) 8.5 g
+  E) 17 g
+EXP: n(CO₂) = 4.4/44 = 0.1 mol, and equal molecule numbers mean equal mole numbers, so the ammonia needed is 0.1 × 17 = 1.7 g. The 4.4 g option assumes equal masses hold equal numbers of molecules, which is false once the molar masses differ.
+
+### bank_chem_hard n=17  [ans=A]  topic=Stoichiometry · molar volume at STP  lik=M
+STEM: What volume does 8.8 g of carbon dioxide, CO₂, occupy at STP? (C = 12, O = 16; molar volume at STP = 22.4 dm³/mol)
+  A) 4.48 dm³
+  B) 8.8 dm³
+  C) 11.2 dm³
+  D) 22.4 dm³
+  E) 44.8 dm³
+EXP: n = 8.8/44 = 0.2 mol, so V = 0.2 × 22.4 = 4.48 dm³. The 11.2 dm³ slip uses 0.5 mol, and 22.4 dm³ wrongly assumes one mole.
+
+### bank_chem_hard n=18  [ans=B]  topic=Stoichiometry · gas volume to particle count  lik=H
+STEM: How many molecules are present in 560 cm³ of an ideal gas at STP? (1 dm³ = 1000 cm³; molar volume at STP = 22.4 dm³/mol; Avogadro constant = 6.02 × 10²³ mol⁻¹)
+  A) 6.02 × 10²¹
+  B) 1.505 × 10²²
+  C) 6.02 × 10²³
+  D) 1.505 × 10²⁴
+  E) 1.505 × 10²⁵
+EXP: 560 cm³ = 0.560 dm³, so n = 0.560/22.4 = 0.025 mol and the count is 0.025 × 6.02 × 10²³ = 1.505 × 10²² molecules. The 1.505 × 10²⁵ option skips the cm³ to dm³ conversion and divides 560 by 22.4 as if it were cubic decimetres.
+
+### bank_chem_hard n=19  [ans=C]  topic=Stoichiometry · mass from gas volume  lik=M
+STEM: What is the mass of 4.48 dm³ of oxygen gas, O₂, measured at STP? (O = 16; molar volume at STP = 22.4 dm³/mol)
+  A) 1.6 g
+  B) 3.2 g
+  C) 6.4 g
+  D) 16 g
+  E) 32 g
+EXP: n = 4.48/22.4 = 0.2 mol of O₂ molecules, and M(O₂) = 32 g/mol, so the mass is 0.2 × 32 = 6.4 g. The 3.2 g option forgets that oxygen gas is diatomic and uses the atomic mass 16 instead.
+
+### bank_chem_hard n=20  [ans=B]  topic=Stoichiometry · limiting reagent with gas volume  lik=H
+STEM: 10.0 g of calcium carbonate (M = 100 g/mol) is treated with 100 cm³ of 1.0 mol/dm³ hydrochloric acid: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. What volume of CO₂ is released, measured at STP? (1 dm³ = 1000 cm³; molar volume at STP = 22.4 dm³/mol)
+  A) 0.56 dm³
+  B) 1.12 dm³
+  C) 2.24 dm³
+  D) 11.2 dm³
+  E) 22.4 dm³
+EXP: n(CaCO₃) = 0.10 mol would need 0.20 mol HCl, but only 0.100 × 1.0 = 0.10 mol is added, so the acid is limiting: n(CO₂) = 0.10/2 = 0.05 mol and V = 0.05 × 22.4 = 1.12 dm³. The 2.24 dm³ option treats the carbonate as limiting and ignores the 2:1 acid ratio.
+
+### bank_chem_hard n=21  [ans=C]  topic=Stoichiometry · percentage yield  lik=M
+STEM: In theory, 9.2 g of ethanol (M = 46 g/mol) dehydrates completely to ethene (M = 28 g/mol): C₂H₅OH → C₂H₄ + H₂O. The actual mass of ethene collected is 4.2 g. What is the percentage yield?
+  A) 25%
+  B) 56%
+  C) 75%
+  D) 100%
+  E) 133%
+EXP: n(ethanol) = 9.2/46 = 0.20 mol, so the theoretical ethene mass is 0.20 × 28 = 5.6 g and the yield is 4.2/5.6 = 75%. The 25% option reports the 1.4 g shortfall as a share of 5.6 g instead of the yield, and 133% inverts the ratio.
+
+### bank_chem_hard n=22  [ans=E]  topic=Stoichiometry · Boyle's law  lik=M
+STEM: A diver exhales an air bubble of volume 2.0 dm³ at a depth where the pressure is 200 kPa. The temperature stays constant as the bubble rises to the surface, where the pressure is 50 kPa. What is the volume of the bubble at the surface?
+  A) 0.5 dm³
+  B) 1.0 dm³
+  C) 2.0 dm³
+  D) 4.0 dm³
+  E) 8.0 dm³
+EXP: At constant temperature Boyle's law gives P₁V₁ = P₂V₂, so V₂ = 2.0 × (200/50) = 8.0 dm³; falling pressure means expanding volume. The 0.5 dm³ option inverts the pressure ratio and predicts the opposite trend.
+
+### bank_chem_hard n=23  [ans=D]  topic=Stoichiometry · Gay-Lussac's law  lik=H
+STEM: A rigid sealed canister holds a fixed amount of gas at 27 °C and 100 kPa. It is heated until the gas reaches 327 °C. What is the new pressure inside the canister?
+  A) 50 kPa
+  B) 100 kPa
+  C) 109 kPa
+  D) 200 kPa
+  E) 300 kPa
+EXP: Volume and moles are fixed, so Gay-Lussac's law gives P₂ = 100 × (600/300) = 200 kPa, after converting 27 °C and 327 °C to 300 K and 600 K. The 109 kPa option divides the Celsius reading 327 by 300, mixing the two temperature scales.
+
+### bank_chem_hard n=24  [ans=B]  topic=Stoichiometry · combined gas law  lik=H
+STEM: A gas occupies 9.0 dm³ at 27 °C and 100 kPa. What volume does it occupy at 127 °C and 200 kPa?
+  A) 4.5 dm³
+  B) 6.0 dm³
+  C) 12 dm³
+  D) 13.5 dm³
+  E) 24 dm³
+EXP: The combined gas law gives V₂ = 9.0 × (400/300) × (100/200) = 6.0 dm³, using 300 K and 400 K. The 12 dm³ option ignores the pressure change, and 13.5 dm³ inverts both ratios, predicting an expansion although the pressure doubles.
+
+### bank_chem_hard n=25  [ans=D]  topic=Stoichiometry · Dalton's law of partial pressures  lik=H
+STEM: A sealed vessel contains 0.20 mol of nitrogen gas and 0.30 mol of oxygen gas at constant temperature, and the total pressure is 150 kPa. What is the partial pressure of the oxygen?
+  A) 45 kPa
+  B) 60 kPa
+  C) 75 kPa
+  D) 90 kPa
+  E) 150 kPa
+EXP: Dalton's law gives p(O₂) = mole fraction × total pressure = (0.30/0.50) × 150 = 90 kPa. The 60 kPa option gives the nitrogen share, and 45 kPa multiplies the moles of oxygen straight by the total pressure without forming the mole fraction.
+
+### bank_chem_hard n=26  [ans=C]  topic=Stoichiometry · concentration after mixing  lik=H
+STEM: 100 cm³ of 0.80 mol/dm³ hydrochloric acid is mixed with 400 cm³ of 0.20 mol/dm³ hydrochloric acid. Assuming the volumes are additive, what is the concentration of the resulting solution?
+  A) 0.16 mol/dm³
+  B) 0.20 mol/dm³
+  C) 0.32 mol/dm³
+  D) 0.50 mol/dm³
+  E) 0.80 mol/dm³
+EXP: n = 0.100 × 0.80 + 0.400 × 0.20 = 0.16 mol, and the total volume is 0.500 dm³, so c = 0.16/0.500 = 0.32 mol/dm³. The 0.50 mol/dm³ option takes an unweighted average of the two concentrations, ignoring how much of each was used.
+
+### bank_chem_hard n=27  [ans=C]  topic=Stoichiometry · dilution (water added)  lik=H
+STEM: What volume of water must be added to 25 cm³ of a 2.0 mol/dm³ solution to dilute it to 0.10 mol/dm³?
+  A) 25 cm³
+  B) 250 cm³
+  C) 475 cm³
+  D) 500 cm³
+  E) 5000 cm³
+EXP: The moles stay constant at 25 × 2.0 = 0.050 mol, so the final volume must be 0.050/0.10 = 500 cm³; the water added is the final volume less the 25 cm³ already present, i.e. 475 cm³. The 500 cm³ option gives the final volume and forgets the original solution already occupies part of it.
+
+### bank_chem_hard n=28  [ans=C]  topic=Acids and bases · pH of a strong acid  lik=M
+STEM: What is the pH of a 2.0 × 10⁻⁴ mol/dm³ solution of hydrochloric acid, a strong acid that is fully ionised in water?
+  A) 2.7
+  B) 3.3
+  C) 3.7
+  D) 4.0
+  E) 10.3
+EXP: HCl is fully ionised, so [H⁺] = 2.0 × 10⁻⁴ mol/dm³ and pH = 4 − 0.30 = 3.70. The 4.0 option drops the 0.30 from log 2, and the 10.3 option wrongly treats the solution as basic.
+
+### bank_chem_hard n=29  [ans=D]  topic=Acids and bases · pOH from a strong acid  lik=M
+STEM: What is the pOH of a 5.0 × 10⁻² mol/dm³ solution of nitric acid, a strong acid that is fully ionised in water? (Kw = 1.0 × 10⁻¹⁴ at 25 °C)
+  A) 1.3
+  B) 2.7
+  C) 12.3
+  D) 12.7
+  E) 13.7
+EXP: Fully ionised HNO₃ gives [H⁺] = 5.0 × 10⁻² mol/dm³, so pH = 2 − 0.70 = 1.30 and pOH = 14 − 1.30 = 12.70. The 1.3 option reports the pH instead of the pOH, and the 12.3 option subtracts 1.7 instead of 1.3.
+
+### bank_chem_hard n=30  [ans=C]  topic=Acids and bases · pH from a dibasic strong base  lik=H
+STEM: Strontium hydroxide, Sr(OH)₂, is a strong base that is fully dissociated in water. What is the pH of a 5.0 × 10⁻⁴ mol/dm³ solution of Sr(OH)₂? (Kw = 1.0 × 10⁻¹⁴ at 25 °C)
+  A) 3.0
+  B) 10.7
+  C) 11.0
+  D) 11.7
+  E) 12.0
+EXP: Each Sr(OH)₂ releases two OH⁻ ions, so [OH⁻] = 1.0 × 10⁻³ mol/dm³, pOH = 3.0 and pH = 11.0. The 10.7 option forgets the factor of two and keeps pOH = 3.3, while the 3.0 option reports pOH as if it were pH.
+
+### bank_chem_hard n=31  [ans=B]  topic=Acids and bases · ordering pH across acid and base solutions  lik=H
+STEM: Four solutions are prepared at 25 °C (Kw = 1.0 × 10⁻¹⁴) from fully ionised solutes: P is 1.0 × 10⁻³ mol/dm³ HCl, Q is 5.0 × 10⁻³ mol/dm³ HCl, R is 1.0 × 10⁻³ mol/dm³ NaOH and S is 1.0 × 10⁻³ mol/dm³ Ba(OH)₂. Which option places the four solutions in order of increasing pH?
+  A) P, Q, R, S
+  B) Q, P, R, S
+  C) Q, P, S, R
+  D) P, Q, S, R
+  E) S, R, Q, P
+EXP: P has pH 3.0 and Q has pH 3 − 0.70 = 2.3, so the more concentrated acid has the lower pH. R has pH 11.0, and S releases two OH⁻ per formula unit, so [OH⁻] = 2.0 × 10⁻³ mol/dm³, pOH = 2.7 and pH = 11.3. The order is Q, P, R, S; ordering by molarity alone, as in P, Q, R, S, ignores what the logarithm does to concentration.
+
+### bank_chem_hard n=32  [ans=E]  topic=Equilibria in aqueous solution · Kw and the pH of neutral water  lik=H
+STEM: Pure water is heated from 25 °C to 60 °C. As the temperature rises, Kw increases, and the pH of pure water at 60 °C is measured to be 6.5. Which of the following statements is correct?
+  A) The water is acidic, because a pH below 7 always means more H₃O⁺ than OH⁻.
+  B) The water is basic, because heating pushes the hydroxide concentration above the hydrogen ion concentration.
+  C) The water is neutral, because Kw keeps the value 1.0 × 10⁻¹⁴ at every temperature.
+  D) The water is acidic, because heating destroys hydroxide ions faster than hydrogen ions.
+  E) The water is neutral, because [H⁺] and [OH⁻] stay equal while both become larger than at 25 °C.
+EXP: Kw = [H⁺][OH⁻] rises with temperature, and pure water always produces H⁺ and OH⁻ in equal amounts, so at 60 °C both concentrations sit above 1.0 × 10⁻⁷ mol/dm³ and the pH drops below 7 without any acidity. Neutrality is defined by equal concentrations of the two ions, not by the number 7.
+
+### bank_chem_hard n=33  [ans=D]  topic=Equilibria in aqueous solution · Kw on cooling pure water  lik=H
+STEM: Pure water is cooled from 25 °C to 10 °C, Kw decreases, and the pH of the cooled pure water is 7.27. Which of the following statements is correct?
+  A) The water has become basic, because a pH above 7 always means excess OH⁻ over H⁺.
+  B) The water has become acidic, because a rising pH shows that the hydrogen ion concentration has increased.
+  C) The water stays neutral and [H⁺] stays 1.0 × 10⁻⁷ mol/dm³, because pure water always contains 10⁻⁷ mol/dm³ of each ion.
+  D) The water stays neutral, with [H⁺] and [OH⁻] both below 1.0 × 10⁻⁷ mol/dm³ but still equal to each other.
+  E) The water stays neutral because Kw increases when water is cooled.
+EXP: Cooling lowers Kw, so [H⁺] and [OH⁻] fall together from 1.0 × 10⁻⁷ mol/dm³ and remain equal, which is exactly why neutrality moves to a pH above 7. A pH above 7 signals a basic solution only relative to the Kw of the temperature in question, and at 10 °C equal concentrations give pH 7.27.
+
+### bank_chem_hard n=34  [ans=A]  topic=Acids and bases · pH shift on dilution  lik=H
+STEM: 10 cm³ of 0.10 mol/dm³ hydrochloric acid, fully ionised, is diluted with water to a final volume of 1.0 dm³. By how much does the pH of the solution change?
+  A) It rises by 2 units.
+  B) It rises by 1 unit.
+  C) It rises by 100 units.
+  D) It falls by 2 units.
+  E) It stays the same, because the amount of acid is unchanged.
+EXP: The amount of HCl stays 1.0 × 10⁻³ mol, but the volume grows a hundredfold, so [H⁺] falls from 0.10 to 1.0 × 10⁻³ mol/dm³ and the pH climbs from 1.0 to 3.0. The '100 units' option confuses the dilution factor with the logarithmic pH scale.
+
+### bank_chem_hard n=35  [ans=D]  topic=Solutions · dilution to a target pH  lik=M
+STEM: What volume of water must be added to 20 cm³ of 1.0 × 10⁻² mol/dm³ hydrochloric acid, fully ionised, to obtain a solution of pH 4.0 at 25 °C?
+  A) 180 cm³
+  B) 198 cm³
+  C) 200 cm³
+  D) 1980 cm³
+  E) 2000 cm³
+EXP: pH 4.0 requires [H⁺] = 1.0 × 10⁻⁴ mol/dm³, a hundredfold dilution, so the final volume is 20 × 100 = 2000 cm³ and the water to add is 2000 − 20 = 1980 cm³. The 2000 cm³ option forgets that the 20 cm³ of acid already occupies part of the final volume.
+
+### bank_chem_hard n=36  [ans=E]  topic=Equilibria in aqueous solution · recognising a buffer mixture  lik=M
+STEM: Which of the following mixtures, made up with pure water as solvent, can act as a buffer solution?
+  A) 100 cm³ of 0.10 mol/dm³ ethanoic acid mixed with 100 cm³ of 0.10 mol/dm³ sodium hydroxide.
+  B) 100 cm³ of 0.10 mol/dm³ hydrochloric acid mixed with 100 cm³ of 0.10 mol/dm³ sodium chloride.
+  C) 100 cm³ of 0.10 mol/dm³ hydrochloric acid mixed with 50 cm³ of 0.10 mol/dm³ sodium hydroxide.
+  D) A 0.10 mol/dm³ solution of ethanoic acid alone in water.
+  E) 100 cm³ of 0.10 mol/dm³ ethanoic acid mixed with 50 cm³ of 0.10 mol/dm³ sodium hydroxide.
+EXP: Neutralising half of the ethanoic acid leaves comparable amounts of ethanoic acid and ethanoate ions, the weak acid and its conjugate base that a buffer needs. Exact neutralisation leaves only sodium ethanoate, the strong-acid mixtures leave excess strong acid or spectator ions, and a weak acid alone has no reserve of its conjugate base.
+
+### bank_chem_hard n=37  [ans=A]  topic=Equilibria in aqueous solution · buffer behaviour on dilution  lik=H
+STEM: A buffer solution contains comparable amounts of ethanoic acid and sodium ethanoate and has pH 4.8. An equal volume of pure water is added to it. Which of the following statements is correct?
+  A) The pH stays close to 4.8 because the ratio of ethanoate to ethanoic acid is unchanged, but the buffer capacity falls.
+  B) The pH rises by about one unit because both concentrations fall by a factor of two.
+  C) The pH falls because the acid becomes effectively stronger on dilution.
+  D) The pH and the buffer capacity are both unchanged, because a buffer resists any change made to it.
+  E) The buffer is destroyed, because dilution pushes the dissociation of the acid completely towards the ions.
+EXP: The buffer pH is set by the ethanoate-to-acid ratio, and dividing both concentrations by the same factor leaves that ratio alone, so the pH barely moves while the reserve amounts shrink. Capacity, not pH, is what dilution costs a buffer.
+
+### bank_chem_hard n=38  [ans=B]  topic=Equilibria in aqueous solution · hydrolysis of salt ions  lik=H
+STEM: Which of the following statements about the behaviour of salts dissolved in water is correct?
+  A) Ammonium chloride gives a basic solution, because the ammonium ion accepts a proton from water.
+  B) Sodium ethanoate gives a basic solution, because the ethanoate ion accepts a proton from water and releases OH⁻.
+  C) Sodium ethanoate gives an acidic solution, because the sodium ion donates protons to water.
+  D) Sodium chloride gives a basic solution, because the chloride ion accepts protons from water.
+  E) Ammonium nitrate gives a basic solution, because the nitrate ion accepts protons from water.
+EXP: Ethanoate is the conjugate base of a weak acid, so it hydrolyses water to CH₃COOH and OH⁻ and the solution turns basic. The ammonium claim reverses the direction, since NH₄⁺ donates a proton to water and gives an acidic solution, while chloride and nitrate are conjugate bases of strong acids and do not hydrolyse.
+
+### bank_chem_hard n=39  [ans=C]  topic=Solutions · percent w/v converted to molarity  lik=M
+STEM: A drip bag holds 500 cm³ of glucose solution containing 9.0 g of glucose (M = 180 g/mol); the label reads 1.8 % w/v, meaning 1.8 g of glucose per 100 cm³ of solution. What is the molarity of the glucose?
+  A) 0.010 mol/dm³
+  B) 0.050 mol/dm³
+  C) 0.100 mol/dm³
+  D) 0.180 mol/dm³
+  E) 1.80 mol/dm³
+EXP: The bag holds 9.0/180 = 0.050 mol of glucose in 0.500 dm³, giving 0.050/0.500 = 0.10 mol/dm³. The 0.050 mol/dm³ option stops at the mole count and never divides by the volume of the bag.
+
+### bank_chem_hard n=40  [ans=A]  topic=Solutions · solubility converted to molarity and pH  lik=H
+STEM: At 25 °C the solubility of calcium hydroxide in water is 1.85 g per dm³ of saturated solution, and the dissolved salt is fully dissociated. (M(Ca(OH)₂) = 74 g/mol; Kw = 1.0 × 10⁻¹⁴ at 25 °C; for dilute aqueous solutions 1 ppm is 1 mg per dm³.) Which of the following statements is correct?
+  A) The solubility is 0.025 mol/dm³ and the pH of the saturated solution is 12.70.
+  B) The solubility is 0.050 mol/dm³ and the pH of the saturated solution is 12.70.
+  C) The solubility is 0.025 mol/dm³ and the pH of the saturated solution is 11.30.
+  D) The solubility is 0.025 mol/dm³ and the calcium ion concentration is 1850 ppm.
+  E) The solubility is 0.050 mol/dm³ and the pH of the saturated solution is 13.30.
+EXP: n = 1.85/74 = 0.025 mol/dm³, so [OH⁻] = 0.050 mol/dm³, pOH = 2 − 0.70 = 1.30 and pH = 12.70. The 0.050 mol/dm³ option reports the hydroxide concentration as the solubility of the salt, and the calcium ion is in fact 0.025 × 40 = 1.0 g/dm³ = 1000 ppm.
+
+### bank_chem_hard n=41  [ans=B]  topic=Redox · oxidation number of carbon in an organic molecule  lik=M
+STEM: What is the oxidation number of the carbon atom in methanal, HCHO?
+  A) −2
+  B) 0
+  C) +1
+  D) +2
+  E) +4
+EXP: Both H atoms count +1 towards carbon and O counts −2, so C + 2(+1) + (−2) = 0 gives carbon = 0. The +2 option belongs to the carboxyl carbon of a carboxylic acid and +4 to carbon in CO₂.
+
+### bank_chem_hard n=42  [ans=D]  topic=Redox · oxidation numbers in the thiosulfate ion  lik=H
+STEM: In the thiosulfate ion, S₂O₃²⁻, the structure has a central sulfur atom bonded to three oxygen atoms and to one terminal sulfur atom, as if one oxygen of a sulfate unit had been replaced by sulfur. Which of the following statements about oxidation numbers in this ion is correct?
+  A) The average oxidation number of sulfur is +4, because each sulfur behaves as in the sulfate ion.
+  B) Both sulfur atoms have oxidation number +2, because the charge of the ion is −2.
+  C) The terminal sulfur has oxidation number −2 and the central sulfur +4, exactly as in sulfate.
+  D) The average oxidation number of sulfur is +2, with the central sulfur at +5 and the terminal sulfur at −1.
+  E) Oxidation numbers cannot be assigned, because the bond between identical atoms makes all the numbers undefined.
+EXP: The ionic charge fixes only the sum, 2S + 3(−2) = −2, so the average sulfur is +2. Structurally, the sulfur bonded only to sulfur counts −1 and the one bonded to three oxygens counts +5, summing to the required +4; the S-S bond itself contributes 0, so the numbers can be assigned.
+
+### bank_chem_hard n=43  [ans=A]  topic=Redox · oxidation numbers in sulfate and nitrite  lik=M
+STEM: Which of the following statements about oxidation numbers in oxoanions is correct?
+  A) Sulfur is +6 in SO₄²⁻ and nitrogen is +3 in NO₂⁻.
+  B) Sulfur is +4 in SO₄²⁻ and nitrogen is +3 in NO₂⁻.
+  C) Sulfur is +6 in SO₄²⁻ and nitrogen is +5 in NO₂⁻.
+  D) Sulfur is +7 in SO₄²⁻ and nitrogen is +4 in NO₂⁻.
+  E) Sulfur is 0 in SO₄²⁻ because the oxygens carry the whole charge, and nitrogen is +3 in NO₂⁻.
+EXP: In SO₄²⁻, S + 4(−2) = −2 gives S = +6; in NO₂⁻, N + 2(−2) = −1 gives N = +3. The +4 value belongs to sulfur in sulfite, SO₃²⁻, and +5 to nitrogen in nitrate, NO₃⁻.
+
+### bank_chem_hard n=44  [ans=E]  topic=Redox · oxidation-number change in alcohol oxidation  lik=H
+STEM: Ethanol, CH₃CH₂OH, is oxidised to ethanal, CH₃CHO. Which of the following statements is correct?
+  A) The carbon bearing the OH group goes from oxidation number +1 to −1, so ethanol is reduced.
+  B) The average oxidation number of carbon is unchanged, so no redox change occurs.
+  C) The oxidation number of oxygen rises from −2 to 0, so oxygen is oxidised.
+  D) Both carbon atoms rise from −3 to +1, so ethanol is oxidised.
+  E) The carbon bearing the OH group goes from oxidation number −1 to +1, so ethanol is oxidised.
+EXP: The CH₂OH carbon counts 2(−1) for its two C-H bonds and +1 for the C-O bond, giving −1; in ethanal the same carbon counts −1 for C-H and +2 for the C=O, giving +1, a loss of two electrons. The average over both carbons also moves, from −2 to −1, so the unchanged-average option fails.
+
+### bank_chem_hard n=45  [ans=B]  topic=Redox · identifying the oxidising agent  lik=M
+STEM: In aqueous solution, 2FeCl₃ + SnCl₂ → 2FeCl₂ + SnCl₄. Which species acts as the oxidising agent?
+  A) SnCl₂, because tin is reduced from +2 to +4.
+  B) FeCl₃, because Fe³⁺ is reduced to Fe²⁺.
+  C) SnCl₄, because tin is oxidised from +2 to +4.
+  D) FeCl₂, because iron ends at oxidation number +2.
+  E) Cl⁻, because it keeps oxidation number −1 in every compound.
+EXP: Fe³⁺ gains an electron to become Fe²⁺, so FeCl₃ is reduced and is the oxidising agent, while Sn²⁺ loses two electrons and SnCl₂ is the reducing agent. The species that is oxidised, or an oxidation product such as SnCl₄, cannot be the oxidising agent.
+
+### bank_chem_hard n=46  [ans=C]  topic=Redox · agents in the MnO₂ and hydrochloric acid reaction  lik=H
+STEM: In the laboratory preparation of chlorine, MnO₂ reacts with concentrated hydrochloric acid: MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O. Which of the following statements is correct?
+  A) MnO₂ is the reducing agent, because manganese goes from +4 to +2.
+  B) HCl is the oxidising agent, because it supplies the hydrogen ions.
+  C) MnO₂ is the oxidising agent and the chloride ion is the reducing agent.
+  D) Chlorine gas is the reducing agent, because it is the oxidation product.
+  E) No oxidation occurs, because no oxygen is transferred between the reactants.
+EXP: Manganese falls from +4 in MnO₂ to +2 in MnCl₂, so MnO₂ is reduced and acts as the oxidising agent, while chloride rises from −1 to 0 in Cl₂ and is oxidised. The species that is reduced is the oxidising agent, which is the rule that the MnO₂-as-reducing-agent option reverses.
+
+### bank_chem_hard n=47  [ans=A]  topic=Redox · disproportionation of chlorine  lik=H
+STEM: Chlorine gas is bubbled into cold dilute sodium hydroxide: Cl₂ + 2NaOH → NaCl + NaClO + H₂O. Which of the following statements is correct?
+  A) Chlorine is both oxidised and reduced, while oxygen keeps oxidation number −2 throughout.
+  B) Chlorine is reduced only, and the hydroxide ion is the reducing agent.
+  C) Chlorine is oxidised only, and the hydroxide ion is the oxidising agent.
+  D) The chloride ion is oxidised, because chlorine gas gains electrons.
+  E) Oxygen is oxidised from −2 to 0 in the water that forms.
+EXP: Chlorine starts at 0 and ends as Cl⁻ at −1 (reduced) and as ClO⁻ with chlorine at +1 (oxidised), a disproportionation, while oxygen stays at −2 in OH⁻, ClO⁻ and H₂O. Gaining electrons is reduction, so the option pairing oxidation with electron gain contradicts itself, and NaOH supplies OH⁻ with no change of oxidation state.
+
+### bank_chem_hard n=48  [ans=B]  topic=Redox · electrons in a balanced half-equation  lik=H
+STEM: Sulfite ions, SO₃²⁻, are oxidised to sulfate ions, SO₄²⁻, in acidic solution. When this change is written as a balanced half-equation, how many electrons appear on the right-hand side?
+  A) 1
+  B) 2
+  C) 3
+  D) 4
+  E) 6
+EXP: Sulfur rises from +4 in SO₃²⁻ to +6 in SO₄²⁻, so the half-equation SO₃²⁻ + H₂O → SO₄²⁻ + 2H⁺ + 2e⁻ carries two electrons, which also balances the charge at −2 on each side. Taking the four oxygen atoms as the electron count gives the wrong 4.
+
+### bank_chem_hard n=49  [ans=D]  topic=Redox · electron count and coefficients in a redox equation  lik=H
+STEM: In acidic solution, manganate(VII) ions, MnO₄⁻, oxidise iron(II) ions, Fe²⁺, to Fe³⁺, the manganese ending as Mn²⁺. In the balanced ionic equation, how many electrons are transferred per MnO₄⁻ ion, and what coefficient does Fe²⁺ carry?
+  A) 3 electrons and 3 Fe²⁺
+  B) 4 electrons and 4 Fe²⁺
+  C) 5 electrons and 1 Fe²⁺
+  D) 5 electrons and 5 Fe²⁺
+  E) 7 electrons and 7 Fe²⁺
+EXP: Manganese falls from +7 in MnO₄⁻ to +2, so each ion takes 5 electrons, and 5 Fe²⁺ ions each losing 1 electron are needed: MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 4H₂O + 5Fe³⁺. The 7-electron option wrongly counts to oxidation number 0, and 3 electrons would correspond to stopping at MnO₂.
+
+### bank_chem_hard n=50  [ans=A]  topic=Bonding · IMF type and boiling point at similar molar mass  lik=H
+STEM: Butane (C₄H₁₀, Mr 58), propanone (C₃H₆O, Mr 58) and propan-1-ol (C₃H₈O, Mr 60) boil at approximately 0 °C, 56 °C and 97 °C, in some order. Which assignment is correct?
+  A) Butane 0 °C, propanone 56 °C, propan-1-ol 97 °C.
+  B) Propan-1-ol 0 °C, propanone 56 °C, butane 97 °C.
+  C) Butane 0 °C, propan-1-ol 56 °C, propanone 97 °C.
+  D) Propanone 0 °C, butane 56 °C, propan-1-ol 97 °C.
+  E) Butane 56 °C, propanone 97 °C, propan-1-ol 0 °C.
+EXP: The three substances have almost the same molar mass, so boiling point is decided by intermolecular force strength: propan-1-ol hydrogen bonds through its O-H group, propanone has permanent dipole-dipole forces only, and butane has only London forces. Hydrogen bonding therefore gives the highest boiling point and London forces the lowest. The option ranking propanone above propan-1-ol fails because dipole-dipole attraction between propanone molecules is weaker than hydrogen bonding.
+
+### bank_chem_hard n=51  [ans=C]  topic=Bonding · isomer branching and boiling point  lik=H
+STEM: Butan-1-ol, butan-2-ol and 2-methylpropan-2-ol are isomers that all contain an O-H group. Their boiling points are approximately 118 °C, 100 °C and 82 °C respectively. Which statement correctly explains this trend?
+  A) All three have the same boiling point, because hydrogen bonding dominates in each of them.
+  B) 2-methylpropan-2-ol has the highest boiling point, because its compact shape packs the molecules closest together.
+  C) Butan-1-ol has the highest boiling point, because its least branched chain gives the greatest molecular surface contact and so the strongest London forces, which act in addition to the hydrogen bonding present in all three isomers.
+  D) Branching lowers the boiling point because it weakens the O-H bonds inside the molecules.
+  E) The boiling points differ because the three isomers contain different functional groups.
+EXP: All three isomers hydrogen bond equally well, so the spread comes from the London component, which grows with molecular surface area: the straight chain of butan-1-ol allows the closest contact and the strongest dispersion forces, while branching in 2-methylpropan-2-ol reduces contact and gives the lowest boiling point. The claim that branching weakens the O-H bonds fails because boiling breaks intermolecular forces, not the covalent bonds inside the molecules.
+
+### bank_chem_hard n=52  [ans=D]  topic=Bonding · hydrogen bonding versus molar mass  lik=M
+STEM: Hydrogen fluoride (Mr 20) boils at approximately 20 °C, while hydrogen chloride (Mr 36.5) boils at approximately -85 °C. Which statement explains this comparison?
+  A) HCl has the higher molar mass, so its London forces should make it boil higher, and the quoted temperatures cannot both be right.
+  B) The H-F covalent bond is stronger than the H-Cl covalent bond, and covalent bond strength sets the boiling point.
+  C) HF is ionic while HCl is covalent, and ionic compounds boil much higher.
+  D) HF molecules hydrogen bond to one another, a force much stronger than the dipole-dipole and London forces between HCl molecules, and this outweighs the higher molar mass of HCl.
+  E) HCl is non-polar, so only very weak London forces act between its molecules, while HF is also non-polar but lighter.
+EXP: Fluorine is so electronegative that HF molecules form strong hydrogen bonds, whereas HCl molecules attract each other only by dipole-dipole and London forces, so HF boils far higher despite its lower molar mass. The covalent-bond option fails because boiling separates molecules by overcoming intermolecular forces, and the strong H-F covalent bonds survive intact in the gas.
+
+### bank_chem_hard n=53  [ans=C]  topic=Bonding · molecular polarity from geometry  lik=H
+STEM: Which of the following statements is correct?
+  A) Water is non-polar, because its two identical O-H bonds pull equally in opposite directions.
+  B) Carbon dioxide is polar, because each C=O bond is strongly polar.
+  C) Boron trifluoride is non-polar, because its three identical B-F bond dipoles cancel in the trigonal planar arrangement.
+  D) Ammonia is non-polar, because the lone pair on nitrogen makes the molecule symmetrical.
+  E) Any molecule that contains polar bonds must be polar overall.
+EXP: BF₃ is trigonal planar with three identical B-F dipoles at 120 degrees, so they sum to zero and the molecule is non-polar. The water option fails because the bent shape means the two O-H dipoles do not oppose each other exactly, leaving a net dipole, and the claim that polar bonds always give a polar molecule is defeated by every symmetric case such as BF₃, CO₂ and CCl₄.
+
+### bank_chem_hard n=54  [ans=B]  topic=Bonding · dipole cancellation in tetrahedral molecules  lik=H
+STEM: Carbon tetrachloride, CCl₄, chloroform, CHCl₃, and dichloromethane, CH₂Cl₂, are all tetrahedral molecules. Which statement about their polarity is correct?
+  A) All three are non-polar, because the tetrahedral shape of each molecule cancels every bond dipole.
+  B) CCl₄ is non-polar because its four identical C-Cl dipoles cancel, while CHCl₃ and CH₂Cl₂ are polar because the C-H bonds do not balance the C-Cl dipoles.
+  C) All three are polar, because every tetrahedral molecule containing polar bonds is polar overall.
+  D) CCl₄ is the most polar of the three, because it contains the greatest number of C-Cl dipoles.
+  E) The polarity of each molecule is decided only by its molar mass, so the heaviest molecule is the most polar.
+EXP: In CCl₄ the four identical, symmetrically arranged C-Cl dipoles cancel exactly, but replacing Cl by H makes the arrangement of dipoles unsymmetrical, so both CHCl₃ and CH₂Cl₂ have a net dipole. The option calling CCl₄ the most polar fails because adding identical dipoles in a symmetric tetrahedron makes the resultant smaller, not larger.
+
+### bank_chem_hard n=55  [ans=A]  topic=Bonding · shape and net dipole (SO2 versus CO2)  lik=M
+STEM: Carbon dioxide and sulfur dioxide both contain polar bonds to oxygen, yet CO₂ is non-polar and SO₂ is polar. Why?
+  A) CO₂ is linear, so its two C=O bond dipoles point in opposite directions and cancel, while SO₂ is bent, so its two S=O dipoles add to give a net dipole.
+  B) The C=O bonds in CO₂ are non-polar, because carbon and oxygen have almost equal electronegativities.
+  C) SO₂ is bent, which makes its S=O bonds polar, while the linear shape of CO₂ makes its C=O bonds non-polar.
+  D) SO₂ is polar because its molecules are heavier than CO₂ molecules and attract each other more strongly.
+  E) Both molecules are linear, but only SO₂ has a lone pair on the central atom strong enough to create a dipole.
+EXP: Both molecules have polar bonds, and the difference is geometry: the linear CO₂ dipoles cancel vectorially, while the bent SO₂ (about 119 degrees, from the lone pair on sulfur) leaves a resultant dipole. The option saying shape changes whether the bonds themselves are polar fails, because bond polarity depends on electronegativity difference, not on molecular shape.
+
+### bank_chem_hard n=56  [ans=E]  topic=Bonding · bond type from melting point and conductivity data  lik=H
+STEM: Four unknown substances were tested, with these results. P: melting point 801 °C, conducts electricity only when molten or dissolved in water. Q: melting point −95 °C, never conducts electricity. R: melting point 1085 °C, conducts electricity as a solid. S: melting point 1710 °C, never conducts electricity, even when molten. Which statement correctly identifies one of the substances?
+  A) P is metallic, because it conducts electricity when molten.
+  B) Q is ionic, because ionic bonds are weak and break at a low temperature.
+  C) S is ionic, because its very high melting point proves strong ionic bonds.
+  D) P is a simple molecular substance, because molecular substances dissolve well in water.
+  E) R is metallic, because conduction in the solid state requires mobile delocalised electrons.
+EXP: Solid conduction is the signature of metallic bonding, since only delocalised electrons can carry charge through a rigid lattice, so R is metallic. P, conducting only when molten or dissolved, is ionic, because then and only then are its ions mobile, and S, which never conducts even molten, is giant covalent with strong bonds but no charged particles; the option assigning S to ionic bonding ignores that molten ionic compounds conduct.
+
+### bank_chem_hard n=57  [ans=C]  topic=Bonding · melting points of ionic versus molecular solids  lik=M
+STEM: Sodium chloride melts at 801 °C while iodine melts at 114 °C, although iodine has the larger molar mass. Which statement explains the comparison?
+  A) Sodium chloride contains covalent bonds, which are stronger than the covalent bonds inside iodine molecules.
+  B) Iodine melts easily because the covalent bonds between its molecules are weak.
+  C) Melting sodium chloride means overcoming strong electrostatic attractions between oppositely charged ions in a giant lattice, while melting iodine only overcomes weak London forces between I₂ molecules, and the I-I covalent bonds stay intact.
+  D) Sodium chloride has the higher melting point because its molar mass is greater than that of iodine.
+  E) Both solids are giant lattices, and iodine simply has a lattice built from lighter particles.
+EXP: NaCl is a giant ionic lattice whose melting requires breaking strong ion-ion electrostatic attractions throughout the crystal, whereas solid iodine is simple molecular, so melting overcomes only the weak London forces between I₂ molecules. The covalent-bonds-between-molecules option fails because the forces between separate iodine molecules are intermolecular London forces, not covalent bonds.
+
+### bank_chem_hard n=58  [ans=C]  topic=Bonding · bond energy accounting and sign of ΔH  lik=H
+STEM: Use these average bond energies: H-H 436 kJ/mol, Cl-Cl 242 kJ/mol, H-Cl 431 kJ/mol. For the reaction H₂ + Cl₂ → 2HCl, the enthalpy change is approximately:
+  A) −368 kJ/mol
+  B) −247 kJ/mol
+  C) −184 kJ/mol
+  D) +184 kJ/mol
+  E) +247 kJ/mol
+EXP: Bonds broken cost 436 + 242 = 678 kJ/mol and bonds formed release 2 × 431 = 862 kJ/mol, so ΔH = 678 − 862 = −184 kJ/mol; the negative sign makes the reaction exothermic, as expected when stronger bonds form than break. The +184 option simply reverses the subtraction, and the ±247 options forget that two H-Cl bonds are formed per equation.
+
+### bank_chem_hard n=59  [ans=D]  topic=Bonding · endothermic reactions and enthalpy level  lik=M
+STEM: The thermal decomposition of calcium carbonate, CaCO₃ → CaO + CO₂, has ΔH = +178 kJ/mol. Which statement is correct?
+  A) The products are lower in enthalpy than the reactants, so heat is released to the surroundings.
+  B) The positive sign means energy is released by the system, so the reaction is exothermic.
+  C) Bonds formed in the products are stronger than bonds broken in the reactants, which explains the positive ΔH.
+  D) The products are higher in enthalpy than the reactants, and the difference is absorbed as heat from the surroundings.
+  E) At a sufficiently high temperature ΔH becomes negative, so the decomposition turns exothermic.
+EXP: A positive ΔH marks an endothermic change: the products sit higher in enthalpy than the reactants and the extra energy is taken in as heat. The option about stronger bonds formed fails because stronger bonds forming releases energy and would give a negative ΔH, the signature of an exothermic reaction.
+
+### bank_chem_hard n=60  [ans=C]  topic=Kinetics · rate constant units by reaction order  lik=H
+STEM: For reactions in dilute solution at a fixed temperature, the units of reaction rate are always mol/(dm³·s). Which statement about rate constants is correct?
+  A) A zero-order rate constant has the units s⁻¹.
+  B) A first-order rate constant has the units mol/(dm³·s).
+  C) A first-order rate constant has the units s⁻¹, and a second-order rate constant has the units dm³/(mol·s).
+  D) A second-order rate constant has the units mol/(dm³·s).
+  E) Every rate constant has the same units as the rate itself, mol/(dm³·s), whatever the order of reaction.
+EXP: The units of k follow from rate = k[A]ⁿ: k must carry whatever units make both sides mol/(dm³·s), so first order gives s⁻¹ and second order gives dm³/(mol·s). The option assigning mol/(dm³·s) to a first-order constant describes the zero-order case, where k shares the units of the rate.
+
+### bank_chem_hard n=61  [ans=B]  topic=Kinetics · first-order half-life decay  lik=H
+STEM: A drug is removed from the bloodstream by first-order kinetics with a half-life of 4 hours. Starting from an initial dose D, the amount still present 12 hours after administration is:
+  A) 1/16 of D
+  B) 1/8 of D
+  C) 1/6 of D
+  D) 1/4 of D
+  E) 1/2 of D
+EXP: Twelve hours contains three half-lives, and each first-order half-life halves whatever is present, so D → D/2 → D/4 → D/8: one eighth remains. The 1/6 option comes from dividing 1/2 by 3 instead of applying the factor 1/2 three times.
+
+### bank_chem_hard n=62  [ans=A]  topic=Kinetics · order from rate data and units of k  lik=H
+STEM: For the reaction A + B → products, kept at constant temperature: doubling [A] while holding [B] constant doubles the rate, and doubling [B] while holding [A] constant increases the rate fourfold. Which statement is correct?
+  A) The rate equation is rate = k[A][B]², the overall order is three, and k has the units dm⁶/(mol²·s).
+  B) The rate equation is rate = k[A][B]², the overall order is three, and k has the units dm³/(mol·s).
+  C) The reaction is second order overall, and k has the units dm³/(mol·s).
+  D) The reaction is first order overall, and k has the units s⁻¹, because each reactant contributes one power.
+  E) The reaction is fourth order overall, because the fourfold increase in the second experiment means the exponent of B is three.
+EXP: Doubling [A] doubling the rate fixes an exponent of 1 for A, and doubling [B] quadrupling the rate fixes an exponent of 2 for B, so rate = k[A][B]² and the overall order is three. Then k = rate ÷ ([A][B]²), which divides mol/(dm³·s) by (mol/dm³)³ to give dm⁶/(mol²·s); the dm³/(mol·s) option borrows the units of a second-order constant.
+
+### bank_chem_hard n=63  [ans=D]  topic=Kinetics · catalysis versus equilibrium position  lik=H
+STEM: The Haber process, N₂(g) + 3H₂(g) ⇌ 2NH₃(g) with ΔH = −92 kJ/mol, uses an iron catalyst. Which statement is correct?
+  A) The catalyst shifts the equilibrium position to the right, increasing the final yield of ammonia.
+  B) The catalyst raises the activation energy of the reverse reaction, so ammonia accumulates.
+  C) The catalyst makes the reaction more exothermic, which increases the yield at the same temperature.
+  D) The catalyst lowers the activation energy of the forward and reverse reactions equally, so equilibrium is reached sooner, but the equilibrium position and ΔH are unchanged.
+  E) The catalyst works by raising the average kinetic energy of the gas molecules, so that more collisions are effective.
+EXP: A catalyst offers a lower-energy pathway and speeds the forward and reverse reactions by the same factor, so the mixture reaches the same equilibrium composition sooner; it cannot change K, the equilibrium position or ΔH. The shift-to-the-right option fails because yield is fixed by thermodynamics, and the kinetic-energy option describes heating, not catalysis.
+
+### bank_chem_hard n=64  [ans=E]  topic=Kinetics · catalyst as an unconsumed pathway provider  lik=M
+STEM: Manganese(IV) oxide speeds up the decomposition of hydrogen peroxide, 2H₂O₂ → 2H₂O + O₂, and the black powder can be recovered unchanged at the end. The best explanation is that MnO₂:
+  A) raises the average kinetic energy of the H₂O₂ molecules, so more collisions exceed the activation energy.
+  B) shifts the equilibrium of the decomposition towards the products, so the reaction goes faster.
+  C) reduces the enthalpy change of the decomposition, which releases more energy to drive the reaction.
+  D) is consumed to supply the energy that the reaction needs, which is why a little disappears each time.
+  E) provides an alternative reaction pathway of lower activation energy and is regenerated during the cycle, so it is not consumed.
+EXP: A catalyst gives the reaction a new route with a lower activation energy and is regenerated in the process, which is exactly why the same powder can be recovered and reused. The kinetic-energy option fails because raising molecular speed is what heating does, and the recovery of the unchanged solid rules out any claim that MnO₂ is consumed.
+
+### bank_chem_hard n=65  [ans=C]  topic=Kinetics · collision theory and temperature  lik=M
+STEM: A reaction mixture is heated from 25 °C to 55 °C and the rate rises sharply. According to collision theory, the main reason is that:
+  A) the activation energy of the reaction decreases as the temperature rises.
+  B) molecules collide much more often, and this increase in collision frequency alone explains the whole rate rise.
+  C) a much larger fraction of molecules now has energy at or above the activation energy, so far more collisions are effective.
+  D) the enthalpy change of the reaction becomes more negative at the higher temperature.
+  E) faster molecules are more likely to meet in the correct orientation, because high speed corrects the approach angle.
+EXP: Heating reshapes the Maxwell-Boltzmann distribution so that a much larger fraction of molecules exceeds the fixed activation energy, and it is these effective collisions that multiply and drive the sharp rate increase. The activation-energy option fails because Ea is a property of the reaction pathway and does not fall when the mixture is warmed, while collision frequency rises only slightly over such a range.

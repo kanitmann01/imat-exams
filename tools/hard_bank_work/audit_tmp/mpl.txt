@@ -1,0 +1,854 @@
+### bank_mpl_hard n=1  [ans=C]  topic=Algebra · logarithm properties (quotient and complement)  lik=H
+STEM: Given that log₁₀ 2 ≈ 0.30 and log₁₀ 3 ≈ 0.48, what is the value of log₁₀ 7.5?
+  A) 0.18
+  B) 0.58
+  C) 0.88
+  D) 1.18
+  E) 1.88
+EXP: Write 7.5 = 15/2, so log₁₀ 7.5 = log₁₀ 3 + log₁₀ 5 − log₁₀ 2, and log₁₀ 5 = 1 − log₁₀ 2 = 0.70, giving 0.48 + 0.70 − 0.30 = 0.88. The option 1.88 is log₁₀ 75 (the division by 10 forgotten) and 1.18 is log₁₀ 15 (the division by 2 forgotten).
+
+### bank_mpl_hard n=2  [ans=B]  topic=Algebra · log equations (domain check)  lik=H
+STEM: Solve the equation log₃(x + 1) + log₃(x − 1) = 1.
+  A) x = −2 only
+  B) x = 2 only
+  C) x = ±2
+  D) x = 1
+  E) x = 4
+EXP: Combining the logarithms gives log₃(x² − 1) = 1, so x² − 1 = 3 and x = ±2, but the arguments require x > 1, so x = 2 only. The option x = ±2 keeps the rejected root, for which log₃(x − 1) is not defined.
+
+### bank_mpl_hard n=3  [ans=C]  topic=Algebra · change of base  lik=M
+STEM: What is the value of log₉ 27?
+  A) 2/3
+  B) 1
+  C) 3/2
+  D) 2
+  E) 3
+EXP: By the change of base rule log₉ 27 = log 27 / log 9 = 3 log 3 / (2 log 3) = 3/2, the same answer as solving 9^x = 27. The option 2/3 inverts the fraction.
+
+### bank_mpl_hard n=4  [ans=C]  topic=Algebra · mixed-base log equation  lik=H
+STEM: What is the solution of log₂ x + log₄ x = 6?
+  A) 4
+  B) 8
+  C) 16
+  D) 32
+  E) 64
+EXP: Since log₄ x = (1/2) log₂ x, the equation becomes (3/2) log₂ x = 6, so log₂ x = 4 and x = 16; indeed 4 + 2 = 6. The option 64 solves log₂ x = 6 alone and ignores the second term.
+
+### bank_mpl_hard n=5  [ans=B]  topic=Algebra · inequalities (three-factor sign study)  lik=H
+STEM: Which interval is the solution set of (x − 1)(x + 2)(x − 4) > 0?
+  A) x < −2 or 1 < x < 4
+  B) −2 < x < 1 or x > 4
+  C) x < −2 or x > 4
+  D) −2 < x < 4
+  E) 1 < x < 4
+EXP: The roots −2, 1 and 4 split the number line into four intervals, and testing one point in each gives positive values for −2 < x < 1 and for x > 4. The option x < −2 or x > 4 is the sign pattern of the outer factors only and ignores the middle root.
+
+### bank_mpl_hard n=6  [ans=D]  topic=Algebra · rational inequalities  lik=H
+STEM: What is the solution set of the inequality (x − 3)/(x + 2) ≤ 0?
+  A) x ≤ 3
+  B) −2 < x < 3
+  C) −2 ≤ x ≤ 3
+  D) −2 < x ≤ 3
+  E) x < −2 or x ≥ 3
+EXP: The fraction changes sign only at x = 3, where it equals 0 and is included, and at x = −2, where it is undefined and excluded; testing shows it is negative exactly between them, so −2 < x ≤ 3. The option x ≤ 3 ignores the sign change at x = −2, where the fraction is positive on both sides.
+
+### bank_mpl_hard n=7  [ans=A]  topic=Algebra · absolute value inequality  lik=M
+STEM: What is the solution set of |2x − 5| < 7?
+  A) −1 < x < 6
+  B) −6 < x < 6
+  C) 1 < x < 6
+  D) −6 < x < −1
+  E) x < 6
+EXP: The inequality means −7 < 2x − 5 < 7, so −2 < 2x < 12 and −1 < x < 6. The option 1 < x < 6 keeps only the branch 2x − 5 < 7 and drops the branch 2x − 5 > −7.
+
+### bank_mpl_hard n=8  [ans=E]  topic=Algebra · quadratic inequality (dividing by x)  lik=M
+STEM: What is the solution set of the inequality x² < x?
+  A) x < 0
+  B) x < 1
+  C) x < 0 or x > 1
+  D) x > 1
+  E) 0 < x < 1
+EXP: Rearranging gives x² − x < 0, that is x(x − 1) < 0, which holds between the roots: 0 < x < 1. The option x < 1 comes from dividing by x without separating the cases x > 0 and x < 0; for every x < 0 the left side is positive and the inequality fails.
+
+### bank_mpl_hard n=9  [ans=B]  topic=Algebra · nested radicals  lik=H
+STEM: Which expression is equal to √(7 + 4√3)?
+  A) 1 + √6
+  B) 2 + √3
+  C) 2√3 + 1
+  D) √7 + √3
+  E) 4 + √3
+EXP: Since 7 + 4√3 = 2² + 2 × 2 × √3 + (√3)² = (2 + √3)², the square root is 2 + √3. The option 1 + √6 squares to 7 + 2√6, which has the wrong radical term.
+
+### bank_mpl_hard n=10  [ans=B]  topic=Algebra · rational exponents  lik=M
+STEM: What is the value of 27^(2/3) + 16^(3/4)?
+  A) 13
+  B) 17
+  C) 21
+  D) 26
+  E) 30
+EXP: The cube root of 27 is 3, so 27^(2/3) = 9, and the fourth root of 16 is 2, so 16^(3/4) = 8, giving 17. The option 30 multiplies base by exponent instead, 27 × 2/3 + 16 × 3/4 = 18 + 12.
+
+### bank_mpl_hard n=11  [ans=C]  topic=Algebra · exponent laws (building a number)  lik=H
+STEM: If 2^a = 3 and 2^b = 5, which of the following is equal to 60?
+  A) 2^(a + b)
+  B) 2^(2a + b)
+  C) 2^(a + b + 2)
+  D) 2^(a + 2b)
+  E) 2^(ab)
+EXP: 60 = 4 × 3 × 5 = 2² × 2^a × 2^b = 2^(a + b + 2). The option 2^(ab) multiplies the exponents, which is the rule for a power of a power, not for a product.
+
+### bank_mpl_hard n=12  [ans=D]  topic=Algebra · linear systems (ticket sales)  lik=H
+STEM: For a school show, adult tickets cost 12 euro and child tickets cost 7 euro. In total 180 tickets were sold, and the takings were 1730 euro. How many adult tickets were sold?
+  A) 84
+  B) 86
+  C) 90
+  D) 94
+  E) 96
+EXP: With a adult and c child tickets, a + c = 180 and 12a + 7c = 1730, so 12a + 7(180 − a) = 1730 gives 5a = 470 and a = 94. The option 86 is the number of child tickets.
+
+### bank_mpl_hard n=13  [ans=C]  topic=Algebra · linear system (sum and difference)  lik=M
+STEM: The sum of two numbers is 45 and their difference is 13. What is the larger number?
+  A) 13
+  B) 16
+  C) 29
+  D) 32
+  E) 45
+EXP: Adding the two conditions gives twice the larger number: 45 + 13 = 58, so the larger number is 29 and the smaller is 16. The option 32 is 45 − 13, twice the smaller number, and 16 is the smaller number itself.
+
+### bank_mpl_hard n=14  [ans=B]  topic=Algebra · linear systems (mixture)  lik=H
+STEM: A laboratory technician mixes a 20% saline solution with a 50% saline solution to obtain 6 dm³ of a 30% saline solution. What volume of the 50% solution is needed?
+  A) 1 dm³
+  B) 2 dm³
+  C) 2.5 dm³
+  D) 3 dm³
+  E) 4 dm³
+EXP: With x dm³ of the 20% and y of the 50% solution, x + y = 6 and 0.2x + 0.5y = 1.8; substituting x = 6 − y gives 1.2 + 0.3y = 1.8, so y = 2 dm³. The option 4 dm³ is the volume of the 20% solution.
+
+### bank_mpl_hard n=15  [ans=C]  topic=Algebra · composite functions  lik=M
+STEM: The function f is defined by f(x) = (x + 1)/(x − 1) for x ≠ 1. What is f(f(3))?
+  A) 1/2
+  B) 2
+  C) 3
+  D) 4
+  E) 9
+EXP: f(3) = 4/2 = 2 and f(2) = 3/1 = 3, so f(f(3)) = 3; the function is its own inverse. The option 2 stops after the first application of f.
+
+### bank_mpl_hard n=16  [ans=E]  topic=Algebra · inverse functions  lik=H
+STEM: The function f is defined by f(x) = (2x + 1)/(x − 3) for x ≠ 3. Which of the following is the inverse function f⁻¹(x)?
+  A) (3x − 1)/(x + 2)
+  B) (x + 3)/(2x − 1)
+  C) (3x + 1)/(x + 2)
+  D) (2x + 1)/(x − 3)
+  E) (3x + 1)/(x − 2)
+EXP: From y = (2x + 1)/(x − 3), multiplying out and collecting x gives x(y − 2) = 3y + 1, so x = (3y + 1)/(y − 2) and f⁻¹(x) = (3x + 1)/(x − 2). The option (2x + 1)/(x − 3) leaves f unchanged instead of inverting it.
+
+### bank_mpl_hard n=17  [ans=C]  topic=Geometry · composite solids (cylinder and cone)  lik=M
+STEM: A solid wooden block has the shape of a right circular cylinder of radius 6 cm and height 9 cm. A conical hole with the same base radius and the same height is drilled out of the block. What fraction of the cylinder's volume remains?
+  A) 1/3
+  B) 1/2
+  C) 2/3
+  D) 3/4
+  E) 8/9
+EXP: Cone and cylinder share base and height, and the cone's volume is one third of the cylinder's, so 1 − 1/3 = 2/3 of the volume remains. The option 1/3 is the fraction removed, not the fraction left.
+
+### bank_mpl_hard n=18  [ans=A]  topic=Geometry · shaded areas (circle in a square)  lik=H
+STEM: A circle of radius 5 cm is inscribed in a square. Taking π = 3.14, what is the area of the part of the square that lies outside the circle?
+  A) 21.5 cm²
+  B) 39.25 cm²
+  C) 78.5 cm²
+  D) 100 cm²
+  E) 121.5 cm²
+EXP: An inscribed circle touches all four sides, so the square has side 10 cm and area 100 cm², while the circle has area 3.14 × 5² = 78.5 cm²; the difference is 21.5 cm². The option 121.5 cm² adds the two areas instead of subtracting.
+
+### bank_mpl_hard n=19  [ans=A]  topic=Geometry · equilateral triangle (area from the height)  lik=H
+STEM: An equilateral triangle has sides of length 12 cm. What is its area?
+  A) 36√3 cm²
+  B) 72 cm²
+  C) 72√3 cm²
+  D) 144 cm²
+  E) 144√3 cm²
+EXP: The height comes from the 30-60-90 half triangle: h = 6√3 cm, so the area is (1/2) × 12 × 6√3 = 36√3 cm². The option 72 cm² wrongly uses the side length 12 as the height.
+
+### bank_mpl_hard n=20  [ans=D]  topic=Geometry · cylinder surface area  lik=M
+STEM: A closed cylindrical tin has radius 3 cm and height 8 cm. What is its total surface area, ends included?
+  A) 42π cm²
+  B) 48π cm²
+  C) 57π cm²
+  D) 66π cm²
+  E) 72π cm²
+EXP: The two ends contribute 2πr² = 18π cm² and the curved wall contributes 2πrh = 48π cm², a total of 66π cm². The option 48π cm² counts only the wall and 57π cm² forgets one of the two ends.
+
+### bank_mpl_hard n=21  [ans=C]  topic=Geometry · clock angles  lik=H
+STEM: What is the angle between the hour hand and the minute hand of a clock at 3:40? (The hour hand turns at 0.5° per minute, the minute hand at 6° per minute.)
+  A) 100°
+  B) 110°
+  C) 130°
+  D) 150°
+  E) 230°
+EXP: At 3:40 the hour hand is at 3 × 30 + 40 × 0.5 = 110° and the minute hand at 40 × 6 = 240°, both measured from 12, so the angle between them is 240 − 110 = 130°. The option 150° leaves the hour hand fixed at exactly 3, ignoring its 20° drift.
+
+### bank_mpl_hard n=22  [ans=C]  topic=Geometry · clock angles  lik=H
+STEM: Between 7:00 and 8:00 the hands of a clock are exactly 100 degrees apart at 7:20. At what later time in that hour are they exactly 100 degrees apart again? (The hour hand turns at 0.5 degrees per minute, the minute hand at 6 degrees per minute.)
+  A) 7:52 and 8/11 minutes
+  B) 7:54 and 6/11 minutes
+  C) 7:56 and 4/11 minutes
+  D) 7:58 and 2/11 minutes
+  E) 8:00 exactly
+EXP: Measured from 12, the hour hand sits at 210 + 0.5m degrees and the minute hand at 6m, so the gap is 5.5m - 210. Setting the gap to 100 gives 5.5m = 110 (7:20) or 5.5m = 310, so m = 56 and 4/11 minutes. The 7:52 and 8:00 options come from misreading the closing rate as 5 or 6 degrees per minute.
+
+### bank_mpl_hard n=23  [ans=B]  topic=Geometry · notable trigonometric values  lik=M
+STEM: What is the value of tan 30° × tan 60°?
+  A) 1/3
+  B) 1
+  C) √3/3
+  D) √3
+  E) 3
+EXP: tan 30° = √3/3 and tan 60° = √3, so the product is (√3/3) × √3 = 3/3 = 1. The option 1/3 uses tan 30° twice, and 3 divides the two values instead of multiplying them.
+
+### bank_mpl_hard n=24  [ans=B]  topic=Geometry · trig identities (expansion and cancellation)  lik=H
+STEM: For an angle θ, what is the value of (sin θ + cos θ)² − 2 sin θ cos θ?
+  A) 0
+  B) 1
+  C) 2
+  D) 2 sinθ cosθ
+  E) sin²θ − cos²θ
+EXP: Expanding the square gives sin²θ + 2 sinθ cosθ + cos²θ − 2 sinθ cosθ = sin²θ + cos²θ = 1. The option 2 sinθ cosθ stops after the expansion and forgets to cancel the middle term against the one subtracted.
+
+### bank_mpl_hard n=25  [ans=C]  topic=Geometry · notable values combined  lik=H
+STEM: What is the value of (sin 45° − cos 45°)² + 2 sin 30° cos 60°?
+  A) 0
+  B) 1/4
+  C) 1/2
+  D) 3/4
+  E) 1
+EXP: sin 45° = cos 45°, so the squared term is 0, and 2 sin 30° cos 60° = 2 × (1/2) × (1/2) = 1/2, giving 1/2 in total. The option 0 forgets the second term, and 1 overestimates the product sin 30° cos 60°.
+
+### bank_mpl_hard n=26  [ans=C]  topic=Geometry · slope between two points  lik=M
+STEM: A straight line passes through the points (2, 5) and (6, 17). What is its slope?
+  A) 1/4
+  B) 1/3
+  C) 3
+  D) 4
+  E) 12
+EXP: The slope is the change in y over the change in x: (17 − 5)/(6 − 2) = 12/4 = 3. The options 4 and 12 use only one of the two changes, and 1/3 inverts the ratio.
+
+### bank_mpl_hard n=27  [ans=B]  topic=Geometry · rate of change from data (unit conversion)  lik=H
+STEM: A cyclist rides along a straight road at a constant speed. Her distance from the start is recorded as 1.8 km after 6 minutes and 3.0 km after 10 minutes. What is her speed in m/s?
+  A) 3 m/s
+  B) 5 m/s
+  C) 18 m/s
+  D) 50 m/s
+  E) 300 m/s
+EXP: Between the two records she covers 1.2 km = 1200 m in 4 min = 240 s, so her speed is 1200/240 = 5 m/s. The option 18 m/s is the speed in km/h (0.3 km/min × 60) left unconverted, and 300 m/s keeps the rate in metres per minute without dividing by 60.
+
+### bank_mpl_hard n=28  [ans=B]  topic=Geometry · average rate of change  lik=H
+STEM: Water is pumped into a tank that already contains 40 L. The volume reaches 90 L after 5 minutes and 160 L after 15 minutes. What is the average rate of inflow over the whole 15 minutes?
+  A) 7 L/min
+  B) 8 L/min
+  C) 8.5 L/min
+  D) 10 L/min
+  E) 160 L/min
+EXP: The volume rises from 40 L to 160 L, a change of 120 L in 15 min, so the average rate is 8 L/min. The option 8.5 L/min averages the two segment rates (10 and 7 L/min) instead of dividing the total change by the total time.
+
+### bank_mpl_hard n=29  [ans=C]  topic=Probability · two-dice sums  lik=H
+STEM: Two fair six-sided dice are rolled once. What is the probability that the sum of the two scores is at least 9?
+  A) 1/9
+  B) 5/36
+  C) 5/18
+  D) 1/3
+  E) 5/12
+EXP: Sums of 9, 10, 11 and 12 arise from 4 + 3 + 2 + 1 = 10 of the 36 ordered outcomes, so the probability is 10/36 = 5/18. The 5/36 option counts only the five unordered pairs and forgets that (4,6) and (6,4) are different outcomes; the 1/9 option answers a sum of exactly 9.
+
+### bank_mpl_hard n=30  [ans=D]  topic=Probability · at least one (complement on dice)  lik=M
+STEM: Two fair six-sided dice are rolled. What is the probability that at least one of them shows a six?
+  A) 1/36
+  B) 1/6
+  C) 5/18
+  D) 11/36
+  E) 1/3
+EXP: P(no six) = (5/6) × (5/6) = 25/36, so P(at least one six) = 1 − 25/36 = 11/36. The 1/3 option adds 1/6 + 1/6 and forgets to subtract the (6,6) overlap; the 5/18 option answers exactly one six.
+
+### bank_mpl_hard n=31  [ans=B]  topic=Probability · ordered vs unordered dice pairs  lik=M
+STEM: Two fair six-sided dice are rolled. What is the probability that the two scores are a 2 and a 5, in either order?
+  A) 1/36
+  B) 1/18
+  C) 1/9
+  D) 1/6
+  E) 1/3
+EXP: The favourable ordered outcomes are (2,5) and (5,2), so the probability is 2/36 = 1/18. The 1/36 option takes a single ordering, and the 1/9 option wrongly counts four outcomes by also including the doubles (2,2) and (5,5).
+
+### bank_mpl_hard n=32  [ans=D]  topic=Probability · combined events (inclusion-exclusion)  lik=H
+STEM: Two fair six-sided dice are rolled. What is the probability that the sum is 7 or at least one die shows a six?
+  A) 1/6
+  B) 11/36
+  C) 7/18
+  D) 5/12
+  E) 17/36
+EXP: P(sum 7) = 6/36 and P(at least one six) = 11/36, but the outcomes (1,6) and (6,1) satisfy both, so the union is (6 + 11 − 2)/36 = 15/36 = 5/12. The 17/36 option adds the two probabilities without subtracting the overlap, and the 1/6 option counts only the sum of 7.
+
+### bank_mpl_hard n=33  [ans=A]  topic=Probability · complementary counting (repeated flips)  lik=H
+STEM: A fair coin is flipped four times. What is the probability that at least one of the flips shows heads?
+  A) 15/16
+  B) 3/4
+  C) 1/2
+  D) 1/4
+  E) 1/16
+EXP: P(no heads) = (1/2)⁴ = 1/16, so P(at least one head) = 1 − 1/16 = 15/16. The 1/16 option reports the complement itself instead of subtracting it, and 3/4 is the answer for only two flips.
+
+### bank_mpl_hard n=34  [ans=D]  topic=Probability · complementary counting (without replacement)  lik=H
+STEM: A bag contains 4 red balls and 6 blue balls. Two balls are drawn at random without replacement. What is the probability that at least one of them is red?
+  A) 1/3
+  B) 2/5
+  C) 16/25
+  D) 2/3
+  E) 4/5
+EXP: P(no red) = (6/10) × (5/9) = 1/3, so P(at least one red) = 1 − 1/3 = 2/3. The 1/3 option reports the complement instead of subtracting it, and 16/25 is what you get if you wrongly put the first ball back before drawing the second.
+
+### bank_mpl_hard n=35  [ans=C]  topic=Probability · independent events (exactly one)  lik=H
+STEM: The probability that a candidate passes a maths test is 2/3, and the probability that she passes an independent logic test is 3/4. What is the probability that she passes exactly one of the two tests?
+  A) 11/12
+  B) 1/2
+  C) 5/12
+  D) 1/6
+  E) 1/12
+EXP: Exactly one means pass maths and fail logic, or fail maths and pass logic: (2/3 × 1/4) + (1/3 × 3/4) = 2/12 + 3/12 = 5/12. The 1/2 option is the probability of passing both, and 11/12 is the probability of passing at least one.
+
+### bank_mpl_hard n=36  [ans=B]  topic=Probability · independent events (coin and die)  lik=M
+STEM: A fair coin is tossed and a fair six-sided die is rolled. What is the probability of obtaining tails and a score greater than 4?
+  A) 1/12
+  B) 1/6
+  C) 1/4
+  D) 1/2
+  E) 2/3
+EXP: The events are independent: P(tails) = 1/2 and P(score greater than 4) = 2/6 = 1/3, so the joint probability is 1/2 × 1/3 = 1/6. The 2/3 option computes the union (tails or a high score) instead of the intersection, and 1/12 uses a single face instead of the two faces 5 and 6.
+
+### bank_mpl_hard n=37  [ans=A]  topic=Units · speed conversion (km/h to m/s)  lik=H
+STEM: A high-speed train covers 270 km in 3.0 h at a constant speed. Expressed in m/s, its speed is:
+  A) 25 m/s
+  B) 75 m/s
+  C) 90 m/s
+  D) 324 m/s
+  E) 1500 m/s
+EXP: The speed is 270/3.0 = 90 km/h, and 90 km/h = 90,000 m in 3600 s = 25 m/s. The 324 m/s option multiplies by 3.6 instead of dividing, and the 1500 m/s option gives metres per minute rather than metres per second.
+
+### bank_mpl_hard n=38  [ans=D]  topic=Units · volume prefixes (m³ to litres)  lik=H
+STEM: A swimming pool is 5.0 m long, 2.0 m wide and 1.2 m deep. What volume of water does it hold, expressed in litres?
+  A) 12 L
+  B) 120 L
+  C) 1200 L
+  D) 12000 L
+  E) 120000 L
+EXP: V = 5.0 × 2.0 × 1.2 = 12 m³, and since 1 m³ = 1000 dm³ and 1 dm³ = 1 L, the pool holds 12000 L. The 1200 L option uses a factor of 100 instead of 1000, confusing the volume factor with a length factor.
+
+### bank_mpl_hard n=39  [ans=C]  topic=Arithmetic · fractions in context (common denominator)  lik=M
+STEM: A water tank is 2/3 full. A valve then drains 1/4 of the tank's total capacity. What fraction of the tank is still full?
+  A) 1/6
+  B) 1/4
+  C) 5/12
+  D) 1/2
+  E) 11/12
+EXP: The drained amount is 1/4 of the capacity, so the remaining fraction is 2/3 − 1/4 = 8/12 − 3/12 = 5/12. The 1/2 option instead takes a quarter of the water already present (2/3 × 3/4), and the 11/12 option adds the two fractions instead of subtracting.
+
+### bank_mpl_hard n=40  [ans=D]  topic=Arithmetic · fraction addition and subtraction (denominator traps)  lik=M
+STEM: What is the value of 1/2 + 1/3 − 1/6?
+  A) 7/30
+  B) 1/3
+  C) 2/5
+  D) 2/3
+  E) 5/6
+EXP: With the common denominator 6: 1/2 + 1/3 − 1/6 = 3/6 + 2/6 − 1/6 = 4/6 = 2/3. The 5/6 option forgets to subtract 1/6, and 7/30 comes from adding 1/2 + 1/3 as 2/5 with no common denominator and then subtracting 1/6 from that.
+
+### bank_mpl_hard n=41  [ans=D]  topic=Kinematics · velocity-time table (non-uniform acceleration)  lik=H
+STEM: The velocity of a trolley moving along a straight track is recorded every 2 s: at 0 s it is 0 m/s, at 2 s it is 6 m/s, at 4 s it is 10 m/s, at 6 s it is 12 m/s and at 8 s it is 12 m/s. Which statement is correct?
+  A) Its acceleration is constant at 3 m/s2 between 0 s and 6 s.
+  B) Its average velocity over the whole 8 s is 10 m/s.
+  C) It travels 96 m during the 8 s.
+  D) Its acceleration between 4 s and 6 s is 1 m/s2.
+  E) It decelerates between 6 s and 8 s.
+EXP: The accelerations between successive readings are 3, 2, 1 and then 0 m/s2, so the motion is not uniformly accelerated and the constant 3 m/s2 claim is false. The displacement is the area under the graph, 6 + 16 + 22 + 24 = 68 m, giving an average velocity of 8.5 m/s rather than 10 m/s. From 6 s to 8 s the velocity is constant, so there is no deceleration.
+
+### bank_mpl_hard n=42  [ans=D]  topic=Kinematics · average speed from a velocity-time graph  lik=H
+STEM: In a race, a sprinter increases her speed steadily from 0 to 8.0 m/s during the first 4.0 s and then keeps running at a constant 8.0 m/s for the next 6.0 s. What is her average speed over the whole 10 s?
+  A) 1.6 m/s
+  B) 4.0 m/s
+  C) 4.8 m/s
+  D) 6.4 m/s
+  E) 8.0 m/s
+EXP: The distance is the area under the velocity-time graph: 0.5 × 4.0 × 8.0 = 16 m while accelerating plus 8.0 × 6.0 = 48 m at constant speed, so 64 m in total, and 64/10 = 6.4 m/s. The 8.0 m/s answer treats the final instantaneous speed as the whole-run average, and the 4.0 m/s answer assumes uniform acceleration across all 10 s.
+
+### bank_mpl_hard n=43  [ans=A]  topic=Kinematics · average vs instantaneous (light gates)  lik=H
+STEM: On a straight air track, a glider passes sensor P moving at 2.0 m/s and sensor Q moving at 4.0 m/s. The sensors are 6.0 m apart and the glider takes 2.0 s to travel from P to Q. Which statement is correct?
+  A) Its average velocity between the gates is 3.0 m/s and its acceleration is 1.0 m/s2.
+  B) Its average velocity between the gates is 2.0 m/s and its acceleration is 1.0 m/s2.
+  C) Its average velocity between the gates is 4.0 m/s and its acceleration is 1.0 m/s2.
+  D) Its average velocity between the gates is 3.0 m/s and its acceleration is 2.0 m/s2.
+  E) Its average velocity between the gates is 6.0 m/s and its acceleration is 1.0 m/s2.
+EXP: The average velocity is displacement over time, 6.0/2.0 = 3.0 m/s, and the acceleration is the change in velocity over time, (4.0 - 2.0)/2.0 = 1.0 m/s2. The 2.0 m/s2 acceleration comes from dividing by 1 s instead of 2 s, and the 2.0 and 4.0 m/s averages wrongly use one of the instantaneous speeds for the whole run.
+
+### bank_mpl_hard n=44  [ans=E]  topic=Kinematics · motion graphs (gradient and area)  lik=M
+STEM: Which of the following statements about motion graphs is correct?
+  A) The gradient of a velocity-time graph gives the distance travelled.
+  B) The area under a velocity-time graph gives the acceleration.
+  C) The average velocity over any time interval always equals the mean of the initial and final velocities.
+  D) A curved velocity-time graph means the object is moving along a circular path.
+  E) For uniformly accelerated motion starting from rest, the average velocity during the acceleration is half the final velocity.
+EXP: For uniform acceleration from rest, v = at, so the average velocity 0.5at equals half the final velocity at. The gradient of a velocity-time graph gives acceleration, not distance, and the area gives displacement, not acceleration; the mean of the initial and final velocities equals the average only when the acceleration is uniform, and a curved graph means non-uniform acceleration rather than circular motion.
+
+### bank_mpl_hard n=45  [ans=B]  topic=Kinematics · tangential vs centripetal acceleration  lik=M
+STEM: Which statement correctly distinguishes the tangential and the centripetal components of acceleration for an object moving in a circle?
+  A) The centripetal component changes the speed, and the tangential component changes the direction of motion.
+  B) The tangential component changes the speed, and the centripetal component changes the direction of the velocity.
+  C) Both components change only the speed of the object.
+  D) Both components change only the direction of motion.
+  E) The tangential component acts towards the centre, and the centripetal component acts along the tangent.
+EXP: Tangential acceleration acts along the tangent and changes the speed, while centripetal acceleration acts towards the centre and changes only the direction of the velocity. The reversed version swaps the two roles, and claims that both components change only speed (or only direction) contradict their definitions.
+
+### bank_mpl_hard n=46  [ans=C]  topic=Kinematics · centripetal acceleration (value and direction)  lik=H
+STEM: A cyclist rides around a circular track of radius 20 m at a constant speed of 10 m/s. Which statement about her acceleration is correct?
+  A) It is zero, because her speed is constant.
+  B) It is 0.50 m/s2, directed along her direction of travel.
+  C) It is 5.0 m/s2, directed towards the centre of the track.
+  D) It is 5.0 m/s2, directed along her direction of travel.
+  E) It is 2.0 m/s2, directed away from the centre of the track.
+EXP: In uniform circular motion the acceleration is purely centripetal, a = (10 × 10)/20 = 5.0 m/s2 towards the centre, because it changes only the direction of the velocity. Zero acceleration ignores the continuous change of direction, and the 0.50 and 2.0 m/s2 values come from v/r and r/v instead of v squared over r.
+
+### bank_mpl_hard n=47  [ans=E]  topic=Kinematics · circular motion (speeding up)  lik=H
+STEM: A car is driven around a circular test track while the driver steadily presses the accelerator, so the car is speeding up. At such an instant, which statement about the car's acceleration is correct?
+  A) It is zero, because the tangential and centripetal parts cancel.
+  B) It points directly towards the centre of the track.
+  C) It points directly away from the centre, in the direction of the outward push the driver feels.
+  D) It points along the direction of motion, since only a change of speed can produce acceleration.
+  E) It has a component along the motion and a component towards the centre, so the resultant points forwards and inwards.
+EXP: Because the speed changes there is a tangential component along the motion, and because the direction changes there is a centripetal component towards the centre, so the resultant points forwards and inwards. Pointing straight at the centre would require constant speed, and the true resultant in circular motion never points outwards.
+
+### bank_mpl_hard n=48  [ans=C]  topic=Kinematics · stopping distance (reaction plus braking)  lik=H
+STEM: A car travels at 72 km/h along a straight road when the driver sees a hazard. Her reaction time is 1.0 s, after which the brakes produce a constant deceleration of 5.0 m/s2 until the car stops. What total distance does the car cover between the hazard being seen and the car stopping?
+  A) 20 m
+  B) 40 m
+  C) 60 m
+  D) 80 m
+  E) 100 m
+EXP: 72 km/h is 20 m/s, so the reaction distance is 20 × 1.0 = 20 m and the braking distance is (20 × 20)/(2 × 5.0) = 40 m, a total of 60 m. The 40 m answer forgets the reaction phase, and the 80 m answer multiplies the full 20 m/s by the 4 s braking time instead of using the average braking speed of 10 m/s.
+
+### bank_mpl_hard n=49  [ans=C]  topic=Kinematics · braking deceleration from stopping distance  lik=M
+STEM: A train travelling at 30 m/s applies its brakes and comes to rest after covering 150 m at constant deceleration. What is the magnitude of the deceleration?
+  A) 0.20 m/s2
+  B) 1.5 m/s2
+  C) 3.0 m/s2
+  D) 5.0 m/s2
+  E) 6.0 m/s2
+EXP: Using v squared = 2as with final speed zero gives a = (30 × 30)/(2 × 150) = 3.0 m/s2. The 6.0 m/s2 answer drops the factor of 2, and the 1.5 m/s2 answer squares the average speed of 15 m/s instead of the initial speed.
+
+### bank_mpl_hard n=50  [ans=B]  topic=Dynamics · Newton's second law with friction  lik=M
+STEM: A crate of mass 4.0 kg is pulled along a horizontal floor by a horizontal force of 24 N. A frictional force of 8.0 N opposes the motion. What is the acceleration of the crate?
+  A) 2.0 m/s2
+  B) 4.0 m/s2
+  C) 6.0 m/s2
+  D) 8.0 m/s2
+  E) 16 m/s2
+EXP: The resultant force is 24 - 8.0 = 16 N, so a = 16/4.0 = 4.0 m/s2. The 6.0 m/s2 answer divides the pull by the mass and ignores friction, while the 8.0 m/s2 answer quotes the resultant force in newtons as if it were an acceleration.
+
+### bank_mpl_hard n=51  [ans=A]  topic=Dynamics · weight component on a slope  lik=H
+STEM: A block of mass 2.0 kg slides down a frictionless slope inclined at 30° to the horizontal. What is its acceleration along the slope? (g = 10 m/s2, sin 30° = 0.50, cos 30° = 0.87.)
+  A) 5.0 m/s2
+  B) 8.7 m/s2
+  C) 10 m/s2
+  D) 17.4 m/s2
+  E) 20 m/s2
+EXP: The component of the weight along the slope is mg sin 30° = 2.0 × 10 × 0.50 = 10 N, so a = 10/2.0 = 5.0 m/s2. The 8.7 m/s2 answer uses cos 30° instead of sin 30°, and the 17.4 and 20 m/s2 answers quote forces in newtons as accelerations without dividing by the mass.
+
+### bank_mpl_hard n=52  [ans=B]  topic=Dynamics · Newton's second law with weight  lik=H
+STEM: A crane lifts a 50 kg load by applying a vertical upward force of 550 N. What is the upward acceleration of the load? (g = 10 m/s2.)
+  A) 0.10 m/s2
+  B) 1.0 m/s2
+  C) 10 m/s2
+  D) 11 m/s2
+  E) 21 m/s2
+EXP: The weight is 50 × 10 = 500 N, so the resultant upward force is 550 - 500 = 50 N and a = 50/50 = 1.0 m/s2. The 11 m/s2 answer ignores the weight entirely, and the 21 m/s2 answer adds the two forces although they act in opposite directions.
+
+### bank_mpl_hard n=53  [ans=B]  topic=Dynamics · recoil (momentum conservation)  lik=M
+STEM: An astronaut of mass 60 kg floats at rest in space and throws a tool of mass 2.0 kg so that it moves away from her at 6.0 m/s. What is the velocity of the astronaut immediately afterwards?
+  A) 0.20 m/s in the direction of the throw.
+  B) 0.20 m/s opposite to the direction of the throw.
+  C) 0.40 m/s opposite to the direction of the throw.
+  D) 6.0 m/s opposite to the direction of the throw.
+  E) 12 m/s opposite to the direction of the throw.
+EXP: Momentum is conserved: the tool carries 2.0 × 6.0 = 12 kg m/s away, so the astronaut gains 12 kg m/s in the opposite direction and moves at 12/60 = 0.20 m/s away from the throw. The 6.0 m/s answer assumes the tool's speed is shared, and the 12 m/s answer reads the momentum value as a velocity.
+
+### bank_mpl_hard n=54  [ans=D]  topic=Dynamics · impulse at a wall  lik=H
+STEM: A ball of mass 0.50 kg strikes a wall horizontally at 12 m/s and rebounds along its original line at 8.0 m/s. The contact with the wall lasts 0.020 s. What is the magnitude of the average force exerted by the wall on the ball?
+  A) 100 N
+  B) 200 N
+  C) 300 N
+  D) 500 N
+  E) 1000 N
+EXP: The velocity reverses, so the magnitude of the momentum change is 0.50 × (12 + 8) = 10 kg m/s and F = 10/0.020 = 500 N. The 100 N answer subtracts the speeds as if the ball continued in the same direction, and the 1000 N answer adds the speeds but forgets the mass.
+
+### bank_mpl_hard n=55  [ans=C]  topic=Dynamics · power from work and time  lik=M
+STEM: A motor lifts a 60 kg load at constant speed through a height of 10 m in 20 s. What is the useful output power of the motor? (g = 10 m/s2.)
+  A) 30 W
+  B) 150 W
+  C) 300 W
+  D) 600 W
+  E) 6000 W
+EXP: At constant speed the lifting force equals the weight, so the work done is mgh = 60 × 10 × 10 = 6000 J and P = 6000/20 = 300 W. The 30 W answer leaves g out of the work, and the 6000 W answer quotes the work in joules as a power.
+
+### bank_mpl_hard n=56  [ans=D]  topic=Dynamics · power at constant speed (P = Fv)  lik=H
+STEM: A car moves at a constant 20 m/s along a horizontal road. The total resistive force on it is 600 N. What power must the engine deliver to maintain this speed?
+  A) 30 W
+  B) 600 W
+  C) 6000 W
+  D) 12000 W
+  E) 24000 W
+EXP: At constant speed the driving force balances the 600 N resistance, so P = Fv = 600 × 20 = 12000 W. The 30 W answer divides the force by the speed instead of multiplying, and the 600 W answer gives the force itself rather than force times velocity.
+
+### bank_mpl_hard n=57  [ans=A]  topic=Fluids · pressure (gauge vs absolute)  lik=H
+STEM: A diver works at a depth of 15 m in a fresh-water lake. The density of water is 1000 kg/m3, g = 10 m/s2, and the atmospheric pressure at the surface is 100 kPa. Which statement about the pressures on the diver is correct?
+  A) The gauge pressure at 15 m is 150 kPa, and the absolute pressure is 250 kPa.
+  B) The gauge pressure at 15 m is 250 kPa, and the absolute pressure is 350 kPa.
+  C) The absolute pressure at 15 m is 150 kPa, because atmospheric pressure does not act underwater.
+  D) The gauge pressure at 15 m is 150 kPa, and the absolute pressure is 50 kPa.
+  E) The gauge pressure at 15 m is 1.5 kPa, and the absolute pressure is 101.5 kPa.
+EXP: Stevin gives the gauge pressure as rho g h = 1000 × 10 × 15 = 150000 Pa = 150 kPa, and the absolute pressure adds the 100 kPa of atmosphere pressing on the surface, giving 250 kPa. The strongest distractor quotes the 150 kPa gauge value as the absolute pressure, the classic gauge versus absolute confusion.
+
+### bank_mpl_hard n=58  [ans=E]  topic=Fluids · manometer  lik=H
+STEM: An open-tube manometer contains mercury of density 13600 kg/m3. The mercury level in the arm open to the atmosphere stands 100 mm above the level in the arm connected to a gas supply. Atmospheric pressure is 100 kPa and g = 10 m/s2. What is the absolute pressure of the gas supply?
+  A) 13.6 kPa
+  B) 86.4 kPa
+  C) 100 kPa
+  D) 101 kPa
+  E) 113.6 kPa
+EXP: The gas pressure exceeds atmospheric by rho g h = 13600 × 10 × 0.100 = 13600 Pa = 13.6 kPa, so the absolute pressure is 113.6 kPa. The 86.4 kPa option subtracts the column instead of adding it, and 101 kPa adds a column computed with the density of water.
+
+### bank_mpl_hard n=59  [ans=D]  topic=Fluids · Stevin (layered liquids)  lik=H
+STEM: A tank contains 0.80 m of oil of density 800 kg/m3 floating on 1.2 m of water of density 1000 kg/m3. Taking g = 10 m/s2 and ignoring atmospheric pressure, what is the gauge pressure at the bottom of the tank?
+  A) 1.8 kPa
+  B) 6.4 kPa
+  C) 12 kPa
+  D) 18.4 kPa
+  E) 20 kPa
+EXP: Each layer adds its own rho g h: 800 × 10 × 0.80 = 6.4 kPa from the oil and 1000 × 10 × 1.2 = 12 kPa from the water, for a total of 18.4 kPa. The 20 kPa option uses the density of water for both layers, and 12 kPa forgets the oil layer.
+
+### bank_mpl_hard n=60  [ans=B]  topic=Fluids · floating (density ordering)  lik=H
+STEM: Three blocks are placed in oil of density 800 kg/m3. Block P floats with exactly half its volume submerged, block Q floats with one quarter of its volume submerged, and block R sinks and rests on the bottom. Which statement is correct?
+  A) P is the densest of the three blocks.
+  B) Q has a density of about 200 kg/m3, the lowest of the three, and R is denser than the oil.
+  C) P and Q must have the same density, because both are floating.
+  D) R has a density of exactly 800 kg/m3, the same as the oil.
+  E) Q is denser than P, because a smaller fraction of Q is submerged.
+EXP: A floating block displaces its own weight, so its density is the submerged fraction times the fluid density: P is 400 kg/m3, Q is 200 kg/m3, and R, resting on the bottom, must be denser than 800 kg/m3. The option calling Q denser than P inverts the rule: the smaller the submerged fraction, the lower the density.
+
+### bank_mpl_hard n=61  [ans=B]  topic=Fluids · floating (fraction submerged)  lik=M
+STEM: Two blocks float in water of density 1000 kg/m3: block X of density 500 kg/m3 and block Y of density 750 kg/m3. Let fX be the fraction of the volume of X that lies below the surface, and fY the corresponding fraction for Y. What is fX / fY?
+  A) 0.50
+  B) 0.67
+  C) 0.75
+  D) 1.0
+  E) 1.3
+EXP: The submerged fraction equals the block's density divided by the water's density, so fX = 0.50 and fY = 0.75, giving fX / fY = 2/3, about 0.67. The 0.75 option quotes fY itself, and 1.3 inverts the ratio.
+
+### bank_mpl_hard n=62  [ans=D]  topic=Thermal · calorimetry (q = mcΔT)  lik=M
+STEM: How much heat must be supplied to 2.0 kg of water to raise its temperature from 20 °C to 70 °C? (c of water = 4200 J/(kg K); ignore heat losses.)
+  A) 84 kJ
+  B) 210 kJ
+  C) 294 kJ
+  D) 420 kJ
+  E) 588 kJ
+EXP: Q = mcΔT = 2.0 × 4200 × 50 = 420000 J = 420 kJ. The 588 kJ option uses the final temperature of 70 °C instead of the 50 K rise, and 210 kJ drops the mass to 1.0 kg.
+
+### bank_mpl_hard n=63  [ans=B]  topic=Thermal · calorimetry (mixing two substances)  lik=H
+STEM: A 0.40 kg block of aluminium at 100 °C is dropped into 0.60 kg of water at 20 °C in an insulated container. (c of aluminium = 900 J/(kg K), c of water = 4200 J/(kg K).) What is the final equilibrium temperature?
+  A) 20 °C
+  B) 30 °C
+  C) 40 °C
+  D) 52 °C
+  E) 60 °C
+EXP: Heat lost by the aluminium equals heat gained by the water: 0.40 × 900 × (100 − T) = 0.60 × 4200 × (T − 20), so 36000 − 360T = 2520T − 50400 and T = 30 °C. The 52 °C option is the mass-weighted average of the two starting temperatures, which ignores the different specific heats, and 60 °C is the plain average.
+
+### bank_mpl_hard n=64  [ans=B]  topic=Thermal · calorimetry (mixing, unknown mass)  lik=H
+STEM: In an insulated cup, 0.50 kg of water at 12 °C is mixed with hot water at 82 °C, and the mixture settles at 32 °C. (c of water = 4200 J/(kg K); ignore heat losses.) What mass of hot water was added?
+  A) 0.10 kg
+  B) 0.20 kg
+  C) 0.35 kg
+  D) 0.50 kg
+  E) 0.70 kg
+EXP: With the same c on both sides, 0.50 × (32 − 12) = m × (82 − 32), so m = 10/50 = 0.20 kg. The 0.70 kg option uses the 70 K span between the two starting temperatures as the temperature drop of the hot water, though it only cools by 50 K.
+
+### bank_mpl_hard n=65  [ans=C]  topic=Electricity · energy (kWh conversion)  lik=M
+STEM: An electric heater consumes 2.5 kWh of energy. (1 kWh = 3.6 MJ.) This energy, expressed in megajoules, is:
+  A) 0.90 MJ
+  B) 2.5 MJ
+  C) 9.0 MJ
+  D) 25 MJ
+  E) 90 MJ
+EXP: Each kWh is 3.6 MJ, so 2.5 × 3.6 = 9.0 MJ. The 2.5 MJ option treats 1 kWh as 1 MJ and drops the 3.6 factor, and 3.6 MJ is the energy in just 1 kWh.
+
+### bank_mpl_hard n=66  [ans=D]  topic=Electricity · Joule heating (E = Pt)  lik=M
+STEM: A heating element connected across a 12 V supply carries a current of 2.0 A. How much energy does it convert to heat in 5.0 minutes?
+  A) 0.60 kJ
+  B) 0.72 kJ
+  C) 3.6 kJ
+  D) 7.2 kJ
+  E) 72 kJ
+EXP: P = VI = 12 × 2.0 = 24 W, and E = Pt = 24 × 300 s = 7200 J = 7.2 kJ. The 3.6 kJ option multiplies voltage by time and forgets the current, and 0.72 kJ treats the 5.0 minutes as 30 s.
+
+### bank_mpl_hard n=67  [ans=E]  topic=Electricity · power in series vs parallel  lik=H
+STEM: Two identical 6.0 Ω resistors are connected, first in series and then in parallel, across a 12 V battery of negligible internal resistance. Which one of the following statements is false?
+  A) In the series arrangement the battery supplies 12 W.
+  B) In the series arrangement each resistor dissipates 6.0 W.
+  C) In the parallel arrangement the battery supplies 48 W.
+  D) The parallel arrangement dissipates 4 times as much total power as the series arrangement.
+  E) The equivalent resistance of the parallel arrangement is 6.0 Ω.
+EXP: The false claim is the parallel equivalent resistance: two 6.0 Ω resistors in parallel give 3.0 Ω, so the battery supplies 12 × 12 / 3.0 = 48 W. In series the resistance is 12 Ω, the current is 1.0 A, and each resistor dissipates I2R = 1.0 × 1.0 × 6.0 = 6.0 W, so every other statement is true.
+
+### bank_mpl_hard n=68  [ans=C]  topic=Electricity · resistor networks (equivalent resistance)  lik=M
+STEM: A 6.0 Ω resistor is connected in parallel with a 3.0 Ω resistor, and this pair is connected in series with a 5.0 Ω resistor across a supply. What is the equivalent resistance of the whole network?
+  A) 2.0 Ω
+  B) 5.0 Ω
+  C) 7.0 Ω
+  D) 11 Ω
+  E) 14 Ω
+EXP: The parallel pair gives 6.0 × 3.0 / (6.0 + 3.0) = 2.0 Ω, and the series 5.0 Ω brings the total to 7.0 Ω. The 14 Ω option adds all three as if they were in series, and 2.0 Ω forgets the series resistor.
+
+### bank_mpl_hard n=69  [ans=B]  topic=Electricity · parallel current split  lik=H
+STEM: A 12 V battery of negligible internal resistance drives a 2.0 Ω resistor in series with a parallel pair made of a 6.0 Ω resistor and a 3.0 Ω resistor. What current flows in the 6.0 Ω resistor?
+  A) 0.50 A
+  B) 1.0 A
+  C) 1.5 A
+  D) 2.0 A
+  E) 3.0 A
+EXP: The parallel pair is 2.0 Ω, so the total resistance is 4.0 Ω and the battery supplies 3.0 A. The pair therefore has 6.0 V across it, and the 6.0 Ω branch carries 1.0 A. The 2.0 A option is the current in the 3.0 Ω branch, and 3.0 A is the total current.
+
+### bank_mpl_hard n=70  [ans=C]  topic=Electricity · parallel branch resistance  lik=H
+STEM: A 6.0 Ω resistor draws 2.0 A from a battery of negligible internal resistance. When a second resistor is connected in parallel with it, the current drawn from the battery rises to 3.0 A. What is the resistance of the second resistor?
+  A) 3.0 Ω
+  B) 6.0 Ω
+  C) 12 Ω
+  D) 18 Ω
+  E) 36 Ω
+EXP: The battery voltage is 6.0 × 2.0 = 12 V. The added branch raises the total current to 3.0 A, so it carries 3.0 − 2.0 = 1.0 A at the same 12 V, which means 12 Ω. The 6.0 Ω option assumes the extra current is shared equally between the branches, and 18 Ω adds the resistances as if the second resistor were in series.
+
+### bank_mpl_hard n=71  [ans=C]  topic=Electricity · short circuit in a network  lik=H
+STEM: A 4.0 Ω resistor and a 12 Ω resistor are connected in series across a 6.0 V battery of negligible internal resistance. A wire of negligible resistance is then connected across the 12 Ω resistor. What current does the battery supply once the wire is connected?
+  A) 0.375 A
+  B) 0.50 A
+  C) 1.5 A
+  D) 3.0 A
+  E) 6.0 A
+EXP: The wire short-circuits the 12 Ω resistor, so only the 4.0 Ω resistor limits the current: I = 6.0 / 4.0 = 1.5 A. The 0.375 A option is the current before the wire is added (6.0 V across 16 Ω), and 0.50 A short-circuits the 4.0 Ω instead of the 12 Ω.
+
+### bank_mpl_hard n=72  [ans=D]  topic=Physics · intensity (definition and units)  lik=M
+STEM: Intensity measures how fast a wave delivers energy to a surface, per unit area of that surface. The SI unit in which intensity is expressed is:
+  A) J/s
+  B) J/m2
+  C) W/m
+  D) W/m2
+  E) W/m3
+EXP: Intensity is power per unit area, and power in watts is joules per second, so the unit is W/m2. The J/s option is the watt, a power with no area division, and J/m2 is energy per area with the per-second factor missing.
+
+### bank_mpl_hard n=73  [ans=A]  topic=Physics · intensity (inverse-square scaling)  lik=H
+STEM: A small lamp is treated as a point source radiating uniformly in all directions. At 2.0 m from the lamp the intensity of its radiation is 36 W/m2. What is the intensity at 6.0 m from the lamp?
+  A) 4.0 W/m2
+  B) 6.0 W/m2
+  C) 12 W/m2
+  D) 18 W/m2
+  E) 36 W/m2
+EXP: A point source spreads its power over a sphere of area 4πr2, so intensity falls as 1/r2: tripling the distance cuts it by a factor of 9, giving 36/9 = 4.0 W/m2. The 12 W/m2 option scales as 1/r instead of 1/r2.
+
+### bank_mpl_hard n=74  [ans=A]  topic=Thermal · heat transfer (convection)  lik=M
+STEM: In a heated room, a radiator warms the air beside it. This air rises, cooler air replaces it, and the resulting circulating flow carries thermal energy around the room. This circulating flow transports the energy mainly by:
+  A) convection, because the warmed air expands, becomes less dense and rises within the flow
+  B) conduction, because neighbouring air molecules pass energy on by direct collisions
+  C) radiation, because the hot radiator emits infrared rays that travel in straight lines
+  D) evaporation, because the flow carries water vapour that releases heat where it condenses
+  E) conduction through the metal of the radiator, the best heat conductor present
+EXP: Energy carried by the bulk motion of a warmed fluid is convection: the heated air expands, becomes less dense and rises. Conduction transfers energy without bulk flow, and radiation travels as electromagnetic waves, not as the circulating air itself.
+
+### bank_mpl_hard n=75  [ans=E]  topic=Thermal · heat transfer (vacuum flask, three modes)  lik=H
+STEM: A vacuum flask keeps a drink hot. It has double walls with silvered surfaces and a vacuum between them, closed at the top by a stopper. Which statement about how the flask limits heat loss is correct?
+  A) The vacuum mainly blocks radiation, and the silvering mainly blocks convection.
+  B) The stopper works mainly by reflecting radiation back into the drink.
+  C) The silvered walls mainly reduce conduction through the walls.
+  D) The vacuum blocks convection only, because conduction can still occur through a vacuum.
+  E) The vacuum blocks both conduction and convection, and the silvered surfaces cut radiation losses.
+EXP: Conduction and convection both need a material medium, so the vacuum removes both paths, while silvered surfaces reflect infrared radiation back toward the drink. The option limiting the vacuum to convection misses that conduction has no medium either, and the silvering handles radiation, not the vacuum.
+
+### bank_mpl_hard n=76  [ans=C]  topic=Logic · syllogisms (valid conclusion)  lik=H
+STEM: In a library, every manuscript in the special archive is catalogued. Some of the archive's manuscripts are illustrated, and no illustrated item in the archive may leave the building. Which of the following must be true?
+  A) Every catalogued item in the library is illustrated.
+  B) Every item that may leave the building is catalogued.
+  C) Some of the archive's illustrated manuscripts are catalogued.
+  D) Some catalogued items in the library may leave the building.
+  E) No catalogued item in the archive is illustrated.
+EXP: An illustrated archive manuscript exists by the second premise, and the first premise makes every archive manuscript catalogued, so that manuscript is both illustrated and catalogued. The claim that every catalogued item is illustrated is the invalid converse of the first premise, and items that may leave need not be catalogued because non-archive items are unrestricted.
+
+### bank_mpl_hard n=77  [ans=A]  topic=Logic · syllogisms (only-if conversion)  lik=H
+STEM: At a tennis club, only members with a current season pass may book the courts, and all club rules are followed. Nadia booked a court this week. Some members with a season pass also take coaching lessons. Which of the following must be true?
+  A) Nadia holds a current season pass.
+  B) Nadia takes coaching lessons.
+  C) Every member with a season pass books the courts.
+  D) Some members who book the courts take coaching lessons.
+  E) Every member who books the courts takes coaching lessons.
+EXP: The rule 'only pass holders may book' means that booking implies holding a pass, so Nadia, who booked, holds one. Saying that every pass holder books reverses the rule without warrant, and the coaching lessons involve some pass holders who need not be Nadia.
+
+### bank_mpl_hard n=78  [ans=D]  topic=Logic · syllogisms (chained universals)  lik=H
+STEM: Every swimmer who won a medal this season trains at the Riverside pool, and nobody who trains at the Riverside pool pays a joining fee. Which of the following must be true?
+  A) Some swimmers who pay a joining fee won a medal this season.
+  B) Every swimmer who trains at the Riverside pool won a medal this season.
+  C) Some people who train at the Riverside pool did not win a medal this season.
+  D) No swimmer who won a medal this season pays a joining fee.
+  E) The Riverside pool charges no joining fee to anyone.
+EXP: A medalling swimmer trains at Riverside, and no Riverside trainer pays a joining fee, so no medalling swimmer pays the fee. Nothing forces any Riverside swimmer to have won or failed to win a medal, and the premises are silent about fees for people who do not train there.
+
+### bank_mpl_hard n=79  [ans=A]  topic=Logic · syllogisms (particular and negative premises)  lik=H
+STEM: Some players in the squad are left-footed. No left-footed player takes the corner kicks, and every player in the squad is a professional. Which of the following must be true?
+  A) Some professionals do not take the corner kicks.
+  B) Some left-footed players are not professionals.
+  C) No professional takes the corner kicks.
+  D) Every player who takes the corner kicks is right-footed.
+  E) Every player who takes the corner kicks is in the squad.
+EXP: At least one squad player is left-footed, that player is a professional by the last premise, and no left-footed player takes corners, so some professional does not take them. The corner-kick option that names right-footed players wrongly assumes that not being left-footed means being right-footed, which the premises never state.
+
+### bank_mpl_hard n=80  [ans=B]  topic=Logic · syllogisms (valid conclusion)  lik=M
+STEM: Every baker at the Saturday market arrives before dawn, and some bakers at the market sell rye bread. Which of the following must be true?
+  A) Everyone who arrives before dawn sells rye bread.
+  B) Some people who arrive before dawn sell rye bread.
+  C) All sellers of rye bread at the market are bakers.
+  D) No baker at the market sells rye bread.
+  E) Some bakers at the market arrive after dawn.
+EXP: The rye-selling bakers exist, and every baker arrives before dawn, so at least one before-dawn arrival sells rye bread. Nothing makes rye sellers bakers in general, and the claim about everyone who arrives before dawn merely reverses the first premise.
+
+### bank_mpl_hard n=81  [ans=E]  topic=Logic · syllogisms (universal instantiation)  lik=M
+STEM: Every member of the rowing club can swim, and no member of the rowing club is under sixteen. Tara is a member of the rowing club. Which of the following must be true?
+  A) Tara is under sixteen.
+  B) Everyone who can swim is a member of the rowing club.
+  C) Some people under sixteen can swim.
+  D) Only swimmers may join the rowing club.
+  E) Tara can swim and is not under sixteen.
+EXP: Tara is a member, so both universal premises apply to her: she can swim and she is not under sixteen. The claim that every swimmer is a club member merely reverses the first premise and does not follow, and the premises say nothing about who is allowed to join.
+
+### bank_mpl_hard n=82  [ans=D]  topic=Logic · truth-tellers and liars (conjunction self-test)  lik=H
+STEM: About a postponed football match, Ria says: 'The match was postponed because of rain.' Tom says: 'The match was postponed because of rain, and Ria is lying.' Exactly one of the two always tells the truth and the other always lies. Which of the following must be true?
+  A) Tom tells the truth and the postponement had another cause.
+  B) Ria tells the truth and the postponement had another cause.
+  C) Tom tells the truth and rain caused the postponement.
+  D) Ria tells the truth and rain caused the postponement.
+  E) Both of them always tell the truth.
+EXP: If Tom were the truth teller, his statement would make Ria a liar whose claim about rain is false, yet the same statement itself asserts that rain caused the postponement, which is contradictory. So Tom is the liar and Ria tells the truth, which makes rain the cause, while Tom's conjunction fails because its second part is false.
+
+### bank_mpl_hard n=83  [ans=B]  topic=Logic · truth-tellers and liars (three speakers)  lik=H
+STEM: Three pupils, Amara, Ben and Cara, are asked about a missing lab key. Each of them either always tells the truth or always lies. Amara says: 'Ben is lying.' Ben says: 'Cara is lying.' Cara says: 'Both Amara and Ben are lying.' Which of the following is correct?
+  A) Amara and Ben tell the truth and Cara lies.
+  B) Amara and Cara lie and Ben tells the truth.
+  C) Ben and Cara lie and Amara tells the truth.
+  D) All three tell the truth.
+  E) The three statements allow more than one consistent assignment.
+EXP: Suppose Amara tells the truth: then Ben lies, which makes Ben's claim false and Cara truthful, yet Cara's claim that both Amara and Ben lie would be false, impossible for a truth teller. So Amara lies, which makes Ben truthful and Cara a liar, and Cara's false claim is consistent because only Amara lies.
+
+### bank_mpl_hard n=84  [ans=D]  topic=Logic · truth-tellers and liars (contradictory pair)  lik=M
+STEM: Three teachers are questioned about a borrowed stopwatch. Exactly one of them is lying and the other two are telling the truth. Priya says: 'I did not take the stopwatch.' Quinn says: 'Priya is lying.' Ravi says: 'Quinn is lying.' Which of the following must be true?
+  A) Priya took the stopwatch.
+  B) Ravi took the stopwatch.
+  C) Quinn took the stopwatch.
+  D) Priya did not take the stopwatch.
+  E) All three are telling the truth.
+EXP: Quinn and Ravi contradict each other, so the single liar must be one of that pair, which makes Priya truthful and her denial accurate. Quinn's claim that Priya is lying is then false, so Quinn is the liar and Ravi tells the truth, but the statements never settle who actually took the stopwatch, which is why the naming options fail.
+
+### bank_mpl_hard n=85  [ans=B]  topic=Logic · truth-tellers and liars (unique truth teller)  lik=H
+STEM: After a match, the scoreboard was found broken. Exactly one of the three candidates for team captain always tells the truth and the other two always lie. Dana says: 'Eli broke the scoreboard.' Eli says: 'I did not break the scoreboard.' Fran says: 'Dana is lying.' Which of the following must be true?
+  A) Eli tells the truth and Dana broke the scoreboard.
+  B) Dana tells the truth and Eli broke the scoreboard.
+  C) Fran tells the truth and Dana broke the scoreboard.
+  D) Eli tells the truth and Fran broke the scoreboard.
+  E) Fran tells the truth and Eli broke the scoreboard.
+EXP: If Eli told the truth, Dana and Fran would both be liars, but Fran's claim that Dana is lying would then be true, impossible for a liar. If Fran told the truth, Eli's denial would also be true, giving two truth tellers, so Dana is the only truth teller, Eli broke the scoreboard, and Eli's denial is his one lie.
+
+### bank_mpl_hard n=86  [ans=E]  topic=Logic · consistency puzzles (exactly one true)  lik=H
+STEM: At a lost property office, exactly one of Pia's two statements is true and exactly one of Sam's two statements is true. The clerk confirms the blue bag was collected on exactly one day. Pia says: 'The bag was collected on Monday.' and 'The bag was not collected on Wednesday.' Sam says: 'The bag was collected on Wednesday.' and 'The bag was not collected on Monday.' Which of the following must be true?
+  A) The bag was collected on Monday.
+  B) The bag was collected on Wednesday.
+  C) Pia made two false statements.
+  D) Sam made two true statements.
+  E) The bag was collected on a day that is neither Monday nor Wednesday.
+EXP: If the bag went out on Monday, both of Pia's statements would be true, and if it went out on Wednesday, both would be false, so neither day fits her one-true requirement. Only a day other than Monday or Wednesday leaves Pia and Sam with exactly one true statement each.
+
+### bank_mpl_hard n=87  [ans=E]  topic=Logic · conditional equivalence (contrapositive)  lik=M
+STEM: A notice at the swimming pool reads: 'If the pool is at capacity, new swimmers are turned away.' Which of the following is logically equivalent to the notice?
+  A) If new swimmers are turned away, the pool is at capacity.
+  B) If the pool is not at capacity, new swimmers are not turned away.
+  C) If the pool is not at capacity, new swimmers are turned away.
+  D) New swimmers are turned away only if the pool is at capacity.
+  E) If new swimmers are not turned away, the pool is not at capacity.
+EXP: Negating both parts in reverse order gives the contrapositive, 'not turned away means not at capacity', which is logically equivalent to the notice. Turning away implying capacity merely reverses the conditional, and the inverse with both parts denied in the same order is not equivalent.
+
+### bank_mpl_hard n=88  [ans=A]  topic=Logic · conditional equivalence (inverse vs contrapositive)  lik=M
+STEM: The coach tells the squad: 'If a player attends every training session this month, she will be selected for the final.' Which of the following is logically equivalent to the coach's statement?
+  A) If a player is not selected for the final, she did not attend every training session this month.
+  B) If a player does not attend every training session this month, she will not be selected for the final.
+  C) If a player is selected for the final, she attended every training session this month.
+  D) A player will be selected for the final only if she attends every training session this month.
+  E) A player who attends at least one training session this month will be selected for the final.
+EXP: Denying the consequent and then the antecedent gives 'not selected means attendance was not perfect', the contrapositive, which is equivalent. The mirror version 'imperfect attendance means not selected' is the inverse and does not follow, and selection implying perfect attendance merely reverses the promise.
+
+### bank_mpl_hard n=89  [ans=B]  topic=Logic · conditional equivalence (only-if decoding)  lik=M
+STEM: Under the library's loan rule, a book may be borrowed for a full term only if it is on the reserve list. Which of the following must also be true if the rule is obeyed?
+  A) A book on the reserve list may be borrowed for a full term.
+  B) A book not on the reserve list may not be borrowed for a full term.
+  C) A book not on the reserve list may be borrowed for a full term.
+  D) Every book on the reserve list is borrowed for a full term.
+  E) Only books on the reserve list may be borrowed at all.
+EXP: 'Full term only if reserved' means that full-term borrowing requires a reserve listing, and denying that requirement gives the equivalent claim that unreserved books cannot go out for a full term. Being on the reserve list does not by itself grant full-term borrowing, which is the converse.
+
+### bank_mpl_hard n=90  [ans=C]  topic=Logic · conditional equivalence (chained conditionals)  lik=H
+STEM: A ferry company's policy states that if a sailing is delayed, meal vouchers are issued, and that if meal vouchers are issued, the terminal canteen stays open late. Which of the following is logically equivalent to the policy taken as a whole?
+  A) If a sailing is not delayed, the canteen does not stay open late.
+  B) If the canteen stays open late, the sailing was delayed.
+  C) If the canteen does not stay open late, the sailing was not delayed.
+  D) If a sailing is delayed, it is because the canteen plans to stay open late.
+  E) Every delayed sailing leaves passengers hungry.
+EXP: Chaining delay to vouchers and vouchers to a late canteen yields 'delay means late canteen', whose contrapositive is 'no late canteen means no delay', which must hold. The versions starting from no delay or from a late canteen reverse the direction of the chain and are not entailed.
+
+### bank_mpl_hard n=91  [ans=A]  topic=Logic · conditional equivalence (biconditional)  lik=M
+STEM: A security manual states: 'The side gate stays locked if and only if the alarm is armed.' Which of the following is logically equivalent to this statement?
+  A) The side gate is unlocked exactly when the alarm is disarmed.
+  B) If the alarm is armed, the side gate is unlocked.
+  C) If the side gate is locked, the alarm is disarmed.
+  D) The alarm is armed whenever the side gate is unlocked.
+  E) If the alarm is disarmed, the side gate is locked.
+EXP: A biconditional remains true when both sides are negated, so locked exactly with armed means unlocked exactly with disarmed. Saying the gate unlocks while the alarm is armed, or locks while it is disarmed, contradicts the manual, and mixing the negation of one side with the other side breaks the equivalence.
+
+### bank_mpl_hard n=92  [ans=C]  topic=Logic · hidden assumption  lik=H
+STEM: A council reports that streets repaved with a new porous surface drain rainwater quickly and form far fewer puddles, and concludes that repaving will reduce road accidents in which vehicles slip. The conclusion depends on assuming which of the following?
+  A) The porous surface costs less per kilometre than standard asphalt.
+  B) Drivers on repaved streets tend to be more cautious than other drivers.
+  C) Accidents in which vehicles slip are usually caused by surface water, and the porous surface does not make roads slippery in other ways.
+  D) Standard asphalt forms more puddles than the porous surface.
+  E) The council intends to repave most streets within five years.
+EXP: The argument links fewer puddles to fewer slip accidents only if surface water is what makes vehicles slip and the new surface adds no compensating hazard of its own. Repaving costs and council intentions are beside the chain, driver caution would be a rival explanation rather than a needed assumption, and the asphalt comparison restates a premise.
+
+### bank_mpl_hard n=93  [ans=E]  topic=Logic · weakening an argument  lik=H
+STEM: At a gym, members on the flexible plan attend twice as often as members on the standard plan and report larger fitness gains. The manager concludes that the flexible plan itself causes the better fitness. Which of the following, if true, most weakens the manager's conclusion?
+  A) The flexible plan costs more per month than the standard plan.
+  B) Attendance at the gym is recorded automatically at the entrance.
+  C) Both groups took the same fitness assessment at the start and at the end of the study.
+  D) Standard plan members report busier weekday schedules.
+  E) Members choose their own plan, and most members who were already training hard before joining picked the flexible plan.
+EXP: If the keenest trainers selected the flexible plan in the first place, their attendance and gains existed before the plan, so the plan need not cause anything, which is self-selection. The extra fee and the recording method do not touch the causal claim, and the shared assessment detail strengthens rather than weakens the study.
+
+### bank_mpl_hard n=94  [ans=D]  topic=Logic · strengthening an argument  lik=H
+STEM: A ferry operator installed automatic ticket scanners on two of its six routes. Boarding time on those two routes fell by a third within two months and stayed flat on the other four. The operator concludes the scanners caused the faster boarding. Which of the following, if true, most strengthens this conclusion?
+  A) Over the same two months the operator ran an advertising campaign on all six routes.
+  B) Staff numbers were also increased at the terminals of the two scanner routes.
+  C) Passengers on the scanner routes said in a survey that they liked the scanners.
+  D) When the scanners were out of service for two days, boarding times on those routes briefly returned to their old level and fell again after repairs.
+  E) Both scanner routes use ferries of the same model.
+EXP: Boarding slowing exactly while the scanners were down and resuming once they were repaired reconnects the effect to the suspected cause far more tightly than the before-and-after contrast alone. Extra staff on the same routes suggest a rival explanation, the campaign touched all routes equally so it cannot explain the difference, and passenger approval says nothing about speed.
+
+### bank_mpl_hard n=95  [ans=C]  topic=Logic · inference from data  lik=M
+STEM: Last year a sports centre cut its evening swim sessions from five per week to three. Over the year, total attendance at evening swims stayed almost unchanged, and the waiting list for evening swims grew longer. Which of the following is most strongly supported by this information?
+  A) The centre should restore the two cancelled sessions.
+  B) Some swimmers gave up swimming in the evenings.
+  C) On average, each remaining evening session now accommodates more swimmers than before.
+  D) Attendance at morning swims must have increased.
+  E) The waiting list caused the sessions to be cut.
+EXP: With roughly the same total attendance spread over three sessions instead of five, the average number of swimmers per session rises, which follows directly from the figures. Nothing in the data says anyone gave up, that morning sessions changed, or that the waiting list preceded the cuts.

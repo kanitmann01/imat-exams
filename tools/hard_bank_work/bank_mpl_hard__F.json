@@ -1,0 +1,291 @@
+{
+ "bank": "bank_mpl_hard",
+ "section": "F",
+ "questions": [
+  {
+   "stem": "A diver works at a depth of 15 m in a fresh-water lake. The density of water is 1000 kg/m3, g = 10 m/s2, and the atmospheric pressure at the surface is 100 kPa. Which statement about the pressures on the diver is correct?",
+   "options": [
+    "The gauge pressure at 15 m is 150 kPa, and the absolute pressure is 250 kPa.",
+    "The gauge pressure at 15 m is 250 kPa, and the absolute pressure is 350 kPa.",
+    "The absolute pressure at 15 m is 150 kPa, because atmospheric pressure does not act underwater.",
+    "The gauge pressure at 15 m is 150 kPa, and the absolute pressure is 50 kPa.",
+    "The gauge pressure at 15 m is 1.5 kPa, and the absolute pressure is 101.5 kPa."
+   ],
+   "ans": "A",
+   "exp": "Stevin gives the gauge pressure as rho g h = 1000 × 10 × 15 = 150000 Pa = 150 kPa, and the absolute pressure adds the 100 kPa of atmosphere pressing on the surface, giving 250 kPa. The strongest distractor quotes the 150 kPa gauge value as the absolute pressure, the classic gauge versus absolute confusion.",
+   "topic": "Physics · pressure (gauge vs absolute)",
+   "lik": "H",
+   "syl": "6. Physics: Fluid mechanics"
+  },
+  {
+   "stem": "An open-tube manometer contains mercury of density 13600 kg/m3. The mercury level in the arm open to the atmosphere stands 100 mm above the level in the arm connected to a gas supply. Atmospheric pressure is 100 kPa and g = 10 m/s2. What is the absolute pressure of the gas supply?",
+   "options": [
+    "13.6 kPa",
+    "86.4 kPa",
+    "100 kPa",
+    "101 kPa",
+    "113.6 kPa"
+   ],
+   "ans": "E",
+   "exp": "The gas pressure exceeds atmospheric by rho g h = 13600 × 10 × 0.100 = 13600 Pa = 13.6 kPa, so the absolute pressure is 113.6 kPa. The 86.4 kPa option subtracts the column instead of adding it, and 101 kPa adds a column computed with the density of water.",
+   "topic": "Physics · manometer",
+   "lik": "H",
+   "syl": "6. Physics: Fluid mechanics"
+  },
+  {
+   "stem": "A tank contains 0.80 m of oil of density 800 kg/m3 floating on 1.2 m of water of density 1000 kg/m3. Taking g = 10 m/s2 what is the gauge pressure at the bottom of the tank?",
+   "options": [
+    "1.8 kPa",
+    "6.4 kPa",
+    "12 kPa",
+    "18.4 kPa",
+    "20 kPa"
+   ],
+   "ans": "D",
+   "exp": "Each layer adds its own rho g h: 800 × 10 × 0.80 = 6.4 kPa from the oil and 1000 × 10 × 1.2 = 12 kPa from the water, for a total of 18.4 kPa. The 20 kPa option uses the density of water for both layers, and 12 kPa forgets the oil layer.",
+   "topic": "Physics · Stevin (layered liquids)",
+   "lik": "H",
+   "syl": "6. Physics: Fluid mechanics"
+  },
+  {
+   "stem": "Three blocks are placed in oil of density 800 kg/m3. Block P floats with exactly half its volume submerged, block Q floats with one quarter of its volume submerged, and block R sinks and rests on the bottom. Which statement is correct?",
+   "options": [
+    "P is the densest of the three blocks.",
+    "Q has a density of about 200 kg/m3, the lowest of the three, and R is denser than the oil.",
+    "P and Q must have the same density, because both are floating.",
+    "R has a density of exactly 800 kg/m3, the same as the oil.",
+    "Q is denser than P, because a smaller fraction of Q is submerged."
+   ],
+   "ans": "B",
+   "exp": "A floating block displaces its own weight, so its density is the submerged fraction times the fluid density: P is 400 kg/m3, Q is 200 kg/m3, and R, resting on the bottom, must be denser than 800 kg/m3. The option calling Q denser than P inverts the rule: the smaller the submerged fraction, the lower the density.",
+   "topic": "Physics · floating (density ordering)",
+   "lik": "H",
+   "syl": "6. Physics: Fluid mechanics"
+  },
+  {
+   "stem": "A block of weight 6.0 N and density 750 kg/m3 floats freely in water of density 1000 kg/m3. What is the apparent weight of the block while it floats?",
+   "options": [
+    "0 N",
+    "1.5 N",
+    "2.0 N",
+    "4.5 N",
+    "6.0 N"
+   ],
+   "ans": "A",
+   "exp": "While floating, the block is in equilibrium, so the upthrust equals its 6.0 N weight exactly (it displaces its own weight of water, submerging three quarters of its volume). The apparent weight is therefore zero; the 1.5 N option subtracts only three quarters of the weight.",
+   "topic": "Physics · floating equilibrium",
+   "lik": "M",
+   "syl": "6. Physics: Fluid mechanics"
+  },
+  {
+   "stem": "How much heat must be supplied to 2.0 kg of water to raise its temperature from 20 °C to 70 °C? (c of water = 4200 J/(kg K); ignore heat losses.)",
+   "options": [
+    "84 kJ",
+    "210 kJ",
+    "294 kJ",
+    "420 kJ",
+    "588 kJ"
+   ],
+   "ans": "D",
+   "exp": "Q = mcΔT = 2.0 × 4200 × 50 = 420000 J = 420 kJ. The 588 kJ option uses the final temperature of 70 °C instead of the 50 K rise, and 210 kJ drops the mass to 1.0 kg.",
+   "topic": "Physics · calorimetry (q = mcΔT)",
+   "lik": "M",
+   "syl": "6. Physics: Thermodynamics"
+  },
+  {
+   "stem": "A 0.40 kg block of aluminium at 100 °C is dropped into 0.60 kg of water at 20 °C in an insulated container. (c of aluminium = 900 J/(kg K), c of water = 4200 J/(kg K).) What is the final equilibrium temperature?",
+   "options": [
+    "20 °C",
+    "30 °C",
+    "40 °C",
+    "52 °C",
+    "60 °C"
+   ],
+   "ans": "B",
+   "exp": "Heat lost by the aluminium equals heat gained by the water: 0.40 × 900 × (100 − T) = 0.60 × 4200 × (T − 20), so 36000 − 360T = 2520T − 50400 and T = 30 °C. The 52 °C option is the mass-weighted average of the two starting temperatures, which ignores the different specific heats, and 60 °C is the plain average.",
+   "topic": "Physics · calorimetry (mixing two substances)",
+   "lik": "H",
+   "syl": "6. Physics: Thermodynamics"
+  },
+  {
+   "stem": "In an insulated cup, 0.50 kg of water at 12 °C is mixed with hot water at 82 °C, and the mixture settles at 32 °C. (c of water = 4200 J/(kg K); ignore heat losses.) What mass of hot water was added?",
+   "options": [
+    "0.10 kg",
+    "0.20 kg",
+    "0.35 kg",
+    "0.50 kg",
+    "0.70 kg"
+   ],
+   "ans": "B",
+   "exp": "With the same c on both sides, 0.50 × (32 − 12) = m × (82 − 32), so m = 10/50 = 0.20 kg. The 0.70 kg option uses the 70 K span between the starting temperatures as the warming of the cold water, though the cold water rises by only 20 K.",
+   "topic": "Physics · calorimetry (mixing, unknown mass)",
+   "lik": "H",
+   "syl": "6. Physics: Thermodynamics"
+  },
+  {
+   "stem": "An electric heater consumes 2.5 kWh of energy. (1 kWh = 3.6 MJ.) This energy, expressed in megajoules, is:",
+   "options": [
+    "0.90 MJ",
+    "2.5 MJ",
+    "9.0 MJ",
+    "25 MJ",
+    "90 MJ"
+   ],
+   "ans": "C",
+   "exp": "Each kWh is 3.6 MJ, so 2.5 × 3.6 = 9.0 MJ. The 2.5 MJ option treats 1 kWh as 1 MJ and drops the 3.6 factor, and 3.6 MJ is the energy in just 1 kWh.",
+   "topic": "Physics · energy (kWh conversion)",
+   "lik": "M",
+   "syl": "6. Physics: Electricity and electromagnetism"
+  },
+  {
+   "stem": "A heating element connected across a 12 V supply carries a current of 2.0 A. How much energy does it convert to heat in 5.0 minutes?",
+   "options": [
+    "0.60 kJ",
+    "0.72 kJ",
+    "3.6 kJ",
+    "7.2 kJ",
+    "72 kJ"
+   ],
+   "ans": "D",
+   "exp": "P = VI = 12 × 2.0 = 24 W, and E = Pt = 24 × 300 s = 7200 J = 7.2 kJ. The 3.6 kJ option multiplies voltage by time and forgets the current, and 0.72 kJ treats the 5.0 minutes as 30 s.",
+   "topic": "Physics · Joule heating (E = Pt)",
+   "lik": "M",
+   "syl": "6. Physics: Electricity and electromagnetism"
+  },
+  {
+   "stem": "Two identical 6.0 Ω resistors are connected, first in series and then in parallel, across a 12 V battery of negligible internal resistance. Which one of the following statements is false?",
+   "options": [
+    "In the series arrangement the battery supplies 12 W.",
+    "In the series arrangement each resistor dissipates 6.0 W.",
+    "In the parallel arrangement the battery supplies 48 W.",
+    "The parallel arrangement dissipates 4 times as much total power as the series arrangement.",
+    "The equivalent resistance of the parallel arrangement is 6.0 Ω."
+   ],
+   "ans": "E",
+   "exp": "The false claim is the parallel equivalent resistance: two 6.0 Ω resistors in parallel give 3.0 Ω, so the battery supplies 12 × 12 / 3.0 = 48 W. In series the resistance is 12 Ω, the current is 1.0 A, and each resistor dissipates I2R = 1.0 × 1.0 × 6.0 = 6.0 W, so every other statement is true.",
+   "topic": "Physics · power in series vs parallel",
+   "lik": "H",
+   "syl": "6. Physics: Electricity and electromagnetism"
+  },
+  {
+   "stem": "A 6.0 Ω resistor is connected in parallel with a 3.0 Ω resistor, and this pair is connected in series with a 5.0 Ω resistor across a supply. What is the equivalent resistance of the whole network?",
+   "options": [
+    "2.0 Ω",
+    "5.0 Ω",
+    "7.0 Ω",
+    "11 Ω",
+    "14 Ω"
+   ],
+   "ans": "C",
+   "exp": "The parallel pair gives 6.0 × 3.0 / (6.0 + 3.0) = 2.0 Ω, and the series 5.0 Ω brings the total to 7.0 Ω. The 14 Ω option adds all three as if they were in series, and 2.0 Ω forgets the series resistor.",
+   "topic": "Physics · resistor networks (equivalent resistance)",
+   "lik": "M",
+   "syl": "6. Physics: Electricity and electromagnetism"
+  },
+  {
+   "stem": "A battery of negligible internal resistance supplies 24 V to an 8.0 Ω resistor connected in series with a parallel combination of a 12 Ω resistor and a 6.0 Ω resistor. What current does the battery supply?",
+   "options": [
+    "1.5 A",
+    "2.0 A",
+    "2.4 A",
+    "3.0 A",
+    "6.0 A"
+   ],
+   "ans": "B",
+   "exp": "The parallel pair has resistance (12 × 6.0)/(12 + 6.0) = 4.0 Ω, so the total is 8.0 + 4.0 = 12 Ω and I = 24/12 = 2.0 A. The 3.0 A option ignores the parallel section entirely (24/8.0), and 1.5 A comes from doubling the total resistance.",
+   "topic": "Physics · series-parallel network",
+   "lik": "H",
+   "syl": "6. Physics: Electricity and electromagnetism"
+  },
+  {
+   "stem": "A 6.0 Ω resistor draws 2.0 A from a battery of negligible internal resistance. When a second resistor is connected in parallel with it, the current drawn from the battery rises to 3.0 A. What is the resistance of the second resistor?",
+   "options": [
+    "3.0 Ω",
+    "6.0 Ω",
+    "12 Ω",
+    "18 Ω",
+    "36 Ω"
+   ],
+   "ans": "C",
+   "exp": "The battery voltage is 6.0 × 2.0 = 12 V. The added branch raises the total current to 3.0 A, so it carries 3.0 − 2.0 = 1.0 A at the same 12 V, which means 12 Ω. The 6.0 Ω option assumes the extra current is shared equally between the branches, and 18 Ω adds the resistances as if the second resistor were in series.",
+   "topic": "Physics · parallel branch resistance",
+   "lik": "H",
+   "syl": "6. Physics: Electricity and electromagnetism"
+  },
+  {
+   "stem": "A 4.0 Ω resistor and a 12 Ω resistor are connected in series across a 6.0 V battery of negligible internal resistance. A wire of negligible resistance is then connected across the 12 Ω resistor. What current does the battery supply once the wire is connected?",
+   "options": [
+    "0.375 A",
+    "0.50 A",
+    "1.5 A",
+    "3.0 A",
+    "6.0 A"
+   ],
+   "ans": "C",
+   "exp": "The wire short-circuits the 12 Ω resistor, so only the 4.0 Ω resistor limits the current: I = 6.0 / 4.0 = 1.5 A. The 0.375 A option is the current before the wire is added (6.0 V across 16 Ω), and 0.50 A short-circuits the 4.0 Ω instead of the 12 Ω.",
+   "topic": "Physics · short circuit in a network",
+   "lik": "H",
+   "syl": "6. Physics: Electricity and electromagnetism"
+  },
+  {
+   "stem": "Intensity measures how fast a wave delivers energy to a surface, per unit area of that surface. The SI unit in which intensity is expressed is:",
+   "options": [
+    "J/s",
+    "J/m2",
+    "W/m",
+    "W/m2",
+    "W/m3"
+   ],
+   "ans": "D",
+   "exp": "Intensity is power per unit area, and power in watts is joules per second, so the unit is W/m2. The J/s option is the watt, a power with no area division, and J/m2 is energy per area with the per-second factor missing.",
+   "topic": "Physics · intensity (definition and units)",
+   "lik": "M",
+   "syl": "6. Physics: Physical quantities and their measurement"
+  },
+  {
+   "stem": "A small lamp is treated as a point source radiating uniformly in all directions. At 2.0 m from the lamp the intensity of its radiation is 36 W/m2. What is the intensity at 6.0 m from the lamp?",
+   "options": [
+    "4.0 W/m2",
+    "6.0 W/m2",
+    "12 W/m2",
+    "18 W/m2",
+    "36 W/m2"
+   ],
+   "ans": "A",
+   "exp": "A point source spreads its power over a sphere of area 4πr2, so intensity falls as 1/r2: tripling the distance cuts it by a factor of 9, giving 36/9 = 4.0 W/m2. The 12 W/m2 option scales as 1/r instead of 1/r2.",
+   "topic": "Physics · intensity (inverse-square scaling)",
+   "lik": "H",
+   "syl": "6. Physics: Physical quantities and their measurement"
+  },
+  {
+   "stem": "In a heated room, a radiator warms the air beside it. This air rises, cooler air replaces it, and the resulting circulating flow carries thermal energy around the room. This circulating flow transports the energy mainly by:",
+   "options": [
+    "convection, because the warmed air expands, becomes less dense and rises within the flow",
+    "conduction, because neighbouring air molecules pass energy on by direct collisions",
+    "radiation, because the hot radiator emits infrared rays that travel in straight lines",
+    "evaporation, because the flow carries water vapour that releases heat where it condenses",
+    "conduction through the metal of the radiator, the best heat conductor present"
+   ],
+   "ans": "A",
+   "exp": "Energy carried by the bulk motion of a warmed fluid is convection: the heated air expands, becomes less dense and rises. Conduction transfers energy without bulk flow, and radiation travels as electromagnetic waves, not as the circulating air itself.",
+   "topic": "Physics · heat transfer (convection)",
+   "lik": "M",
+   "syl": "6. Physics: Thermodynamics"
+  },
+  {
+   "stem": "A vacuum flask keeps a drink hot. It has double walls with silvered surfaces and a vacuum between them, closed at the top by a stopper. Which statement about how the flask limits heat loss is correct?",
+   "options": [
+    "The vacuum mainly blocks radiation, and the silvering mainly blocks convection.",
+    "The stopper works mainly by reflecting radiation back into the drink.",
+    "The silvered walls mainly reduce conduction through the walls.",
+    "The vacuum blocks convection only, because conduction can still occur through a vacuum.",
+    "The vacuum blocks both conduction and convection, and the silvered surfaces cut radiation losses."
+   ],
+   "ans": "E",
+   "exp": "Conduction and convection both need a material medium, so the vacuum removes both paths, while silvered surfaces reflect infrared radiation back toward the drink. The option limiting the vacuum to convection misses that conduction has no medium either, and the silvering handles radiation, not the vacuum.",
+   "topic": "Physics · heat transfer (vacuum flask, three modes)",
+   "lik": "H",
+   "syl": "6. Physics: Thermodynamics"
+  }
+ ]
+}

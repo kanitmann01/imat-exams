@@ -1,0 +1,354 @@
+#### bank_bio_hard.json
+H|#1|The side chains of four amino acids are considered: serine bears a hydroxyl group, alanine bears a methyl group, aspartic acid bears a second carboxyl
+H|#2|A tripeptide is assembled in the order glutamic acid, glycine, lysine. Peptide bonds are not ionisable, and the only groups carrying charge near pH 7 
+M|#3|Collagen aside, proline is rarely found in the middle of an alpha helix. The best explanation is that proline:
+H|#4|A reagent breaks the four intrachain disulfide bridges of a protein made of a single polypeptide chain, without touching any peptide bond. Which level
+H|#5|Two synthetic peptides of equal length adopt different secondary structures: peptide P forms an alpha helix and peptide Q forms an antiparallel beta s
+M|#6|A newly characterised protein is a long, water-insoluble strand that gives tendon its tensile strength and forms insoluble fibres outside the body. Wh
+H|#7|Which statement about levels of protein structure is correct?
+M|#8|Cellulose and starch are both polymers of glucose, yet cellulose passes through the human gut largely undigested. The reason is that:
+H|#9|Muscle glycogen releases usable glucose units faster than the amylopectin of a starchy meal, although both are branched polymers of alpha-glucose. The
+M|#10|In a chromatogram of a leaf extract, the yellow-orange bands contain carotenes and xanthophylls. Which statement about these pigments is correct?
+H|#11|Per gram, fat stores about twice as much usable energy as glycogen. Which statement explains this most directly?
+H|#12|Starch is incubated with purified amylase under gut-like conditions, and the mixture then meets the brush-border enzymes of the small intestine. Which
+M|#13|Lactose, the disaccharide in milk, is hydrolysed at the intestinal brush border by lactase. The correct reaction is:
+M|#14|In a tube containing enzyme and a large excess of its substrate, the enzyme concentration is doubled while temperature and pH are held constant. The i
+H|#15|Two tubes contain the same small, fixed amount of substrate. Tube X receives 1 unit of enzyme and tube Y receives 4 units of the same enzyme; temperat
+M|#16|An enzyme is added to a reaction mixture that has already reached chemical equilibrium. Which statement is correct?
+H|#17|In prion diseases, a misfolded form of a normal membrane protein acts as a template: contact converts the normal form into the misfolded shape, which 
+H|#18|A cell line carries a mutation that disables its main chaperone proteins, while protein synthesis continues normally and amino acid sequences are unch
+H|#19|In a steroid-producing gland cell, the smooth endoplasmic reticulum is actively making hormones, while a lysosome is digesting a bacterium taken in by
+M|#20|Which of the following statements about peroxisomes and lysosomes is correct?
+H|#21|In animal cells the first step of peroxisomal fatty acid oxidation is catalysed by an oxidase that passes electrons directly to oxygen, forming hydrog
+H|#22|A metabolic poison halts ATP production in an animal cell kept in an isotonic medium. Which combination of transport processes continues at its normal
+M|#23|Cells are cultured in a medium whose glucose concentration is higher than the glucose concentration inside the cells. The cells take up glucose throug
+H|#24|A red blood cell whose interior behaves as 300 mmol/dm³ of non-penetrating solute is placed in a large volume of solution containing 150 mmol/dm³ sodi
+M|#25|Which statement about the fluid mosaic model of the plasma membrane is correct?
+H|#26|Researchers treat sealed vesicles of plasma membrane in two ways. Treatment 1 uses a concentrated salt solution that disrupts ionic and polar interact
+M|#27|A red blood cell is moved from an isotonic medium into a solution with a higher total concentration of non-penetrating solutes than the cytosol. What 
+H|#28|Cells from the same tissue are divided into two samples: one sample is placed in solution X, which is hypertonic to the cells, and the other in soluti
+M|#29|Viruses are described as acellular. Which statement gives the main reason?
+H|#30|Which of the following statements about viruses is correct?
+M|#31|Which pairing of a plastid type with what it stores is correct?
+H|#32|During the ripening of a tomato fruit the green colour fades, red pigments accumulate, and the starch stored in the fruit is converted into sugars. Wh
+H|#33|In Tay-Sachs disease, a defective gene leaves one enzyme inactive inside a particular organelle. Nerve cells of affected children develop swollen vesi
+H|#34|Three treatments each disable one organelle in a cell line. After treatment 1, secreted proteins are synthesised but are never given mature carbohydra
+H|#35|A bacterial culture is treated with a drug that completely inhibits DNA gyrase, a topoisomerase. Helicase and DNA polymerase are unaffected, and repli
+M|#36|In a temperature-sensitive bacterial mutant shifted to the restrictive temperature, DNA ligase is inactive while helicase, primase and DNA polymerase 
+H|#37|In a eukaryotic species, nucleosomes are arranged with a repeat length of 200 bp of DNA per nucleosome. Each nucleosome core particle contains two cop
+M|#38|Which statement about histones is correct?
+H|#39|Bacteria are grown for many generations in a medium whose only nitrogen source is the heavy isotope 15N, so that all their DNA is fully heavy. The cul
+H|#40|In a Meselson-Stahl type experiment, bacteria grown in 15N medium are shifted to 14N medium. After exactly one round of replication, centrifugation in
+M|#41|Which statement about the eukaryotic (80S) ribosome is correct?
+H|#42|A eukaryotic gene consists of two exons separated by one intron, and that intron contains a stop codon in the reading frame. The DNA of the gene, intr
+M|#43|Which statement about RNA splicing is correct?
+M|#44|A codon table shows that CAG codes for glutamine and that UAG is a stop codon. In an mRNA molecule, the codon CAG is changed to UAG by a single base s
+H|#45|The beginning of an mRNA reads AUG CCU GGU UGA, where UGA is the fourth codon and is a stop signal. Given the code AUG = methionine, CCU = proline, GG
+H|#46|A codon table gives: GAA and GAG both code for glutamate, GUA codes for valine, and UAA is a stop codon. In the same gene in two different individuals
+H|#47|A researcher sets up a PCR containing the DNA template, Taq polymerase and all four dNTPs, but accidentally omits the primers. The thermal cycler stil
+H|#48|A PCR tube starts with exactly one double-stranded DNA molecule. The reaction runs three complete cycles, and in every cycle each single strand presen
+H|#49|A culture of actively dividing fibroblasts is exposed to UV radiation while all cells are in G1, producing numerous thymine dimers. The G1 checkpoint 
+M|#50|Which statement about the phases of the eukaryotic cell cycle is correct?
+H|#51|During an early mitotic division of a chromosomally normal human embryo (2n = 46), the two sister chromatids of chromosome 21 fail to separate in anap
+H|#52|Which of the following statements about meiosis I is false?
+M|#53|Crossing over, a major source of new allele combinations, occurs:
+H|#54|A plant species has a diploid number of 2n = 10. During anaphase II of meiosis, how many chromosomes move toward each pole, and what does each of them
+H|#55|In a primary spermatocyte with 2n = 12, a nondisjunction of one homologous pair occurs during meiosis I, and meiosis II then proceeds normally. How ma
+H|#56|A primary spermatocyte (2n = 24) completes meiosis I normally. During meiosis II, in one of the two secondary spermatocytes the sister chromatids of o
+H|#57|A male with 2n = 20 produces a sperm sample in which a single nondisjunction event occurred in one meiocyte. The four sperm from that meiocyte carry 1
+M|#58|Which statement about the origin of genetic variability in sexually reproducing organisms is correct?
+H|#59|In an animal species with 2n = 12, how many genetically different chromosome combinations can the gametes acquire through independent assortment alone
+M|#60|In humans the M and N blood-group alleles are codominant. A couple are both of type MN. Which phenotype ratio is expected among their children?
+M|#61|Which of the following statements about Mendelian crosses is false?
+H|#62|Two pea plants heterozygous for seed shape and for seed colour (AaBb × AaBb) are crossed, and the two genes assort independently. How many different g
+H|#63|In a cross AaBb × aaBb, with the two genes assorting independently, what is expected among the offspring?
+H|#64|In a population of 500 people at Hardy-Weinberg equilibrium, 20 people show an autosomal recessive condition (genotype aa). How many people are expect
+M|#65|A population is in Hardy-Weinberg equilibrium, and 9 percent of its members show a phenotype caused by a recessive allele. What is the frequency of th
+M|#66|Which statement about evolution and the history of evolutionary thought is correct?
+H|#67|Which option pairs every site with the epithelium that normally lines it?
+H|#68|Which of the following statements about epithelial tissue is false?
+M|#69|A light micrograph shows a single layer of tall cells, all resting on the same basement membrane. The nuclei lie at several different heights, giving 
+M|#70|Oxygen travels from the air inside an alveolus into the blood by crossing the alveolar wall and then the capillary wall. Which statement about these e
+H|#71|A toxin selectively destroys the brush border of the cells lining the proximal convoluted tubule, leaving the rest of the nephron intact. Which outcom
+M|#72|Which nephron segment is correctly matched to its lining epithelium and to the reason that epithelium suits it?
+H|#73|A student wrote the following notes on the surface specializations of epithelial cells. Which note is correct?
+H|#74|In a hereditary disorder the dynein arms of cilia are absent, so cilia cannot beat. Which consequence is expected?
+M|#75|A patient's mitral (bicuspid) valve no longer closes completely. What happens during ventricular systole?
+H|#76|The aortic semilunar valve of a patient becomes incompetent, so that it fails to close after ventricular systole. Which combination of effects during 
+M|#77|Which pairing of a heart valve with its position and its type is correct?
+H|#78|A drop of blood enters the heart through the superior vena cava. On its way to the aorta it must pass the following structures: pulmonary artery, pulm
+H|#79|A red blood cell leaves the right ventricle and is followed until it re-enters the heart. Which option gives the correct route, with the oxygenation s
+H|#80|Which statement about the human double circulation is correct?
+H|#81|At the start of a quiet inhalation the diaphragm contracts. Which chain of events follows?
+M|#82|A person blows out a candle forcefully. Which combination of events occurs during this forced exhalation?
+M|#83|Which statement about the pleural membranes is correct?
+H|#84|A stab wound lets air enter the left pleural cavity (pneumothorax). What immediate effect does this have on the left lung?
+H|#85|In human blood, which option gives the approximate shares of carbon dioxide transported as bicarbonate ions, bound to hemoglobin, and dissolved in pla
+H|#86|Oxygen and carbon dioxide are both carried with the help of hemoglobin. Which statement about their binding sites on hemoglobin is correct?
+M|#87|Approximately what percentage of the oxygen transported in systemic arterial blood is carried bound to hemoglobin as oxyhemoglobin?
+H|#88|A patient has a severely reduced hemoglobin concentration, yet the partial pressure of oxygen in her arterial blood is normal. Which statement explain
+M|#89|Emphysema progressively destroys the walls between the pulmonary alveoli. Which direct consequence for gas exchange follows?
+M|#90|Which pairing of a condition with the structure primarily affected is incorrect?
+H|#91|Fatty plaques narrow a patient's coronary arteries. Why is the heart muscle endangered especially during physical exertion?
+H|#92|In the small intestine, the enzyme enterokinase converts pancreatic trypsinogen into active trypsin, and trypsin then activates the other pancreatic p
+M|#93|Which statement about bile in human digestion is correct?
+H|#94|A drug almost completely abolishes hydrochloric acid secretion by the stomach. Which outcome follows most directly?
+M|#95|Rennin (chymosin), secreted by the gastric mucosa of young mammals, turns liquid milk into a solid curd so that it stays longer in the stomach. The su
+H|#96|Which of the following statements about human digestion is false?
+H|#97|A treatment destroys most of a patient's thyroid gland, including both the follicular cells and the parafollicular (C) cells, while the four parathyro
+M|#98|Blood tests show that a person's plasma calcium concentration is abnormally high. Which endocrine response is expected?
+H|#99|In untreated type 1 diabetes, insulin secretion is nearly absent and blood glucose rises far above the normal renal threshold. Why does glucose appear
+M|#100|During a long fast, glucagon helps to keep the blood glucose level stable. Which statement about this hormone is correct?
+H|#101|A drug blocks the active pumping of sodium ions out of the ascending limb of the loop of Henle. Which outcome follows?
+M|#102|A drug enters the fluid of the kidney tubule by two routes: filtration at the glomerulus, and active transport from the peritubular blood into the tub
+H|#103|A healthy person quickly drinks one litre of pure water and plasma osmolarity falls slightly. Which sequence of events follows?
+M|#104|Which statement about the cells of bone tissue is correct?
+H|#105|A toxin blocks the voltage-gated potassium channels of a neuron but leaves all other channels and the sodium-potassium pump intact. Which outcome foll
+H|#106|A poison blocks the voltage-gated calcium channels in the presynaptic terminal of a chemical synapse, while impulse conduction along the axon itself i
+H|#107|A disease progressively destroys the myelin sheath of peripheral motor axons. Which chain of consequences follows for a signal travelling toward the m
+H|#108|A patient is given a drug that mimics acetylcholine at the receptors of the parasympathetic division of the autonomic nervous system. Which set of eff
+H|#109|A person walks from bright sunshine into a dim cinema, sees almost nothing at first and regains useful vision over several minutes. Which explanation 
+M|#110|Which statement about the organisation of the human nervous system is correct?
+M|#111|A lumbar puncture is performed to sample the fluid that cushions the brain and spinal cord. The needle passes through the dura mater and then through 
+H|#112|In an animal experiment both vagus nerves are cut, and the animal is observed after recovery from the surgery. Which set of consequences is expected?
+H|#113|Phosphofructokinase-1 (PFK-1) catalyses the committed step of glycolysis. Which of the following statements about its control is false?
+M|#114|During a sprint, the ATP concentration inside a fast muscle fibre falls and its AMP concentration rises. What is the most likely immediate effect on g
+M|#115|In the aerobic respiration of one glucose molecule, what do the two link reactions (oxidative decarboxylation of pyruvate) together yield, and where d
+H|#116|A toxin irreversibly inhibits the pyruvate dehydrogenase complex in cells that are supplied only with glucose. Which outcome follows?
+M|#117|What are the products of one complete turn of the citric acid cycle?
+H|#118|Acetyl-CoA labelled with ¹⁴C on its methyl (CH₃) carbon enters the citric acid cycle. When is the label first released as ¹⁴CO₂?
+H|#119|Which of the following statements about the citric acid cycle is false?
+H|#120|Which of the following statements about the mitochondrial electron transport chain is false?
+H|#121|Rotenone specifically blocks electron transfer at complex I of the respiratory chain. A respiring cell is then supplied with succinate as its main oxi
+H|#122|Cyanide binds the Fe³⁺ of cytochrome a₃ in complex IV and halts electron transfer to oxygen. In a mitochondrion poisoned in this way, what happens?
+H|#123|A molecule that makes the inner mitochondrial membrane leaky to protons is added to actively respiring mitochondria. Which outcome is expected?
+H|#124|Per molecule delivered to the respiratory chain, FADH₂ yields roughly two ATP, whereas NADH yields roughly two to three times as many. What is the mai
+M|#125|Which of the following statements about the roles of NAD⁺, FAD and ATP in metabolism is correct?
+H|#126|Which of the following statements about alcoholic fermentation in yeast is correct?
+M|#127|A muscle fibre metabolises glucose entirely by glycolysis followed by lactic acid fermentation. What is the net ATP yield per glucose, and why does fe
+H|#128|During skeletal muscle contraction, what is the role of ATP at the moment a myosin head detaches from actin?
+M|#129|Dystrophin is absent or non-functional in Duchenne muscular dystrophy. What is its normal role in a skeletal muscle fibre?
+M|#130|A muscle biopsy from an athlete shows fibres rich in mitochondria and myoglobin, with few glycogen granules and strong resistance to fatigue. Which fi
+#### bank_chem_hard.json
+M|#1|D-glucose and D-galactose are both aldohexoses with the same bonding order; their Fischer projections differ only at carbon 4, where the OH points rig
+H|#2|A synthesis produces a molecule with the same bonding order as (2R,3S,4R)-hexane-2,3,4-triol but with configurations (2S,3R,4S) at its three chiral ce
+M|#3|In water, D-glucose cyclises and exists as two forms that differ only at carbon 1: in the alpha form the new OH points down from the ring, in the beta
+H|#4|Butane-2,3-diol exists in stereoisomeric forms: one has the configuration (2R,3R) and another has (2R,3S). Which term most precisely classifies these 
+H|#5|Compound X is CH₃OCH₂CH₃ (methoxyethane) and compound Y is CH₃CH₂CH₂OH (propan-1-ol); both have molecular formula C₃H₈O. Which statement is correct?
+M|#6|D-glucose is an aldohexose with an aldehyde group at C-1, while D-fructose is a ketohexose with a ketone group at C-2. Both have molecular formula C₆H
+M|#7|The structure CH₃CH₂CONH₂ is named:
+H|#8|Oil of wintergreen (methyl 2-hydroxybenzoate) consists of a benzene ring bearing an OH group attached directly to the ring, plus a COOCH₃ group joined
+M|#9|The structure CH₃CH₂OCH₂CH₃ is named:
+H|#10|Which of the following compounds is a ketone and contains exactly four carbon atoms?
+H|#11|An aldohexose is drawn as a Fischer projection with the aldehyde at the top as C-1. The OH groups at C-2, C-3 and C-4 point right, right and left resp
+H|#12|Maltose and cellobiose are both disaccharides of two glucose units with molecular formula C₁₂H₂₂O₁₁. Maltose joins its units with an alpha-1,4 glycosi
+H|#13|In sucrose, the glycosidic bond links the anomeric carbon C-1 of glucose to the anomeric carbon C-2 of fructose. In maltose, the glycosidic bond uses 
+M|#14|How many molecules are present in 4.4 g of propane, C₃H₈? (H = 1, C = 12; Avogadro constant = 6.02 × 10²³ mol⁻¹)
+H|#15|How many hydrogen atoms are present in 0.25 mol of water, H₂O? (Avogadro constant = 6.02 × 10²³ mol⁻¹)
+H|#16|What mass of ammonia, NH₃, contains the same number of molecules as 4.4 g of carbon dioxide, CO₂? (C = 12, O = 16, N = 14, H = 1)
+M|#17|What volume does 8.8 g of carbon dioxide, CO₂, occupy at STP? (C = 12, O = 16; molar volume at STP = 22.4 dm³/mol)
+H|#18|How many molecules are present in 560 cm³ of an ideal gas at STP? (1 dm³ = 1000 cm³; molar volume at STP = 22.4 dm³/mol; Avogadro constant = 6.02 × 10
+M|#19|What is the mass of 4.48 dm³ of oxygen gas, O₂, measured at STP? (O = 16; molar volume at STP = 22.4 dm³/mol)
+H|#20|10.0 g of calcium carbonate (M = 100 g/mol) is treated with 100 cm³ of 1.0 mol/dm³ hydrochloric acid: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. What volume of
+M|#21|In theory, 9.2 g of ethanol (M = 46 g/mol) dehydrates completely to ethene (M = 28 g/mol): C₂H₅OH → C₂H₄ + H₂O. The actual mass of ethene collected is
+M|#22|A diver exhales an air bubble of volume 2.0 dm³ at a depth where the pressure is 200 kPa. The temperature stays constant as the bubble rises to the su
+H|#23|A rigid sealed canister holds a fixed amount of gas at 27 °C and 100 kPa. It is heated until the gas reaches 327 °C. What is the new pressure inside t
+H|#24|A gas occupies 9.0 dm³ at 27 °C and 100 kPa. What volume does it occupy at 127 °C and 200 kPa?
+H|#25|A sealed vessel contains 0.20 mol of nitrogen gas and 0.30 mol of oxygen gas at constant temperature, and the total pressure is 150 kPa. What is the p
+H|#26|100 cm³ of 0.80 mol/dm³ hydrochloric acid is mixed with 400 cm³ of 0.20 mol/dm³ hydrochloric acid. Assuming the volumes are additive, what is the conc
+H|#27|What volume of water must be added to 25 cm³ of a 2.0 mol/dm³ solution to dilute it to 0.10 mol/dm³?
+M|#28|What is the pH of a 2.0 × 10⁻⁴ mol/dm³ solution of hydrochloric acid, a strong acid that is fully ionised in water?
+M|#29|What is the pOH of a 5.0 × 10⁻² mol/dm³ solution of nitric acid, a strong acid that is fully ionised in water? (Kw = 1.0 × 10⁻¹⁴ at 25 °C)
+H|#30|Strontium hydroxide, Sr(OH)₂, is a strong base that is fully dissociated in water. What is the pH of a 5.0 × 10⁻⁴ mol/dm³ solution of Sr(OH)₂? (Kw = 1
+H|#31|Four solutions are prepared at 25 °C (Kw = 1.0 × 10⁻¹⁴) from fully ionised solutes: P is 1.0 × 10⁻³ mol/dm³ HCl, Q is 5.0 × 10⁻³ mol/dm³ HCl, R is 1.0
+H|#32|Pure water is heated from 25 °C to 60 °C. As the temperature rises, Kw increases, and the pH of pure water at 60 °C is measured to be 6.5. Which of th
+H|#33|Pure water is cooled from 25 °C to 10 °C, Kw decreases, and the pH of the cooled pure water is 7.27. Which of the following statements is correct?
+H|#34|10 cm³ of 0.10 mol/dm³ hydrochloric acid, fully ionised, is diluted with water to a final volume of 1.0 dm³. By how much does the pH of the solution c
+M|#35|What volume of water must be added to 20 cm³ of 1.0 × 10⁻² mol/dm³ hydrochloric acid, fully ionised, to obtain a solution of pH 4.0 at 25 °C?
+M|#36|Which of the following mixtures, made up with pure water as solvent, can act as a buffer solution?
+H|#37|A buffer solution contains comparable amounts of ethanoic acid and sodium ethanoate and has pH 4.8. An equal volume of pure water is added to it. Whic
+H|#38|Which of the following statements about the behaviour of salts dissolved in water is correct?
+M|#39|A drip bag holds 500 cm³ of glucose solution containing 9.0 g of glucose (M = 180 g/mol); the label reads 1.8 % w/v, meaning 1.8 g of glucose per 100 
+H|#40|At 25 °C the solubility of calcium hydroxide in water is 1.85 g per dm³ of saturated solution, and the dissolved salt is fully dissociated. (M(Ca(OH)₂
+M|#41|What is the oxidation number of the carbon atom in methanal, HCHO?
+H|#42|In the thiosulfate ion, S₂O₃²⁻, the structure has a central sulfur atom bonded to three oxygen atoms and to one terminal sulfur atom, as if one oxygen
+M|#43|Which of the following statements about oxidation numbers in oxoanions is correct?
+H|#44|Ethanol, CH₃CH₂OH, is oxidised to ethanal, CH₃CHO. Which of the following statements is correct?
+M|#45|In aqueous solution, 2FeCl₃ + SnCl₂ → 2FeCl₂ + SnCl₄. Which species acts as the oxidising agent?
+H|#46|In the laboratory preparation of chlorine, MnO₂ reacts with concentrated hydrochloric acid: MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O. Which of the following s
+H|#47|Chlorine gas is bubbled into cold dilute sodium hydroxide: Cl₂ + 2NaOH → NaCl + NaClO + H₂O. Which of the following statements is correct?
+H|#48|Sulfite ions, SO₃²⁻, are oxidised to sulfate ions, SO₄²⁻, in acidic solution. When this change is written as a balanced half-equation, how many electr
+H|#49|In acidic solution, manganate(VII) ions, MnO₄⁻, oxidise iron(II) ions, Fe²⁺, to Fe³⁺, the manganese ending as Mn²⁺. In the balanced ionic equation, ho
+H|#50|Butane (C₄H₁₀, Mr 58), propanone (C₃H₆O, Mr 58) and propan-1-ol (C₃H₈O, Mr 60) boil at approximately 0 °C, 56 °C and 97 °C, in some order. Which assig
+H|#51|Butan-1-ol, butan-2-ol and 2-methylpropan-2-ol are isomers that all contain an O-H group. Their boiling points are approximately 118 °C, 100 °C and 82
+M|#52|Hydrogen fluoride (Mr 20) boils at approximately 20 °C, while hydrogen chloride (Mr 36.5) boils at approximately -85 °C. Which statement explains this
+H|#53|Which of the following statements is correct?
+H|#54|Carbon tetrachloride, CCl₄, chloroform, CHCl₃, and dichloromethane, CH₂Cl₂, are all tetrahedral molecules. Which statement about their polarity is cor
+M|#55|Carbon dioxide and sulfur dioxide both contain polar bonds to oxygen, yet CO₂ is non-polar and SO₂ is polar. Why?
+H|#56|Four unknown substances were tested, with these results. P: melting point 801 °C, conducts electricity only when molten or dissolved in water. Q: melt
+M|#57|Sodium chloride melts at 801 °C while iodine melts at 114 °C, although iodine has the larger molar mass. Which statement explains the comparison?
+H|#58|Use these average bond energies: H-H 436 kJ/mol, Cl-Cl 242 kJ/mol, H-Cl 431 kJ/mol. For the reaction H₂ + Cl₂ → 2HCl, the enthalpy change is approxima
+M|#59|The thermal decomposition of calcium carbonate, CaCO₃ → CaO + CO₂, has ΔH = +178 kJ/mol. Which statement is correct?
+H|#60|For reactions in dilute solution at a fixed temperature, the units of reaction rate are always mol/(dm³·s). Which statement about rate constants is co
+H|#61|A drug is removed from the bloodstream by first-order kinetics with a half-life of 4 hours. Starting from an initial dose D, the amount still present 
+H|#62|For the reaction A + B → products, kept at constant temperature: doubling [A] while holding [B] constant doubles the rate, and doubling [B] while hold
+H|#63|The Haber process, N₂(g) + 3H₂(g) ⇌ 2NH₃(g) with ΔH = −92 kJ/mol, uses an iron catalyst. Which statement is correct?
+M|#64|Manganese(IV) oxide speeds up the decomposition of hydrogen peroxide, 2H₂O₂ → 2H₂O + O₂, and the black powder can be recovered unchanged at the end. T
+M|#65|A reaction mixture is heated from 25 °C to 55 °C and the rate rises sharply. According to collision theory, the main reason is that:
+#### bank_mpl_hard.json
+H|#1|Given that log₁₀ 2 ≈ 0.30 and log₁₀ 3 ≈ 0.48, what is the value of log₁₀ 7.5?
+H|#2|Solve the equation log₃(x + 1) + log₃(x − 1) = 1.
+M|#3|What is the value of log₉ 27?
+H|#4|What is the solution of log₂ x + log₄ x = 6?
+H|#5|Which interval is the solution set of (x − 1)(x + 2)(x − 4) > 0?
+H|#6|What is the solution set of the inequality (x − 3)/(x + 2) ≤ 0?
+M|#7|What is the solution set of |2x − 5| < 7?
+M|#8|What is the solution set of the inequality x² < x?
+H|#9|Which expression is equal to √(7 + 4√3)?
+M|#10|What is the value of 27^(2/3) + 16^(3/4)?
+H|#11|If 2^a = 3 and 2^b = 5, which of the following is equal to 60?
+H|#12|For a school show, adult tickets cost 12 euro and child tickets cost 7 euro. In total 180 tickets were sold, and the takings were 1730 euro. How many 
+M|#13|The sum of two numbers is 45 and their difference is 13. What is the larger number?
+H|#14|A laboratory technician mixes a 20% saline solution with a 50% saline solution to obtain 6 dm³ of a 30% saline solution. What volume of the 50% soluti
+M|#15|The function f is defined by f(x) = (x + 1)/(x − 1) for x ≠ 1. What is f(f(3))?
+H|#16|The function f is defined by f(x) = (2x + 1)/(x − 3) for x ≠ 3. Which of the following is the inverse function f⁻¹(x)?
+M|#17|A solid wooden block has the shape of a right circular cylinder of radius 6 cm and height 9 cm. A conical hole with the same base radius and the same 
+H|#18|A circle of radius 5 cm is inscribed in a square. Taking π = 3.14, what is the area of the part of the square that lies outside the circle?
+H|#19|An equilateral triangle has sides of length 12 cm. What is its area?
+M|#20|A closed cylindrical tin has radius 3 cm and height 8 cm. What is its total surface area, ends included?
+H|#21|What is the angle between the hour hand and the minute hand of a clock at 3:40? (The hour hand turns at 0.5° per minute, the minute hand at 6° per min
+H|#22|Between 7:00 and 8:00 the hands of a clock are exactly 100 degrees apart at 7:20. At what later time in that hour are they exactly 100 degrees apart a
+M|#23|What is the value of tan 30° × tan 60°?
+H|#24|For an angle θ, what is the value of (sin θ + cos θ)² − 2 sin θ cos θ?
+H|#25|What is the value of (sin 45° − cos 45°)² + 2 sin 30° cos 60°?
+M|#26|A straight line passes through the points (2, 5) and (6, 17). What is its slope?
+H|#27|A cyclist rides along a straight road at a constant speed. Her distance from the start is recorded as 1.8 km after 6 minutes and 3.0 km after 10 minut
+H|#28|Water is pumped into a tank that already contains 40 L. The volume reaches 90 L after 5 minutes and 160 L after 15 minutes. What is the average rate o
+H|#29|Two fair six-sided dice are rolled once. What is the probability that the sum of the two scores is at least 9?
+M|#30|Two fair six-sided dice are rolled. What is the probability that at least one of them shows a six?
+M|#31|Two fair six-sided dice are rolled. What is the probability that the two scores are a 2 and a 5, in either order?
+H|#32|Two fair six-sided dice are rolled. What is the probability that the sum is 7 or at least one die shows a six?
+H|#33|A fair coin is flipped four times. What is the probability that at least one of the flips shows heads?
+H|#34|A bag contains 4 red balls and 6 blue balls. Two balls are drawn at random without replacement. What is the probability that at least one of them is r
+H|#35|The probability that a candidate passes a maths test is 2/3, and the probability that she passes an independent logic test is 3/4. What is the probabi
+M|#36|A fair coin is tossed and a fair six-sided die is rolled. What is the probability of obtaining tails and a score greater than 4?
+H|#37|A high-speed train covers 270 km in 3.0 h at a constant speed. Expressed in m/s, its speed is:
+H|#38|A swimming pool is 5.0 m long, 2.0 m wide and 1.2 m deep. What volume of water does it hold, expressed in litres?
+M|#39|A water tank is 2/3 full. A valve then drains 1/4 of the tank's total capacity. What fraction of the tank is still full?
+M|#40|What is the value of 1/2 + 1/3 − 1/6?
+H|#41|The velocity of a trolley moving along a straight track is recorded every 2 s: at 0 s it is 0 m/s, at 2 s it is 6 m/s, at 4 s it is 10 m/s, at 6 s it 
+H|#42|In a race, a sprinter increases her speed steadily from 0 to 8.0 m/s during the first 4.0 s and then keeps running at a constant 8.0 m/s for the next 
+H|#43|On a straight air track, a glider passes sensor P moving at 2.0 m/s and sensor Q moving at 4.0 m/s. The sensors are 6.0 m apart and the glider takes 2
+M|#44|Which of the following statements about motion graphs is correct?
+M|#45|Which statement correctly distinguishes the tangential and the centripetal components of acceleration for an object moving in a circle?
+H|#46|A cyclist rides around a circular track of radius 20 m at a constant speed of 10 m/s. Which statement about her acceleration is correct?
+H|#47|A car is driven around a circular test track while the driver steadily presses the accelerator, so the car is speeding up. At such an instant, which s
+H|#48|A car travels at 72 km/h along a straight road when the driver sees a hazard. Her reaction time is 1.0 s, after which the brakes produce a constant de
+M|#49|A train travelling at 30 m/s applies its brakes and comes to rest after covering 150 m at constant deceleration. What is the magnitude of the decelera
+M|#50|A crate of mass 4.0 kg is pulled along a horizontal floor by a horizontal force of 24 N. A frictional force of 8.0 N opposes the motion. What is the a
+H|#51|A block of mass 2.0 kg slides down a frictionless slope inclined at 30° to the horizontal. What is its acceleration along the slope? (g = 10 m/s2, sin
+H|#52|A crane lifts a 50 kg load by applying a vertical upward force of 550 N. What is the upward acceleration of the load? (g = 10 m/s2.)
+M|#53|An astronaut of mass 60 kg floats at rest in space and throws a tool of mass 2.0 kg so that it moves away from her at 6.0 m/s. What is the velocity of
+H|#54|A ball of mass 0.50 kg strikes a wall horizontally at 12 m/s and rebounds along its original line at 8.0 m/s. The contact with the wall lasts 0.020 s.
+M|#55|A motor lifts a 60 kg load at constant speed through a height of 10 m in 20 s. What is the useful output power of the motor? (g = 10 m/s2.)
+H|#56|A car moves at a constant 20 m/s along a horizontal road. The total resistive force on it is 600 N. What power must the engine deliver to maintain thi
+H|#57|A diver works at a depth of 15 m in a fresh-water lake. The density of water is 1000 kg/m3, g = 10 m/s2, and the atmospheric pressure at the surface i
+H|#58|An open-tube manometer contains mercury of density 13600 kg/m3. The mercury level in the arm open to the atmosphere stands 100 mm above the level in t
+H|#59|A tank contains 0.80 m of oil of density 800 kg/m3 floating on 1.2 m of water of density 1000 kg/m3. Taking g = 10 m/s2 and ignoring atmospheric press
+H|#60|Three blocks are placed in oil of density 800 kg/m3. Block P floats with exactly half its volume submerged, block Q floats with one quarter of its vol
+M|#61|Two blocks float in water of density 1000 kg/m3: block X of density 500 kg/m3 and block Y of density 750 kg/m3. Let fX be the fraction of the volume o
+M|#62|How much heat must be supplied to 2.0 kg of water to raise its temperature from 20 °C to 70 °C? (c of water = 4200 J/(kg K); ignore heat losses.)
+H|#63|A 0.40 kg block of aluminium at 100 °C is dropped into 0.60 kg of water at 20 °C in an insulated container. (c of aluminium = 900 J/(kg K), c of water
+H|#64|In an insulated cup, 0.50 kg of water at 12 °C is mixed with hot water at 82 °C, and the mixture settles at 32 °C. (c of water = 4200 J/(kg K); ignore
+M|#65|An electric heater consumes 2.5 kWh of energy. (1 kWh = 3.6 MJ.) This energy, expressed in megajoules, is:
+M|#66|A heating element connected across a 12 V supply carries a current of 2.0 A. How much energy does it convert to heat in 5.0 minutes?
+H|#67|Two identical 6.0 Ω resistors are connected, first in series and then in parallel, across a 12 V battery of negligible internal resistance. Which one 
+M|#68|A 6.0 Ω resistor is connected in parallel with a 3.0 Ω resistor, and this pair is connected in series with a 5.0 Ω resistor across a supply. What is t
+H|#69|A 12 V battery of negligible internal resistance drives a 2.0 Ω resistor in series with a parallel pair made of a 6.0 Ω resistor and a 3.0 Ω resistor.
+H|#70|A 6.0 Ω resistor draws 2.0 A from a battery of negligible internal resistance. When a second resistor is connected in parallel with it, the current dr
+H|#71|A 4.0 Ω resistor and a 12 Ω resistor are connected in series across a 6.0 V battery of negligible internal resistance. A wire of negligible resistance
+M|#72|Intensity measures how fast a wave delivers energy to a surface, per unit area of that surface. The SI unit in which intensity is expressed is:
+H|#73|A small lamp is treated as a point source radiating uniformly in all directions. At 2.0 m from the lamp the intensity of its radiation is 36 W/m2. Wha
+M|#74|In a heated room, a radiator warms the air beside it. This air rises, cooler air replaces it, and the resulting circulating flow carries thermal energ
+H|#75|A vacuum flask keeps a drink hot. It has double walls with silvered surfaces and a vacuum between them, closed at the top by a stopper. Which statemen
+H|#76|In a library, every manuscript in the special archive is catalogued. Some of the archive's manuscripts are illustrated, and no illustrated item in the
+H|#77|At a tennis club, only members with a current season pass may book the courts, and all club rules are followed. Nadia booked a court this week. Some m
+H|#78|Every swimmer who won a medal this season trains at the Riverside pool, and nobody who trains at the Riverside pool pays a joining fee. Which of the f
+H|#79|Some players in the squad are left-footed. No left-footed player takes the corner kicks, and every player in the squad is a professional. Which of the
+M|#80|Every baker at the Saturday market arrives before dawn, and some bakers at the market sell rye bread. Which of the following must be true?
+M|#81|Every member of the rowing club can swim, and no member of the rowing club is under sixteen. Tara is a member of the rowing club. Which of the followi
+H|#82|About a postponed football match, Ria says: 'The match was postponed because of rain.' Tom says: 'The match was postponed because of rain, and Ria is 
+H|#83|Three pupils, Amara, Ben and Cara, are asked about a missing lab key. Each of them either always tells the truth or always lies. Amara says: 'Ben is l
+M|#84|Three teachers are questioned about a borrowed stopwatch. Exactly one of them is lying and the other two are telling the truth. Priya says: 'I did not
+H|#85|After a match, the scoreboard was found broken. Exactly one of the three candidates for team captain always tells the truth and the other two always l
+H|#86|At a lost property office, exactly one of Pia's two statements is true and exactly one of Sam's two statements is true. The clerk confirms the blue ba
+M|#87|A notice at the swimming pool reads: 'If the pool is at capacity, new swimmers are turned away.' Which of the following is logically equivalent to the
+M|#88|The coach tells the squad: 'If a player attends every training session this month, she will be selected for the final.' Which of the following is logi
+M|#89|Under the library's loan rule, a book may be borrowed for a full term only if it is on the reserve list. Which of the following must also be true if t
+H|#90|A ferry company's policy states that if a sailing is delayed, meal vouchers are issued, and that if meal vouchers are issued, the terminal canteen sta
+M|#91|A security manual states: 'The side gate stays locked if and only if the alarm is armed.' Which of the following is logically equivalent to this state
+H|#92|A council reports that streets repaved with a new porous surface drain rainwater quickly and form far fewer puddles, and concludes that repaving will 
+H|#93|At a gym, members on the flexible plan attend twice as often as members on the standard plan and report larger fitness gains. The manager concludes th
+H|#94|A ferry operator installed automatic ticket scanners on two of its six routes. Boarding time on those two routes fell by a third within two months and
+M|#95|Last year a sports centre cut its evening swim sessions from five per week to three. Over the year, total attendance at evening swims stayed almost un
+#### imat_mock9.json
+H|#1|"Researchers followed two groups of office workers for a year. Group A worked in a building where filtered air was fully exchanged every 20 minutes; G
+M|#2|"Last year a city began charging drivers to enter its central zone. Within six months, car traffic in the zone had fallen by a quarter and buses ran m
+H|#3|Every student who passed the practical examination attended all of the laboratory sessions. Some of the students who attended all of the laboratory se
+H|#4|Exactly one of four office workers jammed the shared printer, and exactly one of the four statements they made about the incident is true. Dana said: 
+M|#5|A town installed automatic speed cameras along its main road. During the following year, accidents on that road fell by 30 per cent, and the council c
+M|#6|A safety rule states: whenever the fire alarm sounds, all staff evacuate the building.  Which one of the following statements is logically equivalent 
+H|#7|Six friends stand in a row for a photograph, in positions numbered 1 to 6 from left to right. Jana stands in position 1. Femi stands somewhere to the 
+H|#8|The four lectures Anthropology, Botany, Chemistry and Demography are scheduled one per hour at 9:00, 11:00, 13:00 and 15:00. Chemistry is scheduled ea
+H|#9|Five entries, P, Q, R, S and T, are ranked from 1st (best) to 5th in a short-story competition. T is ranked third. S is ranked better than R. R is ran
+H|#10|A protein's folded shape is held partly by ionic bonds (salt bridges) between the side chain of a lysine residue and the side chain of an aspartate re
+H|#11|A patient takes a drug that keeps the pH of the stomach contents close to 7 instead of the usual strongly acidic value, but leaves the small intestine
+M|#12|Glucose units released from glycogen inside a muscle cell enter glycolysis as glucose 6-phosphate, so the hexokinase step, which consumes 1 ATP, is by
+H|#13|In the epithelial cells lining the small intestine, glucose is absorbed from the lumen by a transporter that carries glucose together with sodium ions
+M|#14|A plant leaf cell is placed in a solution whose concentration of non-penetrating solutes is much higher than that of the cell sap. Which outcome is ex
+M|#15|A drug stops the transcription of ribosomal RNA in the nucleolus of a eukaryotic cell, while the transcription of protein-coding genes and the rest of
+H|#16|In a eukaryotic gene, a single base substitution occurs well upstream of the coding sequence, within the promoter region where RNA polymerase binds, a
+H|#17|During meiosis I in a human oocyte, one pair of homologous chromosomes fails to separate (nondisjunction). Meiosis II then proceeds normally, and the 
+M|#18|Two guinea pigs, both heterozygous for coat colour (Bb) and for hair length (Ll), are crossed. The two genes assort independently. What is the probabi
+M|#19|In a population in Hardy-Weinberg equilibrium, one child in 2,500 is born with a recessive genetic disease. Assuming random mating and a large populat
+M|#20|Colchicine prevents the assembly of spindle microtubules. A cell that has completed DNA replication is exposed to colchicine as it enters mitosis. At 
+H|#21|A toxin blocks the proton channel of mitochondrial ATP synthase, so protons can no longer flow back into the matrix, while the electron transport chai
+H|#22|After death, calcium ions leak out of the sarcoplasmic reticulum and are never pumped back, and ATP production has stopped. Cross-bridges form between
+H|#23|The aortic semilunar valve of a patient is narrowed (stenosed), so the opening through which blood leaves the left ventricle is reduced. Which chain o
+H|#24|In a healthy chest, the pressure in the pleural cavity between the lung and the chest wall is lower than atmospheric, which keeps the lung expanded ag
+H|#25|Carbon monoxide binds to haemoglobin at the same sites as oxygen, with an affinity more than 200 times greater, and it is released only slowly. A fire
+H|#26|A glucose molecule is absorbed from the lumen of the small intestine into a capillary of an intestinal villus. Which of the following gives the correc
+H|#27|A person takes tablets containing thyroxine (T4) every day in fairly high doses, without medical supervision. The normal feedback control of the thyro
+M|#28|A hill walker walks for hours in extreme heat, loses a large volume of sweat and drinks almost nothing. Plasma volume falls and the plasma becomes mor
+H|#29|A person with type 1 diabetes injects insulin but then skips the next meal and takes vigorous exercise, and the blood glucose level begins to fall bel
+M|#30|The oesophagus is lined by stratified squamous epithelium many cells thick, while the small intestine is lined by a single layer of columnar cells. Wh
+M|#31|A patient tears the meniscus, a pad of cartilage in the knee, and is told that it heals much more slowly than a similar tear in the skin. Which featur
+H|#32|A large beetle population has an allele frequency of 0.4 for allele A at one locus. A flood leaves only ten survivors: six AA, three Aa and one aa, an
+H|#33|Consider three pairs of organic compounds. Pair P: butan-1-ol and butan-2-ol. Pair Q: (2R)-butan-2-ol and (2S)-butan-2-ol. Pair R: cis-pent-2-ene and 
+H|#34|4.8 g of methane (M = 16 g/mol) is mixed with 4.8 g of oxygen gas (M = 32 g/mol) and ignited, and the reaction CH₄ + 2O₂ → CO₂ + 2H₂O proceeds until o
+H|#35|0.40 g of sodium hydroxide (M = 40 g/mol), a strong base that is fully dissociated in water, is dissolved and made up to exactly 1.0 dm3 of solution a
+H|#36|At 25 °C the ionic product of water is Kw = 1.0 × 10^-14, but at a higher temperature Kw is larger: in one such case Kw = 1.0 × 10^-13. What is the pH
+M|#37|The pH of a solution of hydrochloric acid, a strong acid that is fully ionised, is 4.0 at 25 °C. 90 cm3 of water is added to 10 cm3 of this solution. 
+H|#38|Four pure molecular liquids with similar molar masses are: propane CH₃CH₂CH₃ (Mr 44), propanone CH₃COCH₃ (Mr 58), ethanol C₂H₅OH (Mr 46) and ethanoic 
+M|#39|For the reaction A + 2B → products, experiments at fixed temperature show that the rate is proportional to the concentration of A and to the square of
+H|#40|What is the average oxidation number of a sulfur atom in the tetrathionate ion, S₄O₆^2-, if the four sulfur atoms are treated as equivalent?
+M|#41|In which species does nitrogen have the same oxidation number as sulfur has in the sulfite ion, SO₃^2-?
+H|#42|A substance decomposes by first-order kinetics with a half-life of 20 minutes at 25 °C. A sealed 2.0 dm3 vessel initially contains 0.80 mol of the sub
+H|#43|Sample X contains 4.4 g of carbon dioxide, CO₂, and sample Y contains 4.9 g of sulfuric acid, H₂SO₄ (M = 98 g/mol). (C = 12, O = 16; Avogadro constant
+H|#44|50 cm3 of 0.20 mol/dm3 hydrochloric acid, fully ionised, is mixed with 150 cm3 of 0.10 mol/dm3 sodium hydroxide, fully dissociated. What is the pH of 
+H|#45|1.08 g of aluminium (M = 27 g/mol) is added to 100 cm3 of 0.10 mol/dm3 sulfuric acid and reacts completely as far as possible: 2Al + 3H₂SO₄ → Al₂(SO₄)
+M|#46|A student evaporates water from 500 cm3 of a 0.20 mol/dm3 sodium chloride solution until the volume is exactly 200 cm3, with no loss of solute. The co
+M|#47|Two solutions at 25 °C have pH values of 3.5 and 5.5. The hydrogen ion concentration of the solution with pH 3.5 is how many times that of the solutio
+H|#48|Given that log₁₀ 2 = 0.30 and log₁₀ 3 = 0.48, what is the value of log₁₀ 2.4?
+H|#49|For which values of k does the equation x^2 + kx + 9 = 0 have no real solutions?
+H|#50|A solid metal sphere of radius 3 cm is melted down and recast into a solid right circular cylinder of radius 2 cm. What is the height of the cylinder?
+H|#51|A bag contains 3 red balls and 5 blue balls. Two balls are drawn at random without replacement. What is the probability that the two balls are the sam
+H|#52|A toy train runs along a straight track away from its start point, and its distance from the start is recorded at one-minute intervals: 0 m at 0 min, 
+M|#53|What is the value of √50 + √18 - √8, written in the form a√2?
+M|#54|What is the angle between the hour hand and the minute hand of a clock at 9:36? (The hour hand turns 0.5 degrees per minute and the minute hand 6 degr
+H|#55|A trolley moves along a straight track and its velocity is recorded every 2.0 s: 0 m/s at 0 s, 10 m/s at 2.0 s, 14 m/s at 4.0 s, 14 m/s at 6.0 s and 6
+M|#56|A car travels around a circular bend of radius 50 m at a constant speed of 10 m/s. Which of the following statements is correct?
+H|#57|A battery of negligible internal resistance supplies 24 V to an 8.0 Ω resistor connected in series with a parallel combination of a 6.0 Ω resistor and
+H|#58|In an insulated container, 0.40 kg of water at 20 °C is mixed with 0.20 kg of water at 65 °C. Assuming no heat is exchanged with the surroundings, wha
+M|#59|A farm tank contains a liquid of density 800 kg/m3 filled to a depth of 3.0 m and open to the atmosphere (100 kPa). What is the gauge pressure exerted
+H|#60|An electric kettle rated at 2.0 kW takes 3.0 minutes to bring its water to the boil. How much electrical energy does the kettle transfer in that time?

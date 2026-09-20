@@ -1,0 +1,201 @@
+{
+ "bank": "bank_chem_hard",
+ "section": "A",
+ "questions": [
+  {
+   "stem": "D-glucose and D-galactose are both aldohexoses with the same bonding order; their Fischer projections differ only at carbon 4, where the OH points right in glucose and left in galactose. Which term most precisely classifies the pair?",
+   "options": [
+    "They are enantiomers, because the OH at C-4 is on opposite sides in the two sugars.",
+    "They are anomers, because any two aldohexoses that differ at a single carbon are anomers.",
+    "They are constitutional isomers, because in galactose the C-4 OH is bonded to a different carbon.",
+    "They are epimers, because they differ in configuration at exactly one chiral center, C-4.",
+    "They are identical compounds drawn as different Fischer projections."
+   ],
+   "ans": "D",
+   "exp": "Same formula, same connectivity and exactly one stereocenter changed (C-4) is the definition of epimers. They are not mirror images because C-2, C-3 and C-5 still match, and the OH is bonded to C-4 in both sugars, so no connectivity has changed.",
+   "topic": "Chemistry · epimers and stereoisomer classes",
+   "lik": "M",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry"
+  },
+  {
+   "stem": "A synthesis produces a molecule with the same bonding order as (2R,3S,4R)-hexane-2,3,4-triol but with configurations (2S,3R,4S) at its three chiral centers. Which term most precisely classifies the relationship between the two molecules?",
+   "options": [
+    "They are identical molecules, because they share the same molecular formula.",
+    "They are diastereomers, because some of the stereocenters are inverted.",
+    "They are constitutional isomers, because the OH groups occupy different positions.",
+    "They are epimers, because several chiral centers change at the same time.",
+    "They are enantiomers, because every chiral center is inverted, giving two non-superimposable mirror images."
+   ],
+   "ans": "E",
+   "exp": "Inverting all three stereocenters gives the mirror image of the original molecule, so the pair are enantiomers. Diastereomers must keep at least one center unchanged, and epimers differ at exactly one, so both fail here; the bonding order never changed.",
+   "topic": "Chemistry · enantiomers (full R/S inversion)",
+   "lik": "H",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry"
+  },
+  {
+   "stem": "In water, D-glucose cyclises and exists as two forms that differ only at carbon 1: in the alpha form the new OH points down from the ring, in the beta form it points up, while the configurations at carbons 2 to 5 are identical. Which term most precisely classifies the two forms?",
+   "options": [
+    "Conformational isomers, interconvertible by rotation about a single bond.",
+    "Anomers, because they differ in configuration at the anomeric carbon, C-1.",
+    "Enantiomers, because the anomeric carbon is the most important stereocenter.",
+    "Constitutional isomers, because the OH is attached to the ring in two different ways.",
+    "Identical compounds, because the two forms have the same molecular formula."
+   ],
+   "ans": "B",
+   "exp": "Two cyclic sugars differing only at the hemiacetal carbon C-1 are anomers by definition. A rotation about a bond cannot interconvert them, because switching alpha to beta requires breaking and reforming the bond at C-1, so they are configurational isomers.",
+   "topic": "Chemistry · anomers of glucose",
+   "lik": "M",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry"
+  },
+  {
+   "stem": "Butane-2,3-diol exists in stereoisomeric forms: one has the configuration (2R,3R) and another has (2R,3S). Which term most precisely classifies these two forms?",
+   "options": [
+    "They are diastereomers, because they are stereoisomers that are not mirror images of each other.",
+    "They are enantiomers, because one form contains an R descriptor and the other an S descriptor.",
+    "They are constitutional isomers, because an OH group has moved from C-2 to C-3.",
+    "They are identical, because rotation about the C-2 to C-3 bond superimposes them.",
+    "They are conformational isomers, because they interconvert by bond rotation at room temperature."
+   ],
+   "ans": "A",
+   "exp": "The mirror image of (2R,3R) is (2S,3S), not (2R,3S), so the two named forms are stereoisomers that are not mirror images: diastereomers. Sharing one unchanged R center is exactly what rules out the enantiomer option, and no bond rotation can change a configuration.",
+   "topic": "Chemistry · diastereomers from R/S pairs",
+   "lik": "H",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry"
+  },
+  {
+   "stem": "Compound X is CH₃OCH₂CH₃ (methoxyethane) and compound Y is CH₃CH₂CH₂OH (propan-1-ol); both have molecular formula C₃H₈O. Which statement is correct?",
+   "options": [
+    "They are the same compound drawn differently, since both have formula C₃H₈O.",
+    "They are enantiomers, because the alcohol is a chiral molecule.",
+    "They are constitutional isomers with different functional groups: an ether and an alcohol.",
+    "They are both ethers, because both contain a C-O single bond.",
+    "They are diastereomers, because their physical properties differ."
+   ],
+   "ans": "C",
+   "exp": "Identical formulas with different connectivity and different functional groups (C-O-C versus C-O-H) makes them functional-group isomers, a subtype of constitutional isomers. Propan-1-ol has no chiral center, since its C-2 carries two hydrogen atoms, so the enantiomer option fails.",
+   "topic": "Chemistry · functional group isomerism",
+   "lik": "H",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry"
+  },
+  {
+   "stem": "D-glucose is an aldohexose with an aldehyde group at C-1, while D-fructose is a ketohexose with a ketone group at C-2. Both have molecular formula C₆H₁₂O₆. Which term most precisely classifies the pair?",
+   "options": [
+    "Epimers, because they differ at one carbon atom.",
+    "Enantiomers, because both are hexoses with the same formula.",
+    "Anomers, because the carbonyl sits at C-2 in one sugar and C-1 in the other.",
+    "Constitutional isomers, because the same atoms are joined in a different order.",
+    "Stereoisomers, because only the position of the carbonyl differs."
+   ],
+   "ans": "D",
+   "exp": "Moving the carbonyl from C-1 to C-2 changes which atoms are bonded to which, so the two hexoses share a formula but not a bonding order: they are constitutional isomers. Epimers and anomers must keep identical connectivity, which these sugars do not.",
+   "topic": "Chemistry · aldose versus ketose isomerism",
+   "lik": "M",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry"
+  },
+  {
+   "stem": "The structure CH₃CH₂CONH₂ is named:",
+   "options": [
+    "Propanamine",
+    "Propanamide",
+    "Propanoic acid",
+    "Methyl ethanoate",
+    "Propanenitrile"
+   ],
+   "ans": "B",
+   "exp": "The CONH₂ group is an amide, and the three-carbon chain gives propanamide. Propanamine would be CH₃CH₂CH₂NH₂ with no carbonyl, and methyl ethanoate is the ester CH₃COOCH₃.",
+   "topic": "Chemistry · amide nomenclature",
+   "lik": "M",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry"
+  },
+  {
+   "stem": "Oil of wintergreen (methyl 2-hydroxybenzoate) consists of a benzene ring bearing an OH group attached directly to the ring, plus a COOCH₃ group joined through the carbonyl carbon. Which two functional groups does the molecule contain?",
+   "options": [
+    "An alcohol and a carboxylic acid",
+    "A carboxylic acid and an ester",
+    "A phenol and an ester",
+    "An ether and a ketone",
+    "A phenol and an amide"
+   ],
+   "ans": "C",
+   "exp": "An OH bonded directly to a benzene ring is a phenol, not an alcohol, and the COOCH₃ linkage is an ester. The parent carboxylic acid group was converted into the ester, so no free COOH remains.",
+   "topic": "Chemistry · functional group recognition (wintergreen)",
+   "lik": "H",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry"
+  },
+  {
+   "stem": "The structure CH₃CH₂OCH₂CH₃ is named:",
+   "options": [
+    "Ethoxyethane",
+    "Butan-1-ol",
+    "Butanal",
+    "Butan-2-one",
+    "Butanoic acid"
+   ],
+   "ans": "A",
+   "exp": "An oxygen atom bridging two ethyl groups is the ether ethoxyethane, also called diethyl ether. Butan-1-ol shares its molecular formula C₄H₁₀O but carries a terminal OH instead of the C-O-C linkage.",
+   "topic": "Chemistry · ether nomenclature",
+   "lik": "M",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry"
+  },
+  {
+   "stem": "Which of the following compounds is a ketone and contains exactly four carbon atoms?",
+   "options": [
+    "Butanal, CH₃CH₂CH₂CHO",
+    "Propanone, CH₃COCH₃",
+    "Butan-2-one, CH₃COCH₂CH₃",
+    "Butan-2-ol, CH₃CH(OH)CH₂CH₃",
+    "Butanoic acid, CH₃CH₂CH₂COOH"
+   ],
+   "ans": "C",
+   "exp": "Butan-2-one has its C=O on an internal carbon, which defines a ketone, and its chain holds four carbons. Butanal and butanoic acid satisfy the carbon count but are an aldehyde and a carboxylic acid, while propanone is a ketone with only three carbons.",
+   "topic": "Chemistry · ketone identification with constraints",
+   "lik": "M",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry"
+  },
+  {
+   "stem": "An aldohexose is drawn as a Fischer projection with the aldehyde at the top as C-1. The OH groups at C-2, C-3 and C-4 point right, right and left respectively, and the OH at C-5, the chiral center farthest from the aldehyde, points left. How is the sugar classified?",
+   "options": [
+    "It is a D-sugar, because two of its four OH groups point right.",
+    "It is a D-sugar, because D/L is fixed by the OH closest to the aldehyde group.",
+    "It is meso, because left- and right-pointing OH groups balance two against two.",
+    "It is a D-sugar, because the aldehyde group is drawn at the top of the projection.",
+    "It is an L-sugar, because the OH on the stereocenter farthest from the aldehyde points left."
+   ],
+   "ans": "E",
+   "exp": "The D/L descriptor is set solely by the stereocenter farthest from the carbonyl group, C-5 in an aldohexose: a left-pointing OH there places the sugar in the L series regardless of the other centers. Counting all OH directions, as the two-and-two options do, is the classic error, and meso describes internal mirror symmetry, not Fischer classification.",
+   "topic": "Chemistry · D and L assignment",
+   "lik": "H",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry"
+  },
+  {
+   "stem": "Maltose and cellobiose are both disaccharides of two glucose units with molecular formula C₁₂H₂₂O₁₁. Maltose joins its units with an alpha-1,4 glycosidic bond and cellobiose with a beta-1,4 bond. Human enzymes hydrolyse maltose efficiently but cannot digest cellobiose. Which statement explains this best?",
+   "options": [
+    "Human enzymes fit the alpha-1,4 geometry of maltose but not the beta-1,4 geometry of cellobiose, so cellobiose is not hydrolysed.",
+    "Cellobiose cannot be digested because its molecular formula differs from that of maltose.",
+    "Cellobiose is indigestible because beta glycosidic bonds are chemically stronger than alpha bonds and cannot be broken in water.",
+    "Maltose is digested because it is a reducing sugar, whereas cellobiose is non-reducing.",
+    "Cellobiose passes through the gut unchanged because no enzyme can release glucose from a beta bond."
+   ],
+   "ans": "A",
+   "exp": "The two disaccharides share their formula and atoms; only the three-dimensional geometry of the linkage differs, and enzyme specificity is stereochemical, so only the alpha geometry fits the human glucosidase. Human lactase in fact digests the beta bond of lactose, and cellobiose, with one free anomeric carbon, is itself a reducing sugar.",
+   "topic": "Chemistry · alpha versus beta glycosidic bonds",
+   "lik": "H",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry"
+  },
+  {
+   "stem": "In sucrose, the glycosidic bond links the anomeric carbon C-1 of glucose to the anomeric carbon C-2 of fructose. In maltose, the glycosidic bond uses the anomeric carbon of only one of its two glucose units. Which statement is correct?",
+   "options": [
+    "Sucrose is reducing because fructose is a ketose, and ketoses are always stronger reducing agents.",
+    "Both sugars are non-reducing, because any glycosidic bond blocks reduction.",
+    "Maltose is non-reducing, because it is built only from glucose units.",
+    "Sucrose is non-reducing because both anomeric carbons are locked inside its glycosidic bond, while maltose is reducing because one anomeric carbon stays free.",
+    "Sucrose is reducing, because the fructose ring can still open at C-2 while glycosidically bonded."
+   ],
+   "ans": "D",
+   "exp": "A sugar is reducing only if it has a free anomeric carbon able to open to the carbonyl form. Sucrose ties up both anomeric carbons in its bond, so neither ring can open, whereas in maltose the second glucose keeps a free anomeric OH.",
+   "topic": "Chemistry · reducing end logic",
+   "lik": "H",
+   "syl": "4. Chemistry: Fundamentals of organic chemistry"
+  }
+ ]
+}

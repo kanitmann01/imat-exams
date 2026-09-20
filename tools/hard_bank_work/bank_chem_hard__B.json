@@ -1,0 +1,216 @@
+{
+ "bank": "bank_chem_hard",
+ "section": "B",
+ "questions": [
+  {
+   "stem": "How many molecules are present in 4.4 g of propane, C₃H₈? (H = 1, C = 12; Avogadro constant = 6.02 × 10²³ mol⁻¹)",
+   "options": [
+    "6.02 × 10²¹",
+    "3.01 × 10²²",
+    "6.02 × 10²²",
+    "1.204 × 10²³",
+    "6.02 × 10²³"
+   ],
+   "ans": "C",
+   "exp": "M(C₃H₈) = 44 g/mol, so n = 4.4/44 = 0.1 mol and the count is 0.1 × 6.02 × 10²³ = 6.02 × 10²² molecules. The 6.02 × 10²³ option treats 4.4 g as one mole, and 1.204 × 10²³ doubles the mole count.",
+   "topic": "Chemistry · moles to molecules",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry"
+  },
+  {
+   "stem": "How many hydrogen atoms are present in 0.25 mol of water, H₂O? (Avogadro constant = 6.02 × 10²³ mol⁻¹)",
+   "options": [
+    "1.505 × 10²³",
+    "3.01 × 10²³",
+    "6.02 × 10²³",
+    "9.03 × 10²³",
+    "1.204 × 10²⁴"
+   ],
+   "ans": "B",
+   "exp": "Each water molecule carries two hydrogen atoms, so n(H) = 0.25 × 2 = 0.5 mol, giving 0.5 × 6.02 × 10²³ = 3.01 × 10²³ atoms. The 1.505 × 10²³ option counts molecules and forgets the factor of two, while 9.03 × 10²³ counts all three atoms per molecule instead of only the hydrogens.",
+   "topic": "Chemistry · atom counting via Avogadro",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry"
+  },
+  {
+   "stem": "What mass of ammonia, NH₃, contains the same number of molecules as 4.4 g of carbon dioxide, CO₂? (C = 12, O = 16, N = 14, H = 1)",
+   "options": [
+    "1.7 g",
+    "3.4 g",
+    "4.4 g",
+    "8.5 g",
+    "17 g"
+   ],
+   "ans": "A",
+   "exp": "n(CO₂) = 4.4/44 = 0.1 mol, and equal molecule numbers mean equal mole numbers, so the ammonia needed is 0.1 × 17 = 1.7 g. The 4.4 g option assumes equal masses hold equal numbers of molecules, which is false once the molar masses differ.",
+   "topic": "Chemistry · mole bridge between compounds",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry"
+  },
+  {
+   "stem": "What volume does 8.8 g of carbon dioxide, CO₂, occupy at STP? (C = 12, O = 16; molar volume at STP = 22.4 dm³/mol)",
+   "options": [
+    "4.48 dm³",
+    "8.8 dm³",
+    "11.2 dm³",
+    "22.4 dm³",
+    "44.8 dm³"
+   ],
+   "ans": "A",
+   "exp": "n = 8.8/44 = 0.2 mol, so V = 0.2 × 22.4 = 4.48 dm³. The 11.2 dm³ slip uses 0.5 mol, and 22.4 dm³ wrongly assumes one mole.",
+   "topic": "Chemistry · molar volume at STP",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry"
+  },
+  {
+   "stem": "How many molecules are present in 560 cm³ of an ideal gas at STP? (1 dm³ = 1000 cm³; molar volume at STP = 22.4 dm³/mol; Avogadro constant = 6.02 × 10²³ mol⁻¹)",
+   "options": [
+    "6.02 × 10²¹",
+    "1.505 × 10²²",
+    "6.02 × 10²³",
+    "1.505 × 10²⁴",
+    "1.505 × 10²⁵"
+   ],
+   "ans": "B",
+   "exp": "560 cm³ = 0.560 dm³, so n = 0.560/22.4 = 0.025 mol and the count is 0.025 × 6.02 × 10²³ = 1.505 × 10²² molecules. The 1.505 × 10²⁵ option skips the cm³ to dm³ conversion and divides 560 by 22.4 as if it were cubic decimetres.",
+   "topic": "Chemistry · gas volume to particle count",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry"
+  },
+  {
+   "stem": "What is the mass of 4.48 dm³ of oxygen gas, O₂, measured at STP? (O = 16; molar volume at STP = 22.4 dm³/mol)",
+   "options": [
+    "1.6 g",
+    "3.2 g",
+    "6.4 g",
+    "16 g",
+    "32 g"
+   ],
+   "ans": "C",
+   "exp": "n = 4.48/22.4 = 0.2 mol of O₂ molecules, and M(O₂) = 32 g/mol, so the mass is 0.2 × 32 = 6.4 g. The 3.2 g option forgets that oxygen gas is diatomic and uses the atomic mass 16 instead.",
+   "topic": "Chemistry · mass from gas volume",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry"
+  },
+  {
+   "stem": "10.0 g of calcium carbonate (M = 100 g/mol) is treated with 100 cm³ of 1.0 mol/dm³ hydrochloric acid: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. What volume of CO₂ is released, measured at STP? (1 dm³ = 1000 cm³; molar volume at STP = 22.4 dm³/mol)",
+   "options": [
+    "0.56 dm³",
+    "1.12 dm³",
+    "2.24 dm³",
+    "11.2 dm³",
+    "22.4 dm³"
+   ],
+   "ans": "B",
+   "exp": "n(CaCO₃) = 0.10 mol would need 0.20 mol HCl, but only 0.100 × 1.0 = 0.10 mol is added, so the acid is limiting: n(CO₂) = 0.10/2 = 0.05 mol and V = 0.05 × 22.4 = 1.12 dm³. The 2.24 dm³ option treats the carbonate as limiting and ignores the 2:1 acid ratio.",
+   "topic": "Chemistry · limiting reagent with gas volume",
+   "lik": "H",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry"
+  },
+  {
+   "stem": "In theory, 9.2 g of ethanol (M = 46 g/mol) dehydrates completely to ethene (M = 28 g/mol): C₂H₅OH → C₂H₄ + H₂O. The actual mass of ethene collected is 4.2 g. What is the percentage yield?",
+   "options": [
+    "25%",
+    "56%",
+    "75%",
+    "100%",
+    "133%"
+   ],
+   "ans": "C",
+   "exp": "n(ethanol) = 9.2/46 = 0.20 mol, so the theoretical ethene mass is 0.20 × 28 = 5.6 g and the yield is 4.2/5.6 = 75%. The 25% option reports the 1.4 g shortfall as a share of 5.6 g instead of the yield, and 133% inverts the ratio.",
+   "topic": "Chemistry · percentage yield",
+   "lik": "M",
+   "syl": "4. Chemistry: Chemical reactions and stoichiometry"
+  },
+  {
+   "stem": "A diver exhales an air bubble of volume 2.0 dm³ at a depth where the pressure is 400 kPa. The temperature stays constant as the bubble rises to the surface, where the pressure is 100 kPa. What is the volume of the bubble at the surface?",
+   "options": [
+    "0.5 dm³",
+    "1.0 dm³",
+    "2.0 dm³",
+    "4.0 dm³",
+    "8.0 dm³"
+   ],
+   "ans": "E",
+   "exp": "At constant temperature Boyle's law gives P₁V₁ = P₂V₂, so V₂ = 2.0 × (400/100) = 8.0 dm³; falling pressure means expanding volume. The 0.5 dm³ option inverts the pressure ratio and predicts the opposite trend.",
+   "topic": "Chemistry · Boyle's law",
+   "lik": "M",
+   "syl": "4. Chemistry: Ideal gas laws"
+  },
+  {
+   "stem": "A rigid sealed canister holds a fixed amount of gas at 27 °C and 100 kPa. It is heated until the gas reaches 327 °C. What is the new pressure inside the canister?",
+   "options": [
+    "50 kPa",
+    "100 kPa",
+    "109 kPa",
+    "200 kPa",
+    "300 kPa"
+   ],
+   "ans": "D",
+   "exp": "Volume and moles are fixed, so Gay-Lussac's law gives P₂ = 100 × (600/300) = 200 kPa, after converting 27 °C and 327 °C to 300 K and 600 K. The 109 kPa option divides the Celsius reading 327 by 300, mixing the two temperature scales.",
+   "topic": "Chemistry · Gay-Lussac's law",
+   "lik": "H",
+   "syl": "4. Chemistry: Ideal gas laws"
+  },
+  {
+   "stem": "A gas occupies 9.0 dm³ at 27 °C and 100 kPa. What volume does it occupy at 127 °C and 200 kPa?",
+   "options": [
+    "4.5 dm³",
+    "6.0 dm³",
+    "12 dm³",
+    "13.5 dm³",
+    "24 dm³"
+   ],
+   "ans": "B",
+   "exp": "The combined gas law gives V₂ = 9.0 × (400/300) × (100/200) = 6.0 dm³, using 300 K and 400 K. The 12 dm³ option ignores the pressure change, and 13.5 dm³ inverts both ratios, predicting an expansion although the pressure doubles.",
+   "topic": "Chemistry · combined gas law",
+   "lik": "H",
+   "syl": "4. Chemistry: Ideal gas laws"
+  },
+  {
+   "stem": "A sealed vessel contains 0.20 mol of nitrogen gas and 0.30 mol of oxygen gas at constant temperature, and the total pressure is 150 kPa. What is the partial pressure of the oxygen?",
+   "options": [
+    "45 kPa",
+    "60 kPa",
+    "75 kPa",
+    "90 kPa",
+    "150 kPa"
+   ],
+   "ans": "D",
+   "exp": "Dalton's law gives p(O₂) = mole fraction × total pressure = (0.30/0.50) × 150 = 90 kPa. The 60 kPa option gives the nitrogen share, and 45 kPa multiplies the moles of oxygen straight by the total pressure without forming the mole fraction.",
+   "topic": "Chemistry · Dalton's law of partial pressures",
+   "lik": "H",
+   "syl": "4. Chemistry: Ideal gas laws"
+  },
+  {
+   "stem": "100 cm³ of 0.80 mol/dm³ hydrochloric acid is mixed with 400 cm³ of 0.20 mol/dm³ hydrochloric acid. Assuming the volumes are additive, what is the concentration of the resulting solution?",
+   "options": [
+    "0.16 mol/dm³",
+    "0.20 mol/dm³",
+    "0.32 mol/dm³",
+    "0.50 mol/dm³",
+    "0.80 mol/dm³"
+   ],
+   "ans": "C",
+   "exp": "n = 0.100 × 0.80 + 0.400 × 0.20 = 0.16 mol, and the total volume is 0.500 dm³, so c = 0.16/0.500 = 0.32 mol/dm³. The 0.50 mol/dm³ option takes an unweighted average of the two concentrations, ignoring how much of each was used.",
+   "topic": "Chemistry · concentration after mixing",
+   "lik": "H",
+   "syl": "4. Chemistry: Solutions (ways of expressing concentration)"
+  },
+  {
+   "stem": "A solution is prepared by diluting 25 cm³ of a 2.0 mol/dm³ solution to a concentration of 0.10 mol/dm³. What is the final volume of the diluted solution?",
+   "options": [
+    "25 cm³",
+    "250 cm³",
+    "450 cm³",
+    "500 cm³",
+    "1250 cm³"
+   ],
+   "ans": "D",
+   "exp": "The moles of solute are constant at 25 × 2.0 = 50 mmol, so the final volume must be 50/0.10 = 500 cm³. The 475 cm³ option subtracts the original 25 cm³, which answers a volume-of-water-added question, not a final-volume question.",
+   "topic": "Chemistry · dilution to a target volume",
+   "lik": "H",
+   "syl": "4. Chemistry: Solutions (ways of expressing concentration)"
+  }
+ ]
+}

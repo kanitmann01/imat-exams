@@ -5,7 +5,7 @@ import { el, clear, fmtScore, fmtDate, toast, confirmModal } from "./ui.js";
 import { legacyBanner } from "./legacy-run.js";
 import { describeSyncStatus } from "./sync.js";
 
-const KIND_LABEL = { mock: "Mock exam", gk_drill: "GK drill", repair_drill: "Repair drill" };
+const KIND_LABEL = { mock: "Mock exam", gk_drill: "GK drill", repair_drill: "Repair drill", bank: "Question bank" };
 
 export async function mount(ctx) {
   const store = ctx.store;
@@ -16,7 +16,7 @@ export async function mount(ctx) {
 
   main.append(el("div", { class: "page-head" },
     el("h1", { text: "Papers" }),
-    el("p", { class: "page-sub", text: "Eight full mocks + two drills. Progress autosaves; leave and resume any time." })));
+    el("p", { class: "page-sub", text: "Nine full mocks, two drills and three hard question banks. Progress autosaves; leave and resume any time." })));
 
   // resume card
   const inProgress = attempts

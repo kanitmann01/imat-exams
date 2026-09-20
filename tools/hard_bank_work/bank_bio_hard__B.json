@@ -1,0 +1,246 @@
+{
+ "bank": "bank_bio_hard",
+ "section": "B",
+ "questions": [
+  {
+   "stem": "In a steroid-producing gland cell, the smooth endoplasmic reticulum is actively making hormones, while a lysosome is digesting a bacterium taken in by phagocytosis. Which pair of products is formed by the smooth endoplasmic reticulum and by lysosomal action, respectively?",
+   "options": [
+    "Peptide hormones by the smooth endoplasmic reticulum; small soluble digestion products such as amino acids and monosaccharides by the lysosome.",
+    "Steroid hormones by the smooth endoplasmic reticulum; small soluble digestion products such as amino acids and monosaccharides by the lysosome.",
+    "Steroid hormones by the smooth endoplasmic reticulum; hydrogen peroxide and water by the lysosome.",
+    "Steroid hormones by the rough endoplasmic reticulum; intact bacterial fragments kept permanently inside the lysosome.",
+    "Steroid hormones by the smooth endoplasmic reticulum; fully digested proteins exported out of the cell by the lysosome."
+   ],
+   "ans": "B",
+   "exp": "The smooth endoplasmic reticulum is the site of lipid and steroid synthesis, so the gland's product is a steroid, while lysosomal acid hydrolases break the bacterium down into small soluble molecules that pass into the cytosol. The peptide-hormone option belongs to rough-ER products, and the hydrogen-peroxide option describes peroxisomes, not lysosomes.",
+   "topic": "Biology · products of smooth ER and lysosome action",
+   "lik": "H",
+   "syl": "3. Biology: The cell as the basis of life"
+  },
+  {
+   "stem": "Which of the following statements about peroxisomes and lysosomes is correct?",
+   "options": [
+    "Peroxisomal catalase decomposes the hydrogen peroxide formed inside the organelle into water and oxygen.",
+    "Lysosomes generate hydrogen peroxide while oxidising fatty acids and amino acids.",
+    "Peroxisomes are formed as vesicles budding from the Golgi apparatus and are filled with acid hydrolases.",
+    "The interior of peroxisomes is strongly acidic, which is the optimum for catalase.",
+    "Lysosomal hydrolases convert hydrogen peroxide into water and molecular oxygen."
+   ],
+   "ans": "A",
+   "exp": "Oxidases inside peroxisomes produce hydrogen peroxide, and catalase, also located in the peroxisome, splits it into water and oxygen. The hydrogen-peroxide options misplace this reaction in lysosomes, the Golgi-derived vesicles filled with acid hydrolases are lysosomes, and the strongly acidic interior belongs to the lysosome rather than the peroxisome.",
+   "topic": "Biology · peroxisomes vs lysosomes",
+   "lik": "M",
+   "syl": "3. Biology: The cell as the basis of life"
+  },
+  {
+   "stem": "In animal cells the first step of peroxisomal fatty acid oxidation is catalysed by an oxidase that passes electrons directly to oxygen, forming hydrogen peroxide. A mutation abolishes the activity of peroxisomal catalase. Which outcome is expected?",
+   "options": [
+    "Fatty acid oxidation in the peroxisome stops immediately, because catalase performs the first oxidation step.",
+    "Hydrogen peroxide is delivered to lysosomes, where hydrolases split it safely into water and oxygen.",
+    "Hydrogen peroxide leaves the cell unchanged at a rate that fully protects the cytosol.",
+    "Hydrogen peroxide generated in the peroxisome is no longer decomposed, so it accumulates and can reach the cytosol, where it damages cellular components.",
+    "The mitochondrion takes over the decomposition of hydrogen peroxide at the cost of extra ATP consumption."
+   ],
+   "ans": "D",
+   "exp": "Catalase normally splits the peroxide produced by peroxisomal oxidases into water and oxygen; without it the peroxide accumulates and, being a small uncharged molecule, can diffuse out and oxidise cytosolic components. The first-step option is wrong because the oxidase, not catalase, performs that step, and lysosomes carry hydrolases, not peroxide-splitting catalase.",
+   "topic": "Biology · peroxisome catalase failure",
+   "lik": "H",
+   "syl": "3. Biology: The cell as the basis of life"
+  },
+  {
+   "stem": "A metabolic poison halts ATP production in an animal cell kept in an isotonic medium. Which combination of transport processes continues at its normal rate for some time?",
+   "options": [
+    "Sodium-potassium pumping out of the cell continues, while osmosis through aquaporins stops.",
+    "Facilitated diffusion of glucose down its concentration gradient and osmosis of water continue, while sodium-potassium pumping stops.",
+    "Every carrier-mediated process stops, because all carrier proteins are driven directly by ATP hydrolysis.",
+    "Active uptake of calcium into the endoplasmic reticulum continues, while osmosis stops.",
+    "Sodium-potassium pumping and osmosis continue, while facilitated diffusion of glucose stops."
+   ],
+   "ans": "B",
+   "exp": "Osmosis and facilitated diffusion are passive and run without ATP, whereas the sodium-potassium pump and the calcium pump of the endoplasmic reticulum hydrolyse ATP directly and stop first. The claim that all carrier-mediated transport needs ATP confuses active transport with passive carrier-mediated diffusion.",
+   "topic": "Biology · ATP dependence of transport",
+   "lik": "H",
+   "syl": "3. Biology: The cell membrane"
+  },
+  {
+   "stem": "Cells are cultured in a medium whose glucose concentration is higher than the glucose concentration inside the cells. The cells take up glucose through a membrane carrier protein, and the uptake rate is unchanged when ATP synthesis is blocked by a poison. Which process accounts for the uptake?",
+   "options": [
+    "Simple diffusion through the phospholipid bilayer",
+    "Primary active transport coupled to ATP hydrolysis",
+    "Facilitated diffusion through the carrier protein",
+    "Secondary active transport driven by the sodium gradient",
+    "Endocytosis of glucose in membrane vesicles"
+   ],
+   "ans": "C",
+   "exp": "Glucose moves down its concentration gradient through a specific carrier and proceeds without ATP, which is exactly facilitated diffusion; glucose is polar and cannot cross the bilayer by simple diffusion. The active-transport options would slow or stop when ATP production is blocked, and glucose uptake here needs no sodium gradient.",
+   "topic": "Biology · facilitated diffusion case",
+   "lik": "M",
+   "syl": "3. Biology: The cell membrane"
+  },
+  {
+   "stem": "A red blood cell whose interior behaves as 300 mmol/dm³ of non-penetrating solute is placed in a large volume of solution containing 150 mmol/dm³ sodium chloride (fully dissociated) and 100 mmol/dm³ urea. Sodium chloride cannot cross the membrane; urea crosses freely. What happens to the cell?",
+   "options": [
+    "Water first leaves the cell and it shrinks; once urea has equilibrated across the membrane, water returns and the cell regains its original volume.",
+    "Water first leaves the cell and it shrinks; later, water re-enters and the cell swells until it lyses.",
+    "No net movement of water occurs at any time, because the sodium chloride by itself is already isotonic with the cytosol.",
+    "Water enters the cell continuously from the start and the cell lyses, because the outside solution has the higher total concentration of solute particles.",
+    "The cell shrinks permanently, because urea that has entered the cytosol cannot leave again."
+   ],
+   "ans": "A",
+   "exp": "The solution initially exerts about 400 mmol/dm³ of particles against 300 inside, so water leaves and the cell shrinks. Urea then diffuses in down its gradient until both sides hold 100 mmol/dm³, water follows back, and the cell returns to its original volume, since 300 fixed particles plus 100 urea inside now match 300 plus 100 outside. The lysis outcome would apply to a penetrating solute without any non-penetrating salt, and the no-movement option ignores the initial excess of urea.",
+   "topic": "Biology · osmosis with a penetrating solute",
+   "lik": "H",
+   "syl": "3. Biology: The cell membrane"
+  },
+  {
+   "stem": "Which statement about the fluid mosaic model of the plasma membrane is correct?",
+   "options": [
+    "The membrane is a rigid structure in which every protein is fixed in one position for the life of the cell.",
+    "The hydrophobic fatty acid tails of the phospholipids face the aqueous solutions on both sides of the membrane.",
+    "The core of the bilayer is hydrophilic, which is why small ions cross it freely.",
+    "Cholesterol is the main component of plant-cell membranes and is absent from animal cells.",
+    "Phospholipids and many membrane proteins can move laterally within the bilayer, which behaves as a two-dimensional fluid."
+   ],
+   "ans": "E",
+   "exp": "In the fluid mosaic model the bilayer is a two-dimensional fluid in which lipids and many proteins diffuse laterally, with proteins embedded as a mosaic. The tails face inward, the hydrophobic core actually blocks ions, and cholesterol is a characteristic component of animal-cell membranes rather than being absent from them.",
+   "topic": "Biology · fluid mosaic model",
+   "lik": "M",
+   "syl": "3. Biology: The cell membrane"
+  },
+  {
+   "stem": "Researchers treat sealed vesicles of plasma membrane in two ways. Treatment 1 uses a concentrated salt solution that disrupts ionic and polar interactions but leaves the bilayer intact. Treatment 2 uses a mild detergent that dissolves the bilayer. Which result is expected?",
+   "options": [
+    "Treatment 1 releases peripheral proteins bound to the membrane surfaces, while treatment 2 releases integral proteins such as transmembrane channels.",
+    "Treatment 1 releases integral proteins, because their transmembrane segments bind ions, while treatment 2 releases only peripheral proteins.",
+    "Both treatments release only peripheral proteins, because integral proteins are protected by carbohydrate chains.",
+    "Neither treatment can release integral proteins, because transmembrane segments cannot be separated from lipids.",
+    "Treatment 1 releases both classes of protein equally, because ionic interactions anchor the integral proteins in the bilayer."
+   ],
+   "ans": "A",
+   "exp": "Peripheral proteins attach to the membrane surface through ionic and polar interactions and come away with high salt, while integral proteins are anchored by hydrophobic transmembrane segments and are freed only when detergent disrupts the bilayer. The option claiming ionic anchoring reverses the chemistry: the transmembrane anchor is hydrophobic, not ionic.",
+   "topic": "Biology · integral vs peripheral proteins",
+   "lik": "H",
+   "syl": "3. Biology: The cell membrane"
+  },
+  {
+   "stem": "A red blood cell is moved from an isotonic medium into a solution with a higher total concentration of non-penetrating solutes than the cytosol. What is the outcome?",
+   "options": [
+    "Water enters the cell by osmosis and the cell swells.",
+    "Water leaves the cell by osmosis and the cell shrivels.",
+    "Non-penetrating solutes enter the cell until the two concentrations are equal, so the volume stays constant.",
+    "The volume stays constant, because a cell wall resists any change in water content.",
+    "Water leaves the cell until the membrane bursts."
+   ],
+   "ans": "B",
+   "exp": "The hypertonic medium draws water out by osmosis, so the animal cell shrivels. The bursting outcome belongs to the opposite case, a hypotonic medium, red blood cells have no cell wall, and non-penetrating solutes cannot cross the membrane to equalise the concentrations.",
+   "topic": "Biology · hypertonic solution, animal cell",
+   "lik": "M",
+   "syl": "3. Biology: The cell membrane"
+  },
+  {
+   "stem": "Cells from the same tissue are divided into two samples: one sample is placed in solution X, which is hypertonic to the cells, and the other in solution Y, which is hypotonic to the cells. Both plant and animal cells are treated this way. Which statement about the outcomes is correct?",
+   "options": [
+    "In solution X the plant cells show plasmolysis, with the plasma membrane pulling away from the intact wall, while in solution Y the animal cells swell and may burst.",
+    "In solution X both cell types burst, while in solution Y both cell types shrink.",
+    "In solution X the plant cell walls collapse inward together with the membrane, while in solution Y the animal cells become turgid.",
+    "In solution X the animal cells become turgid, while in solution Y the plant cells show plasmolysis.",
+    "In solution X the animal cells remain unchanged because their membrane is elastic, while in solution Y the plant cells burst."
+   ],
+   "ans": "A",
+   "exp": "In the hypertonic solution water leaves: the plant protoplast shrinks and the membrane pulls away from the rigid wall, which itself does not collapse, while the animal cell simply shrivels. In the hypotonic solution water flows in: the wall lets the plant cell build turgor pressure without bursting, whereas the wall-less animal cell swells and may lyse.",
+   "topic": "Biology · tonicity in plant vs animal cells",
+   "lik": "H",
+   "syl": "3. Biology: The cell membrane"
+  },
+  {
+   "stem": "Viruses are described as acellular. Which statement gives the main reason?",
+   "options": [
+    "A virus particle contains either DNA or RNA, but never both at once.",
+    "A virus has no cytoplasm, no ribosomes and no metabolism of its own, and it can multiply only inside a host cell.",
+    "A virus particle is far too small to be seen with a light microscope.",
+    "A virus has no cell wall around its nucleic acid.",
+    "A virus can be crystallised and stored like a chemical substance."
+   ],
+   "ans": "B",
+   "exp": "A virus lacks cytoplasm, ribosomes and independent metabolism, and it reproduces only by hijacking a host cell, so it satisfies none of the defining features of a cell. The single-genome statement is a true property of viruses but not the reason they are acellular, and small size or crystallisation do not define cellularity.",
+   "topic": "Biology · viruses as acellular",
+   "lik": "M",
+   "syl": "3. Biology: The cell as the basis of life"
+  },
+  {
+   "stem": "Which of the following statements about viruses is correct?",
+   "options": [
+    "The envelope of an enveloped virus is assembled on its own ribosomes from lipids synthesised by viral enzymes.",
+    "A single virus particle may contain one DNA genome and one RNA genome at the same time.",
+    "Viruses increase in number by binary fission within the host cytoplasm.",
+    "An enveloped virus takes its lipid envelope from a host-cell membrane as it leaves the cell and inserts its own glycoproteins into that envelope.",
+    "Viruses carry ribosomes that switch on only after the nucleic acid has entered the host cell."
+   ],
+   "ans": "D",
+   "exp": "Enveloped viruses obtain their lipid envelope from host membranes during budding or exocytosis and embed virus-encoded glycoproteins in it. Viruses never hold two genome types at once, possess no ribosomes at all, and binary fission is a cellular process they do not perform.",
+   "topic": "Biology · viral structure and replication",
+   "lik": "H",
+   "syl": "3. Biology: The cell as the basis of life"
+  },
+  {
+   "stem": "Which pairing of a plastid type with what it stores is correct?",
+   "options": [
+    "Amyloplasts store starch, for example in potato tubers.",
+    "Elaioplasts store proteins, for example in cereal grains.",
+    "Aleuroplasts store oils and lipids, for example in oil seeds.",
+    "Chromoplasts store chlorophyll, for example in mature leaves.",
+    "Amyloplasts store the red and yellow pigments, for example in tomato fruits."
+   ],
+   "ans": "A",
+   "exp": "Amyloplasts are starch-storing leucoplasts, elaioplasts store oils and lipids, and aleuroplasts store protein, while the carotenoid pigments of fruit and petals sit in chromoplasts and leaf chlorophyll sits in chloroplasts. The elaioplast and aleuroplast pairings in the other options are swapped.",
+   "topic": "Biology · plastid storage types",
+   "lik": "M",
+   "syl": "3. Biology: The cell as the basis of life"
+  },
+  {
+   "stem": "During the ripening of a tomato fruit the green colour fades, red pigments accumulate, and the starch stored in the fruit is converted into sugars. Which combination of plastid events fits these changes?",
+   "options": [
+    "Chloroplasts differentiate into amyloplasts as starch accumulates, while chromoplasts break the sugars down further.",
+    "Elaioplasts differentiate into chloroplasts as chlorophyll returns, while aleuroplasts release carotenoids.",
+    "Chloroplasts differentiate into chromoplasts as carotenoids accumulate, while amyloplasts release the starch that is hydrolysed to sugars.",
+    "Chromoplasts differentiate back into chloroplasts as the fruit ripens, while elaioplasts hydrolyse the starch.",
+    "Chloroplasts differentiate into leucoplasts that store the red pigments, while amyloplasts build new starch from the sugars."
+   ],
+   "ans": "C",
+   "exp": "In ripening fruit, chloroplasts change into chromoplasts, which accumulate the red carotenoid lycopene, and the starch held in amyloplasts is hydrolysed to sugars that sweeten the tissue. The reversed-conversion options get the direction of differentiation wrong, and carotenoids are stored in chromoplasts rather than in leucoplasts or elaioplasts.",
+   "topic": "Biology · plastid differentiation in ripening",
+   "lik": "H",
+   "syl": "3. Biology: The cell as the basis of life"
+  },
+  {
+   "stem": "In Tay-Sachs disease, a defective gene leaves one enzyme inactive inside a particular organelle. Nerve cells of affected children develop swollen vesicles packed with undigested ganglioside lipids. Which statement identifies the organelle and explains the accumulation?",
+   "options": [
+    "The peroxisome lacks catalase, so lipids taken in for oxidation accumulate inside it.",
+    "The smooth endoplasmic reticulum overproduces lipids faster than they can be exported, so lipid-filled vesicles swell up.",
+    "The lysosome lacks a functional hydrolytic enzyme, so lipid delivered to it for digestion is not broken down and accumulates inside it.",
+    "The Golgi apparatus fails to package secretory proteins, so undigested lipid collects in secretory vesicles.",
+    "The mitochondrion cannot oxidise the gangliosides, so the lipid is stored inside mitochondrial cristae."
+   ],
+   "ans": "C",
+   "exp": "Tay-Sachs is a lysosomal storage disease: a defective acid hydrolase cannot degrade gangliosides, so the lipid delivered to lysosomes for digestion accumulates in swollen vesicles. The peroxisome performs oxidation reactions such as very-long-chain fatty acid breakdown, not ganglioside digestion, and the ER and Golgi options describe synthesis and packaging steps that are not the defect.",
+   "topic": "Biology · lysosomal storage disease",
+   "lik": "H",
+   "syl": "3. Biology: The cell as the basis of life"
+  },
+  {
+   "stem": "Three treatments each disable one organelle in a cell line. After treatment 1, secreted proteins are synthesised but are never given mature carbohydrate chains and are not sorted to their destinations. After treatment 2, the cells cannot break down very-long-chain fatty acids. After treatment 3, engulfed bacteria are not digested even though acid hydrolases are produced normally. Which set of organelles is disabled by treatments 1, 2 and 3, respectively?",
+   "options": [
+    "Rough endoplasmic reticulum; lysosome; peroxisome",
+    "Golgi apparatus; lysosome; peroxisome",
+    "Smooth endoplasmic reticulum; peroxisome; Golgi apparatus",
+    "Rough endoplasmic reticulum; peroxisome; lysosome",
+    "Golgi apparatus; peroxisome; lysosome"
+   ],
+   "ans": "E",
+   "exp": "The Golgi apparatus matures carbohydrate chains and sorts proteins for export, the peroxisome houses the breakdown of very-long-chain fatty acids, and lysosomes provide the acid hydrolases that digest engulfed bacteria. Sorting to final destinations is a Golgi function, so the rough-ER option for treatment 1 is not the best match even though the first glycosylation step happens there, and the option assigning the lysosome to the fatty-acid defect swaps peroxisomal oxidation for lysosomal digestion.",
+   "topic": "Biology · organelle malfunction matching",
+   "lik": "H",
+   "syl": "3. Biology: The cell as the basis of life"
+  }
+ ]
+}

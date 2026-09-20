@@ -1,0 +1,66 @@
+{
+ "bank": "bank_mpl_hard",
+ "section": "D",
+ "questions": [
+  {
+   "stem": "A high-speed train covers 270 km in 3.0 h at a constant speed. Expressed in m/s, its speed is:",
+   "options": [
+    "25 m/s",
+    "75 m/s",
+    "90 m/s",
+    "324 m/s",
+    "1500 m/s"
+   ],
+   "ans": "A",
+   "exp": "The speed is 270/3.0 = 90 km/h, and 90 km/h = 90,000 m in 3600 s = 25 m/s. The 324 m/s option multiplies by 3.6 instead of dividing, and the 1500 m/s option gives metres per minute rather than metres per second.",
+   "topic": "Maths · speed conversion (km/h to m/s)",
+   "lik": "H",
+   "syl": "6. Physics: Physical quantities and their measurement"
+  },
+  {
+   "stem": "A swimming pool is 5.0 m long, 2.0 m wide and 1.2 m deep. What volume of water does it hold, expressed in litres?",
+   "options": [
+    "12 L",
+    "120 L",
+    "1200 L",
+    "12000 L",
+    "120000 L"
+   ],
+   "ans": "D",
+   "exp": "V = 5.0 × 2.0 × 1.2 = 12 m³, and since 1 m³ = 1000 dm³ and 1 dm³ = 1 L, the pool holds 12000 L. The 1200 L option uses a factor of 100 instead of 1000, confusing the volume factor with a length factor.",
+   "topic": "Maths · volume prefixes (m³ to litres)",
+   "lik": "H",
+   "syl": "6. Physics: Physical quantities and their measurement"
+  },
+  {
+   "stem": "A water tank is 2/3 full. A valve then drains 1/4 of the tank's total capacity. What fraction of the tank is still full?",
+   "options": [
+    "1/6",
+    "1/4",
+    "5/12",
+    "1/2",
+    "11/12"
+   ],
+   "ans": "C",
+   "exp": "The drained amount is 1/4 of the capacity, so the remaining fraction is 2/3 − 1/4 = 8/12 − 3/12 = 5/12. The 1/2 option instead takes a quarter of the water already present (2/3 × 3/4), and the 11/12 option adds the two fractions instead of subtracting.",
+   "topic": "Maths · fractions in context (common denominator)",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "A water tank is one third full. After 40 more litres are poured in, the tank is three quarters full. What is the full capacity of the tank?",
+   "options": [
+    "60 litres",
+    "72 litres",
+    "90 litres",
+    "96 litres",
+    "120 litres"
+   ],
+   "ans": "D",
+   "exp": "The 40 litres fill the fraction 3/4 − 1/3 = 5/12 of the tank, so the capacity is 40 × 12/5 = 96 litres. The 60 litre option assumes the 40 litres filled the remaining two thirds up to completely full, and 120 litres treats 40 litres as one third of the tank.",
+   "topic": "Maths · fractions of a quantity",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra"
+  }
+ ]
+}

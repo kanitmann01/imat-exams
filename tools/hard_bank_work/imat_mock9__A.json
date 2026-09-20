@@ -1,0 +1,141 @@
+{
+ "bank": "imat_mock9",
+ "section": "A",
+ "questions": [
+  {
+   "stem": "\"Researchers followed two groups of office workers for a year. Group A worked in a building where filtered air was fully exchanged every 20 minutes; Group B worked in an identical building where the air was exchanged every two hours. Temperature, lighting and noise were matched, and neither the workers nor the testers knew which building a participant occupied. Group A scored higher on decision-making tests taken at the end of each working day, with the widest gap on days of high outdoor pollution.\"\n\nWhich statement is most strongly supported by the passage?",
+   "options": [
+    "Ventilation rate may influence workers' decision-making, and the difference shows most clearly on days of high outdoor pollution.",
+    "The workers in Group A were more motivated than the workers in Group B.",
+    "Temperature, lighting and noise have no effect on decision-making performance.",
+    "The study proves that outdoor air pollution directly impairs decision-making.",
+    "Indoor air should never be exchanged with outdoor air."
+   ],
+   "ans": "A",
+   "exp": "With conditions matched and participants blinded, the performance gap can reasonably be attributed to the ventilation difference, and the passage adds that the gap was widest on polluted days. The claim about motivation has no support in the passage, and holding temperature, lighting and noise constant does not show they have no effect. The pollution finding shows a stronger gap on those days, not a proven direct cause of impaired decisions.",
+   "topic": "Logic · inference from a controlled study",
+   "lik": "H",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies"
+  },
+  {
+   "stem": "\"Last year a city began charging drivers to enter its central zone. Within six months, car traffic in the zone had fallen by a quarter and buses ran measurably faster. A survey found that most people entering the zone travelled by public transport, and shopkeepers inside the zone reported slightly lower revenues. The money raised from the charge was used to extend two bus routes.\"\n\nWhich statement is best supported by the passage?",
+   "options": [
+    "The charge was introduced mainly in order to raise money for bus routes.",
+    "The fall in shop revenues was caused by the traffic charge.",
+    "Most visitors have stopped coming to the central zone.",
+    "Buses run faster because drivers have abandoned public transport.",
+    "Car journeys into the central zone fell, but the passage does not establish what caused the fall in shop revenues."
+   ],
+   "ans": "E",
+   "exp": "The passage states the traffic fall directly, but only reports the shopkeepers' lower revenues alongside it, so no causal link to the charge is established. The purpose of the charge is never given, only the use of its revenue, and the survey shows that most visitors still arrive, travelling by public transport.",
+   "topic": "Logic · separating correlation from causation",
+   "lik": "M",
+   "syl": "1. Reading Literacy and Knowledge Acquired During Studies"
+  },
+  {
+   "stem": "Every student who passed the practical examination attended all of the laboratory sessions. Some of the students who attended all of the laboratory sessions were awarded a scholarship. No scholarship winner was charged a laboratory fee.\n\nWhich one of the following must be true?",
+   "options": [
+    "Some students who passed the practical examination were not charged a laboratory fee.",
+    "Some students who attended all of the laboratory sessions were not charged a laboratory fee.",
+    "All students who were charged a laboratory fee failed the practical examination.",
+    "Some scholarship winners passed the practical examination.",
+    "Every student who was not charged a laboratory fee attended all of the laboratory sessions."
+   ],
+   "ans": "B",
+   "exp": "The scholarship winners are among the students who attended all of the sessions, and none of them was charged a fee, so at least one all-session attendee paid nothing. Nothing links the fee to passing: the scholarship winners need not have passed, and fee-charged students are never mentioned. The last option merely reverses the first premise, which is not licensed.",
+   "topic": "Logic · syllogism (quantifier chain)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "Exactly one of four office workers jammed the shared printer, and exactly one of the four statements they made about the incident is true. Dana said: Erik jammed the printer. Erik said: Farid did not jam the printer. Farid said: I did not jam the printer. Gus said: Erik did not jam the printer.\n\nWho jammed the printer?",
+   "options": [
+    "Dana",
+    "Erik",
+    "Farid",
+    "Gus",
+    "No assignment fits: the statements are inconsistent."
+   ],
+   "ans": "C",
+   "exp": "If Farid jammed the printer, Dana's accusation of Erik is false, Erik's and Farid's denials are false, and only Gus's statement is true, which matches the condition. Testing the others: if Erik did it, Dana's, Erik's and Farid's statements are all true, and if Dana or Gus did it, at least two statements are true.",
+   "topic": "Logic · one-true-statement consistency puzzle",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "A town installed automatic speed cameras along its main road. During the following year, accidents on that road fell by 30 per cent, and the council concluded that the cameras had slowed drivers down and so prevented accidents.\n\nWhich one of the following findings would most weaken the council's argument?",
+   "options": [
+    "Accidents on other roads in the same town fell by about 30 per cent over the same year, although no cameras were installed there.",
+    "Most drivers questioned said that the cameras made them feel constantly watched.",
+    "The cameras recorded several thousand speeding violations during the year.",
+    "Repairing the cameras cost the council more than it had expected to save.",
+    "The speed limit on the main road was not changed when the cameras were installed."
+   ],
+   "ans": "A",
+   "exp": "An equal fall on camera-free roads points to some town-wide cause, such as weather or traffic patterns, instead of the cameras, which removes the council's basis for crediting them. Feeling watched and recorded violations do not touch the accident figures, and the unchanged speed limit actually rules out an alternative explanation rather than weakening the argument.",
+   "topic": "Logic · weakening an argument (alternative cause)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "A safety rule states: whenever the fire alarm sounds, all staff evacuate the building.\n\nWhich one of the following statements is logically equivalent to this rule?",
+   "options": [
+    "If the staff evacuate the building, then the fire alarm has sounded.",
+    "If the staff do not evacuate the building, then the fire alarm has not sounded.",
+    "If the fire alarm does not sound, then the staff do not evacuate the building.",
+    "The staff evacuate the building if and only if the fire alarm sounds.",
+    "Either the fire alarm sounds or the staff evacuate the building."
+   ],
+   "ans": "B",
+   "exp": "The rule says alarm implies evacuation, and the only equivalent form is its contrapositive: no evacuation implies no alarm. The first option runs the implication backwards, the third negates both parts without reversing them, the fourth adds an unproven claim in the other direction, and the final disjunction is not equivalent to a conditional.",
+   "topic": "Logic · conditional equivalence (converse and inverse traps)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "Six friends stand in a row for a photograph, in positions numbered 1 to 6 from left to right. Jana stands in position 1. Femi stands somewhere to the right of Gita. Hugo stands immediately to the left of Kofi. Ivo stands somewhere to the right of Femi.\n\nWhich one of the following is NOT possible?",
+   "options": [
+    "Hugo stands in position 2.",
+    "Ivo stands in position 4.",
+    "Femi stands in position 3.",
+    "Gita stands in position 5.",
+    "Kofi stands in position 5."
+   ],
+   "ans": "D",
+   "exp": "With Jana fixed at position 1, the valid arrangements are Hugo, Kofi, Gita, Femi, Ivo; Gita, Hugo, Kofi, Femi, Ivo; Gita, Femi, Hugo, Kofi, Ivo; and Gita, Femi, Ivo, Hugo, Kofi. Gita always takes position 2 or 4, never 5, while each other placement occurs in at least one of the four arrangements.",
+   "topic": "Logic · linear seating (cannot be true)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "The four lectures Anthropology, Botany, Chemistry and Demography are scheduled one per hour at 9:00, 11:00, 13:00 and 15:00. Chemistry is scheduled earlier than Demography. Botany is not scheduled at 9:00. Anthropology is scheduled either immediately before or immediately after Botany.\n\nWhich one of the following must be true?",
+   "options": [
+    "Chemistry is scheduled at 11:00.",
+    "Botany is scheduled at 13:00.",
+    "Demography is not scheduled at 9:00.",
+    "Anthropology is scheduled at 9:00.",
+    "Chemistry is scheduled at 15:00."
+   ],
+   "ans": "C",
+   "exp": "Demography must come after Chemistry, so Demography can never occupy the first slot at 9:00, whatever else moves. The five valid orders allow Botany at 11:00, 13:00 or 15:00 and put Anthropology at 9:00 in only one of them, while Chemistry always falls at 9:00 or 13:00, never at 11:00 or 15:00.",
+   "topic": "Logic · scheduling with an adjacency rule",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "Five entries, P, Q, R, S and T, are ranked from 1st (best) to 5th in a short-story competition. T is ranked third. S is ranked better than R. R is ranked better than Q.\n\nWhich one of the following must be true?",
+   "options": [
+    "S is ranked first.",
+    "P is ranked second.",
+    "R is ranked fourth.",
+    "Q is ranked either fourth or fifth.",
+    "S is ranked better than P."
+   ],
+   "ans": "D",
+   "exp": "Since S must finish ahead of R and R ahead of Q, the four valid rankings place Q in fourth or fifth position every time. S and P can exchange the two remaining top spots, so S first, P second and R fourth each fail in at least one ranking, and in one arrangement P finishes above S.",
+   "topic": "Logic · ranking with a chain of conditions",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  }
+ ]
+}

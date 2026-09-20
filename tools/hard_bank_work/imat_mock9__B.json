@@ -1,0 +1,351 @@
+{
+ "bank": "imat_mock9",
+ "section": "B",
+ "questions": [
+  {
+   "stem": "A protein's folded shape is held partly by ionic bonds (salt bridges) between the side chain of a lysine residue and the side chain of an aspartate residue. At pH 7 the lysine side chain is positively charged and the aspartate side chain is negatively charged. The protein is transferred to a solution at pH 2, where the aspartate side chain becomes protonated and loses its charge, while the lysine side chain stays charged. Which outcome is expected?",
+   "options": [
+    "The primary structure is shortened, because the bond between the two side chains is one kind of peptide bond.",
+    "A new salt bridge forms immediately, because at pH 2 the aspartate side chain becomes positively charged.",
+    "The salt bridge breaks and this part of the tertiary structure becomes less stable, while the amino acid sequence is unchanged.",
+    "The salt bridge is unaffected, but every peptide bond in the backbone breaks at pH 2.",
+    "The salt bridge becomes stronger, because two uncharged groups attract each other more strongly than two charged groups."
+   ],
+   "ans": "C",
+   "exp": "Opposite charges attract, so removing the aspartate's negative charge by protonation destroys the ionic attraction and destabilises that region, without any change to the sequence of residues. Side-chain bonds are not peptide bonds, and uncharged groups do not attract more strongly than opposite charges.",
+   "topic": "Biology · pH, ionisation and salt bridges",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "A patient takes a drug that keeps the pH of the stomach contents close to 7 instead of the usual strongly acidic value, but leaves the small intestine unchanged. Pepsin works optimally near pH 2, while trypsin works optimally near pH 8. Which outcome is expected?",
+   "options": [
+    "Pepsin activity in the stomach falls sharply, while trypsin activity in the small intestine is essentially unaffected.",
+    "Pepsin activity in the stomach rises, because pepsin neutralises the effect of the drug.",
+    "Both enzymes lose almost all activity, because digestive enzymes work only in strongly acidic conditions.",
+    "Trypsin activity in the small intestine falls to zero, because trypsin requires the acidity produced by the stomach.",
+    "Protein digestion continues unchanged, because enzymes adjust their pH optimum to their surroundings."
+   ],
+   "ans": "A",
+   "exp": "Pepsin's optimum lies near pH 2, so raising the stomach contents to about pH 7 leaves it working far below its maximum, while trypsin's optimum near pH 8 is untouched because the small intestine is unchanged. The claim that both enzymes need acid ignores trypsin's alkaline optimum, and enzymes do not move their optima to suit conditions.",
+   "topic": "Biology · digestive enzymes and pH optima",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Glucose units released from glycogen inside a muscle cell enter glycolysis as glucose 6-phosphate, so the hexokinase step, which consumes 1 ATP, is bypassed, while the other ATP-consuming step of glycolysis still occurs. The muscle ferments these units entirely to lactate. What is the net ATP yield per glucose unit?",
+   "options": [
+    "0",
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "ans": "C",
+   "exp": "Glycolysis pays out 4 ATP per glucose unit (2 at phosphoglycerate kinase and 2 at pyruvate kinase) and, for glycogen-derived units, spends only 1 ATP at phosphofructokinase, giving a net of 3. The value 2 applies to free glucose entering through hexokinase, and lactate fermentation regenerates NAD+ without adding or removing ATP.",
+   "topic": "Biology · glycogen entry into glycolysis",
+   "lik": "M",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "In the epithelial cells lining the small intestine, glucose is absorbed from the lumen by a transporter that carries glucose together with sodium ions, driven by the sodium concentration gradient. That gradient is maintained by the sodium-potassium pump, which hydrolyses ATP. A poison inactivates the sodium-potassium pump of these cells. Which outcome is expected?",
+   "options": [
+    "Glucose absorption by the sodium-coupled transporter continues at a normal rate, because this transporter does not use ATP directly.",
+    "The sodium-potassium pump switches to transporting glucose, so absorption continues unchanged.",
+    "The cells begin to secrete glucose back into the lumen, because the pump normally carries glucose inward.",
+    "Only the movement of potassium is affected, because sodium and potassium cross the membrane through separate systems.",
+    "The sodium gradient across the membrane decays, so the sodium-coupled glucose transporter stops working and glucose absorption by this route fails."
+   ],
+   "ans": "E",
+   "exp": "The glucose transporter is powered by the inward sodium gradient, which the pump maintains at the cost of ATP, so inactivating the pump removes that gradient and the cotransport stops. The claim that direct ATP use is what matters confuses primary active transport with secondary active transport.",
+   "topic": "Biology · primary and secondary active transport",
+   "lik": "H",
+   "syl": "3. Biology: The cell membrane"
+  },
+  {
+   "stem": "A plant leaf cell is placed in a solution whose concentration of non-penetrating solutes is much higher than that of the cell sap. Which outcome is expected?",
+   "options": [
+    "Water enters the cell until the cell bursts, because plant cells have no way of stopping water uptake.",
+    "Water leaves the cell, the protoplast pulls away from the cell wall, and the cell does not burst.",
+    "Water leaves the cell until the cell bursts, because the wall cannot resist shrinking.",
+    "There is no net movement of water, because the cell wall blocks osmosis.",
+    "Water enters the cell and builds turgor pressure against the wall."
+   ],
+   "ans": "B",
+   "exp": "The outside solution is hypertonic, so water leaves by osmosis and the protoplast shrinks away from the wall, a state called plasmolysis; the rigid wall prevents bursting. The other water-entry options contradict the direction of the concentration difference, and a wall does not stop osmosis.",
+   "topic": "Biology · osmosis, plasmolysis and turgor",
+   "lik": "M",
+   "syl": "3. Biology: The cell membrane"
+  },
+  {
+   "stem": "A drug stops the transcription of ribosomal RNA in the nucleolus of a eukaryotic cell, while the transcription of protein-coding genes and the rest of the cell's metabolism continue intact for several hours. Which outcome is expected?",
+   "options": [
+    "Protein synthesis continues unchanged, because ribosomes are assembled in the cytoplasm without the nucleolus.",
+    "Messenger RNA is destroyed as soon as it leaves the nucleus, because the nucleolus protects it.",
+    "DNA replication speeds up, because the freed RNA polymerase begins copying DNA.",
+    "Messenger RNA accumulates but is translated less efficiently, because no new ribosomal subunits are assembled, so the rate of protein synthesis falls.",
+    "Only the synthesis of proteins destined for secretion stops, because those proteins are made by the nucleolus itself."
+   ],
+   "ans": "D",
+   "exp": "The nucleolus makes ribosomal RNA and assembles ribosomal subunits, so blocking it starves the cytoplasm of new ribosomes while messenger RNA keeps being produced, and translation slows. Secreted proteins are made on ribosomes of the rough endoplasmic reticulum, which draw on the same supply of subunits as free ribosomes.",
+   "topic": "Biology · nucleolus, ribosome assembly and translation",
+   "lik": "M",
+   "syl": "3. Biology: The cell as the basis of life"
+  },
+  {
+   "stem": "In a eukaryotic gene, a single base substitution occurs well upstream of the coding sequence, within the promoter region where RNA polymerase binds, and the change weakens this binding. The coding sequence itself is unchanged. Which outcome is expected?",
+   "options": [
+    "One amino acid in the protein is replaced by a different one, because every base substitution changes the protein.",
+    "The amino acid sequence of the protein is unchanged, but the protein is produced in reduced amounts, because transcription of the gene is less efficient.",
+    "The reading frame of the gene shifts, so the protein differs completely downstream of the mutation.",
+    "The gene can never be transcribed again, because a damaged promoter destroys the DNA.",
+    "The cell is unaffected in every way, because promoter changes cannot influence protein production."
+   ],
+   "ans": "B",
+   "exp": "The mutation lies outside the coding sequence, so the messenger RNA and its amino acid sequence stay the same, but a weaker polymerase binding site lowers the rate of transcription and therefore the amount of protein made. Frameshifts require added or deleted bases, and promoter changes certainly can affect the cell, which is exactly what happens here.",
+   "topic": "Biology · promoter versus coding mutations",
+   "lik": "H",
+   "syl": "3. Biology: Molecular genetics"
+  },
+  {
+   "stem": "During meiosis I in a human oocyte, one pair of homologous chromosomes fails to separate (nondisjunction). Meiosis II then proceeds normally, and the resulting egg cell is fertilised by a normal sperm. Which statement is correct?",
+   "options": [
+    "All four products of meiosis have an abnormal chromosome number, and fertilisation by a normal sperm produces a zygote with either 45 or 47 chromosomes.",
+    "Two of the four products are normal, and fertilisation produces a normal zygote in half of the cases.",
+    "The four products have 24, 24, 23 and 23 chromosomes, because only the second division is disturbed.",
+    "The zygote always has 47 chromosomes, because nondisjunction always produces extra chromosomes.",
+    "The egg is always inviable, because cells with unpaired homologous chromosomes cannot be fertilised."
+   ],
+   "ans": "A",
+   "exp": "In meiosis I nondisjunction both homologues go to one pole, so every product is aneuploid: two carry 24 chromosomes and two carry 22, and a normal sperm gives zygotes of 47 or 45 depending on which product becomes the egg. The 24, 24, 23, 23 pattern and the half-normal outcome belong to nondisjunction in meiosis II.",
+   "topic": "Biology · nondisjunction in meiosis I and gamete outcomes",
+   "lik": "H",
+   "syl": "3. Biology: Reproduction and inheritance"
+  },
+  {
+   "stem": "Two guinea pigs, both heterozygous for coat colour (Bb) and for hair length (Ll), are crossed. The two genes assort independently. What is the probability that an offspring shows both recessive traits, that is, brown coat (bb) and long hair (ll)?",
+   "options": [
+    "1/16",
+    "1/8",
+    "3/16",
+    "1/4",
+    "9/16"
+   ],
+   "ans": "A",
+   "exp": "Each recessive phenotype appears in one quarter of the offspring for its own gene, so bb occurs with probability 1/4 and ll with probability 1/4, and with independent assortment the probabilities multiply: 1/4 × 1/4 = 1/16. The value 9/16 is the probability of showing both dominant traits instead.",
+   "topic": "Biology · dihybrid cross with independent assortment",
+   "lik": "M",
+   "syl": "3. Biology: Reproduction and inheritance"
+  },
+  {
+   "stem": "In a population in Hardy-Weinberg equilibrium, one child in 2,500 is born with a recessive genetic disease. Assuming random mating and a large population, roughly what fraction of the population are carriers (heterozygotes) for the disease allele?",
+   "options": [
+    "1/2500",
+    "1/50",
+    "1/25",
+    "2/25",
+    "49/50"
+   ],
+   "ans": "C",
+   "exp": "The affected frequency q² equals 1/2500, so q = 1/50 and p = 49/50, giving a carrier frequency 2pq = 2 × (49/50) × (1/50) = 98/2500, which is close to 1/25. The value 1/50 is the allele frequency itself, and 1/2500 counts only affected individuals.",
+   "topic": "Biology · Hardy-Weinberg carrier frequency",
+   "lik": "M",
+   "syl": "3. Biology: Reproduction and inheritance"
+  },
+  {
+   "stem": "Colchicine prevents the assembly of spindle microtubules. A cell that has completed DNA replication is exposed to colchicine as it enters mitosis. At which stage, and with which appearance, will treated cells accumulate?",
+   "options": [
+    "In prophase, because spindle formation is required for chromosome condensation.",
+    "At metaphase, with fully condensed chromosomes each consisting of two sister chromatids and no separation of the chromatids.",
+    "In anaphase, because colchicine triggers the separation of the chromatids.",
+    "In telophase, because the nuclear envelope reforms without spindle function.",
+    "In interphase, because the cell returns to G1 without dividing."
+   ],
+   "ans": "B",
+   "exp": "Chromosomes condense in prophase independently of the spindle and the nuclear envelope breaks down on schedule, but without microtubules the sister chromatids can never be pulled apart, so treated cells pile up at a metaphase-like stage. Colchicine does not trigger anaphase, and cells do not return to interphase without completing division.",
+   "topic": "Biology · spindle poisons and mitotic arrest",
+   "lik": "M",
+   "syl": "3. Biology: Reproduction and inheritance"
+  },
+  {
+   "stem": "A toxin blocks the proton channel of mitochondrial ATP synthase, so protons can no longer flow back into the matrix, while the electron transport chain still transfers electrons to oxygen at first. In cells whose mitochondria are treated with this toxin, which statement is correct?",
+   "options": [
+    "Electron transport continues at its normal rate, because oxygen is still available and ATP synthesis is a separate process.",
+    "The proton gradient dissipates through the blocked ATP synthase and electron transport accelerates above normal.",
+    "The cells switch to photosynthesis in order to regenerate their NADPH.",
+    "Glycolysis continues normally, because glycolysis never needs NAD+ at any step.",
+    "Electron transport soon stops because the growing proton gradient opposes further pumping, NADH accumulates and is no longer reoxidised, and glycolysis can only continue by converting pyruvate to lactate."
+   ],
+   "ans": "E",
+   "exp": "With the return path for protons blocked, the gradient builds until pumping against it stalls, so electron transport and NADH oxidation fail even though oxygen is present. Glycolysis then depends on regenerating NAD+, which lactate fermentation does; the dissipating-gradient description fits an uncoupler, not a blocked channel.",
+   "topic": "Biology · ATP synthase block with fermentation logic",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "After death, calcium ions leak out of the sarcoplasmic reticulum and are never pumped back, and ATP production has stopped. Cross-bridges form between myosin heads and actin. Which statement explains why the muscles then become rigid (rigor mortis)?",
+   "options": [
+    "The actin filaments shorten permanently, pulling the muscle rigid.",
+    "The lack of ATP causes the sarcoplasmic reticulum to release more calcium, which stiffens the muscle membrane.",
+    "Without ATP the myosin heads cannot bind actin at all, so the fibres separate and harden.",
+    "Tropomyosin detaches from actin because its position depends on ATP rather than on calcium.",
+    "Myosin heads remain locked onto actin because ATP is needed to detach them, and with no ATP the cross-bridges cannot break, so the muscle stays contracted."
+   ],
+   "ans": "E",
+   "exp": "Detachment of a myosin head from actin is an ATP-binding step, so after death the bound heads cannot release and the muscle freezes in a contracted state. Filament lengths never change in the sliding filament model, the calcium was already released from the leaking sarcoplasmic reticulum, and tropomyosin's position depends on calcium.",
+   "topic": "Biology · cross-bridge cycle and rigor mortis",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "The aortic semilunar valve of a patient is narrowed (stenosed), so the opening through which blood leaves the left ventricle is reduced. Which chain of consequences follows?",
+   "options": [
+    "Blood flows back from the aorta into the left ventricle during diastole, and the right ventricle enlarges first.",
+    "The left atrium enlarges because it pumps blood directly into the aorta.",
+    "Blood pressure in the pulmonary arteries falls, because the lungs receive less blood.",
+    "The left ventricle must generate a higher pressure to eject blood, ejection takes longer, and the ventricle wall thickens over time under the extra load.",
+    "The mitral valve is held open during systole, which raises the pressure in the left atrium."
+   ],
+   "ans": "D",
+   "exp": "A narrowed outflow tract raises the resistance the left ventricle works against, so it must reach a higher pressure, ejects more slowly and hypertrophies over time. The described backflow fits a leaky (incompetent) valve rather than a narrowed one, the mitral valve is closed throughout systole, and the pulmonary circuit is not the first to be affected.",
+   "topic": "Biology · aortic stenosis and ventricular workload",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "In a healthy chest, the pressure in the pleural cavity between the lung and the chest wall is lower than atmospheric, which keeps the lung expanded against the chest wall. A fractured rib tears the lung surface and lets air leak into the right pleural cavity until the pressure there equals atmospheric pressure. What happens to the right lung, and why?",
+   "options": [
+    "The right lung inflates further, because the incoming air pushes directly into the lung tissue.",
+    "The right lung collapses inward, because its elastic recoil is no longer opposed by the sub-atmospheric pleural pressure, while the chest wall springs outward.",
+    "The right lung is unaffected, because the diaphragm alone keeps it inflated.",
+    "The right lung collapses because the air destroys the elastic fibres of the alveolar walls.",
+    "The lung and the chest wall are drawn toward each other with extra force, keeping the lung inflated."
+   ],
+   "ans": "B",
+   "exp": "The lung and the chest wall pull in opposite directions and the negative pleural pressure couples them; once air lets that pressure reach atmospheric, the lung's recoil collapses it while the chest wall expands outward. The elastic fibres are not destroyed, and without the pressure difference nothing holds the lung open.",
+   "topic": "Biology · pleural pressure and lung recoil",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Carbon monoxide binds to haemoglobin at the same sites as oxygen, with an affinity more than 200 times greater, and it is released only slowly. A fire victim is breathing air containing carbon monoxide. A pulse oximeter cannot distinguish carboxyhaemoglobin from oxyhaemoglobin. Which statement is correct?",
+   "options": [
+    "The blood carries far less oxygen than its haemoglobin capacity allows, yet a pulse oximeter still reads a high saturation because carbon monoxide bound to haemoglobin looks like oxygen-bound haemoglobin.",
+    "The blood carries less oxygen, and a pulse oximeter immediately shows a falsely low reading, which makes diagnosis simple.",
+    "Carbon monoxide only reduces the small amount of oxygen dissolved in plasma, leaving haemoglobin transport untouched.",
+    "Oxygen transport is normal, because carbon monoxide displaces carbon dioxide from haemoglobin rather than oxygen.",
+    "Tissue oxygen delivery rises, because carbon monoxide increases the affinity of haemoglobin for oxygen."
+   ],
+   "ans": "A",
+   "exp": "Carbon monoxide occupies the oxygen-binding sites, so the blood's oxygen capacity collapses, but the instrument cannot distinguish carboxyhaemoglobin from oxyhaemoglobin and reports a falsely high saturation. Dissolved oxygen is a tiny fraction of total transport, and a higher affinity of the remaining sites means less release to tissues, not more.",
+   "topic": "Biology · carbon monoxide and oxygen transport",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A glucose molecule is absorbed from the lumen of the small intestine into a capillary of an intestinal villus. Which of the following gives the correct route it takes on the way to the hepatic vein?",
+   "options": [
+    "Intestinal villus capillary, hepatic portal vein, liver sinusoids, hepatic vein",
+    "Intestinal villus capillary, hepatic vein, liver sinusoids, hepatic portal vein",
+    "Intestinal villus capillary, hepatic artery, liver sinusoids, hepatic portal vein",
+    "Intestinal villus capillary, vena cava, right atrium, hepatic portal vein",
+    "Intestinal villus capillary, lacteal, thoracic duct, hepatic vein"
+   ],
+   "ans": "A",
+   "exp": "Nutrients absorbed into the blood capillaries of the villus travel in the hepatic portal vein to the liver sinusoids, a second capillary bed, and leave by the hepatic vein, without passing the heart first. The lacteal carries fats rather than glucose, and the hepatic artery supplies oxygen to the liver instead of carrying absorbed nutrients.",
+   "topic": "Biology · hepatic portal circulation",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A person takes tablets containing thyroxine (T4) every day in fairly high doses, without medical supervision. The normal feedback control of the thyroid axis still works correctly. Which pattern of blood hormone levels is expected?",
+   "options": [
+    "TSH high and T4 high, because the pituitary reacts to high T4 by secreting more TSH.",
+    "TSH high and T4 low, because the tablets stop the thyroid gland from working.",
+    "TRH and TSH both high, because the thyroid gland cannot respond to the tablets.",
+    "TSH low and T4 high, because the extra T4 suppresses the hypothalamus and the pituitary through normal negative feedback.",
+    "TSH and T4 both normal, because thyroxine taken by mouth is destroyed before reaching the blood."
+   ],
+   "ans": "D",
+   "exp": "The tablets raise blood T4, and normal negative feedback turns down TRH and TSH secretion, so TSH falls while T4 stays high. The high-TSH patterns reverse the feedback logic, and oral thyroxine is precisely how hypothyroid patients are treated, so it is not destroyed before absorption.",
+   "topic": "Biology · thyroid feedback with exogenous hormone",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A hill walker walks for hours in extreme heat, loses a large volume of sweat and drinks almost nothing. Plasma volume falls and the plasma becomes more concentrated. Which set of responses is expected?",
+   "options": [
+    "ADH secretion falls and the kidneys produce large volumes of dilute urine.",
+    "Aldosterone secretion falls, so more sodium is lost in the urine.",
+    "ADH secretion stays unchanged, because ADH responds only to blood pressure and never to plasma concentration.",
+    "The glomerular filtration rate rises sharply and urine volume increases.",
+    "ADH secretion rises, the collecting ducts reabsorb more water so the urine becomes concentrated, and thirst is stimulated."
+   ],
+   "ans": "E",
+   "exp": "A rise in plasma concentration and a fall in plasma volume both stimulate ADH release from the posterior pituitary, which concentrates the urine, while osmoreceptors drive the sensation of thirst. The falling-ADH and rising-filtration options describe the body's response to drinking excess water, the opposite situation.",
+   "topic": "Biology · ADH, thirst and water balance",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A person with type 1 diabetes injects insulin but then skips the next meal and takes vigorous exercise, and the blood glucose level begins to fall below normal. Which sequence of responses follows in this person?",
+   "options": [
+    "The liver converts glucose into glycogen faster, storing away the effect of the injected insulin.",
+    "Glucagon and adrenaline secretion rise, the liver breaks down glycogen and releases glucose into the blood, and the person feels warning symptoms such as hunger and trembling.",
+    "The pancreas secretes additional insulin, which corrects the glucose level.",
+    "Glucagon secretion falls, so the muscles take up more glucose from the blood.",
+    "The kidneys stop filtering glucose, which keeps the blood level constant."
+   ],
+   "ans": "B",
+   "exp": "Falling blood glucose triggers the counter-regulatory hormones glucagon and adrenaline, which mobilise liver glycogen and produce warning symptoms, defending the brain's fuel supply. In type 1 diabetes the pancreas cannot secrete extra insulin, and the other options move glucose in the wrong direction or describe processes that do not exist.",
+   "topic": "Biology · hypoglycaemia counter-regulation",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "The oesophagus is lined by stratified squamous epithelium many cells thick, while the small intestine is lined by a single layer of columnar cells. Which statement best explains this difference?",
+   "options": [
+    "The oesophagus absorbs nutrients more slowly than the intestine and needs extra layers to compensate.",
+    "Stratified squamous epithelium secretes more digestive enzymes, which is why the oesophagus digests food first.",
+    "A single layer of columnar cells is stronger, which suits the intestine as the first part of the gut to receive food.",
+    "The two linings do the same job, and the difference is a random outcome of embryonic development.",
+    "The oesophagus needs a many-layered, abrasion-resistant lining against swallowed food, while the intestine needs a thin single layer specialised for absorption."
+   ],
+   "ans": "E",
+   "exp": "Structure follows function: multi-layered squamous epithelium resists the abrasion of swallowing, while a single thin layer shortens the diffusion distance for absorbing nutrients. The oesophagus digests nothing, and the intestine's single layer is a functional specialisation, not a strength.",
+   "topic": "Biology · epithelium matched to function",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A patient tears the meniscus, a pad of cartilage in the knee, and is told that it heals much more slowly than a similar tear in the skin. Which feature of cartilage best explains this?",
+   "options": [
+    "Cartilage cells divide faster than skin cells but build a weaker matrix.",
+    "Cartilage is a type of nervous tissue, so repair signals cannot reach the injury.",
+    "The cartilage matrix is made of keratin, which never grows back after damage.",
+    "Cartilage contains few or no blood vessels, so repair cells and their building materials reach the injury only slowly by diffusion.",
+    "Cartilage is buried under skin everywhere in the body, so repair cells cannot physically reach it."
+   ],
+   "ans": "D",
+   "exp": "Repair depends on the blood supply to deliver cells, oxygen and building materials, and cartilage is essentially avascular, which explains its very slow healing. Keratin belongs to the epidermis, cartilage is connective tissue, and lying beneath the skin does not prevent repair cells from reaching a tissue.",
+   "topic": "Biology · cartilage structure and repair",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A large beetle population has an allele frequency of 0.4 for allele A at one locus. A flood leaves only ten survivors: six AA, three Aa and one aa, and these found a new population. What is the frequency of allele A among the survivors, and what does the change from 0.4 illustrate?",
+   "options": [
+    "0.15, and the change illustrates gene flow from another population.",
+    "0.40, and the change illustrates the constancy required by the Hardy-Weinberg principle.",
+    "0.60, and the change illustrates natural selection favouring allele A.",
+    "0.75, and the change illustrates genetic drift caused by a population bottleneck.",
+    "0.80, and the change illustrates a new mutation increasing allele A."
+   ],
+   "ans": "D",
+   "exp": "The survivors carry 15 copies of allele A among 20 alleles in total (6 × 2 from AA plus 3 from Aa), a frequency of 0.75. A chance-heavy reduction to a handful of founders that shifts allele frequencies is the bottleneck form of genetic drift; no selection, migration or mutation is described, and 0.60 counts only the homozygotes' alleles.",
+   "topic": "Biology · bottleneck effect and allele frequency",
+   "lik": "H",
+   "syl": "3. Biology: Reproduction and inheritance"
+  }
+ ]
+}

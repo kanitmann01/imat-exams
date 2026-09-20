@@ -1,43 +1,44 @@
 /* Service worker: PWA-lite. Precache the shell + banks; network-first for
    navigations, data and config so content fixes propagate; cache-first for
    versioned static assets. Never touches cross-origin (Supabase) traffic. */
-const VERSION = "288d5e1d";
+const VERSION = "f428eb2c";
 const CACHE = "imatex-" + VERSION;
 const PRECACHE = [
   "./",
   "./index.html",
   "./404.html",
   "./manifest.webmanifest",
-  "./config.js?v=288d5e1d",
-  "./css/app.css?v=288d5e1d",
+  "./config.js?v=f428eb2c",
+  "./css/app.css?v=f428eb2c",
   "./assets/icons/favicon.svg",
   "./assets/icons/icon-192.png",
   "./assets/icons/icon-512.png",
-  "./js/app.js?v=288d5e1d",
-  "./js/banks.js?v=288d5e1d",
-  "./js/core.js?v=288d5e1d",
-  "./js/grader.js?v=288d5e1d",
-  "./js/timer.js?v=288d5e1d",
-  "./js/store.js?v=288d5e1d",
-  "./js/ui.js?v=288d5e1d",
-  "./js/analytics.js?v=288d5e1d",
-  "./js/legacy.js?v=288d5e1d",
-  "./js/legacy-run.js?v=288d5e1d",
-  "./js/sync.js?v=288d5e1d",
-  "./js/view-home.js?v=288d5e1d",
-  "./js/view-exam.js?v=288d5e1d",
-  "./js/view-review.js?v=288d5e1d",
-  "./js/view-history.js?v=288d5e1d",
-  "./js/view-compare.js?v=288d5e1d",
-  "./js/view-analytics.js?v=288d5e1d",
-  "./js/view-settings.js?v=288d5e1d",
+  "./js/app.js?v=f428eb2c",
+  "./js/banks.js?v=f428eb2c",
+  "./js/core.js?v=f428eb2c",
+  "./js/grader.js?v=f428eb2c",
+  "./js/timer.js?v=f428eb2c",
+  "./js/store.js?v=f428eb2c",
+  "./js/ui.js?v=f428eb2c",
+  "./js/analytics.js?v=f428eb2c",
+  "./js/legacy.js?v=f428eb2c",
+  "./js/legacy-run.js?v=f428eb2c",
+  "./js/sync.js?v=f428eb2c",
+  "./js/view-home.js?v=f428eb2c",
+  "./js/view-exam.js?v=f428eb2c",
+  "./js/view-review.js?v=f428eb2c",
+  "./js/view-history.js?v=f428eb2c",
+  "./js/view-compare.js?v=f428eb2c",
+  "./js/view-analytics.js?v=f428eb2c",
+  "./js/view-settings.js?v=f428eb2c",
   "./data/exams.json",
 ];
 const BANKS = [
   "./data/imat_mock1.json", "./data/imat_mock2.json", "./data/imat_mock3.json",
   "./data/imat_mock4.json", "./data/imat_mock5.json", "./data/imat_mock6.json",
-  "./data/imat_mock7.json", "./data/imat_mock8.json",
+  "./data/imat_mock7.json", "./data/imat_mock8.json", "./data/imat_mock9.json",
   "./data/GK_Drill_100.json", "./data/Repair_Drill_1.json",
+  "./data/bank_bio_hard.json", "./data/bank_chem_hard.json", "./data/bank_mpl_hard.json",
 ];
 
 self.addEventListener("install", (e) => {

@@ -1,0 +1,201 @@
+{
+ "bank": "bank_chem_hard",
+ "section": "C",
+ "questions": [
+  {
+   "stem": "What is the pH of a 2.0 × 10⁻⁴ mol/dm³ solution of hydrochloric acid, a strong acid that is fully ionised in water?",
+   "options": [
+    "2.7",
+    "3.3",
+    "3.7",
+    "4.0",
+    "10.3"
+   ],
+   "ans": "C",
+   "exp": "HCl is fully ionised, so [H⁺] = 2.0 × 10⁻⁴ mol/dm³ and pH = 4 − 0.30 = 3.70. The 4.0 option drops the 0.30 from log 2, and the 10.3 option wrongly treats the solution as basic.",
+   "topic": "Chemistry · pH of a strong acid",
+   "lik": "M",
+   "syl": "4. Chemistry: Acids and bases"
+  },
+  {
+   "stem": "What is the pOH of a 5.0 × 10⁻² mol/dm³ solution of nitric acid, a strong acid that is fully ionised in water? (Kw = 1.0 × 10⁻¹⁴ at 25 °C)",
+   "options": [
+    "1.3",
+    "2.7",
+    "12.3",
+    "12.7",
+    "13.7"
+   ],
+   "ans": "D",
+   "exp": "Fully ionised HNO₃ gives [H⁺] = 5.0 × 10⁻² mol/dm³, so pH = 2 − 0.70 = 1.30 and pOH = 14 − 1.30 = 12.70. The 1.3 option reports the pH instead of the pOH, and the 12.3 option subtracts 1.7 instead of 1.3.",
+   "topic": "Chemistry · pOH from a strong acid",
+   "lik": "M",
+   "syl": "4. Chemistry: Acids and bases"
+  },
+  {
+   "stem": "Strontium hydroxide, Sr(OH)₂, is a strong base that is fully dissociated in water. What is the pH of a 5.0 × 10⁻⁴ mol/dm³ solution of Sr(OH)₂? (Kw = 1.0 × 10⁻¹⁴ at 25 °C)",
+   "options": [
+    "3.0",
+    "10.7",
+    "11.0",
+    "11.7",
+    "12.0"
+   ],
+   "ans": "C",
+   "exp": "Each Sr(OH)₂ releases two OH⁻ ions, so [OH⁻] = 1.0 × 10⁻³ mol/dm³, pOH = 3.0 and pH = 11.0. The 10.7 option forgets the factor of two and keeps pOH = 3.3, while the 3.0 option reports pOH as if it were pH.",
+   "topic": "Chemistry · pH from a dibasic strong base",
+   "lik": "H",
+   "syl": "4. Chemistry: Acids and bases"
+  },
+  {
+   "stem": "Four solutions are prepared at 25 °C (Kw = 1.0 × 10⁻¹⁴) from fully ionised solutes: P is 1.0 × 10⁻³ mol/dm³ HCl, Q is 5.0 × 10⁻³ mol/dm³ HCl, R is 1.0 × 10⁻³ mol/dm³ NaOH and S is 1.0 × 10⁻³ mol/dm³ Ba(OH)₂. Which option places the four solutions in order of increasing pH?",
+   "options": [
+    "P, Q, R, S",
+    "Q, P, R, S",
+    "Q, P, S, R",
+    "P, Q, S, R",
+    "S, R, Q, P"
+   ],
+   "ans": "B",
+   "exp": "P has pH 3.0 and Q has pH 3 − 0.70 = 2.3, so the more concentrated acid has the lower pH. R has pH 11.0, and S releases two OH⁻ per formula unit, so [OH⁻] = 2.0 × 10⁻³ mol/dm³, pOH = 2.7 and pH = 11.3. The order is Q, P, R, S; ordering by molarity alone, as in P, Q, R, S, ignores what the logarithm does to concentration.",
+   "topic": "Chemistry · ordering pH across acid and base solutions",
+   "lik": "H",
+   "syl": "4. Chemistry: Acids and bases"
+  },
+  {
+   "stem": "Pure water is heated from 25 °C to 60 °C. As the temperature rises, Kw increases, and the pH of pure water at 60 °C is measured to be 6.5. Which of the following statements is correct?",
+   "options": [
+    "The water is acidic, because a pH below 7 always means more H₃O⁺ than OH⁻.",
+    "The water is basic, because heating pushes the hydroxide concentration above the hydrogen ion concentration.",
+    "The water is neutral, because Kw keeps the value 1.0 × 10⁻¹⁴ at every temperature.",
+    "The water is acidic, because heating destroys hydroxide ions faster than hydrogen ions.",
+    "The water is neutral, because [H⁺] and [OH⁻] stay equal while both become larger than at 25 °C."
+   ],
+   "ans": "E",
+   "exp": "Kw = [H⁺][OH⁻] rises with temperature, and pure water always produces H⁺ and OH⁻ in equal amounts, so at 60 °C both concentrations sit above 1.0 × 10⁻⁷ mol/dm³ and the pH drops below 7 without any acidity. Neutrality is defined by equal concentrations of the two ions, not by the number 7.",
+   "topic": "Chemistry · Kw and the pH of neutral water",
+   "lik": "H",
+   "syl": "4. Chemistry: Equilibria in aqueous solution"
+  },
+  {
+   "stem": "At 10 °C the ionic product of water has fallen to Kw = 3.0 × 10⁻¹⁵ mol² dm⁻⁶. What is the hydroxide ion concentration, [OH⁻], in pure water at 10 °C?",
+   "options": [
+    "3.0 × 10⁻¹⁵ mol/dm³",
+    "1.7 × 10⁻⁸ mol/dm³",
+    "5.5 × 10⁻⁸ mol/dm³",
+    "9.0 × 10⁻⁸ mol/dm³",
+    "1.0 × 10⁻⁷ mol/dm³"
+   ],
+   "ans": "C",
+   "exp": "In pure water [H⁺] = [OH⁻], so [OH⁻]² = Kw and [OH⁻] = √(3.0 × 10⁻¹⁵) = about 5.5 × 10⁻⁸ mol/dm³. The 1.0 × 10⁻⁷ option keeps the 25 °C value, and 3.0 × 10⁻¹⁵ confuses the ionic product itself with a concentration.",
+   "topic": "Chemistry · ionic product of water",
+   "lik": "H",
+   "syl": "4. Chemistry: Equilibria in aqueous solution"
+  },
+  {
+   "stem": "10 cm³ of 0.10 mol/dm³ hydrochloric acid, fully ionised, is diluted with water to a final volume of 1.0 dm³. By how much does the pH of the solution change?",
+   "options": [
+    "It rises by 2 units.",
+    "It rises by 1 unit.",
+    "It reaches pH 7, because a hundredfold dilution turns any strong acid neutral.",
+    "It falls by 2 units.",
+    "It stays the same, because the amount of acid is unchanged."
+   ],
+   "ans": "A",
+   "exp": "The amount of HCl stays 1.0 × 10⁻³ mol, but the volume grows a hundredfold, so [H⁺] falls from 0.10 to 1.0 × 10⁻³ mol/dm³ and the pH climbs from 1.0 to 3.0. The pH 7 option confuses dilution with neutralisation, and the unchanged option ignores the concentration change.",
+   "topic": "Chemistry · pH shift on dilution",
+   "lik": "H",
+   "syl": "4. Chemistry: Acids and bases"
+  },
+  {
+   "stem": "What volume of water must be added to 20 cm³ of 1.0 × 10⁻² mol/dm³ hydrochloric acid, fully ionised, to obtain a solution of pH 4.0 at 25 °C?",
+   "options": [
+    "180 cm³",
+    "198 cm³",
+    "200 cm³",
+    "1980 cm³",
+    "2000 cm³"
+   ],
+   "ans": "D",
+   "exp": "pH 4.0 requires [H⁺] = 1.0 × 10⁻⁴ mol/dm³, a hundredfold dilution, so the final volume is 20 × 100 = 2000 cm³ and the water to add is 2000 − 20 = 1980 cm³. The 2000 cm³ option forgets that the 20 cm³ of acid already occupies part of the final volume.",
+   "topic": "Chemistry · dilution to a target pH",
+   "lik": "M",
+   "syl": "4. Chemistry: Solutions"
+  },
+  {
+   "stem": "Which of the following mixtures, made up with pure water as solvent, can act as a buffer solution?",
+   "options": [
+    "100 cm³ of 0.10 mol/dm³ ethanoic acid mixed with 100 cm³ of 0.10 mol/dm³ sodium hydroxide.",
+    "100 cm³ of 0.10 mol/dm³ hydrochloric acid mixed with 100 cm³ of 0.10 mol/dm³ sodium chloride.",
+    "100 cm³ of 0.10 mol/dm³ hydrochloric acid mixed with 50 cm³ of 0.10 mol/dm³ sodium hydroxide.",
+    "A 0.10 mol/dm³ solution of ethanoic acid alone in water.",
+    "100 cm³ of 0.10 mol/dm³ ethanoic acid mixed with 50 cm³ of 0.10 mol/dm³ sodium hydroxide."
+   ],
+   "ans": "E",
+   "exp": "Neutralising half of the ethanoic acid leaves comparable amounts of ethanoic acid and ethanoate ions, the weak acid and its conjugate base that a buffer needs. Exact neutralisation leaves only sodium ethanoate, the strong-acid mixtures leave excess strong acid or spectator ions, and a weak acid alone has no reserve of its conjugate base.",
+   "topic": "Chemistry · recognising a buffer mixture",
+   "lik": "M",
+   "syl": "4. Chemistry: Equilibria in aqueous solution"
+  },
+  {
+   "stem": "A buffer solution contains comparable amounts of ethanoic acid and sodium ethanoate and has pH 4.8. An equal volume of pure water is added to it. Which of the following statements is correct?",
+   "options": [
+    "The pH stays close to 4.8 because the ratio of ethanoate to ethanoic acid is unchanged, but the buffer capacity falls.",
+    "The pH rises by about one unit because both concentrations fall by a factor of two.",
+    "The pH falls because the acid becomes effectively stronger on dilution.",
+    "The pH and the buffer capacity are both unchanged, because a buffer resists any change made to it.",
+    "The buffer is destroyed, because dilution pushes the dissociation of the acid completely towards the ions."
+   ],
+   "ans": "A",
+   "exp": "The buffer pH is set by the ethanoate-to-acid ratio, and dividing both concentrations by the same factor leaves that ratio alone, so the pH barely moves while the reserve amounts shrink. Capacity, not pH, is what dilution costs a buffer.",
+   "topic": "Chemistry · buffer behaviour on dilution",
+   "lik": "H",
+   "syl": "4. Chemistry: Equilibria in aqueous solution"
+  },
+  {
+   "stem": "Which of the following statements about the behaviour of salts dissolved in water is correct?",
+   "options": [
+    "Ammonium chloride gives a basic solution, because the ammonium ion accepts a proton from water.",
+    "Sodium ethanoate gives a basic solution, because the ethanoate ion accepts a proton from water and releases OH⁻.",
+    "Sodium ethanoate gives an acidic solution, because the sodium ion donates protons to water.",
+    "Sodium chloride gives a basic solution, because the chloride ion accepts protons from water.",
+    "Ammonium nitrate gives a basic solution, because the nitrate ion accepts protons from water."
+   ],
+   "ans": "B",
+   "exp": "Ethanoate is the conjugate base of a weak acid, so it hydrolyses water to CH₃COOH and OH⁻ and the solution turns basic. The ammonium claim reverses the direction, since NH₄⁺ donates a proton to water and gives an acidic solution, while chloride and nitrate are conjugate bases of strong acids and do not hydrolyse.",
+   "topic": "Chemistry · hydrolysis of salt ions",
+   "lik": "H",
+   "syl": "4. Chemistry: Equilibria in aqueous solution"
+  },
+  {
+   "stem": "A drip bag holds 500 cm³ of glucose solution containing 9.0 g of glucose (M = 180 g/mol); the label reads 1.8 % w/v, meaning 1.8 g of glucose per 100 cm³ of solution. What is the molarity of the glucose?",
+   "options": [
+    "0.010 mol/dm³",
+    "0.050 mol/dm³",
+    "0.100 mol/dm³",
+    "0.180 mol/dm³",
+    "1.80 mol/dm³"
+   ],
+   "ans": "C",
+   "exp": "The bag holds 9.0/180 = 0.050 mol of glucose in 0.500 dm³, giving 0.050/0.500 = 0.10 mol/dm³. The 0.050 mol/dm³ option stops at the mole count and never divides by the volume of the bag.",
+   "topic": "Chemistry · percent w/v converted to molarity",
+   "lik": "M",
+   "syl": "4. Chemistry: Solutions"
+  },
+  {
+   "stem": "At 25 °C the solubility of calcium hydroxide in water is 1.85 g per dm³ of saturated solution, and the dissolved salt is fully dissociated. (M(Ca(OH)₂) = 74 g/mol; Kw = 1.0 × 10⁻¹⁴ at 25 °C; for dilute aqueous solutions 1 ppm is 1 mg per dm³.) Which of the following statements is correct?",
+   "options": [
+    "The solubility is 0.025 mol/dm³ and the pH of the saturated solution is 12.70.",
+    "The solubility is 0.050 mol/dm³ and the pH of the saturated solution is 12.70.",
+    "The solubility is 0.025 mol/dm³ and the pH of the saturated solution is 11.30.",
+    "The solubility is 0.025 mol/dm³ and the calcium ion concentration is 1850 ppm.",
+    "The solubility is 0.050 mol/dm³ and the pH of the saturated solution is 13.30."
+   ],
+   "ans": "A",
+   "exp": "n = 1.85/74 = 0.025 mol/dm³, so [OH⁻] = 0.050 mol/dm³, pOH = 2 − 0.70 = 1.30 and pH = 12.70. The 0.050 mol/dm³ option reports the hydroxide concentration as the solubility of the salt, and the calcium ion is in fact 0.025 × 40 = 1.0 g/dm³ = 1000 ppm.",
+   "topic": "Chemistry · solubility converted to molarity and pH",
+   "lik": "H",
+   "syl": "4. Chemistry: Solutions"
+  }
+ ]
+}

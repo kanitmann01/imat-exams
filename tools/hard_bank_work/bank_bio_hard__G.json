@@ -1,0 +1,321 @@
+{
+ "bank": "bank_bio_hard",
+ "section": "G",
+ "questions": [
+  {
+   "stem": "In the small intestine, the enzyme enterokinase converts pancreatic trypsinogen into active trypsin, and trypsin then activates the other pancreatic proenzymes. A drug that fully inhibits enterokinase is given. Which outcome is expected?",
+   "options": [
+    "All digestion of food in the intestine stops, because every pancreatic enzyme is released as an inactive precursor.",
+    "Fat digestion falls to almost zero, because trypsin must first convert prolipase into active lipase.",
+    "Protein digestion in the intestine is strongly impaired, because trypsin and the proenzymes it activates stay inactive, while fat and starch digestion continue, since lipase and amylase are secreted already active.",
+    "Starch digestion stops, because pancreatic amylase is released as an inactive zymogen that only trypsin can switch on.",
+    "Protein digestion ceases entirely, because pepsinogen can no longer be activated without enterokinase."
+   ],
+   "ans": "C",
+   "exp": "Only the proteases travel as zymogens; without enterokinase no trypsin forms, so chymotrypsinogen and procarboxypeptidase are never activated either. The prolipase and amylase options fail because lipase and amylase are secreted already active, and pepsinogen is activated by stomach acid, not by enterokinase.",
+   "topic": "Biology · pancreatic enzymes (zymogen activation cascade)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Which statement about bile in human digestion is correct?",
+   "options": [
+    "Bile is produced by the liver and emulsifies fat into fine droplets, enlarging the surface area exposed to lipase, but it hydrolyses no chemical bonds.",
+    "Bile is produced by the gallbladder, which synthesises it anew each time a fatty meal reaches the duodenum.",
+    "Bile is produced by the liver and digests triglycerides into fatty acids and glycerol by means of its own enzymes.",
+    "Bile is produced by the pancreas and stored by the liver until a fatty meal arrives.",
+    "Bile is produced by the liver and its main digestive role is the breakdown of nucleic acids into nucleotides."
+   ],
+   "ans": "A",
+   "exp": "Bile is made by the liver, stored and concentrated in the gallbladder, and released into the duodenum; emulsification is a physical dispersion that enlarges the surface lipase works on, and bile itself contains no digestive enzymes. The option crediting the gallbladder with production names the standard confusion: the gallbladder only stores and concentrates.",
+   "topic": "Biology · bile (production, storage, emulsification)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A drug almost completely abolishes hydrochloric acid secretion by the stomach. Which outcome follows most directly?",
+   "options": [
+    "The stomach stops secreting pepsinogen altogether, because pepsinogen release is triggered by acid itself.",
+    "Gastric protein digestion is unaffected, because pepsinogen activates itself independently of pH once the food is churned.",
+    "Gastric fat digestion stops completely, because gastric lipase is active only at pH 2 or below.",
+    "Activation of pepsinogen into pepsin is largely prevented, so gastric protein digestion slows, while digestion of protein can still continue in the intestine through pancreatic proteases.",
+    "Bile release stops, because the gallbladder contracts only in response to acid produced by the stomach."
+   ],
+   "ans": "D",
+   "exp": "Acid both converts pepsinogen to active pepsin and supplies the low pH at which pepsin works, so gastric protein digestion drops. Pepsinogen secretion does not require acid, gastric lipase operates at the moderately acidic pH of the stomach, and gallbladder contraction is driven mainly by cholecystokinin, so the other options overstate or misplace the role of acid.",
+   "topic": "Biology · stomach (hydrochloric acid and pepsin)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Rennin (chymosin), secreted by the gastric mucosa of young mammals, turns liquid milk into a solid curd so that it stays longer in the stomach. The substance on which rennin acts is:",
+   "options": [
+    "lactose, the sugar of milk, which is split into glucose and galactose",
+    "casein, the main protein of milk, which coagulates in the presence of calcium ions",
+    "milk fat, which is dispersed into fine droplets",
+    "calcium phosphate dissolved in the milk, which precipitates out",
+    "the immunoglobulins of milk, which are degraded so the young can absorb other nutrients"
+   ],
+   "ans": "B",
+   "exp": "Rennin is a protease: it clots the milk protein casein, with calcium ions stabilising the curd. The lactose option confuses rennin with lactase, and the fat option confuses it with lipase or bile.",
+   "topic": "Biology · stomach (rennin and milk)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Which of the following statements about human digestion is false?",
+   "options": [
+    "Pepsin is secreted as the inactive precursor pepsinogen and is activated by the acid environment of the stomach.",
+    "Pancreatic juice supplies proteases, amylase, lipase and nucleases, which act in the small intestine.",
+    "Bile contains no digestive enzymes, yet efficient fat digestion depends on it.",
+    "Salivary amylase starts starch digestion in the mouth, and its action ceases once the food meets the acid stomach.",
+    "The gallbladder produces bile in response to the hormone cholecystokinin and releases it into the duodenum."
+   ],
+   "ans": "E",
+   "exp": "Cholecystokinin does make the gallbladder contract, but bile is produced by the liver; the gallbladder only stores and concentrates it. The other four statements correctly describe pepsinogen, the contents of pancreatic juice, the enzyme-free role of bile and the fate of salivary amylase.",
+   "topic": "Biology · digestive enzymes (integrated check)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A treatment destroys most of a patient's thyroid gland, including both the follicular cells and the parafollicular (C) cells, while the four parathyroid glands remain intact. Which outcome is expected?",
+   "options": [
+    "Basal metabolic rate rises, because the thyroid hormones are the hormones that slow metabolism down.",
+    "Blood calcium falls to dangerous levels, because calcitonin was the principal hormone that raises blood calcium.",
+    "Basal metabolic rate falls, and blood calcium stays close to normal, because parathyroid hormone from the intact parathyroids is the principal regulator of blood calcium.",
+    "Basal metabolic rate is unaffected, because the thyroid hormones act only on bone remodelling.",
+    "Blood calcium rises uncontrollably, because the loss of calcitonin leaves parathyroid hormone completely unopposed."
+   ],
+   "ans": "C",
+   "exp": "The follicular cells secrete T3 and T4, which set the basal metabolic rate, so their loss lowers it. Calcitonin only fine-tunes calcium downward while parathyroid hormone is the dominant regulator, so calcium remains near normal; the option that makes calcitonin the main calcium-raising hormone reverses its action.",
+   "topic": "Biology · thyroid (T3/T4 and calcitonin)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Blood tests show that a person's plasma calcium concentration is abnormally high. Which endocrine response is expected?",
+   "options": [
+    "Parathyroid hormone secretion falls and calcitonin secretion rises, favouring the deposition of calcium in bone.",
+    "Parathyroid hormone secretion rises, stimulating osteoclasts to release further calcium from bone.",
+    "Calcitonin secretion falls, which allows calcium to accumulate still further in the blood.",
+    "Both parathyroid hormone and calcitonin secretion fall, because both hormones raise blood calcium.",
+    "Insulin secretion falls, because insulin normally removes calcium from the blood along with glucose."
+   ],
+   "ans": "A",
+   "exp": "A high calcium level suppresses parathyroid hormone and stimulates calcitonin, which inhibits osteoclasts and favours calcium deposition, restoring the level by negative feedback. The option raising parathyroid hormone describes the response to low calcium, and the claim that both hormones raise calcium is wrong, since parathyroid hormone raises and calcitonin lowers it.",
+   "topic": "Biology · calcium homeostasis (PTH and calcitonin)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "In untreated type 1 diabetes, insulin secretion is nearly absent and blood glucose rises far above the normal renal threshold. Why does glucose appear in the urine?",
+   "options": [
+    "Insulin normally seals the glomerular filter against glucose; without it, glucose filters freely and none of it can be reabsorbed.",
+    "High blood glucose triggers the active secretion of glucose from the blood into the distal convoluted tubule.",
+    "The sodium-potassium pumps of the proximal tubule fail, so every reabsorptive process in the nephron stops.",
+    "The filtered glucose load exceeds the transport capacity of the reabsorption mechanisms in the proximal convoluted tubule, so the surplus escapes reabsorption and is excreted.",
+    "The collecting duct destroys glucose molecules, so any glucose reaching it can no longer be recovered."
+   ],
+   "ans": "D",
+   "exp": "The proximal convoluted tubule normally reabsorbs essentially all filtered glucose through specific co-transporters, but these have a finite maximum; above the renal threshold the surplus passes on into the urine. Glucose filtration and reabsorption do not depend on insulin, so the option blaming the glomerular filter misstates the mechanism.",
+   "topic": "Biology · kidney (renal threshold for glucose)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "During a long fast, glucagon helps to keep the blood glucose level stable. Which statement about this hormone is correct?",
+   "options": [
+    "It triggers glycogen breakdown equally in liver and muscle, so both tissues feed glucose into the blood.",
+    "It triggers glycogen breakdown mainly in the liver, while muscle keeps its stores because muscle cells lack glucagon receptors and use their glycogen for their own contraction.",
+    "It promotes the uptake of glucose by muscle cells, lowering the blood glucose level during the fast.",
+    "It is released by the alpha cells of the pancreas when blood glucose rises after a meal.",
+    "It converts muscle glycogen directly into blood glucose before the liver is involved at all."
+   ],
+   "ans": "B",
+   "exp": "Glucagon acts chiefly on the liver, driving glycogenolysis and gluconeogenesis; muscle lacks glucagon receptors, so its glycogen serves local contraction only. The option of equal breakdown in both tissues ignores this receptor distribution, and the claim of release when glucose rises reverses the actual trigger.",
+   "topic": "Biology · pancreatic islets (insulin and glucagon)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A drug blocks the active pumping of sodium ions out of the ascending limb of the loop of Henle. Which outcome follows?",
+   "options": [
+    "The salt gradient in the medulla weakens, so the collecting duct reabsorbs less water and a large volume of dilute urine is produced, even when ADH is present.",
+    "ADH secretion rises and concentrates the urine beyond the normal maximum, fully compensating for the block.",
+    "Filtration at the glomerulus stops, because the loop of Henle generates the filtration pressure.",
+    "Glucose escapes into the urine, because the loop of Henle is normally where glucose is reabsorbed.",
+    "The urine becomes maximally concentrated, because sodium accumulates unchecked in the medulla."
+   ],
+   "ans": "A",
+   "exp": "Active sodium transport out of the ascending limb builds the medullary osmotic gradient on which ADH-driven water reabsorption in the collecting duct depends; without it the gradient collapses and dilute urine flows out. No amount of ADH can act on a gradient that no longer exists, and glomerular filtration pressure is independent of the loop.",
+   "topic": "Biology · nephron (loop of Henle, medullary gradient)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A drug enters the fluid of the kidney tubule by two routes: filtration at the glomerulus, and active transport from the peritubular blood into the tubule. The second route of entry is called:",
+   "options": [
+    "reabsorption",
+    "pressure filtration",
+    "countercurrent multiplication",
+    "dialysis",
+    "tubular secretion"
+   ],
+   "ans": "E",
+   "exp": "Secretion is the active transfer of substances from the peritubular blood into the filtrate, the reverse of reabsorption, which carries substances from the tubule back to the blood. Filtration is the pressure-driven, non-selective process at the glomerulus and cannot describe an active second route.",
+   "topic": "Biology · nephron (filtration, reabsorption, secretion)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A healthy person quickly drinks one litre of pure water and plasma osmolarity falls slightly. Which sequence of events follows?",
+   "options": [
+    "ADH release is stimulated, the collecting duct becomes less permeable to water, and a small volume of concentrated urine is produced.",
+    "ADH release is suppressed, the collecting duct becomes more permeable to water, and urine output falls.",
+    "ADH release is suppressed, the collecting duct becomes less permeable to water, and a large volume of dilute urine is produced.",
+    "Aldosterone release stops while ADH stays high, so sodium alone is excreted.",
+    "Glomerular filtration ceases until plasma osmolarity returns to normal, so no urine is produced."
+   ],
+   "ans": "C",
+   "exp": "Osmoreceptors in the hypothalamus detect the falling osmolarity and cut ADH release from the posterior pituitary; the collecting duct becomes water-impermeable and the dilute filtrate leaves as copious pale urine. The option that pairs suppression with increased water permeability reverses the effect of ADH, which inserts aquaporins.",
+   "topic": "Biology · kidney (ADH and water balance)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Which statement about the cells of bone tissue is correct?",
+   "options": [
+    "Osteoblasts dissolve bone matrix and release calcium, while osteoclasts build new matrix.",
+    "Osteoclasts resorb bone matrix, releasing calcium and phosphate into the blood, while osteoblasts deposit new matrix.",
+    "Osteocytes are the main cells that form new bone matrix during growth.",
+    "Chondrocytes resorb calcified matrix in order to release stored calcium.",
+    "Osteoclasts end up trapped in lacunae as mature cells that maintain the matrix."
+   ],
+   "ans": "B",
+   "exp": "Osteoclasts resorb bone and osteoblasts deposit osteoid, and the balance between them, steered by parathyroid hormone and calcitonin, sets blood calcium. The first option swaps the two roles, the usual confusion, while the trapped-in-lacunae description belongs to osteocytes.",
+   "topic": "Biology · bone (osteoblasts and osteoclasts)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A toxin blocks the voltage-gated potassium channels of a neuron but leaves all other channels and the sodium-potassium pump intact. Which outcome follows when the axon is stimulated above threshold?",
+   "options": [
+    "Depolarisation still occurs, but repolarisation is delayed because K⁺ efflux is blocked, so the membrane stays depolarised far longer and cannot carry rapid repeated impulses.",
+    "No depolarisation occurs, because the rising phase of the action potential is driven by potassium leaving the cell.",
+    "The action potential runs normally, because the rising phase depends on chloride and the falling phase on sodium.",
+    "The membrane repolarises faster than normal, because the sodium channels stay open for longer.",
+    "The resting potential is lost at once, because the resting membrane potential is maintained by voltage-gated potassium channels."
+   ],
+   "ans": "A",
+   "exp": "The upstroke of the action potential uses voltage-gated Na⁺ channels and the falling phase uses voltage-gated K⁺ channels; blocking the latter leaves the membrane depolarised and prolongs the refractory period. The last option fails because the resting potential is set by potassium leak through non-gated channels together with the pump, not by gated channels.",
+   "topic": "Biology · neuron (action potential phases)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A poison blocks the voltage-gated calcium channels in the presynaptic terminal of a chemical synapse, while impulse conduction along the axon itself is normal. Which outcome follows?",
+   "options": [
+    "The action potential fails to travel along the presynaptic axon, because calcium carries the impulse current there.",
+    "Neurotransmitter is released continuously, even without impulses, and permanently stimulates the postsynaptic cell.",
+    "The postsynaptic cell depolarises normally, because transmission at chemical synapses is electrical rather than chemical.",
+    "The impulse still arrives at the terminal, but vesicle fusion with the membrane is not triggered, so the postsynaptic cell receives no chemical signal.",
+    "Reuptake of neurotransmitter stops, so the synapse becomes overstimulated by transmitter left in the cleft."
+   ],
+   "ans": "D",
+   "exp": "Ca²⁺ entry is the coupling step between the arriving action potential and the fusion of transmitter vesicles; blocking it silences transmission while conduction remains intact. The overstimulation option describes blocked reuptake or breakdown, a different lesion, and chemical synapses are not electrical.",
+   "topic": "Biology · neuron (synapse)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A disease progressively destroys the myelin sheath of peripheral motor axons. Which chain of consequences follows for a signal travelling toward the muscle?",
+   "options": [
+    "The impulse travels faster, because bare membrane conducts electrical current more readily than insulated membrane.",
+    "The impulse continues normally, because saltatory conduction is an optional shortcut rather than a necessity.",
+    "The impulse slows and then fails to reach the terminal, because the demyelinated stretches of membrane lack the dense voltage-gated sodium channels needed to regenerate the signal, so muscle activation weakens.",
+    "The resting potential reverses along the whole axon at once, producing continuous contraction.",
+    "Neurotransmitter release increases automatically to compensate, keeping muscle activation normal."
+   ],
+   "ans": "C",
+   "exp": "Voltage-gated Na⁺ channels sit at the nodes of Ranvier, so only there can the signal regenerate itself; across a demyelinated stretch the local current decays below threshold and conduction fails. The faster-conduction option inverts the role of insulation, which forces the impulse to jump node to node at high speed.",
+   "topic": "Biology · neuron (myelin and saltatory conduction)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A patient is given a drug that mimics acetylcholine at the receptors of the parasympathetic division of the autonomic nervous system. Which set of effects is expected?",
+   "options": [
+    "Heart rate rises, pupils dilate, airways widen and digestive activity is inhibited.",
+    "Heart rate falls, pupils constrict, airways narrow and digestive activity is stimulated.",
+    "Heart rate falls, pupils dilate, airways widen and digestive activity is stimulated.",
+    "Heart rate rises, pupils constrict, airways narrow and digestive activity is inhibited.",
+    "Heart rate falls, pupils constrict, airways widen and digestive activity is inhibited."
+   ],
+   "ans": "B",
+   "exp": "The parasympathetic division is the rest-and-digest state: it slows the heart, constricts the pupils, narrows the airways and promotes gut motility and secretion. The option with raised heart rate and dilated pupils lists sympathetic effects, and each remaining option mixes one effect of one division with the effects of the other.",
+   "topic": "Biology · autonomic division (sympathetic vs parasympathetic)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A person walks from bright sunshine into a dim cinema, sees almost nothing at first and regains useful vision over several minutes. Which explanation is correct?",
+   "options": [
+    "Bright light destroyed the cones, and new ones must be produced by cell division before vision returns.",
+    "In dim light the lens changes shape so that more light is admitted directly into the eye.",
+    "The pupil reaches its maximum diameter at once, so vision should be sharp immediately.",
+    "Bright light bleached the pigment of the photoreceptors packed in the fovea, where dim vision is normally sharpest.",
+    "In bright light the rod pigment rhodopsin was largely bleached and the cones did most of the work; in darkness rhodopsin is resynthesised over minutes and the rods gradually take over."
+   ],
+   "ans": "E",
+   "exp": "Rhodopsin in the rods is bleached by bright light and takes minutes to regenerate, matching the timescale of dark adaptation, while the cones serve bright-light vision. The fovea option fails because the fovea contains only cones, and the lens focuses light rather than controlling how much of it enters.",
+   "topic": "Biology · eye (rods, cones, dark adaptation)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Which statement about the organisation of the human nervous system is correct?",
+   "options": [
+    "The central nervous system consists of brain and spinal cord, while the peripheral nervous system divides into the somatic and autonomic systems, the latter carrying sympathetic and parasympathetic branches.",
+    "The sympathetic and parasympathetic divisions are subdivisions of the somatic nervous system.",
+    "The autonomic nervous system lies entirely within the brain and spinal cord.",
+    "The spinal cord belongs to the peripheral nervous system, because peripheral nerves run through it.",
+    "The autonomic nervous system controls the contraction of skeletal muscles during voluntary movements."
+   ],
+   "ans": "A",
+   "exp": "The CNS is brain plus spinal cord; the PNS splits into the somatic system (voluntary, skeletal muscle) and the autonomic system (involuntary control of smooth and cardiac muscle and glands), which carries the two named branches. Placing the autonomic branches under the somatic system, or crediting the autonomic system with voluntary skeletal muscle control, mixes the divisions up.",
+   "topic": "Biology · nervous system divisions (CNS and PNS)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A lumbar puncture is performed to sample the fluid that cushions the brain and spinal cord. The needle passes through the dura mater and then through one further meningeal layer before reaching the fluid. Which layer is pierced last, and which fluid is sampled?",
+   "options": [
+    "the pia mater, and the sample is tissue fluid from the subdural space",
+    "the dura mater, and the sample is lymph from the epidural space",
+    "the arachnoid mater, and the sample is blood from the subdural space",
+    "the arachnoid mater, and the sample is cerebrospinal fluid from the subarachnoid space",
+    "the pia mater, and the sample is cerebrospinal fluid from the subdural space"
+   ],
+   "ans": "D",
+   "exp": "From outside inwards the meninges run dura mater, arachnoid mater, pia mater, and cerebrospinal fluid fills the subarachnoid space between arachnoid and pia, so the arachnoid is the last layer crossed. The subdural options place the fluid in a space that normally contains essentially none.",
+   "topic": "Biology · meninges and cerebrospinal fluid",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "In an animal experiment both vagus nerves are cut, and the animal is observed after recovery from the surgery. Which set of consequences is expected?",
+   "options": [
+    "Heart rate falls, because the vagus carries the main sympathetic acceleration of the heart.",
+    "Heart rate is unchanged, because the heartbeat is driven entirely by the sinoatrial node itself.",
+    "Heart rate rises above normal, because the tonic parasympathetic slowing exerted by the vagus is lost, while digestive motility and secretion decrease.",
+    "Digestive activity accelerates, because the vagus normally inhibits the gut.",
+    "The pupils dilate permanently, because the vagus supplies the muscles of the iris."
+   ],
+   "ans": "C",
+   "exp": "The vagus carries parasympathetic fibres that keep a constant brake on the heart and stimulate digestive activity; cutting it releases the brake and withdraws the stimulus, so the heart speeds up and the gut slows. The unchanged-heart option ignores this resting parasympathetic tone, and the iris is not supplied by the vagus.",
+   "topic": "Biology · vagus nerve and autonomic control",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  }
+ ]
+}

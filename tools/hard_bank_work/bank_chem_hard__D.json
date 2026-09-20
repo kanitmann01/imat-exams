@@ -1,0 +1,141 @@
+{
+ "bank": "bank_chem_hard",
+ "section": "D",
+ "questions": [
+  {
+   "stem": "What is the oxidation number of the carbon atom in methanal, HCHO?",
+   "options": [
+    "−2",
+    "0",
+    "+1",
+    "+2",
+    "+4"
+   ],
+   "ans": "B",
+   "exp": "Both H atoms count +1 towards carbon and O counts −2, so C + 2(+1) + (−2) = 0 gives carbon = 0. The +2 option belongs to the carboxyl carbon of a carboxylic acid and +4 to carbon in CO₂.",
+   "topic": "Chemistry · oxidation number of carbon in an organic molecule",
+   "lik": "M",
+   "syl": "4. Chemistry: Oxidation and reduction"
+  },
+  {
+   "stem": "In the thiosulfate ion, S₂O₃²⁻, the structure has a central sulfur atom bonded to three oxygen atoms and to one terminal sulfur atom, as if one oxygen of a sulfate unit had been replaced by sulfur. Which of the following statements about oxidation numbers in this ion is correct?",
+   "options": [
+    "The average oxidation number of sulfur is +4, because each sulfur behaves as in the sulfate ion.",
+    "Both sulfur atoms have oxidation number +2, because the charge of the ion is −2.",
+    "The terminal sulfur has oxidation number −2 and the central sulfur +4, exactly as in sulfate.",
+    "The average oxidation number of sulfur is +2, with the central sulfur at +5 and the terminal sulfur at −1.",
+    "Oxidation numbers cannot be assigned, because the bond between identical atoms makes all the numbers undefined."
+   ],
+   "ans": "D",
+   "exp": "The ionic charge fixes only the sum, 2S + 3(−2) = −2, so the average sulfur is +2. Structurally, the sulfur bonded only to sulfur counts −1 and the one bonded to three oxygens counts +5, summing to the required +4; the S-S bond itself contributes 0, so the numbers can be assigned.",
+   "topic": "Chemistry · oxidation numbers in the thiosulfate ion",
+   "lik": "H",
+   "syl": "4. Chemistry: Oxidation and reduction"
+  },
+  {
+   "stem": "Which of the following statements about oxidation numbers in oxoanions is correct?",
+   "options": [
+    "Sulfur is +6 in SO₄²⁻ and nitrogen is +3 in NO₂⁻.",
+    "Sulfur is +4 in SO₄²⁻ and nitrogen is +3 in NO₂⁻.",
+    "Sulfur is +6 in SO₄²⁻ and nitrogen is +5 in NO₂⁻.",
+    "Sulfur is +7 in SO₄²⁻ and nitrogen is +4 in NO₂⁻.",
+    "Sulfur is 0 in SO₄²⁻ because the oxygens carry the whole charge, and nitrogen is +3 in NO₂⁻."
+   ],
+   "ans": "A",
+   "exp": "In SO₄²⁻, S + 4(−2) = −2 gives S = +6; in NO₂⁻, N + 2(−2) = −1 gives N = +3. The +4 value belongs to sulfur in sulfite, SO₃²⁻, and +5 to nitrogen in nitrate, NO₃⁻.",
+   "topic": "Chemistry · oxidation numbers in sulfate and nitrite",
+   "lik": "M",
+   "syl": "4. Chemistry: Oxidation and reduction"
+  },
+  {
+   "stem": "Ethanol, CH₃CH₂OH, is oxidised to ethanal, CH₃CHO. Which of the following statements is correct?",
+   "options": [
+    "The carbon bearing the OH group goes from oxidation number +1 to −1, so ethanol is reduced.",
+    "The average oxidation number of carbon is unchanged, so no redox change occurs.",
+    "The oxidation number of oxygen rises from −2 to 0, so oxygen is oxidised.",
+    "Both carbon atoms rise from −3 to +1, so ethanol is oxidised.",
+    "The carbon bearing the OH group goes from oxidation number −1 to +1, so ethanol is oxidised."
+   ],
+   "ans": "E",
+   "exp": "The CH₂OH carbon counts 2(−1) for its two C-H bonds and +1 for the C-O bond, giving −1; in ethanal the same carbon counts −1 for C-H and +2 for the C=O, giving +1, a loss of two electrons. The average over both carbons also moves, from −2 to −1, so the unchanged-average option fails.",
+   "topic": "Chemistry · oxidation-number change in alcohol oxidation",
+   "lik": "H",
+   "syl": "4. Chemistry: Oxidation and reduction"
+  },
+  {
+   "stem": "In aqueous solution, 2FeCl₃ + SnCl₂ → 2FeCl₂ + SnCl₄. Which species acts as the oxidising agent?",
+   "options": [
+    "SnCl₂, because tin is reduced from +2 to +4.",
+    "FeCl₃, because Fe³⁺ is reduced to Fe²⁺.",
+    "SnCl₄, because tin is oxidised from +2 to +4.",
+    "FeCl₂, because iron ends at oxidation number +2.",
+    "Cl⁻, because it keeps oxidation number −1 in every compound."
+   ],
+   "ans": "B",
+   "exp": "Fe³⁺ gains an electron to become Fe²⁺, so FeCl₃ is reduced and is the oxidising agent, while Sn²⁺ loses two electrons and SnCl₂ is the reducing agent. The species that is oxidised, or an oxidation product such as SnCl₄, cannot be the oxidising agent.",
+   "topic": "Chemistry · identifying the oxidising agent",
+   "lik": "M",
+   "syl": "4. Chemistry: Oxidation and reduction"
+  },
+  {
+   "stem": "In the laboratory preparation of chlorine, MnO₂ reacts with concentrated hydrochloric acid: MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O. Which of the following statements is correct?",
+   "options": [
+    "MnO₂ is the reducing agent, because manganese goes from +4 to +2.",
+    "HCl is the oxidising agent, because it supplies the hydrogen ions.",
+    "MnO₂ is the oxidising agent and the chloride ion is the reducing agent.",
+    "Chlorine gas is the reducing agent, because it is the oxidation product.",
+    "No oxidation occurs, because no oxygen is transferred between the reactants."
+   ],
+   "ans": "C",
+   "exp": "Manganese falls from +4 in MnO₂ to +2 in MnCl₂, so MnO₂ is reduced and acts as the oxidising agent, while chloride rises from −1 to 0 in Cl₂ and is oxidised. The species that is reduced is the oxidising agent, which is the rule that the MnO₂-as-reducing-agent option reverses.",
+   "topic": "Chemistry · agents in the MnO₂ and hydrochloric acid reaction",
+   "lik": "H",
+   "syl": "4. Chemistry: Oxidation and reduction"
+  },
+  {
+   "stem": "Chlorine gas is bubbled into cold dilute sodium hydroxide: Cl₂ + 2NaOH → NaCl + NaClO + H₂O. Which of the following statements is correct?",
+   "options": [
+    "Chlorine is both oxidised and reduced, while oxygen keeps oxidation number −2 throughout.",
+    "Chlorine is reduced only, and the hydroxide ion is the reducing agent.",
+    "Chlorine is oxidised only, and the hydroxide ion is the oxidising agent.",
+    "The chloride ion is oxidised, because chlorine gas gains electrons.",
+    "Oxygen is oxidised from −2 to 0 in the water that forms."
+   ],
+   "ans": "A",
+   "exp": "Chlorine starts at 0 and ends as Cl⁻ at −1 (reduced) and as ClO⁻ with chlorine at +1 (oxidised), a disproportionation, while oxygen stays at −2 in OH⁻, ClO⁻ and H₂O. Gaining electrons is reduction, so the option pairing oxidation with electron gain contradicts itself, and NaOH supplies OH⁻ with no change of oxidation state.",
+   "topic": "Chemistry · disproportionation of chlorine",
+   "lik": "H",
+   "syl": "4. Chemistry: Oxidation and reduction"
+  },
+  {
+   "stem": "Sulfite ions, SO₃²⁻, are oxidised to sulfate ions, SO₄²⁻, in acidic solution. When this change is written as a balanced half-equation, how many electrons appear on the right-hand side?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "ans": "B",
+   "exp": "Sulfur rises from +4 in SO₃²⁻ to +6 in SO₄²⁻, so the half-equation SO₃²⁻ + H₂O → SO₄²⁻ + 2H⁺ + 2e⁻ carries two electrons, which also balances the charge at −2 on each side. Taking the four oxygen atoms as the electron count gives the wrong 4.",
+   "topic": "Chemistry · electrons in a balanced half-equation",
+   "lik": "H",
+   "syl": "4. Chemistry: Oxidation and reduction"
+  },
+  {
+   "stem": "In acidic solution, manganate(VII) ions, MnO₄⁻, oxidise iron(II) ions, Fe²⁺, to Fe³⁺, the manganese ending as Mn²⁺. In the balanced ionic equation, how many electrons are transferred per MnO₄⁻ ion, and what coefficient does Fe²⁺ carry?",
+   "options": [
+    "3 electrons and 3 Fe²⁺",
+    "4 electrons and 4 Fe²⁺",
+    "5 electrons and 1 Fe²⁺",
+    "5 electrons and 5 Fe²⁺",
+    "7 electrons and 7 Fe²⁺"
+   ],
+   "ans": "D",
+   "exp": "Manganese falls from +7 in MnO₄⁻ to +2, so each ion takes 5 electrons, and 5 Fe²⁺ ions each losing 1 electron are needed: MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 4H₂O + 5Fe³⁺. The 7-electron option wrongly counts to oxidation number 0, and 3 electrons would correspond to stopping at MnO₂.",
+   "topic": "Chemistry · electron count and coefficients in a redox equation",
+   "lik": "H",
+   "syl": "4. Chemistry: Oxidation and reduction"
+  }
+ ]
+}

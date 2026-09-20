@@ -1,0 +1,251 @@
+### imat_mock9 n=33  [ans=A]  topic=Chem · isomer classification (constitutional vs stereoisomers)  lik=H
+STEM: Consider three pairs of organic compounds. Pair P: butan-1-ol and butan-2-ol. Pair Q: (2R)-butan-2-ol and (2S)-butan-2-ol. Pair R: cis-pent-2-ene and trans-pent-2-ene. Which of the following statements is correct?
+  A) Q and R are pairs of stereoisomers, while P is a pair of constitutional isomers.
+  B) All three pairs are constitutional isomers, since each pair shares the same molecular formula.
+  C) P and Q are pairs of enantiomers, while R is a pair of constitutional isomers.
+  D) R is a pair of enantiomers, because the cis and trans forms are mirror images of each other.
+  E) P is a pair of stereoisomers, since the two alcohols differ only in the position of the OH group.
+EXP: Butan-1-ol and butan-2-ol have different connectivity, so P is a constitutional pair, while the mirror-image pair Q and the cis and trans pair R are both stereoisomeric. The mirror-image claim for the alkene fails: cis and trans pent-2-ene are diastereomers, not enantiomers, and positional isomers are never stereoisomers.
+
+### imat_mock9 n=34  [ans=C]  topic=Chem · limiting reagent with gas volumes  lik=H
+STEM: 4.8 g of methane (M = 16 g/mol) is mixed with 4.8 g of oxygen gas (M = 32 g/mol) and ignited, and the reaction CH₄ + 2O₂ → CO₂ + 2H₂O proceeds until one reactant is used up. Which statement is correct? (Molar volume of any gas at STP = 22.4 dm3/mol)
+  A) 3.36 dm3 of CO2 (measured at STP) forms and the oxygen is in excess.
+  B) 3.36 dm3 of CO2 (measured at STP) forms and 1.8 g of methane remains.
+  C) 1.68 dm3 of CO2 (measured at STP) forms and 3.6 g of methane remains.
+  D) 1.68 dm3 of CO2 (measured at STP) forms and no methane remains.
+  E) 1.68 dm3 of CO2 (measured at STP) forms and 1.8 g of methane remains.
+EXP: n(CH₄) = 4.8/16 = 0.30 mol and n(O₂) = 4.8/32 = 0.15 mol, so the 1:2 equation makes oxygen limiting: 0.075 mol of methane burns, giving 0.075 mol of CO₂, that is 0.075 × 22.4 = 1.68 dm3, and 0.225 mol = 3.6 g of methane is left. The 3.36 dm3 options treat methane as the limiting reagent and ignore the 1:2 ratio.
+
+### imat_mock9 n=35  [ans=C]  topic=Chem · molarity to pH, then dilution  lik=H
+STEM: 0.40 g of sodium hydroxide (M = 40 g/mol), a strong base that is fully dissociated in water, is dissolved and made up to exactly 1.0 dm3 of solution at 25 °C. Then 10 cm3 of this solution is diluted with water to a final volume of 1.0 dm3. What is the pH of the final solution? (Kw = 1.0 × 10^-14 at 25 °C)
+  A) 8
+  B) 9
+  C) 10
+  D) 11
+  E) 12
+EXP: The first solution holds 0.010 mol of hydroxide per dm3, so pOH = 2 and pH = 12; taking 10 cm3 up to 1000 cm3 dilutes the hydroxide a hundredfold to 1.0 × 10^-4 mol/dm3, so pOH = 4 and pH = 10. The value 4 is the pOH rather than the pH, and pH 11 would correspond to a tenfold dilution.
+
+### imat_mock9 n=36  [ans=C]  topic=Chem · Kw and pH of a base (temperature shift)  lik=H
+STEM: At 25 °C the ionic product of water is Kw = 1.0 × 10^-14, but at a higher temperature Kw is larger: in one such case Kw = 1.0 × 10^-13. What is the pH of a 0.010 mol/dm3 solution of sodium hydroxide, fully dissociated, at this higher temperature?
+  A) 2
+  B) 6.5
+  C) 11
+  D) 12
+  E) 13
+EXP: With hydroxide at 0.010 mol/dm3, the hydrogen ion concentration is Kw divided by it: 1.0 × 10^-13 / 1.0 × 10^-2 = 1.0 × 10^-11 mol/dm3, so pH = 11. The value 12 comes from reusing the 25 °C value of Kw, 2 is the pOH rather than the pH, and 6.5 is the pH of neutral water at this temperature.
+
+### imat_mock9 n=37  [ans=D]  topic=Chem · pH shift on tenfold dilution  lik=M
+STEM: The pH of a solution of hydrochloric acid, a strong acid that is fully ionised, is 4.0 at 25 °C. 90 cm3 of water is added to 10 cm3 of this solution. The pH of the resulting solution is:
+  A) 3
+  B) 4
+  C) 4.5
+  D) 5
+  E) 6
+EXP: The hydrogen ion concentration is 1.0 × 10^-4 mol/dm3; raising the volume from 10 cm3 to 100 cm3 is a tenfold dilution, so it falls to 1.0 × 10^-5 mol/dm3 and pH = 5. The value 6 would need a hundredfold dilution, and each pH unit is a factor of ten, not two.
+
+### imat_mock9 n=38  [ans=E]  topic=Chem · IMF type and boiling point ordering  lik=H
+STEM: Four pure molecular liquids with similar molar masses are: propane CH₃CH₂CH₃ (Mr 44), propanone CH₃COCH₃ (Mr 58), ethanol C₂H₅OH (Mr 46) and ethanoic acid CH₃COOH (Mr 60). In the liquid state, two ethanoic acid molecules are held together by two hydrogen bonds each, and propanone has no O-H or N-H bond. Which option places them in order of increasing boiling point?
+  A) ethanoic acid < ethanol < propanone < propane
+  B) propanone < propane < ethanol < ethanoic acid
+  C) propane < ethanol < propanone < ethanoic acid
+  D) propane < propanone < ethanoic acid < ethanol
+  E) propane < propanone < ethanol < ethanoic acid
+EXP: Boiling point tracks the strongest intermolecular force: propane has only London forces, propanone adds a permanent dipole but cannot donate a hydrogen bond, ethanol hydrogen bonds one pair at a time, and each ethanoic acid dimer is held by two hydrogen bonds, so it needs the most energy to vaporise. Ranking by molar mass, as the reversed order does, fails because the masses are similar.
+
+### imat_mock9 n=39  [ans=E]  topic=Chem · rate law exponents  lik=M
+STEM: For the reaction A + 2B → products, experiments at fixed temperature show that the rate is proportional to the concentration of A and to the square of the concentration of B. If the concentration of A is doubled and the concentration of B is tripled, by what factor does the reaction rate increase?
+  A) 6
+  B) 8
+  C) 9
+  D) 12
+  E) 18
+EXP: With rate proportional to the first power of the concentration of A and the second power of that of B, the new rate is 2 × 3^2 = 18 times the original. The factor 6 comes from treating B as first order and dropping the square.
+
+### imat_mock9 n=40  [ans=B]  topic=Chem · oxidation numbers in an oxoanion  lik=H
+STEM: What is the average oxidation number of a sulfur atom in the tetrathionate ion, S₄O₆^2-, if the four sulfur atoms are treated as equivalent?
+  A) +2
+  B) +2.5
+  C) +3
+  D) +5
+  E) +10
+EXP: The six oxygens contribute -12 in total, and the ion carries -2, so the four sulfurs together hold +10 and each averages +10/4 = +2.5. The value +10 is the total over all four atoms, not the average per atom.
+
+### imat_mock9 n=41  [ans=D]  topic=Chem · oxidation number matching  lik=M
+STEM: In which species does nitrogen have the same oxidation number as sulfur has in the sulfite ion, SO₃^2-?
+  A) N₂
+  B) NH₃
+  C) NO
+  D) NO₂
+  E) N₂O
+EXP: In SO₃^2- the three oxygens give -6, so sulfur is +4; in NO₂ the two oxygens give -4 in a neutral molecule, so nitrogen is also +4. Nitrogen is +2 in NO, -3 in NH₃ and +1 in N₂O.
+
+### imat_mock9 n=42  [ans=C]  topic=Chem · first-order half-life with concentration  lik=H
+STEM: A substance decomposes by first-order kinetics with a half-life of 20 minutes at 25 °C. A sealed 2.0 dm3 vessel initially contains 0.80 mol of the substance. What is its concentration after 60 minutes?
+  A) 0.025 mol/dm3
+  B) 0.040 mol/dm3
+  C) 0.050 mol/dm3
+  D) 0.10 mol/dm3
+  E) 0.20 mol/dm3
+EXP: 60 minutes is three half-lives, so the amount falls 0.80 → 0.40 → 0.20 → 0.10 mol; divided by the 2.0 dm3 volume this gives 0.050 mol/dm3. The option 0.10 mol/dm3 forgets to divide by the vessel volume, and 0.025 mol/dm3 would need a fourth half-life.
+
+### imat_mock9 n=43  [ans=B]  topic=Chem · mole bridge to atom counts  lik=H
+STEM: Sample X contains 4.4 g of carbon dioxide, CO₂, and sample Y contains 4.9 g of sulfuric acid, H₂SO₄ (M = 98 g/mol). (C = 12, O = 16; Avogadro constant = 6.02 × 10^23 per mol.) Which statement about the oxygen atoms in the two samples is correct?
+  A) Each sample contains 6.0 × 10^22 oxygen atoms.
+  B) Each sample contains 1.2 × 10^23 oxygen atoms.
+  C) Each sample contains 2.4 × 10^23 oxygen atoms.
+  D) Sample X contains 1.2 × 10^23 oxygen atoms and sample Y contains 2.4 × 10^23.
+  E) Sample X contains 2.4 × 10^23 oxygen atoms and sample Y contains 1.2 × 10^23.
+EXP: X holds 4.4/44 = 0.10 mol of CO₂, giving 0.20 mol of oxygen atoms, and Y holds 4.9/98 = 0.050 mol of H₂SO₄, giving 4 × 0.050 = 0.20 mol of oxygen atoms as well; 0.20 mol is about 1.2 × 10^23 atoms. The 2.4 × 10^23 options double the correct count by slipping an extra factor of two into one of the two conversions.
+
+### imat_mock9 n=44  [ans=D]  topic=Chem · neutralisation excess with pH  lik=H
+STEM: 50 cm3 of 0.20 mol/dm3 hydrochloric acid, fully ionised, is mixed with 150 cm3 of 0.10 mol/dm3 sodium hydroxide, fully dissociated. What is the pH of the resulting solution at 25 °C? (Kw = 1.0 × 10^-14; log 2.5 = 0.40)
+  A) 1.60
+  B) 11.60
+  C) 12.00
+  D) 12.40
+  E) 13.00
+EXP: The acid supplies 0.010 mol of hydrogen ions and the base 0.015 mol of hydroxide ions, so 0.005 mol of hydroxide is left in a total volume of 0.200 dm3: the concentration is 0.025 mol/dm3, pOH = 2 - 0.40 = 1.60 and pH = 12.40. The value 13.00 forgets to divide by the combined volume, and 1.60 results from treating the acid as the excess reagent.
+
+### imat_mock9 n=45  [ans=B]  topic=Chem · limiting reagent with gas volume and leftover  lik=H
+STEM: 1.08 g of aluminium (M = 27 g/mol) is added to 100 cm3 of 0.10 mol/dm3 sulfuric acid and reacts completely as far as possible: 2Al + 3H₂SO₄ → Al₂(SO₄)₃ + 3H₂. Which statement is correct? (Molar volume of a gas at STP = 22.4 dm3/mol)
+  A) 0.224 dm3 of H2 (measured at STP) is released and the acid is in excess.
+  B) 0.224 dm3 of H2 (measured at STP) is released and aluminium is in excess.
+  C) 0.224 dm3 of H2 (measured at STP) is released and no aluminium remains.
+  D) 0.448 dm3 of H2 (measured at STP) is released and aluminium is in excess.
+  E) 1.344 dm3 of H2 (measured at STP) is released and the acid is in excess.
+EXP: n(Al) = 1.08/27 = 0.040 mol but n(H₂SO₄) = 0.100 × 0.10 = 0.010 mol, and the equation needs 1.5 mol of acid per mol of aluminium, so the acid is limiting: 0.010 mol of acid releases 0.010 mol of H₂, which is 0.224 dm3 at STP, while only 0.0067 mol of aluminium is consumed, leaving 0.90 g in excess. The 1.344 dm3 option treats the aluminium as the limiting reagent.
+
+### imat_mock9 n=46  [ans=E]  topic=Chem · concentration on evaporation  lik=M
+STEM: A student evaporates water from 500 cm3 of a 0.20 mol/dm3 sodium chloride solution until the volume is exactly 200 cm3, with no loss of solute. The concentration of the final solution is:
+  A) 0.08 mol/dm3
+  B) 0.10 mol/dm3
+  C) 0.20 mol/dm3
+  D) 0.40 mol/dm3
+  E) 0.50 mol/dm3
+EXP: The solution contains n = 0.500 × 0.20 = 0.10 mol of sodium chloride, so the final concentration is 0.10/0.200 = 0.50 mol/dm3. The 0.08 mol/dm3 option multiplies by the volume ratio instead of dividing by it.
+
+### imat_mock9 n=47  [ans=C]  topic=Chem · pH scale as powers of ten  lik=M
+STEM: Two solutions at 25 °C have pH values of 3.5 and 5.5. The hydrogen ion concentration of the solution with pH 3.5 is how many times that of the solution with pH 5.5?
+  A) 2
+  B) 20
+  C) 100
+  D) 1000
+  E) 10000
+EXP: Each unit of pH is a factor of ten in hydrogen ion concentration, so a difference of 2.0 units means 10^2 = 100 times more hydrogen ions at pH 3.5. The option 20 treats the pH scale as linear, simply multiplying the difference by ten.
+
+### imat_mock9 n=48  [ans=C]  topic=Maths · logarithm properties  lik=H
+STEM: Given that log₁₀ 2 = 0.30 and log₁₀ 3 = 0.48, what is the value of log₁₀ 2.4?
+  A) 0.18
+  B) 0.30
+  C) 0.38
+  D) 0.48
+  E) 0.60
+EXP: log₁₀ 2.4 = log(2^3 × 3 / 10) = 3 × 0.30 + 0.48 - 1 = 0.38. The value 0.18 is log(3/2), the result of subtracting the two given logarithms instead of building 2.4 from them.
+
+### imat_mock9 n=49  [ans=E]  topic=Maths · discriminant condition (inequality)  lik=H
+STEM: For which values of k does the equation x^2 + kx + 9 = 0 have no real solutions?
+  A) k < -6 or k > 6
+  B) k ≤ -6 or k ≥ 6
+  C) -6 ≤ k ≤ 6
+  D) all real values of k
+  E) -6 < k < 6
+EXP: No real roots needs the discriminant k^2 - 36 to be negative, so k^2 < 36, which holds exactly when -6 < k < 6. The options with ≤ wrongly include k = ±6, where the equation has the repeated real root x = -3.
+
+### imat_mock9 n=50  [ans=C]  topic=Maths · composite solids (conservation of volume)  lik=H
+STEM: A solid metal sphere of radius 3 cm is melted down and recast into a solid right circular cylinder of radius 2 cm. What is the height of the cylinder? (Volume of a sphere = (4/3)πr^3; volume of a cylinder = πr^2h)
+  A) 3 cm
+  B) 6 cm
+  C) 9 cm
+  D) 18 cm
+  E) 36 cm
+EXP: The sphere's volume is (4/3)π × 27 = 36π cm3, and the cylinder needs π × 2^2 × h = 36π, so h = 9 cm. The 18 cm option divides by 2π, forgetting to square the cylinder's radius.
+
+### imat_mock9 n=51  [ans=D]  topic=Maths · probability (same colour, without replacement)  lik=H
+STEM: A bag contains 3 red balls and 5 blue balls. Two balls are drawn at random without replacement. What is the probability that the two balls are the same colour?
+  A) 3/28
+  B) 15/56
+  C) 5/14
+  D) 13/28
+  E) 15/28
+EXP: P(both red) = (3/8)(2/7) = 3/28 and P(both blue) = (5/8)(4/7) = 10/28; the two events are mutually exclusive, so the total is 13/28. The option 15/28 is the probability of two different colours, the complement of the asked event.
+
+### imat_mock9 n=52  [ans=C]  topic=Maths · rate of change from a table  lik=H
+STEM: A toy train runs along a straight track away from its start point, and its distance from the start is recorded at one-minute intervals: 0 m at 0 min, 120 m at 1 min, 300 m at 2 min and 540 m at 3 min. What is the greatest average speed over any one-minute interval of the journey, expressed in m/s?
+  A) 2.5 m/s
+  B) 3.0 m/s
+  C) 4.0 m/s
+  D) 5.0 m/s
+  E) 9.0 m/s
+EXP: The three intervals cover 120 m, 180 m and 240 m, so the speeds are 2.0, 3.0 and 4.0 m/s; the greatest is 240/60 = 4.0 m/s in the last minute. The 3.0 m/s option is the overall average over all three minutes, and 9.0 m/s treats the whole 540 m as if covered in one minute.
+
+### imat_mock9 n=53  [ans=C]  topic=Maths · simplifying radicals  lik=M
+STEM: What is the value of √50 + √18 - √8, written in the form a√2?
+  A) 2
+  B) 4
+  C) 6
+  D) 8
+  E) 10
+EXP: √50 = 5√2, √18 = 3√2 and √8 = 2√2, so the expression is (5 + 3 - 2)√2 = 6√2. The value 10 comes from adding all three coefficients and ignoring the subtraction, and 4 comes from flipping the sign of the middle term.
+
+### imat_mock9 n=54  [ans=D]  topic=Maths · clock angles  lik=M
+STEM: What is the angle between the hour hand and the minute hand of a clock at 9:36? (The hour hand turns 0.5 degrees per minute and the minute hand 6 degrees per minute.)
+  A) 36 degrees
+  B) 54 degrees
+  C) 66 degrees
+  D) 72 degrees
+  E) 108 degrees
+EXP: At 9:36 the minute hand sits at 36 × 6 = 216 degrees and the hour hand at 270 + 36 × 0.5 = 288 degrees, so the angle between them is 72 degrees. The 54 degree option forgets that the hour hand has moved past the 9.
+
+### imat_mock9 n=55  [ans=B]  topic=Physics · acceleration from a velocity-time table  lik=H
+STEM: A trolley moves along a straight track and its velocity is recorded every 2.0 s: 0 m/s at 0 s, 10 m/s at 2.0 s, 14 m/s at 4.0 s, 14 m/s at 6.0 s and 6 m/s at 8.0 s. What is the magnitude of the trolley's acceleration between 6.0 s and 8.0 s?
+  A) 2 m/s2
+  B) 4 m/s2
+  C) 5 m/s2
+  D) 6 m/s2
+  E) 8 m/s2
+EXP: Between 6.0 s and 8.0 s the velocity falls from 14 m/s to 6 m/s, so a = (6 - 14)/2.0 = -4 m/s2 and the magnitude is 4 m/s2. The 8 m/s2 option is the velocity change itself, not divided by the time.
+
+### imat_mock9 n=56  [ans=A]  topic=Physics · circular motion (centripetal acceleration)  lik=M
+STEM: A car travels around a circular bend of radius 50 m at a constant speed of 10 m/s. Which of the following statements is correct?
+  A) The acceleration is 2.0 m/s2, directed towards the centre of the bend.
+  B) The acceleration is zero, because the speed is constant.
+  C) The acceleration is 2.0 m/s2, directed away from the centre of the bend.
+  D) The acceleration is 2.0 m/s2, directed along the direction of travel.
+  E) The acceleration is 0.20 m/s2, directed towards the centre of the bend.
+EXP: Uniform circular motion has centripetal acceleration v^2/r = 100/50 = 2.0 m/s2, always pointing towards the centre; constant speed does not mean zero acceleration because the direction of travel keeps changing. The 0.20 m/s2 option divides v/r instead of squaring first.
+
+### imat_mock9 n=57  [ans=C]  topic=Physics · resistor network (series and parallel)  lik=H
+STEM: A battery of negligible internal resistance supplies 24 V to an 8.0 Ω resistor connected in series with a parallel combination of a 6.0 Ω resistor and a 3.0 Ω resistor. What current does the battery supply?
+  A) 1.4 A
+  B) 2.0 A
+  C) 2.4 A
+  D) 3.0 A
+  E) 12 A
+EXP: The parallel pair has resistance (6.0 × 3.0)/(6.0 + 3.0) = 2.0 Ω, so the total is 8.0 + 2.0 = 10 Ω and I = 24/10 = 2.4 A. The 3.0 A option ignores the parallel section entirely, and 12 A ignores the series resistor.
+
+### imat_mock9 n=58  [ans=B]  topic=Physics · calorimetry (mixing two water samples)  lik=H
+STEM: In an insulated container, 0.40 kg of water at 20 °C is mixed with 0.20 kg of water at 65 °C. Assuming no heat is exchanged with the surroundings, what is the final temperature of the mixture?
+  A) 20 °C
+  B) 35 °C
+  C) 42.5 °C
+  D) 50 °C
+  E) 65 °C
+EXP: With the same specific heat capacity, the heat balance is 0.40 × (T - 20) = 0.20 × (65 - T), which gives 0.6T = 21 and T = 35 °C. The 42.5 °C option averages the two temperatures and ignores that the cooler sample has twice the mass, and 50 °C comes from swapping the two masses.
+
+### imat_mock9 n=59  [ans=C]  topic=Physics · gauge pressure in a liquid  lik=M
+STEM: A farm tank contains a liquid of density 800 kg/m3 filled to a depth of 3.0 m and open to the atmosphere (100 kPa). What is the gauge pressure exerted by the liquid at the bottom of the tank? (g = 10 m/s2)
+  A) 2.4 kPa
+  B) 8.0 kPa
+  C) 24 kPa
+  D) 124 kPa
+  E) 240 kPa
+EXP: Gauge pressure is ρgh = 800 × 10 × 3.0 = 24000 Pa = 24 kPa, and the word gauge means the 100 kPa of atmospheric pressure on the open surface is excluded. The 124 kPa option is the absolute pressure, and 8.0 kPa forgets the depth.
+
+### imat_mock9 n=60  [ans=C]  topic=Physics · power and energy (unit conversions)  lik=H
+STEM: An electric kettle rated at 2.0 kW takes 3.0 minutes to bring its water to the boil. How much electrical energy does the kettle transfer in that time?
+  A) 6.0 × 10^3 J
+  B) 3.6 × 10^4 J
+  C) 3.6 × 10^5 J
+  D) 6.0 × 10^5 J
+  E) 3.6 × 10^6 J
+EXP: 2.0 kW = 2000 W and 3.0 minutes = 180 s, so E = Pt = 2000 × 180 = 3.6 × 10^5 J. The 6.0 × 10^3 J option multiplies the rating in kW by the time in minutes without converting either unit.

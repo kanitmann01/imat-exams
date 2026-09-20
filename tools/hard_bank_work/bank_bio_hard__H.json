@@ -1,0 +1,276 @@
+{
+ "bank": "bank_bio_hard",
+ "section": "H",
+ "questions": [
+  {
+   "stem": "Phosphofructokinase-1 (PFK-1) catalyses the committed step of glycolysis. Which of the following statements about its control is false?",
+   "options": [
+    "ATP binds to an allosteric regulatory site on PFK-1 and lowers the enzyme's activity.",
+    "AMP binds to PFK-1 and relieves the inhibition caused by high ATP.",
+    "Citrate, an intermediate of the citric acid cycle, allosterically inhibits PFK-1.",
+    "ATP acts only as an inhibitor of PFK-1 and plays no role whatsoever as its substrate.",
+    "A high AMP:ATP ratio in the cytosol favours flux through the PFK-1 step."
+   ],
+   "ans": "D",
+   "exp": "PFK-1 uses ATP to phosphorylate fructose-6-phosphate, so ATP is a substrate at the active site as well as an allosteric inhibitor at a separate regulatory site. AMP and citrate act exactly as the other statements describe, so the claim denying ATP any substrate role is the false one.",
+   "topic": "Biology · glycolysis regulation (PFK-1)",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "During a sprint, the ATP concentration inside a fast muscle fibre falls and its AMP concentration rises. What is the most likely immediate effect on glycolysis in that fibre?",
+   "options": [
+    "Glycolysis accelerates, because AMP allosterically activates PFK-1, the enzyme catalysing the committed step.",
+    "Glycolysis stops, because PFK-1 requires ATP as an allosteric activator.",
+    "Glycolysis continues at the same rate, because AMP has no effect on glycolytic enzymes.",
+    "Glycolysis slows, because AMP competes with glucose for hexokinase at the entry to the pathway.",
+    "Glycolysis accelerates, because AMP directly phosphorylates ADP to make extra ATP inside the enzyme."
+   ],
+   "ans": "A",
+   "exp": "AMP signals a low energy charge and allosterically activates PFK-1, so the committed step speeds up even though cellular ATP has fallen. The claim that PFK-1 needs ATP as an activator inverts the real control: ATP at high concentration inhibits, while a small amount serves only as substrate.",
+   "topic": "Biology · PFK-1 and the AMP:ATP ratio",
+   "lik": "M",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "In the aerobic respiration of one glucose molecule, what do the two link reactions (oxidative decarboxylation of pyruvate) together yield, and where do they occur?",
+   "options": [
+    "2 acetyl-CoA, 4 CO₂ and 2 NADH, inside the mitochondrial matrix",
+    "2 acetyl-CoA, 2 CO₂ and 2 NADH, inside the mitochondrial matrix",
+    "2 acetyl-CoA, 2 CO₂ and 2 FADH₂, on the inner mitochondrial membrane",
+    "1 acetyl-CoA, 1 CO₂ and 1 NADH, inside the mitochondrial matrix",
+    "2 acetyl-CoA, 2 CO₂ and 2 NADH, in the cytosol"
+   ],
+   "ans": "B",
+   "exp": "Each of the two pyruvates from one glucose loses one carbon as CO₂ and reduces one NAD⁺ to NADH while being joined to coenzyme A, so together the link reactions give 2 acetyl-CoA, 2 CO₂ and 2 NADH. The pyruvate dehydrogenase complex sits in the mitochondrial matrix, so the cytosol option confuses this step with glycolysis.",
+   "topic": "Biology · link reaction (pyruvate oxidation)",
+   "lik": "M",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "A toxin irreversibly inhibits the pyruvate dehydrogenase complex in cells that are supplied only with glucose. Which outcome follows?",
+   "options": [
+    "Pyruvate accumulates, acetyl-CoA production falls and the ATP yield from glucose oxidation drops sharply.",
+    "Pyruvate accumulates but the citric acid cycle speeds up to compensate, keeping ATP output normal.",
+    "Acetyl-CoA accumulates and activates the citric acid cycle, raising ATP output.",
+    "Glycolysis stops, because pyruvate dehydrogenase catalyses an essential step of glycolysis itself.",
+    "The electron transport chain accelerates, because NADH from glycolysis alone floods into the mitochondria."
+   ],
+   "ans": "A",
+   "exp": "Pyruvate dehydrogenase is the gateway between cytosolic glycolysis and the mitochondrial citric acid cycle, so blocking it starves the cycle of acetyl-CoA, cutting NADH and FADH₂ generation and with them the ATP yield. Glycolysis itself is unaffected, which is why pyruvate piles up, and the respiratory chain slows rather than accelerates because it runs short of electron supply.",
+   "topic": "Biology · pyruvate oxidation (inhibitor cascade)",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "What are the products of one complete turn of the citric acid cycle?",
+   "options": [
+    "2 NADH, 2 FADH₂, 1 GTP and 2 CO₂",
+    "4 NADH, 1 FADH₂, 1 GTP and 1 CO₂",
+    "3 NADH, 1 FADH₂, 1 GTP and 2 CO₂",
+    "3 NADH, 1 FADH₂, 1 ATP by oxidative phosphorylation and 2 CO₂",
+    "3 NADH, 1 FADH₂, 1 GTP and 1 CO₂"
+   ],
+   "ans": "C",
+   "exp": "One turn reduces three NAD⁺ to NADH and one FAD to FADH₂, generates one GTP by substrate-level phosphorylation and releases two CO₂. Counting two FADH₂ overstates the single FAD-dependent step, and the GTP is not a product of oxidative phosphorylation.",
+   "topic": "Biology · citric acid cycle products",
+   "lik": "M",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "Acetyl-CoA labelled with ¹⁴C on its methyl (CH₃) carbon enters the citric acid cycle. When is the label first released as ¹⁴CO₂?",
+   "options": [
+    "During the first turn of the cycle, as one of the two CO₂ molecules released",
+    "During the second turn, after the label has passed into oxaloacetate",
+    "Immediately on entry, because citrate synthase decarboxylates acetyl-CoA as it condenses",
+    "From the third turn onwards: neither carbon of the entering acetyl group is released during the first turn, and the methyl carbon survives even longer than the carbonyl carbon",
+    "Never, because the methyl carbon is fully conserved for as long as the cycle runs"
+   ],
+   "ans": "D",
+   "exp": "The two CO₂ released in any turn come from carbons that were part of oxaloacetate, so an incoming acetyl group survives its first complete passage intact; with a ¹⁴C label the carbonyl carbon appears in CO₂ mainly in the second turn and the methyl carbon mainly from the third turn onwards. Citrate synthase condenses acetyl-CoA with oxaloacetate without any decarboxylation, so the immediate-release option misunderstands that step.",
+   "topic": "Biology · citric acid cycle (carbon tracing)",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "Which of the following statements about the citric acid cycle is false?",
+   "options": [
+    "The cycle runs mainly in the mitochondrial matrix, with succinate dehydrogenase embedded in the inner membrane.",
+    "Succinate dehydrogenase transfers electrons from succinate to FAD, and the resulting FADH₂ passes them on directly within the respiratory chain.",
+    "The GTP formed in the cycle is produced by substrate-level phosphorylation.",
+    "Acetyl-CoA condenses with oxaloacetate, which is regenerated at the end of every turn.",
+    "Each turn of the cycle consumes two molecules of acetyl-CoA and regenerates one molecule of oxaloacetate."
+   ],
+   "ans": "E",
+   "exp": "A single turn oxidises one acetyl group and regenerates the oxaloacetate carrier, so the two-acetyl-CoA claim confuses per-turn and per-glucose accounting. The other claims hold: succinate dehydrogenase is the cycle's membrane-bound enzyme and hands its FADH₂ electrons straight to ubiquinone, and the GTP arises by substrate-level phosphorylation.",
+   "topic": "Biology · citric acid cycle (organisation)",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "Which of the following statements about the mitochondrial electron transport chain is false?",
+   "options": [
+    "Complex I transfers electrons from NADH to ubiquinone and pumps protons to the intermembrane space.",
+    "The final electron acceptor for the electrons carried by NADH is cytochrome c of complex III.",
+    "Complex II transfers electrons from succinate, via FADH₂, to ubiquinone without pumping protons.",
+    "Complex III passes electrons from ubiquinol to cytochrome c and pumps protons.",
+    "Complex IV transfers electrons to O₂, reducing it to water, and pumps protons."
+   ],
+   "ans": "B",
+   "exp": "Cytochrome c is only an intermediate shuttle between complexes III and IV, so the electrons carried by NADH end on O₂ at complex IV, not on cytochrome c. The remaining statements match the standard division of labour, including complex II feeding ubiquinone without pumping protons, the very reason FADH₂ electrons bypass complex I.",
+   "topic": "Biology · electron transport chain complexes",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "Rotenone specifically blocks electron transfer at complex I of the respiratory chain. A respiring cell is then supplied with succinate as its main oxidisable substrate. Which outcome is expected?",
+   "options": [
+    "ATP synthesis continues at a reduced rate, because electrons from succinate FADH₂ enter the chain at complex II and drive pumping at complexes III and IV.",
+    "ATP synthesis stops completely, because every electron entering the chain must first pass through complex I.",
+    "ATP synthesis continues at the normal rate, because complex II pumps protons and takes over the work of complex I.",
+    "The proton gradient rises above its normal value, because succinate oxidation pumps more protons than NADH oxidation.",
+    "Oxygen consumption stops completely, even though the proton gradient persists."
+   ],
+   "ans": "A",
+   "exp": "Succinate oxidation passes electrons to ubiquinone through complex II, leaving the blocked complex I out of the circuit, so complexes III and IV still pump protons and ATP synthesis continues, though at a lower rate because complex I's contribution is lost. Complex II pumps no protons, so the gradient cannot rise above normal, and with succinate feeding the chain oxygen consumption continues rather than stopping.",
+   "topic": "Biology · ETC inhibitors (rotenone)",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "Cyanide binds the Fe³⁺ of cytochrome a₃ in complex IV and halts electron transfer to oxygen. In a mitochondrion poisoned in this way, what happens?",
+   "options": [
+    "Complexes I, II and III become fully oxidised while NADH accumulates in the matrix.",
+    "Proton pumping continues at complexes I and III even though complex IV is blocked.",
+    "Complexes I, II and III become fully reduced, proton pumping stops and ATP synthesis falls to zero.",
+    "The proton gradient is unaffected, because ATP synthase can still run in reverse.",
+    "Oxygen consumption continues at a lower rate while NAD⁺ is steadily regenerated."
+   ],
+   "ans": "C",
+   "exp": "With the final acceptor blocked, electrons pile up behind complex IV, trapping complexes I, II and III in their reduced states, stopping all proton pumping and letting the gradient drain until ATP synthase has nothing left to exploit. The mirror-image option, fully oxidised upstream carriers with accumulating NADH, describes exactly what cannot happen, since oxidising NADH is what stops.",
+   "topic": "Biology · ETC inhibitors (cyanide)",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "A molecule that makes the inner mitochondrial membrane leaky to protons is added to actively respiring mitochondria. Which outcome is expected?",
+   "options": [
+    "Electron transport stops, because the proton gradient is the driving force for electron flow.",
+    "ATP synthesis continues at its normal rate, because ATP synthase is not part of the electron transport chain.",
+    "ATP synthesis increases, because protons now return to the matrix faster.",
+    "Electron transport slows down, while ATP synthesis is unaffected.",
+    "Electron transport and oxygen consumption speed up, most of the released energy appears as heat, and ATP synthesis falls."
+   ],
+   "ans": "E",
+   "exp": "The leak dissipates the proton gradient that limits electron flow, so the chain and oxygen consumption speed up, but the energy escapes as heat instead of turning ATP synthase, which is exactly how brown fat thermogenesis works. Faster proton return cannot raise ATP output, because the stored energy is dissipated rather than harnessed.",
+   "topic": "Biology · chemiosmosis (uncoupling)",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "Per molecule delivered to the respiratory chain, FADH₂ yields roughly two ATP, whereas NADH yields roughly two to three times as many. What is the main reason for the difference?",
+   "options": [
+    "FADH₂ enters the chain at complex II, so its electrons bypass complex I and its oxidation pumps fewer protons.",
+    "FADH₂ carries only one electron, whereas NADH carries two.",
+    "FADH₂ cannot be reoxidised inside the mitochondrion and is excreted from the cell.",
+    "FADH₂ donates its electrons directly to oxygen at complex IV.",
+    "FADH₂ releases its electrons into the intermembrane space, where they cannot reach the chain."
+   ],
+   "ans": "A",
+   "exp": "FADH₂ delivers its electrons to ubiquinone at complex II, which pumps no protons, so those electrons skip the proton-pumping step of complex I and store less energy in the gradient. Both carriers carry two electrons, so a difference in electron count cannot explain the lower yield.",
+   "topic": "Biology · NADH and FADH₂ entry points",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "Which of the following statements about the roles of NAD⁺, FAD and ATP in metabolism is correct?",
+   "options": [
+    "ATP accepts electrons from oxidised substrates and passes them on to the electron transport chain.",
+    "NAD⁺ and FAD store the energy they harvest as a proton gradient inside their own rings.",
+    "FAD accepts two electrons and two protons during glycolysis, while NAD⁺ accepts single electrons only.",
+    "NAD⁺ and FAD accept electrons, together with protons, from oxidised substrates, while ATP transfers usable energy mainly through its terminal phosphate bond.",
+    "ATP is reduced to ADP when it transfers its terminal phosphate group to a substrate."
+   ],
+   "ans": "D",
+   "exp": "NAD⁺ and FAD are the electron and hydrogen acceptors of dehydrogenase reactions, while ATP is the currency that moves energy through its terminal phosphate, two distinct roles. Phosphate transfer is not a redox event, so describing ATP as reduced to ADP misapplies the term.",
+   "topic": "Biology · NAD⁺, FAD and ATP as carriers",
+   "lik": "M",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "Which of the following statements about alcoholic fermentation in yeast is correct?",
+   "options": [
+    "Pyruvate is reduced directly to ethanol, so no CO₂ is produced.",
+    "Alcoholic fermentation generates extra ATP beyond glycolysis by substrate-level phosphorylation.",
+    "Pyruvate is first decarboxylated to acetaldehyde with release of CO₂, then reduced to ethanol by NADH, regenerating NAD⁺ with no further ATP synthesis.",
+    "Yeast regenerates NAD⁺ during fermentation using lactate dehydrogenase.",
+    "The NADH that reduces acetaldehyde is supplied by the electron transport chain running in reverse."
+   ],
+   "ans": "C",
+   "exp": "Yeast first decarboxylates pyruvate to acetaldehyde, releasing the CO₂ of fermentation, and alcohol dehydrogenase then spends glycolytic NADH reducing acetaldehyde to ethanol, which is precisely how NAD⁺ is regenerated for further glycolysis; neither fermentation step makes ATP. Lactate dehydrogenase is the muscle route, and the NADH used comes from glycolysis in the cytosol, not from a reversed respiratory chain.",
+   "topic": "Biology · alcoholic fermentation",
+   "lik": "H",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "A muscle fibre metabolises glucose entirely by glycolysis followed by lactic acid fermentation. What is the net ATP yield per glucose, and why does fermentation remain indispensable?",
+   "options": [
+    "2 ATP: fermentation regenerates the NAD⁺ that glycolysis needs at the step oxidising glyceraldehyde-3-phosphate.",
+    "4 ATP: the fermentation steps themselves produce two extra ATP per pyruvate.",
+    "8 ATP: the conversion of pyruvate to lactate feeds electrons into the electron transport chain.",
+    "0 ATP: glycolysis cannot even start without oxygen.",
+    "6 ATP: fermentation converts the NADH of glycolysis into ATP inside the mitochondria."
+   ],
+   "ans": "A",
+   "exp": "Glycolysis spends 2 ATP and recovers 4, and converting pyruvate to lactate reoxidises that NADH back to NAD⁺, so the pathway can keep running without oxygen for a net of 2 ATP per glucose. The extra-ATP option is the classic error: the fermentation steps themselves produce no ATP at all.",
+   "topic": "Biology · lactic acid fermentation",
+   "lik": "M",
+   "syl": "3. Biology: Bioenergetics"
+  },
+  {
+   "stem": "During skeletal muscle contraction, what is the role of ATP at the moment a myosin head detaches from actin?",
+   "options": [
+    "ATP phosphorylates actin so that myosin can bind it again at a fresh site.",
+    "ATP binding to the myosin head weakens its grip on actin and causes detachment; hydrolysis of that ATP then re-cocks the head for the next stroke.",
+    "Calcium released by ATP detaches myosin from actin.",
+    "ATP is consumed only at the end of the power stroke, to pull the filaments past each other.",
+    "Detachment requires no ATP, because the release of ADP alone breaks the cross-bridge."
+   ],
+   "ans": "B",
+   "exp": "ATP binding to the myosin head weakens its attachment to actin and detaches the cross-bridge, and the energy of the following hydrolysis re-cocks the head into its high-energy position; without ATP the bridges stay locked, as in rigor mortis. Calcium's role is regulatory, exposing myosin-binding sites through troponin and tropomyosin, not releasing heads.",
+   "topic": "Biology · cross-bridge cycle and ATP",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Dystrophin is absent or non-functional in Duchenne muscular dystrophy. What is its normal role in a skeletal muscle fibre?",
+   "options": [
+    "It binds calcium to troponin, exposing the myosin-binding sites on actin.",
+    "It hydrolyses ATP to supply the power stroke of myosin.",
+    "It forms the thick filaments of the sarcomere together with myosin.",
+    "It stores oxygen inside the fibre, as myoglobin does.",
+    "It anchors the actin cytoskeleton to membrane glycoproteins, stabilising the sarcolemma during contraction."
+   ],
+   "ans": "E",
+   "exp": "Dystrophin links the sub-sarcolemmal actin network to the dystrophin-glycoprotein complex of the membrane, so losing it lets the sarcolemma tear under the mechanical stress of repeated contraction, which underlies Duchenne muscular dystrophy. ATP hydrolysis belongs to myosin and oxygen storage to myoglobin, so those options assign other proteins' jobs to a structural linker.",
+   "topic": "Biology · dystrophin and sarcolemma stability",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A muscle biopsy from an athlete shows fibres rich in mitochondria and myoglobin, with few glycogen granules and strong resistance to fatigue. Which fibre type is this, and in which sport would such fibres predominate?",
+   "options": [
+    "Type II fast glycolytic fibres, as in a sprinter",
+    "Type II fast glycolytic fibres, as in a marathon runner",
+    "Type I slow oxidative fibres, as in a sprinter",
+    "Type I slow oxidative fibres, as in a marathon runner",
+    "Cardiac muscle fibres, as in a long-distance swimmer"
+   ],
+   "ans": "D",
+   "exp": "Dense mitochondria and abundant myoglobin with little stored glycogen are the signature of type I slow oxidative fibres, built for continuous aerobic work and therefore predominant in endurance athletes such as marathon runners. The sprinter pairing is the trap: fast glycolytic fibres depend on glycolysis, are relatively pale and fatigue rapidly.",
+   "topic": "Biology · fibre type I versus type II",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  }
+ ]
+}

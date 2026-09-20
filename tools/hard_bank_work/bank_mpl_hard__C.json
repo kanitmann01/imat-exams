@@ -1,0 +1,126 @@
+{
+ "bank": "bank_mpl_hard",
+ "section": "C",
+ "questions": [
+  {
+   "stem": "Two fair six-sided dice are rolled once. What is the probability that the sum of the two scores is at least 9?",
+   "options": [
+    "1/9",
+    "5/36",
+    "5/18",
+    "1/3",
+    "5/12"
+   ],
+   "ans": "C",
+   "exp": "Sums of 9, 10, 11 and 12 arise from 4 + 3 + 2 + 1 = 10 of the 36 ordered outcomes, so the probability is 10/36 = 5/18. The 5/36 option counts only the five unordered pairs and forgets that (4,6) and (6,4) are different outcomes; the 1/9 option answers a sum of exactly 9.",
+   "topic": "Maths · two-dice sums",
+   "lik": "H",
+   "syl": "5. Mathematics: Probability and statistics"
+  },
+  {
+   "stem": "Three fair six-sided dice are rolled. What is the probability that all three show the same number?",
+   "options": [
+    "1/216",
+    "1/108",
+    "1/72",
+    "1/36",
+    "1/6"
+   ],
+   "ans": "D",
+   "exp": "The first die can show anything, and each of the other two must then match it, so the probability is (1/6) × (1/6) = 1/36. The 1/216 option fixes all three faces in advance, and 1/6 is the chance of three copies of one particular named number. The 1/72 option counts only three of the six matching triples.",
+   "topic": "Maths · joint condition on three dice",
+   "lik": "M",
+   "syl": "5. Mathematics: Probability and statistics"
+  },
+  {
+   "stem": "Two fair six-sided dice are rolled. What is the probability that the two scores are a 2 and a 5, in either order?",
+   "options": [
+    "1/36",
+    "1/18",
+    "1/9",
+    "1/6",
+    "1/3"
+   ],
+   "ans": "B",
+   "exp": "The favourable ordered outcomes are (2,5) and (5,2), so the probability is 2/36 = 1/18. The 1/36 option takes a single ordering, and the 1/9 option wrongly counts four outcomes by also including the doubles (2,2) and (5,5).",
+   "topic": "Maths · ordered vs unordered dice pairs",
+   "lik": "M",
+   "syl": "5. Mathematics: Probability and statistics"
+  },
+  {
+   "stem": "Two fair six-sided dice are rolled. What is the probability that the sum is 7 or at least one die shows a six?",
+   "options": [
+    "1/6",
+    "11/36",
+    "7/18",
+    "5/12",
+    "17/36"
+   ],
+   "ans": "D",
+   "exp": "P(sum 7) = 6/36 and P(at least one six) = 11/36, but the outcomes (1,6) and (6,1) satisfy both, so the union is (6 + 11 − 2)/36 = 15/36 = 5/12. The 17/36 option adds the two probabilities without subtracting the overlap, and the 1/6 option counts only the sum of 7.",
+   "topic": "Maths · combined events (inclusion-exclusion)",
+   "lik": "H",
+   "syl": "5. Mathematics: Probability and statistics"
+  },
+  {
+   "stem": "A fair coin is flipped four times. What is the probability of getting exactly two heads?",
+   "options": [
+    "1/8",
+    "3/16",
+    "1/4",
+    "3/8",
+    "1/2"
+   ],
+   "ans": "D",
+   "exp": "There are 2⁴ = 16 equally likely sequences and C(4,2) = 6 of them contain exactly two heads, giving 6/16 = 3/8. The 1/4 option counts only a few of the six arrangements, and 1/2 is the single-flip head probability.",
+   "topic": "Maths · exactly-two-heads counting",
+   "lik": "H",
+   "syl": "5. Mathematics: Probability and statistics"
+  },
+  {
+   "stem": "An urn contains 3 red, 4 green and 5 blue balls. Two balls are drawn at random without replacement. What is the probability that at least one of them is green?",
+   "options": [
+    "1/3",
+    "14/33",
+    "16/33",
+    "19/33",
+    "3/4"
+   ],
+   "ans": "D",
+   "exp": "P(no green) = (8/12) × (7/11) = 14/33, so P(at least one green) = 1 − 14/33 = 19/33. The 16/33 option answers exactly one green, 14/33 reports the complement, and 1/3 looks only at the first draw.",
+   "topic": "Maths · complement without replacement",
+   "lik": "H",
+   "syl": "5. Mathematics: Probability and statistics"
+  },
+  {
+   "stem": "The probability that a candidate passes a maths test is 2/3, and the probability that she passes an independent logic test is 3/4. What is the probability that she passes exactly one of the two tests?",
+   "options": [
+    "11/12",
+    "1/2",
+    "5/12",
+    "1/6",
+    "1/12"
+   ],
+   "ans": "C",
+   "exp": "Exactly one means pass maths and fail logic, or fail maths and pass logic: (2/3 × 1/4) + (1/3 × 3/4) = 2/12 + 3/12 = 5/12. The 1/2 option is the probability of passing both, and 11/12 is the probability of passing at least one.",
+   "topic": "Maths · independent events (exactly one)",
+   "lik": "H",
+   "syl": "5. Mathematics: Probability and statistics"
+  },
+  {
+   "stem": "A fair coin is tossed and a fair six-sided die is rolled. What is the probability of obtaining tails and a score greater than 4?",
+   "options": [
+    "1/12",
+    "1/6",
+    "1/4",
+    "1/2",
+    "2/3"
+   ],
+   "ans": "B",
+   "exp": "The events are independent: P(tails) = 1/2 and P(score greater than 4) = 2/6 = 1/3, so the joint probability is 1/2 × 1/3 = 1/6. The 2/3 option computes the union (tails or a high score) instead of the intersection, and 1/12 uses a single face instead of the two faces 5 and 6.",
+   "topic": "Maths · independent events (coin and die)",
+   "lik": "M",
+   "syl": "5. Mathematics: Probability and statistics"
+  }
+ ]
+}

@@ -1,0 +1,1489 @@
+{
+ "schema": 1,
+ "id": "imat_mock9",
+ "title": "IMAT MOCK EXAM 9: Hard Calibration",
+ "kind": "mock",
+ "durationSec": 6000,
+ "maxTenths": 900,
+ "targetScore": 35,
+ "sections": [
+  {
+   "code": "A",
+   "from": 1,
+   "to": 9,
+   "label": "Section A - Logical Reasoning & Reading",
+   "short": "Reasoning"
+  },
+  {
+   "code": "B",
+   "from": 10,
+   "to": 32,
+   "label": "Section B - Biology",
+   "short": "Biology"
+  },
+  {
+   "code": "C",
+   "from": 33,
+   "to": 47,
+   "label": "Section C - Chemistry",
+   "short": "Chemistry"
+  },
+  {
+   "code": "D",
+   "from": 48,
+   "to": 54,
+   "label": "Section D - Mathematics",
+   "short": "Mathematics"
+  },
+  {
+   "code": "E",
+   "from": 55,
+   "to": 60,
+   "label": "Section E - Physics",
+   "short": "Physics"
+  }
+ ],
+ "bankVersion": "b07036562",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "\"Researchers followed two groups of office workers for a year. Group A worked in a building where filtered air was fully exchanged every 20 minutes; Group B worked in an identical building where the air was exchanged every two hours. Temperature, lighting and noise were matched, and neither the workers nor the testers knew which building a participant occupied. Group A scored higher on decision-making tests taken at the end of each working day, with the widest gap on days of high outdoor pollution.\"\n\nWhich statement is most strongly supported by the passage?",
+   "options": [
+    "Ventilation rate may influence workers' decision-making, and the difference shows most clearly on days of high outdoor pollution.",
+    "The workers in Group A were more motivated than the workers in Group B.",
+    "Temperature, lighting and noise have no effect on decision-making performance.",
+    "The study proves that outdoor air pollution directly impairs decision-making.",
+    "Indoor air should never be exchanged with outdoor air."
+   ],
+   "ans": "A",
+   "exp": "With conditions matched and participants blinded, the performance gap can reasonably be attributed to the ventilation difference, and the passage adds that the gap was widest on polluted days. The claim about motivation has no support in the passage, and holding temperature, lighting and noise constant does not show they have no effect. The pollution finding shows a stronger gap on those days, not a proven direct cause of impaired decisions.",
+   "perm": [
+    0,
+    3,
+    1,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · inference from a controlled study",
+   "lik": "H"
+  },
+  {
+   "n": 2,
+   "stem": "\"Last year a city began charging drivers to enter its central zone. Within six months, car traffic in the zone had fallen by a quarter and buses ran measurably faster. A survey found that most people entering the zone travelled by public transport, and shopkeepers inside the zone reported slightly lower revenues. The money raised from the charge was used to extend two bus routes.\"\n\nWhich statement is best supported by the passage?",
+   "options": [
+    "The charge was introduced mainly in order to raise money for bus routes.",
+    "The fall in shop revenues was caused by the traffic charge.",
+    "Most visitors have stopped coming to the central zone.",
+    "Buses run faster because drivers have abandoned public transport.",
+    "Car journeys into the central zone fell, but the passage does not establish what caused the fall in shop revenues."
+   ],
+   "ans": "E",
+   "exp": "The passage states the traffic fall directly, but only reports the shopkeepers' lower revenues alongside it, so no causal link to the charge is established. The purpose of the charge is never given, only the use of its revenue, and the survey shows that most visitors still arrive, travelling by public transport.",
+   "perm": [
+    1,
+    0,
+    3,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · separating correlation from causation",
+   "lik": "M"
+  },
+  {
+   "n": 3,
+   "stem": "Every student who passed the practical examination attended all of the laboratory sessions. Some of the students who attended all of the laboratory sessions were awarded a scholarship. No scholarship winner was charged a laboratory fee.\n\nWhich one of the following must be true?",
+   "options": [
+    "Some students who passed the practical examination were not charged a laboratory fee.",
+    "Some students who attended all of the laboratory sessions were not charged a laboratory fee.",
+    "All students who were charged a laboratory fee failed the practical examination.",
+    "Some scholarship winners passed the practical examination.",
+    "Every student who was not charged a laboratory fee attended all of the laboratory sessions."
+   ],
+   "ans": "B",
+   "exp": "The scholarship winners are among the students who attended all of the sessions, and none of them was charged a fee, so at least one all-session attendee paid nothing. Nothing links the fee to passing: the scholarship winners need not have passed, and fee-charged students are never mentioned. The last option merely reverses the first premise, which is not licensed.",
+   "perm": [
+    1,
+    3,
+    4,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · syllogism (quantifier chain)",
+   "lik": "H"
+  },
+  {
+   "n": 4,
+   "stem": "Exactly one of four office workers jammed the shared printer, and exactly one of the four statements they made about the incident is true. Dana said: Erik jammed the printer. Erik said: Farid did not jam the printer. Farid said: I did not jam the printer. Gus said: Erik did not jam the printer.\n\nWho jammed the printer?",
+   "options": [
+    "Dana",
+    "Erik",
+    "Farid",
+    "Gus",
+    "No assignment fits: the statements are inconsistent."
+   ],
+   "ans": "C",
+   "exp": "If Farid jammed the printer, Dana's accusation of Erik is false, Erik's and Farid's denials are false, and only Gus's statement is true, which matches the condition. Testing the others: if Erik did it, Dana's, Erik's and Farid's statements are all true, and if Dana or Gus did it, at least two statements are true.",
+   "perm": [
+    3,
+    0,
+    1,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · one-true-statement consistency puzzle",
+   "lik": "H"
+  },
+  {
+   "n": 5,
+   "stem": "A town installed automatic speed cameras along its main road. During the following year, accidents on that road fell by 30 per cent, and the council concluded that the cameras had slowed drivers down and so prevented accidents.\n\nWhich one of the following findings would most weaken the council's argument?",
+   "options": [
+    "Accidents on other roads in the same town fell by about 30 per cent over the same year, although no cameras were installed there.",
+    "Most drivers questioned said that the cameras made them feel constantly watched.",
+    "The cameras recorded several thousand speeding violations during the year.",
+    "Repairing the cameras cost the council more than it had expected to save.",
+    "The speed limit on the main road was not changed when the cameras were installed."
+   ],
+   "ans": "A",
+   "exp": "An equal fall on camera-free roads points to some town-wide cause, such as weather or traffic patterns, instead of the cameras, which removes the council's basis for crediting them. Feeling watched and recorded violations do not touch the accident figures, and the unchanged speed limit actually rules out an alternative explanation rather than weakening the argument.",
+   "perm": [
+    0,
+    2,
+    1,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · weakening an argument (alternative cause)",
+   "lik": "M"
+  },
+  {
+   "n": 6,
+   "stem": "A safety rule states: whenever the fire alarm sounds, all staff evacuate the building.\n\nWhich one of the following statements is logically equivalent to this rule?",
+   "options": [
+    "If the staff evacuate the building, then the fire alarm has sounded.",
+    "If the staff do not evacuate the building, then the fire alarm has not sounded.",
+    "If the fire alarm does not sound, then the staff do not evacuate the building.",
+    "The staff evacuate the building if and only if the fire alarm sounds.",
+    "Either the fire alarm sounds or the staff evacuate the building."
+   ],
+   "ans": "B",
+   "exp": "The rule says alarm implies evacuation, and the only equivalent form is its contrapositive: no evacuation implies no alarm. The first option runs the implication backwards, the third negates both parts without reversing them, the fourth adds an unproven claim in the other direction, and the final disjunction is not equivalent to a conditional.",
+   "perm": [
+    4,
+    0,
+    2,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · conditional equivalence (converse and inverse traps)",
+   "lik": "M"
+  },
+  {
+   "n": 7,
+   "stem": "Six friends stand in a row for a photograph, in positions numbered 1 to 6 from left to right. Jana stands in position 1. Femi stands somewhere to the right of Gita. Hugo stands immediately to the left of Kofi. Ivo stands somewhere to the right of Femi.\n\nWhich one of the following is NOT possible?",
+   "options": [
+    "Hugo stands in position 2.",
+    "Ivo stands in position 4.",
+    "Femi stands in position 3.",
+    "Gita stands in position 5.",
+    "Kofi stands in position 5."
+   ],
+   "ans": "D",
+   "exp": "With Jana fixed at position 1, the valid arrangements are Hugo, Kofi, Gita, Femi, Ivo; Gita, Hugo, Kofi, Femi, Ivo; Gita, Femi, Hugo, Kofi, Ivo; and Gita, Femi, Ivo, Hugo, Kofi. Gita always takes position 2 or 4, never 5, while each other placement occurs in at least one of the four arrangements.",
+   "perm": [
+    1,
+    4,
+    2,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · linear seating (cannot be true)",
+   "lik": "H"
+  },
+  {
+   "n": 8,
+   "stem": "The four lectures Anthropology, Botany, Chemistry and Demography are scheduled one per hour at 9:00, 11:00, 13:00 and 15:00. Chemistry is scheduled earlier than Demography. Botany is not scheduled at 9:00. Anthropology is scheduled either immediately before or immediately after Botany.\n\nWhich one of the following must be true?",
+   "options": [
+    "Chemistry is scheduled at 11:00.",
+    "Botany is scheduled at 13:00.",
+    "Demography is not scheduled at 9:00.",
+    "Anthropology is scheduled at 9:00.",
+    "Chemistry is scheduled at 15:00."
+   ],
+   "ans": "C",
+   "exp": "Demography must come after Chemistry, so Demography can never occupy the first slot at 9:00, whatever else moves. The five valid orders allow Botany at 11:00, 13:00 or 15:00 and put Anthropology at 9:00 in only one of them, while Chemistry always falls at 9:00 or 13:00, never at 11:00 or 15:00.",
+   "perm": [
+    0,
+    2,
+    3,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · scheduling with an adjacency rule",
+   "lik": "H"
+  },
+  {
+   "n": 9,
+   "stem": "Five entries, P, Q, R, S and T, are ranked from 1st (best) to 5th in a short-story competition. T is ranked third. S is ranked better than R. R is ranked better than Q.\n\nWhich one of the following must be true?",
+   "options": [
+    "S is ranked first.",
+    "P is ranked second.",
+    "R is ranked fourth.",
+    "Q is ranked either fourth or fifth.",
+    "S is ranked better than P."
+   ],
+   "ans": "D",
+   "exp": "Since S must finish ahead of R and R ahead of Q, the four valid rankings place Q in fourth or fifth position every time. S and P can exchange the two remaining top spots, so S first, P second and R fourth each fail in at least one ranking, and in one arrangement P finishes above S.",
+   "perm": [
+    3,
+    1,
+    2,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · ranking with a chain of conditions",
+   "lik": "H"
+  },
+  {
+   "n": 10,
+   "stem": "A protein's folded shape is held partly by ionic bonds (salt bridges) between the side chain of a lysine residue and the side chain of an aspartate residue. At pH 7 the lysine side chain is positively charged and the aspartate side chain is negatively charged. The protein is transferred to a solution at pH 2, where the aspartate side chain becomes protonated and loses its charge, while the lysine side chain stays charged. Which outcome is expected?",
+   "options": [
+    "The primary structure is shortened, because the bond between the two side chains is one kind of peptide bond.",
+    "A new salt bridge forms immediately, because at pH 2 the aspartate side chain becomes positively charged.",
+    "The salt bridge breaks and this part of the tertiary structure becomes less stable, while the amino acid sequence is unchanged.",
+    "The salt bridge is unaffected, but every peptide bond in the backbone breaks at pH 2.",
+    "The salt bridge becomes stronger, because two uncharged groups attract each other more strongly than two charged groups."
+   ],
+   "ans": "C",
+   "exp": "Opposite charges attract, so removing the aspartate's negative charge by protonation destroys the ionic attraction and destabilises that region, without any change to the sequence of residues. Side-chain bonds are not peptide bonds, and uncharged groups do not attract more strongly than opposite charges.",
+   "perm": [
+    2,
+    3,
+    4,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · pH, ionisation and salt bridges",
+   "lik": "H"
+  },
+  {
+   "n": 11,
+   "stem": "A patient takes a drug that keeps the pH of the stomach contents close to 7 instead of the usual strongly acidic value, but leaves the small intestine unchanged. Pepsin works optimally near pH 2, while trypsin works optimally near pH 8. Which outcome is expected?",
+   "options": [
+    "Pepsin activity in the stomach falls sharply, while trypsin activity in the small intestine is essentially unaffected.",
+    "Pepsin activity in the stomach rises, because pepsin neutralises the effect of the drug.",
+    "Both enzymes lose almost all activity, because digestive enzymes work only in strongly acidic conditions.",
+    "Trypsin activity in the small intestine falls to zero, because trypsin requires the acidity produced by the stomach.",
+    "Protein digestion continues unchanged, because enzymes adjust their pH optimum to their surroundings."
+   ],
+   "ans": "A",
+   "exp": "Pepsin's optimum lies near pH 2, so raising the stomach contents to about pH 7 leaves it working far below its maximum, while trypsin's optimum near pH 8 is untouched because the small intestine is unchanged. The claim that both enzymes need acid ignores trypsin's alkaline optimum, and enzymes do not move their optima to suit conditions.",
+   "perm": [
+    1,
+    3,
+    4,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · digestive enzymes and pH optima",
+   "lik": "H"
+  },
+  {
+   "n": 12,
+   "stem": "Glucose units released from glycogen inside a muscle cell enter glycolysis as glucose 6-phosphate, so the hexokinase step, which consumes 1 ATP, is bypassed, while the other ATP-consuming step of glycolysis still occurs. The muscle ferments these units entirely to lactate. What is the net ATP yield per glucose unit?",
+   "options": [
+    "0",
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "ans": "C",
+   "exp": "Glycolysis pays out 4 ATP per glucose unit (2 at phosphoglycerate kinase and 2 at pyruvate kinase) and, for glycogen-derived units, spends only 1 ATP at phosphofructokinase, giving a net of 3. The value 2 applies to free glucose entering through hexokinase, and lactate fermentation regenerates NAD+ without adding or removing ATP.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · glycogen entry into glycolysis",
+   "lik": "M"
+  },
+  {
+   "n": 13,
+   "stem": "In the epithelial cells lining the small intestine, glucose is absorbed from the lumen by a transporter that carries glucose together with sodium ions, driven by the sodium concentration gradient. That gradient is maintained by the sodium-potassium pump, which hydrolyses ATP. A poison inactivates the sodium-potassium pump of these cells. Which outcome is expected?",
+   "options": [
+    "Glucose absorption by the sodium-coupled transporter continues at a normal rate, because this transporter does not use ATP directly.",
+    "The sodium-potassium pump switches to transporting glucose, so absorption continues unchanged.",
+    "The cells begin to secrete glucose back into the lumen, because the pump normally carries glucose inward.",
+    "Only the movement of potassium is affected, because sodium and potassium cross the membrane through separate systems.",
+    "The sodium gradient across the membrane decays, so the sodium-coupled glucose transporter stops working and glucose absorption by this route fails."
+   ],
+   "ans": "E",
+   "exp": "The glucose transporter is powered by the inward sodium gradient, which the pump maintains at the cost of ATP, so inactivating the pump removes that gradient and the cotransport stops. The claim that direct ATP use is what matters confuses primary active transport with secondary active transport.",
+   "perm": [
+    2,
+    4,
+    1,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · primary and secondary active transport",
+   "lik": "H"
+  },
+  {
+   "n": 14,
+   "stem": "A plant leaf cell is placed in a solution whose concentration of non-penetrating solutes is much higher than that of the cell sap. Which outcome is expected?",
+   "options": [
+    "Water enters the cell until the cell bursts, because plant cells have no way of stopping water uptake.",
+    "Water leaves the cell, the protoplast pulls away from the cell wall, and the cell does not burst.",
+    "Water leaves the cell until the cell bursts, because the wall cannot resist shrinking.",
+    "There is no net movement of water, because the cell wall blocks osmosis.",
+    "Water enters the cell and builds turgor pressure against the wall."
+   ],
+   "ans": "B",
+   "exp": "The outside solution is hypertonic, so water leaves by osmosis and the protoplast shrinks away from the wall, a state called plasmolysis; the rigid wall prevents bursting. The other water-entry options contradict the direction of the concentration difference, and a wall does not stop osmosis.",
+   "perm": [
+    0,
+    2,
+    3,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · osmosis, plasmolysis and turgor",
+   "lik": "M"
+  },
+  {
+   "n": 15,
+   "stem": "A drug stops the transcription of ribosomal RNA in the nucleolus of a eukaryotic cell, while the transcription of protein-coding genes and the rest of the cell's metabolism continue intact for several hours. Which outcome is expected?",
+   "options": [
+    "Protein synthesis continues unchanged, because ribosomes are assembled in the cytoplasm without the nucleolus.",
+    "Messenger RNA is destroyed as soon as it leaves the nucleus, because the nucleolus protects it.",
+    "DNA replication speeds up, because the freed RNA polymerase begins copying DNA.",
+    "Messenger RNA accumulates but is translated less efficiently, because no new ribosomal subunits are assembled, so the rate of protein synthesis falls.",
+    "Only the synthesis of proteins destined for secretion stops, because those proteins are made by the nucleolus itself."
+   ],
+   "ans": "D",
+   "exp": "The nucleolus makes ribosomal RNA and assembles ribosomal subunits, so blocking it starves the cytoplasm of new ribosomes while messenger RNA keeps being produced, and translation slows. Secreted proteins are made on ribosomes of the rough endoplasmic reticulum, which draw on the same supply of subunits as free ribosomes.",
+   "perm": [
+    4,
+    3,
+    0,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · nucleolus, ribosome assembly and translation",
+   "lik": "M"
+  },
+  {
+   "n": 16,
+   "stem": "In a eukaryotic gene, a single base substitution occurs well upstream of the coding sequence, within the promoter region where RNA polymerase binds, and the change weakens this binding. The coding sequence itself is unchanged. Which outcome is expected?",
+   "options": [
+    "One amino acid in the protein is replaced by a different one, because every base substitution changes the protein.",
+    "The amino acid sequence of the protein is unchanged, but the protein is produced in reduced amounts, because transcription of the gene is less efficient.",
+    "The reading frame of the gene shifts, so the protein differs completely downstream of the mutation.",
+    "The gene can never be transcribed again, because a damaged promoter destroys the DNA.",
+    "The cell is unaffected in every way, because promoter changes cannot influence protein production."
+   ],
+   "ans": "B",
+   "exp": "The mutation lies outside the coding sequence, so the messenger RNA and its amino acid sequence stay the same, but a weaker polymerase binding site lowers the rate of transcription and therefore the amount of protein made. Frameshifts require added or deleted bases, and promoter changes certainly can affect the cell, which is exactly what happens here.",
+   "perm": [
+    4,
+    2,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · promoter versus coding mutations",
+   "lik": "H"
+  },
+  {
+   "n": 17,
+   "stem": "During meiosis I in a human oocyte, one pair of homologous chromosomes fails to separate (nondisjunction). Meiosis II then proceeds normally, and the resulting egg cell is fertilised by a normal sperm. Which statement is correct?",
+   "options": [
+    "All four products of meiosis have an abnormal chromosome number, and fertilisation by a normal sperm produces a zygote with either 45 or 47 chromosomes.",
+    "Two of the four products are normal, and fertilisation produces a normal zygote in half of the cases.",
+    "The four products have 24, 24, 23 and 23 chromosomes, because only the second division is disturbed.",
+    "The zygote always has 47 chromosomes, because nondisjunction always produces extra chromosomes.",
+    "The egg is always inviable, because cells with unpaired homologous chromosomes cannot be fertilised."
+   ],
+   "ans": "A",
+   "exp": "In meiosis I nondisjunction both homologues go to one pole, so every product is aneuploid: two carry 24 chromosomes and two carry 22, and a normal sperm gives zygotes of 47 or 45 depending on which product becomes the egg. The 24, 24, 23, 23 pattern and the half-normal outcome belong to nondisjunction in meiosis II.",
+   "perm": [
+    1,
+    4,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · nondisjunction in meiosis I and gamete outcomes",
+   "lik": "H"
+  },
+  {
+   "n": 18,
+   "stem": "Two guinea pigs, both heterozygous for coat colour (Bb) and for hair length (Ll), are crossed. The two genes assort independently. What is the probability that an offspring shows both recessive traits, that is, brown coat (bb) and long hair (ll)?",
+   "options": [
+    "1/16",
+    "1/8",
+    "3/16",
+    "1/4",
+    "9/16"
+   ],
+   "ans": "A",
+   "exp": "Each recessive phenotype appears in one quarter of the offspring for its own gene, so bb occurs with probability 1/4 and ll with probability 1/4, and with independent assortment the probabilities multiply: 1/4 × 1/4 = 1/16. The value 9/16 is the probability of showing both dominant traits instead.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · dihybrid cross with independent assortment",
+   "lik": "M"
+  },
+  {
+   "n": 19,
+   "stem": "In a population in Hardy-Weinberg equilibrium, one child in 2,500 is born with a recessive genetic disease. Assuming random mating and a large population, roughly what fraction of the population are carriers (heterozygotes) for the disease allele?",
+   "options": [
+    "1/2500",
+    "1/50",
+    "1/25",
+    "2/25",
+    "49/50"
+   ],
+   "ans": "C",
+   "exp": "The affected frequency q² equals 1/2500, so q = 1/50 and p = 49/50, giving a carrier frequency 2pq = 2 × (49/50) × (1/50) = 98/2500, which is close to 1/25. The value 1/50 is the allele frequency itself, and 1/2500 counts only affected individuals.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · Hardy-Weinberg carrier frequency",
+   "lik": "M"
+  },
+  {
+   "n": 20,
+   "stem": "Colchicine prevents the assembly of spindle microtubules. A cell that has completed DNA replication is exposed to colchicine as it enters mitosis. At which stage, and with which appearance, will treated cells accumulate?",
+   "options": [
+    "In prophase, because spindle formation is required for chromosome condensation.",
+    "At metaphase, with fully condensed chromosomes each consisting of two sister chromatids and no separation of the chromatids.",
+    "In anaphase, because colchicine triggers the separation of the chromatids.",
+    "In telophase, because the nuclear envelope reforms without spindle function.",
+    "In interphase, because the cell returns to G1 without dividing."
+   ],
+   "ans": "B",
+   "exp": "Chromosomes condense in prophase independently of the spindle and the nuclear envelope breaks down on schedule, but without microtubules the sister chromatids can never be pulled apart, so treated cells pile up at a metaphase-like stage. Colchicine does not trigger anaphase, and cells do not return to interphase without completing division.",
+   "perm": [
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · spindle poisons and mitotic arrest",
+   "lik": "M"
+  },
+  {
+   "n": 21,
+   "stem": "A toxin blocks the proton channel of mitochondrial ATP synthase, so protons can no longer flow back into the matrix, while the electron transport chain still transfers electrons to oxygen at first. In cells whose mitochondria are treated with this toxin, which statement is correct?",
+   "options": [
+    "Electron transport continues at its normal rate, because oxygen is still available and ATP synthesis is a separate process.",
+    "The proton gradient dissipates through the blocked ATP synthase and electron transport accelerates above normal.",
+    "The cells switch to photosynthesis in order to regenerate their NADPH.",
+    "Glycolysis continues normally, because glycolysis never needs NAD+ at any step.",
+    "Electron transport soon stops because the growing proton gradient opposes further pumping, NADH accumulates and is no longer reoxidised, and glycolysis can only continue by converting pyruvate to lactate."
+   ],
+   "ans": "E",
+   "exp": "With the return path for protons blocked, the gradient builds until pumping against it stalls, so electron transport and NADH oxidation fail even though oxygen is present. Glycolysis then depends on regenerating NAD+, which lactate fermentation does; the dissipating-gradient description fits an uncoupler, not a blocked channel.",
+   "perm": [
+    4,
+    0,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · ATP synthase block with fermentation logic",
+   "lik": "H"
+  },
+  {
+   "n": 22,
+   "stem": "After death, calcium ions leak out of the sarcoplasmic reticulum and are never pumped back, and ATP production has stopped. Cross-bridges form between myosin heads and actin. Which statement explains why the muscles then become rigid (rigor mortis)?",
+   "options": [
+    "The actin filaments shorten permanently, pulling the muscle rigid.",
+    "The lack of ATP causes the sarcoplasmic reticulum to release more calcium, which stiffens the muscle membrane.",
+    "Without ATP the myosin heads cannot bind actin at all, so the fibres separate and harden.",
+    "Tropomyosin detaches from actin because its position depends on ATP rather than on calcium.",
+    "Myosin heads remain locked onto actin because ATP is needed to detach them, and with no ATP the cross-bridges cannot break, so the muscle stays contracted."
+   ],
+   "ans": "E",
+   "exp": "Detachment of a myosin head from actin is an ATP-binding step, so after death the bound heads cannot release and the muscle freezes in a contracted state. Filament lengths never change in the sliding filament model, the calcium was already released from the leaking sarcoplasmic reticulum, and tropomyosin's position depends on calcium.",
+   "perm": [
+    3,
+    4,
+    2,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · cross-bridge cycle and rigor mortis",
+   "lik": "H"
+  },
+  {
+   "n": 23,
+   "stem": "The aortic semilunar valve of a patient is narrowed (stenosed), so the opening through which blood leaves the left ventricle is reduced. Which chain of consequences follows?",
+   "options": [
+    "Blood flows back from the aorta into the left ventricle during diastole, and the right ventricle enlarges first.",
+    "The left atrium enlarges because it pumps blood directly into the aorta.",
+    "Blood pressure in the pulmonary arteries falls, because the lungs receive less blood.",
+    "The left ventricle must generate a higher pressure to eject blood, ejection takes longer, and the ventricle wall thickens over time under the extra load.",
+    "The mitral valve is held open during systole, which raises the pressure in the left atrium."
+   ],
+   "ans": "D",
+   "exp": "A narrowed outflow tract raises the resistance the left ventricle works against, so it must reach a higher pressure, ejects more slowly and hypertrophies over time. The described backflow fits a leaky (incompetent) valve rather than a narrowed one, the mitral valve is closed throughout systole, and the pulmonary circuit is not the first to be affected.",
+   "perm": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · aortic stenosis and ventricular workload",
+   "lik": "H"
+  },
+  {
+   "n": 24,
+   "stem": "In a healthy chest, the pressure in the pleural cavity between the lung and the chest wall is lower than atmospheric, which keeps the lung expanded against the chest wall. A fractured rib tears the lung surface and lets air leak into the right pleural cavity until the pressure there equals atmospheric pressure. What happens to the right lung, and why?",
+   "options": [
+    "The right lung inflates further, because the incoming air pushes directly into the lung tissue.",
+    "The right lung collapses inward, because its elastic recoil is no longer opposed by the sub-atmospheric pleural pressure, while the chest wall springs outward.",
+    "The right lung is unaffected, because the diaphragm alone keeps it inflated.",
+    "The right lung collapses because the air destroys the elastic fibres of the alveolar walls.",
+    "The lung and the chest wall are drawn toward each other with extra force, keeping the lung inflated."
+   ],
+   "ans": "B",
+   "exp": "The lung and the chest wall pull in opposite directions and the negative pleural pressure couples them; once air lets that pressure reach atmospheric, the lung's recoil collapses it while the chest wall expands outward. The elastic fibres are not destroyed, and without the pressure difference nothing holds the lung open.",
+   "perm": [
+    0,
+    4,
+    2,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · pleural pressure and lung recoil",
+   "lik": "H"
+  },
+  {
+   "n": 25,
+   "stem": "Carbon monoxide binds to haemoglobin at the same sites as oxygen, with an affinity more than 200 times greater, and it is released only slowly. A fire victim is breathing air containing carbon monoxide. A pulse oximeter cannot distinguish carboxyhaemoglobin from oxyhaemoglobin. Which statement is correct?",
+   "options": [
+    "The blood carries far less oxygen than its haemoglobin capacity allows, yet a pulse oximeter still reads a high saturation because carbon monoxide bound to haemoglobin looks like oxygen-bound haemoglobin.",
+    "The blood carries less oxygen, and a pulse oximeter immediately shows a falsely low reading, which makes diagnosis simple.",
+    "Carbon monoxide only reduces the small amount of oxygen dissolved in plasma, leaving haemoglobin transport untouched.",
+    "Oxygen transport is normal, because carbon monoxide displaces carbon dioxide from haemoglobin rather than oxygen.",
+    "Tissue oxygen delivery rises, because carbon monoxide increases the affinity of haemoglobin for oxygen."
+   ],
+   "ans": "A",
+   "exp": "Carbon monoxide occupies the oxygen-binding sites, so the blood's oxygen capacity collapses, but the instrument cannot distinguish carboxyhaemoglobin from oxyhaemoglobin and reports a falsely high saturation. Dissolved oxygen is a tiny fraction of total transport, and a higher affinity of the remaining sites means less release to tissues, not more.",
+   "perm": [
+    2,
+    3,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · carbon monoxide and oxygen transport",
+   "lik": "H"
+  },
+  {
+   "n": 26,
+   "stem": "A glucose molecule is absorbed from the lumen of the small intestine into a capillary of an intestinal villus. Which of the following gives the correct route it takes on the way to the hepatic vein?",
+   "options": [
+    "Intestinal villus capillary, hepatic portal vein, liver sinusoids, hepatic vein",
+    "Intestinal villus capillary, hepatic vein, liver sinusoids, hepatic portal vein",
+    "Intestinal villus capillary, hepatic artery, liver sinusoids, hepatic portal vein",
+    "Intestinal villus capillary, vena cava, right atrium, hepatic portal vein",
+    "Intestinal villus capillary, lacteal, thoracic duct, hepatic vein"
+   ],
+   "ans": "A",
+   "exp": "Nutrients absorbed into the blood capillaries of the villus travel in the hepatic portal vein to the liver sinusoids, a second capillary bed, and leave by the hepatic vein, without passing the heart first. The lacteal carries fats rather than glucose, and the hepatic artery supplies oxygen to the liver instead of carrying absorbed nutrients.",
+   "perm": [
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · hepatic portal circulation",
+   "lik": "H"
+  },
+  {
+   "n": 27,
+   "stem": "A person takes tablets containing thyroxine (T4) every day in fairly high doses, without medical supervision. The normal feedback control of the thyroid axis still works correctly. Which pattern of blood hormone levels is expected?",
+   "options": [
+    "TSH high and T4 high, because the pituitary reacts to high T4 by secreting more TSH.",
+    "TSH high and T4 low, because the tablets stop the thyroid gland from working.",
+    "TRH and TSH both high, because the thyroid gland cannot respond to the tablets.",
+    "TSH low and T4 high, because the extra T4 suppresses the hypothalamus and the pituitary through normal negative feedback.",
+    "TSH and T4 both normal, because thyroxine taken by mouth is destroyed before reaching the blood."
+   ],
+   "ans": "D",
+   "exp": "The tablets raise blood T4, and normal negative feedback turns down TRH and TSH secretion, so TSH falls while T4 stays high. The high-TSH patterns reverse the feedback logic, and oral thyroxine is precisely how hypothyroid patients are treated, so it is not destroyed before absorption.",
+   "perm": [
+    0,
+    2,
+    1,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · thyroid feedback with exogenous hormone",
+   "lik": "H"
+  },
+  {
+   "n": 28,
+   "stem": "A hill walker walks for hours in extreme heat, loses a large volume of sweat and drinks almost nothing. Plasma volume falls and the plasma becomes more concentrated. Which set of responses is expected?",
+   "options": [
+    "ADH secretion falls and the kidneys produce large volumes of dilute urine.",
+    "Aldosterone secretion falls, so more sodium is lost in the urine.",
+    "ADH secretion stays unchanged, because ADH responds only to blood pressure and never to plasma concentration.",
+    "The glomerular filtration rate rises sharply and urine volume increases.",
+    "ADH secretion rises, the collecting ducts reabsorb more water so the urine becomes concentrated, and thirst is stimulated."
+   ],
+   "ans": "E",
+   "exp": "A rise in plasma concentration and a fall in plasma volume both stimulate ADH release from the posterior pituitary, which concentrates the urine, while osmoreceptors drive the sensation of thirst. The falling-ADH and rising-filtration options describe the body's response to drinking excess water, the opposite situation.",
+   "perm": [
+    2,
+    4,
+    1,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · ADH, thirst and water balance",
+   "lik": "M"
+  },
+  {
+   "n": 29,
+   "stem": "A person with type 1 diabetes injects insulin but then skips the next meal and takes vigorous exercise, and the blood glucose level begins to fall below normal. Which sequence of responses follows in this person?",
+   "options": [
+    "The liver converts glucose into glycogen faster, storing away the effect of the injected insulin.",
+    "Glucagon and adrenaline secretion rise, the liver breaks down glycogen and releases glucose into the blood, and the person feels warning symptoms such as hunger and trembling.",
+    "The pancreas secretes additional insulin, which corrects the glucose level.",
+    "Glucagon secretion falls, so the muscles take up more glucose from the blood.",
+    "The kidneys stop filtering glucose, which keeps the blood level constant."
+   ],
+   "ans": "B",
+   "exp": "Falling blood glucose triggers the counter-regulatory hormones glucagon and adrenaline, which mobilise liver glycogen and produce warning symptoms, defending the brain's fuel supply. In type 1 diabetes the pancreas cannot secrete extra insulin, and the other options move glucose in the wrong direction or describe processes that do not exist.",
+   "perm": [
+    3,
+    0,
+    2,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · hypoglycaemia counter-regulation",
+   "lik": "H"
+  },
+  {
+   "n": 30,
+   "stem": "The oesophagus is lined by stratified squamous epithelium many cells thick, while the small intestine is lined by a single layer of columnar cells. Which statement best explains this difference?",
+   "options": [
+    "The oesophagus absorbs nutrients more slowly than the intestine and needs extra layers to compensate.",
+    "Stratified squamous epithelium secretes more digestive enzymes, which is why the oesophagus digests food first.",
+    "A single layer of columnar cells is stronger, which suits the intestine as the first part of the gut to receive food.",
+    "The two linings do the same job, and the difference is a random outcome of embryonic development.",
+    "The oesophagus needs a many-layered, abrasion-resistant lining against swallowed food, while the intestine needs a thin single layer specialised for absorption."
+   ],
+   "ans": "E",
+   "exp": "Structure follows function: multi-layered squamous epithelium resists the abrasion of swallowing, while a single thin layer shortens the diffusion distance for absorbing nutrients. The oesophagus digests nothing, and the intestine's single layer is a functional specialisation, not a strength.",
+   "perm": [
+    0,
+    4,
+    1,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · epithelium matched to function",
+   "lik": "M"
+  },
+  {
+   "n": 31,
+   "stem": "A patient tears the meniscus, a pad of cartilage in the knee, and is told that it heals much more slowly than a similar tear in the skin. Which feature of cartilage best explains this?",
+   "options": [
+    "Cartilage cells divide faster than skin cells but build a weaker matrix.",
+    "Cartilage is a type of nervous tissue, so repair signals cannot reach the injury.",
+    "The cartilage matrix is made of keratin, which never grows back after damage.",
+    "Cartilage contains few or no blood vessels, so repair cells and their building materials reach the injury only slowly by diffusion.",
+    "Cartilage is buried under skin everywhere in the body, so repair cells cannot physically reach it."
+   ],
+   "ans": "D",
+   "exp": "Repair depends on the blood supply to deliver cells, oxygen and building materials, and cartilage is essentially avascular, which explains its very slow healing. Keratin belongs to the epidermis, cartilage is connective tissue, and lying beneath the skin does not prevent repair cells from reaching a tissue.",
+   "perm": [
+    3,
+    0,
+    4,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · cartilage structure and repair",
+   "lik": "M"
+  },
+  {
+   "n": 32,
+   "stem": "A large beetle population has an allele frequency of 0.4 for allele A at one locus. A flood leaves only ten survivors: six AA, three Aa and one aa, and these found a new population. What is the frequency of allele A among the survivors, and what does the change from 0.4 illustrate?",
+   "options": [
+    "0.15, and the change illustrates gene flow from another population.",
+    "0.40, and the change illustrates the constancy required by the Hardy-Weinberg principle.",
+    "0.60, and the change illustrates natural selection favouring allele A.",
+    "0.75, and the change illustrates genetic drift caused by a population bottleneck.",
+    "0.80, and the change illustrates a new mutation increasing allele A."
+   ],
+   "ans": "D",
+   "exp": "The survivors carry 15 copies of allele A among 20 alleles in total (6 × 2 from AA plus 3 from Aa), a frequency of 0.75. A chance-heavy reduction to a handful of founders that shifts allele frequencies is the bottleneck form of genetic drift; no selection, migration or mutation is described, and 0.60 counts only the homozygotes' alleles.",
+   "perm": [
+    2,
+    4,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Biology · bottleneck effect and allele frequency",
+   "lik": "H"
+  },
+  {
+   "n": 33,
+   "stem": "Consider three pairs of organic compounds. Pair P: butan-1-ol and butan-2-ol. Pair Q: (2R)-butan-2-ol and (2S)-butan-2-ol. Pair R: cis-pent-2-ene and trans-pent-2-ene. Which of the following statements is correct?",
+   "options": [
+    "Q and R are pairs of stereoisomers, while P is a pair of constitutional isomers.",
+    "All three pairs are constitutional isomers, since each pair shares the same molecular formula.",
+    "P and Q are pairs of enantiomers, while R is a pair of constitutional isomers.",
+    "R is a pair of enantiomers, because the cis and trans forms are mirror images of each other.",
+    "P is a pair of stereoisomers, since the two alcohols differ only in the position of the OH group."
+   ],
+   "ans": "A",
+   "exp": "Butan-1-ol and butan-2-ol have different connectivity, so P is a constitutional pair, while the mirror-image pair Q and the cis and trans pair R are both stereoisomeric. The mirror-image claim for the alkene fails: cis and trans pent-2-ene are diastereomers, not enantiomers, and positional isomers are never stereoisomers.",
+   "perm": [
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chemistry · isomer classification (constitutional vs stereoisomers)",
+   "lik": "H"
+  },
+  {
+   "n": 34,
+   "stem": "4.8 g of methane (M = 16 g/mol) is mixed with 4.8 g of oxygen gas (M = 32 g/mol) and ignited, and the reaction CH₄ + 2O₂ → CO₂ + 2H₂O proceeds until one reactant is used up. Which statement is correct? (Molar volume of any gas at STP = 22.4 dm3/mol)",
+   "options": [
+    "3.36 dm3 of CO2 (measured at STP) forms and the oxygen is in excess.",
+    "3.36 dm3 of CO2 (measured at STP) forms and 1.8 g of methane remains.",
+    "1.68 dm3 of CO2 (measured at STP) forms and 3.6 g of methane remains.",
+    "1.68 dm3 of CO2 (measured at STP) forms and no methane remains.",
+    "1.68 dm3 of CO2 (measured at STP) forms and 1.8 g of methane remains."
+   ],
+   "ans": "C",
+   "exp": "n(CH₄) = 4.8/16 = 0.30 mol and n(O₂) = 4.8/32 = 0.15 mol, so the 1:2 equation makes oxygen limiting: only 0.075 mol of methane burns, giving 0.075 mol of CO₂, that is 0.075 × 22.4 = 1.68 dm3, and 0.225 mol (3.6 g) of methane remains. The 3.36 dm3 options take the 0.15 mol of oxygen as producing 0.15 mol of CO₂, forgetting that 2 mol of O₂ are needed per mol of CO₂ formed.",
+   "perm": [
+    2,
+    4,
+    3,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chemistry · limiting reagent with gas volumes",
+   "lik": "H"
+  },
+  {
+   "n": 35,
+   "stem": "0.40 g of sodium hydroxide (M = 40 g/mol), a strong base that is fully dissociated in water, is dissolved and made up to exactly 1.0 dm3 of solution at 25 °C. Then 10 cm3 of this solution is diluted with water to a final volume of 1.0 dm3. What is the pH of the final solution? (Kw = 1.0 × 10^-14 at 25 °C)",
+   "options": [
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "ans": "C",
+   "exp": "The first solution holds 0.010 mol of hydroxide per dm3, so pOH = 2 and pH = 12; taking 10 cm3 up to 1000 cm3 dilutes the hydroxide a hundredfold to 1.0 × 10^-4 mol/dm3, so pOH = 4 and pH = 10. The value 4 is the pOH rather than the pH, and pH 11 would correspond to a tenfold dilution.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chemistry · molarity to pH, then dilution",
+   "lik": "H"
+  },
+  {
+   "n": 36,
+   "stem": "At 25 °C the ionic product of water is Kw = 1.0 × 10^-14, but at a higher temperature Kw is larger: in one such case Kw = 1.0 × 10^-13. What is the pH of a 0.010 mol/dm3 solution of sodium hydroxide, fully dissociated, at this higher temperature?",
+   "options": [
+    "2",
+    "6.5",
+    "11",
+    "12",
+    "13"
+   ],
+   "ans": "C",
+   "exp": "With hydroxide at 0.010 mol/dm3, the hydrogen ion concentration is Kw divided by it: 1.0 × 10^-13 / 1.0 × 10^-2 = 1.0 × 10^-11 mol/dm3, so pH = 11. The value 12 comes from reusing the 25 °C value of Kw, 2 is the pOH rather than the pH, and 6.5 is the pH of neutral water at this temperature.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chemistry · Kw and pH of a base (temperature shift)",
+   "lik": "H"
+  },
+  {
+   "n": 37,
+   "stem": "20 cm3 of 0.010 mol/dm3 hydrochloric acid, a strong acid that is fully ionised, is diluted with water to a final volume of 400 cm3. Taking log10 2 = 0.30, what is the pH of the diluted solution?",
+   "options": [
+    "2.30",
+    "3.00",
+    "3.10",
+    "3.30",
+    "4.00"
+   ],
+   "ans": "D",
+   "exp": "The initial pH is 2.00. The dilution factor is 400/20 = 20, so the pH rises by log10 20 = log10 2 + 1 = 1.30, giving pH 3.30; equivalently [H+] falls from 1.0 × 10^-2 to 5.0 × 10^-4 mol/dm3. The 4.00 option assumes a tenfold dilution, and 2.30 would need a further tenfold concentration.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chemistry · dilution with a non-tenfold factor",
+   "lik": "H"
+  },
+  {
+   "n": 38,
+   "stem": "Four pure molecular liquids with similar molar masses are: propane CH₃CH₂CH₃ (Mr 44), propanone CH₃COCH₃ (Mr 58), ethanol C₂H₅OH (Mr 46) and ethanoic acid CH₃COOH (Mr 60). In the liquid state, two ethanoic acid molecules are held together by two hydrogen bonds each, and propanone has no O-H or N-H bond. Which option places them in order of increasing boiling point?",
+   "options": [
+    "ethanoic acid < ethanol < propanone < propane",
+    "propanone < propane < ethanol < ethanoic acid",
+    "propane < ethanol < propanone < ethanoic acid",
+    "propane < propanone < ethanoic acid < ethanol",
+    "propane < propanone < ethanol < ethanoic acid"
+   ],
+   "ans": "E",
+   "exp": "Boiling point tracks the strongest intermolecular force: propane has only London forces, propanone adds a permanent dipole but cannot donate a hydrogen bond, ethanol hydrogen bonds one pair at a time, and each ethanoic acid dimer is held by two hydrogen bonds, so it needs the most energy to vaporise. Ranking by molar mass, as the reversed order does, fails because the masses are similar.",
+   "perm": [
+    2,
+    0,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chemistry · IMF type and boiling point ordering",
+   "lik": "H"
+  },
+  {
+   "n": 39,
+   "stem": "For the reaction A + 2B → products, experiments at fixed temperature show that the rate is proportional to the concentration of A and to the square of the concentration of B. If the concentration of A is doubled and the concentration of B is tripled, by what factor does the reaction rate increase?",
+   "options": [
+    "6",
+    "8",
+    "9",
+    "12",
+    "18"
+   ],
+   "ans": "E",
+   "exp": "With rate proportional to the first power of the concentration of A and the second power of that of B, the new rate is 2 × 3^2 = 18 times the original. The factor 6 comes from treating B as first order and dropping the square.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chemistry · rate law exponents",
+   "lik": "M"
+  },
+  {
+   "n": 40,
+   "stem": "What is the average oxidation number of a sulfur atom in the tetrathionate ion, S₄O₆^2-, if the four sulfur atoms are treated as equivalent?",
+   "options": [
+    "+2",
+    "+2.5",
+    "+3",
+    "+5",
+    "+10"
+   ],
+   "ans": "B",
+   "exp": "The six oxygens contribute -12 in total, and the ion carries -2, so the four sulfurs together hold +10 and each averages +10/4 = +2.5. The value +10 is the total over all four atoms, not the average per atom.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chemistry · oxidation numbers in an oxoanion",
+   "lik": "H"
+  },
+  {
+   "n": 41,
+   "stem": "In which species does nitrogen have the same oxidation number as sulfur has in the sulfite ion, SO₃^2-?",
+   "options": [
+    "N₂",
+    "NH₃",
+    "NO",
+    "NO₂",
+    "N₂O"
+   ],
+   "ans": "D",
+   "exp": "In SO₃^2- the three oxygens give -6, so sulfur is +4; in NO₂ the two oxygens give -4 in a neutral molecule, so nitrogen is also +4. Nitrogen is +2 in NO, -3 in NH₃ and +1 in N₂O.",
+   "perm": [
+    0,
+    3,
+    2,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chemistry · oxidation number matching",
+   "lik": "M"
+  },
+  {
+   "n": 42,
+   "stem": "A substance decomposes by first-order kinetics with a half-life of 20 minutes at 25 °C. A sealed 2.0 dm3 vessel initially contains 0.80 mol of the substance. What is its concentration after 60 minutes?",
+   "options": [
+    "0.025 mol/dm3",
+    "0.040 mol/dm3",
+    "0.050 mol/dm3",
+    "0.10 mol/dm3",
+    "0.20 mol/dm3"
+   ],
+   "ans": "C",
+   "exp": "60 minutes is three half-lives, so the amount falls 0.80 → 0.40 → 0.20 → 0.10 mol; divided by the 2.0 dm3 volume this gives 0.050 mol/dm3. The option 0.10 mol/dm3 forgets to divide by the vessel volume, and 0.025 mol/dm3 would need a fourth half-life.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chemistry · first-order half-life with concentration",
+   "lik": "H"
+  },
+  {
+   "n": 43,
+   "stem": "Sample X contains 4.4 g of carbon dioxide, CO₂, and sample Y contains 4.9 g of sulfuric acid, H₂SO₄ (M = 98 g/mol). (C = 12, O = 16; Avogadro constant = 6.02 × 10^23 per mol.) Which statement about the oxygen atoms in the two samples is correct?",
+   "options": [
+    "Each sample contains 6.0 × 10^22 oxygen atoms.",
+    "Each sample contains 1.2 × 10^23 oxygen atoms.",
+    "Each sample contains 2.4 × 10^23 oxygen atoms.",
+    "Sample X contains 1.2 × 10^23 oxygen atoms and sample Y contains 2.4 × 10^23.",
+    "Sample X contains 2.4 × 10^23 oxygen atoms and sample Y contains 1.2 × 10^23."
+   ],
+   "ans": "B",
+   "exp": "X holds 4.4/44 = 0.10 mol of CO₂, giving 0.20 mol of oxygen atoms, and Y holds 4.9/98 = 0.050 mol of H₂SO₄, giving 4 × 0.050 = 0.20 mol of oxygen atoms as well; 0.20 mol is about 1.2 × 10^23 atoms. The 2.4 × 10^23 options double the correct count by slipping an extra factor of two into one of the two conversions.",
+   "perm": [
+    2,
+    3,
+    0,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chemistry · mole bridge to atom counts",
+   "lik": "H"
+  },
+  {
+   "n": 44,
+   "stem": "50 cm3 of 0.20 mol/dm3 hydrochloric acid, fully ionised, is mixed with 150 cm3 of 0.10 mol/dm3 sodium hydroxide, fully dissociated. What is the pH of the resulting solution at 25 °C? (Kw = 1.0 × 10^-14; log 2.5 = 0.40)",
+   "options": [
+    "1.60",
+    "11.60",
+    "12.00",
+    "12.40",
+    "13.00"
+   ],
+   "ans": "D",
+   "exp": "The acid supplies 0.010 mol of hydrogen ions and the base 0.015 mol of hydroxide ions, so 0.005 mol of hydroxide is left in a total volume of 0.200 dm3: the concentration is 0.025 mol/dm3, pOH = 2 - 0.40 = 1.60 and pH = 12.40. The value 13.00 forgets to divide by the combined volume, and 1.60 results from treating the acid as the excess reagent.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chemistry · neutralisation excess with pH",
+   "lik": "H"
+  },
+  {
+   "n": 45,
+   "stem": "1.08 g of aluminium (M = 27 g/mol) is added to 100 cm3 of 0.10 mol/dm3 sulfuric acid and reacts completely as far as possible: 2Al + 3H₂SO₄ → Al₂(SO₄)₃ + 3H₂. Which statement is correct? (Molar volume of a gas at STP = 22.4 dm3/mol)",
+   "options": [
+    "0.224 dm3 of H2 (measured at STP) is released and the acid is in excess.",
+    "0.224 dm3 of H2 (measured at STP) is released and aluminium is in excess.",
+    "0.224 dm3 of H2 (measured at STP) is released and no aluminium remains.",
+    "0.448 dm3 of H2 (measured at STP) is released and aluminium is in excess.",
+    "1.344 dm3 of H2 (measured at STP) is released and the acid is in excess."
+   ],
+   "ans": "B",
+   "exp": "n(Al) = 1.08/27 = 0.040 mol but n(H₂SO₄) = 0.100 × 0.10 = 0.010 mol, and the equation needs 1.5 mol of acid per mol of aluminium, so the acid is limiting: 0.010 mol of acid releases 0.010 mol of H₂, which is 0.224 dm3 at STP, while only 0.0067 mol of aluminium is consumed, leaving 0.90 g in excess. The 1.344 dm3 option treats the aluminium as the limiting reagent.",
+   "perm": [
+    3,
+    0,
+    1,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chemistry · limiting reagent with gas volume and leftover",
+   "lik": "H"
+  },
+  {
+   "n": 46,
+   "stem": "A student evaporates water from 500 cm3 of a 0.20 mol/dm3 sodium chloride solution until the volume is exactly 200 cm3, with no loss of solute. The concentration of the final solution is:",
+   "options": [
+    "0.08 mol/dm3",
+    "0.10 mol/dm3",
+    "0.20 mol/dm3",
+    "0.40 mol/dm3",
+    "0.50 mol/dm3"
+   ],
+   "ans": "E",
+   "exp": "The solution contains n = 0.500 × 0.20 = 0.10 mol of sodium chloride, so the final concentration is 0.10/0.200 = 0.50 mol/dm3. The 0.08 mol/dm3 option multiplies by the volume ratio instead of dividing by it.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chemistry · concentration on evaporation",
+   "lik": "M"
+  },
+  {
+   "n": 47,
+   "stem": "Two solutions at 25 °C have pH values of 3.5 and 5.5. The hydrogen ion concentration of the solution with pH 3.5 is how many times that of the solution with pH 5.5?",
+   "options": [
+    "2",
+    "20",
+    "100",
+    "1000",
+    "10000"
+   ],
+   "ans": "C",
+   "exp": "Each unit of pH is a factor of ten in hydrogen ion concentration, so a difference of 2.0 units means 10^2 = 100 times more hydrogen ions at pH 3.5. The option 20 treats the pH scale as linear, simply multiplying the difference by ten.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chemistry · pH scale as powers of ten",
+   "lik": "M"
+  },
+  {
+   "n": 48,
+   "stem": "Given that log₁₀ 5 = 0.70 and log₁₀ 3 = 0.48, what is the value of log₁₀ 45?",
+   "options": [
+    "1.18",
+    "1.30",
+    "1.66",
+    "1.88",
+    "2.18"
+   ],
+   "ans": "C",
+   "exp": "45 = 3² × 5, so log₁₀ 45 = 2 log₁₀ 3 + log₁₀ 5 = 0.96 + 0.70 = 1.66. The 1.88 option is log₁₀ 75 (3 × 5²), 1.18 is log₁₀ 15 (3 × 5), and 1.30 is log₁₀ 20.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · logarithm properties",
+   "lik": "H"
+  },
+  {
+   "n": 49,
+   "stem": "For which values of k does the equation x^2 + kx + 9 = 0 have no real solutions?",
+   "options": [
+    "k < -6 or k > 6",
+    "k ≤ -6 or k ≥ 6",
+    "-6 ≤ k ≤ 6",
+    "all real values of k",
+    "-6 < k < 6"
+   ],
+   "ans": "E",
+   "exp": "No real roots needs the discriminant k^2 - 36 to be negative, so k^2 < 36, which holds exactly when -6 < k < 6. The options with ≤ wrongly include k = ±6, where the equation has the repeated real root x = -3.",
+   "perm": [
+    1,
+    0,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · discriminant condition (inequality)",
+   "lik": "H"
+  },
+  {
+   "n": 50,
+   "stem": "A solid metal sphere of radius 3 cm is melted down and recast into a solid right circular cylinder of radius 2 cm. What is the height of the cylinder? (Volume of a sphere = (4/3)πr^3; volume of a cylinder = πr^2h)",
+   "options": [
+    "3 cm",
+    "6 cm",
+    "9 cm",
+    "18 cm",
+    "36 cm"
+   ],
+   "ans": "C",
+   "exp": "The sphere's volume is (4/3)π × 27 = 36π cm3, and the cylinder needs π × 2^2 × h = 36π, so h = 9 cm. The 18 cm option divides by 2π, forgetting to square the cylinder's radius.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · composite solids (conservation of volume)",
+   "lik": "H"
+  },
+  {
+   "n": 51,
+   "stem": "A bag contains 3 red balls and 5 blue balls. Two balls are drawn at random without replacement. What is the probability that the two balls are the same colour?",
+   "options": [
+    "3/28",
+    "15/56",
+    "5/14",
+    "13/28",
+    "15/28"
+   ],
+   "ans": "D",
+   "exp": "P(both red) = (3/8)(2/7) = 3/28 and P(both blue) = (5/8)(4/7) = 10/28; the two events are mutually exclusive, so the total is 13/28. The option 15/28 is the probability of two different colours, the complement of the asked event.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · probability (same colour, without replacement)",
+   "lik": "H"
+  },
+  {
+   "n": 52,
+   "stem": "A toy train runs along a straight track away from its start point, and its distance from the start is recorded at one-minute intervals: 0 m at 0 min, 120 m at 1 min, 300 m at 2 min and 540 m at 3 min. What is the greatest average speed over any one-minute interval of the journey, expressed in m/s?",
+   "options": [
+    "2.5 m/s",
+    "3.0 m/s",
+    "4.0 m/s",
+    "5.0 m/s",
+    "9.0 m/s"
+   ],
+   "ans": "C",
+   "exp": "The three intervals cover 120 m, 180 m and 240 m, so the speeds are 2.0, 3.0 and 4.0 m/s; the greatest is 240/60 = 4.0 m/s in the last minute. The 3.0 m/s option is the overall average over all three minutes, and 9.0 m/s treats the whole 540 m as if covered in one minute.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · rate of change from a table",
+   "lik": "H"
+  },
+  {
+   "n": 53,
+   "stem": "What is the value of √50 + √18 - √8, written in the form a√2?",
+   "options": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10"
+   ],
+   "ans": "C",
+   "exp": "√50 = 5√2, √18 = 3√2 and √8 = 2√2, so the expression is (5 + 3 - 2)√2 = 6√2. The value 10 comes from adding all three coefficients and ignoring the subtraction, and 4 comes from flipping the sign of the middle term.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · simplifying radicals",
+   "lik": "M"
+  },
+  {
+   "n": 54,
+   "stem": "For two events A and B, P(A) = 0.5, P(B) = 0.4 and P(A and B) = 0.2. What is P(A or B)?",
+   "options": [
+    "0.2",
+    "0.5",
+    "0.6",
+    "0.7",
+    "0.9"
+   ],
+   "ans": "D",
+   "exp": "The addition rule gives P(A or B) = P(A) + P(B) - P(A and B) = 0.5 + 0.4 - 0.2 = 0.7. The 0.9 option adds without subtracting the overlap, 0.5 is P(A) alone, and 0.2 is the overlap itself.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · probability of combined events",
+   "lik": "M"
+  },
+  {
+   "n": 55,
+   "stem": "A trolley moves along a straight track and its velocity is recorded every 2.0 s: 0 m/s at 0 s, 10 m/s at 2.0 s, 14 m/s at 4.0 s, 14 m/s at 6.0 s and 6 m/s at 8.0 s. What is the magnitude of the trolley's acceleration between 6.0 s and 8.0 s?",
+   "options": [
+    "2 m/s2",
+    "4 m/s2",
+    "5 m/s2",
+    "6 m/s2",
+    "8 m/s2"
+   ],
+   "ans": "B",
+   "exp": "Between 6.0 s and 8.0 s the velocity falls from 14 m/s to 6 m/s, so a = (6 - 14)/2.0 = -4 m/s2 and the magnitude is 4 m/s2. The 8 m/s2 option is the velocity change itself, not divided by the time.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · acceleration from a velocity-time table",
+   "lik": "H"
+  },
+  {
+   "n": 56,
+   "stem": "A car travels around a circular bend of radius 50 m at a constant speed of 10 m/s. Which of the following statements is correct?",
+   "options": [
+    "The acceleration is 2.0 m/s2, directed towards the centre of the bend.",
+    "The acceleration is zero, because the speed is constant.",
+    "The acceleration is 2.0 m/s2, directed away from the centre of the bend.",
+    "The acceleration is 2.0 m/s2, directed along the direction of travel.",
+    "The acceleration is 0.20 m/s2, directed towards the centre of the bend."
+   ],
+   "ans": "A",
+   "exp": "Uniform circular motion has centripetal acceleration v^2/r = 100/50 = 2.0 m/s2, always pointing towards the centre; constant speed does not mean zero acceleration because the direction of travel keeps changing. The 0.20 m/s2 option divides v/r instead of squaring first.",
+   "perm": [
+    4,
+    0,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · circular motion (centripetal acceleration)",
+   "lik": "M"
+  },
+  {
+   "n": 57,
+   "stem": "A battery of negligible internal resistance supplies 24 V to an 8.0 Ω resistor connected in series with a parallel combination of a 12 Ω resistor and a 6.0 Ω resistor. What current does the battery supply?",
+   "options": [
+    "1.5 A",
+    "2.0 A",
+    "2.4 A",
+    "3.0 A",
+    "6.0 A"
+   ],
+   "ans": "B",
+   "exp": "The parallel pair has resistance (12 × 6.0)/(12 + 6.0) = 4.0 Ω, so the total is 8.0 + 4.0 = 12 Ω and I = 24/12 = 2.0 A. The 3.0 A option ignores the parallel section entirely (24/8.0), and 1.5 A comes from doubling the total resistance.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · series-parallel network",
+   "lik": "H"
+  },
+  {
+   "n": 58,
+   "stem": "In an insulated container, 0.40 kg of water at 20 °C is mixed with 0.20 kg of water at 65 °C. Assuming no heat is exchanged with the surroundings, what is the final temperature of the mixture?",
+   "options": [
+    "20 °C",
+    "35 °C",
+    "42.5 °C",
+    "50 °C",
+    "65 °C"
+   ],
+   "ans": "B",
+   "exp": "With the same specific heat capacity, the heat balance is 0.40 × (T - 20) = 0.20 × (65 - T), which gives 0.6T = 21 and T = 35 °C. The 42.5 °C option averages the two temperatures and ignores that the cooler sample has twice the mass, and 50 °C comes from swapping the two masses.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · calorimetry (mixing two water samples)",
+   "lik": "H"
+  },
+  {
+   "n": 59,
+   "stem": "A farm tank contains a liquid of density 800 kg/m3 filled to a depth of 3.0 m and open to the atmosphere (100 kPa). What is the gauge pressure exerted by the liquid at the bottom of the tank? (g = 10 m/s2)",
+   "options": [
+    "2.4 kPa",
+    "8.0 kPa",
+    "24 kPa",
+    "124 kPa",
+    "240 kPa"
+   ],
+   "ans": "C",
+   "exp": "Gauge pressure is ρgh = 800 × 10 × 3.0 = 24000 Pa = 24 kPa, and the word gauge means the 100 kPa of atmospheric pressure on the open surface is excluded. The 124 kPa option is the absolute pressure, and 8.0 kPa forgets the depth.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · gauge pressure in a liquid",
+   "lik": "M"
+  },
+  {
+   "n": 60,
+   "stem": "An electric kettle rated at 2.0 kW takes 3.0 minutes to bring its water to the boil. How much electrical energy does the kettle transfer in that time?",
+   "options": [
+    "6.0 × 10^3 J",
+    "3.6 × 10^4 J",
+    "3.6 × 10^5 J",
+    "6.0 × 10^5 J",
+    "3.6 × 10^6 J"
+   ],
+   "ans": "C",
+   "exp": "2.0 kW = 2000 W and 3.0 minutes = 180 s, so E = Pt = 2000 × 180 = 3.6 × 10^5 J. The 6.0 × 10^3 J option multiplies the rating in kW by the time in minutes without converting either unit.",
+   "perm": [
+    2,
+    0,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · power and energy (unit conversions)",
+   "lik": "H"
+  }
+ ]
+}

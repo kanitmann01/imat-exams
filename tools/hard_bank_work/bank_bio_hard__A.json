@@ -1,0 +1,276 @@
+{
+ "bank": "bank_bio_hard",
+ "section": "A",
+ "questions": [
+  {
+   "stem": "The side chains of four amino acids are considered: serine bears a hydroxyl group, alanine bears a methyl group, aspartic acid bears a second carboxyl group, and lysine bears a terminal amino group. Which statement is correct?",
+   "options": [
+    "Serine and alanine belong together to the polar, uncharged class.",
+    "At pH 7, aspartic acid carries a net negative charge and lysine carries a net positive charge.",
+    "Aspartic acid is basic, because its extra carboxyl group accepts protons at pH 7.",
+    "Lysine is acidic, because its terminal amino group releases protons readily at pH 7.",
+    "All four side chains are uncharged at pH 7."
+   ],
+   "ans": "B",
+   "exp": "A carboxyl side chain loses its proton well below pH 7, so aspartate is negative there, while the amino group of lysine stays protonated and positive. The option that calls carboxyl groups proton acceptors reverses their acid behaviour, and alanine's methyl side chain makes it nonpolar rather than polar.",
+   "topic": "Biology · amino acid classes",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "A tripeptide is assembled in the order glutamic acid, glycine, lysine. Peptide bonds are not ionisable, and the only groups carrying charge near pH 7 are the terminal amino and carboxyl groups plus the side chains of the glutamic and lysine residues. What is the net charge of this tripeptide at pH 7?",
+   "options": [
+    "-2",
+    "-1",
+    "0",
+    "+1",
+    "+2"
+   ],
+   "ans": "C",
+   "exp": "At pH 7 the N-terminal amino group and the lysine side chain are protonated, giving +2 in total, while the C-terminal carboxyl group and the glutamate side chain are deprotonated, giving -2, so the net charge is zero. The +2 option counts only the positive groups and forgets the two deprotonated ones.",
+   "topic": "Biology · ionisation of peptides at pH",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "Collagen aside, proline is rarely found in the middle of an alpha helix. The best explanation is that proline:",
+   "options": [
+    "carries a charged side chain that repels the peptide backbone",
+    "cannot form peptide bonds with the residues on either side",
+    "is nonpolar, and alpha helices form only around polar side chains",
+    "has its side chain bonded back to the backbone nitrogen, so it cannot donate the helix hydrogen bond",
+    "is too small to reach across one full turn of the helix"
+   ],
+   "ans": "D",
+   "exp": "Proline is a secondary amine: its side chain ties up the backbone nitrogen, so the N-H that should donate the helix hydrogen bond is missing and the rigid ring introduces a kink. The nonpolar option fails because many nonpolar residues such as alanine and leucine sit comfortably inside helices; the problem is the missing N-H, not the polarity.",
+   "topic": "Biology · proline and secondary structure",
+   "lik": "M",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "A reagent breaks the four intrachain disulfide bridges of a protein made of a single polypeptide chain, without touching any peptide bond. Which levels of protein structure are directly lost, and which are preserved?",
+   "options": [
+    "Tertiary structure is directly lost; the primary structure is fully preserved.",
+    "Primary and tertiary structures are lost; the secondary structure is preserved.",
+    "Secondary structure is directly lost; the tertiary structure is preserved.",
+    "All four levels of structure are lost, including the primary sequence.",
+    "Quaternary structure is lost, because disulfide bridges are the bonds that hold separate chains together."
+   ],
+   "ans": "A",
+   "exp": "Disulfide bridges lock the folded tertiary shape in place, so cutting them unfolds the chain while the covalent amino acid sequence survives. A single chain has no quaternary level to lose, and the option that loses the primary structure mistakes disulfide bridges for peptide bonds.",
+   "topic": "Biology · disulfide bonds and tertiary structure",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "Two synthetic peptides of equal length adopt different secondary structures: peptide P forms an alpha helix and peptide Q forms an antiparallel beta sheet. Which statement is correct?",
+   "options": [
+    "Both structures are stabilised by covalent bonds between side chains.",
+    "In peptide P the hydrogen bonds form between side chains, while in peptide Q they form along the backbone.",
+    "In peptide P the backbone hydrogen bonds run between neighbouring strands, while in peptide Q they run within one chain.",
+    "Neither structure uses hydrogen bonds: peptide P is held by disulfide bridges and peptide Q by ionic bonds.",
+    "In peptide P the hydrogen bonds join backbone atoms within the same chain, while in peptide Q they join backbone atoms of neighbouring strands."
+   ],
+   "ans": "E",
+   "exp": "Both structures are built from hydrogen bonds between backbone C=O and N-H groups: within one chain, four residues apart, in an alpha helix, and across adjacent strands in a beta sheet. The side-chain option fails because the regular hydrogen-bonding pattern that holds either structure uses backbone atoms, and all these bonds are noncovalent.",
+   "topic": "Biology · alpha helix vs beta sheet",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "A newly characterised protein is a long, water-insoluble strand that gives tendon its tensile strength and forms insoluble fibres outside the body. Which classification and justification are correct?",
+   "options": [
+    "Globular, because tendon proteins need a compact soluble shape to transmit force.",
+    "Fibrous, because long insoluble strands with a mechanical role are the hallmark of fibrous proteins such as collagen.",
+    "Conjugated, because an insoluble protein must carry a non-protein prosthetic group.",
+    "Globular, because every structural protein is globular and only metabolic proteins are fibrous.",
+    "Fibrous, because all proteins found outside cells are fibrous."
+   ],
+   "ans": "B",
+   "exp": "Shape and role decide the class: fibrous proteins are long, insoluble strands with structural functions (collagen, keratin), while globular proteins are compact and soluble (enzymes, transport proteins). The extracellular-location option fails because albumin works outside cells yet is a soluble globular protein.",
+   "topic": "Biology · globular and fibrous proteins",
+   "lik": "M",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "Which statement about levels of protein structure is correct?",
+   "options": [
+    "Quaternary structure is present in every protein that contains more than one amino acid.",
+    "The primary structure of a protein is the ordered list of its alpha helices and beta sheets.",
+    "Tertiary structure is stabilised only by the sequence and never by interactions between side chains.",
+    "Replacing a single amino acid in the primary structure can change the tertiary structure of the whole chain.",
+    "Hydrogen bonds between backbone atoms define the tertiary structure rather than the secondary structure."
+   ],
+   "ans": "D",
+   "exp": "The side-chain interactions that build the tertiary fold are dictated by the sequence, so one substitution, classically in sickle-cell haemoglobin, can remodel the fold or the behaviour of the whole protein. Quaternary structure requires several separate polypeptide chains, not merely many residues, and backbone hydrogen bonds are the hallmark of secondary structure.",
+   "topic": "Biology · levels of protein structure",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "Cellulose and starch are both polymers of glucose, yet cellulose passes through the human gut largely undigested. The reason is that:",
+   "options": [
+    "cellulose is built from fructose units that the human gut cannot absorb",
+    "cellulose is unbranched, and no enzyme anywhere can attack an unbranched glucose chain",
+    "cellulose is joined by beta-1,4 glycosidic bonds, and humans lack cellulase, the enzyme that hydrolyses them",
+    "cellulose repels water so strongly that digestive enzymes cannot reach its bonds",
+    "cellulose molecules are too long to be broken down by any organism"
+   ],
+   "ans": "C",
+   "exp": "The two polymers differ in the geometry of the glycosidic bond: human amylase handles the alpha linkages of starch, but the beta-1,4 bonds of cellulose require cellulase, which humans do not secrete. Ruminants digest cellulose only with help from symbiotic microbes, so the too-long-for-any-organism option fails.",
+   "topic": "Biology · cellulose vs starch",
+   "lik": "M",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "Muscle glycogen releases usable glucose units faster than the amylopectin of a starchy meal, although both are branched polymers of alpha-glucose. The best explanation is that glycogen:",
+   "options": [
+    "is more highly branched than amylopectin, so many more non-reducing ends can be attacked at the same time by the mobilising enzymes",
+    "contains some beta bonds that are hydrolysed faster than alpha bonds",
+    "is first converted to fat, which diffuses through the muscle faster than glucose",
+    "is a smaller molecule, so fewer glycosidic bonds need to be broken per gram",
+    "is partly digested by salivary amylase before it reaches the muscle"
+   ],
+   "ans": "A",
+   "exp": "Branching multiplies the number of chain ends: glycogen phosphorylase and the debranching system work from the non-reducing ends, and a densely branched polymer offers far more ends in parallel than amylopectin. The beta-bond option fails because both polymers are alpha-glucose polymers, and muscle mobilises its own glycogen inside the cell with no digestive enzyme involved.",
+   "topic": "Biology · glycogen mobilisation",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "In a chromatogram of a leaf extract, the yellow-orange bands contain carotenes and xanthophylls. Which statement about these pigments is correct?",
+   "options": [
+    "They are water-soluble proteins that transfer electrons to photosystem II.",
+    "They are breakdown products of chlorophyll a that have lost their magnesium atom.",
+    "They are water-soluble pigments dissolved in the stroma of the chloroplast.",
+    "They are lipid-soluble accessory pigments of the thylakoid membranes, and xanthophylls are oxygen-containing carotenoids.",
+    "They are lipid-soluble pigments that absorb light only in the infrared range."
+   ],
+   "ans": "D",
+   "exp": "Carotenes are hydrocarbons and xanthophylls their oxygenated derivatives; both are lipid-soluble carotenoids embedded in the thylakoid membranes, where they broaden light capture and help dissipate excess energy. They are distinct molecules from chlorophyll, not its degradation products, and they absorb in the visible range, not the infrared.",
+   "topic": "Biology · carotenoids and xanthophylls",
+   "lik": "M",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "Per gram, fat stores about twice as much usable energy as glycogen. Which statement explains this most directly?",
+   "options": [
+    "Fat cells store more water than glycogen deposits, and the water raises the energy yield.",
+    "Fats contain more peptide bonds per gram than carbohydrates.",
+    "The long hydrocarbon chains of fatty acids are highly reduced, and triglycerides are stored almost without water, while glycogen binds a large mass of water.",
+    "Glycogen is chemically a lipid, and its branching makes it less efficient.",
+    "Fat is oxidised anaerobically, so none of its energy is lost as heat."
+   ],
+   "ans": "C",
+   "exp": "Energy yield per gram tracks the reduction state of the molecule: the many C-H bonds of fatty acid chains oxidise to release more energy than the partially oxidised glucose units, and triglyceride droplets carry no stored water, whereas hydrated glycogen pays a large water mass penalty. Fat oxidation is aerobic, so the anaerobic option fails.",
+   "topic": "Biology · lipid energy storage",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "Starch is incubated with purified amylase under gut-like conditions, and the mixture then meets the brush-border enzymes of the small intestine. Which statement describes the carbohydrate products of the two stages correctly?",
+   "options": [
+    "Amylase releases free glucose from starch, and the brush-border enzymes then split glucose into smaller sugars.",
+    "Amylase digests starch only to water and carbon dioxide; the brush-border enzymes finish the job.",
+    "Starch digestion cannot begin until bacteria in the large intestine supply the needed amylase.",
+    "Amylase mainly releases maltose and similar short chains, and the brush-border disaccharidases then release the monosaccharides.",
+    "Amylase converts starch into lactose, and brush-border lactase then splits the lactose."
+   ],
+   "ans": "D",
+   "exp": "Amylase hydrolyses the alpha-1,4 bonds of starch but stops at short products, so its output is maltose, maltotriose and limit dextrins rather than free glucose; membrane-bound maltase, isomaltase and sucrase then release the monosaccharides. The direct-glucose option is the classic error, and lactose is a milk sugar that starch cannot yield.",
+   "topic": "Biology · starch digestion by amylase",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "Lactose, the disaccharide in milk, is hydrolysed at the intestinal brush border by lactase. The correct reaction is:",
+   "options": [
+    "lactose + water → glucose + galactose",
+    "lactose + water → glucose + fructose",
+    "lactose + water → glucose + glucose",
+    "lactose → glucose + galactose, with water released",
+    "lactose + water → galactose + galactose"
+   ],
+   "ans": "A",
+   "exp": "Lactose is glucose joined to galactose, so hydrolysis consumes water and releases both monosaccharides. The glucose-plus-fructose option describes sucrose digestion, the two-glucose option describes maltose, and hydrolysis uses water rather than releasing it.",
+   "topic": "Biology · lactose digestion",
+   "lik": "M",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "In a tube containing enzyme and a large excess of its substrate, the enzyme concentration is doubled while temperature and pH are held constant. The initial reaction rate will:",
+   "options": [
+    "fall to half, because the substrate is now shared among more active sites",
+    "stay the same, because enzymes are not consumed by the reaction",
+    "double, because with substrate in excess the initial rate is proportional to the enzyme concentration",
+    "double immediately and then double again every few minutes",
+    "drop to zero, because excess substrate competes with the enzyme"
+   ],
+   "ans": "C",
+   "exp": "At saturating substrate every enzyme molecule already works at its maximum turnover, so doubling the number of enzyme molecules doubles the total rate. The not-consumed option confuses the enzyme's persistence with the capacity of the enzyme amount present.",
+   "topic": "Biology · enzyme concentration and rate",
+   "lik": "M",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "Two tubes contain the same small, fixed amount of substrate. Tube X receives 1 unit of enzyme and tube Y receives 4 units of the same enzyme; temperature and pH are equal and optimal. Which outcome is expected?",
+   "options": [
+    "Tube Y yields four times the final amount of product that tube X yields.",
+    "Tube X yields more product in the end, because its substrate lasts longer.",
+    "Neither tube produces product, because the substrate amount is below the saturation point.",
+    "Tube Y reacts more slowly at first and then overtakes tube X near the end.",
+    "Both tubes yield the same final amount of product, but tube Y reaches it sooner."
+   ],
+   "ans": "E",
+   "exp": "Enzyme concentration sets the speed, not the ceiling: with the substrate amount fixed, both tubes approach the same total product, and the tube with four times the enzyme arrives sooner. The four-times-product option wrongly multiplies the yield by the rate factor.",
+   "topic": "Biology · enzyme amount vs substrate amount",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "An enzyme is added to a reaction mixture that has already reached chemical equilibrium. Which statement is correct?",
+   "options": [
+    "The enzyme pushes the equilibrium toward the products and raises the final yield.",
+    "The enzyme lowers the activation energy of both directions, so equilibrium is reached sooner at the same position.",
+    "The enzyme lowers the activation energy of the forward direction only.",
+    "The enzyme increases the energy difference between reactants and products.",
+    "The enzyme is gradually consumed, so the mixture returns to its original state."
+   ],
+   "ans": "B",
+   "exp": "Catalysts reduce the activation barrier equally for the forward and reverse steps, so both rates rise while the equilibrium composition, which depends only on the relative energies of the states, is untouched. The yield-raising option confuses a faster approach to equilibrium with a different end point.",
+   "topic": "Biology · enzymes and equilibrium",
+   "lik": "M",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "In prion diseases, a misfolded form of a normal membrane protein acts as a template: contact converts the normal form into the misfolded shape, which then joins growing aggregates. Which statement follows from this mechanism?",
+   "options": [
+    "Each converted molecule becomes a new template that converts others, so the number of misfolded molecules can grow exponentially without any nucleic acid.",
+    "The misfolded protein carries a nucleic acid sequence that mutates the DNA of the cells it enters.",
+    "The aggregates are composed of lipid that has been misread from membrane phospholipids.",
+    "The process requires a virus to replicate, because no protein can propagate information alone.",
+    "The reaction is self-limiting, because one misfolded molecule can convert at most one other molecule in its lifetime."
+   ],
+   "ans": "A",
+   "exp": "Templated misfolding is autocatalytic: every newly converted molecule is itself infectious material, so the misfolded population can grow exponentially even though prions contain no nucleic acid. The one-to-one option ignores the chain reaction, and the virus option fails because protein conformation alone transmits the information.",
+   "topic": "Biology · prion misfolding cascade",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things"
+  },
+  {
+   "stem": "A cell line carries a mutation that disables its main chaperone proteins, while protein synthesis continues normally and amino acid sequences are unchanged. The most likely consequence inside the cell is that:",
+   "options": [
+    "the primary structure of each new protein is edited, because chaperones remove wrong amino acids during folding",
+    "new proteins are exported while still unfolded, because folding normally happens outside the cell",
+    "ribosomes stop translating, because chaperones supply the energy for peptide bond formation",
+    "many new chains expose their hydrophobic regions, bind each other, and aggregate instead of reaching the native fold",
+    "nothing changes, because the amino acid sequence alone always guarantees correct folding inside a living cell"
+   ],
+   "ans": "D",
+   "exp": "Chaperones shield exposed hydrophobic patches and give new chains time to find the native fold, so without them those patches stick to one another and aggregates form. The sequence itself is untouched because chaperones affect conformation, not covalent structure, and the do-nothing option ignores that aggregation competes with folding in the crowded cell.",
+   "topic": "Biology · chaperones and aggregation",
+   "lik": "H",
+   "syl": "3. Biology: The chemistry of living things"
+  }
+ ]
+}

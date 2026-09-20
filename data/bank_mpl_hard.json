@@ -1,0 +1,2343 @@
+{
+ "schema": 1,
+ "id": "bank_mpl_hard",
+ "title": "IMAT QUESTION BANK: Maths, Physics and Logic (Medium-Hard)",
+ "kind": "bank",
+ "durationSec": 9500,
+ "maxTenths": 1425,
+ "targetScore": null,
+ "sections": [
+  {
+   "code": "A",
+   "from": 1,
+   "to": 16,
+   "label": "Section A - Algebra, functions and logarithms",
+   "short": "Algebra"
+  },
+  {
+   "code": "B",
+   "from": 17,
+   "to": 28,
+   "label": "Section B - Geometry, trigonometry and graphs",
+   "short": "Geometry"
+  },
+  {
+   "code": "C",
+   "from": 29,
+   "to": 36,
+   "label": "Section C - Probability and combinatorics",
+   "short": "Prob"
+  },
+  {
+   "code": "D",
+   "from": 37,
+   "to": 40,
+   "label": "Section D - Unit conversion and arithmetic",
+   "short": "Units"
+  },
+  {
+   "code": "E",
+   "from": 41,
+   "to": 56,
+   "label": "Section E - Kinematics and dynamics",
+   "short": "Kinematics"
+  },
+  {
+   "code": "F",
+   "from": 57,
+   "to": 75,
+   "label": "Section F - Fluids, thermal physics and electricity",
+   "short": "FluidsThermo"
+  },
+  {
+   "code": "G",
+   "from": 76,
+   "to": 95,
+   "label": "Section G - Logic and argument analysis",
+   "short": "Logic"
+  }
+ ],
+ "bankVersion": "bce9a9230",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "Given that log₁₀ 2 ≈ 0.30 and log₁₀ 3 ≈ 0.48, what is the value of log₁₀ 7.5?",
+   "options": [
+    "0.18",
+    "0.58",
+    "0.88",
+    "1.18",
+    "1.88"
+   ],
+   "ans": "C",
+   "exp": "Write 7.5 = 15/2, so log₁₀ 7.5 = log₁₀ 3 + log₁₀ 5 − log₁₀ 2, and log₁₀ 5 = 1 − log₁₀ 2 = 0.70, giving 0.48 + 0.70 − 0.30 = 0.88. The option 1.88 is log₁₀ 75 (the division by 10 forgotten) and 1.18 is log₁₀ 15 (the division by 2 forgotten).",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · logarithm properties (quotient and complement)",
+   "lik": "H"
+  },
+  {
+   "n": 2,
+   "stem": "Solve the equation log₃(x + 1) + log₃(x − 1) = 1.",
+   "options": [
+    "x = −2 only",
+    "x = 2 only",
+    "x = ±2",
+    "x = 1",
+    "x = 4"
+   ],
+   "ans": "B",
+   "exp": "Combining the logarithms gives log₃(x² − 1) = 1, so x² − 1 = 3 and x = ±2, but the arguments require x > 1, so x = 2 only. The option x = ±2 keeps the rejected root, for which log₃(x − 1) is not defined.",
+   "perm": [
+    3,
+    2,
+    0,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · log equations (domain check)",
+   "lik": "H"
+  },
+  {
+   "n": 3,
+   "stem": "What is the value of log₈ 32?",
+   "options": [
+    "4/3",
+    "3/2",
+    "5/3",
+    "2",
+    "3"
+   ],
+   "ans": "C",
+   "exp": "Write both arguments as powers of 2: 8 = 2³ and 32 = 2⁵, so log₈ 32 = 5/3 by the change of base rule (log 32 / log 8 = 5 log 2 / (3 log 2)). The 3/2 option inverts the ratio, and 2 would solve 8² = 64, not 32.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · change of base",
+   "lik": "M"
+  },
+  {
+   "n": 4,
+   "stem": "What is the solution of log₂ x + log₄ x = 6?",
+   "options": [
+    "4",
+    "8",
+    "16",
+    "32",
+    "64"
+   ],
+   "ans": "C",
+   "exp": "Since log₄ x = (1/2) log₂ x, the equation becomes (3/2) log₂ x = 6, so log₂ x = 4 and x = 16; indeed 4 + 2 = 6. The option 64 solves log₂ x = 6 alone and ignores the second term.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · mixed-base log equation",
+   "lik": "H"
+  },
+  {
+   "n": 5,
+   "stem": "Which interval is the solution set of (x − 1)(x + 2)(x − 4) > 0?",
+   "options": [
+    "x < −2 or 1 < x < 4",
+    "−2 < x < 1 or x > 4",
+    "x < −2 or x > 4",
+    "−2 < x < 4",
+    "1 < x < 4"
+   ],
+   "ans": "B",
+   "exp": "The roots −2, 1 and 4 split the number line into four intervals, and testing one point in each gives positive values for −2 < x < 1 and for x > 4. The option x < −2 or x > 4 is the sign pattern of the outer factors only and ignores the middle root.",
+   "perm": [
+    0,
+    3,
+    2,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · inequalities (three-factor sign study)",
+   "lik": "H"
+  },
+  {
+   "n": 6,
+   "stem": "What is the solution set of the inequality (x − 3)/(x + 2) ≤ 0?",
+   "options": [
+    "x ≤ 3",
+    "−2 < x < 3",
+    "−2 ≤ x ≤ 3",
+    "−2 < x ≤ 3",
+    "x < −2 or x ≥ 3"
+   ],
+   "ans": "D",
+   "exp": "The fraction changes sign only at x = 3, where it equals 0 and is included, and at x = −2, where it is undefined and excluded; testing shows it is negative exactly between them, so −2 < x ≤ 3. The option x ≤ 3 ignores the sign change at x = −2, where the fraction is positive on both sides.",
+   "perm": [
+    1,
+    2,
+    4,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · rational inequalities",
+   "lik": "H"
+  },
+  {
+   "n": 7,
+   "stem": "What is the solution set of |2x − 5| < 7?",
+   "options": [
+    "−1 < x < 6",
+    "−6 < x < 6",
+    "1 < x < 6",
+    "−6 < x < −1",
+    "x < 6"
+   ],
+   "ans": "A",
+   "exp": "The inequality means −7 < 2x − 5 < 7, so −2 < 2x < 12 and −1 < x < 6. The option 1 < x < 6 keeps only the branch 2x − 5 < 7 and drops the branch 2x − 5 > −7.",
+   "perm": [
+    1,
+    2,
+    4,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · absolute value inequality",
+   "lik": "M"
+  },
+  {
+   "n": 8,
+   "stem": "What is the solution set of the inequality x² < x?",
+   "options": [
+    "x < 0",
+    "x < 1",
+    "x < 0 or x > 1",
+    "x > 1",
+    "0 < x < 1"
+   ],
+   "ans": "E",
+   "exp": "Rearranging gives x² − x < 0, that is x(x − 1) < 0, which holds between the roots: 0 < x < 1. The option x < 1 comes from dividing by x without separating the cases x > 0 and x < 0; for every x < 0 the left side is positive and the inequality fails.",
+   "perm": [
+    0,
+    2,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · quadratic inequality (dividing by x)",
+   "lik": "M"
+  },
+  {
+   "n": 9,
+   "stem": "Which expression is equal to √(7 + 4√3)?",
+   "options": [
+    "1 + √6",
+    "2 + √3",
+    "2√3 + 1",
+    "√7 + √3",
+    "4 + √3"
+   ],
+   "ans": "B",
+   "exp": "Since 7 + 4√3 = 2² + 2 × 2 × √3 + (√3)² = (2 + √3)², the square root is 2 + √3. The option 1 + √6 squares to 7 + 2√6, which has the wrong radical term.",
+   "perm": [
+    1,
+    4,
+    0,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · nested radicals",
+   "lik": "H"
+  },
+  {
+   "n": 10,
+   "stem": "What is the value of 27^(2/3) + 16^(3/4)?",
+   "options": [
+    "13",
+    "17",
+    "21",
+    "26",
+    "30"
+   ],
+   "ans": "B",
+   "exp": "The cube root of 27 is 3, so 27^(2/3) = 9, and the fourth root of 16 is 2, so 16^(3/4) = 8, giving 17. The option 30 multiplies base by exponent instead, 27 × 2/3 + 16 × 3/4 = 18 + 12.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · rational exponents",
+   "lik": "M"
+  },
+  {
+   "n": 11,
+   "stem": "If 2^a = 3 and 2^b = 5, which of the following is equal to 60?",
+   "options": [
+    "2^(a + b)",
+    "2^(2a + b)",
+    "2^(a + b + 2)",
+    "2^(a + 2b)",
+    "2^(ab)"
+   ],
+   "ans": "C",
+   "exp": "60 = 4 × 3 × 5 = 2² × 2^a × 2^b = 2^(a + b + 2). The option 2^(ab) multiplies the exponents, which is the rule for a power of a power, not for a product.",
+   "perm": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · exponent laws (building a number)",
+   "lik": "H"
+  },
+  {
+   "n": 12,
+   "stem": "For a school show, adult tickets cost 12 euro and child tickets cost 7 euro. In total 180 tickets were sold, and the takings were 1730 euro. How many adult tickets were sold?",
+   "options": [
+    "84",
+    "86",
+    "90",
+    "94",
+    "96"
+   ],
+   "ans": "D",
+   "exp": "With a adult and c child tickets, a + c = 180 and 12a + 7c = 1730, so 12a + 7(180 − a) = 1730 gives 5a = 470 and a = 94. The option 86 is the number of child tickets.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · linear systems (ticket sales)",
+   "lik": "H"
+  },
+  {
+   "n": 13,
+   "stem": "The sum of two numbers is 45 and their difference is 13. What is the larger number?",
+   "options": [
+    "13",
+    "16",
+    "29",
+    "32",
+    "45"
+   ],
+   "ans": "C",
+   "exp": "Adding the two conditions gives twice the larger number: 45 + 13 = 58, so the larger number is 29 and the smaller is 16. The option 32 is 45 − 13, twice the smaller number, and 16 is the smaller number itself.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · linear system (sum and difference)",
+   "lik": "M"
+  },
+  {
+   "n": 14,
+   "stem": "A laboratory technician mixes a 20% saline solution with a 50% saline solution to obtain 6 dm³ of a 30% saline solution. What volume of the 50% solution is needed?",
+   "options": [
+    "1 dm³",
+    "2 dm³",
+    "2.5 dm³",
+    "3 dm³",
+    "4 dm³"
+   ],
+   "ans": "B",
+   "exp": "With x dm³ of the 20% and y of the 50% solution, x + y = 6 and 0.2x + 0.5y = 1.8; substituting x = 6 − y gives 1.2 + 0.3y = 1.8, so y = 2 dm³. The option 4 dm³ is the volume of the 20% solution.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · linear systems (mixture)",
+   "lik": "H"
+  },
+  {
+   "n": 15,
+   "stem": "The function f is defined by f(x) = (x + 1)/(x − 1) for x ≠ 1. What is f(f(3))?",
+   "options": [
+    "1/2",
+    "2",
+    "3",
+    "4",
+    "9"
+   ],
+   "ans": "C",
+   "exp": "f(3) = 4/2 = 2 and f(2) = 3/1 = 3, so f(f(3)) = 3; the function is its own inverse. The option 2 stops after the first application of f.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · composite functions",
+   "lik": "M"
+  },
+  {
+   "n": 16,
+   "stem": "The function f is defined by f(x) = (2x + 1)/(x − 3) for x ≠ 3. Which of the following is the inverse function f⁻¹(x)?",
+   "options": [
+    "(3x − 1)/(x + 2)",
+    "(x + 3)/(2x − 1)",
+    "(3x + 1)/(x + 2)",
+    "(2x + 1)/(x − 3)",
+    "(3x + 1)/(x − 2)"
+   ],
+   "ans": "E",
+   "exp": "From y = (2x + 1)/(x − 3), multiplying out and collecting x gives x(y − 2) = 3y + 1, so x = (3y + 1)/(y − 2) and f⁻¹(x) = (3x + 1)/(x − 2). The option (2x + 1)/(x − 3) leaves f unchanged instead of inverting it.",
+   "perm": [
+    4,
+    3,
+    1,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · inverse functions",
+   "lik": "H"
+  },
+  {
+   "n": 17,
+   "stem": "A solid wooden block has the shape of a right circular cylinder of radius 6 cm and height 9 cm. A conical hole with the same base radius and the same height is drilled out of the block. What fraction of the cylinder's volume remains?",
+   "options": [
+    "1/3",
+    "1/2",
+    "2/3",
+    "3/4",
+    "8/9"
+   ],
+   "ans": "C",
+   "exp": "Cone and cylinder share base and height, and the cone's volume is one third of the cylinder's, so 1 − 1/3 = 2/3 of the volume remains. The option 1/3 is the fraction removed, not the fraction left.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · composite solids (cylinder and cone)",
+   "lik": "M"
+  },
+  {
+   "n": 18,
+   "stem": "A circle of radius 5 cm is inscribed in a square. Taking π = 3.14, what is the area of the part of the square that lies outside the circle?",
+   "options": [
+    "21.5 cm²",
+    "39.25 cm²",
+    "78.5 cm²",
+    "100 cm²",
+    "121.5 cm²"
+   ],
+   "ans": "A",
+   "exp": "An inscribed circle touches all four sides, so the square has side 10 cm and area 100 cm², while the circle has area 3.14 × 5² = 78.5 cm²; the difference is 21.5 cm². The option 121.5 cm² adds the two areas instead of subtracting.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · shaded areas (circle in a square)",
+   "lik": "H"
+  },
+  {
+   "n": 19,
+   "stem": "An equilateral triangle has sides of length 12 cm. What is its area?",
+   "options": [
+    "36√3 cm²",
+    "72 cm²",
+    "72√3 cm²",
+    "144 cm²",
+    "144√3 cm²"
+   ],
+   "ans": "A",
+   "exp": "The height comes from the 30-60-90 half triangle: h = 6√3 cm, so the area is (1/2) × 12 × 6√3 = 36√3 cm². The option 72 cm² wrongly uses the side length 12 as the height.",
+   "perm": [
+    0,
+    4,
+    2,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · equilateral triangle (area from the height)",
+   "lik": "H"
+  },
+  {
+   "n": 20,
+   "stem": "A closed cylindrical tin has radius 3 cm and height 8 cm. What is its total surface area, ends included?",
+   "options": [
+    "42π cm²",
+    "48π cm²",
+    "57π cm²",
+    "66π cm²",
+    "72π cm²"
+   ],
+   "ans": "D",
+   "exp": "The two ends contribute 2πr² = 18π cm² and the curved wall contributes 2πrh = 48π cm², a total of 66π cm². The option 48π cm² counts only the wall and 57π cm² forgets one of the two ends.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · cylinder surface area",
+   "lik": "M"
+  },
+  {
+   "n": 21,
+   "stem": "What is the angle between the hour hand and the minute hand of a clock at 3:40? (The hour hand turns at 0.5° per minute, the minute hand at 6° per minute.)",
+   "options": [
+    "100°",
+    "110°",
+    "130°",
+    "150°",
+    "230°"
+   ],
+   "ans": "C",
+   "exp": "At 3:40 the hour hand is at 3 × 30 + 40 × 0.5 = 110° and the minute hand at 40 × 6 = 240°, both measured from 12, so the angle between them is 240 − 110 = 130°. The option 150° leaves the hour hand fixed at exactly 3, ignoring its 20° drift.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · clock angles",
+   "lik": "H"
+  },
+  {
+   "n": 22,
+   "stem": "Between 7:00 and 8:00 the hands of a clock are exactly 100 degrees apart at 7:20. At what later time in that hour are they exactly 100 degrees apart again? (The hour hand turns at 0.5 degrees per minute, the minute hand at 6 degrees per minute.)",
+   "options": [
+    "7:52 and 8/11 minutes",
+    "7:54 and 6/11 minutes",
+    "7:56 and 4/11 minutes",
+    "7:58 and 2/11 minutes",
+    "8:00 exactly"
+   ],
+   "ans": "C",
+   "exp": "Measured from 12, the hour hand sits at 210 + 0.5m degrees and the minute hand at 6m, so the gap is 5.5m - 210. Setting the gap to 100 gives 5.5m = 110 (7:20) or 5.5m = 310, so m = 56 and 4/11 minutes. The 7:52 option answers a gap of 80 degrees (5.5m = 290), and 8:00 exactly is what a closing rate of 5 degrees per minute would give.",
+   "perm": [
+    4,
+    0,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · clock angles",
+   "lik": "H"
+  },
+  {
+   "n": 23,
+   "stem": "What is the value of tan 30° × tan 60°?",
+   "options": [
+    "1/3",
+    "1",
+    "√3/3",
+    "√3",
+    "3"
+   ],
+   "ans": "B",
+   "exp": "tan 30° = √3/3 and tan 60° = √3, so the product is (√3/3) × √3 = 3/3 = 1. The option 1/3 uses tan 30° twice, and 3 divides the two values instead of multiplying them.",
+   "perm": [
+    1,
+    3,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · notable trigonometric values",
+   "lik": "M"
+  },
+  {
+   "n": 24,
+   "stem": "For an angle θ, what is the value of (sin θ + cos θ)² − 2 sin θ cos θ?",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "2 sinθ cosθ",
+    "sin²θ − cos²θ"
+   ],
+   "ans": "B",
+   "exp": "Expanding the square gives sin²θ + 2 sinθ cosθ + cos²θ − 2 sinθ cosθ = sin²θ + cos²θ = 1. The option 2 sinθ cosθ stops after the expansion and forgets to cancel the middle term against the one subtracted.",
+   "perm": [
+    2,
+    4,
+    3,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · trig identities (expansion and cancellation)",
+   "lik": "H"
+  },
+  {
+   "n": 25,
+   "stem": "What is the value of (sin 45° − cos 45°)² + 2 sin 30° cos 60°?",
+   "options": [
+    "0",
+    "1/4",
+    "1/2",
+    "3/4",
+    "1"
+   ],
+   "ans": "C",
+   "exp": "sin 45° = cos 45°, so the squared term is 0, and 2 sin 30° cos 60° = 2 × (1/2) × (1/2) = 1/2, giving 1/2 in total. The option 0 forgets the second term, and 1 overestimates the product sin 30° cos 60°.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · notable values combined",
+   "lik": "H"
+  },
+  {
+   "n": 26,
+   "stem": "A straight line passes through the points (2, 5) and (6, 17). What is its slope?",
+   "options": [
+    "1/4",
+    "1/3",
+    "3",
+    "4",
+    "12"
+   ],
+   "ans": "C",
+   "exp": "The slope is the change in y over the change in x: (17 − 5)/(6 − 2) = 12/4 = 3. The options 4 and 12 use only one of the two changes, and 1/3 inverts the ratio.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · slope between two points",
+   "lik": "M"
+  },
+  {
+   "n": 27,
+   "stem": "A cyclist rides along a straight road at a constant speed. Her distance from the start is recorded as 1.8 km after 6 minutes and 3.0 km after 10 minutes. What is her speed in m/s?",
+   "options": [
+    "3 m/s",
+    "5 m/s",
+    "18 m/s",
+    "50 m/s",
+    "300 m/s"
+   ],
+   "ans": "B",
+   "exp": "Between the two records she covers 1.2 km = 1200 m in 4 min = 240 s, so her speed is 1200/240 = 5 m/s. The option 18 m/s is the speed in km/h (0.3 km/min × 60) left unconverted, and 300 m/s keeps the rate in metres per minute without dividing by 60.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · rate of change from data (unit conversion)",
+   "lik": "H"
+  },
+  {
+   "n": 28,
+   "stem": "Water is pumped into a tank that already contains 40 L. The volume reaches 90 L after 5 minutes and 160 L after 15 minutes. What is the average rate of inflow over the whole 15 minutes?",
+   "options": [
+    "7 L/min",
+    "8 L/min",
+    "8.5 L/min",
+    "10 L/min",
+    "160 L/min"
+   ],
+   "ans": "B",
+   "exp": "The volume rises from 40 L to 160 L, a change of 120 L in 15 min, so the average rate is 8 L/min. The option 8.5 L/min averages the two segment rates (10 and 7 L/min) instead of dividing the total change by the total time.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · average rate of change",
+   "lik": "H"
+  },
+  {
+   "n": 29,
+   "stem": "Two fair six-sided dice are rolled once. What is the probability that the sum of the two scores is at least 9?",
+   "options": [
+    "1/9",
+    "5/36",
+    "5/18",
+    "1/3",
+    "5/12"
+   ],
+   "ans": "C",
+   "exp": "Sums of 9, 10, 11 and 12 arise from 4 + 3 + 2 + 1 = 10 of the 36 ordered outcomes, so the probability is 10/36 = 5/18. The 5/36 option counts only the five unordered pairs and forgets that (4,6) and (6,4) are different outcomes; the 1/9 option answers a sum of exactly 9.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · two-dice sums",
+   "lik": "H"
+  },
+  {
+   "n": 30,
+   "stem": "Three fair six-sided dice are rolled. What is the probability that all three show the same number?",
+   "options": [
+    "1/216",
+    "1/108",
+    "1/72",
+    "1/36",
+    "1/6"
+   ],
+   "ans": "D",
+   "exp": "The first die can show anything, and each of the other two must then match it, so the probability is (1/6) × (1/6) = 1/36. The 1/216 option fixes all three faces in advance, and 1/6 is the chance of three copies of one particular named number. The 1/72 option counts only three of the six matching triples.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · joint condition on three dice",
+   "lik": "M"
+  },
+  {
+   "n": 31,
+   "stem": "Two fair six-sided dice are rolled. What is the probability that the two scores are a 2 and a 5, in either order?",
+   "options": [
+    "1/36",
+    "1/18",
+    "1/9",
+    "1/6",
+    "1/3"
+   ],
+   "ans": "B",
+   "exp": "The favourable ordered outcomes are (2,5) and (5,2), so the probability is 2/36 = 1/18. The 1/36 option takes a single ordering, and the 1/9 option wrongly counts four outcomes by also including the doubles (2,2) and (5,5).",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · ordered vs unordered dice pairs",
+   "lik": "M"
+  },
+  {
+   "n": 32,
+   "stem": "Two fair six-sided dice are rolled. What is the probability that the sum is 7 or at least one die shows a six?",
+   "options": [
+    "1/6",
+    "11/36",
+    "7/18",
+    "5/12",
+    "17/36"
+   ],
+   "ans": "D",
+   "exp": "P(sum 7) = 6/36 and P(at least one six) = 11/36, but the outcomes (1,6) and (6,1) satisfy both, so the union is (6 + 11 − 2)/36 = 15/36 = 5/12. The 17/36 option adds the two probabilities without subtracting the overlap, and the 1/6 option counts only the sum of 7.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · combined events (inclusion-exclusion)",
+   "lik": "H"
+  },
+  {
+   "n": 33,
+   "stem": "A fair coin is flipped four times. What is the probability of getting exactly two heads?",
+   "options": [
+    "1/8",
+    "3/16",
+    "1/4",
+    "3/8",
+    "1/2"
+   ],
+   "ans": "D",
+   "exp": "There are 2⁴ = 16 equally likely sequences and C(4,2) = 6 of them contain exactly two heads, giving 6/16 = 3/8. The 1/4 option counts only a few of the six arrangements, and 1/2 is the single-flip head probability.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · exactly-two-heads counting",
+   "lik": "H"
+  },
+  {
+   "n": 34,
+   "stem": "An urn contains 3 red, 4 green and 5 blue balls. Two balls are drawn at random without replacement. What is the probability that at least one of them is green?",
+   "options": [
+    "1/3",
+    "14/33",
+    "16/33",
+    "19/33",
+    "3/4"
+   ],
+   "ans": "D",
+   "exp": "P(no green) = (8/12) × (7/11) = 14/33, so P(at least one green) = 1 − 14/33 = 19/33. The 16/33 option answers exactly one green, 14/33 reports the complement, and 1/3 looks only at the first draw.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · complement without replacement",
+   "lik": "H"
+  },
+  {
+   "n": 35,
+   "stem": "The probability that a candidate passes a maths test is 2/3, and the probability that she passes an independent logic test is 3/4. What is the probability that she passes exactly one of the two tests?",
+   "options": [
+    "11/12",
+    "1/2",
+    "5/12",
+    "1/6",
+    "1/12"
+   ],
+   "ans": "C",
+   "exp": "Exactly one means pass maths and fail logic, or fail maths and pass logic: (2/3 × 1/4) + (1/3 × 3/4) = 2/12 + 3/12 = 5/12. The 1/2 option is the probability of passing both, and 11/12 is the probability of passing at least one.",
+   "perm": [
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · independent events (exactly one)",
+   "lik": "H"
+  },
+  {
+   "n": 36,
+   "stem": "A fair coin is tossed and a fair six-sided die is rolled. What is the probability of obtaining tails and a score greater than 4?",
+   "options": [
+    "1/12",
+    "1/6",
+    "1/4",
+    "1/2",
+    "2/3"
+   ],
+   "ans": "B",
+   "exp": "The events are independent: P(tails) = 1/2 and P(score greater than 4) = 2/6 = 1/3, so the joint probability is 1/2 × 1/3 = 1/6. The 2/3 option computes the union (tails or a high score) instead of the intersection, and 1/12 uses a single face instead of the two faces 5 and 6.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · independent events (coin and die)",
+   "lik": "M"
+  },
+  {
+   "n": 37,
+   "stem": "A high-speed train covers 270 km in 3.0 h at a constant speed. Expressed in m/s, its speed is:",
+   "options": [
+    "25 m/s",
+    "75 m/s",
+    "90 m/s",
+    "324 m/s",
+    "1500 m/s"
+   ],
+   "ans": "A",
+   "exp": "The speed is 270/3.0 = 90 km/h, and 90 km/h = 90,000 m in 3600 s = 25 m/s. The 324 m/s option multiplies by 3.6 instead of dividing, and the 1500 m/s option gives metres per minute rather than metres per second.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · speed conversion (km/h to m/s)",
+   "lik": "H"
+  },
+  {
+   "n": 38,
+   "stem": "A swimming pool is 5.0 m long, 2.0 m wide and 1.2 m deep. What volume of water does it hold, expressed in litres?",
+   "options": [
+    "12 L",
+    "120 L",
+    "1200 L",
+    "12000 L",
+    "120000 L"
+   ],
+   "ans": "D",
+   "exp": "V = 5.0 × 2.0 × 1.2 = 12 m³, and since 1 m³ = 1000 dm³ and 1 dm³ = 1 L, the pool holds 12000 L. The 1200 L option uses a factor of 100 instead of 1000, confusing the volume factor with a length factor.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · volume prefixes (m³ to litres)",
+   "lik": "H"
+  },
+  {
+   "n": 39,
+   "stem": "A water tank is 2/3 full. A valve then drains 1/4 of the tank's total capacity. What fraction of the tank is still full?",
+   "options": [
+    "1/6",
+    "1/4",
+    "5/12",
+    "1/2",
+    "11/12"
+   ],
+   "ans": "C",
+   "exp": "The drained amount is 1/4 of the capacity, so the remaining fraction is 2/3 − 1/4 = 8/12 − 3/12 = 5/12. The 1/2 option instead takes a quarter of the water already present (2/3 × 3/4), and the 11/12 option adds the two fractions instead of subtracting.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · fractions in context (common denominator)",
+   "lik": "M"
+  },
+  {
+   "n": 40,
+   "stem": "A water tank is one third full. After 40 more litres are poured in, the tank is three quarters full. What is the full capacity of the tank?",
+   "options": [
+    "60 litres",
+    "72 litres",
+    "90 litres",
+    "96 litres",
+    "120 litres"
+   ],
+   "ans": "D",
+   "exp": "The 40 litres fill the fraction 3/4 − 1/3 = 5/12 of the tank, so the capacity is 40 × 12/5 = 96 litres. The 60 litre option assumes the 40 litres filled the remaining two thirds up to completely full, and 120 litres treats 40 litres as one third of the tank.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · fractions of a quantity",
+   "lik": "M"
+  },
+  {
+   "n": 41,
+   "stem": "The velocity of a trolley moving along a straight track is recorded every 2 s: at 0 s it is 0 m/s, at 2 s it is 6 m/s, at 4 s it is 10 m/s, at 6 s it is 12 m/s and at 8 s it is 12 m/s. Which statement is correct?",
+   "options": [
+    "Its acceleration is constant at 3 m/s2 between 0 s and 6 s.",
+    "Its average velocity over the whole 8 s is 10 m/s.",
+    "It travels 96 m during the 8 s.",
+    "Its acceleration between 4 s and 6 s is 1 m/s2.",
+    "It decelerates between 6 s and 8 s."
+   ],
+   "ans": "D",
+   "exp": "The accelerations between successive readings are 3, 2, 1 and then 0 m/s2, so the motion is not uniformly accelerated and the constant 3 m/s2 claim is false. The displacement is the area under the graph, 6 + 16 + 22 + 24 = 68 m, giving an average velocity of 8.5 m/s rather than 10 m/s. From 6 s to 8 s the velocity is constant, so there is no deceleration.",
+   "perm": [
+    1,
+    2,
+    0,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · velocity-time table (non-uniform acceleration)",
+   "lik": "H"
+  },
+  {
+   "n": 42,
+   "stem": "In a race, a sprinter increases her speed steadily from 0 to 8.0 m/s during the first 4.0 s and then keeps running at a constant 8.0 m/s for the next 6.0 s. What is her average speed over the whole 10 s?",
+   "options": [
+    "1.6 m/s",
+    "4.0 m/s",
+    "4.8 m/s",
+    "6.4 m/s",
+    "8.0 m/s"
+   ],
+   "ans": "D",
+   "exp": "The distance is the area under the velocity-time graph: 0.5 × 4.0 × 8.0 = 16 m while accelerating plus 8.0 × 6.0 = 48 m at constant speed, so 64 m in total, and 64/10 = 6.4 m/s. The 8.0 m/s answer treats the final instantaneous speed as the whole-run average, and the 4.0 m/s answer assumes uniform acceleration across all 10 s.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · average speed from a velocity-time graph",
+   "lik": "H"
+  },
+  {
+   "n": 43,
+   "stem": "On a straight air track, a glider passes sensor P moving at 2.0 m/s and sensor Q moving at 4.0 m/s. The sensors are 6.0 m apart and the glider takes 2.0 s to travel from P to Q. Which statement is correct?",
+   "options": [
+    "Its average velocity between the gates is 3.0 m/s and its acceleration is 1.0 m/s2.",
+    "Its average velocity between the gates is 2.0 m/s and its acceleration is 1.0 m/s2.",
+    "Its average velocity between the gates is 4.0 m/s and its acceleration is 1.0 m/s2.",
+    "Its average velocity between the gates is 3.0 m/s and its acceleration is 2.0 m/s2.",
+    "Its average velocity between the gates is 6.0 m/s and its acceleration is 1.0 m/s2."
+   ],
+   "ans": "A",
+   "exp": "The average velocity is displacement over time, 6.0/2.0 = 3.0 m/s, and the acceleration is the change in velocity over time, (4.0 - 2.0)/2.0 = 1.0 m/s2. The 2.0 m/s2 acceleration comes from dividing by 1 s instead of 2 s, and the 2.0 and 4.0 m/s averages wrongly use one of the instantaneous speeds for the whole run.",
+   "perm": [
+    0,
+    4,
+    1,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · average vs instantaneous (light gates)",
+   "lik": "H"
+  },
+  {
+   "n": 44,
+   "stem": "Which of the following statements about motion graphs is correct?",
+   "options": [
+    "The gradient of a velocity-time graph gives the distance travelled.",
+    "The area under a velocity-time graph gives the acceleration.",
+    "The average velocity over any time interval always equals the mean of the initial and final velocities.",
+    "A curved velocity-time graph means the object is moving along a circular path.",
+    "For uniformly accelerated motion starting from rest, the average velocity during the acceleration is half the final velocity."
+   ],
+   "ans": "E",
+   "exp": "For uniform acceleration from rest, v = at, so the average velocity 0.5at equals half the final velocity at. The gradient of a velocity-time graph gives acceleration, not distance, and the area gives displacement, not acceleration; the mean of the initial and final velocities equals the average only when the acceleration is uniform, and a curved graph means non-uniform acceleration rather than circular motion.",
+   "perm": [
+    1,
+    3,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · motion graphs (gradient and area)",
+   "lik": "M"
+  },
+  {
+   "n": 45,
+   "stem": "Which statement correctly distinguishes the tangential and the centripetal components of acceleration for an object moving in a circle?",
+   "options": [
+    "The centripetal component changes the speed, and the tangential component changes the direction of motion.",
+    "The tangential component changes the speed, and the centripetal component changes the direction of the velocity.",
+    "Both components change only the speed of the object.",
+    "Both components change only the direction of motion.",
+    "The tangential component acts towards the centre, and the centripetal component acts along the tangent."
+   ],
+   "ans": "B",
+   "exp": "Tangential acceleration acts along the tangent and changes the speed, while centripetal acceleration acts towards the centre and changes only the direction of the velocity. The reversed version swaps the two roles, and claims that both components change only speed (or only direction) contradict their definitions.",
+   "perm": [
+    1,
+    3,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · tangential vs centripetal acceleration",
+   "lik": "M"
+  },
+  {
+   "n": 46,
+   "stem": "A cyclist rides around a circular track of radius 20 m at a constant speed of 10 m/s. Which statement about her acceleration is correct?",
+   "options": [
+    "It is zero, because her speed is constant.",
+    "It is 0.50 m/s2, directed along her direction of travel.",
+    "It is 5.0 m/s2, directed towards the centre of the track.",
+    "It is 5.0 m/s2, directed along her direction of travel.",
+    "It is 2.0 m/s2, directed away from the centre of the track."
+   ],
+   "ans": "C",
+   "exp": "In uniform circular motion the acceleration is purely centripetal, a = (10 × 10)/20 = 5.0 m/s2 towards the centre, because it changes only the direction of the velocity. Zero acceleration ignores the continuous change of direction, and the 0.50 and 2.0 m/s2 values come from v/r and r/v instead of v squared over r.",
+   "perm": [
+    0,
+    1,
+    3,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · centripetal acceleration (value and direction)",
+   "lik": "H"
+  },
+  {
+   "n": 47,
+   "stem": "A car is driven around a circular test track while the driver steadily presses the accelerator, so the car is speeding up. At such an instant, which statement about the car's acceleration is correct?",
+   "options": [
+    "It is zero, because the tangential and centripetal parts cancel.",
+    "It points directly towards the centre of the track.",
+    "It points directly away from the centre, in the direction of the outward push the driver feels.",
+    "It points along the direction of motion, since only a change of speed can produce acceleration.",
+    "It has a component along the motion and a component towards the centre, so the resultant points forwards and inwards."
+   ],
+   "ans": "E",
+   "exp": "Because the speed changes there is a tangential component along the motion, and because the direction changes there is a centripetal component towards the centre, so the resultant points forwards and inwards. Pointing straight at the centre would require constant speed, and the true resultant in circular motion never points outwards.",
+   "perm": [
+    1,
+    4,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · circular motion (speeding up)",
+   "lik": "H"
+  },
+  {
+   "n": 48,
+   "stem": "A car travels at 72 km/h along a straight road when the driver sees a hazard. Her reaction time is 1.0 s, after which the brakes produce a constant deceleration of 5.0 m/s2 until the car stops. What total distance does the car cover between the hazard being seen and the car stopping?",
+   "options": [
+    "20 m",
+    "40 m",
+    "60 m",
+    "80 m",
+    "100 m"
+   ],
+   "ans": "C",
+   "exp": "72 km/h is 20 m/s, so the reaction distance is 20 × 1.0 = 20 m and the braking distance is (20 × 20)/(2 × 5.0) = 40 m, a total of 60 m. The 40 m answer forgets the reaction phase, and the 80 m answer multiplies the full 20 m/s by the 4 s braking time instead of using the average braking speed of 10 m/s.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · stopping distance (reaction plus braking)",
+   "lik": "H"
+  },
+  {
+   "n": 49,
+   "stem": "A train travelling at 30 m/s applies its brakes and comes to rest after covering 150 m at constant deceleration. What is the magnitude of the deceleration?",
+   "options": [
+    "0.20 m/s2",
+    "1.5 m/s2",
+    "3.0 m/s2",
+    "5.0 m/s2",
+    "6.0 m/s2"
+   ],
+   "ans": "C",
+   "exp": "Using v squared = 2as with final speed zero gives a = (30 × 30)/(2 × 150) = 3.0 m/s2. The 6.0 m/s2 answer drops the factor of 2, and the 1.5 m/s2 answer squares the average speed of 15 m/s instead of the initial speed.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · braking deceleration from stopping distance",
+   "lik": "M"
+  },
+  {
+   "n": 50,
+   "stem": "A crate of mass 4.0 kg is pulled along a horizontal floor by a horizontal force of 24 N. A frictional force of 8.0 N opposes the motion. What is the acceleration of the crate?",
+   "options": [
+    "2.0 m/s2",
+    "4.0 m/s2",
+    "6.0 m/s2",
+    "8.0 m/s2",
+    "16 m/s2"
+   ],
+   "ans": "B",
+   "exp": "The resultant force is 24 - 8.0 = 16 N, so a = 16/4.0 = 4.0 m/s2. The 6.0 m/s2 answer divides the pull by the mass and ignores friction, while the 8.0 m/s2 answer quotes the resultant force in newtons as if it were an acceleration.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · Newton's second law with friction",
+   "lik": "M"
+  },
+  {
+   "n": 51,
+   "stem": "A block of mass 2.0 kg slides down a frictionless slope inclined at 30° to the horizontal. What is its acceleration along the slope? (g = 10 m/s2, sin 30° = 0.50, cos 30° = 0.87.)",
+   "options": [
+    "5.0 m/s2",
+    "8.7 m/s2",
+    "10 m/s2",
+    "17.4 m/s2",
+    "20 m/s2"
+   ],
+   "ans": "A",
+   "exp": "The component of the weight along the slope is mg sin 30° = 2.0 × 10 × 0.50 = 10 N, so a = 10/2.0 = 5.0 m/s2. The 8.7 m/s2 answer uses cos 30° instead of sin 30°, and the 17.4 and 20 m/s2 answers quote forces in newtons as accelerations without dividing by the mass.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · weight component on a slope",
+   "lik": "H"
+  },
+  {
+   "n": 52,
+   "stem": "A crane lifts a 50 kg load by applying a vertical upward force of 550 N. What is the upward acceleration of the load? (g = 10 m/s2.)",
+   "options": [
+    "0.10 m/s2",
+    "1.0 m/s2",
+    "10 m/s2",
+    "11 m/s2",
+    "21 m/s2"
+   ],
+   "ans": "B",
+   "exp": "The weight is 50 × 10 = 500 N, so the resultant upward force is 550 - 500 = 50 N and a = 50/50 = 1.0 m/s2. The 11 m/s2 answer ignores the weight entirely, and the 21 m/s2 answer adds the two forces although they act in opposite directions.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · Newton's second law with weight",
+   "lik": "H"
+  },
+  {
+   "n": 53,
+   "stem": "An astronaut of mass 60 kg floats at rest in space and throws a tool of mass 2.0 kg so that it moves away from her at 6.0 m/s. What is the velocity of the astronaut immediately afterwards?",
+   "options": [
+    "0.20 m/s in the direction of the throw.",
+    "0.20 m/s opposite to the direction of the throw.",
+    "0.40 m/s opposite to the direction of the throw.",
+    "6.0 m/s opposite to the direction of the throw.",
+    "12 m/s opposite to the direction of the throw."
+   ],
+   "ans": "B",
+   "exp": "Momentum is conserved: the tool carries 2.0 × 6.0 = 12 kg m/s away, so the astronaut gains 12 kg m/s in the opposite direction and moves at 12/60 = 0.20 m/s away from the throw. The 6.0 m/s answer assumes the tool's speed is shared, and the 12 m/s answer reads the momentum value as a velocity.",
+   "perm": [
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · recoil (momentum conservation)",
+   "lik": "M"
+  },
+  {
+   "n": 54,
+   "stem": "A ball of mass 0.50 kg strikes a wall horizontally at 12 m/s and rebounds along its original line at 8.0 m/s. The contact with the wall lasts 0.020 s. What is the magnitude of the average force exerted by the wall on the ball?",
+   "options": [
+    "100 N",
+    "200 N",
+    "300 N",
+    "500 N",
+    "1000 N"
+   ],
+   "ans": "D",
+   "exp": "The velocity reverses, so the magnitude of the momentum change is 0.50 × (12 + 8) = 10 kg m/s and F = 10/0.020 = 500 N. The 100 N answer subtracts the speeds as if the ball continued in the same direction, and the 1000 N answer adds the speeds but forgets the mass.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · impulse at a wall",
+   "lik": "H"
+  },
+  {
+   "n": 55,
+   "stem": "A motor lifts a 60 kg load at constant speed through a height of 10 m in 20 s. What is the useful output power of the motor? (g = 10 m/s2.)",
+   "options": [
+    "30 W",
+    "150 W",
+    "300 W",
+    "600 W",
+    "6000 W"
+   ],
+   "ans": "C",
+   "exp": "At constant speed the lifting force equals the weight, so the work done is mgh = 60 × 10 × 10 = 6000 J and P = 6000/20 = 300 W. The 30 W answer leaves g out of the work, and the 6000 W answer quotes the work in joules as a power.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · power from work and time",
+   "lik": "M"
+  },
+  {
+   "n": 56,
+   "stem": "A car moves at a constant 20 m/s along a horizontal road. The total resistive force on it is 600 N. What power must the engine deliver to maintain this speed?",
+   "options": [
+    "30 W",
+    "600 W",
+    "6000 W",
+    "12000 W",
+    "24000 W"
+   ],
+   "ans": "D",
+   "exp": "At constant speed the driving force balances the 600 N resistance, so P = Fv = 600 × 20 = 12000 W. The 30 W answer divides the force by the speed instead of multiplying, and the 600 W answer gives the force itself rather than force times velocity.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · power at constant speed (P = Fv)",
+   "lik": "H"
+  },
+  {
+   "n": 57,
+   "stem": "A diver works at a depth of 15 m in a fresh-water lake. The density of water is 1000 kg/m3, g = 10 m/s2, and the atmospheric pressure at the surface is 100 kPa. Which statement about the pressures on the diver is correct?",
+   "options": [
+    "The gauge pressure at 15 m is 150 kPa, and the absolute pressure is 250 kPa.",
+    "The gauge pressure at 15 m is 250 kPa, and the absolute pressure is 350 kPa.",
+    "The absolute pressure at 15 m is 150 kPa, because atmospheric pressure does not act underwater.",
+    "The gauge pressure at 15 m is 150 kPa, and the absolute pressure is 50 kPa.",
+    "The gauge pressure at 15 m is 1.5 kPa, and the absolute pressure is 101.5 kPa."
+   ],
+   "ans": "A",
+   "exp": "Stevin gives the gauge pressure as rho g h = 1000 × 10 × 15 = 150000 Pa = 150 kPa, and the absolute pressure adds the 100 kPa of atmosphere pressing on the surface, giving 250 kPa. The strongest distractor quotes the 150 kPa gauge value as the absolute pressure, the classic gauge versus absolute confusion.",
+   "perm": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · pressure (gauge vs absolute)",
+   "lik": "H"
+  },
+  {
+   "n": 58,
+   "stem": "An open-tube manometer contains mercury of density 13600 kg/m3. The mercury level in the arm open to the atmosphere stands 100 mm above the level in the arm connected to a gas supply. Atmospheric pressure is 100 kPa and g = 10 m/s2. What is the absolute pressure of the gas supply?",
+   "options": [
+    "13.6 kPa",
+    "86.4 kPa",
+    "100 kPa",
+    "101 kPa",
+    "113.6 kPa"
+   ],
+   "ans": "E",
+   "exp": "The gas pressure exceeds atmospheric by rho g h = 13600 × 10 × 0.100 = 13600 Pa = 13.6 kPa, so the absolute pressure is 113.6 kPa. The 86.4 kPa option subtracts the column instead of adding it, and 101 kPa adds a column computed with the density of water.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · manometer",
+   "lik": "H"
+  },
+  {
+   "n": 59,
+   "stem": "A tank contains 0.80 m of oil of density 800 kg/m3 floating on 1.2 m of water of density 1000 kg/m3. Taking g = 10 m/s2 what is the gauge pressure at the bottom of the tank?",
+   "options": [
+    "1.8 kPa",
+    "6.4 kPa",
+    "12 kPa",
+    "18.4 kPa",
+    "20 kPa"
+   ],
+   "ans": "D",
+   "exp": "Each layer adds its own rho g h: 800 × 10 × 0.80 = 6.4 kPa from the oil and 1000 × 10 × 1.2 = 12 kPa from the water, for a total of 18.4 kPa. The 20 kPa option uses the density of water for both layers, and 12 kPa forgets the oil layer.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · Stevin (layered liquids)",
+   "lik": "H"
+  },
+  {
+   "n": 60,
+   "stem": "Three blocks are placed in oil of density 800 kg/m3. Block P floats with exactly half its volume submerged, block Q floats with one quarter of its volume submerged, and block R sinks and rests on the bottom. Which statement is correct?",
+   "options": [
+    "P is the densest of the three blocks.",
+    "Q has a density of about 200 kg/m3, the lowest of the three, and R is denser than the oil.",
+    "P and Q must have the same density, because both are floating.",
+    "R has a density of exactly 800 kg/m3, the same as the oil.",
+    "Q is denser than P, because a smaller fraction of Q is submerged."
+   ],
+   "ans": "B",
+   "exp": "A floating block displaces its own weight, so its density is the submerged fraction times the fluid density: P is 400 kg/m3, Q is 200 kg/m3, and R, resting on the bottom, must be denser than 800 kg/m3. The option calling Q denser than P inverts the rule: the smaller the submerged fraction, the lower the density.",
+   "perm": [
+    0,
+    4,
+    2,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · floating (density ordering)",
+   "lik": "H"
+  },
+  {
+   "n": 61,
+   "stem": "A block of weight 6.0 N and density 750 kg/m3 floats freely in water of density 1000 kg/m3. What is the apparent weight of the block while it floats?",
+   "options": [
+    "0 N",
+    "1.5 N",
+    "2.0 N",
+    "4.5 N",
+    "6.0 N"
+   ],
+   "ans": "A",
+   "exp": "While floating, the block is in equilibrium, so the upthrust equals its 6.0 N weight exactly (it displaces its own weight of water, submerging three quarters of its volume). The apparent weight is therefore zero; the 1.5 N option subtracts only three quarters of the weight.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · floating equilibrium",
+   "lik": "M"
+  },
+  {
+   "n": 62,
+   "stem": "How much heat must be supplied to 2.0 kg of water to raise its temperature from 20 °C to 70 °C? (c of water = 4200 J/(kg K); ignore heat losses.)",
+   "options": [
+    "84 kJ",
+    "210 kJ",
+    "294 kJ",
+    "420 kJ",
+    "588 kJ"
+   ],
+   "ans": "D",
+   "exp": "Q = mcΔT = 2.0 × 4200 × 50 = 420000 J = 420 kJ. The 588 kJ option uses the final temperature of 70 °C instead of the 50 K rise, and 210 kJ drops the mass to 1.0 kg.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · calorimetry (q = mcΔT)",
+   "lik": "M"
+  },
+  {
+   "n": 63,
+   "stem": "A 0.40 kg block of aluminium at 100 °C is dropped into 0.60 kg of water at 20 °C in an insulated container. (c of aluminium = 900 J/(kg K), c of water = 4200 J/(kg K).) What is the final equilibrium temperature?",
+   "options": [
+    "20 °C",
+    "30 °C",
+    "40 °C",
+    "52 °C",
+    "60 °C"
+   ],
+   "ans": "B",
+   "exp": "Heat lost by the aluminium equals heat gained by the water: 0.40 × 900 × (100 − T) = 0.60 × 4200 × (T − 20), so 36000 − 360T = 2520T − 50400 and T = 30 °C. The 52 °C option is the mass-weighted average of the two starting temperatures, which ignores the different specific heats, and 60 °C is the plain average.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · calorimetry (mixing two substances)",
+   "lik": "H"
+  },
+  {
+   "n": 64,
+   "stem": "In an insulated cup, 0.50 kg of water at 12 °C is mixed with hot water at 82 °C, and the mixture settles at 32 °C. (c of water = 4200 J/(kg K); ignore heat losses.) What mass of hot water was added?",
+   "options": [
+    "0.10 kg",
+    "0.20 kg",
+    "0.35 kg",
+    "0.50 kg",
+    "0.70 kg"
+   ],
+   "ans": "B",
+   "exp": "With the same c on both sides, 0.50 × (32 − 12) = m × (82 − 32), so m = 10/50 = 0.20 kg. The 0.70 kg option uses the 70 K span between the starting temperatures as the warming of the cold water, though the cold water rises by only 20 K.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · calorimetry (mixing, unknown mass)",
+   "lik": "H"
+  },
+  {
+   "n": 65,
+   "stem": "An electric heater consumes 2.5 kWh of energy. (1 kWh = 3.6 MJ.) This energy, expressed in megajoules, is:",
+   "options": [
+    "0.90 MJ",
+    "2.5 MJ",
+    "9.0 MJ",
+    "25 MJ",
+    "90 MJ"
+   ],
+   "ans": "C",
+   "exp": "Each kWh is 3.6 MJ, so 2.5 × 3.6 = 9.0 MJ. The 2.5 MJ option treats 1 kWh as 1 MJ and drops the 3.6 factor, and 3.6 MJ is the energy in just 1 kWh.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · energy (kWh conversion)",
+   "lik": "M"
+  },
+  {
+   "n": 66,
+   "stem": "A heating element connected across a 12 V supply carries a current of 2.0 A. How much energy does it convert to heat in 5.0 minutes?",
+   "options": [
+    "0.60 kJ",
+    "0.72 kJ",
+    "3.6 kJ",
+    "7.2 kJ",
+    "72 kJ"
+   ],
+   "ans": "D",
+   "exp": "P = VI = 12 × 2.0 = 24 W, and E = Pt = 24 × 300 s = 7200 J = 7.2 kJ. The 3.6 kJ option multiplies voltage by time and forgets the current, and 0.72 kJ treats the 5.0 minutes as 30 s.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · Joule heating (E = Pt)",
+   "lik": "M"
+  },
+  {
+   "n": 67,
+   "stem": "Two identical 6.0 Ω resistors are connected, first in series and then in parallel, across a 12 V battery of negligible internal resistance. Which one of the following statements is false?",
+   "options": [
+    "In the series arrangement the battery supplies 12 W.",
+    "In the series arrangement each resistor dissipates 6.0 W.",
+    "In the parallel arrangement the battery supplies 48 W.",
+    "The parallel arrangement dissipates 4 times as much total power as the series arrangement.",
+    "The equivalent resistance of the parallel arrangement is 6.0 Ω."
+   ],
+   "ans": "E",
+   "exp": "The false claim is the parallel equivalent resistance: two 6.0 Ω resistors in parallel give 3.0 Ω, so the battery supplies 12 × 12 / 3.0 = 48 W. In series the resistance is 12 Ω, the current is 1.0 A, and each resistor dissipates I2R = 1.0 × 1.0 × 6.0 = 6.0 W, so every other statement is true.",
+   "perm": [
+    0,
+    4,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · power in series vs parallel",
+   "lik": "H"
+  },
+  {
+   "n": 68,
+   "stem": "A 6.0 Ω resistor is connected in parallel with a 3.0 Ω resistor, and this pair is connected in series with a 5.0 Ω resistor across a supply. What is the equivalent resistance of the whole network?",
+   "options": [
+    "2.0 Ω",
+    "5.0 Ω",
+    "7.0 Ω",
+    "11 Ω",
+    "14 Ω"
+   ],
+   "ans": "C",
+   "exp": "The parallel pair gives 6.0 × 3.0 / (6.0 + 3.0) = 2.0 Ω, and the series 5.0 Ω brings the total to 7.0 Ω. The 14 Ω option adds all three as if they were in series, and 2.0 Ω forgets the series resistor.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · resistor networks (equivalent resistance)",
+   "lik": "M"
+  },
+  {
+   "n": 69,
+   "stem": "A battery of negligible internal resistance supplies 24 V to an 8.0 Ω resistor connected in series with a parallel combination of a 12 Ω resistor and a 6.0 Ω resistor. What current does the battery supply?",
+   "options": [
+    "1.5 A",
+    "2.0 A",
+    "2.4 A",
+    "3.0 A",
+    "6.0 A"
+   ],
+   "ans": "B",
+   "exp": "The parallel pair has resistance (12 × 6.0)/(12 + 6.0) = 4.0 Ω, so the total is 8.0 + 4.0 = 12 Ω and I = 24/12 = 2.0 A. The 3.0 A option ignores the parallel section entirely (24/8.0), and 1.5 A comes from doubling the total resistance.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · series-parallel network",
+   "lik": "H"
+  },
+  {
+   "n": 70,
+   "stem": "A 6.0 Ω resistor draws 2.0 A from a battery of negligible internal resistance. When a second resistor is connected in parallel with it, the current drawn from the battery rises to 3.0 A. What is the resistance of the second resistor?",
+   "options": [
+    "3.0 Ω",
+    "6.0 Ω",
+    "12 Ω",
+    "18 Ω",
+    "36 Ω"
+   ],
+   "ans": "C",
+   "exp": "The battery voltage is 6.0 × 2.0 = 12 V. The added branch raises the total current to 3.0 A, so it carries 3.0 − 2.0 = 1.0 A at the same 12 V, which means 12 Ω. The 6.0 Ω option assumes the extra current is shared equally between the branches, and 18 Ω adds the resistances as if the second resistor were in series.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · parallel branch resistance",
+   "lik": "H"
+  },
+  {
+   "n": 71,
+   "stem": "A 4.0 Ω resistor and a 12 Ω resistor are connected in series across a 6.0 V battery of negligible internal resistance. A wire of negligible resistance is then connected across the 12 Ω resistor. What current does the battery supply once the wire is connected?",
+   "options": [
+    "0.375 A",
+    "0.50 A",
+    "1.5 A",
+    "3.0 A",
+    "6.0 A"
+   ],
+   "ans": "C",
+   "exp": "The wire short-circuits the 12 Ω resistor, so only the 4.0 Ω resistor limits the current: I = 6.0 / 4.0 = 1.5 A. The 0.375 A option is the current before the wire is added (6.0 V across 16 Ω), and 0.50 A short-circuits the 4.0 Ω instead of the 12 Ω.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · short circuit in a network",
+   "lik": "H"
+  },
+  {
+   "n": 72,
+   "stem": "Intensity measures how fast a wave delivers energy to a surface, per unit area of that surface. The SI unit in which intensity is expressed is:",
+   "options": [
+    "J/s",
+    "J/m2",
+    "W/m",
+    "W/m2",
+    "W/m3"
+   ],
+   "ans": "D",
+   "exp": "Intensity is power per unit area, and power in watts is joules per second, so the unit is W/m2. The J/s option is the watt, a power with no area division, and J/m2 is energy per area with the per-second factor missing.",
+   "perm": [
+    0,
+    1,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · intensity (definition and units)",
+   "lik": "M"
+  },
+  {
+   "n": 73,
+   "stem": "A small lamp is treated as a point source radiating uniformly in all directions. At 2.0 m from the lamp the intensity of its radiation is 36 W/m2. What is the intensity at 6.0 m from the lamp?",
+   "options": [
+    "4.0 W/m2",
+    "6.0 W/m2",
+    "12 W/m2",
+    "18 W/m2",
+    "36 W/m2"
+   ],
+   "ans": "A",
+   "exp": "A point source spreads its power over a sphere of area 4πr2, so intensity falls as 1/r2: tripling the distance cuts it by a factor of 9, giving 36/9 = 4.0 W/m2. The 12 W/m2 option scales as 1/r instead of 1/r2.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · intensity (inverse-square scaling)",
+   "lik": "H"
+  },
+  {
+   "n": 74,
+   "stem": "In a heated room, a radiator warms the air beside it. This air rises, cooler air replaces it, and the resulting circulating flow carries thermal energy around the room. This circulating flow transports the energy mainly by:",
+   "options": [
+    "convection, because the warmed air expands, becomes less dense and rises within the flow",
+    "conduction, because neighbouring air molecules pass energy on by direct collisions",
+    "radiation, because the hot radiator emits infrared rays that travel in straight lines",
+    "evaporation, because the flow carries water vapour that releases heat where it condenses",
+    "conduction through the metal of the radiator, the best heat conductor present"
+   ],
+   "ans": "A",
+   "exp": "Energy carried by the bulk motion of a warmed fluid is convection: the heated air expands, becomes less dense and rises. Conduction transfers energy without bulk flow, and radiation travels as electromagnetic waves, not as the circulating air itself.",
+   "perm": [
+    4,
+    0,
+    1,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · heat transfer (convection)",
+   "lik": "M"
+  },
+  {
+   "n": 75,
+   "stem": "A vacuum flask keeps a drink hot. It has double walls with silvered surfaces and a vacuum between them, closed at the top by a stopper. Which statement about how the flask limits heat loss is correct?",
+   "options": [
+    "The vacuum mainly blocks radiation, and the silvering mainly blocks convection.",
+    "The stopper works mainly by reflecting radiation back into the drink.",
+    "The silvered walls mainly reduce conduction through the walls.",
+    "The vacuum blocks convection only, because conduction can still occur through a vacuum.",
+    "The vacuum blocks both conduction and convection, and the silvered surfaces cut radiation losses."
+   ],
+   "ans": "E",
+   "exp": "Conduction and convection both need a material medium, so the vacuum removes both paths, while silvered surfaces reflect infrared radiation back toward the drink. The option limiting the vacuum to convection misses that conduction has no medium either, and the silvering handles radiation, not the vacuum.",
+   "perm": [
+    4,
+    3,
+    0,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Physics · heat transfer (vacuum flask, three modes)",
+   "lik": "H"
+  },
+  {
+   "n": 76,
+   "stem": "In a library, every manuscript in the special archive is catalogued. Some of the archive's manuscripts are illustrated, and no illustrated item in the archive may leave the building. Which of the following must be true?",
+   "options": [
+    "Every catalogued item in the library is illustrated.",
+    "Every item that may leave the building is catalogued.",
+    "Some of the archive's illustrated manuscripts are catalogued.",
+    "Some catalogued items in the library may leave the building.",
+    "No catalogued item in the archive is illustrated."
+   ],
+   "ans": "C",
+   "exp": "An illustrated archive manuscript exists by the second premise, and the first premise makes every archive manuscript catalogued, so that manuscript is both illustrated and catalogued. The claim that every catalogued item is illustrated is the invalid converse of the first premise, and items that may leave need not be catalogued because non-archive items are unrestricted.",
+   "perm": [
+    4,
+    3,
+    0,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · syllogisms (valid conclusion)",
+   "lik": "H"
+  },
+  {
+   "n": 77,
+   "stem": "At a tennis club, only members with a current season pass may book the courts, and all club rules are followed. Nadia booked a court this week. Some members with a season pass also take coaching lessons. Which of the following must be true?",
+   "options": [
+    "Nadia holds a current season pass.",
+    "Nadia takes coaching lessons.",
+    "Every member with a season pass books the courts.",
+    "Some members who book the courts take coaching lessons.",
+    "Every member who books the courts takes coaching lessons."
+   ],
+   "ans": "A",
+   "exp": "The rule 'only pass holders may book' means that booking implies holding a pass, so Nadia, who booked, holds one. Saying that every pass holder books reverses the rule without warrant, and the coaching lessons involve some pass holders who need not be Nadia.",
+   "perm": [
+    2,
+    0,
+    1,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · syllogisms (only-if conversion)",
+   "lik": "H"
+  },
+  {
+   "n": 78,
+   "stem": "Every swimmer who won a medal this season trains at the Riverside pool, and nobody who trains at the Riverside pool pays a joining fee. Which of the following must be true?",
+   "options": [
+    "Some swimmers who pay a joining fee won a medal this season.",
+    "Every swimmer who trains at the Riverside pool won a medal this season.",
+    "Some people who train at the Riverside pool did not win a medal this season.",
+    "No swimmer who won a medal this season pays a joining fee.",
+    "The Riverside pool charges no joining fee to anyone."
+   ],
+   "ans": "D",
+   "exp": "A medalling swimmer trains at Riverside, and no Riverside trainer pays a joining fee, so no medalling swimmer pays the fee. Nothing forces any Riverside swimmer to have won or failed to win a medal, and the premises are silent about fees for people who do not train there.",
+   "perm": [
+    3,
+    2,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · syllogisms (chained universals)",
+   "lik": "H"
+  },
+  {
+   "n": 79,
+   "stem": "Some players in the squad are left-footed. No left-footed player takes the corner kicks, and every player in the squad is a professional. Which of the following must be true?",
+   "options": [
+    "Some professionals do not take the corner kicks.",
+    "Some left-footed players are not professionals.",
+    "No professional takes the corner kicks.",
+    "Every player who takes the corner kicks is right-footed.",
+    "Every player who takes the corner kicks is in the squad."
+   ],
+   "ans": "A",
+   "exp": "At least one squad player is left-footed, that player is a professional by the last premise, and no left-footed player takes corners, so some professional does not take them. The corner-kick option that names right-footed players wrongly assumes that not being left-footed means being right-footed, which the premises never state.",
+   "perm": [
+    4,
+    1,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · syllogisms (particular and negative premises)",
+   "lik": "H"
+  },
+  {
+   "n": 80,
+   "stem": "Every baker at the Saturday market arrives before dawn, and some bakers at the market sell rye bread. Which of the following must be true?",
+   "options": [
+    "Everyone who arrives before dawn sells rye bread.",
+    "Some people who arrive before dawn sell rye bread.",
+    "All sellers of rye bread at the market are bakers.",
+    "No baker at the market sells rye bread.",
+    "Some bakers at the market arrive after dawn."
+   ],
+   "ans": "B",
+   "exp": "The rye-selling bakers exist, and every baker arrives before dawn, so at least one before-dawn arrival sells rye bread. Nothing makes rye sellers bakers in general, and the claim about everyone who arrives before dawn merely reverses the first premise.",
+   "perm": [
+    4,
+    0,
+    2,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · syllogisms (valid conclusion)",
+   "lik": "M"
+  },
+  {
+   "n": 81,
+   "stem": "Every member of the rowing club can swim, and no member of the rowing club is under sixteen. Tara is a member of the rowing club. Which of the following must be true?",
+   "options": [
+    "Tara is under sixteen.",
+    "Everyone who can swim is a member of the rowing club.",
+    "Some people under sixteen can swim.",
+    "Only swimmers may join the rowing club.",
+    "Tara can swim and is not under sixteen."
+   ],
+   "ans": "E",
+   "exp": "Tara is a member, so both universal premises apply to her: she can swim and she is not under sixteen. The claim that every swimmer is a club member merely reverses the first premise and does not follow, and the premises say nothing about who is allowed to join.",
+   "perm": [
+    4,
+    1,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · syllogisms (universal instantiation)",
+   "lik": "M"
+  },
+  {
+   "n": 82,
+   "stem": "About a postponed football match, Ria says: 'The match was postponed because of rain.' Tom says: 'The match was postponed because of rain, and Ria is lying.' Exactly one of the two always tells the truth and the other always lies. Which of the following must be true?",
+   "options": [
+    "Tom tells the truth and the postponement had another cause.",
+    "Ria tells the truth and the postponement had another cause.",
+    "Tom tells the truth and rain caused the postponement.",
+    "Ria tells the truth and rain caused the postponement.",
+    "Both of them always tell the truth."
+   ],
+   "ans": "D",
+   "exp": "If Tom were the truth teller, his statement would make Ria a liar whose claim about rain is false, yet the same statement itself asserts that rain caused the postponement, which is contradictory. So Tom is the liar and Ria tells the truth, which makes rain the cause, while Tom's conjunction fails because its second part is false.",
+   "perm": [
+    2,
+    3,
+    1,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · truth-tellers and liars (conjunction self-test)",
+   "lik": "H"
+  },
+  {
+   "n": 83,
+   "stem": "Three pupils, Amara, Ben and Cara, are asked about a missing lab key. Each of them either always tells the truth or always lies. Amara says: 'Ben is lying.' Ben says: 'Cara is lying.' Cara says: 'Both Amara and Ben are lying.' Which of the following is correct?",
+   "options": [
+    "Amara and Ben tell the truth and Cara lies.",
+    "Amara and Cara lie and Ben tells the truth.",
+    "Ben and Cara lie and Amara tells the truth.",
+    "All three tell the truth.",
+    "The three statements allow more than one consistent assignment."
+   ],
+   "ans": "B",
+   "exp": "Suppose Amara tells the truth: then Ben lies, which makes Ben's claim false and Cara truthful, yet Cara's claim that both Amara and Ben lie would be false, impossible for a truth teller. So Amara lies, which makes Ben truthful and Cara a liar, and Cara's false claim is consistent because only Amara lies.",
+   "perm": [
+    4,
+    2,
+    3,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · truth-tellers and liars (three speakers)",
+   "lik": "H"
+  },
+  {
+   "n": 84,
+   "stem": "Three teachers are questioned about a borrowed stopwatch. Exactly one of them is lying and the other two are telling the truth. Priya says: 'I did not take the stopwatch.' Quinn says: 'Priya is lying.' Ravi says: 'Quinn is lying.' Which of the following must be true?",
+   "options": [
+    "Priya took the stopwatch.",
+    "Ravi took the stopwatch.",
+    "Quinn took the stopwatch.",
+    "Priya did not take the stopwatch.",
+    "All three are telling the truth."
+   ],
+   "ans": "D",
+   "exp": "Quinn and Ravi contradict each other, so the single liar must be one of that pair, which makes Priya truthful and her denial accurate. Quinn's claim that Priya is lying is then false, so Quinn is the liar and Ravi tells the truth, but the statements never settle who actually took the stopwatch, which is why the naming options fail.",
+   "perm": [
+    0,
+    2,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · truth-tellers and liars (contradictory pair)",
+   "lik": "M"
+  },
+  {
+   "n": 85,
+   "stem": "After a match, the scoreboard was found broken. Exactly one of the three candidates for team captain always tells the truth and the other two always lie. Dana says: 'Eli broke the scoreboard.' Eli says: 'I did not break the scoreboard.' Fran says: 'Dana is lying.' Which of the following must be true?",
+   "options": [
+    "Eli tells the truth and Dana broke the scoreboard.",
+    "Dana tells the truth and Eli broke the scoreboard.",
+    "Fran tells the truth and Dana broke the scoreboard.",
+    "Eli tells the truth and Fran broke the scoreboard.",
+    "Fran tells the truth and Eli broke the scoreboard."
+   ],
+   "ans": "B",
+   "exp": "If Eli told the truth, Dana and Fran would both be liars, but Fran's claim that Dana is lying would then be true, impossible for a liar. If Fran told the truth, Eli's denial would also be true, giving two truth tellers, so Dana is the only truth teller, Eli broke the scoreboard, and Eli's denial is his one lie.",
+   "perm": [
+    0,
+    3,
+    2,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · truth-tellers and liars (unique truth teller)",
+   "lik": "H"
+  },
+  {
+   "n": 86,
+   "stem": "At a lost property office, exactly one of Pia's two statements is true and exactly one of Sam's two statements is true. The clerk confirms the blue bag was collected on exactly one day. Pia says: 'The bag was collected on Monday.' and 'The bag was not collected on Wednesday.' Sam says: 'The bag was collected on Wednesday.' and 'The bag was not collected on Monday.' Which of the following must be true?",
+   "options": [
+    "The bag was collected on Monday.",
+    "The bag was collected on Wednesday.",
+    "Pia made two false statements.",
+    "Sam made two true statements.",
+    "The bag was collected on a day that is neither Monday nor Wednesday."
+   ],
+   "ans": "E",
+   "exp": "If the bag went out on Monday, both of Pia's statements would be true, and if it went out on Wednesday, both would be false, so neither day fits her one-true requirement. Only a day other than Monday or Wednesday leaves Pia and Sam with exactly one true statement each.",
+   "perm": [
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · consistency puzzles (exactly one true)",
+   "lik": "H"
+  },
+  {
+   "n": 87,
+   "stem": "A notice at the swimming pool reads: 'If the pool is at capacity, new swimmers are turned away.' Which of the following is logically equivalent to the notice?",
+   "options": [
+    "If new swimmers are turned away, the pool is at capacity.",
+    "If the pool is not at capacity, new swimmers are not turned away.",
+    "If the pool is not at capacity, new swimmers are turned away.",
+    "New swimmers are turned away only if the pool is at capacity.",
+    "If new swimmers are not turned away, the pool is not at capacity."
+   ],
+   "ans": "E",
+   "exp": "Negating both parts in reverse order gives the contrapositive, 'not turned away means not at capacity', which is logically equivalent to the notice. Turning away implying capacity merely reverses the conditional, and the inverse with both parts denied in the same order is not equivalent.",
+   "perm": [
+    4,
+    1,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · conditional equivalence (contrapositive)",
+   "lik": "M"
+  },
+  {
+   "n": 88,
+   "stem": "The coach tells the squad: 'If a player attends every training session this month, she will be selected for the final.' Which of the following is logically equivalent to the coach's statement?",
+   "options": [
+    "If a player is not selected for the final, she did not attend every training session this month.",
+    "If a player does not attend every training session this month, she will not be selected for the final.",
+    "If a player is selected for the final, she attended every training session this month.",
+    "A player will be selected for the final only if she attends every training session this month.",
+    "A player who attends at least one training session this month will be selected for the final."
+   ],
+   "ans": "A",
+   "exp": "Denying the consequent and then the antecedent gives 'not selected means attendance was not perfect', the contrapositive, which is equivalent. The mirror version 'imperfect attendance means not selected' is the inverse and does not follow, and selection implying perfect attendance merely reverses the promise.",
+   "perm": [
+    1,
+    4,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · conditional equivalence (inverse vs contrapositive)",
+   "lik": "M"
+  },
+  {
+   "n": 89,
+   "stem": "Under the library's loan rule, a book may be borrowed for a full term only if it is on the reserve list. Which of the following must also be true if the rule is obeyed?",
+   "options": [
+    "A book on the reserve list may be borrowed for a full term.",
+    "A book not on the reserve list may not be borrowed for a full term.",
+    "A book not on the reserve list may be borrowed for a full term.",
+    "Every book on the reserve list is borrowed for a full term.",
+    "Only books on the reserve list may be borrowed at all."
+   ],
+   "ans": "B",
+   "exp": "'Full term only if reserved' means that full-term borrowing requires a reserve listing, and denying that requirement gives the equivalent claim that unreserved books cannot go out for a full term. Being on the reserve list does not by itself grant full-term borrowing, which is the converse.",
+   "perm": [
+    4,
+    1,
+    0,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · conditional equivalence (only-if decoding)",
+   "lik": "M"
+  },
+  {
+   "n": 90,
+   "stem": "A ferry company's policy states that if a sailing is delayed, meal vouchers are issued, and that if meal vouchers are issued, the terminal canteen stays open late. Which of the following is logically equivalent to the policy taken as a whole?",
+   "options": [
+    "If a sailing is not delayed, the canteen does not stay open late.",
+    "If the canteen stays open late, the sailing was delayed.",
+    "If the canteen does not stay open late, the sailing was not delayed.",
+    "If a sailing is delayed, it is because the canteen plans to stay open late.",
+    "Every delayed sailing leaves passengers hungry."
+   ],
+   "ans": "C",
+   "exp": "Chaining delay to vouchers and vouchers to a late canteen yields 'delay means late canteen', whose contrapositive is 'no late canteen means no delay', which must hold. The versions starting from no delay or from a late canteen reverse the direction of the chain and are not entailed.",
+   "perm": [
+    4,
+    1,
+    0,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · conditional equivalence (chained conditionals)",
+   "lik": "H"
+  },
+  {
+   "n": 91,
+   "stem": "A security manual states: 'The side gate stays locked if and only if the alarm is armed.' Which of the following is logically equivalent to this statement?",
+   "options": [
+    "The side gate is unlocked exactly when the alarm is disarmed.",
+    "If the alarm is armed, the side gate is unlocked.",
+    "If the side gate is locked, the alarm is disarmed.",
+    "The alarm is armed whenever the side gate is unlocked.",
+    "If the alarm is disarmed, the side gate is locked."
+   ],
+   "ans": "A",
+   "exp": "A biconditional remains true when both sides are negated, so locked exactly with armed means unlocked exactly with disarmed. Saying the gate unlocks while the alarm is armed, or locks while it is disarmed, contradicts the manual, and mixing the negation of one side with the other side breaks the equivalence.",
+   "perm": [
+    0,
+    3,
+    4,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · conditional equivalence (biconditional)",
+   "lik": "M"
+  },
+  {
+   "n": 92,
+   "stem": "A council reports that streets repaved with a new porous surface drain rainwater quickly and form far fewer puddles, and concludes that repaving will reduce road accidents in which vehicles slip. The conclusion depends on assuming which of the following?",
+   "options": [
+    "The porous surface costs less per kilometre than standard asphalt.",
+    "Drivers on repaved streets tend to be more cautious than other drivers.",
+    "Accidents in which vehicles slip are usually caused by surface water, and the porous surface does not make roads slippery in other ways.",
+    "Standard asphalt forms more puddles than the porous surface.",
+    "The council intends to repave most streets within five years."
+   ],
+   "ans": "C",
+   "exp": "The argument links fewer puddles to fewer slip accidents only if surface water is what makes vehicles slip and the new surface adds no compensating hazard of its own. Repaving costs and council intentions are beside the chain, driver caution would be a rival explanation rather than a needed assumption, and the asphalt comparison restates a premise.",
+   "perm": [
+    0,
+    4,
+    1,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · hidden assumption",
+   "lik": "H"
+  },
+  {
+   "n": 93,
+   "stem": "At a gym, members on the flexible plan attend twice as often as members on the standard plan and report larger fitness gains. The manager concludes that the flexible plan itself causes the better fitness. Which of the following, if true, most weakens the manager's conclusion?",
+   "options": [
+    "The flexible plan costs more per month than the standard plan.",
+    "Attendance at the gym is recorded automatically at the entrance.",
+    "Both groups took the same fitness assessment at the start and at the end of the study.",
+    "Standard plan members report busier weekday schedules.",
+    "Members choose their own plan, and most members who were already training hard before joining picked the flexible plan."
+   ],
+   "ans": "E",
+   "exp": "If the keenest trainers selected the flexible plan in the first place, their attendance and gains existed before the plan, so the plan need not cause anything, which is self-selection. The extra fee and the recording method do not touch the causal claim, and the shared assessment detail strengthens rather than weakens the study.",
+   "perm": [
+    4,
+    3,
+    1,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · weakening an argument",
+   "lik": "H"
+  },
+  {
+   "n": 94,
+   "stem": "A ferry operator installed automatic ticket scanners on two of its six routes. Boarding time on those two routes fell by a third within two months and stayed flat on the other four. The operator concludes the scanners caused the faster boarding. Which of the following, if true, most strengthens this conclusion?",
+   "options": [
+    "Over the same two months the operator ran an advertising campaign on all six routes.",
+    "Staff numbers were also increased at the terminals of the two scanner routes.",
+    "Passengers on the scanner routes said in a survey that they liked the scanners.",
+    "When the scanners were out of service for two days, boarding times on those routes briefly returned to their old level and fell again after repairs.",
+    "Both scanner routes use ferries of the same model."
+   ],
+   "ans": "D",
+   "exp": "Boarding slowing exactly while the scanners were down and resuming once they were repaired reconnects the effect to the suspected cause far more tightly than the before-and-after contrast alone. Extra staff on the same routes suggest a rival explanation, the campaign touched all routes equally so it cannot explain the difference, and passenger approval says nothing about speed.",
+   "perm": [
+    2,
+    3,
+    4,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · strengthening an argument",
+   "lik": "H"
+  },
+  {
+   "n": 95,
+   "stem": "Last year a sports centre cut its evening swim sessions from five per week to three. Over the year, total attendance at evening swims stayed almost unchanged, and the waiting list for evening swims grew longer. Which of the following is most strongly supported by this information?",
+   "options": [
+    "The centre should restore the two cancelled sessions.",
+    "Some swimmers gave up swimming in the evenings.",
+    "On average, each remaining evening session now accommodates more swimmers than before.",
+    "Attendance at morning swims must have increased.",
+    "The waiting list caused the sessions to be cut."
+   ],
+   "ans": "C",
+   "exp": "With roughly the same total attendance spread over three sessions instead of five, the average number of swimmers per session rises, which follows directly from the figures. Nothing in the data says anyone gave up, that morning sessions changed, or that the waiting list preceded the cuts.",
+   "perm": [
+    4,
+    3,
+    0,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic · inference from data",
+   "lik": "M"
+  }
+ ]
+}

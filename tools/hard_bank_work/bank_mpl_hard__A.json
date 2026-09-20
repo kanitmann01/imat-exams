@@ -1,0 +1,246 @@
+{
+ "bank": "bank_mpl_hard",
+ "section": "A",
+ "questions": [
+  {
+   "stem": "Given that log₁₀ 2 ≈ 0.30 and log₁₀ 3 ≈ 0.48, what is the value of log₁₀ 7.5?",
+   "options": [
+    "0.18",
+    "0.58",
+    "0.88",
+    "1.18",
+    "1.88"
+   ],
+   "ans": "C",
+   "exp": "Write 7.5 = 15/2, so log₁₀ 7.5 = log₁₀ 3 + log₁₀ 5 − log₁₀ 2, and log₁₀ 5 = 1 − log₁₀ 2 = 0.70, giving 0.48 + 0.70 − 0.30 = 0.88. The option 1.88 is log₁₀ 75 (the division by 10 forgotten) and 1.18 is log₁₀ 15 (the division by 2 forgotten).",
+   "topic": "Maths · logarithm properties (quotient and complement)",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "Solve the equation log₃(x + 1) + log₃(x − 1) = 1.",
+   "options": [
+    "x = −2 only",
+    "x = 2 only",
+    "x = ±2",
+    "x = 1",
+    "x = 4"
+   ],
+   "ans": "B",
+   "exp": "Combining the logarithms gives log₃(x² − 1) = 1, so x² − 1 = 3 and x = ±2, but the arguments require x > 1, so x = 2 only. The option x = ±2 keeps the rejected root, for which log₃(x − 1) is not defined.",
+   "topic": "Maths · log equations (domain check)",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "What is the value of log₈ 32?",
+   "options": [
+    "4/3",
+    "3/2",
+    "5/3",
+    "2",
+    "3"
+   ],
+   "ans": "C",
+   "exp": "Write both arguments as powers of 2: 8 = 2³ and 32 = 2⁵, so log₈ 32 = 5/3 by the change of base rule (log 32 / log 8 = 5 log 2 / (3 log 2)). The 3/2 option inverts the ratio, and 2 would solve 8² = 64, not 32.",
+   "topic": "Maths · change of base",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "What is the solution of log₂ x + log₄ x = 6?",
+   "options": [
+    "4",
+    "8",
+    "16",
+    "32",
+    "64"
+   ],
+   "ans": "C",
+   "exp": "Since log₄ x = (1/2) log₂ x, the equation becomes (3/2) log₂ x = 6, so log₂ x = 4 and x = 16; indeed 4 + 2 = 6. The option 64 solves log₂ x = 6 alone and ignores the second term.",
+   "topic": "Maths · mixed-base log equation",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "Which interval is the solution set of (x − 1)(x + 2)(x − 4) > 0?",
+   "options": [
+    "x < −2 or 1 < x < 4",
+    "−2 < x < 1 or x > 4",
+    "x < −2 or x > 4",
+    "−2 < x < 4",
+    "1 < x < 4"
+   ],
+   "ans": "B",
+   "exp": "The roots −2, 1 and 4 split the number line into four intervals, and testing one point in each gives positive values for −2 < x < 1 and for x > 4. The option x < −2 or x > 4 is the sign pattern of the outer factors only and ignores the middle root.",
+   "topic": "Maths · inequalities (three-factor sign study)",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "What is the solution set of the inequality (x − 3)/(x + 2) ≤ 0?",
+   "options": [
+    "x ≤ 3",
+    "−2 < x < 3",
+    "−2 ≤ x ≤ 3",
+    "−2 < x ≤ 3",
+    "x < −2 or x ≥ 3"
+   ],
+   "ans": "D",
+   "exp": "The fraction changes sign only at x = 3, where it equals 0 and is included, and at x = −2, where it is undefined and excluded; testing shows it is negative exactly between them, so −2 < x ≤ 3. The option x ≤ 3 ignores the sign change at x = −2, where the fraction is positive on both sides.",
+   "topic": "Maths · rational inequalities",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "What is the solution set of |2x − 5| < 7?",
+   "options": [
+    "−1 < x < 6",
+    "−6 < x < 6",
+    "1 < x < 6",
+    "−6 < x < −1",
+    "x < 6"
+   ],
+   "ans": "A",
+   "exp": "The inequality means −7 < 2x − 5 < 7, so −2 < 2x < 12 and −1 < x < 6. The option 1 < x < 6 keeps only the branch 2x − 5 < 7 and drops the branch 2x − 5 > −7.",
+   "topic": "Maths · absolute value inequality",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "What is the solution set of the inequality x² < x?",
+   "options": [
+    "x < 0",
+    "x < 1",
+    "x < 0 or x > 1",
+    "x > 1",
+    "0 < x < 1"
+   ],
+   "ans": "E",
+   "exp": "Rearranging gives x² − x < 0, that is x(x − 1) < 0, which holds between the roots: 0 < x < 1. The option x < 1 comes from dividing by x without separating the cases x > 0 and x < 0; for every x < 0 the left side is positive and the inequality fails.",
+   "topic": "Maths · quadratic inequality (dividing by x)",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "Which expression is equal to √(7 + 4√3)?",
+   "options": [
+    "1 + √6",
+    "2 + √3",
+    "2√3 + 1",
+    "√7 + √3",
+    "4 + √3"
+   ],
+   "ans": "B",
+   "exp": "Since 7 + 4√3 = 2² + 2 × 2 × √3 + (√3)² = (2 + √3)², the square root is 2 + √3. The option 1 + √6 squares to 7 + 2√6, which has the wrong radical term.",
+   "topic": "Maths · nested radicals",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "What is the value of 27^(2/3) + 16^(3/4)?",
+   "options": [
+    "13",
+    "17",
+    "21",
+    "26",
+    "30"
+   ],
+   "ans": "B",
+   "exp": "The cube root of 27 is 3, so 27^(2/3) = 9, and the fourth root of 16 is 2, so 16^(3/4) = 8, giving 17. The option 30 multiplies base by exponent instead, 27 × 2/3 + 16 × 3/4 = 18 + 12.",
+   "topic": "Maths · rational exponents",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "If 2^a = 3 and 2^b = 5, which of the following is equal to 60?",
+   "options": [
+    "2^(a + b)",
+    "2^(2a + b)",
+    "2^(a + b + 2)",
+    "2^(a + 2b)",
+    "2^(ab)"
+   ],
+   "ans": "C",
+   "exp": "60 = 4 × 3 × 5 = 2² × 2^a × 2^b = 2^(a + b + 2). The option 2^(ab) multiplies the exponents, which is the rule for a power of a power, not for a product.",
+   "topic": "Maths · exponent laws (building a number)",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "For a school show, adult tickets cost 12 euro and child tickets cost 7 euro. In total 180 tickets were sold, and the takings were 1730 euro. How many adult tickets were sold?",
+   "options": [
+    "84",
+    "86",
+    "90",
+    "94",
+    "96"
+   ],
+   "ans": "D",
+   "exp": "With a adult and c child tickets, a + c = 180 and 12a + 7c = 1730, so 12a + 7(180 − a) = 1730 gives 5a = 470 and a = 94. The option 86 is the number of child tickets.",
+   "topic": "Maths · linear systems (ticket sales)",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "The sum of two numbers is 45 and their difference is 13. What is the larger number?",
+   "options": [
+    "13",
+    "16",
+    "29",
+    "32",
+    "45"
+   ],
+   "ans": "C",
+   "exp": "Adding the two conditions gives twice the larger number: 45 + 13 = 58, so the larger number is 29 and the smaller is 16. The option 32 is 45 − 13, twice the smaller number, and 16 is the smaller number itself.",
+   "topic": "Maths · linear system (sum and difference)",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "A laboratory technician mixes a 20% saline solution with a 50% saline solution to obtain 6 dm³ of a 30% saline solution. What volume of the 50% solution is needed?",
+   "options": [
+    "1 dm³",
+    "2 dm³",
+    "2.5 dm³",
+    "3 dm³",
+    "4 dm³"
+   ],
+   "ans": "B",
+   "exp": "With x dm³ of the 20% and y of the 50% solution, x + y = 6 and 0.2x + 0.5y = 1.8; substituting x = 6 − y gives 1.2 + 0.3y = 1.8, so y = 2 dm³. The option 4 dm³ is the volume of the 20% solution.",
+   "topic": "Maths · linear systems (mixture)",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "The function f is defined by f(x) = (x + 1)/(x − 1) for x ≠ 1. What is f(f(3))?",
+   "options": [
+    "1/2",
+    "2",
+    "3",
+    "4",
+    "9"
+   ],
+   "ans": "C",
+   "exp": "f(3) = 4/2 = 2 and f(2) = 3/1 = 3, so f(f(3)) = 3; the function is its own inverse. The option 2 stops after the first application of f.",
+   "topic": "Maths · composite functions",
+   "lik": "M",
+   "syl": "5. Mathematics: Number sets and algebra"
+  },
+  {
+   "stem": "The function f is defined by f(x) = (2x + 1)/(x − 3) for x ≠ 3. Which of the following is the inverse function f⁻¹(x)?",
+   "options": [
+    "(3x − 1)/(x + 2)",
+    "(x + 3)/(2x − 1)",
+    "(3x + 1)/(x + 2)",
+    "(2x + 1)/(x − 3)",
+    "(3x + 1)/(x − 2)"
+   ],
+   "ans": "E",
+   "exp": "From y = (2x + 1)/(x − 3), multiplying out and collecting x gives x(y − 2) = 3y + 1, so x = (3y + 1)/(y − 2) and f⁻¹(x) = (3x + 1)/(x − 2). The option (2x + 1)/(x − 3) leaves f unchanged instead of inverting it.",
+   "topic": "Maths · inverse functions",
+   "lik": "H",
+   "syl": "5. Mathematics: Number sets and algebra"
+  }
+ ]
+}

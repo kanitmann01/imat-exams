@@ -19,17 +19,21 @@ import sys
 TARGETS = {
     "imat_mock1": 47, "imat_mock2": 47, "imat_mock3": 45, "imat_mock4": 43,
     "imat_mock5": 42, "imat_mock6": 45, "imat_mock7": 38, "imat_mock8": 44,
+    "imat_mock9": 35,
     "GK_Drill_100": None, "Repair_Drill_1": None,
+    "bank_bio_hard": None, "bank_chem_hard": None, "bank_mpl_hard": None,
 }
 KINDS = {
     "imat_mock1": "mock", "imat_mock2": "mock", "imat_mock3": "mock", "imat_mock4": "mock",
     "imat_mock5": "mock", "imat_mock6": "mock", "imat_mock7": "mock", "imat_mock8": "mock",
+    "imat_mock9": "mock",
     "GK_Drill_100": "gk_drill", "Repair_Drill_1": "repair_drill",
+    "bank_bio_hard": "bank", "bank_chem_hard": "bank", "bank_mpl_hard": "bank",
 }
 EXPECTED_COUNTS = {"mock": 60, "gk_drill": 100, "repair_drill": 70}
+BANK_COUNTS = {"bank_bio_hard": 130, "bank_chem_hard": 65, "bank_mpl_hard": 95}
+DURATIONS = {"bank_bio_hard": 13000, "bank_chem_hard": 6500, "bank_mpl_hard": 9500}
 
-SECTION_LABELS = {  # short labels, keyed "exam:code" fallback to generic per-kind defaults below
-}
 SHORT_LABELS = {
     "A": "Reasoning", "B": "Biology", "C": "Chemistry", "D": "Mathematics", "E": "Physics",
     "F": "Physics", "G": "Logic", "H": "Current",
@@ -38,6 +42,14 @@ DRILL_GK_SHORT = {"A": "Reading", "B": "Constitution", "C": "EU", "D": "History"
                   "E": "Art", "F": "Letters", "G": "Science", "H": "Current"}
 DRILL_REPAIR_SHORT = {"A": "Respiration", "B": "Body Systems", "C": "Cell & Division",
                       "D": "Quant Chem", "E": "Maths", "F": "Physics", "G": "Logic"}
+BANK_BIO_SHORT = {"A": "Molecules", "B": "Cells", "C": "MolGen", "D": "Heredity",
+                  "E": "Tissues", "F": "CardioResp", "G": "Systems", "H": "BioEnergy"}
+BANK_CHEM_SHORT = {"A": "Organic", "B": "StoichGas", "C": "AcidsBases",
+                   "D": "Redox", "E": "Bonding", "F": "Kinetics"}
+BANK_MPL_SHORT = {"A": "Algebra", "B": "Geometry", "C": "Prob", "D": "Units",
+                  "E": "Kinematics", "F": "FluidsThermo", "G": "Logic"}
+BANK_SHORTS = {"bank_bio_hard": BANK_BIO_SHORT, "bank_chem_hard": BANK_CHEM_SHORT,
+               "bank_mpl_hard": BANK_MPL_SHORT}
 
 INTERNAL_TAG_KEYWORDS = [
     "formula recall", "common trap", "new entrant", "repeat offender",
@@ -311,7 +323,7 @@ def build_bank(src_html, exam_id, overrides, log):
     exam = extract_exam(src_html)
     questions = exam["questions"]
     kind = KINDS[exam_id]
-    expected = EXPECTED_COUNTS[kind]
+    expected = EXPECTED_COUNTS[kind] if kind in EXPECTED_COUNTS else BANK_COUNTS[exam_id]
     assert len(questions) == expected, "%s: %d questions, expected %d" % (exam_id, len(questions), expected)
 
     ranges, short_labels, long_labels = extract_sections(src_html, exam_id)
@@ -330,6 +342,8 @@ def build_bank(src_html, exam_id, overrides, log):
             short = DRILL_GK_SHORT[code]
         elif kind == "repair_drill":
             short = DRILL_REPAIR_SHORT[code]
+        elif kind == "bank":
+            short = BANK_SHORTS[exam_id][code]
         else:
             short = SHORT_LABELS.get(code, code)
         sections.append({"code": code, "from": lo, "to": hi,
@@ -386,7 +400,7 @@ def build_bank(src_html, exam_id, overrides, log):
         "id": exam_id,
         "title": exam["title"],
         "kind": kind,
-        "durationSec": 6000,
+        "durationSec": DURATIONS.get(exam_id, 6000),
         "maxTenths": len(questions) * 15,
         "targetScore": TARGETS[exam_id],
         "sections": sections,
@@ -454,10 +468,13 @@ def main():
             overrides = json.load(f)
 
     src_files = {
-        "imat_mock%d" % i: os.path.join(args.src, "Mock_Exam_%d.html" % i) for i in range(1, 9)
+        "imat_mock%d" % i: os.path.join(args.src, "Mock_Exam_%d.html" % i) for i in range(1, 10)
     }
     src_files["GK_Drill_100"] = os.path.join(args.src, "GK_Drill_100.html")
     src_files["Repair_Drill_1"] = os.path.join(args.src, "Repair_Drill_1.html")
+    src_files["bank_bio_hard"] = os.path.join(args.src, "Hard_Bank_Biology.html")
+    src_files["bank_chem_hard"] = os.path.join(args.src, "Hard_Bank_Chemistry.html")
+    src_files["bank_mpl_hard"] = os.path.join(args.src, "Hard_Bank_Maths_Physics_Logic.html")
 
     log = []
     all_problems = []
@@ -465,7 +482,8 @@ def main():
     manifest = {"schema": 1, "exams": []}
     dist_rows = []
     banks = {}
-    for exam_id in ["imat_mock%d" % i for i in range(1, 9)] + ["GK_Drill_100", "Repair_Drill_1"]:
+    for exam_id in ["imat_mock%d" % i for i in range(1, 10)] + ["GK_Drill_100", "Repair_Drill_1"] \
+            + ["bank_bio_hard", "bank_chem_hard", "bank_mpl_hard"]:
         with open(src_files[exam_id], encoding="utf-8") as f:
             html = f.read()
         bank, counts, unsafe_map, scrub_totals = build_bank(html, exam_id, overrides, log)

@@ -90,6 +90,17 @@
    "bankVersion": "bc6410034"
   },
   {
+   "id": "imat_mock9",
+   "title": "IMAT MOCK EXAM 9: Hard Calibration",
+   "kind": "mock",
+   "qCount": 60,
+   "durationSec": 6000,
+   "maxTenths": 900,
+   "targetScore": 35,
+   "sectionCount": 5,
+   "bankVersion": "b07036562"
+  },
+  {
    "id": "GK_Drill_100",
    "title": "IMAT GK DRILL — 100 Questions",
    "kind": "gk_drill",
@@ -110,6 +121,39 @@
    "targetScore": null,
    "sectionCount": 7,
    "bankVersion": "bad8db1e0"
+  },
+  {
+   "id": "bank_bio_hard",
+   "title": "IMAT QUESTION BANK: Biology (Medium-Hard)",
+   "kind": "bank",
+   "qCount": 130,
+   "durationSec": 13000,
+   "maxTenths": 1950,
+   "targetScore": null,
+   "sectionCount": 8,
+   "bankVersion": "b678b0c34"
+  },
+  {
+   "id": "bank_chem_hard",
+   "title": "IMAT QUESTION BANK: Chemistry (Medium-Hard)",
+   "kind": "bank",
+   "qCount": 65,
+   "durationSec": 6500,
+   "maxTenths": 975,
+   "targetScore": null,
+   "sectionCount": 6,
+   "bankVersion": "be28dab99"
+  },
+  {
+   "id": "bank_mpl_hard",
+   "title": "IMAT QUESTION BANK: Maths, Physics and Logic (Medium-Hard)",
+   "kind": "bank",
+   "qCount": 95,
+   "durationSec": 9500,
+   "maxTenths": 1425,
+   "targetScore": null,
+   "sectionCount": 7,
+   "bankVersion": "bce9a9230"
   }
  ]
 }

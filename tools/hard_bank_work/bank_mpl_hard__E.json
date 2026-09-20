@@ -1,0 +1,246 @@
+{
+ "bank": "bank_mpl_hard",
+ "section": "E",
+ "questions": [
+  {
+   "stem": "The velocity of a trolley moving along a straight track is recorded every 2 s: at 0 s it is 0 m/s, at 2 s it is 6 m/s, at 4 s it is 10 m/s, at 6 s it is 12 m/s and at 8 s it is 12 m/s. Which statement is correct?",
+   "options": [
+    "Its acceleration is constant at 3 m/s2 between 0 s and 6 s.",
+    "Its average velocity over the whole 8 s is 10 m/s.",
+    "It travels 96 m during the 8 s.",
+    "Its acceleration between 4 s and 6 s is 1 m/s2.",
+    "It decelerates between 6 s and 8 s."
+   ],
+   "ans": "D",
+   "exp": "The accelerations between successive readings are 3, 2, 1 and then 0 m/s2, so the motion is not uniformly accelerated and the constant 3 m/s2 claim is false. The displacement is the area under the graph, 6 + 16 + 22 + 24 = 68 m, giving an average velocity of 8.5 m/s rather than 10 m/s. From 6 s to 8 s the velocity is constant, so there is no deceleration.",
+   "topic": "Physics · velocity-time table (non-uniform acceleration)",
+   "lik": "H",
+   "syl": "6. Physics: Kinematics"
+  },
+  {
+   "stem": "In a race, a sprinter increases her speed steadily from 0 to 8.0 m/s during the first 4.0 s and then keeps running at a constant 8.0 m/s for the next 6.0 s. What is her average speed over the whole 10 s?",
+   "options": [
+    "1.6 m/s",
+    "4.0 m/s",
+    "4.8 m/s",
+    "6.4 m/s",
+    "8.0 m/s"
+   ],
+   "ans": "D",
+   "exp": "The distance is the area under the velocity-time graph: 0.5 × 4.0 × 8.0 = 16 m while accelerating plus 8.0 × 6.0 = 48 m at constant speed, so 64 m in total, and 64/10 = 6.4 m/s. The 8.0 m/s answer treats the final instantaneous speed as the whole-run average, and the 4.0 m/s answer assumes uniform acceleration across all 10 s.",
+   "topic": "Physics · average speed from a velocity-time graph",
+   "lik": "H",
+   "syl": "6. Physics: Kinematics"
+  },
+  {
+   "stem": "On a straight air track, a glider passes sensor P moving at 2.0 m/s and sensor Q moving at 4.0 m/s. The sensors are 6.0 m apart and the glider takes 2.0 s to travel from P to Q. Which statement is correct?",
+   "options": [
+    "Its average velocity between the gates is 3.0 m/s and its acceleration is 1.0 m/s2.",
+    "Its average velocity between the gates is 2.0 m/s and its acceleration is 1.0 m/s2.",
+    "Its average velocity between the gates is 4.0 m/s and its acceleration is 1.0 m/s2.",
+    "Its average velocity between the gates is 3.0 m/s and its acceleration is 2.0 m/s2.",
+    "Its average velocity between the gates is 6.0 m/s and its acceleration is 1.0 m/s2."
+   ],
+   "ans": "A",
+   "exp": "The average velocity is displacement over time, 6.0/2.0 = 3.0 m/s, and the acceleration is the change in velocity over time, (4.0 - 2.0)/2.0 = 1.0 m/s2. The 2.0 m/s2 acceleration comes from dividing by 1 s instead of 2 s, and the 2.0 and 4.0 m/s averages wrongly use one of the instantaneous speeds for the whole run.",
+   "topic": "Physics · average vs instantaneous (light gates)",
+   "lik": "H",
+   "syl": "6. Physics: Kinematics"
+  },
+  {
+   "stem": "Which of the following statements about motion graphs is correct?",
+   "options": [
+    "The gradient of a velocity-time graph gives the distance travelled.",
+    "The area under a velocity-time graph gives the acceleration.",
+    "The average velocity over any time interval always equals the mean of the initial and final velocities.",
+    "A curved velocity-time graph means the object is moving along a circular path.",
+    "For uniformly accelerated motion starting from rest, the average velocity during the acceleration is half the final velocity."
+   ],
+   "ans": "E",
+   "exp": "For uniform acceleration from rest, v = at, so the average velocity 0.5at equals half the final velocity at. The gradient of a velocity-time graph gives acceleration, not distance, and the area gives displacement, not acceleration; the mean of the initial and final velocities equals the average only when the acceleration is uniform, and a curved graph means non-uniform acceleration rather than circular motion.",
+   "topic": "Physics · motion graphs (gradient and area)",
+   "lik": "M",
+   "syl": "6. Physics: Kinematics"
+  },
+  {
+   "stem": "Which statement correctly distinguishes the tangential and the centripetal components of acceleration for an object moving in a circle?",
+   "options": [
+    "The centripetal component changes the speed, and the tangential component changes the direction of motion.",
+    "The tangential component changes the speed, and the centripetal component changes the direction of the velocity.",
+    "Both components change only the speed of the object.",
+    "Both components change only the direction of motion.",
+    "The tangential component acts towards the centre, and the centripetal component acts along the tangent."
+   ],
+   "ans": "B",
+   "exp": "Tangential acceleration acts along the tangent and changes the speed, while centripetal acceleration acts towards the centre and changes only the direction of the velocity. The reversed version swaps the two roles, and claims that both components change only speed (or only direction) contradict their definitions.",
+   "topic": "Physics · tangential vs centripetal acceleration",
+   "lik": "M",
+   "syl": "6. Physics: Kinematics"
+  },
+  {
+   "stem": "A cyclist rides around a circular track of radius 20 m at a constant speed of 10 m/s. Which statement about her acceleration is correct?",
+   "options": [
+    "It is zero, because her speed is constant.",
+    "It is 0.50 m/s2, directed along her direction of travel.",
+    "It is 5.0 m/s2, directed towards the centre of the track.",
+    "It is 5.0 m/s2, directed along her direction of travel.",
+    "It is 2.0 m/s2, directed away from the centre of the track."
+   ],
+   "ans": "C",
+   "exp": "In uniform circular motion the acceleration is purely centripetal, a = (10 × 10)/20 = 5.0 m/s2 towards the centre, because it changes only the direction of the velocity. Zero acceleration ignores the continuous change of direction, and the 0.50 and 2.0 m/s2 values come from v/r and r/v instead of v squared over r.",
+   "topic": "Physics · centripetal acceleration (value and direction)",
+   "lik": "H",
+   "syl": "6. Physics: Kinematics"
+  },
+  {
+   "stem": "A car is driven around a circular test track while the driver steadily presses the accelerator, so the car is speeding up. At such an instant, which statement about the car's acceleration is correct?",
+   "options": [
+    "It is zero, because the tangential and centripetal parts cancel.",
+    "It points directly towards the centre of the track.",
+    "It points directly away from the centre, in the direction of the outward push the driver feels.",
+    "It points along the direction of motion, since only a change of speed can produce acceleration.",
+    "It has a component along the motion and a component towards the centre, so the resultant points forwards and inwards."
+   ],
+   "ans": "E",
+   "exp": "Because the speed changes there is a tangential component along the motion, and because the direction changes there is a centripetal component towards the centre, so the resultant points forwards and inwards. Pointing straight at the centre would require constant speed, and the true resultant in circular motion never points outwards.",
+   "topic": "Physics · circular motion (speeding up)",
+   "lik": "H",
+   "syl": "6. Physics: Kinematics"
+  },
+  {
+   "stem": "A car travels at 72 km/h along a straight road when the driver sees a hazard. Her reaction time is 1.0 s, after which the brakes produce a constant deceleration of 5.0 m/s2 until the car stops. What total distance does the car cover between the hazard being seen and the car stopping?",
+   "options": [
+    "20 m",
+    "40 m",
+    "60 m",
+    "80 m",
+    "100 m"
+   ],
+   "ans": "C",
+   "exp": "72 km/h is 20 m/s, so the reaction distance is 20 × 1.0 = 20 m and the braking distance is (20 × 20)/(2 × 5.0) = 40 m, a total of 60 m. The 40 m answer forgets the reaction phase, and the 80 m answer multiplies the full 20 m/s by the 4 s braking time instead of using the average braking speed of 10 m/s.",
+   "topic": "Physics · stopping distance (reaction plus braking)",
+   "lik": "H",
+   "syl": "6. Physics: Kinematics"
+  },
+  {
+   "stem": "A train travelling at 30 m/s applies its brakes and comes to rest after covering 150 m at constant deceleration. What is the magnitude of the deceleration?",
+   "options": [
+    "0.20 m/s2",
+    "1.5 m/s2",
+    "3.0 m/s2",
+    "5.0 m/s2",
+    "6.0 m/s2"
+   ],
+   "ans": "C",
+   "exp": "Using v squared = 2as with final speed zero gives a = (30 × 30)/(2 × 150) = 3.0 m/s2. The 6.0 m/s2 answer drops the factor of 2, and the 1.5 m/s2 answer squares the average speed of 15 m/s instead of the initial speed.",
+   "topic": "Physics · braking deceleration from stopping distance",
+   "lik": "M",
+   "syl": "6. Physics: Kinematics"
+  },
+  {
+   "stem": "A crate of mass 4.0 kg is pulled along a horizontal floor by a horizontal force of 24 N. A frictional force of 8.0 N opposes the motion. What is the acceleration of the crate?",
+   "options": [
+    "2.0 m/s2",
+    "4.0 m/s2",
+    "6.0 m/s2",
+    "8.0 m/s2",
+    "16 m/s2"
+   ],
+   "ans": "B",
+   "exp": "The resultant force is 24 - 8.0 = 16 N, so a = 16/4.0 = 4.0 m/s2. The 6.0 m/s2 answer divides the pull by the mass and ignores friction, while the 8.0 m/s2 answer quotes the resultant force in newtons as if it were an acceleration.",
+   "topic": "Physics · Newton's second law with friction",
+   "lik": "M",
+   "syl": "6. Physics: Dynamics"
+  },
+  {
+   "stem": "A block of mass 2.0 kg slides down a frictionless slope inclined at 30° to the horizontal. What is its acceleration along the slope? (g = 10 m/s2, sin 30° = 0.50, cos 30° = 0.87.)",
+   "options": [
+    "5.0 m/s2",
+    "8.7 m/s2",
+    "10 m/s2",
+    "17.4 m/s2",
+    "20 m/s2"
+   ],
+   "ans": "A",
+   "exp": "The component of the weight along the slope is mg sin 30° = 2.0 × 10 × 0.50 = 10 N, so a = 10/2.0 = 5.0 m/s2. The 8.7 m/s2 answer uses cos 30° instead of sin 30°, and the 17.4 and 20 m/s2 answers quote forces in newtons as accelerations without dividing by the mass.",
+   "topic": "Physics · weight component on a slope",
+   "lik": "H",
+   "syl": "6. Physics: Dynamics"
+  },
+  {
+   "stem": "A crane lifts a 50 kg load by applying a vertical upward force of 550 N. What is the upward acceleration of the load? (g = 10 m/s2.)",
+   "options": [
+    "0.10 m/s2",
+    "1.0 m/s2",
+    "10 m/s2",
+    "11 m/s2",
+    "21 m/s2"
+   ],
+   "ans": "B",
+   "exp": "The weight is 50 × 10 = 500 N, so the resultant upward force is 550 - 500 = 50 N and a = 50/50 = 1.0 m/s2. The 11 m/s2 answer ignores the weight entirely, and the 21 m/s2 answer adds the two forces although they act in opposite directions.",
+   "topic": "Physics · Newton's second law with weight",
+   "lik": "H",
+   "syl": "6. Physics: Dynamics"
+  },
+  {
+   "stem": "An astronaut of mass 60 kg floats at rest in space and throws a tool of mass 2.0 kg so that it moves away from her at 6.0 m/s. What is the velocity of the astronaut immediately afterwards?",
+   "options": [
+    "0.20 m/s in the direction of the throw.",
+    "0.20 m/s opposite to the direction of the throw.",
+    "0.40 m/s opposite to the direction of the throw.",
+    "6.0 m/s opposite to the direction of the throw.",
+    "12 m/s opposite to the direction of the throw."
+   ],
+   "ans": "B",
+   "exp": "Momentum is conserved: the tool carries 2.0 × 6.0 = 12 kg m/s away, so the astronaut gains 12 kg m/s in the opposite direction and moves at 12/60 = 0.20 m/s away from the throw. The 6.0 m/s answer assumes the tool's speed is shared, and the 12 m/s answer reads the momentum value as a velocity.",
+   "topic": "Physics · recoil (momentum conservation)",
+   "lik": "M",
+   "syl": "6. Physics: Dynamics"
+  },
+  {
+   "stem": "A ball of mass 0.50 kg strikes a wall horizontally at 12 m/s and rebounds along its original line at 8.0 m/s. The contact with the wall lasts 0.020 s. What is the magnitude of the average force exerted by the wall on the ball?",
+   "options": [
+    "100 N",
+    "200 N",
+    "300 N",
+    "500 N",
+    "1000 N"
+   ],
+   "ans": "D",
+   "exp": "The velocity reverses, so the magnitude of the momentum change is 0.50 × (12 + 8) = 10 kg m/s and F = 10/0.020 = 500 N. The 100 N answer subtracts the speeds as if the ball continued in the same direction, and the 1000 N answer adds the speeds but forgets the mass.",
+   "topic": "Physics · impulse at a wall",
+   "lik": "H",
+   "syl": "6. Physics: Dynamics"
+  },
+  {
+   "stem": "A motor lifts a 60 kg load at constant speed through a height of 10 m in 20 s. What is the useful output power of the motor? (g = 10 m/s2.)",
+   "options": [
+    "30 W",
+    "150 W",
+    "300 W",
+    "600 W",
+    "6000 W"
+   ],
+   "ans": "C",
+   "exp": "At constant speed the lifting force equals the weight, so the work done is mgh = 60 × 10 × 10 = 6000 J and P = 6000/20 = 300 W. The 30 W answer leaves g out of the work, and the 6000 W answer quotes the work in joules as a power.",
+   "topic": "Physics · power from work and time",
+   "lik": "M",
+   "syl": "6. Physics: Dynamics"
+  },
+  {
+   "stem": "A car moves at a constant 20 m/s along a horizontal road. The total resistive force on it is 600 N. What power must the engine deliver to maintain this speed?",
+   "options": [
+    "30 W",
+    "600 W",
+    "6000 W",
+    "12000 W",
+    "24000 W"
+   ],
+   "ans": "D",
+   "exp": "At constant speed the driving force balances the 600 N resistance, so P = Fv = 600 × 20 = 12000 W. The 30 W answer divides the force by the speed instead of multiplying, and the 600 W answer gives the force itself rather than force times velocity.",
+   "topic": "Physics · power at constant speed (P = Fv)",
+   "lik": "H",
+   "syl": "6. Physics: Dynamics"
+  }
+ ]
+}

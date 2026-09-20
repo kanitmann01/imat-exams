@@ -101,7 +101,9 @@ test("fmtTenths formats negatives and zero correctly", () => {
 });
 
 test("real banks load with expected shapes", () => {
-  assert.equal(bankIds.length, 10);
+  const manifest = JSON.parse(fs.readFileSync(`${DATA}/exams.json`, "utf-8"));
+  assert.equal(bankIds.length, manifest.exams.length);
+  assert.ok(bankIds.length >= 14);
   for (const bank of Object.values(banks)) {
     assert.ok(bank.questions.length >= 60);
     for (const q of bank.questions) assert.equal(q.options.length, 5);

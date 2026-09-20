@@ -1,0 +1,195 @@
+{
+ "strong": [],
+ "border": [],
+ "tmpl": [
+  {
+   "sim": 0.556,
+   "stem_sim": 0.556,
+   "tmpl": true,
+   "a": {
+    "bank": "bank_mpl_hard.json",
+    "n": 34,
+    "stem": "A bag contains 4 red balls and 6 blue balls. Two balls are drawn at random without replacement. What is the probability that at least one of them is red?",
+    "ans": "D",
+    "topic": "Probability · complementary counting (without replacement)",
+    "lik": "H"
+   },
+   "b": {
+    "bank": "imat_mock9.json",
+    "n": 51,
+    "stem": "A bag contains 3 red balls and 5 blue balls. Two balls are drawn at random without replacement. What is the probability that the two balls are the same colour?",
+    "ans": "D",
+    "topic": "Maths · probability (same colour, without replacement)",
+    "lik": "H"
+   }
+  },
+  {
+   "sim": 0.333,
+   "stem_sim": 0.4,
+   "tmpl": true,
+   "a": {
+    "bank": "bank_mpl_hard.json",
+    "n": 21,
+    "stem": "What is the angle between the hour hand and the minute hand of a clock at 3:40? (The hour hand turns at 0.5° per minute, the minute hand at 6° per minute.)",
+    "ans": "C",
+    "topic": "Geometry · clock angles",
+    "lik": "H"
+   },
+   "b": {
+    "bank": "imat_mock9.json",
+    "n": 54,
+    "stem": "What is the angle between the hour hand and the minute hand of a clock at 9:36? (The hour hand turns 0.5 degrees per minute and the minute hand 6 degrees per minute.)",
+    "ans": "D",
+    "topic": "Maths · clock angles",
+    "lik": "M"
+   }
+  },
+  {
+   "sim": 0.0,
+   "stem_sim": 0.25,
+   "tmpl": true,
+   "a": {
+    "bank": "bank_mpl_hard.json",
+    "n": 30,
+    "stem": "Two fair six-sided dice are rolled. What is the probability that at least one of them shows a six?",
+    "ans": "D",
+    "topic": "Probability · at least one (complement on dice)",
+    "lik": "M"
+   },
+   "b": {
+    "bank": "bank_mpl_hard.json",
+    "n": 31,
+    "stem": "Two fair six-sided dice are rolled. What is the probability that the two scores are a 2 and a 5, in either order?",
+    "ans": "B",
+    "topic": "Probability · ordered vs unordered dice pairs",
+    "lik": "M"
+   }
+  },
+  {
+   "sim": 0.0,
+   "stem_sim": 0.231,
+   "tmpl": true,
+   "a": {
+    "bank": "bank_mpl_hard.json",
+    "n": 31,
+    "stem": "Two fair six-sided dice are rolled. What is the probability that the two scores are a 2 and a 5, in either order?",
+    "ans": "B",
+    "topic": "Probability · ordered vs unordered dice pairs",
+    "lik": "M"
+   },
+   "b": {
+    "bank": "bank_mpl_hard.json",
+    "n": 32,
+    "stem": "Two fair six-sided dice are rolled. What is the probability that the sum is 7 or at least one die shows a six?",
+    "ans": "D",
+    "topic": "Probability · combined events (inclusion-exclusion)",
+    "lik": "H"
+   }
+  },
+  {
+   "sim": 0.0,
+   "stem_sim": 0.214,
+   "tmpl": true,
+   "a": {
+    "bank": "bank_mpl_hard.json",
+    "n": 30,
+    "stem": "Two fair six-sided dice are rolled. What is the probability that at least one of them shows a six?",
+    "ans": "D",
+    "topic": "Probability · at least one (complement on dice)",
+    "lik": "M"
+   },
+   "b": {
+    "bank": "bank_mpl_hard.json",
+    "n": 32,
+    "stem": "Two fair six-sided dice are rolled. What is the probability that the sum is 7 or at least one die shows a six?",
+    "ans": "D",
+    "topic": "Probability · combined events (inclusion-exclusion)",
+    "lik": "H"
+   }
+  },
+  {
+   "sim": 0.15,
+   "stem_sim": 0.154,
+   "tmpl": true,
+   "a": {
+    "bank": "bank_chem_hard.json",
+    "n": 27,
+    "stem": "What volume of water must be added to 25 cm³ of a 2.0 mol/dm³ solution to dilute it to 0.10 mol/dm³?",
+    "ans": "C",
+    "topic": "Stoichiometry · dilution (water added)",
+    "lik": "H"
+   },
+   "b": {
+    "bank": "bank_chem_hard.json",
+    "n": 35,
+    "stem": "What volume of water must be added to 20 cm³ of 1.0 × 10⁻² mol/dm³ hydrochloric acid, fully ionised, to obtain a solution of pH 4.0 at 25 °C?",
+    "ans": "D",
+    "topic": "Solutions · dilution to a target pH",
+    "lik": "M"
+   }
+  },
+  {
+   "sim": 0.0,
+   "stem_sim": 0.0,
+   "tmpl": true,
+   "a": {
+    "bank": "bank_mpl_hard.json",
+    "n": 1,
+    "stem": "Given that log₁₀ 2 ≈ 0.30 and log₁₀ 3 ≈ 0.48, what is the value of log₁₀ 7.5?",
+    "ans": "C",
+    "topic": "Algebra · logarithm properties (quotient and complement)",
+    "lik": "H"
+   },
+   "b": {
+    "bank": "imat_mock9.json",
+    "n": 48,
+    "stem": "Given that log₁₀ 2 = 0.30 and log₁₀ 3 = 0.48, what is the value of log₁₀ 2.4?",
+    "ans": "C",
+    "topic": "Maths · logarithm properties",
+    "lik": "H"
+   }
+  },
+  {
+   "sim": 0.0,
+   "stem_sim": 0.0,
+   "tmpl": true,
+   "a": {
+    "bank": "bank_mpl_hard.json",
+    "n": 3,
+    "stem": "What is the value of log₉ 27?",
+    "ans": "C",
+    "topic": "Algebra · change of base",
+    "lik": "M"
+   },
+   "b": {
+    "bank": "imat_mock6.json",
+    "n": 50,
+    "stem": "What is the value of log₃ 81?",
+    "ans": "D",
+    "topic": "Logarithms",
+    "lik": "H"
+   }
+  },
+  {
+   "sim": 0.0,
+   "stem_sim": 0.0,
+   "tmpl": true,
+   "a": {
+    "bank": "bank_mpl_hard.json",
+    "n": 6,
+    "stem": "What is the solution set of the inequality (x − 3)/(x + 2) ≤ 0?",
+    "ans": "D",
+    "topic": "Algebra · rational inequalities",
+    "lik": "H"
+   },
+   "b": {
+    "bank": "bank_mpl_hard.json",
+    "n": 8,
+    "stem": "What is the solution set of the inequality x² < x?",
+    "ans": "E",
+    "topic": "Algebra · quadratic inequality (dividing by x)",
+    "lik": "M"
+   }
+  }
+ ]
+}

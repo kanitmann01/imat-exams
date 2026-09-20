@@ -1,0 +1,126 @@
+{
+ "bank": "bank_bio_hard",
+ "section": "E",
+ "questions": [
+  {
+   "stem": "Which option pairs every site with the epithelium that normally lines it?",
+   "options": [
+    "Alveolus: simple cuboidal; trachea: ciliated pseudostratified columnar; oesophagus: stratified squamous; small intestine: simple columnar",
+    "Alveolus: simple squamous; trachea: stratified squamous; oesophagus: stratified squamous; small intestine: simple columnar",
+    "Alveolus: simple squamous; trachea: ciliated pseudostratified columnar; oesophagus: stratified squamous; small intestine: simple columnar",
+    "Alveolus: simple squamous; trachea: ciliated pseudostratified columnar; oesophagus: transitional; small intestine: simple columnar",
+    "Alveolus: simple squamous; trachea: ciliated pseudostratified columnar; oesophagus: stratified squamous; small intestine: simple cuboidal"
+   ],
+   "ans": "C",
+   "exp": "Alveoli are lined by simple squamous epithelium for rapid diffusion, the trachea by ciliated pseudostratified columnar epithelium, the oesophagus by stratified squamous epithelium against abrasion, and the small intestine by simple columnar epithelium for absorption. The tempting alveolus-plus-cuboidal chain overlooks that only the surfactant-secreting type II cells are cuboidal, while the exchange surface itself is the flat type I cell.",
+   "topic": "Biology · epithelial types and their locations",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Which of the following statements about epithelial tissue is false?",
+   "options": [
+    "Epithelia are classified by the number of cell layers and by the shape of the cells at the free surface.",
+    "In stratified epithelia the tissue is named for the shape of the cells at the apical surface, not the basal layer.",
+    "A gland that develops as an invagination of an epithelium and keeps a duct is still classified as epithelial tissue.",
+    "Pseudostratified columnar epithelium is built of several true layers, because only some of its cells reach the free surface.",
+    "An epithelium is avascular and takes its nourishment by diffusion from capillaries in the underlying connective tissue."
+   ],
+   "ans": "D",
+   "exp": "Pseudostratified columnar epithelium is a single layer: every cell rests on the basement membrane, and the staggered nuclei together with some cells not reaching the free surface create only the illusion of layers. The remaining claims are correct: classification uses layer number plus apical cell shape, ducted glands stay epithelial, and avascular epithelia are fed by diffusion from the tissue beneath.",
+   "topic": "Biology · epithelial classification",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A light micrograph shows a single layer of tall cells, all resting on the same basement membrane. The nuclei lie at several different heights, giving a layered look, and the free surface carries motile projections. This epithelium is:",
+   "options": [
+    "stratified columnar epithelium lining the oesophagus",
+    "ciliated pseudostratified columnar epithelium lining the trachea",
+    "transitional epithelium lining the urinary bladder",
+    "simple columnar epithelium with a microvillus border lining the small intestine",
+    "stratified squamous epithelium lining the vagina"
+   ],
+   "ans": "B",
+   "exp": "Nuclei at different heights with every cell still touching the basement membrane define pseudostratified columnar epithelium, and motile surface projections mark it as ciliated, the hallmark lining of the trachea. The stratified columnar option misreads the staggered nuclei as several true layers.",
+   "topic": "Biology · pseudostratified epithelium",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Oxygen travels from the air inside an alveolus into the blood by crossing the alveolar wall and then the capillary wall. Which statement about these exchange surfaces is correct?",
+   "options": [
+    "The alveolar wall is stratified squamous epithelium, because the moving air continually abrades it.",
+    "Both walls are simple cuboidal epithelium, whose extra cytoplasm pumps the gases across actively.",
+    "The capillary wall is ciliated epithelium, and the cilia propel the blood along the vessel.",
+    "The alveolar wall is ciliated pseudostratified columnar epithelium, a direct continuation of the airway lining.",
+    "Both walls are simple squamous epithelium, the thinnest arrangement possible, which keeps the diffusion path short."
+   ],
+   "ans": "E",
+   "exp": "Both barriers are simple squamous epithelium, the type I alveolar cells and the capillary endothelium, so the diffusion path from air to blood is as short as possible. The cuboidal option fails because gases diffuse passively and need no pumping cytoplasm, while the ciliated pseudostratified lining belongs to the conducting airways, not to the alveoli.",
+   "topic": "Biology · exchange surfaces and endothelium",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A toxin selectively destroys the brush border of the cells lining the proximal convoluted tubule, leaving the rest of the nephron intact. Which outcome is expected?",
+   "options": [
+    "Glucose appears in the urine, because the loss of microvilli removes much of the reabsorptive surface and transport capacity of the tubule.",
+    "Glomerular filtration stops, because the podocytes of the capsule depend on the same brush border.",
+    "Urine volume falls to nearly zero, because most of the filtrate is produced in the proximal tubule.",
+    "The collecting duct takes over glucose reabsorption, so the composition of the urine stays normal.",
+    "Nothing changes, because microvilli are a feature of the small intestine and not of the kidney."
+   ],
+   "ans": "A",
+   "exp": "Proximal tubule cells are simple cuboidal cells with a microvillus brush border that carries the cotransporters reabsorbing essentially all filtered glucose; destroying the border removes that surface, so glucose escapes into the urine while glomerular filtration continues unchanged. The podocyte option confuses the filtration barrier with the tubule lining, and the collecting duct cannot take over glucose reabsorption.",
+   "topic": "Biology · kidney epithelia (proximal tubule)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "Which nephron segment is correctly matched to its lining epithelium and to the reason that epithelium suits it?",
+   "options": [
+    "Thin limb of the loop of Henle: stratified squamous epithelium, a many-layered wall that resists abrasion by the filtrate.",
+    "Proximal convoluted tubule: simple squamous epithelium, whose flat cells make active pumping of glucose faster.",
+    "Collecting duct: transitional epithelium, so that the duct can stretch as urine volume rises.",
+    "Thin limb of the loop of Henle: simple squamous epithelium, a wall so thin that water and solutes cross it passively with little resistance.",
+    "Distal convoluted tubule: ciliated columnar epithelium, whose cilia keep the filtrate well mixed."
+   ],
+   "ans": "D",
+   "exp": "The thin limb of the loop of Henle is lined by simple squamous epithelium, ideal for the passive movement of water and solutes on which the counter-current system depends. The proximal tubule option fails on both tissue and logic, since it is simple cuboidal with a brush border for bulk active reabsorption, and transitional epithelium lines the renal pelvis, ureters and bladder, never the nephron itself.",
+   "topic": "Biology · kidney epithelia (loop of Henle)",
+   "lik": "M",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "A student wrote the following notes on the surface specializations of epithelial cells. Which note is correct?",
+   "options": [
+    "Cilia contain an actin core and bend through dynein-powered sliding to sweep fluid along the epithelial surface.",
+    "Microvilli are non-motile finger-like folds supported by bundles of actin filaments, and they enlarge the absorptive surface of the cell.",
+    "Goblet cells release a thin, enzyme-rich secretion that chemically breaks down particles trapped on the epithelium.",
+    "Tight junctions anchor the intermediate filaments of neighbouring cells to each other, spreading mechanical stress across the sheet.",
+    "The stereocilia of the epididymis beat rhythmically to drive sperm towards the vas deferens."
+   ],
+   "ans": "B",
+   "exp": "Microvilli are actin-supported, non-motile folds whose main job is enlarging the apical surface for absorption, as in the intestinal brush border. The cilia note is wrong because cilia are built on a microtubule axoneme rather than actin, goblet cells secrete mucus rather than enzymes, the anchoring of intermediate filaments is the job of desmosomes rather than tight junctions, and epididymal stereocilia do not beat.",
+   "topic": "Biology · apical specializations and junctions",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  },
+  {
+   "stem": "In a hereditary disorder the dynein arms of cilia are absent, so cilia cannot beat. Which consequence is expected?",
+   "options": [
+    "Nutrient absorption in the small intestine largely fails, because microvilli use the same dynein motor as cilia.",
+    "Mucus clearance is unaffected, because the mucus blanket is dragged along by microvilli rather than cilia.",
+    "Mucus accumulates in the airways and transport of the egg along the oviduct is impaired.",
+    "Sperm swim normally, because a flagellum is built on a different internal framework from a cilium.",
+    "Only the airways are affected, because ciliated cells occur nowhere else in the human body."
+   ],
+   "ans": "C",
+   "exp": "Motile cilia in the airways and oviducts and the sperm flagellum all share the same microtubule axoneme driven by dynein, so mucus clearance, egg transport and sperm swimming fail together. Microvilli have an actin core and no dynein, which is why the option blaming failed nutrient absorption is wrong.",
+   "topic": "Biology · cilia versus microvilli (motility)",
+   "lik": "H",
+   "syl": "3. Biology: Anatomy and Physiology of animals and humans"
+  }
+ ]
+}

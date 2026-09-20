@@ -1,0 +1,96 @@
+{
+ "bank": "bank_chem_hard",
+ "section": "F",
+ "questions": [
+  {
+   "stem": "For reactions in dilute solution at a fixed temperature, the units of reaction rate are always mol/(dm³·s). Which statement about rate constants is correct?",
+   "options": [
+    "A zero-order rate constant has the units s⁻¹.",
+    "A first-order rate constant has the units mol/(dm³·s).",
+    "A first-order rate constant has the units s⁻¹, and a second-order rate constant has the units dm³/(mol·s).",
+    "A second-order rate constant has the units mol/(dm³·s).",
+    "Every rate constant has the same units as the rate itself, mol/(dm³·s), whatever the order of reaction."
+   ],
+   "ans": "C",
+   "exp": "The units of k follow from rate = k[A]ⁿ: k must carry whatever units make both sides mol/(dm³·s), so first order gives s⁻¹ and second order gives dm³/(mol·s). The option assigning mol/(dm³·s) to a first-order constant describes the zero-order case, where k shares the units of the rate.",
+   "topic": "Chemistry · rate constant units by reaction order",
+   "lik": "H",
+   "syl": "4. Chemistry: Elements of chemical kinetics and catalysis"
+  },
+  {
+   "stem": "A drug is removed from the bloodstream by first-order kinetics with a half-life of 4 hours. Starting from an initial dose D, the amount still present 12 hours after administration is:",
+   "options": [
+    "1/16 of D",
+    "1/8 of D",
+    "1/6 of D",
+    "1/4 of D",
+    "1/2 of D"
+   ],
+   "ans": "B",
+   "exp": "Twelve hours contains three half-lives, and each first-order half-life halves whatever is present, so D → D/2 → D/4 → D/8: one eighth remains. The 1/6 option comes from dividing 1/2 by 3 instead of applying the factor 1/2 three times.",
+   "topic": "Chemistry · first-order half-life decay",
+   "lik": "H",
+   "syl": "4. Chemistry: Elements of chemical kinetics and catalysis"
+  },
+  {
+   "stem": "For the reaction A + B → products, kept at constant temperature: doubling [A] while holding [B] constant doubles the rate, and doubling [B] while holding [A] constant increases the rate fourfold. Which statement is correct?",
+   "options": [
+    "The rate equation is rate = k[A][B]², the overall order is three, and k has the units dm⁶/(mol²·s).",
+    "The rate equation is rate = k[A][B]², the overall order is three, and k has the units dm³/(mol·s).",
+    "The reaction is second order overall, and k has the units dm³/(mol·s).",
+    "The reaction is first order overall, and k has the units s⁻¹, because each reactant contributes one power.",
+    "The reaction is fourth order overall, because the fourfold increase in the second experiment means the exponent of B is three."
+   ],
+   "ans": "A",
+   "exp": "Doubling [A] doubling the rate fixes an exponent of 1 for A, and doubling [B] quadrupling the rate fixes an exponent of 2 for B, so rate = k[A][B]² and the overall order is three. Then k = rate ÷ ([A][B]²), which divides mol/(dm³·s) by (mol/dm³)³ to give dm⁶/(mol²·s); the dm³/(mol·s) option borrows the units of a second-order constant.",
+   "topic": "Chemistry · order from rate data and units of k",
+   "lik": "H",
+   "syl": "4. Chemistry: Elements of chemical kinetics and catalysis"
+  },
+  {
+   "stem": "The Haber process, N₂(g) + 3H₂(g) ⇌ 2NH₃(g) with ΔH = −92 kJ/mol, uses an iron catalyst. Which statement is correct?",
+   "options": [
+    "The catalyst shifts the equilibrium position to the right, increasing the final yield of ammonia.",
+    "The catalyst raises the activation energy of the reverse reaction, so ammonia accumulates.",
+    "The catalyst makes the reaction more exothermic, which increases the yield at the same temperature.",
+    "The catalyst lowers the activation energy of the forward and reverse reactions equally, so equilibrium is reached sooner, but the equilibrium position and ΔH are unchanged.",
+    "The catalyst works by raising the average kinetic energy of the gas molecules, so that more collisions are effective."
+   ],
+   "ans": "D",
+   "exp": "A catalyst offers a lower-energy pathway and speeds the forward and reverse reactions by the same factor, so the mixture reaches the same equilibrium composition sooner; it cannot change K, the equilibrium position or ΔH. The shift-to-the-right option fails because yield is fixed by thermodynamics, and the kinetic-energy option describes heating, not catalysis.",
+   "topic": "Chemistry · catalysis versus equilibrium position",
+   "lik": "H",
+   "syl": "4. Chemistry: Elements of chemical kinetics and catalysis"
+  },
+  {
+   "stem": "Manganese(IV) oxide speeds up the decomposition of hydrogen peroxide, 2H₂O₂ → 2H₂O + O₂, and the black powder can be recovered unchanged at the end. The best explanation is that MnO₂:",
+   "options": [
+    "raises the average kinetic energy of the H₂O₂ molecules, so more collisions exceed the activation energy.",
+    "shifts the equilibrium of the decomposition towards the products, so the reaction goes faster.",
+    "reduces the enthalpy change of the decomposition, which releases more energy to drive the reaction.",
+    "is consumed to supply the energy that the reaction needs, which is why a little disappears each time.",
+    "provides an alternative reaction pathway of lower activation energy and is regenerated during the cycle, so it is not consumed."
+   ],
+   "ans": "E",
+   "exp": "A catalyst gives the reaction a new route with a lower activation energy and is regenerated in the process, which is exactly why the same powder can be recovered and reused. The kinetic-energy option fails because raising molecular speed is what heating does, and the recovery of the unchanged solid rules out any claim that MnO₂ is consumed.",
+   "topic": "Chemistry · catalyst as an unconsumed pathway provider",
+   "lik": "M",
+   "syl": "4. Chemistry: Elements of chemical kinetics and catalysis"
+  },
+  {
+   "stem": "A reaction mixture is heated from 25 °C to 55 °C and the rate rises sharply. According to collision theory, the main reason is that:",
+   "options": [
+    "the activation energy of the reaction decreases as the temperature rises.",
+    "molecules collide much more often, and this increase in collision frequency alone explains the whole rate rise.",
+    "a much larger fraction of molecules now has energy at or above the activation energy, so far more collisions are effective.",
+    "the enthalpy change of the reaction becomes more negative at the higher temperature.",
+    "faster molecules are more likely to meet in the correct orientation, because high speed corrects the approach angle."
+   ],
+   "ans": "C",
+   "exp": "Heating reshapes the Maxwell-Boltzmann distribution so that a much larger fraction of molecules exceeds the fixed activation energy, and it is these effective collisions that multiply and drive the sharp rate increase. The activation-energy option fails because Ea is a property of the reaction pathway and does not fall when the mixture is warmed, while collision frequency rises only slightly over such a range.",
+   "topic": "Chemistry · collision theory and temperature",
+   "lik": "M",
+   "syl": "4. Chemistry: Elements of chemical kinetics and catalysis"
+  }
+ ]
+}

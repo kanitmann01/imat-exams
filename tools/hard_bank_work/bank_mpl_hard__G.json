@@ -1,0 +1,306 @@
+{
+ "bank": "bank_mpl_hard",
+ "section": "G",
+ "questions": [
+  {
+   "stem": "In a library, every manuscript in the special archive is catalogued. Some of the archive's manuscripts are illustrated, and no illustrated item in the archive may leave the building. Which of the following must be true?",
+   "options": [
+    "Every catalogued item in the library is illustrated.",
+    "Every item that may leave the building is catalogued.",
+    "Some of the archive's illustrated manuscripts are catalogued.",
+    "Some catalogued items in the library may leave the building.",
+    "No catalogued item in the archive is illustrated."
+   ],
+   "ans": "C",
+   "exp": "An illustrated archive manuscript exists by the second premise, and the first premise makes every archive manuscript catalogued, so that manuscript is both illustrated and catalogued. The claim that every catalogued item is illustrated is the invalid converse of the first premise, and items that may leave need not be catalogued because non-archive items are unrestricted.",
+   "topic": "Logic · syllogisms (valid conclusion)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "At a tennis club, only members with a current season pass may book the courts, and all club rules are followed. Nadia booked a court this week. Some members with a season pass also take coaching lessons. Which of the following must be true?",
+   "options": [
+    "Nadia holds a current season pass.",
+    "Nadia takes coaching lessons.",
+    "Every member with a season pass books the courts.",
+    "Some members who book the courts take coaching lessons.",
+    "Every member who books the courts takes coaching lessons."
+   ],
+   "ans": "A",
+   "exp": "The rule 'only pass holders may book' means that booking implies holding a pass, so Nadia, who booked, holds one. Saying that every pass holder books reverses the rule without warrant, and the coaching lessons involve some pass holders who need not be Nadia.",
+   "topic": "Logic · syllogisms (only-if conversion)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "Every swimmer who won a medal this season trains at the Riverside pool, and nobody who trains at the Riverside pool pays a joining fee. Which of the following must be true?",
+   "options": [
+    "Some swimmers who pay a joining fee won a medal this season.",
+    "Every swimmer who trains at the Riverside pool won a medal this season.",
+    "Some people who train at the Riverside pool did not win a medal this season.",
+    "No swimmer who won a medal this season pays a joining fee.",
+    "The Riverside pool charges no joining fee to anyone."
+   ],
+   "ans": "D",
+   "exp": "A medalling swimmer trains at Riverside, and no Riverside trainer pays a joining fee, so no medalling swimmer pays the fee. Nothing forces any Riverside swimmer to have won or failed to win a medal, and the premises are silent about fees for people who do not train there.",
+   "topic": "Logic · syllogisms (chained universals)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "Some players in the squad are left-footed. No left-footed player takes the corner kicks, and every player in the squad is a professional. Which of the following must be true?",
+   "options": [
+    "Some professionals do not take the corner kicks.",
+    "Some left-footed players are not professionals.",
+    "No professional takes the corner kicks.",
+    "Every player who takes the corner kicks is right-footed.",
+    "Every player who takes the corner kicks is in the squad."
+   ],
+   "ans": "A",
+   "exp": "At least one squad player is left-footed, that player is a professional by the last premise, and no left-footed player takes corners, so some professional does not take them. The corner-kick option that names right-footed players wrongly assumes that not being left-footed means being right-footed, which the premises never state.",
+   "topic": "Logic · syllogisms (particular and negative premises)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "Every baker at the Saturday market arrives before dawn, and some bakers at the market sell rye bread. Which of the following must be true?",
+   "options": [
+    "Everyone who arrives before dawn sells rye bread.",
+    "Some people who arrive before dawn sell rye bread.",
+    "All sellers of rye bread at the market are bakers.",
+    "No baker at the market sells rye bread.",
+    "Some bakers at the market arrive after dawn."
+   ],
+   "ans": "B",
+   "exp": "The rye-selling bakers exist, and every baker arrives before dawn, so at least one before-dawn arrival sells rye bread. Nothing makes rye sellers bakers in general, and the claim about everyone who arrives before dawn merely reverses the first premise.",
+   "topic": "Logic · syllogisms (valid conclusion)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "Every member of the rowing club can swim, and no member of the rowing club is under sixteen. Tara is a member of the rowing club. Which of the following must be true?",
+   "options": [
+    "Tara is under sixteen.",
+    "Everyone who can swim is a member of the rowing club.",
+    "Some people under sixteen can swim.",
+    "Only swimmers may join the rowing club.",
+    "Tara can swim and is not under sixteen."
+   ],
+   "ans": "E",
+   "exp": "Tara is a member, so both universal premises apply to her: she can swim and she is not under sixteen. The claim that every swimmer is a club member merely reverses the first premise and does not follow, and the premises say nothing about who is allowed to join.",
+   "topic": "Logic · syllogisms (universal instantiation)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "About a postponed football match, Ria says: 'The match was postponed because of rain.' Tom says: 'The match was postponed because of rain, and Ria is lying.' Exactly one of the two always tells the truth and the other always lies. Which of the following must be true?",
+   "options": [
+    "Tom tells the truth and the postponement had another cause.",
+    "Ria tells the truth and the postponement had another cause.",
+    "Tom tells the truth and rain caused the postponement.",
+    "Ria tells the truth and rain caused the postponement.",
+    "Both of them always tell the truth."
+   ],
+   "ans": "D",
+   "exp": "If Tom were the truth teller, his statement would make Ria a liar whose claim about rain is false, yet the same statement itself asserts that rain caused the postponement, which is contradictory. So Tom is the liar and Ria tells the truth, which makes rain the cause, while Tom's conjunction fails because its second part is false.",
+   "topic": "Logic · truth-tellers and liars (conjunction self-test)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "Three pupils, Amara, Ben and Cara, are asked about a missing lab key. Each of them either always tells the truth or always lies. Amara says: 'Ben is lying.' Ben says: 'Cara is lying.' Cara says: 'Both Amara and Ben are lying.' Which of the following is correct?",
+   "options": [
+    "Amara and Ben tell the truth and Cara lies.",
+    "Amara and Cara lie and Ben tells the truth.",
+    "Ben and Cara lie and Amara tells the truth.",
+    "All three tell the truth.",
+    "The three statements allow more than one consistent assignment."
+   ],
+   "ans": "B",
+   "exp": "Suppose Amara tells the truth: then Ben lies, which makes Ben's claim false and Cara truthful, yet Cara's claim that both Amara and Ben lie would be false, impossible for a truth teller. So Amara lies, which makes Ben truthful and Cara a liar, and Cara's false claim is consistent because only Amara lies.",
+   "topic": "Logic · truth-tellers and liars (three speakers)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "Three teachers are questioned about a borrowed stopwatch. Exactly one of them is lying and the other two are telling the truth. Priya says: 'I did not take the stopwatch.' Quinn says: 'Priya is lying.' Ravi says: 'Quinn is lying.' Which of the following must be true?",
+   "options": [
+    "Priya took the stopwatch.",
+    "Ravi took the stopwatch.",
+    "Quinn took the stopwatch.",
+    "Priya did not take the stopwatch.",
+    "All three are telling the truth."
+   ],
+   "ans": "D",
+   "exp": "Quinn and Ravi contradict each other, so the single liar must be one of that pair, which makes Priya truthful and her denial accurate. Quinn's claim that Priya is lying is then false, so Quinn is the liar and Ravi tells the truth, but the statements never settle who actually took the stopwatch, which is why the naming options fail.",
+   "topic": "Logic · truth-tellers and liars (contradictory pair)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "After a match, the scoreboard was found broken. Exactly one of the three candidates for team captain always tells the truth and the other two always lie. Dana says: 'Eli broke the scoreboard.' Eli says: 'I did not break the scoreboard.' Fran says: 'Dana is lying.' Which of the following must be true?",
+   "options": [
+    "Eli tells the truth and Dana broke the scoreboard.",
+    "Dana tells the truth and Eli broke the scoreboard.",
+    "Fran tells the truth and Dana broke the scoreboard.",
+    "Eli tells the truth and Fran broke the scoreboard.",
+    "Fran tells the truth and Eli broke the scoreboard."
+   ],
+   "ans": "B",
+   "exp": "If Eli told the truth, Dana and Fran would both be liars, but Fran's claim that Dana is lying would then be true, impossible for a liar. If Fran told the truth, Eli's denial would also be true, giving two truth tellers, so Dana is the only truth teller, Eli broke the scoreboard, and Eli's denial is his one lie.",
+   "topic": "Logic · truth-tellers and liars (unique truth teller)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "At a lost property office, exactly one of Pia's two statements is true and exactly one of Sam's two statements is true. The clerk confirms the blue bag was collected on exactly one day. Pia says: 'The bag was collected on Monday.' and 'The bag was not collected on Wednesday.' Sam says: 'The bag was collected on Wednesday.' and 'The bag was not collected on Monday.' Which of the following must be true?",
+   "options": [
+    "The bag was collected on Monday.",
+    "The bag was collected on Wednesday.",
+    "Pia made two false statements.",
+    "Sam made two true statements.",
+    "The bag was collected on a day that is neither Monday nor Wednesday."
+   ],
+   "ans": "E",
+   "exp": "If the bag went out on Monday, both of Pia's statements would be true, and if it went out on Wednesday, both would be false, so neither day fits her one-true requirement. Only a day other than Monday or Wednesday leaves Pia and Sam with exactly one true statement each.",
+   "topic": "Logic · consistency puzzles (exactly one true)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "A notice at the swimming pool reads: 'If the pool is at capacity, new swimmers are turned away.' Which of the following is logically equivalent to the notice?",
+   "options": [
+    "If new swimmers are turned away, the pool is at capacity.",
+    "If the pool is not at capacity, new swimmers are not turned away.",
+    "If the pool is not at capacity, new swimmers are turned away.",
+    "New swimmers are turned away only if the pool is at capacity.",
+    "If new swimmers are not turned away, the pool is not at capacity."
+   ],
+   "ans": "E",
+   "exp": "Negating both parts in reverse order gives the contrapositive, 'not turned away means not at capacity', which is logically equivalent to the notice. Turning away implying capacity merely reverses the conditional, and the inverse with both parts denied in the same order is not equivalent.",
+   "topic": "Logic · conditional equivalence (contrapositive)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "The coach tells the squad: 'If a player attends every training session this month, she will be selected for the final.' Which of the following is logically equivalent to the coach's statement?",
+   "options": [
+    "If a player is not selected for the final, she did not attend every training session this month.",
+    "If a player does not attend every training session this month, she will not be selected for the final.",
+    "If a player is selected for the final, she attended every training session this month.",
+    "A player will be selected for the final only if she attends every training session this month.",
+    "A player who attends at least one training session this month will be selected for the final."
+   ],
+   "ans": "A",
+   "exp": "Denying the consequent and then the antecedent gives 'not selected means attendance was not perfect', the contrapositive, which is equivalent. The mirror version 'imperfect attendance means not selected' is the inverse and does not follow, and selection implying perfect attendance merely reverses the promise.",
+   "topic": "Logic · conditional equivalence (inverse vs contrapositive)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "Under the library's loan rule, a book may be borrowed for a full term only if it is on the reserve list. Which of the following must also be true if the rule is obeyed?",
+   "options": [
+    "A book on the reserve list may be borrowed for a full term.",
+    "A book not on the reserve list may not be borrowed for a full term.",
+    "A book not on the reserve list may be borrowed for a full term.",
+    "Every book on the reserve list is borrowed for a full term.",
+    "Only books on the reserve list may be borrowed at all."
+   ],
+   "ans": "B",
+   "exp": "'Full term only if reserved' means that full-term borrowing requires a reserve listing, and denying that requirement gives the equivalent claim that unreserved books cannot go out for a full term. Being on the reserve list does not by itself grant full-term borrowing, which is the converse.",
+   "topic": "Logic · conditional equivalence (only-if decoding)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "A ferry company's policy states that if a sailing is delayed, meal vouchers are issued, and that if meal vouchers are issued, the terminal canteen stays open late. Which of the following is logically equivalent to the policy taken as a whole?",
+   "options": [
+    "If a sailing is not delayed, the canteen does not stay open late.",
+    "If the canteen stays open late, the sailing was delayed.",
+    "If the canteen does not stay open late, the sailing was not delayed.",
+    "If a sailing is delayed, it is because the canteen plans to stay open late.",
+    "Every delayed sailing leaves passengers hungry."
+   ],
+   "ans": "C",
+   "exp": "Chaining delay to vouchers and vouchers to a late canteen yields 'delay means late canteen', whose contrapositive is 'no late canteen means no delay', which must hold. The versions starting from no delay or from a late canteen reverse the direction of the chain and are not entailed.",
+   "topic": "Logic · conditional equivalence (chained conditionals)",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "A security manual states: 'The side gate stays locked if and only if the alarm is armed.' Which of the following is logically equivalent to this statement?",
+   "options": [
+    "The side gate is unlocked exactly when the alarm is disarmed.",
+    "If the alarm is armed, the side gate is unlocked.",
+    "If the side gate is locked, the alarm is disarmed.",
+    "The alarm is armed whenever the side gate is unlocked.",
+    "If the alarm is disarmed, the side gate is locked."
+   ],
+   "ans": "A",
+   "exp": "A biconditional remains true when both sides are negated, so locked exactly with armed means unlocked exactly with disarmed. Saying the gate unlocks while the alarm is armed, or locks while it is disarmed, contradicts the manual, and mixing the negation of one side with the other side breaks the equivalence.",
+   "topic": "Logic · conditional equivalence (biconditional)",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "A council reports that streets repaved with a new porous surface drain rainwater quickly and form far fewer puddles, and concludes that repaving will reduce road accidents in which vehicles slip. The conclusion depends on assuming which of the following?",
+   "options": [
+    "The porous surface costs less per kilometre than standard asphalt.",
+    "Drivers on repaved streets tend to be more cautious than other drivers.",
+    "Accidents in which vehicles slip are usually caused by surface water, and the porous surface does not make roads slippery in other ways.",
+    "Standard asphalt forms more puddles than the porous surface.",
+    "The council intends to repave most streets within five years."
+   ],
+   "ans": "C",
+   "exp": "The argument links fewer puddles to fewer slip accidents only if surface water is what makes vehicles slip and the new surface adds no compensating hazard of its own. Repaving costs and council intentions are beside the chain, driver caution would be a rival explanation rather than a needed assumption, and the asphalt comparison restates a premise.",
+   "topic": "Logic · hidden assumption",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "At a gym, members on the flexible plan attend twice as often as members on the standard plan and report larger fitness gains. The manager concludes that the flexible plan itself causes the better fitness. Which of the following, if true, most weakens the manager's conclusion?",
+   "options": [
+    "The flexible plan costs more per month than the standard plan.",
+    "Attendance at the gym is recorded automatically at the entrance.",
+    "Both groups took the same fitness assessment at the start and at the end of the study.",
+    "Standard plan members report busier weekday schedules.",
+    "Members choose their own plan, and most members who were already training hard before joining picked the flexible plan."
+   ],
+   "ans": "E",
+   "exp": "If the keenest trainers selected the flexible plan in the first place, their attendance and gains existed before the plan, so the plan need not cause anything, which is self-selection. The extra fee and the recording method do not touch the causal claim, and the shared assessment detail strengthens rather than weakens the study.",
+   "topic": "Logic · weakening an argument",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "A ferry operator installed automatic ticket scanners on two of its six routes. Boarding time on those two routes fell by a third within two months and stayed flat on the other four. The operator concludes the scanners caused the faster boarding. Which of the following, if true, most strengthens this conclusion?",
+   "options": [
+    "Over the same two months the operator ran an advertising campaign on all six routes.",
+    "Staff numbers were also increased at the terminals of the two scanner routes.",
+    "Passengers on the scanner routes said in a survey that they liked the scanners.",
+    "When the scanners were out of service for two days, boarding times on those routes briefly returned to their old level and fell again after repairs.",
+    "Both scanner routes use ferries of the same model."
+   ],
+   "ans": "D",
+   "exp": "Boarding slowing exactly while the scanners were down and resuming once they were repaired reconnects the effect to the suspected cause far more tightly than the before-and-after contrast alone. Extra staff on the same routes suggest a rival explanation, the campaign touched all routes equally so it cannot explain the difference, and passenger approval says nothing about speed.",
+   "topic": "Logic · strengthening an argument",
+   "lik": "H",
+   "syl": "2. Logical Reasoning and Problems"
+  },
+  {
+   "stem": "Last year a sports centre cut its evening swim sessions from five per week to three. Over the year, total attendance at evening swims stayed almost unchanged, and the waiting list for evening swims grew longer. Which of the following is most strongly supported by this information?",
+   "options": [
+    "The centre should restore the two cancelled sessions.",
+    "Some swimmers gave up swimming in the evenings.",
+    "On average, each remaining evening session now accommodates more swimmers than before.",
+    "Attendance at morning swims must have increased.",
+    "The waiting list caused the sessions to be cut."
+   ],
+   "ans": "C",
+   "exp": "With roughly the same total attendance spread over three sessions instead of five, the average number of swimmers per session rises, which follows directly from the figures. Nothing in the data says anyone gave up, that morning sessions changed, or that the waiting list preceded the cuts.",
+   "topic": "Logic · inference from data",
+   "lik": "M",
+   "syl": "2. Logical Reasoning and Problems"
+  }
+ ]
+}

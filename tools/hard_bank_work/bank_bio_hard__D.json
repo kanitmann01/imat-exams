@@ -1,0 +1,276 @@
+{
+ "bank": "bank_bio_hard",
+ "section": "D",
+ "questions": [
+  {
+   "stem": "A culture of actively dividing fibroblasts is exposed to UV radiation while all cells are in G1, producing numerous thymine dimers. The G1 checkpoint responds normally. Which outcome is expected?",
+   "options": [
+    "Cells proceed into S phase on schedule, because the G1 checkpoint monitors spindle attachment rather than DNA integrity.",
+    "Cells arrest in mitosis, because DNA damage is detected only at the metaphase checkpoint.",
+    "Cells arrest in G1 and do not enter S phase until the damage is repaired, so damaged DNA is not replicated.",
+    "Cells complete division and enter G0, because DNA repair can occur only after cytokinesis is finished.",
+    "Cells replicate the damaged DNA normally in S phase and repair it at the G2 checkpoint before mitosis begins."
+   ],
+   "ans": "C",
+   "exp": "The G1 checkpoint halts the cycle while repair systems remove the dimers, so replication of damaged templates is avoided. The claim that the G1 checkpoint monitors spindle attachment confuses it with the metaphase checkpoint, and waiting for repair at G2 would let the dimers be copied first.",
+   "topic": "Biology · cell cycle checkpoints (G1 DNA damage)",
+   "lik": "H",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)"
+  },
+  {
+   "stem": "Which statement about the phases of the eukaryotic cell cycle is correct?",
+   "options": [
+    "A cell in the G0 phase actively replicates its DNA in preparation for a future division.",
+    "DNA replication takes place during the S phase, so a cell entering mitosis contains twice the amount of DNA it had at the start of interphase.",
+    "Chromosome condensation and spindle formation take place during the S phase.",
+    "Cytokinesis, the division of the cytoplasm, is completed during the G2 phase.",
+    "The amount of DNA per cell doubles during mitosis and is halved during the S phase."
+   ],
+   "ans": "B",
+   "exp": "DNA synthesis occurs only in S phase, so the DNA content is doubled before mitosis begins. The G0 option mistakes a quiescent, non-dividing state for a preparatory one, and condensation plus spindle assembly belong to prophase of the M phase.",
+   "topic": "Biology · cell cycle phases (G1, S, G2, M, G0)",
+   "lik": "M",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)"
+  },
+  {
+   "stem": "During an early mitotic division of a chromosomally normal human embryo (2n = 46), the two sister chromatids of chromosome 21 fail to separate in anaphase of one cell. Which outcome is expected in the two daughter cells produced by that division?",
+   "options": [
+    "One daughter cell has 47 chromosomes and the other has 45, so the embryo becomes a mosaic of two cell lines.",
+    "Both daughter cells have 47 chromosomes, so the whole embryo becomes trisomic for chromosome 21.",
+    "Both daughter cells have 46 chromosomes, because mitotic segregation corrects the failed separation.",
+    "One daughter cell has 45 chromosomes and the other has 45, because both copies of chromosome 21 are lost.",
+    "One daughter cell has 47 chromosomes and the other has 45, but both lines die so the embryo does not survive."
+   ],
+   "ans": "A",
+   "exp": "Both sister chromatids travel to one pole and none to the other, so the daughters are 47 and 45; the monosomic line usually dies while the trisomic line keeps dividing, producing mosaicism. Whole-embryo trisomy arises from a nondisjunction during meiosis, and mitosis has no mechanism that corrects a segregation failure.",
+   "topic": "Biology · mitotic nondisjunction (mosaicism)",
+   "lik": "H",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)"
+  },
+  {
+   "stem": "Which of the following statements about meiosis I is false?",
+   "options": [
+    "During prophase I, homologous chromosomes pair up in synapsis and may exchange segments by crossing over.",
+    "During metaphase I, paired homologous chromosomes align at the equator, with each pair oriented independently of the others.",
+    "During anaphase I, sister chromatids separate and move to opposite poles of the cell.",
+    "At the end of telophase I, each cell contains half the original chromosome number, and its chromosomes are still made of two sister chromatids.",
+    "Meiosis I is called the reductional division because it halves the chromosome number, unlike meiosis II."
+   ],
+   "ans": "C",
+   "exp": "In anaphase I, whole homologous chromosomes, each still formed by two sister chromatids, move to opposite poles; centromeres split only in anaphase II. The other statements match meiosis I: synapsis and crossing over in prophase I, random bivalent orientation in metaphase I, and halving of the chromosome number by telophase I.",
+   "topic": "Biology · meiosis I stages",
+   "lik": "H",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)"
+  },
+  {
+   "stem": "Crossing over, a major source of new allele combinations, occurs:",
+   "options": [
+    "between the two sister chromatids of the same chromosome during prophase I of meiosis.",
+    "between homologous chromosomes during metaphase II, when the pairs align at the equator.",
+    "between non-sister chromatids during anaphase II, when the chromatids separate.",
+    "between homologous chromosomes during the S phase, while the DNA is being copied.",
+    "between non-sister chromatids of homologous chromosomes during prophase I of meiosis."
+   ],
+   "ans": "E",
+   "exp": "Chiasmata form while homologues are synapsed in prophase I, and the exchange involves non-sister chromatids of the two homologues. An exchange between sister chromatids would be genetically invisible, because they carry identical alleles.",
+   "topic": "Biology · crossing over (prophase I)",
+   "lik": "M",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)"
+  },
+  {
+   "stem": "A plant species has a diploid number of 2n = 10. During anaphase II of meiosis, how many chromosomes move toward each pole, and what does each of them consist of?",
+   "options": [
+    "10 chromosomes, each made of two sister chromatids, move to each pole.",
+    "10 chromosomes, each made of a single chromatid, move to each pole.",
+    "20 chromatids move as separate chromosomes toward each pole.",
+    "5 chromosomes, each made of a single chromatid, move to each pole.",
+    "5 chromosomes, each still made of two sister chromatids, move to each pole."
+   ],
+   "ans": "D",
+   "exp": "After meiosis I the secondary meiocyte holds n = 5 double-chromatid chromosomes, and anaphase II splits every centromere, so five single-chromatid chromosomes reach each pole. The options with ten chromosomes per pole ignore the reduction that already occurred in meiosis I.",
+   "topic": "Biology · anaphase II chromosome counts",
+   "lik": "H",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)"
+  },
+  {
+   "stem": "In a primary spermatocyte with 2n = 12, a nondisjunction of one homologous pair occurs during meiosis I, and meiosis II then proceeds normally. How many of the four resulting gametes have an abnormal chromosome number?",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "ans": "E",
+   "exp": "Both cells leaving meiosis I are already unbalanced, one with n+1 = 7 and one with n-1 = 5 chromosomes, and each of them produces two abnormal gametes in meiosis II, so all four gametes are abnormal. The count of two abnormal gametes is the signature of a nondisjunction in meiosis II instead.",
+   "topic": "Biology · nondisjunction in meiosis I",
+   "lik": "H",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)"
+  },
+  {
+   "stem": "A primary spermatocyte (2n = 24) completes meiosis I normally. During meiosis II, in one of the two secondary spermatocytes the sister chromatids of one chromosome fail to separate, while the other secondary spermatocyte divides normally. Which set of sperm is produced?",
+   "options": [
+    "Two sperm with 13 chromosomes and two sperm with 11 chromosomes.",
+    "Two sperm with 12 chromosomes, one sperm with 13 and one sperm with 11 chromosomes.",
+    "Four sperm with 12 chromosomes each.",
+    "One sperm with 12 chromosomes, two sperm with 13 and one sperm with 11 chromosomes.",
+    "Two sperm with 24 chromosomes and two sperm with 12 chromosomes."
+   ],
+   "ans": "B",
+   "exp": "Only one secondary spermatocyte is affected, so it yields one n+1 sperm (13 chromosomes) and one n-1 sperm (11 chromosomes), while the unaffected one yields two normal sperm with 12. The pattern of two 13s and two 11s would follow from a nondisjunction in meiosis I, where both secondary spermatocytes are already unbalanced.",
+   "topic": "Biology · nondisjunction in meiosis II",
+   "lik": "H",
+   "syl": "3. Biology: Cell cycle and cell reproduction (mitosis and meiosis)"
+  },
+  {
+   "stem": "A male with 2n = 20 produces a sperm sample in which a single nondisjunction event occurred in one meiocyte. The four sperm from that meiocyte carry 11, 10, 10 and 9 chromosomes respectively. In which division did the nondisjunction occur, and why?",
+   "options": [
+    "Meiosis II, because one pair of sister chromatids failed to separate and only one of the two secondary spermatocytes was affected.",
+    "Meiosis I, because both cells leaving the first division were already aneuploid.",
+    "Meiosis I, because a pair of homologous chromosomes failed to separate and all four sperm are abnormal.",
+    "Meiosis II, because the failure of sister chromatids to separate makes all four gametes abnormal.",
+    "Either division can be concluded, because both errors produce the same counts of normal and abnormal sperm."
+   ],
+   "ans": "A",
+   "exp": "Two normal (10) and two aneuploid (11 and 9) sperm is the signature of a meiosis II error, since only one secondary spermatocyte carries the fault. A meiosis I failure leaves both secondary spermatocytes unbalanced and therefore all four sperm abnormal.",
+   "topic": "Biology · identifying nondisjunction stage",
+   "lik": "H",
+   "syl": "3. Biology: Human genetics"
+  },
+  {
+   "stem": "Which statement about the origin of genetic variability in sexually reproducing organisms is correct?",
+   "options": [
+    "Independent assortment occurs during meiosis II, when sister chromatids are distributed at random to the gametes.",
+    "Crossing over generates variability by exchanging alleles between the two sister chromatids of a chromosome.",
+    "Random fertilisation adds variability because homologous chromosomes exchange segments just before the gametes fuse.",
+    "Independent assortment arises because each homologous pair takes a random orientation at the metaphase I plate, independently of every other pair.",
+    "Independent assortment can occur only in cells that have first completed crossing over, since unexchanged pairs always segregate identically."
+   ],
+   "ans": "D",
+   "exp": "At metaphase I each bivalent attaches to the spindle in a random orientation, so maternal and paternal chromosomes are shuffled independently into the gametes. Crossing over involves non-sister chromatids of homologues, not sister chromatids, and it is independent of, not a requirement for, random bivalent orientation.",
+   "topic": "Biology · sources of genetic variability",
+   "lik": "M",
+   "syl": "3. Biology: Mendelian genetics"
+  },
+  {
+   "stem": "In an animal species with 2n = 12, how many genetically different chromosome combinations can the gametes acquire through independent assortment alone, ignoring crossing over?",
+   "options": [
+    "12",
+    "24",
+    "36",
+    "64",
+    "4096"
+   ],
+   "ans": "D",
+   "exp": "There are n = 6 homologous pairs and each orients independently at metaphase I, giving 2⁶ = 64 combinations. The value 4096 wrongly raises 2 to the diploid number, and 24 is simply the diploid chromosome count itself.",
+   "topic": "Biology · independent assortment (2ⁿ combinations)",
+   "lik": "M",
+   "syl": "3. Biology: Classical genetics"
+  },
+  {
+   "stem": "In humans the M and N blood-group alleles are codominant. A couple are both of type MN. Which phenotype ratio is expected among their children?",
+   "options": [
+    "3 children of type M for every 1 child of type N",
+    "1 child of type M for every 2 children of type MN and 1 child of type N",
+    "1 child of type M for every 1 child of type MN and 1 child of type N",
+    "2 children of type MN for every 1 child of type M and 1 child of type N",
+    "9 children of type M for every 3 children of type MN and 4 children of type N"
+   ],
+   "ans": "B",
+   "exp": "Two MN parents produce MM, MN and NN offspring in the genotypic ratio 1:2:1, and because the heterozygote is codominant all three genotypes are visible as distinct phenotypes. The 3:1 option would require M to be dominant over N, which codominance rules out.",
+   "topic": "Biology · codominance (1:2:1 ratio)",
+   "lik": "M",
+   "syl": "3. Biology: Mendelian genetics"
+  },
+  {
+   "stem": "Which of the following statements about Mendelian crosses is false?",
+   "options": [
+    "A monohybrid cross between two heterozygous parents gives a 3:1 ratio of dominant to recessive phenotypes.",
+    "A dihybrid cross between two individuals heterozygous for both genes gives a 9:3:3:1 phenotypic ratio when the genes assort independently.",
+    "A testcross between a heterozygous dominant individual and a homozygous recessive partner gives a 1:1 phenotypic ratio.",
+    "A cross between two heterozygous parents for a codominant trait gives a 1:2:1 phenotypic ratio.",
+    "A cross between a homozygous dominant individual and a homozygous recessive partner gives a 1:1 phenotypic ratio."
+   ],
+   "ans": "E",
+   "exp": "A homozygous dominant parent crossed with a homozygous recessive one yields only heterozygous offspring, all showing the dominant phenotype. The 1:1 ratio belongs to the testcross with a heterozygous parent, which the other statements describe correctly.",
+   "topic": "Biology · Mendelian ratios",
+   "lik": "M",
+   "syl": "3. Biology: Mendelian genetics"
+  },
+  {
+   "stem": "Two pea plants heterozygous for seed shape and for seed colour (AaBb × AaBb) are crossed, and the two genes assort independently. How many different genotypes are expected among the offspring?",
+   "options": [
+    "4",
+    "6",
+    "9",
+    "12",
+    "16"
+   ],
+   "ans": "C",
+   "exp": "Each locus separately gives 3 genotypes (AA, Aa and aa), so the offspring show 3 × 3 = 9 different genotypes, distributed over only 4 phenotype classes. The value 16 counts the Punnett squares, not the distinct genotypes.",
+   "topic": "Biology · dihybrid genotype counting",
+   "lik": "H",
+   "syl": "3. Biology: Mendelian genetics"
+  },
+  {
+   "stem": "In a cross AaBb × aaBb, with the two genes assorting independently, what is expected among the offspring?",
+   "options": [
+    "Four different phenotypes, with one eighth of the offspring showing both recessive traits (aabb).",
+    "Four different phenotypes, with one sixteenth of the offspring showing both recessive traits.",
+    "Three different phenotypes, with one quarter of the offspring showing both recessive traits.",
+    "Two different phenotypes, with one eighth of the offspring showing both recessive traits.",
+    "Four different phenotypes, with three sixteenths of the offspring showing both recessive traits."
+   ],
+   "ans": "A",
+   "exp": "Aa × aa gives half Aa and half aa, and Bb × Bb gives three quarters B_ and one quarter bb, so the phenotypes are A_B_ (3/8), A_bb (1/8), aaB_ (3/8) and aabb (1/8), four classes in total. The one-sixteenth value would fit a self-fertilisation of a double heterozygote, not this cross.",
+   "topic": "Biology · dihybrid phenotype fractions",
+   "lik": "H",
+   "syl": "3. Biology: Mendelian genetics"
+  },
+  {
+   "stem": "In a population of 500 people at Hardy-Weinberg equilibrium, 20 people show an autosomal recessive condition (genotype aa). How many people are expected to be heterozygous carriers?",
+   "options": [
+    "80",
+    "100",
+    "160",
+    "200",
+    "320"
+   ],
+   "ans": "C",
+   "exp": "The affected individuals give q² = 20/500 = 0.04, so q = 0.2 and p = 0.8; the carrier frequency is 2pq = 2 × 0.8 × 0.2 = 0.32, which is 0.32 × 500 = 160 people. The value 80 applies pq = 0.16 and forgets the factor of 2.",
+   "topic": "Biology · Hardy-Weinberg (carrier frequency)",
+   "lik": "H",
+   "syl": "3. Biology: Mutations (selection, evolutionary theories)"
+  },
+  {
+   "stem": "A population is in Hardy-Weinberg equilibrium, and 9 percent of its members show a phenotype caused by a recessive allele. What is the frequency of the dominant allele in this population?",
+   "options": [
+    "0.3",
+    "0.49",
+    "0.51",
+    "0.7",
+    "0.9"
+   ],
+   "ans": "D",
+   "exp": "The recessive phenotype marks q² = 0.09, so q = 0.3 and p = 1 - 0.3 = 0.7. The value 0.49 is p², the frequency of homozygous dominant individuals, not of the allele itself.",
+   "topic": "Biology · Hardy-Weinberg (allele frequency)",
+   "lik": "M",
+   "syl": "3. Biology: Mutations (selection, evolutionary theories)"
+  },
+  {
+   "stem": "Which statement about evolution and the history of evolutionary thought is correct?",
+   "options": [
+    "A population bottleneck increases genetic diversity, because only the best-adapted individuals survive the crisis.",
+    "Pasteur's swan-necked flask experiment showed that microorganisms appear in nutrient broth only when the broth is exposed to airborne microbes, refuting spontaneous generation.",
+    "Pasteur's experiment demonstrated that new species arise through the inheritance of characteristics acquired during an organism's life.",
+    "After a bottleneck, the surviving population keeps the allele frequencies of the original population, because which individuals survive is random.",
+    "The bottleneck effect generates new alleles, because mutation rates rise when a population becomes small."
+   ],
+   "ans": "B",
+   "exp": "Pasteur's curved neck admitted air but trapped microbes and dust, and the broth spoiled only once the neck was broken, so life was shown to arise from existing life. In a bottleneck the small random sample of survivors loses alleles, so heterozygosity falls rather than rises and no new alleles are produced.",
+   "topic": "Biology · bottleneck effect and spontaneous generation",
+   "lik": "M",
+   "syl": "3. Biology: Mutations (selection, evolutionary theories)"
+  }
+ ]
+}

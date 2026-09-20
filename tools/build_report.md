@@ -10,8 +10,12 @@
 | imat_mock6 | 12 | 12 | 12 | 12 | 12 | 0 | 5/0/1 |
 | imat_mock7 | 12 | 12 | 12 | 12 | 12 | 0 | 2/0/1 |
 | imat_mock8 | 12 | 12 | 12 | 12 | 12 | 0 | 2/0/1 |
+| imat_mock9 | 12 | 12 | 12 | 12 | 12 | 0 | 0/0/0 |
 | GK_Drill_100 | 20 | 20 | 20 | 20 | 20 | 0 | 0/0/0 |
 | Repair_Drill_1 | 14 | 14 | 14 | 14 | 14 | 0 | 0/0/0 |
+| bank_bio_hard | 26 | 26 | 26 | 26 | 26 | 0 | 0/0/0 |
+| bank_chem_hard | 13 | 13 | 13 | 13 | 13 | 0 | 0/0/0 |
+| bank_mpl_hard | 19 | 19 | 19 | 19 | 19 | 0 | 0/0/0 |
 
 ## Change log
 - imat_mock1 Q1 stem: removed directive line: Read the following passage and answer the question.
