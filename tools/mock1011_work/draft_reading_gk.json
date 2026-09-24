@@ -1,0 +1,150 @@
+{
+  "agent": "reading_gk",
+  "questions": [
+    {
+      "mock": 10,
+      "slot": 1,
+      "topic": "Reading comprehension",
+      "lik": "H",
+      "stem": "Screening programmes aim to detect disease in people who have no symptoms, on the assumption that treating earlier improves outcomes. Yet early detection has a structural drawback. Some of the cancers that screening finds grow so slowly that they would never have caused symptoms in a person's lifetime; counting these cases as cures makes screening appear more effective than it really is, a phenomenon known as overdiagnosis. At the same time, trials show that breast cancer screening does reduce deaths from breast cancer, though the absolute benefit for any individual woman is small, because the disease is uncommon in any single year. Deciding whether to attend screening therefore involves weighing a small reduction in the risk of death against the possibility of unnecessary treatment.\n\nWhich of the following statements is most strongly supported by the passage?",
+      "options": [
+        "Screening programmes can only succeed against diseases that produce symptoms at an early stage.",
+        "Overdiagnosis occurs because screening detects some cancers that would never have harmed the person.",
+        "Breast cancer screening has been shown to reduce deaths from all causes.",
+        "The absolute benefit of breast cancer screening is large, because the disease is common.",
+        "The passage implies that women should generally be advised not to attend screening."
+      ],
+      "ans": "B",
+      "exp": "The passage defines overdiagnosis in exactly these terms: some cancers found by screening 'grow so slowly that they would never have caused symptoms', and counting them as cures inflates apparent effectiveness. A is contradicted because screening targets people without symptoms and does reduce breast cancer deaths; C overreaches, as the passage limits the reduction to deaths from breast cancer; D reverses the text, which calls the absolute benefit small because the disease is uncommon; E is unsupported, since the passage describes weighing benefits against harms, not advising against attendance.",
+      "sources": ["", ""]
+    },
+    {
+      "mock": 10,
+      "slot": 2,
+      "topic": "Reading comprehension",
+      "lik": "H",
+      "stem": "Professional ecologists cannot survey species across entire countries with the staff and funding available to them. Citizen science projects address this gap by recruiting volunteers to record what they observe: birds counted in gardens, butterflies photographed on walks, plants logged along roadsides. The resulting datasets have repeatedly revealed changes in the distribution and timing of species, such as earlier flowering, that smaller professional studies would have missed. The approach has limits, however. Volunteers sample unevenly, recording more near cities and at weekends, and they more easily notice conspicuous species. Project organisers therefore write structured protocols, provide identification training and statistically adjust for sampling bias, treating volunteer data not as a cheap substitute for professional monitoring but as a complement that extends its geographical reach.\n\nWhich of the following statements follows from the passage?",
+      "options": [
+        "Data collected by volunteers are too unreliable to inform ecological research.",
+        "Citizen science projects can extend the geographical coverage of monitoring beyond what professional ecologists could achieve alone.",
+        "Volunteers overlook conspicuous species because these are difficult to photograph.",
+        "Professional ecologists have largely stopped carrying out their own surveys since volunteers took over the work.",
+        "Statistical adjustment eliminates sampling bias from volunteer-collected data."
+      ],
+      "ans": "B",
+      "exp": "The passage states that professional ecologists cannot survey entire countries and that organisers treat volunteer data as 'a complement that extends its geographical reach', which is exactly B. A and D are contradicted, since volunteer datasets revealed real changes and the text calls them a complement rather than a substitute; C inverts the statement that volunteers more easily notice conspicuous species; E is too strong, because organisers 'statistically adjust for' bias rather than eliminate it.",
+      "sources": ["", ""]
+    },
+    {
+      "mock": 10,
+      "slot": 3,
+      "topic": "General knowledge",
+      "lik": "H",
+      "stem": "(General knowledge) The chorus Va, pensiero, known in English as the Chorus of the Hebrew Slaves and often treated as an unofficial Italian anthem, comes from the opera Nabucco, first performed at La Scala in 1842. Who was the composer?",
+      "options": [
+        "Vincenzo Bellini",
+        "Gaetano Donizetti",
+        "Giuseppe Verdi",
+        "Gioachino Rossini",
+        "Giacomo Puccini"
+      ],
+      "ans": "C",
+      "exp": "Nabucco, with a libretto by Temistocle Solera, was composed by Giuseppe Verdi and premiered at La Scala in Milan on 9 March 1842; its third-act chorus Va, pensiero established his reputation. Bellini, Donizetti and Rossini belong to earlier generations of Italian opera and Puccini to the following one, but none of them wrote Nabucco.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Va,_pensiero",
+        "https://www.classical-music.com/articles/chorus-of-the-hebrew-slaves-lyrics"
+      ]
+    },
+    {
+      "mock": 10,
+      "slot": 4,
+      "topic": "Reading comprehension",
+      "lik": "H",
+      "stem": "When Alfred Wegener proposed continental drift in 1912, most geologists dismissed him. He had assembled an impressive case: the fit of the Atlantic coastlines, identical fossils on opposite shores, and traces of ancient glaciation in what are now tropical latitudes. What he lacked was a credible driving force, and his suggestion that continents plough through the ocean floor was physically implausible. The balance changed only in the decades after the Second World War, when mapping of the ocean floor revealed mid-ocean ridges and magnetic stripes recording seafloor spreading, and when the locations of earthquakes traced out the boundaries of moving plates. Drifting continents, once rejected, became the organising principle of modern geology not because Wegener's evidence was rediscovered but because new kinds of evidence, gathered with instruments he never had, settled the question of mechanism.\n\nWhich of the following statements is supported by the passage?",
+      "options": [
+        "Wegener's theory was rejected mainly because the observations behind it were later shown to be mistaken.",
+        "The mechanism Wegener proposed for continental movement was regarded as physically implausible.",
+        "Plate tectonics won acceptance once Wegener's original evidence was rediscovered after the Second World War.",
+        "Ocean-floor mapping showed that mid-ocean ridges and magnetic stripes do not exist.",
+        "The question of what drives continental movement remains unanswered in modern geology."
+      ],
+      "ans": "B",
+      "exp": "The passage states directly that Wegener's suggestion that continents plough through the ocean floor 'was physically implausible', which is B. A is contradicted because the text calls his evidence an impressive case and pins the rejection on the missing mechanism; C is contradicted by the closing sentence, which says acceptance came from new evidence rather than rediscovery of Wegener's; D inverts the text, in which mapping revealed the ridges and stripes; E is contradicted because the new evidence 'settled the question of mechanism'.",
+      "sources": ["", ""]
+    },
+    {
+      "mock": 11,
+      "slot": 1,
+      "topic": "Reading comprehension",
+      "lik": "H",
+      "stem": "Memories formed during the day are initially fragile. In deep sleep, patterns of activity recorded in the hippocampus replay the firing sequences that occurred while a task was being learned, and this replay coincides with brief rhythmic events that coordinate communication between the hippocampus and the cortex. In rodents, experimentally disrupting these replay events selectively impairs later performance on the learned task while leaving performance on other tasks intact. In humans, volunteers kept awake after memorising a list of words recall fewer items the next day than volunteers allowed to sleep, even when both groups are tested at the same interval after learning. On this evidence, sleep is not a passive interruption of mental life but an active part of how new memories become stable.\n\nWhich of the following statements is most strongly supported by the passage?",
+      "options": [
+        "All human memories are formed during deep sleep.",
+        "Disrupting hippocampal replay impairs rodents' performance on every task that is tested.",
+        "Sleep appears to play an active role in stabilising newly formed memories.",
+        "People kept awake after learning remember more because less time has passed since learning.",
+        "Staying awake after memorising a word list has no effect on next-day recall in humans."
+      ],
+      "ans": "C",
+      "exp": "The concluding sentence states that sleep is 'an active part of how new memories become stable', summarising the replay, disruption and human sleep-deprivation findings, so C follows. A is contradicted because memories are formed during the day and stabilised during sleep; B is contradicted by 'selectively' and the intact performance on other tasks; D is contradicted because both groups are tested at the same interval and the sleepers recall more; E directly contradicts the human experiment described.",
+      "sources": ["", ""]
+    },
+    {
+      "mock": 11,
+      "slot": 2,
+      "topic": "Reading comprehension",
+      "lik": "H",
+      "stem": "Wind and solar generators share a property that conventional power plants do not: their output follows the weather rather than demand. On windy spring afternoons a grid may receive more electricity than it can use, while on still winter evenings, when demand peaks, renewable output can fall close to zero. Grid-scale batteries installed in recent years address part of this mismatch by shifting surplus electricity across a few hours, and they have become cheap enough to be deployed in large numbers. They cannot, however, shift a summer surplus to a winter deficit, because storing electricity for months remains far too expensive with current technology. Electricity systems that rely heavily on wind and solar therefore still need some combination of long-duration storage, flexible demand, deliberately overbuilt generation and backup plants that can be counted on whatever the weather.\n\nWhich of the following statements is most strongly supported by the passage?",
+      "options": [
+        "Grid-scale batteries are already able to store summer surplus electricity for use in winter.",
+        "The output of wind and solar plants follows electricity demand more closely than that of conventional plants.",
+        "Batteries can help balance renewable supply and demand over periods of a few hours, but not over whole seasons.",
+        "Because batteries have become cheap, overbuilding renewable generation is no longer necessary.",
+        "Flexible demand on its own can replace all backup generation in a renewable-based system."
+      ],
+      "ans": "C",
+      "exp": "The passage says batteries shift surplus electricity 'across a few hours' but 'cannot shift a summer surplus to a winter deficit', which is exactly C. A and D are directly contradicted by those sentences and by the closing list, which still includes overbuilt generation; B reverses the opening claim that renewable output follows the weather rather than demand; E is contradicted because the passage calls for a combination of measures including backup plants that work whatever the weather.",
+      "sources": ["", ""]
+    },
+    {
+      "mock": 11,
+      "slot": 3,
+      "topic": "General knowledge",
+      "lik": "H",
+      "stem": "(General knowledge) The Italian physician Camillo Golgi, who spent most of his career at the University of Pavia, shared the 1906 Nobel Prize in Physiology or Medicine, awarded for work on the structure of the nervous system. With which scientist did he share it?",
+      "options": [
+        "Santiago Ramón y Cajal",
+        "Ivan Pavlov",
+        "Robert Koch",
+        "Charles Sherrington",
+        "Emil von Behring"
+      ],
+      "ans": "A",
+      "exp": "The 1906 Nobel Prize in Physiology or Medicine was awarded jointly to Camillo Golgi and the Spanish histologist Santiago Ramón y Cajal 'in recognition of their work on the structure of the nervous system', Golgi for his black reaction staining method and Cajal for the neuron doctrine. Pavlov won the prize in 1904, Koch in 1905, Behring in 1901 and Sherrington in 1932.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/medicine/1906/summary/",
+        "https://en.wikipedia.org/wiki/Camillo_Golgi"
+      ]
+    },
+    {
+      "mock": 11,
+      "slot": 4,
+      "topic": "General knowledge",
+      "lik": "H",
+      "stem": "(General knowledge) At the Milano Cortina 2026 Winter Olympic Games, held in Italy in February 2026, which country finished at the top of the final medal table?",
+      "options": [
+        "United States",
+        "Germany",
+        "Norway",
+        "Italy",
+        "Netherlands"
+      ],
+      "ans": "C",
+      "exp": "Norway led the final medal table at Milan Cortina with 18 gold medals and 41 medals in total, a record for a single Winter Games, ahead of the United States with 33; host nation Italy finished with 10 golds among 30 medals. Confirmed by the final medal counts published by NBC Olympics and Wikipedia.",
+      "sources": [
+        "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
+        "https://en.wikipedia.org/wiki/2026_Winter_Olympics_medal_table"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 /* #/exam/<id> : the runner. Resume-or-start, autosave every answer, visible-tick
-   timer, navigator, submit modal, auto-submit at zero.
+   timer, navigator, submit modal. At 00:00 the clock freezes and the paper STAYS
+   OPEN (no auto-submit): an expired banner asks her to submit manually.
    Anti-leak: NO topic, NO difficulty, NO explanations, NO answer structure in
    the pre-submit DOM (SPEC 2.4, AL-1/2/5/7). Options render byte-identically;
    selection is the only style state. */
@@ -61,6 +62,8 @@ export async function mount(ctx, examId) {
   const permMap = attempt.perm || {};
   const answers = Object.assign({}, attempt.answers || {});
   let stopTicker = null;
+  let expiredShown = false;
+  let expiredNote = null;
   let firstAnswerToastShown = Object.keys(answers).length > 0;
   const sectionOf = {};
   for (const s of bank.sections) {
@@ -78,20 +81,26 @@ export async function mount(ctx, examId) {
     timerChip.textContent = fmtClock(attempt.remainingSec);
     timerChip.classList.toggle("warn", attempt.remainingSec <= 300);
   }
-  function autoSubmit() {
-    doSubmit({ auto: true });
+  function onExpired() {
+    if (stopTicker) stopTicker();
+    attempt.remainingSec = 0;
+    attempt.lastTickAt = Date.now();
+    store.saveAttempt(attempt);
+    timerChip.textContent = fmtClock(0);
+    timerChip.classList.remove("warn");
+    timerChip.classList.add("expired");
+    if (expiredNote && !expiredNote.isConnected) main.prepend(expiredNote);
+    if (!expiredShown) {
+      expiredShown = true;
+      toast("Time is up. The paper stays open: submit when you are ready.");
+    }
   }
   const mode = attempt.strictTimer ? "strict" : "kind";
   const resumed = timerResume({ remainingSec: attempt.remainingSec, lastTickAt: attempt.lastTickAt }, Date.now(), mode);
   attempt.remainingSec = resumed.remainingSec;
   attempt.lastTickAt = resumed.lastTickAt;
+  const alreadyExpired = attempt.remainingSec <= 0;
 
-  /* already-expired paper resumed: finalize immediately, no UI */
-  if (attempt.remainingSec <= 0) {
-    finalizeSubmit({ auto: true });
-    ctx.go("#/review/" + attempt.attemptId, true);
-    return null;
-  }
   persistTimer();
 
   /* ---------- header slot ---------- */
@@ -195,6 +204,10 @@ export async function mount(ctx, examId) {
   const submitBar = el("div", { class: "toolbar" },
     el("button", { class: "btn btn-teal btn-big", text: "Submit & see results", onclick: () => askSubmit() }));
 
+  expiredNote = el("div", { class: "expired-note", role: "status" },
+    el("strong", { text: "Time expired." }),
+    el("span", { text: " The clock has stopped but the paper is still open: check anything you want, then press Submit & see results. Blanks still score 0 and wrong answers still lose 0.4." }));
+
   main.append(layout, submitBar);
 
   function openDrawer() { side.classList.add("open"); scrim.classList.add("show"); }
@@ -247,17 +260,17 @@ export async function mount(ctx, examId) {
     body.append(perSec);
     if (nBlank > 0) body.append(el("p", { class: "muted", text: nBlank + " unanswered." }));
     const ok = await confirmModal({ title: "Submit paper?", body, okLabel: "Submit", cancelLabel: "Keep working" });
-    if (ok) doSubmit({});
+    if (ok) doSubmit();
   }
 
   let submitted = false;
-  function finalizeSubmit({ auto = false }) {
+  function finalizeSubmit() {
     submitted = true;
     const g = gradeAttempt(bank, answers, permMap);
     attempt.status = "submitted";
     attempt.answers = answers;
     attempt.submittedAt = new Date().toISOString();
-    attempt.autoSubmitted = auto;
+    attempt.autoSubmitted = false;
     attempt.remainingSec = Math.max(0, attempt.remainingSec);
     attempt.scoreTenths = g.scoreTenths;
     attempt.correct = g.correct;
@@ -266,20 +279,23 @@ export async function mount(ctx, examId) {
     attempt.sections = g.sections;
     store.saveAttempt(attempt);
   }
-  function doSubmit({ auto = false }) {
+  function doSubmit() {
     if (submitted) return;
     if (stopTicker) stopTicker();
-    finalizeSubmit({ auto });
+    finalizeSubmit();
     ctx.setHeader(null);
-    if (auto) toast("Time is up: paper auto-submitted");
     ctx.go("#/review/" + attempt.attemptId, true);
   }
 
-  stopTicker = startTicker(attempt, mode, {
-    onTick: (remaining) => { updateChip(); },
-    onExpire: autoSubmit,
-    onPersist: persistTimer,
-  });
+  if (alreadyExpired) {
+    onExpired();
+  } else {
+    stopTicker = startTicker(attempt, mode, {
+      onTick: () => { updateChip(); },
+      onExpire: onExpired,
+      onPersist: persistTimer,
+    });
+  }
 
   return function unmount() {
     if (stopTicker) stopTicker();

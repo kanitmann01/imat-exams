@@ -1,0 +1,485 @@
+{
+  "agent": "chem",
+  "questions": [
+    {
+      "mock": 10,
+      "slot": 33,
+      "topic": "Redox",
+      "lik": "H",
+      "stem": "Acidified potassium dichromate(VI) solution oxidises iodide ions to iodine: Cr2O7^2-(aq) + 14H+(aq) + 6I-(aq) -> 2Cr3+(aq) + 3I2(aq) + 7H2O(l). Which of the following statements is correct?",
+      "options": [
+        "Iodine is oxidised, its oxidation number rising from -1 to 0, while chromium is reduced from +7 to +3.",
+        "Iodine is oxidised, its oxidation number rising from -1 to 0, while chromium is reduced from +6 to +3.",
+        "Iodine is reduced from 0 to -1, while chromium is oxidised from +3 to +6.",
+        "Chromium is oxidised from +6 to +7, while iodine is reduced from 0 to -1.",
+        "Neither element changes its oxidation number, because this is not a redox reaction."
+      ],
+      "ans": "B",
+      "exp": "In Cr2O7^2-, 2x + 7(-2) = -2, so each Cr = +6; it falls to +3 in Cr3+, so chromium is reduced. Iodide, I- at -1, becomes I2 at 0, so iodine is the element oxidised. Option A forgets the 2- charge on the ion."
+    },
+    {
+      "mock": 10,
+      "slot": 34,
+      "topic": "Redox",
+      "lik": "H",
+      "stem": "A coil of copper wire is immersed in a solution of silver nitrate, and the reaction Cu(s) + 2Ag+(aq) -> Cu2+(aq) + 2Ag(s) slowly produces a blue solution and silvery crystals on the wire. Which of the following statements is correct?",
+      "options": [
+        "Cu is the oxidising agent because it donates two electrons.",
+        "Cu2+ is the oxidising agent because it carries the larger charge.",
+        "Ag+ is the oxidising agent because it accepts electrons from copper atoms.",
+        "NO3- is reduced to NO while the silver is deposited.",
+        "Ag is the reducing agent because it accepts electrons from the copper."
+      ],
+      "ans": "C",
+      "exp": "Electrons pass from Cu (0 to +2, so copper is oxidised and is the reducing agent) to Ag+ (+1 to 0, reduced, so Ag+ is the oxidising agent). Nitrate is a spectator ion and is unchanged."
+    },
+    {
+      "mock": 10,
+      "slot": 35,
+      "topic": "Bonding",
+      "lik": "H",
+      "stem": "According to VSEPR theory, what are the shape of the ammonia molecule, NH3, and the approximate H-N-H bond angle?",
+      "options": [
+        "bent, about 104.5 degrees",
+        "trigonal pyramidal, about 107 degrees",
+        "tetrahedral, about 109.5 degrees",
+        "trigonal planar, about 120 degrees",
+        "linear, about 180 degrees"
+      ],
+      "ans": "B",
+      "exp": "Nitrogen has four electron domains (three bonding pairs and one lone pair) in a roughly tetrahedral arrangement; the lone pair repels more strongly, so the molecule is a trigonal pyramid with the H-N-H angle compressed from 109.5 to about 107 degrees. 104.5 degrees is the angle in water, which has two lone pairs."
+    },
+    {
+      "mock": 10,
+      "slot": 36,
+      "topic": "Bonding",
+      "lik": "H",
+      "stem": "Water (Mr 18) boils at 100 °C, whereas hydrogen sulfide (Mr 34) boils at about -60 °C. Which statement explains this difference?",
+      "options": [
+        "Water molecules are held together by ionic bonds between H+ and OH- ions.",
+        "Hydrogen sulfide molecules form hydrogen bonds with each other, while water molecules cannot.",
+        "Water boils higher because breaking the strong O-H covalent bonds inside its molecules requires more energy than breaking S-H bonds.",
+        "Water molecules attract one another through hydrogen bonds, which are much stronger than the dipole-dipole and London forces present in liquid hydrogen sulfide.",
+        "Hydrogen sulfide in fact boils higher than water because it has the larger molar mass."
+      ],
+      "ans": "D",
+      "exp": "Hydrogen bonded to the very electronegative oxygen allows hydrogen bonding between water molecules; sulfur is not electronegative enough, so H2S relies only on weaker dipole-dipole and London forces despite its greater mass. Option C confuses intramolecular covalent bonds with the intermolecular forces broken on boiling."
+    },
+    {
+      "mock": 10,
+      "slot": 37,
+      "topic": "Acids & bases",
+      "lik": "H",
+      "stem": "10 cm3 of a 1.0 x 10^-2 mol/dm3 solution of hydrochloric acid, which is fully ionised in water, is diluted with water to 100 cm3. Then 10 cm3 of this diluted solution is further diluted with water to 1000 cm3. What is the pH of the final solution?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "9"
+      ],
+      "ans": "D",
+      "exp": "First dilution is tenfold: c = 1.0 x 10^-2 / 10 = 1.0 x 10^-3 mol/dm3. Second dilution takes 10 cm3 to 1000 cm3, a hundredfold: c = 1.0 x 10^-5 mol/dm3. Since HCl is fully ionised, [H+] = 1.0 x 10^-5 mol/dm3 and pH = 5. (Option B stops after the first dilution; option E is the pOH.)"
+    },
+    {
+      "mock": 10,
+      "slot": 38,
+      "topic": "Acids & bases",
+      "lik": "H",
+      "stem": "Aqueous ethanoic acid is at equilibrium: CH3COOH(aq) <=> H+(aq) + CH3COO-(aq). The solution is diluted with pure water at constant temperature. Which of the following statements is correct?",
+      "options": [
+        "The degree of dissociation decreases, because there are fewer acid molecules per unit volume.",
+        "The value of Ka decreases in proportion to the dilution.",
+        "The degree of dissociation increases, but the concentrations of all species fall, so the pH rises.",
+        "The pH falls, because dilution causes more H+ ions to be produced.",
+        "The equilibrium shifts to the left, towards undissociated CH3COOH."
+      ],
+      "ans": "C",
+      "exp": "Dilution lowers the concentration of dissolved species, so the equilibrium shifts towards the side with the larger number of solute particles: the degree of dissociation increases. However, [H+] still falls, so the pH rises. Ka is a constant that depends only on temperature, not on concentration."
+    },
+    {
+      "mock": 10,
+      "slot": 39,
+      "topic": "Organic chemistry",
+      "lik": "M",
+      "stem": "Serine is an alpha-amino acid whose side chain is -CH2OH. Which set of functional groups is present in a molecule of serine?",
+      "options": [
+        "amino, carboxyl and thiol",
+        "amino, carboxyl and hydroxyl",
+        "amino, carboxyl and amide",
+        "carboxyl, hydroxyl and ester",
+        "amino, hydroxyl and keto"
+      ],
+      "ans": "B",
+      "exp": "Every amino acid contains an amino group (-NH2) and a carboxyl group (-COOH) on the alpha carbon; serine's side chain adds a hydroxyl group (-CH2OH). A thiol side chain belongs to cysteine and an amide side chain to asparagine."
+    },
+    {
+      "mock": 10,
+      "slot": 40,
+      "topic": "Organic chemistry",
+      "lik": "M",
+      "stem": "But-1-ene and but-2-ene are structural isomers with the molecular formula C4H8. Which of the following statements is correct?",
+      "options": [
+        "Both alkenes can exist as cis and trans isomers.",
+        "Neither alkene shows cis-trans isomerism because their C=C bonds rotate freely.",
+        "Only but-1-ene shows cis-trans isomerism, because its double bond is at the end of the carbon chain.",
+        "But-2-ene shows cis-trans isomerism because rotation about its C=C double bond is completely free.",
+        "Only but-2-ene can exist as cis and trans isomers, because in but-1-ene one carbon of the C=C double bond carries two identical hydrogen atoms."
+      ],
+      "ans": "E",
+      "exp": "Restricted rotation about the C=C bond gives cis-trans isomerism only when each double-bond carbon carries two different groups. In but-1-ene, CH2=CH-CH2-CH3, the terminal carbon has two identical hydrogens, so no cis-trans pair exists; in but-2-ene each double-bond carbon has one H and one CH3, so both cis and trans forms exist."
+    },
+    {
+      "mock": 10,
+      "slot": 41,
+      "topic": "Periodic table",
+      "lik": "M",
+      "stem": "Sodium, magnesium and aluminium are consecutive elements in the third period of the periodic table. Which statement is correct?",
+      "options": [
+        "Their atomic radii increase from sodium to aluminium because each atom contains more electrons.",
+        "Their atomic radii decrease from sodium to aluminium because nuclear charge increases while the outer electrons remain in the same shell.",
+        "Their first ionisation energies decrease from sodium to aluminium because the atoms become heavier.",
+        "Aluminium is the least electronegative of the three because metallic character increases across a period.",
+        "Sodium has the smallest atomic radius of the three because it has the fewest electrons."
+      ],
+      "ans": "B",
+      "exp": "Across period 3 the nuclear charge rises from 11 to 13 while the outer electrons enter the same third shell, so the pull on the outer electrons increases and the radii shrink: Na > Mg > Al. First ionisation energy and electronegativity increase across the period, so sodium is the least electronegative."
+    },
+    {
+      "mock": 10,
+      "slot": 42,
+      "topic": "Gas laws",
+      "lik": "M",
+      "stem": "A fixed mass of an ideal gas occupies 6.0 dm3 at 27 °C and 150 kPa. What volume will the same mass of gas occupy at 127 °C and 100 kPa?",
+      "options": [
+        "3.0 dm3",
+        "6.0 dm3",
+        "8.0 dm3",
+        "9.0 dm3",
+        "12.0 dm3"
+      ],
+      "ans": "E",
+      "exp": "V2 = V1 x T2/T1 x P1/P2 = 6.0 x 400/300 x 150/100 = 12.0 dm3, with temperatures in kelvin (27 °C = 300 K, 127 °C = 400 K). Option C applies only the temperature change and option D only the pressure change; option A inverts both ratios."
+    },
+    {
+      "mock": 10,
+      "slot": 43,
+      "topic": "Equilibrium",
+      "lik": "M",
+      "stem": "Nitrogen dioxide dimerises: 2NO2(g) <=> N2O4(g), with delta H = -57 kJ/mol for the forward reaction. An equilibrium mixture of the two gases is heated at constant volume. Which statement is correct?",
+      "options": [
+        "The equilibrium shifts towards NO2 and the value of Kc increases.",
+        "The equilibrium shifts towards N2O4 and the value of Kc increases.",
+        "The equilibrium shifts towards N2O4 and the value of Kc stays the same.",
+        "The equilibrium shifts towards NO2 and the value of Kc decreases.",
+        "The position of equilibrium does not change; only the rates of the forward and reverse reactions increase."
+      ],
+      "ans": "D",
+      "exp": "Raising the temperature favours the endothermic direction, which here is the reverse reaction (towards brown NO2), so the mixture shifts towards NO2. Kc changes only with temperature, and for a forward reaction that is exothermic its value decreases on heating."
+    },
+    {
+      "mock": 10,
+      "slot": 44,
+      "topic": "Aromatic compounds",
+      "lik": "M",
+      "stem": "Which of the following statements about the bonding in benzene, C6H6, is correct?",
+      "options": [
+        "Benzene contains three separate C=C double bonds alternating with single bonds, which explains why it reacts mainly by addition.",
+        "The benzene ring is non-planar, with its pi electrons localised on alternating carbon atoms.",
+        "The six carbon atoms form a planar ring with six delocalised pi electrons spread over the whole ring, making all six C-C bonds equivalent and intermediate in length between single and double bonds.",
+        "All six C-C bonds in benzene are single bonds, and the sixth valence electron of each carbon moves freely like the electrons of a metal.",
+        "Benzene undergoes addition in preference to substitution because addition preserves the delocalised system."
+      ],
+      "ans": "C",
+      "exp": "Each carbon is sp2 hybridised and contributes one electron to a pi system delocalised over all six carbons, so the ring is planar with six identical C-C bonds of about 139 pm. Because delocalisation stabilises the ring, benzene reacts by substitution, which preserves the aromatic system, rather than by addition, which would destroy it."
+    },
+    {
+      "mock": 10,
+      "slot": 45,
+      "topic": "Kinetics",
+      "lik": "M",
+      "stem": "For a given reversible reaction, the value of the equilibrium constant Kc is changed by which of the following?",
+      "options": [
+        "A change in temperature.",
+        "Adding a catalyst.",
+        "Increasing the concentration of a reactant.",
+        "Increasing the total pressure.",
+        "Adding an inert gas at constant volume."
+      ],
+      "ans": "A",
+      "exp": "Only temperature changes the value of Kc. Concentration, pressure and inert-gas additions can shift the equilibrium position but leave Kc unchanged. A catalyst offers an alternative route of lower activation energy and accelerates the forward and reverse reactions equally, so it changes neither the position of equilibrium nor Kc."
+    },
+    {
+      "mock": 10,
+      "slot": 46,
+      "topic": "Nomenclature",
+      "lik": "M",
+      "stem": "What is the chemical formula of iron(III) sulfate?",
+      "options": [
+        "FeSO4",
+        "Fe2(SO4)3",
+        "Fe(SO4)3",
+        "Fe3(SO4)2",
+        "Fe2S3"
+      ],
+      "ans": "B",
+      "exp": "Iron(III) is Fe3+ and sulfate is SO4^2-; the least common multiple of the charges is 6, giving two Fe3+ ions for three sulfate ions: Fe2(SO4)3. FeSO4 is iron(II) sulfate, and Fe2S3 wrongly treats sulfate as separate S and O atoms."
+    },
+    {
+      "mock": 10,
+      "slot": 47,
+      "topic": "Atomic structure",
+      "lik": "M",
+      "stem": "Naturally occurring potassium contains the radioactive isotope potassium-40. How many neutrons are there in one atom of potassium-40? (Potassium has atomic number 19.)",
+      "options": [
+        "19",
+        "20",
+        "21",
+        "40",
+        "59"
+      ],
+      "ans": "C",
+      "exp": "The number of neutrons is the mass number minus the atomic number: 40 - 19 = 21. Option A is the number of protons and option D is the mass number itself; potassium-39 would have 20 neutrons."
+    },
+    {
+      "mock": 11,
+      "slot": 33,
+      "topic": "Stoichiometry",
+      "lik": "H",
+      "stem": "What is the mass of 0.25 mol of copper(II) sulfate, CuSO4? (Cu = 64, S = 32, O = 16)",
+      "options": [
+        "32 g",
+        "40 g",
+        "64 g",
+        "160 g",
+        "640 g"
+      ],
+      "ans": "B",
+      "exp": "M(CuSO4) = 64 + 32 + 4 x 16 = 160 g/mol; m = n x M = 0.25 x 160 = 40 g. Option D is the mass of a full mole, and option E comes from inverting the relationship (160/0.25 = 640)."
+    },
+    {
+      "mock": 11,
+      "slot": 34,
+      "topic": "Stoichiometry",
+      "lik": "H",
+      "stem": "28 g of nitrogen gas (N2, M = 28 g/mol) is mixed with 9.0 g of hydrogen gas (H2, M = 2.0 g/mol) and the mixture is reacted according to: N2(g) + 3H2(g) -> 2NH3(g) (NH3, M = 17 g/mol). What is the maximum mass of ammonia that can be produced?",
+      "options": [
+        "2.0 g",
+        "17 g",
+        "34 g",
+        "51 g",
+        "68 g"
+      ],
+      "ans": "C",
+      "exp": "n(N2) = 28/28 = 1.0 mol; n(H2) = 9.0/2.0 = 4.5 mol. One mole of N2 consumes 3.0 mol of H2, so hydrogen is in excess and N2 is the limiting reagent. It yields 2.0 mol of NH3: m = 2.0 x 17 = 34 g. (Treating H2 as limiting gives 4.5 x 2/3 x 17 = 51 g, option D.)"
+    },
+    {
+      "mock": 11,
+      "slot": 35,
+      "topic": "Stoichiometry",
+      "lik": "H",
+      "stem": "An oxide of sulfur is found by analysis to contain 50.0% sulfur and 50.0% oxygen by mass. What is its empirical formula? (S = 32, O = 16)",
+      "options": [
+        "SO",
+        "SO2",
+        "SO3",
+        "S2O",
+        "SO4"
+      ],
+      "ans": "B",
+      "exp": "Taking 100 g of compound: n(S) = 50.0/32 = 1.56 mol and n(O) = 50.0/16 = 3.13 mol. Dividing by the smaller value gives the ratio 1 : 2, so the empirical formula is SO2."
+    },
+    {
+      "mock": 11,
+      "slot": 36,
+      "topic": "Solutions",
+      "lik": "M",
+      "stem": "5.85 g of sodium chloride (M = 58.5 g/mol) is dissolved in water and the solution is made up to exactly 500 cm3. What is the concentration of the solution?",
+      "options": [
+        "0.050 mol/dm3",
+        "0.10 mol/dm3",
+        "0.20 mol/dm3",
+        "0.40 mol/dm3",
+        "0.50 mol/dm3"
+      ],
+      "ans": "C",
+      "exp": "n = m/M = 5.85/58.5 = 0.10 mol; V = 500 cm3 = 0.500 dm3; c = n/V = 0.10/0.500 = 0.20 mol/dm3. Option B is the mole amount alone, without dividing by the volume."
+    },
+    {
+      "mock": 11,
+      "slot": 37,
+      "topic": "Acids & bases",
+      "lik": "H",
+      "stem": "Potassium hydroxide is a strong base that dissociates completely in water. What is the pH at 25 °C of a 1.0 x 10^-4 mol/dm3 solution of KOH? (Kw = 1.0 x 10^-14)",
+      "options": [
+        "4",
+        "7",
+        "10",
+        "11",
+        "14"
+      ],
+      "ans": "C",
+      "exp": "KOH dissociates fully, so [OH-] = 1.0 x 10^-4 mol/dm3 and pOH = 4. Therefore pH = 14 - 4 = 10 at 25 °C. Option A is the pOH, not the pH."
+    },
+    {
+      "mock": 11,
+      "slot": 38,
+      "topic": "Acids & bases",
+      "lik": "H",
+      "stem": "Hydrochloric acid is titrated with sodium hydroxide solution. Which of the following statements is correct?",
+      "options": [
+        "At the equivalence point neither reactant is in excess; since the salt NaCl does not hydrolyse, the solution has pH 7 at 25 °C.",
+        "At the equivalence point the acid is still in excess, so the pH is below 7.",
+        "At the equivalence point of any titration, weak or strong, the pH is exactly 7.",
+        "The equivalence point is defined as the point at which the indicator changes colour.",
+        "At the equivalence point, equal masses of acid and base have been added."
+      ],
+      "ans": "A",
+      "exp": "Equivalence means equal moles of H+ and OH- have reacted. With a strong acid and strong base the product, NaCl, leaves the solution neutral (pH 7 at 25 °C); at the equivalence point of a weak acid with a strong base the conjugate base makes pH > 7. The indicator colour change defines the endpoint, and equal moles, not equal masses, are required."
+    },
+    {
+      "mock": 11,
+      "slot": 39,
+      "topic": "Redox",
+      "lik": "H",
+      "stem": "In acidic solution, permanganate ions oxidise ethanedioate (oxalate) ions: MnO4- + C2O4^2- + H+ -> Mn2+ + CO2 + H2O. When the equation is balanced with the smallest whole-number coefficients, what is the coefficient of H+?",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "16",
+        "32"
+      ],
+      "ans": "D",
+      "exp": "Half equations: MnO4- + 8H+ + 5e- -> Mn2+ + 4H2O and C2O4^2- -> 2CO2 + 2e-. Multiplying by 2 and by 5 and adding gives 2MnO4- + 5C2O4^2- + 16H+ -> 2Mn2+ + 10CO2 + 8H2O, so the coefficient of H+ is 16."
+    },
+    {
+      "mock": 11,
+      "slot": 40,
+      "topic": "Bonding",
+      "lik": "H",
+      "stem": "Which of the following statements about the octet rule is correct?",
+      "options": [
+        "Phosphorus in PCl5 obeys the octet rule, because each chlorine atom shares one electron with it.",
+        "BF3 violates the octet rule because boron carries more than eight valence electrons.",
+        "Nitrogen in NH3 has an expanded octet of ten electrons.",
+        "Compounds of period 3 elements such as PCl5 and SF6 cannot exist because they exceed the octet.",
+        "Boron in BF3 has only six electrons in its valence shell, so BF3 can accept an electron pair and act as a Lewis acid."
+      ],
+      "ans": "E",
+      "exp": "Boron has three valence electrons and forms three bonds, leaving only six electrons around it: an electron-deficient exception to the octet rule that lets BF3 accept a lone pair (Lewis acid, as in the adduct with NH3). Period 3 atoms can expand their octets, so PCl5 (10 electrons) and SF6 (12 electrons) exist; nitrogen in NH3 simply has a lone pair, not an expanded octet."
+    },
+    {
+      "mock": 11,
+      "slot": 41,
+      "topic": "Periodic table",
+      "lik": "M",
+      "stem": "Which of the following statements about the halogens (Group 17) is correct?",
+      "options": [
+        "Their reactivity increases down the group because the outer shell is further from the nucleus.",
+        "Their reactivity decreases down the group because the atoms get larger and attract an additional electron less strongly.",
+        "Bromine displaces chlorine from potassium chloride solution, because bromine is the stronger oxidising agent.",
+        "Their boiling points decrease down the group, so astatine is a gas.",
+        "They are all good electrical conductors in the liquid state."
+      ],
+      "ans": "B",
+      "exp": "Halogens react by gaining an electron; down the group the atomic radius and shielding increase, so the attraction for an extra electron weakens and reactivity falls (chlorine displaces bromine and iodine, never the reverse). Boiling points rise down the group, from gaseous chlorine to solid iodine, and halogens are non-conductors."
+    },
+    {
+      "mock": 11,
+      "slot": 42,
+      "topic": "Thermochemistry",
+      "lik": "M",
+      "stem": "The standard enthalpies of formation of methane CH4(g), carbon dioxide CO2(g) and liquid water H2O(l) are -75, -394 and -286 kJ/mol respectively. What is the enthalpy change for the complete combustion of one mole of methane: CH4(g) + 2O2(g) -> CO2(g) + 2H2O(l)? (The enthalpy of formation of O2(g) is zero.)",
+      "options": [
+        "-1041 kJ/mol",
+        "-891 kJ/mol",
+        "-605 kJ/mol",
+        "+605 kJ/mol",
+        "+891 kJ/mol"
+      ],
+      "ans": "B",
+      "exp": "delta H = sum of delta Hf(products) - sum of delta Hf(reactants) = [(-394) + 2 x (-286)] - (-75) = -891 kJ/mol. Option C forgets to double the water term (-394 - 286 + 75 = -605), and option A uses the wrong sign for methane (-394 - 572 - 75 = -1041)."
+    },
+    {
+      "mock": 11,
+      "slot": 43,
+      "topic": "Equilibrium",
+      "lik": "M",
+      "stem": "Hydrogen and iodine reach equilibrium: H2(g) + I2(g) <=> 2HI(g). At equilibrium the concentrations are [H2] = 0.20 mol/dm3, [I2] = 0.30 mol/dm3 and [HI] = 0.60 mol/dm3. What is the value of Kc?",
+      "options": [
+        "0.17",
+        "1.2",
+        "2.45",
+        "6.0",
+        "10"
+      ],
+      "ans": "D",
+      "exp": "Kc = [HI]^2 / ([H2][I2]) = (0.60)^2 / (0.20 x 0.30) = 0.36 / 0.060 = 6.0. Option E forgets to square [HI] (0.60/0.060 = 10) and option A is the inverse ratio."
+    },
+    {
+      "mock": 11,
+      "slot": 44,
+      "topic": "Kinetics",
+      "lik": "M",
+      "stem": "For the reaction A + B -> products at 25 °C, the following initial rates were measured. Experiment 1: [A] = 0.10 mol/dm3, [B] = 0.10 mol/dm3, rate = 0.0020 mol/(dm3 s). Experiment 2: [A] = 0.20 mol/dm3, [B] = 0.10 mol/dm3, rate = 0.0040 mol/(dm3 s). Experiment 3: [A] = 0.10 mol/dm3, [B] = 0.20 mol/dm3, rate = 0.0080 mol/(dm3 s). What is the rate law for this reaction?",
+      "options": [
+        "rate = k[A][B]",
+        "rate = k[A]^2[B]",
+        "rate = k[A][B]^2",
+        "rate = k[A]^2[B]^2",
+        "rate = k[B]^2"
+      ],
+      "ans": "C",
+      "exp": "From experiment 1 to 2, doubling [A] at constant [B] doubles the rate (0.0020 to 0.0040), so the reaction is first order in A. From experiment 1 to 3, doubling [B] at constant [A] quadruples the rate (0.0020 to 0.0080), so it is second order in B. The rate law is rate = k[A][B]^2 (overall order 3)."
+    },
+    {
+      "mock": 11,
+      "slot": 45,
+      "topic": "Organic chemistry",
+      "lik": "M",
+      "stem": "An alkane consists of a chain of five carbon atoms, with one methyl group attached to the second carbon of the chain and another methyl group attached to the fourth carbon. What is the IUPAC name of this alkane?",
+      "options": [
+        "3,5-dimethylpentane",
+        "2,4-dimethylpentane",
+        "2,4-dimethylhexane",
+        "2-methylhexane",
+        "2,3-dimethylpentane"
+      ],
+      "ans": "B",
+      "exp": "The longest continuous chain has five carbons (pentane), and the two methyl substituents sit on carbons 2 and 4 when numbered for the lowest locants: 2,4-dimethylpentane, seven carbons in total. Option A uses the wrong numbering direction, and a hexane parent chain is not present."
+    },
+    {
+      "mock": 11,
+      "slot": 46,
+      "topic": "Organic chemistry",
+      "lik": "M",
+      "stem": "Methane reacts with chlorine gas in sunlight: CH4 + Cl2 -> CH3Cl + HCl, followed by further substitution steps. What type of reaction is the first of these steps, CH4 -> CH3Cl?",
+      "options": [
+        "an electrophilic addition",
+        "a nucleophilic substitution",
+        "an elimination",
+        "a free-radical substitution",
+        "a condensation"
+      ],
+      "ans": "D",
+      "exp": "Ultraviolet light homolyses Cl2 into chlorine free radicals, which replace a hydrogen atom of methane with a chlorine atom. A C-H bond is broken and a new C-Cl bond formed without changing the carbon skeleton, so the step is a free-radical substitution, not an addition (methane has no pi bond to add across)."
+    },
+    {
+      "mock": 11,
+      "slot": 47,
+      "topic": "Atomic structure",
+      "lik": "M",
+      "stem": "What is the electron configuration of an iron(II) ion, Fe2+? (Iron has atomic number 26.)",
+      "options": [
+        "1s2 2s2 2p6 3s2 3p6 3d6",
+        "1s2 2s2 2p6 3s2 3p6 3d4 4s2",
+        "1s2 2s2 2p6 3s2 3p6 3d5 4s1",
+        "1s2 2s2 2p6 3s2 3p6 3d8",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d6"
+      ],
+      "ans": "A",
+      "exp": "Neutral iron is 1s2 2s2 2p6 3s2 3p6 4s2 3d6. On ionisation the 4s electrons are removed first because they are the outermost, giving Fe2+ (24 electrons): 1s2 2s2 2p6 3s2 3p6 3d6. Option B wrongly strips 3d electrons while keeping 4s, and option E is the neutral atom."
+    }
+  ]
+}

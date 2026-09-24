@@ -1,0 +1,271 @@
+{
+  "agent": "physmath",
+  "questions": [
+    {
+      "mock": 10,
+      "slot": 48,
+      "topic": "Inequalities",
+      "lik": "H",
+      "stem": "Solve the inequality sqrt(2x - 5) < 9.",
+      "options": ["x < 43", "x <= 43", "x >= 5/2", "5/2 <= x < 43", "5/2 < x < 43"],
+      "ans": "D",
+      "exp": "Domain: 2x - 5 >= 0, so x >= 5/2. Both sides are non negative, so square: 2x - 5 < 81, giving x < 43. Together: 5/2 <= x < 43. The endpoint 5/2 is allowed because sqrt(0) = 0 < 9."
+    },
+    {
+      "mock": 10,
+      "slot": 49,
+      "topic": "Trigonometry",
+      "lik": "H",
+      "stem": "Solve the inequality cos(x) <= 1/2 for 0 <= x <= 2pi.",
+      "options": ["pi/3 < x < 5pi/3", "0 <= x <= pi/3 or 5pi/3 <= x <= 2pi", "pi/3 <= x <= 2pi/3", "2pi/3 <= x <= 4pi/3", "pi/3 <= x <= 5pi/3"],
+      "ans": "E",
+      "exp": "cos(x) = 1/2 at x = pi/3 and x = 5pi/3, and between these values on [0, 2pi] the cosine falls below 1/2 (at x = pi, cos = -1). So the solution is pi/3 <= x <= 5pi/3."
+    },
+    {
+      "mock": 10,
+      "slot": 50,
+      "topic": "Sets",
+      "lik": "H",
+      "stem": "In a survey of 100 tourists visiting Rome, 62 say they will visit the Colosseum, 55 say they will visit the Vatican Museums, and 17 say they will visit neither of the two. How many of the tourists will visit both attractions?",
+      "options": ["17", "28", "34", "38", "117"],
+      "ans": "C",
+      "exp": "Visiting at least one: 100 - 17 = 83. Inclusion-exclusion: both = 62 + 55 - 83 = 34."
+    },
+    {
+      "mock": 10,
+      "slot": 51,
+      "topic": "Polynomials",
+      "lik": "H",
+      "stem": "The polynomial P(x) = x^3 + ax + b is exactly divisible by (x - 1), and when P(x) is divided by (x + 2) the remainder is 6. What is the value of a?",
+      "options": ["-5", "-3", "1", "4", "5"],
+      "ans": "A",
+      "exp": "Remainder theorem: P(1) = 1 + a + b = 0 and P(-2) = -8 - 2a + b = 6. Subtracting the second from the first: 9 + 3a = -6, so a = -5 (and b = 4). Check with x^3 - 5x + 4: P(1) = 0, P(-2) = 6."
+    },
+    {
+      "mock": 10,
+      "slot": 52,
+      "topic": "Geometry",
+      "lik": "H",
+      "stem": "A triangle has perimeter 72 cm and its side lengths are in the ratio 3 : 4 : 5. What is the area of the triangle?",
+      "options": ["108 cm2", "216 cm2", "270 cm2", "360 cm2", "432 cm2"],
+      "ans": "B",
+      "exp": "3 + 4 + 5 = 12 parts, each 72/12 = 6 cm, so the sides are 18, 24 and 30 cm. Since 18^2 + 24^2 = 30^2, the triangle is right angled, so area = (18)(24)/2 = 216 cm2."
+    },
+    {
+      "mock": 10,
+      "slot": 53,
+      "topic": "Algebra",
+      "lik": "H",
+      "stem": "Marco is 26 years old and his sister Elisa is 14 years old. After how many years will Marco be exactly one and a half times as old as Elisa?",
+      "options": ["2", "5", "10", "12", "24"],
+      "ans": "C",
+      "exp": "26 + x = 1.5(14 + x) gives 26 + x = 21 + 1.5x, so 0.5x = 5 and x = 10. Check: after 10 years, 36 = 1.5 x 24."
+    },
+    {
+      "mock": 10,
+      "slot": 54,
+      "topic": "Algebra",
+      "lik": "H",
+      "stem": "Solve the equation 3^(x+3) = 9^(x-1).",
+      "options": ["-5", "1", "3", "5", "7"],
+      "ans": "D",
+      "exp": "Write both sides as powers of 3: 9^(x-1) = 3^(2x-2). Then x + 3 = 2x - 2, so x = 5. Check: 3^8 = 6561 and 9^4 = 6561."
+    },
+    {
+      "mock": 10,
+      "slot": 55,
+      "topic": "Kinematics",
+      "lik": "H",
+      "stem": "On a straight motorway a car travels at a constant 108 km/h. A truck ahead travels in the same direction at a constant 25 m/s. At one instant the truck is 100 m in front of the car. How long does it take the car to draw level with the truck?",
+      "options": ["3.3 s", "4 s", "10 s", "20 s", "33 s"],
+      "ans": "D",
+      "exp": "Convert: 108 km/h = 108/3.6 = 30 m/s. Relative speed = 30 - 25 = 5 m/s. Time to close 100 m: t = 100/5 = 20 s."
+    },
+    {
+      "mock": 10,
+      "slot": 56,
+      "topic": "Electricity",
+      "lik": "H",
+      "stem": "A 60 V battery of negligible internal resistance is connected to an 8 Ω resistor in series with a parallel combination of a 20 Ω resistor and a 30 Ω resistor. What current does the battery supply?",
+      "options": ["2 A", "3 A", "4 A", "5 A", "7.5 A"],
+      "ans": "B",
+      "exp": "Parallel pair: (20 x 30)/(20 + 30) = 12 Ω. Total resistance = 8 + 12 = 20 Ω. I = V/R = 60/20 = 3 A."
+    },
+    {
+      "mock": 10,
+      "slot": 57,
+      "topic": "Electricity",
+      "lik": "H",
+      "stem": "A current is passed through molten potassium chloride held between two electrodes. Which one of the following statements is correct?",
+      "options": [
+        "The K+ ions drift toward the positive electrode and the Cl- ions toward the negative electrode.",
+        "The direction of the conventional current in the liquid is the direction of drift of the positive ions.",
+        "The conventional current in the liquid is carried only by the negative ions.",
+        "The positive ions and the negative ions drift in the same direction.",
+        "No current can flow, because the ions of a molten salt are not free to move."
+      ],
+      "ans": "B",
+      "exp": "In the liquid, K+ ions drift toward the negative electrode (cathode) and Cl- ions toward the positive electrode (anode); option A reverses these destinations. Conventional current is defined as the direction of positive charge flow, so it points along the drift of the K+ ions. Both ion species contribute to the current."
+    },
+    {
+      "mock": 10,
+      "slot": 58,
+      "topic": "Gravitation",
+      "lik": "H",
+      "stem": "The acceleration due to gravity at the surface of a planet of radius R is g. At what height h above the surface has the gravitational acceleration fallen to exactly one quarter of its surface value?",
+      "options": ["R/4", "R/2", "R", "2R", "3R"],
+      "ans": "C",
+      "exp": "Since g = GM/r^2, the acceleration is proportional to 1/r^2. To reduce g by a factor of 4, the distance from the centre must double: r = 2R. Height above the surface: h = 2R - R = R."
+    },
+    {
+      "mock": 10,
+      "slot": 59,
+      "topic": "Dynamics",
+      "lik": "H",
+      "stem": "A 10 kg box is pulled along a horizontal floor by a horizontal force of 60 N. The coefficient of kinetic friction between the box and the floor is 0.40. What is the acceleration of the box? (g = 10 m/s2)",
+      "options": ["0.4 m/s2", "2 m/s2", "5.6 m/s2", "6 m/s2", "20 m/s2"],
+      "ans": "B",
+      "exp": "Normal force N = mg = 10 x 10 = 100 N. Friction = 0.40 x 100 = 40 N. Net force = 60 - 40 = 20 N. a = F/m = 20/10 = 2 m/s2."
+    },
+    {
+      "mock": 10,
+      "slot": 60,
+      "topic": "Fluids",
+      "lik": "H",
+      "stem": "A rectangular drain hatch of area 0.5 m2 lies flat on the bottom of a swimming pool filled to a depth of 4.0 m with water of density 1000 kg/m3. What force does the water exert on the hatch? (g = 10 m/s2; ignore atmospheric pressure.)",
+      "options": ["2000 N", "4000 N", "20000 N", "40000 N", "80000 N"],
+      "ans": "C",
+      "exp": "Gauge pressure at the bottom: P = rho g h = 1000 x 10 x 4.0 = 40000 Pa. Force = P x A = 40000 x 0.5 = 20000 N."
+    },
+    {
+      "mock": 11,
+      "slot": 48,
+      "topic": "Exponents/logs",
+      "lik": "M",
+      "stem": "Solve the equation log_2(x) + log_2(x - 6) = 4.",
+      "options": ["x = -2 only", "x = 8 or x = -2", "x = 16", "There is no solution", "x = 8 only"],
+      "ans": "E",
+      "exp": "Combine: log_2(x(x - 6)) = 4, so x^2 - 6x = 16, x^2 - 6x - 16 = 0, (x - 8)(x + 2) = 0. The root x = -2 is rejected because both logarithms require x > 6. So x = 8. Check: log_2(8) + log_2(2) = 3 + 1 = 4."
+    },
+    {
+      "mock": 11,
+      "slot": 49,
+      "topic": "Probability",
+      "lik": "M",
+      "stem": "A committee of 3 people is chosen at random from a group of 4 chemists and 6 physicists. What is the probability that the committee contains exactly one chemist?",
+      "options": ["1/6", "3/10", "1/2", "3/5", "5/6"],
+      "ans": "C",
+      "exp": "Favourable: C(4,1) x C(6,2) = 4 x 15 = 60. Total: C(10,3) = 120. Probability = 60/120 = 1/2."
+    },
+    {
+      "mock": 11,
+      "slot": 50,
+      "topic": "Functions",
+      "lik": "M",
+      "stem": "If f(x) = x^2 - 4x, which of the following expressions is equal to f(x + 3) - 2 for every value of x?",
+      "options": ["x^2 + 2x - 5", "x^2 + 2x - 1", "x^2 - 4x + 1", "x^2 - 4x - 5", "x^2 - 10x + 19"],
+      "ans": "A",
+      "exp": "f(x + 3) = (x + 3)^2 - 4(x + 3) = x^2 + 6x + 9 - 4x - 12 = x^2 + 2x - 3. Subtract 2: x^2 + 2x - 5."
+    },
+    {
+      "mock": 11,
+      "slot": 51,
+      "topic": "Trigonometry",
+      "lik": "M",
+      "stem": "How many values of x satisfy the equation cos(2x) = 1/2 in the interval 0 <= x <= 2pi?",
+      "options": ["1", "2", "3", "4", "6"],
+      "ans": "D",
+      "exp": "For 0 <= x <= 2pi, the argument 2x covers [0, 4pi]. There cos(t) = 1/2 at t = pi/3, 5pi/3, 7pi/3, 11pi/3, giving x = pi/6, 5pi/6, 7pi/6, 11pi/6. That is 4 solutions."
+    },
+    {
+      "mock": 11,
+      "slot": 52,
+      "topic": "Inequalities",
+      "lik": "M",
+      "stem": "Solve the inequality (x + 1)/(x - 2) >= 0.",
+      "options": ["-1 <= x < 2", "x <= -1 or x >= 2", "x < -1 or x > 2", "x >= -1 and x < 2", "x <= -1 or x > 2"],
+      "ans": "E",
+      "exp": "Critical points: x = -1 (numerator zero, fraction equals 0, allowed) and x = 2 (denominator zero, excluded). Testing signs, the fraction is non negative for x <= -1 or x > 2."
+    },
+    {
+      "mock": 11,
+      "slot": 53,
+      "topic": "Geometry",
+      "lik": "M",
+      "stem": "A square is inscribed in a circle of radius 6 cm. What is the area of the square?",
+      "options": ["24 cm2", "36 cm2", "72 cm2", "108 cm2", "144 cm2"],
+      "ans": "C",
+      "exp": "The diagonal of the inscribed square equals the diameter, d = 12 cm. For a square, area = d^2/2 = 144/2 = 72 cm2."
+    },
+    {
+      "mock": 11,
+      "slot": 54,
+      "topic": "Series",
+      "lik": "M",
+      "stem": "In an arithmetic sequence the third term is 11 and the eighth term is 31. What is the sum of the first ten terms?",
+      "options": ["105", "210", "290", "390", "420"],
+      "ans": "B",
+      "exp": "Common difference d = (31 - 11)/(8 - 3) = 4. First term a = 11 - 2d = 3. Sum S10 = (10/2)(2a + 9d) = 5(6 + 36) = 210."
+    },
+    {
+      "mock": 11,
+      "slot": 55,
+      "topic": "Projectiles",
+      "lik": "H",
+      "stem": "A ball is kicked from level ground with an initial speed of 20 m/s at an angle of 30 degrees above the horizontal. What is the maximum height it reaches? (g = 10 m/s2; sin 30 degrees = 0.5; cos 30 degrees = 0.87; ignore air resistance.)",
+      "options": ["2.5 m", "5 m", "10 m", "20 m", "40 m"],
+      "ans": "B",
+      "exp": "Vertical component v0y = 20 x 0.5 = 10 m/s. At the top, v0y^2 = 2gh, so h = 10^2/(2 x 10) = 5 m."
+    },
+    {
+      "mock": 11,
+      "slot": 56,
+      "topic": "Energy",
+      "lik": "H",
+      "stem": "A ball of mass 4.0 kg rolls along level ground with kinetic energy 200 J. What is its speed?",
+      "options": ["5 m/s", "10 m/s", "25 m/s", "50 m/s", "100 m/s"],
+      "ans": "B",
+      "exp": "Kinetic energy = (1/2)mv^2: 200 = 2v^2, so v^2 = 100 and v = 10 m/s."
+    },
+    {
+      "mock": 11,
+      "slot": 57,
+      "topic": "Momentum",
+      "lik": "H",
+      "stem": "On a frictionless horizontal track a trolley of mass 2.0 kg moving at 6.0 m/s collides head-on and elastically with a stationary trolley of mass 4.0 kg. What is the speed of the 4.0 kg trolley immediately after the collision?",
+      "options": ["2 m/s", "3 m/s", "4 m/s", "6 m/s", "12 m/s"],
+      "ans": "C",
+      "exp": "For an elastic collision with m2 at rest: v2 = 2m1u1/(m1 + m2) = 2(2.0)(6.0)/6.0 = 4 m/s, and v1 = (m1 - m2)u1/(m1 + m2) = -2 m/s. Check momentum: 2(6.0) = 12 = 2(-2) + 4(4) kg m/s; kinetic energy: 36 = 4 + 32 J."
+    },
+    {
+      "mock": 11,
+      "slot": 58,
+      "topic": "Buoyancy",
+      "lik": "M",
+      "stem": "An object of weight 50 N and density 2500 kg/m3 hangs fully submerged in water of density 1000 kg/m3, held at rest by a vertical string. What is the tension in the string? (g = 10 m/s2.)",
+      "options": ["12.5 N", "20 N", "30 N", "50 N", "70 N"],
+      "ans": "C",
+      "exp": "Mass = 50/10 = 5 kg; volume = 5/2500 = 0.002 m3. Upthrust = 1000 x 10 x 0.002 = 20 N. Equilibrium: T = 50 - 20 = 30 N."
+    },
+    {
+      "mock": 11,
+      "slot": 59,
+      "topic": "Calorimetry",
+      "lik": "M",
+      "stem": "How much heat is needed to raise the temperature of 0.30 kg of olive oil from 20 degrees C to 70 degrees C? The specific heat capacity of the oil is 2000 J/(kg K); ignore heat losses.",
+      "options": ["3.0 kJ", "15 kJ", "30 kJ", "60 kJ", "120 kJ"],
+      "ans": "C",
+      "exp": "Q = m c (change in T) = 0.30 x 2000 x 50 = 30000 J = 30 kJ."
+    },
+    {
+      "mock": 11,
+      "slot": 60,
+      "topic": "Electricity",
+      "lik": "M",
+      "stem": "A 12 V battery of negligible internal resistance is connected directly across a single 8 Ω resistor. What is the power dissipated in the resistor?",
+      "options": ["1.5 W", "18 W", "24 W", "96 W", "144 W"],
+      "ans": "B",
+      "exp": "P = V^2/R = 12^2/8 = 144/8 = 18 W. Equivalently I = V/R = 1.5 A and P = VI = 12 x 1.5 = 18 W."
+    }
+  ]
+}

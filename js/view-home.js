@@ -14,9 +14,12 @@ export async function mount(ctx) {
   const manifest = await loadManifest();
   const attempts = store.allAttempts();
 
+  const nMocks = manifest.exams.filter((e) => e.kind === "mock").length;
+  const nDrills = manifest.exams.filter((e) => e.kind === "gk_drill" || e.kind === "repair_drill").length;
+  const nBanks = manifest.exams.filter((e) => e.kind === "bank").length;
   main.append(el("div", { class: "page-head" },
     el("h1", { text: "Papers" }),
-    el("p", { class: "page-sub", text: "Nine full mocks, two drills and four hard question banks. Progress autosaves; leave and resume any time." })));
+    el("p", { class: "page-sub", text: nMocks + " full mocks, " + nDrills + " drills and " + nBanks + " question banks. Progress autosaves; leave and resume any time." })));
 
   // resume card
   const inProgress = attempts

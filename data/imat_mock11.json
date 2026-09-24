@@ -1,0 +1,1489 @@
+{
+ "schema": 1,
+ "id": "imat_mock11",
+ "title": "IMAT MOCK EXAM 11: Final Dress Rehearsal",
+ "kind": "mock",
+ "durationSec": 6000,
+ "maxTenths": 900,
+ "targetScore": 42,
+ "sections": [
+  {
+   "code": "A",
+   "from": 1,
+   "to": 9,
+   "label": "Section A - Reading Skills, General Knowledge & Logical Reasoning",
+   "short": "Reasoning"
+  },
+  {
+   "code": "B",
+   "from": 10,
+   "to": 32,
+   "label": "Section B - Biology",
+   "short": "Biology"
+  },
+  {
+   "code": "C",
+   "from": 33,
+   "to": 47,
+   "label": "Section C - Chemistry",
+   "short": "Chemistry"
+  },
+  {
+   "code": "D",
+   "from": 48,
+   "to": 54,
+   "label": "Section D - Mathematics",
+   "short": "Mathematics"
+  },
+  {
+   "code": "E",
+   "from": 55,
+   "to": 60,
+   "label": "Section E - Physics",
+   "short": "Physics"
+  }
+ ],
+ "bankVersion": "b5e56c9b9",
+ "questions": [
+  {
+   "n": 1,
+   "stem": "Memories formed during the day are initially fragile. In deep sleep, patterns of activity recorded in the hippocampus replay the firing sequences that occurred while a task was being learned, and this replay coincides with brief rhythmic events that coordinate communication between the hippocampus and the cortex. In rodents, experimentally disrupting these replay events selectively impairs later performance on the learned task while leaving performance on other tasks intact. In humans, volunteers kept awake after memorising a list of words recall fewer items the next day than volunteers allowed to sleep, even when both groups are tested at the same interval after learning. On this evidence, sleep is not a passive interruption of mental life but an active part of how new memories become stable.\n\nWhich of the following statements is most strongly supported by the passage?",
+   "options": [
+    "All human memories are formed during deep sleep.",
+    "Disrupting hippocampal replay impairs rodents' performance on every task that is tested.",
+    "Sleep appears to play an active role in stabilising newly formed memories.",
+    "People kept awake after learning remember more because less time has passed since learning.",
+    "Staying awake after memorising a word list has no effect on next-day recall in humans."
+   ],
+   "ans": "C",
+   "exp": "The concluding sentence states that sleep is 'an active part of how new memories become stable', summarising the replay, disruption and human sleep-deprivation findings, so C follows. A is contradicted because memories are formed during the day and stabilised during sleep; B is contradicted by 'selectively' and the intact performance on other tasks; D is contradicted because both groups are tested at the same interval and the sleepers recall more; E directly contradicts the human experiment described.",
+   "perm": [
+    2,
+    0,
+    1,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading comprehension",
+   "lik": "H"
+  },
+  {
+   "n": 2,
+   "stem": "Wind and solar generators share a property that conventional power plants do not: their output follows the weather rather than demand. On windy spring afternoons a grid may receive more electricity than it can use, while on still winter evenings, when demand peaks, renewable output can fall close to zero. Grid-scale batteries installed in recent years address part of this mismatch by shifting surplus electricity across a few hours, and they have become cheap enough to be deployed in large numbers. They cannot, however, shift a summer surplus to a winter deficit, because storing electricity for months remains far too expensive with current technology. Electricity systems that rely heavily on wind and solar therefore still need some combination of long-duration storage, flexible demand, deliberately overbuilt generation and backup plants that can be counted on whatever the weather.\n\nWhich of the following statements is most strongly supported by the passage?",
+   "options": [
+    "Grid-scale batteries are already able to store summer surplus electricity for use in winter.",
+    "The output of wind and solar plants follows electricity demand more closely than that of conventional plants.",
+    "Batteries can help balance renewable supply and demand over periods of a few hours, but not over whole seasons.",
+    "Because batteries have become cheap, overbuilding renewable generation is no longer necessary.",
+    "Flexible demand on its own can replace all backup generation in a renewable-based system."
+   ],
+   "ans": "C",
+   "exp": "The passage says batteries shift surplus electricity 'across a few hours' but 'cannot shift a summer surplus to a winter deficit', which is exactly C. A and D are directly contradicted by those sentences and by the closing list, which still includes overbuilt generation; B reverses the opening claim that renewable output follows the weather rather than demand; E is contradicted because the passage calls for a combination of measures including backup plants that work whatever the weather.",
+   "perm": [
+    0,
+    1,
+    3,
+    4,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Reading comprehension",
+   "lik": "H"
+  },
+  {
+   "n": 3,
+   "stem": "(General knowledge) The Italian physician Camillo Golgi, who spent most of his career at the University of Pavia, shared the 1906 Nobel Prize in Physiology or Medicine, awarded for work on the structure of the nervous system. With which scientist did he share it?",
+   "options": [
+    "Santiago Ramón y Cajal",
+    "Ivan Pavlov",
+    "Robert Koch",
+    "Charles Sherrington",
+    "Emil von Behring"
+   ],
+   "ans": "A",
+   "exp": "The 1906 Nobel Prize in Physiology or Medicine was awarded jointly to Camillo Golgi and the Spanish histologist Santiago Ramón y Cajal 'in recognition of their work on the structure of the nervous system', Golgi for his black reaction staining method and Cajal for the neuron doctrine. Pavlov won the prize in 1904, Koch in 1905, Behring in 1901 and Sherrington in 1932.",
+   "perm": [
+    0,
+    4,
+    1,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge",
+   "lik": "H"
+  },
+  {
+   "n": 4,
+   "stem": "(General knowledge) At the Milano Cortina 2026 Winter Olympic Games, held in Italy in February 2026, which country finished at the top of the final medal table?",
+   "options": [
+    "United States",
+    "Germany",
+    "Norway",
+    "Italy",
+    "Netherlands"
+   ],
+   "ans": "C",
+   "exp": "Norway led the final medal table at Milan Cortina with 18 gold medals and 41 medals in total, a record for a single Winter Games, ahead of the United States with 33; host nation Italy finished with 10 golds among 30 medals. Confirmed by the final medal counts published by NBC Olympics and Wikipedia.",
+   "perm": [
+    2,
+    3,
+    0,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "General knowledge",
+   "lik": "H"
+  },
+  {
+   "n": 5,
+   "stem": "Some buses in the city fleet are electric. All electric vehicles are exempt from the congestion charge. No vehicle that is exempt from the congestion charge is allowed to use the toll road. Which one of the following statements must be true?",
+   "options": [
+    "Every vehicle that is exempt from the congestion charge is electric.",
+    "Some electric buses in the city fleet use the toll road.",
+    "The buses in the city fleet that are not electric must pay the congestion charge.",
+    "Some buses in the city fleet are not allowed to use the toll road.",
+    "No bus in the city fleet is allowed to use the toll road."
+   ],
+   "ans": "D",
+   "exp": "The buses that are electric count as electric vehicles, so they are exempt, and no exempt vehicle may use the toll road, so those buses are certainly not allowed to use it; hence some buses in the fleet are not allowed to use the toll road. Option A is an illegitimate converse, and option B contradicts the chain, since every electric vehicle is exempt and therefore barred. Nothing is said about the non electric buses (option C), and only the electric ones are known to be barred, so option E is too strong.",
+   "perm": [
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic",
+   "lik": "H"
+  },
+  {
+   "n": 6,
+   "stem": "Five runners, Aisha, Bruno, Carmen, Devi and Lena, finished a 400 metre race, taking places 1 to 5 with no ties. Lena finished third. Carmen finished immediately behind Lena. Devi finished behind Carmen. Bruno did not finish first. Which one of the following statements must be true?",
+   "options": [
+    "Bruno finished second.",
+    "Aisha finished third.",
+    "Devi finished fourth.",
+    "Carmen finished immediately behind Devi.",
+    "Bruno finished ahead of Aisha."
+   ],
+   "ans": "A",
+   "exp": "Lena is third and Carmen immediately behind her, so Carmen is fourth. Devi must finish behind Carmen, and the only place behind fourth is fifth, so Devi is fifth, leaving places 1 and 2 for Aisha and Bruno. Since Bruno did not finish first, Aisha finished first and Bruno finished second, so every other option is false in this unique order.",
+   "perm": [
+    4,
+    3,
+    1,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic",
+   "lik": "H"
+  },
+  {
+   "n": 7,
+   "stem": "At a summer camp, each of the 100 children does at least one of three activities: swimming, sailing and archery. In total, 55 swim, 50 sail and 45 do archery; 25 swim and sail, 20 swim and do archery, 15 sail and do archery; and 10 do all three. How many children do exactly two of the three activities?",
+   "options": [
+    "20",
+    "25",
+    "30",
+    "35",
+    "40"
+   ],
+   "ans": "C",
+   "exp": "Of the 25 children who swim and sail, 10 also do archery, so 15 do exactly those two activities; likewise exactly swimming and archery numbers 20 - 10 = 10, and exactly sailing and archery numbers 15 - 10 = 5. Exactly two activities is therefore 15 + 10 + 5 = 30. As a check, the seven regions total 20 + 20 + 20 + 15 + 10 + 5 + 10 = 100, matching the size of the camp.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic",
+   "lik": "H"
+  },
+  {
+   "n": 8,
+   "stem": "1 April 2026 was a Wednesday. What was the date of the second Monday of April 2026?",
+   "options": [
+    "5 April",
+    "6 April",
+    "12 April",
+    "13 April",
+    "20 April"
+   ],
+   "ans": "D",
+   "exp": "If 1 April was a Wednesday, then counting the days onward gives the first Monday of the month as 6 April. The Mondays of April 2026 were therefore 6, 13, 20 and 27 April. The second of these, and hence the answer, is 13 April.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic",
+   "lik": "H"
+  },
+  {
+   "n": 9,
+   "stem": "A cube is folded from a flat net of six identical numbered squares. The net consists of one column of four squares numbered 5, 1, 3 and 6 from top to bottom, with the square numbered 2 attached to the left edge of square 1 and the square numbered 4 attached to the right edge of square 1. When the net is folded into a cube, which number is on the face opposite the face numbered 1?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "ans": "E",
+   "exp": "The column of four squares, 5, 1, 3 and 6, folds into a band that wraps around the cube, so squares two places apart in the column become opposite faces: 5 faces 3, and 1 faces 6. The two flanking squares, 2 and 4, fold onto the left and right of square 1 and face each other. The face opposite 1 therefore shows 6.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Logic",
+   "lik": "H"
+  },
+  {
+   "n": 10,
+   "stem": "Which statement about the enzymes and DNA synthesis at a bacterial replication fork is correct?",
+   "options": [
+    "Helicase synthesises the short RNA primers needed to start DNA synthesis.",
+    "DNA polymerase can begin synthesis of a new strand without needing a primer.",
+    "DNA ligase unwinds the parental double helix ahead of the replication fork.",
+    "The leading strand is synthesised continuously from a single primer, while the lagging strand is synthesised in short fragments as the fork opens.",
+    "The leading strand requires a new primer for each fragment it synthesises."
+   ],
+   "ans": "D",
+   "exp": "Helicase unwinds the parental double helix, primase lays down the RNA primers, DNA polymerase can only extend an existing primer, and ligase seals the gaps between fragments. Only the lagging strand, which grows away from the opening fork, needs a series of primers and fragments; the leading strand is continuous from a single primer.",
+   "perm": [
+    3,
+    1,
+    2,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "DNA replication",
+   "lik": "H"
+  },
+  {
+   "n": 11,
+   "stem": "Which statement about transcription in a eukaryotic cell is correct?",
+   "options": [
+    "Transcription begins when RNA polymerase binds to the terminator sequence of a gene.",
+    "RNA polymerase synthesises the new RNA strand in the 3' to 5' direction.",
+    "RNA polymerase requires an RNA primer before it can start copying a gene.",
+    "The poly-A tail is a stretch of DNA sequence copied from the end of the gene.",
+    "RNA polymerase binds to the promoter and starts RNA synthesis without a primer, using one DNA strand as a template."
+   ],
+   "ans": "E",
+   "exp": "RNA polymerase recognises the promoter and starts RNA synthesis without a primer, unlike DNA polymerase. RNA is made in the 5' to 3' direction, the terminator is the stop signal for transcription, and the poly-A tail is added enzymatically to the finished pre-mRNA in the nucleus.",
+   "perm": [
+    2,
+    1,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Transcription",
+   "lik": "H"
+  },
+  {
+   "n": 12,
+   "stem": "Which statement about the ribosome during translation is correct?",
+   "options": [
+    "A tRNA carrying the next amino acid enters at the A site, where its anticodon pairs with the mRNA codon.",
+    "The growing polypeptide chain is carried on a tRNA sitting in the A site while new tRNAs enter at the P site.",
+    "The E site is where peptide bonds are formed between amino acids.",
+    "The initiator tRNA binds first to the A site of the ribosome when translation starts.",
+    "In eukaryotes, ribosomes begin translating an mRNA while that mRNA is still being transcribed."
+   ],
+   "ans": "A",
+   "exp": "A charged tRNA enters at the A site, moves to the P site as the chain grows, and leaves at the E site. The initiator tRNA begins in the P site, peptide bonds form at the peptidyl transferase centre of the large subunit, and simultaneous transcription and translation is a prokaryotic feature.",
+   "perm": [
+    0,
+    1,
+    2,
+    4,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Translation",
+   "lik": "H"
+  },
+  {
+   "n": 13,
+   "stem": "The beginning of an mRNA reads 5' AUG GCA UAC GGU UAA 3', where AUG is the start codon and UAA is a stop codon. Codon meanings: AUG = methionine, GCA = alanine, GCC = alanine, GUA = valine, UAC = tyrosine, GGU = glycine, CGG = arginine, UUA = leucine. Two independent mutations occur in different copies of this gene. Mutation 1 substitutes one base so that codon 2 reads GCC instead of GCA. Mutation 2 inserts a single G immediately after codon 2. Which statement about the resulting proteins is correct?",
+   "options": [
+    "Both mutations are silent, because neither changes any amino acid in the protein.",
+    "Mutation 1 is silent, while mutation 2 shifts the reading frame, so from codon 3 onward the mRNA reads GUA, CGG and UUA instead of UAC, GGU and UAA, changing the amino acids and losing the stop codon.",
+    "Mutation 1 is silent and mutation 2 changes only the amino acid encoded by codon 2.",
+    "Mutation 1 changes the amino acid at position 2 of the protein, while mutation 2 is silent.",
+    "Mutation 2 adds exactly one extra amino acid to the protein and leaves all the other amino acids unchanged."
+   ],
+   "ans": "B",
+   "exp": "GCA and GCC both code for alanine, so mutation 1 is silent. The inserted base shifts the reading frame: from codon 3 the mRNA specifies valine and arginine where tyrosine and glycine were, and the stop codon becomes a codon for leucine, so translation would continue past it.",
+   "perm": [
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Mutations",
+   "lik": "H"
+  },
+  {
+   "n": 14,
+   "stem": "In a testcross, a pea plant heterozygous for three independently assorting genes, AaBbCc, is crossed with a plant that is aabbcc. What is the probability that an offspring is heterozygous at all three loci (AaBbCc)?",
+   "options": [
+    "1/16",
+    "1/8",
+    "1/4",
+    "1/2",
+    "3/4"
+   ],
+   "ans": "B",
+   "exp": "At each locus the cross is Aa with aa, which gives heterozygous and homozygous recessive offspring in equal proportions, so the chance of heterozygous is 1/2. The three genes assort independently, so the probabilities multiply: 1/2 x 1/2 x 1/2 = 1/8.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Genetics",
+   "lik": "H"
+  },
+  {
+   "n": 15,
+   "stem": "Cystic fibrosis is caused by an autosomal recessive allele. Two parents without the condition have one child with cystic fibrosis and a second child who is healthy. What is the probability that this healthy second child is a carrier of the allele?",
+   "options": [
+    "1/4",
+    "1/3",
+    "1/2",
+    "2/3",
+    "3/4"
+   ],
+   "ans": "D",
+   "exp": "The affected child shows that both parents are heterozygous carriers. Among their healthy children the genotypes occur in the ratio 1 AA to 2 Aa, because aa individuals are affected, so the probability that a healthy child is a carrier is 2 out of 3.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Pedigree",
+   "lik": "H"
+  },
+  {
+   "n": 16,
+   "stem": "Haemophilia is caused by a recessive allele on the X chromosome. A woman has no symptoms, but her father had haemophilia. She and her husband, who does not have haemophilia, are expecting their first child. What is the probability that the first child is a daughter who carries the allele?",
+   "options": [
+    "1/8",
+    "1/4",
+    "1/2",
+    "3/4",
+    "1"
+   ],
+   "ans": "B",
+   "exp": "The woman received her father's only X chromosome, which carried the allele, so she is a carrier. The chance the first child is a girl is 1/2, and a girl of a carrier mother and an unaffected father has a 1/2 chance of being a carrier: 1/2 x 1/2 = 1/4.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Sex linkage",
+   "lik": "H"
+  },
+  {
+   "n": 17,
+   "stem": "In a series of crosses, the recombination frequencies between three linked genes are: between gene a and gene b, 4 percent; between gene b and gene c, 9 percent; between gene a and gene c, 13 percent. Which conclusion is correct?",
+   "options": [
+    "The genes are arranged with gene b between the other two, in the order a b c.",
+    "The genes are arranged with gene a between the other two, in the order b a c.",
+    "The genes are arranged with gene c between the other two, in the order a c b.",
+    "No valid order exists, because the recombination frequency between two genes must be the same whichever third gene is considered.",
+    "The three genes must lie on three different chromosomes."
+   ],
+   "ans": "A",
+   "exp": "The largest distance, 13 percent, equals the sum of the other two, 4 + 9, so the two shorter intervals lie side by side with gene b in the middle. Genes on different chromosomes would show recombination frequencies close to 50 percent.",
+   "perm": [
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Linkage",
+   "lik": "H"
+  },
+  {
+   "n": 18,
+   "stem": "Which event occurs during anaphase of mitosis in an animal cell?",
+   "options": [
+    "Homologous chromosome pairs separate and move to opposite poles.",
+    "Chromosomes align along the equator of the cell.",
+    "The nuclear envelope breaks down and the spindle begins to form.",
+    "Nuclear envelopes re-form around each group of chromosomes.",
+    "Sister chromatids separate at the centromeres and move toward opposite poles."
+   ],
+   "ans": "E",
+   "exp": "Anaphase of mitosis begins when sister chromatids split at the centromere and are pulled to opposite poles by the spindle. Homologous chromosomes separate in anaphase I of meiosis; the other events belong to metaphase, prophase and telophase.",
+   "perm": [
+    3,
+    0,
+    2,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Mitosis",
+   "lik": "M"
+  },
+  {
+   "n": 19,
+   "stem": "During meiosis II in a human oocyte, the sister chromatids of chromosome 21 fail to separate, while meiosis I and the rest of meiosis II proceed normally. One of the resulting egg cells receives both copies of chromosome 21 and is then fertilised by a normal sperm. Which statement is correct?",
+   "options": [
+    "The zygote has 46 chromosomes and is chromosomally normal.",
+    "The zygote has 45 chromosomes, with only one copy of chromosome 21.",
+    "The zygote has 47 chromosomes, with three copies of chromosome 21, the condition known as Down syndrome.",
+    "The zygote has 69 chromosomes because all chromosomes are present in triplicate.",
+    "The zygote has 47 chromosomes, but the extra chromosome is a sex chromosome."
+   ],
+   "ans": "C",
+   "exp": "Nondisjunction of sister chromatids in meiosis II produces one egg with both copies of chromosome 21 (n + 1) and one with none. Fertilisation of the n + 1 egg by a normal sperm gives 47 chromosomes with three copies of chromosome 21, the karyotype of Down syndrome.",
+   "perm": [
+    0,
+    3,
+    4,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Meiosis",
+   "lik": "M"
+  },
+  {
+   "n": 20,
+   "stem": "Before industrialisation, light coloured peppered moths rested on pale, lichen covered tree trunks and greatly outnumbered dark coloured moths. As industrial soot blackened the trunks, the dark form became far more common within a few decades. Which statement best explains this change?",
+   "options": [
+    "Individual moths gradually darkened during their own lifetimes as soot settled on the trees.",
+    "The dark form arose by random mutation before the trunks darkened; once the trunks became dark, birds caught more light moths, so dark moths survived and reproduced more successfully and passed on their alleles.",
+    "Soot chemically altered the genes of the moths so that their offspring were born dark.",
+    "The moths sensed the darkening trunks and produced dark offspring in order to blend into the background.",
+    "Dark coloured moths were already more common than light moths before the trees darkened."
+   ],
+   "ans": "B",
+   "exp": "Variation from random mutation existed before selection acted on it. The change in the environment altered the selection pressure: on dark trunks light moths were more visible to predatory birds, so the better camouflaged dark morph survived and reproduced more. The other options describe acquired characteristics or directed change, which natural selection does not involve.",
+   "perm": [
+    3,
+    2,
+    0,
+    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Natural selection",
+   "lik": "M"
+  },
+  {
+   "n": 21,
+   "stem": "A population of diploid flowering plants grows in one meadow with no physical barriers. A mutation arises in one lineage that doubles the chromosome number, producing tetraploid plants. Tetraploids mate successfully with other tetraploids, but crosses between tetraploid and diploid plants produce seeds that die before germination. Which statement is correct?",
+   "options": [
+    "This is allopatric speciation, because the tetraploid and diploid plants cannot interbreed.",
+    "This is sympatric speciation: a reproductively isolated polyploid lineage has formed within the same geographic area.",
+    "No speciation can occur without a physical barrier such as a river or a mountain range.",
+    "The tetraploid and diploid plants still belong to one biological species, because they live in the same meadow.",
+    "A change in chromosome number can alter gene expression but can never give rise to a new species."
+   ],
+   "ans": "B",
+   "exp": "Sympatric speciation occurs without geographic separation, and polyploidy is a well known mechanism of it in plants. Because tetraploid crosses with diploids fail, the tetraploid lineage is reproductively isolated from the diploids even though both grow side by side, which satisfies the biological species criterion.",
+   "perm": [
+    1,
+    4,
+    3,
+    2,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Speciation",
+   "lik": "M"
+  },
+  {
+   "n": 22,
+   "stem": "Which statement about the role of water in the light dependent reactions of photosynthesis is correct?",
+   "options": [
+    "The oxygen released by photosynthesis comes from water molecules split during the light dependent reactions.",
+    "The oxygen released by photosynthesis comes from carbon dioxide that is split in the thylakoid membranes.",
+    "Electrons released by the splitting of water are passed directly to photosystem I to replace its lost electrons.",
+    "Water is split in the stroma as part of the Calvin cycle.",
+    "The splitting of water directly produces the ATP that the Calvin cycle consumes."
+   ],
+   "ans": "A",
+   "exp": "Photolysis of water occurs at photosystem II in the thylakoid membranes: the electrons released replace those that photosystem II loses to the electron transport chain, and the oxygen atoms are released as O2. ATP is generated by chemiosmosis, and carbon dioxide is fixed later in the Calvin cycle in the stroma.",
+   "perm": [
+    2,
+    1,
+    3,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Photosynthesis",
+   "lik": "M"
+  },
+  {
+   "n": 23,
+   "stem": "Which statement about long distance transport in flowering plants is correct?",
+   "options": [
+    "Xylem transports sugars from the leaves to the roots, while phloem transports water and mineral ions upward.",
+    "The contents of both xylem and phloem are moved mainly by the transpiration pull from the leaves.",
+    "Mature xylem vessels consist of living cells that actively pump water from cell to cell.",
+    "Xylem transports water and dissolved mineral ions upward from the roots, while phloem transports sugars from source tissues to sink tissues.",
+    "Phloem can transport sugars only downward, from the leaves to the roots."
+   ],
+   "ans": "D",
+   "exp": "Xylem carries water and mineral ions upward in dead, hollow vessel elements, driven by transpiration pull. Phloem moves sucrose from sources such as mature leaves to sinks such as roots, fruits and growing buds, in living sieve tube elements, and the flow can go upward or downward.",
+   "perm": [
+    3,
+    4,
+    2,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Plant transport",
+   "lik": "M"
+  },
+  {
+   "n": 24,
+   "stem": "In a healthy heart, the ventricles begin to contract shortly after the atria contract. Which statement explains this timing?",
+   "options": [
+    "The atria and the ventricles are excited at the same moment, but ventricular muscle contracts more slowly than atrial muscle.",
+    "The delay is caused by the time blood takes to flow from the atria into the ventricles.",
+    "A second impulse from the sinoatrial node travels directly to the ventricles and triggers their contraction.",
+    "The impulse from the sinoatrial node is delayed at the atrioventricular node, so the ventricles are excited shortly after the atria, allowing the atria to finish emptying before the ventricles contract.",
+    "The ventricles contract first and the atria contract during the diastole that follows."
+   ],
+   "ans": "D",
+   "exp": "The impulse from the sinoatrial node spreads across the atrial muscle and is held up briefly at the atrioventricular node before travelling through the bundle of His and the Purkinje fibres to the ventricles. This delay in the conduction pathway lets atrial systole fill the ventricles before ventricular systole begins; it is not caused by the speed of blood flow or by different muscle speeds.",
+   "perm": [
+    4,
+    2,
+    1,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cardiac cycle",
+   "lik": "H"
+  },
+  {
+   "n": 25,
+   "stem": "Which statement about ultrafiltration at the glomerulus is correct?",
+   "options": [
+    "Fluid is forced from the glomerular capillaries into Bowman's capsule by blood pressure, and the filtrate normally contains glucose, urea and ions but no plasma proteins or blood cells.",
+    "Plasma proteins pass freely into the filtrate and are reabsorbed later along the loop of Henle.",
+    "Glucose is actively transported from the blood into the filtrate at the glomerulus.",
+    "Red blood cells normally enter the filtrate and are returned to the blood in the distal tubule.",
+    "Water is moved out of the glomerular capillaries by active transport."
+   ],
+   "ans": "A",
+   "exp": "High hydrostatic pressure in the glomerular capillaries forces water and small solutes such as glucose, amino acids, urea and ions through the filtration membranes. Plasma proteins and blood cells are too large to pass and remain in the blood. Glucose returns to the blood by reabsorption in the proximal tubule, not by secretion into the filtrate.",
+   "perm": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Nephron",
+   "lik": "H"
+  },
+  {
+   "n": 26,
+   "stem": "Which statement about nerve action potentials is correct?",
+   "options": [
+    "A stronger stimulus produces a single action potential with a larger amplitude.",
+    "Subthreshold stimuli produce small action potentials that travel more slowly along the axon.",
+    "Once threshold is reached, the amplitude of the action potential is fixed; a stronger stimulus increases the frequency of action potentials, not their size.",
+    "The refractory period allows action potentials to travel backwards along the axon as well as forwards.",
+    "During repolarisation, the inside of the axon becomes even more positive than at the peak of depolarisation."
+   ],
+   "ans": "C",
+   "exp": "The action potential is an all or none event: every impulse above threshold has the same amplitude, and stimulus strength is encoded by the frequency of firing. Subthreshold stimuli produce no action potential at all, the refractory period ensures one way propagation, and repolarisation returns the membrane potential toward negative values.",
+   "perm": [
+    1,
+    0,
+    4,
+    3,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Neurons",
+   "lik": "H"
+  },
+  {
+   "n": 27,
+   "stem": "Which statement about the control of cortisol secretion is correct?",
+   "options": [
+    "Cortisol is released by the adrenal medulla in response to nerve signals from the hypothalamus.",
+    "When cortisol levels fall, the anterior pituitary releases less ACTH so that cortisol stays low.",
+    "Cortisol raises its own secretion through a positive feedback loop.",
+    "ACTH travels down nerve fibres from the hypothalamus to the adrenal cortex.",
+    "A rise in blood cortisol acts by negative feedback on the hypothalamus and anterior pituitary, reducing the release of CRH and ACTH."
+   ],
+   "ans": "E",
+   "exp": "The hypothalamus releases CRH, the anterior pituitary responds by releasing ACTH into the blood, and ACTH stimulates the adrenal cortex to secrete cortisol. Rising cortisol then suppresses both CRH and ACTH release, a negative feedback loop that keeps cortisol within set limits.",
+   "perm": [
+    2,
+    3,
+    0,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Endocrine",
+   "lik": "M"
+  },
+  {
+   "n": 28,
+   "stem": "Which statement about B and T lymphocytes is correct?",
+   "options": [
+    "B lymphocytes mature in the thymus before circulating in the blood.",
+    "Activated B lymphocytes differentiate into plasma cells that secrete antibodies, whereas cytotoxic T cells destroy infected body cells by direct contact.",
+    "T lymphocytes are the main antibody secreting cells of the immune system.",
+    "Cytotoxic T cells engulf bacteria by phagocytosis and digest them internally.",
+    "Both B and T lymphocytes complete their maturation in the thymus."
+   ],
+   "ans": "B",
+   "exp": "B lymphocytes mature in the bone marrow and, when activated, give rise to plasma cells that secrete antibodies. T lymphocytes mature in the thymus; cytotoxic T cells recognise and kill infected host cells by contact. Phagocytosis of bacteria is carried out by macrophages and neutrophils.",
+   "perm": [
+    2,
+    1,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Immune system",
+   "lik": "M"
+  },
+  {
+   "n": 29,
+   "stem": "Which statement about the cytoskeleton is correct?",
+   "options": [
+    "Microtubules are hollow polymers of tubulin that form the mitotic spindle and the core of cilia and flagella.",
+    "Microfilaments are hollow tubes of tubulin that give cilia their characteristic internal arrangement.",
+    "The contractile ring that divides an animal cell during cytokinesis is made of microtubules.",
+    "Microtubules are permanently fixed structures that never assemble or disassemble inside the cell.",
+    "Actin microfilaments form the spindle fibres that separate chromosomes during mitosis."
+   ],
+   "ans": "A",
+   "exp": "Microtubules, built of tubulin, form the mitotic spindle, the axoneme of cilia and flagella, and rails for intracellular transport. Microfilaments of actin support cell shape, power muscle contraction and form the cleavage furrow of cytokinesis. The cytoskeleton is dynamic and constantly remodeled.",
+   "perm": [
+    1,
+    4,
+    2,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Cytoskeleton",
+   "lik": "M"
+  },
+  {
+   "n": 30,
+   "stem": "Which statement about apoptosis is correct?",
+   "options": [
+    "Apoptosis is the uncontrolled death of cells after injury, and it always triggers inflammation.",
+    "Cells dying by apoptosis release their digestive enzymes into the surrounding tissue.",
+    "Apoptosis is a genetically regulated process in which the cell is dismantled into fragments that nearby cells engulf without causing inflammation.",
+    "Apoptosis plays no role in healthy embryonic development.",
+    "Apoptosis is triggered only by external toxins and never by signals arising within the cell itself."
+   ],
+   "ans": "C",
+   "exp": "Apoptosis is programmed cell death: internal or external signals activate genes and enzymes that neatly break the cell into fragments, which are phagocytosed without inflammation. It also shapes normal development, for example removing the webbing between developing fingers. The descriptions in the other options fit necrosis.",
+   "perm": [
+    4,
+    3,
+    2,
+    0,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Apoptosis",
+   "lik": "M"
+  },
+  {
+   "n": 31,
+   "stem": "Which statement correctly matches a level of protein structure with what defines it?",
+   "options": [
+    "The primary structure is defined by hydrogen bonding between atoms of the polypeptide backbone.",
+    "The secondary structure is defined by disulfide bridges between cysteine residues.",
+    "The primary structure is the sequence of amino acids joined together by peptide bonds.",
+    "The tertiary structure is the assembly of several separate polypeptide chains into one functional unit.",
+    "The quaternary structure is the local coiling of the chain into alpha helices."
+   ],
+   "ans": "C",
+   "exp": "Primary structure is the amino acid sequence, linked by covalent peptide bonds. Secondary structure (alpha helices and beta sheets) is held by hydrogen bonds between backbone groups, tertiary structure is the overall three dimensional fold stabilised by interactions including disulfide bridges, and quaternary structure is the joining of multiple polypeptide chains.",
+   "perm": [
+    2,
+    4,
+    0,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Protein structure",
+   "lik": "M"
+  },
+  {
+   "n": 32,
+   "stem": "A person standing outside in cold weather starts to shiver. Which statement about this response is correct?",
+   "options": [
+    "Skin blood vessels widen so that warm blood flows close to the surface, warming the skin.",
+    "Sweat production increases so that evaporation can release heat from the body core.",
+    "Shivering is involuntary contraction of skeletal muscles that generates heat, coordinated by the hypothalamus as part of a negative feedback response to falling body temperature.",
+    "Shivering is a voluntary response that the person chooses to start in order to warm up.",
+    "Shivering cools the body further, because the contracting muscles push warm blood to the skin surface where heat is lost."
+   ],
+   "ans": "C",
+   "exp": "Cold is detected and the hypothalamus responds with vasoconstriction of skin arterioles, reduced sweating and shivering. Shivering is rapid involuntary skeletal muscle contraction that releases heat as the muscle fibres work, and together these negative feedback responses counteract the fall in core temperature.",
+   "perm": [
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Thermoregulation",
+   "lik": "M"
+  },
+  {
+   "n": 33,
+   "stem": "What is the mass of 0.25 mol of copper(II) sulfate, CuSO4? (Cu = 64, S = 32, O = 16)",
+   "options": [
+    "32 g",
+    "40 g",
+    "64 g",
+    "160 g",
+    "640 g"
+   ],
+   "ans": "B",
+   "exp": "M(CuSO4) = 64 + 32 + 4 x 16 = 160 g/mol; m = n x M = 0.25 x 160 = 40 g. Option D is the mass of a full mole, and option E comes from inverting the relationship (160/0.25 = 640).",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Stoichiometry",
+   "lik": "H"
+  },
+  {
+   "n": 34,
+   "stem": "28 g of nitrogen gas (N2, M = 28 g/mol) is mixed with 9.0 g of hydrogen gas (H2, M = 2.0 g/mol) and the mixture is reacted according to: N2(g) + 3H2(g) -> 2NH3(g) (NH3, M = 17 g/mol). What is the maximum mass of ammonia that can be produced?",
+   "options": [
+    "2.0 g",
+    "17 g",
+    "34 g",
+    "51 g",
+    "68 g"
+   ],
+   "ans": "C",
+   "exp": "n(N2) = 28/28 = 1.0 mol; n(H2) = 9.0/2.0 = 4.5 mol. One mole of N2 consumes 3.0 mol of H2, so hydrogen is in excess and N2 is the limiting reagent. It yields 2.0 mol of NH3: m = 2.0 x 17 = 34 g. (Treating H2 as limiting gives 4.5 x 2/3 x 17 = 51 g, option D.)",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Stoichiometry",
+   "lik": "H"
+  },
+  {
+   "n": 35,
+   "stem": "An oxide of sulfur is found by analysis to contain 50.0% sulfur and 50.0% oxygen by mass. What is its empirical formula? (S = 32, O = 16)",
+   "options": [
+    "SO",
+    "SO2",
+    "SO3",
+    "S2O",
+    "SO4"
+   ],
+   "ans": "B",
+   "exp": "Taking 100 g of compound: n(S) = 50.0/32 = 1.56 mol and n(O) = 50.0/16 = 3.13 mol. Dividing by the smaller value gives the ratio 1 : 2, so the empirical formula is SO2.",
+   "perm": [
+    3,
+    1,
+    4,
+    0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Stoichiometry",
+   "lik": "H"
+  },
+  {
+   "n": 36,
+   "stem": "5.85 g of sodium chloride (M = 58.5 g/mol) is dissolved in water and the solution is made up to exactly 500 cm3. What is the concentration of the solution?",
+   "options": [
+    "0.050 mol/dm3",
+    "0.10 mol/dm3",
+    "0.20 mol/dm3",
+    "0.40 mol/dm3",
+    "0.50 mol/dm3"
+   ],
+   "ans": "C",
+   "exp": "n = m/M = 5.85/58.5 = 0.10 mol; V = 500 cm3 = 0.500 dm3; c = n/V = 0.10/0.500 = 0.20 mol/dm3. Option B is the mole amount alone, without dividing by the volume.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Solutions",
+   "lik": "M"
+  },
+  {
+   "n": 37,
+   "stem": "Potassium hydroxide is a strong base that dissociates completely in water. What is the pH at 25 °C of a 1.0 x 10^-4 mol/dm3 solution of KOH? (Kw = 1.0 x 10^-14)",
+   "options": [
+    "4",
+    "7",
+    "10",
+    "11",
+    "14"
+   ],
+   "ans": "C",
+   "exp": "KOH dissociates fully, so [OH-] = 1.0 x 10^-4 mol/dm3 and pOH = 4. Therefore pH = 14 - 4 = 10 at 25 °C. Option A is the pOH, not the pH.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 38,
+   "stem": "Hydrochloric acid is titrated with sodium hydroxide solution. Which of the following statements is correct?",
+   "options": [
+    "At the equivalence point neither reactant is in excess; since the salt NaCl does not hydrolyse, the solution has pH 7 at 25 °C.",
+    "At the equivalence point the acid is still in excess, so the pH is below 7.",
+    "At the equivalence point of any titration, weak or strong, the pH is exactly 7.",
+    "The equivalence point is defined as the point at which the indicator changes colour.",
+    "At the equivalence point, equal masses of acid and base have been added."
+   ],
+   "ans": "A",
+   "exp": "Equivalence means equal moles of H+ and OH- have reacted. With a strong acid and strong base the product, NaCl, leaves the solution neutral (pH 7 at 25 °C); at the equivalence point of a weak acid with a strong base the conjugate base makes pH > 7. The indicator colour change defines the endpoint, and equal moles, not equal masses, are required.",
+   "perm": [
+    4,
+    0,
+    3,
+    1,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Acids & bases",
+   "lik": "H"
+  },
+  {
+   "n": 39,
+   "stem": "In acidic solution, permanganate ions oxidise ethanedioate (oxalate) ions: MnO4- + C2O4^2- + H+ -> Mn2+ + CO2 + H2O. When the equation is balanced with the smallest whole-number coefficients, what is the coefficient of H+?",
+   "options": [
+    "2",
+    "5",
+    "10",
+    "16",
+    "32"
+   ],
+   "ans": "D",
+   "exp": "Half equations: MnO4- + 8H+ + 5e- -> Mn2+ + 4H2O and C2O4^2- -> 2CO2 + 2e-. Multiplying by 2 and by 5 and adding gives 2MnO4- + 5C2O4^2- + 16H+ -> 2Mn2+ + 10CO2 + 8H2O, so the coefficient of H+ is 16.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Redox",
+   "lik": "H"
+  },
+  {
+   "n": 40,
+   "stem": "Which of the following statements about the octet rule is correct?",
+   "options": [
+    "Phosphorus in PCl5 obeys the octet rule, because each chlorine atom shares one electron with it.",
+    "BF3 violates the octet rule because boron carries more than eight valence electrons.",
+    "Nitrogen in NH3 has an expanded octet of ten electrons.",
+    "Compounds of period 3 elements such as PCl5 and SF6 cannot exist because they exceed the octet.",
+    "Boron in BF3 has only six electrons in its valence shell, so BF3 can accept an electron pair and act as a Lewis acid."
+   ],
+   "ans": "E",
+   "exp": "Boron has three valence electrons and forms three bonds, leaving only six electrons around it: an electron-deficient exception to the octet rule that lets BF3 accept a lone pair (Lewis acid, as in the adduct with NH3). Period 3 atoms can expand their octets, so PCl5 (10 electrons) and SF6 (12 electrons) exist; nitrogen in NH3 simply has a lone pair, not an expanded octet.",
+   "perm": [
+    2,
+    0,
+    4,
+    3,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bonding",
+   "lik": "H"
+  },
+  {
+   "n": 41,
+   "stem": "Which of the following statements about the halogens (Group 17) is correct?",
+   "options": [
+    "Their reactivity increases down the group because the outer shell is further from the nucleus.",
+    "Their reactivity decreases down the group because the atoms get larger and attract an additional electron less strongly.",
+    "Bromine displaces chlorine from potassium chloride solution, because bromine is the stronger oxidising agent.",
+    "Their boiling points decrease down the group, so astatine is a gas.",
+    "They are all good electrical conductors in the liquid state."
+   ],
+   "ans": "B",
+   "exp": "Halogens react by gaining an electron; down the group the atomic radius and shielding increase, so the attraction for an extra electron weakens and reactivity falls (chlorine displaces bromine and iodine, never the reverse). Boiling points rise down the group, from gaseous chlorine to solid iodine, and halogens are non-conductors.",
+   "perm": [
+    4,
+    2,
+    0,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Periodic table",
+   "lik": "M"
+  },
+  {
+   "n": 42,
+   "stem": "The standard enthalpies of formation of methane CH4(g), carbon dioxide CO2(g) and liquid water H2O(l) are -75, -394 and -286 kJ/mol respectively. What is the enthalpy change for the complete combustion of one mole of methane: CH4(g) + 2O2(g) -> CO2(g) + 2H2O(l)? (The enthalpy of formation of O2(g) is zero.)",
+   "options": [
+    "-1041 kJ/mol",
+    "-891 kJ/mol",
+    "-605 kJ/mol",
+    "+605 kJ/mol",
+    "+891 kJ/mol"
+   ],
+   "ans": "B",
+   "exp": "delta H = sum of delta Hf(products) - sum of delta Hf(reactants) = [(-394) + 2 x (-286)] - (-75) = -891 kJ/mol. Option C forgets to double the water term (-394 - 286 + 75 = -605), and option A uses the wrong sign for methane (-394 - 572 - 75 = -1041).",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Thermochemistry",
+   "lik": "M"
+  },
+  {
+   "n": 43,
+   "stem": "Hydrogen and iodine reach equilibrium: H2(g) + I2(g) <=> 2HI(g). At equilibrium the concentrations are [H2] = 0.20 mol/dm3, [I2] = 0.30 mol/dm3 and [HI] = 0.60 mol/dm3. What is the value of Kc?",
+   "options": [
+    "0.17",
+    "1.2",
+    "2.45",
+    "6.0",
+    "10"
+   ],
+   "ans": "D",
+   "exp": "Kc = [HI]^2 / ([H2][I2]) = (0.60)^2 / (0.20 x 0.30) = 0.36 / 0.060 = 6.0. Option E forgets to square [HI] (0.60/0.060 = 10) and option A is the inverse ratio.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Equilibrium",
+   "lik": "M"
+  },
+  {
+   "n": 44,
+   "stem": "For the reaction A + B -> products at 25 °C, the following initial rates were measured. Experiment 1: [A] = 0.10 mol/dm3, [B] = 0.10 mol/dm3, rate = 0.0020 mol/(dm3 s). Experiment 2: [A] = 0.20 mol/dm3, [B] = 0.10 mol/dm3, rate = 0.0040 mol/(dm3 s). Experiment 3: [A] = 0.10 mol/dm3, [B] = 0.20 mol/dm3, rate = 0.0080 mol/(dm3 s). What is the rate law for this reaction?",
+   "options": [
+    "rate = k[A][B]",
+    "rate = k[A]^2[B]",
+    "rate = k[A][B]^2",
+    "rate = k[A]^2[B]^2",
+    "rate = k[B]^2"
+   ],
+   "ans": "C",
+   "exp": "From experiment 1 to 2, doubling [A] at constant [B] doubles the rate (0.0020 to 0.0040), so the reaction is first order in A. From experiment 1 to 3, doubling [B] at constant [A] quadruples the rate (0.0020 to 0.0080), so it is second order in B. The rate law is rate = k[A][B]^2 (overall order 3).",
+   "perm": [
+    2,
+    1,
+    3,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Kinetics",
+   "lik": "M"
+  },
+  {
+   "n": 45,
+   "stem": "An alkane consists of a chain of five carbon atoms, with one methyl group attached to the second carbon of the chain and another methyl group attached to the fourth carbon. What is the IUPAC name of this alkane?",
+   "options": [
+    "3,5-dimethylpentane",
+    "2,4-dimethylpentane",
+    "2,4-dimethylhexane",
+    "2-methylhexane",
+    "2,3-dimethylpentane"
+   ],
+   "ans": "B",
+   "exp": "The longest continuous chain has five carbons (pentane), and the two methyl substituents sit on carbons 2 and 4 when numbered for the lowest locants: 2,4-dimethylpentane, seven carbons in total. Option A uses the wrong numbering direction, and a hexane parent chain is not present.",
+   "perm": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic chemistry",
+   "lik": "M"
+  },
+  {
+   "n": 46,
+   "stem": "Methane reacts with chlorine gas in sunlight: CH4 + Cl2 -> CH3Cl + HCl, followed by further substitution steps. What type of reaction is the first of these steps, CH4 -> CH3Cl?",
+   "options": [
+    "an electrophilic addition",
+    "a nucleophilic substitution",
+    "an elimination",
+    "a free-radical substitution",
+    "a condensation"
+   ],
+   "ans": "D",
+   "exp": "Ultraviolet light homolyses Cl2 into chlorine free radicals, which replace a hydrogen atom of methane with a chlorine atom. A C-H bond is broken and a new C-Cl bond formed without changing the carbon skeleton, so the step is a free-radical substitution, not an addition (methane has no pi bond to add across).",
+   "perm": [
+    3,
+    2,
+    1,
+    4,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Organic chemistry",
+   "lik": "M"
+  },
+  {
+   "n": 47,
+   "stem": "What is the electron configuration of an iron(II) ion, Fe2+? (Iron has atomic number 26.)",
+   "options": [
+    "1s2 2s2 2p6 3s2 3p6 3d6",
+    "1s2 2s2 2p6 3s2 3p6 3d4 4s2",
+    "1s2 2s2 2p6 3s2 3p6 3d5 4s1",
+    "1s2 2s2 2p6 3s2 3p6 3d8",
+    "1s2 2s2 2p6 3s2 3p6 4s2 3d6"
+   ],
+   "ans": "A",
+   "exp": "Neutral iron is 1s2 2s2 2p6 3s2 3p6 4s2 3d6. On ionisation the 4s electrons are removed first because they are the outermost, giving Fe2+ (24 electrons): 1s2 2s2 2p6 3s2 3p6 3d6. Option B wrongly strips 3d electrons while keeping 4s, and option E is the neutral atom.",
+   "perm": [
+    3,
+    4,
+    2,
+    1,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Atomic structure",
+   "lik": "M"
+  },
+  {
+   "n": 48,
+   "stem": "Solve the equation log_2(x) + log_2(x - 6) = 4.",
+   "options": [
+    "x = -2 only",
+    "x = 8 or x = -2",
+    "x = 16",
+    "There is no solution",
+    "x = 8 only"
+   ],
+   "ans": "E",
+   "exp": "Combine: log_2(x(x - 6)) = 4, so x^2 - 6x = 16, x^2 - 6x - 16 = 0, (x - 8)(x + 2) = 0. The root x = -2 is rejected because both logarithms require x > 6. So x = 8. Check: log_2(8) + log_2(2) = 3 + 1 = 4.",
+   "perm": [
+    0,
+    3,
+    4,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Exponents/logs",
+   "lik": "M"
+  },
+  {
+   "n": 49,
+   "stem": "A committee of 3 people is chosen at random from a group of 4 chemists and 6 physicists. What is the probability that the committee contains exactly one chemist?",
+   "options": [
+    "1/6",
+    "3/10",
+    "1/2",
+    "3/5",
+    "5/6"
+   ],
+   "ans": "C",
+   "exp": "Favourable: C(4,1) x C(6,2) = 4 x 15 = 60. Total: C(10,3) = 120. Probability = 60/120 = 1/2.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Probability",
+   "lik": "M"
+  },
+  {
+   "n": 50,
+   "stem": "If f(x) = x^2 - 4x, which of the following expressions is equal to f(x + 3) - 2 for every value of x?",
+   "options": [
+    "x^2 + 2x - 5",
+    "x^2 + 2x - 1",
+    "x^2 - 4x + 1",
+    "x^2 - 4x - 5",
+    "x^2 - 10x + 19"
+   ],
+   "ans": "A",
+   "exp": "f(x + 3) = (x + 3)^2 - 4(x + 3) = x^2 + 6x + 9 - 4x - 12 = x^2 + 2x - 3. Subtract 2: x^2 + 2x - 5.",
+   "perm": [
+    1,
+    3,
+    2,
+    0,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Functions",
+   "lik": "M"
+  },
+  {
+   "n": 51,
+   "stem": "How many values of x satisfy the equation cos(2x) = 1/2 in the interval 0 <= x <= 2pi?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "ans": "D",
+   "exp": "For 0 <= x <= 2pi, the argument 2x covers [0, 4pi]. There cos(t) = 1/2 at t = pi/3, 5pi/3, 7pi/3, 11pi/3, giving x = pi/6, 5pi/6, 7pi/6, 11pi/6. That is 4 solutions.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Trigonometry",
+   "lik": "M"
+  },
+  {
+   "n": 52,
+   "stem": "Solve the inequality (x + 1)/(x - 2) >= 0.",
+   "options": [
+    "-1 <= x < 2",
+    "x <= -1 or x >= 2",
+    "x < -1 or x > 2",
+    "x >= -1 and x < 2",
+    "x <= -1 or x > 2"
+   ],
+   "ans": "E",
+   "exp": "Critical points: x = -1 (numerator zero, fraction equals 0, allowed) and x = 2 (denominator zero, excluded). Testing signs, the fraction is non negative for x <= -1 or x > 2.",
+   "perm": [
+    2,
+    4,
+    1,
+    0,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Inequalities",
+   "lik": "M"
+  },
+  {
+   "n": 53,
+   "stem": "A square is inscribed in a circle of radius 6 cm. What is the area of the square?",
+   "options": [
+    "24 cm2",
+    "36 cm2",
+    "72 cm2",
+    "108 cm2",
+    "144 cm2"
+   ],
+   "ans": "C",
+   "exp": "The diagonal of the inscribed square equals the diameter, d = 12 cm. For a square, area = d^2/2 = 144/2 = 72 cm2.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Geometry",
+   "lik": "M"
+  },
+  {
+   "n": 54,
+   "stem": "In an arithmetic sequence the third term is 11 and the eighth term is 31. What is the sum of the first ten terms?",
+   "options": [
+    "105",
+    "210",
+    "290",
+    "390",
+    "420"
+   ],
+   "ans": "B",
+   "exp": "Common difference d = (31 - 11)/(8 - 3) = 4. First term a = 11 - 2d = 3. Sum S10 = (10/2)(2a + 9d) = 5(6 + 36) = 210.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Series",
+   "lik": "M"
+  },
+  {
+   "n": 55,
+   "stem": "A ball is kicked from level ground with an initial speed of 20 m/s at an angle of 30 degrees above the horizontal. What is the maximum height it reaches? (g = 10 m/s2; sin 30 degrees = 0.5; cos 30 degrees = 0.87; ignore air resistance.)",
+   "options": [
+    "2.5 m",
+    "5 m",
+    "10 m",
+    "20 m",
+    "40 m"
+   ],
+   "ans": "B",
+   "exp": "Vertical component v0y = 20 x 0.5 = 10 m/s. At the top, v0y^2 = 2gh, so h = 10^2/(2 x 10) = 5 m.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Projectiles",
+   "lik": "H"
+  },
+  {
+   "n": 56,
+   "stem": "A ball of mass 4.0 kg rolls along level ground with kinetic energy 200 J. What is its speed?",
+   "options": [
+    "5 m/s",
+    "10 m/s",
+    "25 m/s",
+    "50 m/s",
+    "100 m/s"
+   ],
+   "ans": "B",
+   "exp": "Kinetic energy = (1/2)mv^2: 200 = 2v^2, so v^2 = 100 and v = 10 m/s.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Energy",
+   "lik": "H"
+  },
+  {
+   "n": 57,
+   "stem": "On a frictionless horizontal track a trolley of mass 2.0 kg moving at 6.0 m/s collides head-on and elastically with a stationary trolley of mass 4.0 kg. What is the speed of the 4.0 kg trolley immediately after the collision?",
+   "options": [
+    "2 m/s",
+    "3 m/s",
+    "4 m/s",
+    "6 m/s",
+    "12 m/s"
+   ],
+   "ans": "C",
+   "exp": "For an elastic collision with m2 at rest: v2 = 2m1u1/(m1 + m2) = 2(2.0)(6.0)/6.0 = 4 m/s, and v1 = (m1 - m2)u1/(m1 + m2) = -2 m/s. Check momentum: 2(6.0) = 12 = 2(-2) + 4(4) kg m/s; kinetic energy: 36 = 4 + 32 J.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Momentum",
+   "lik": "H"
+  },
+  {
+   "n": 58,
+   "stem": "An object of weight 50 N and density 2500 kg/m3 hangs fully submerged in water of density 1000 kg/m3, held at rest by a vertical string. What is the tension in the string? (g = 10 m/s2.)",
+   "options": [
+    "12.5 N",
+    "20 N",
+    "30 N",
+    "50 N",
+    "70 N"
+   ],
+   "ans": "C",
+   "exp": "Mass = 50/10 = 5 kg; volume = 5/2500 = 0.002 m3. Upthrust = 1000 x 10 x 0.002 = 20 N. Equilibrium: T = 50 - 20 = 30 N.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Buoyancy",
+   "lik": "M"
+  },
+  {
+   "n": 59,
+   "stem": "How much heat is needed to raise the temperature of 0.30 kg of olive oil from 20 degrees C to 70 degrees C? The specific heat capacity of the oil is 2000 J/(kg K); ignore heat losses.",
+   "options": [
+    "3.0 kJ",
+    "15 kJ",
+    "30 kJ",
+    "60 kJ",
+    "120 kJ"
+   ],
+   "ans": "C",
+   "exp": "Q = m c (change in T) = 0.30 x 2000 x 50 = 30000 J = 30 kJ.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Calorimetry",
+   "lik": "M"
+  },
+  {
+   "n": 60,
+   "stem": "A 12 V battery of negligible internal resistance is connected directly across a single 8 Ω resistor. What is the power dissipated in the resistor?",
+   "options": [
+    "1.5 W",
+    "18 W",
+    "24 W",
+    "96 W",
+    "144 W"
+   ],
+   "ans": "B",
+   "exp": "P = V^2/R = 12^2/8 = 144/8 = 18 W. Equivalently I = V/R = 1.5 A and P = VI = 12 x 1.5 = 18 W.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Electricity",
+   "lik": "M"
+  }
+ ]
+}

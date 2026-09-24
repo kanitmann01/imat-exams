@@ -1,0 +1,1060 @@
+GK_Bank_Hard|Q1|General knowledge · World history|Which of the following statements about the Peace of Westphalia is correct?
+GK_Bank_Hard|Q2|General knowledge · World history|The War of the Spanish Succession (1701 to 1714) was brought to an end by:
+GK_Bank_Hard|Q3|General knowledge · World history|Which of the following statements about the Russian revolutions of 1917 is correct?
+GK_Bank_Hard|Q4|General knowledge · World history|Which of the following statements about the Glorious Revolution of 1688 is correct?
+GK_Bank_Hard|Q5|General knowledge · World history|Which of the following statements about the Meiji Restoration of 1868 is correct?
+GK_Bank_Hard|Q6|General knowledge · World history|The Treaty of Trianon, signed in June 1920 as part of the Paris peace settlement, imposed its terms on:
+GK_Bank_Hard|Q7|General knowledge · World history|Which of the following statements about Ottoman expansion is correct?
+GK_Bank_Hard|Q8|General knowledge · World history|Which of the following statements about the Spanish conquests in the Americas is correct?
+GK_Bank_Hard|Q9|General knowledge · World history|Which of the following statements about the colonisation of the Congo is correct?
+GK_Bank_Hard|Q10|General knowledge · World history|Which of the following statements about the reunification of Germany is correct?
+GK_Bank_Hard|Q11|General knowledge · World literature|Midnight's Children (1981), the novel whose hero Saleem Sinai is born at the exact moment of Indian independence on 15 August 1947, is by:
+GK_Bank_Hard|Q12|General knowledge · World literature|Which of the following statements about The Tale of Genji is correct?
+GK_Bank_Hard|Q13|General knowledge · World literature|The novel that opens with the words 'It was the best of times, it was the worst of times' is:
+GK_Bank_Hard|Q14|General knowledge · World literature|The Stranger (L'Etranger, 1942), the short novel narrated by the unemotional Meursault, is by:
+GK_Bank_Hard|Q15|General knowledge · World literature|Ulysses (1922), the modernist novel that follows Leopold Bloom through Dublin on a single day, 16 June 1904, is by:
+GK_Bank_Hard|Q16|General knowledge · World literature|Which of the following statements about Things Fall Apart is correct?
+GK_Bank_Hard|Q17|General knowledge · World literature|The adventures of Gilgamesh, the legendary king of Uruk, are told in:
+GK_Bank_Hard|Q18|General knowledge · World literature|Which of the following statements about the Russian novelists of the nineteenth century is correct?
+GK_Bank_Hard|Q19|General knowledge · International institutions|Which of the following statements about international courts is correct?
+GK_Bank_Hard|Q20|General knowledge · International institutions|A resolution on a matter of peace and security needs nine affirmative votes out of fifteen in the UN Security Council. What is the effect of the abstention of a permanent member?
+GK_Bank_Hard|Q21|General knowledge · International institutions|Which of the following statements about the mandates of international economic institutions is correct?
+GK_Bank_Hard|Q22|General knowledge · International institutions|Which of the following statements about United Nations peacekeeping is correct?
+GK_Bank_Hard|Q23|General knowledge · International institutions|Which of the following statements about the Geneva Conventions of 1949 is correct?
+GK_Bank_Hard|Q24|General knowledge · International institutions|NATO's Article 5 declares that an armed attack against one ally is considered an attack against all. Which statement about it is correct?
+GK_Bank_Hard|Q25|General knowledge · International institutions|A state signs a multilateral treaty subject to ratification. Under the international law of treaties, which statement is correct?
+GK_Bank_Hard|Q26|General knowledge · International institutions|Which of the following statements about the main organs of the United Nations is correct?
+GK_Bank_Hard|Q27|General knowledge · Economics|Which of the following statements about the European Central Bank is correct?
+GK_Bank_Hard|Q28|General knowledge · Economics|If a central bank raises its key interest rates, the expected short-term effects include which of the following?
+GK_Bank_Hard|Q29|General knowledge · Economics|A factory owned by a Japanese multinational operates in Lombardy, and part of its profits is sent to shareholders in Japan. Which statement is correct?
+GK_Bank_Hard|Q30|General knowledge · Citizenship|In Germany, Article 67 of the Basic Law institutes the constructive vote of no confidence. Which statement describes this mechanism correctly?
+GK_Bank_Hard|Q31|General knowledge · Economics|A member state of the European Union that does not use the euro wants to adopt it. Which statement about the convergence criteria is correct?
+GK_Bank_Hard|Q32|General knowledge · Economics|In a progressive income-tax system, a worker's taxable income rises just above the threshold of the next higher bracket. Which statement is correct?
+GK_Bank_Hard|Q33|General knowledge · Citizenship|Which of the following statements about the history of voting rights is correct?
+GK_Bank_Hard|Q34|General knowledge · Citizenship|In a plurality system with single-member constituencies, often called first past the post, the winner of each seat is:
+GK_Bank_Hard|Q35|General knowledge · Italian institutions|Under Article 138 of the Italian Constitution, a law amending the Constitution that was not approved by two thirds of the members of each chamber can be sent to a confirmatory referendum if so requested by a parliamentar
+GK_Bank_Hard|Q36|General knowledge · Italian institutions|Italy's constitutional reform of 2016 was put to a referendum on 4 December 2016 even though both chambers had already approved it. Why?
+GK_Bank_Hard|Q37|General knowledge · Italian institutions|Which of the following statements about the President of the Italian Republic is correct?
+GK_Bank_Hard|Q38|General knowledge · Italian institutions|In a case before an ordinary Italian judge, the judge believes that the statutory provision to be applied conflicts with the Constitution. What can the judge do?
+GK_Bank_Hard|Q39|General knowledge · Italian institutions|In the abrogative referendums of 8 and 9 June 2025, the Yes option prevailed on all five questions, including the reduction of the residence requirement for acquiring citizenship from ten years to five. What was the outc
+GK_Bank_Hard|Q40|General knowledge · Italian institutions|Which of the following statements about the distribution of legislative power in Italy is correct?
+GK_Bank_Hard|Q41|General knowledge · History of science|Which of the following statements about the first public announcement of evolution by natural selection is correct?
+GK_Bank_Hard|Q42|General knowledge · History of science|Which of the following statements about the Newton-Leibniz dispute over the invention of calculus is correct?
+GK_Bank_Hard|Q43|General knowledge · History of science|Gregor Mendel's paper on his pea plant experiments, published in 1866, was largely ignored for decades. Its laws were rediscovered and cited in 1900 by which three botanists?
+GK_Bank_Hard|Q44|General knowledge · History of science|Which of the following statements about the Michelson-Morley experiment of 1887 is correct?
+GK_Bank_Hard|Q45|General knowledge · History of science|Rosalind Franklin's X-ray diffraction work at King's College London was central to the discovery of the DNA double helix. Why did she not share the 1962 Nobel Prize in Physiology or Medicine awarded to Watson, Crick and 
+GK_Bank_Hard|Q46|General knowledge · History of science|In their famous 1952 blender experiment, Alfred Hershey and Martha Chase labelled T2 bacteriophages with radioactive isotopes. Which of the following statements describes their finding correctly?
+GK_Bank_Hard|Q47|General knowledge · History of science|Which of the following statements about the development of penicillin into a usable drug is correct?
+GK_Bank_Hard|Q48|General knowledge · Geography|A flight leaves Tokyo (UTC+9, no daylight saving) at 08:00 local time on a Monday in January and lands in Los Angeles (UTC-8, winter standard time) after exactly 10 hours of flying. What is the local date and time of arr
+GK_Bank_Hard|Q49|General knowledge · Geography|Which of the following statements about straits and canals is correct?
+GK_Bank_Hard|Q50|General knowledge · Geography|Which of the following statements about major world rivers is correct?
+GK_Bank_Hard|Q51|General knowledge · Geography|Which of the following statements about the highest points of Europe and the European Union is correct?
+GK_Bank_Hard|Q52|General knowledge · Geography|Which of the following statements about capitals and largest cities is correct?
+GK_Bank_Hard|Q53|General knowledge · Geography|Which of the following statements about small European states and the European Union is correct?
+GK_Bank_Hard|Q54|General knowledge · Reformation and society|The Ninety-five Theses of 1517, which attacked the sale of indulgences and opened the Protestant Reformation, were issued by:
+GK_Bank_Hard|Q55|General knowledge · Political philosophy|The description of the natural condition of mankind as a 'war of every man against every man', in which life would be 'solitary, poor, nasty, brutish, and short', occurs in:
+GK_Bank_Hard|Q56|General knowledge · World religions (Hinduism)|Which of the following statements about the Bhagavad Gita is correct?
+GK_Bank_Hard|Q57|General knowledge · World religions (Sikhism)|The Guru Granth Sahib, revered by its followers as the eternal living guru, is the principal sacred text of:
+GK_Bank_Hard|Q58|General knowledge · Enlightenment philosophy|The Critique of Pure Reason of 1781, which examines what human reason can and cannot know, was written by:
+GK_Bank_Hard|Q59|General knowledge · Current affairs|Which of the following statements about the WHO Pandemic Agreement is correct?
+GK_Bank_Hard|Q60|General knowledge · Current affairs|The EU Artificial Intelligence Act, which entered into force on 1 August 2024, applies its rules in phases. In which year did the obligations for providers of general-purpose AI models first become applicable?
+GK_Drill_100|Q1|Reading · main idea|Read the following passage and answer the question.  For decades, adolescent risk-taking was attributed chiefly to ignorance: teenagers, the assumption went, simply failed to grasp how dangerous their behaviour was. Neur
+GK_Drill_100|Q2|Reading · vocab in context|For decades, adolescent risk-taking was attributed chiefly to ignorance: teenagers, the assumption went, simply failed to grasp how dangerous their behaviour was. Neuroimaging has complicated that picture. The limbic sys
+GK_Drill_100|Q3|Reading · inference|Read the following passage and answer the question.  Some researchers argue that reflecting a fraction of sunlight before it reaches the Earth's surface — so-called solar radiation management — could cool the planet quic
+GK_Drill_100|Q4|Reading · figure of speech|Some researchers argue that reflecting a fraction of sunlight before it reaches the Earth's surface — so-called solar radiation management — could cool the planet quickly and cheaply, buying time while emissions fall. Cr
+GK_Drill_100|Q5|Reading · vocab in context|Read the following passage and answer the question.  Deep-learning systems now match or exceed specialists at reading certain retinal scans, and hospitals are eager to deploy them. Enthusiasm, however, can outrun evidenc
+GK_Drill_100|Q6|Reading · main idea|Deep-learning systems now match or exceed specialists at reading certain retinal scans, and hospitals are eager to deploy them. Enthusiasm, however, can outrun evidence. An algorithm trained on patients from a handful of
+GK_Drill_100|Q7|Reading · inference|Read the following passage and answer the question.  The microbes of the human gut ferment dietary fibres that our own enzymes cannot break down, releasing short-chain fatty acids that feed the cells of the intestinal wa
+GK_Drill_100|Q8|Reading · vocab in context|The microbes of the human gut ferment dietary fibres that our own enzymes cannot break down, releasing short-chain fatty acids that feed the cells of the intestinal wall and help keep inflammation in check. A diet chroni
+GK_Drill_100|Q9|Civics · Constitutional Court|How many judges sit on Italy's Constitutional Court?
+GK_Drill_100|Q10|Civics · Constitutional Court|The fifteen judges of the Constitutional Court are appointed by:
+GK_Drill_100|Q11|Civics · Constitution|The Italian Constitution was approved by the Constituent Assembly on 22 December 1947 and entered into force on:
+GK_Drill_100|Q12|Civics · Constitution|How many articles does the Italian Constitution contain?
+GK_Drill_100|Q13|Civics · presidency|The President of the Italian Republic is elected by:
+GK_Drill_100|Q14|Civics · Parliament|Italy's Parliament consists of:
+GK_Drill_100|Q15|Civics · Government|Under Article 94, the Government (Council of Ministers) must obtain the confidence of:
+GK_Drill_100|Q16|Civics · Parliament|Following the 2020 constitutional cutback, first applied in the 2022 elections, the two chambers have:
+GK_Drill_100|Q17|Civics · Constitutional Court|The Constitutional Court decides primarily on:
+GK_Drill_100|Q18|Civics · Constitution|Article 1 of the Constitution states that Italy is:
+GK_Drill_100|Q19|Civics · regions|How many of Italy's twenty regions have a special statute and autonomy?
+GK_Drill_100|Q20|Civics · referendum|An abrogative referendum (Article 75) is valid when:
+GK_Drill_100|Q21|Civics · Government|The President of the Council of Ministers (the prime minister) is:
+GK_Drill_100|Q22|Civics · current officeholders|Who has served as President of the Italian Republic since 2015 and was confirmed for a second term in 2022?
+GK_Drill_100|Q23|Civics · current officeholders|Since October 2022, the President of the Council of Ministers has been:
+GK_Drill_100|Q24|Civics · national days|Italy's national day, 2 June, commemorates:
+GK_Drill_100|Q25|EU · institutions|The European Central Bank has its seat in:
+GK_Drill_100|Q26|EU · institutions|The official seat of the European Parliament — where the twelve monthly plenary sessions are held — is:
+GK_Drill_100|Q27|EU · institutions|The Court of Justice of the European Union (CJEU) sits in:
+GK_Drill_100|Q28|EU · institutions|The European Commission is best described as:
+GK_Drill_100|Q29|EU · institutions|The European Council consists of:
+GK_Drill_100|Q30|EU · treaties|The Treaty of Rome (1957) established:
+GK_Drill_100|Q31|EU · treaties|The Maastricht Treaty (1992) is notable for:
+GK_Drill_100|Q32|EU · euro|Euro banknotes and coins entered circulation on:
+GK_Drill_100|Q33|EU · membership|After the United Kingdom left the EU on 31 January 2020 (Brexit), the number of member states is:
+GK_Drill_100|Q34|EU · membership|Which country was the last to join the European Union, in 2013?
+GK_Drill_100|Q35|EU · euro|On 1 January 2023, Croatia:
+GK_Drill_100|Q36|EU · 2026 watchlist|On 1 January 2026 Bulgaria became the 21st country to adopt the euro. Its former currency was:
+GK_Drill_100|Q37|EU · Schengen|The Schengen area is best described as:
+GK_Drill_100|Q38|EU · history|The European Union as an organisation was awarded the Nobel Peace Prize in:
+GK_Drill_100|Q39|EU · institutions|Which institution of the European Union is directly elected by the citizens?
+GK_Drill_100|Q40|EU · euro|Which of the following EU member states does not use the euro?
+GK_Drill_100|Q41|History · Risorgimento|The Kingdom of Italy was proclaimed in:
+GK_Drill_100|Q42|History · Risorgimento|The 'Expedition of the Thousand' (1860), which conquered the Kingdom of the Two Sicilies, was led by:
+GK_Drill_100|Q43|History · Risorgimento|The prime minister of Piedmont who engineered France's support and diplomatic cover for unification was:
+GK_Drill_100|Q44|History · Risorgimento|Giuseppe Mazzini is best remembered as:
+GK_Drill_100|Q45|History · Risorgimento|Rome became the capital of Italy in:
+GK_Drill_100|Q46|History · WWI|Italy entered the First World War in 1915 on the side of:
+GK_Drill_100|Q47|History · WWI|The disastrous Italian defeat of October 1917 — followed by recovery and victory at Vittorio Veneto in 1918 — was the battle of:
+GK_Drill_100|Q48|History · fascism|The 'March on Rome' (October 1922) resulted in:
+GK_Drill_100|Q49|History · fascism|The Lateran Pacts of 1929 between Italy and the Holy See:
+GK_Drill_100|Q50|History · WWII|Italy's Liberation Day, 25 April, marks:
+GK_Drill_100|Q51|History · Republic|On 2 June 1946, Italians voted:
+GK_Drill_100|Q52|History · Republic|Italy's post-war 'economic miracle' — rapid industrial growth, the Fiat 500, mass internal migration — occurred chiefly in the:
+GK_Drill_100|Q53|History · Years of Lead|The kidnapping and murder of former Prime Minister Aldo Moro by the Red Brigades occurred in:
+GK_Drill_100|Q54|History · First Republic|The 'Mani pulite' (Clean Hands) judicial investigations opened in 1992 and:
+GK_Drill_100|Q55|Art · Leonardo|Leonardo da Vinci's Last Supper is a mural painted in:
+GK_Drill_100|Q56|Art · Michelangelo|Michelangelo's David (1501–04) stands today in:
+GK_Drill_100|Q57|Art · Michelangelo|Michelangelo's Pietà (1499), the only work he ever signed, is in:
+GK_Drill_100|Q58|Art · Raphael|Raphael's The School of Athens is frescoed in:
+GK_Drill_100|Q59|Art · Botticelli|Botticelli's The Birth of Venus hangs in:
+GK_Drill_100|Q60|Art · Michelangelo|The ceiling of the Sistine Chapel was painted by Michelangelo between:
+GK_Drill_100|Q61|Art · Renaissance|Filippo Brunelleschi's masterpiece of engineering is:
+GK_Drill_100|Q62|Art · ancient Rome|The Pantheon in Rome — still the world's largest unreinforced concrete dome — was essentially completed under the emperor:
+GK_Drill_100|Q63|Art · ancient Rome|The Colosseum — properly the Flavian Amphitheatre — was inaugurated in:
+GK_Drill_100|Q64|Art · Baroque|Caravaggio's revolutionary painting style is characterised by:
+GK_Drill_100|Q65|Art · Baroque|Gian Lorenzo Bernini, the leading sculptor-architect of the Roman Baroque, created:
+GK_Drill_100|Q66|Art · heritage|The archaeological site of Pompeii was buried — and thus preserved — by:
+GK_Drill_100|Q67|Letters · Dante|Dante's Divine Comedy:
+GK_Drill_100|Q68|Letters · Boccaccio|Boccaccio's Decameron is framed as:
+GK_Drill_100|Q69|Letters · Petrarch|Petrarch, author of the Canzoniere addressed to Laura, is traditionally called:
+GK_Drill_100|Q70|Letters · Machiavelli|The Prince (1513) — which argues it is safer for a ruler to be feared than loved — was written by:
+GK_Drill_100|Q71|Letters · Manzoni|Alessandro Manzoni's novel The Betrothed (I promessi sposi) is set:
+GK_Drill_100|Q72|Letters · Eco|The Name of the Rose (1980), a murder mystery set in a fourteenth-century Italian monastery, was written by:
+GK_Drill_100|Q73|Letters · Italian Nobels|The 1934 Nobel Prize in Literature went to the Italian dramatist of Six Characters in Search of an Author:
+GK_Drill_100|Q74|Letters · Levi|If This Is a Man (Se questo è un uomo), the testament of Auschwitz by a deported Jewish chemist, was written by:
+GK_Drill_100|Q75|Letters · Calvino|Invisible Cities — in which Marco Polo describes impossible cities to Kublai Khan — is by:
+GK_Drill_100|Q76|Letters · contemporary|The Neapolitan Novels, beginning with My Brilliant Friend, are published under the pseudonym:
+GK_Drill_100|Q77|Ideas · Plato|Plato's allegory of the cave appears in:
+GK_Drill_100|Q78|Ideas · Galileo|Galileo's Dialogue Concerning the Two Chief World Systems (1632) brought him:
+GK_Drill_100|Q79|Ideas · Enlightenment|'Man is born free, and everywhere he is in chains' opens:
+GK_Drill_100|Q80|Letters · world literature|One Hundred Years of Solitude, the masterpiece of Latin-American magical realism, is by:
+GK_Drill_100|Q81|Science · Marconi|Guglielmo Marconi shared the 1909 Nobel Prize in Physics for:
+GK_Drill_100|Q82|Science · Volta|Alessandro Volta (1745–1827) is celebrated for:
+GK_Drill_100|Q83|Science · Fermi|Enrico Fermi's team achieved the first controlled nuclear chain reaction on 2 December 1942 at:
+GK_Drill_100|Q84|Science · CERN|CERN, the European laboratory that runs the Large Hadron Collider, is located near:
+GK_Drill_100|Q85|Science · Galileo|With his improved telescope in 1610, Galileo discovered:
+GK_Drill_100|Q86|Science · Avogadro|Avogadro's law states that equal volumes of gases at the same temperature and pressure:
+GK_Drill_100|Q87|Science · medicine|Alexander Fleming's 1928 discovery, later mass-produced for D-Day, was:
+GK_Drill_100|Q88|Science · DNA|The double-helix structure of DNA (1953) was chiefly worked out by:
+GK_Drill_100|Q89|Science · Nobel 2024|The 2024 Nobel Prize in Physics was awarded to John Hopfield and Geoffrey Hinton for:
+GK_Drill_100|Q90|Science · space|The James Webb Space Telescope, launched on 25 December 2021, observes primarily in:
+GK_Drill_100|Q91|Current · papacy|Following the death of Pope Francis in April 2025, the conclave of 8 May 2025 elected:
+GK_Drill_100|Q92|Current · sport 2026|The 2026 Winter Olympics (6–22 February 2026) were hosted by:
+GK_Drill_100|Q93|Current · sport 2026|The 2026 FIFA World Cup — the first 48-team edition, hosted by the USA, Canada and Mexico — was won by:
+GK_Drill_100|Q94|Current · sport 2024|After the Paris 2024 Summer Games — the city's third Olympics — the next Summer Olympics will be held in:
+GK_Drill_100|Q95|Current · Nobel 2025|The 2025 Nobel Peace Prize was awarded to:
+GK_Drill_100|Q96|Current · Nobel 2024-25|The 2024 Nobel Prize in Literature was awarded to:
+GK_Drill_100|Q97|Current · politics|Following the November 2024 US election, the president inaugurated on 20 January 2025 was:
+GK_Drill_100|Q98|Current · Jubilee 2025|The Catholic Jubilee (Holy Year) that ran through 2025 under the motto 'Pilgrims of Hope' was centred on:
+GK_Drill_100|Q99|Current · Nobel 2025|The 2025 Nobel Prize in Physics honoured work on macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit — the foundation of:
+GK_Drill_100|Q100|Current · Nobel 2025|The 2025 Nobel Prize in Physiology or Medicine was awarded for discoveries concerning:
+Repair_Drill_1|Q1|Respiration & Bioenergetics · Krebs location|In a eukaryotic cell, the enzymes that catalyse the citric acid (Krebs) cycle are located mainly in the:
+Repair_Drill_1|Q2|Respiration & Bioenergetics · Matrix vs membrane processes|Which of the following processes occurs in the mitochondrial matrix?
+Repair_Drill_1|Q3|Respiration & Bioenergetics · ATP synthase location|In human cells, ATP synthase is located in the:
+Repair_Drill_1|Q4|Respiration & Bioenergetics · Proton gradient and complex IV|Cyanide blocks complex IV, the last complex of the electron transport chain. What is the most immediate effect on ATP synthase?
+Repair_Drill_1|Q5|Respiration & Bioenergetics · CO2 release phases|During the complete aerobic oxidation of one glucose molecule, carbon dioxide is released:
+Repair_Drill_1|Q6|Respiration & Bioenergetics · Anaerobic CO2 output|A working muscle cell temporarily carries out only glycolysis followed by lactic acid fermentation. How many molecules of CO2 are released per molecule of glucose consumed?
+Repair_Drill_1|Q7|Respiration & Bioenergetics · CO2 transport in blood|Most of the carbon dioxide carried in human blood is transported:
+Repair_Drill_1|Q8|Respiration & Bioenergetics · CO2 transport percentages|Approximately what percentage of the carbon dioxide in human blood is transported as bicarbonate ions (HCO3-)?
+Repair_Drill_1|Q9|Respiration & Bioenergetics · PFK-1 allosteric regulation|When a cell's ATP concentration is high, the rate of glycolysis falls. This happens because ATP:
+Repair_Drill_1|Q10|Respiration & Bioenergetics · Majority ATP from ETC|In a eukaryotic cell, complete oxidation of one glucose molecule yields roughly 30-32 ATP. Most of this ATP is produced by:
+Repair_Drill_1|Q11|Respiration & Bioenergetics · Myosin-actin binding|During skeletal muscle contraction, the myosin heads attach directly to:
+Repair_Drill_1|Q12|Respiration & Bioenergetics · Fermentation and NAD+|When oxygen is unavailable, yeast and muscle cells run fermentation chiefly in order to:
+Repair_Drill_1|Q13|Body systems · bile|Bile, which is produced by the liver and stored in the gallbladder, assists fat digestion primarily by...
+Repair_Drill_1|Q14|Body systems · inhalation mechanics|During a normal inhalation, which sequence of events occurs?
+Repair_Drill_1|Q15|Body systems · expiration|During quiet breathing at rest, expiration is best described as...
+Repair_Drill_1|Q16|Body systems · heart chambers|Oxygenated blood is delivered to the systemic circulation by which route?
+Repair_Drill_1|Q17|Body systems · heart valves|The semilunar valves of the heart prevent...
+Repair_Drill_1|Q18|Body systems · epithelial tissues|The urinary bladder must tolerate repeated stretching as it fills with urine. Which epithelium lines it?
+Repair_Drill_1|Q19|Body systems · epithelial tissues|The kidney tubules and many secretory glands are lined mainly by which epithelium?
+Repair_Drill_1|Q20|Body systems · ciliated epithelium|Ciliated epithelium lining the trachea serves mainly to...
+Repair_Drill_1|Q21|Cell Division, Genetics & Cell Biology · Nondisjunction timing|Nondisjunction in meiosis I, meaning the failure of homologous chromosomes to separate from each other, occurs during:
+Repair_Drill_1|Q22|Cell Division, Genetics & Cell Biology · Sister chromatids and meiosis II|In a human primary spermatocyte (2n = 46) undergoing meiosis II, nondisjunction would be the failure of which structures to separate?
+Repair_Drill_1|Q23|Cell Division, Genetics & Cell Biology · Independent assortment|Independent assortment of maternal and paternal chromosomes results from their random orientation at the metaphase plate. This alignment of homologous pairs occurs during:
+Repair_Drill_1|Q24|Cell Division, Genetics & Cell Biology · Crossing over|Crossing over, the exchange of corresponding segments between homologous chromosomes, takes place during:
+Repair_Drill_1|Q25|Cell Division, Genetics & Cell Biology · Epimers|Glucose and galactose differ in the spatial arrangement of the hydroxyl group at a single chiral carbon, C-4. They are therefore classified as:
+Repair_Drill_1|Q26|Cell Division, Genetics & Cell Biology · Lysosomal storage disease|Tay-Sachs disease is caused by a defective enzyme, hexosaminidase A, so an undegraded membrane lipid (GM2 ganglioside) accumulates. In which organelle does the lipid build up?
+Repair_Drill_1|Q27|Cell Division, Genetics & Cell Biology · Unfolded protein response|The accumulation of misfolded proteins inside the endoplasmic reticulum triggers the unfolded protein response. This misfolded-protein build-up is sensed in the:
+Repair_Drill_1|Q28|Cell Division, Genetics & Cell Biology · PTH vs calcitonin|Parathyroid hormone raises blood calcium concentration. Parathyroid hormone does all of the following EXCEPT:
+Repair_Drill_1|Q29|Cell Division, Genetics & Cell Biology · Tonicity of 0.9% saline|An intravenous drip delivers 0.9% saline, whose osmolarity matches that of blood plasma. Red blood cells suspended in this solution will:
+Repair_Drill_1|Q30|Cell Division, Genetics & Cell Biology · Bottleneck effect|A catastrophe reduces a large population to a few randomly surviving individuals, which then rebuild the population. The restored population shows greatly reduced genetic diversity. This is an example of:
+Repair_Drill_1|Q31|Chem · oxidation numbers + periodic table position|Sulfur forms sulfuric acid, H₂SO₄. Which of the following correctly gives both the oxidation number of sulfur in H₂SO₄ and the position of sulfur in the periodic table?
+Repair_Drill_1|Q32|Chem · oxidation numbers (permanganate ion)|What is the oxidation number of manganese in KMnO₄?
+Repair_Drill_1|Q33|Chem · redox in single displacement|Zinc metal is placed in copper(II) sulfate solution: Zn + CuSO₄ → ZnSO₄ + Cu. Which statement about this reaction is correct?
+Repair_Drill_1|Q34|Chem · pH ↔ [H⁺]|What is the hydrogen ion concentration in a solution of pH 4.0?
+Repair_Drill_1|Q35|Chem · Kw and pOH → pH|At 25 °C, Kw = 1.0 × 10⁻¹⁴ mol² dm⁻⁶. A solution has [OH⁻] = 1.0 × 10⁻⁴ mol dm⁻³. What is the pH of this solution?
+Repair_Drill_1|Q36|Chem · pH of a strong acid from molarity|What is the pH of a 0.001 mol dm⁻³ solution of hydrochloric acid, a strong monoprotic acid?
+Repair_Drill_1|Q37|Chem · Avogadro constant & molar volume at STP|How many molecules are present in 22.4 dm³ of oxygen gas at STP? (Molar volume at STP = 22.4 dm³ mol⁻¹; Avogadro constant = 6.02 × 10²³ mol⁻¹)
+Repair_Drill_1|Q38|Chem · molarity from moles and volume|0.5 mol of sodium hydroxide is dissolved in water and the solution is made up to 250 cm³. What is the concentration of the solution in mol dm⁻³?
+Repair_Drill_1|Q39|Chem · gas laws (Avogadro's law)|Which law states that the volume of a gas is directly proportional to the number of moles of gas present, provided the temperature and pressure are constant?
+Repair_Drill_1|Q40|Chem · Charles's law (°C → K conversion)|A gas occupies 9.0 dm³ at 27 °C and constant pressure. It is then cooled to −73 °C, still at the same pressure. What volume does it now occupy?
+Repair_Drill_1|Q41|Chem · Boyle's law (P₁V₁ = P₂V₂)|A gas occupies 500 cm³ at a pressure of 100 kPa, the temperature remaining constant. The pressure is increased to 250 kPa. What is the new volume?
+Repair_Drill_1|Q42|Chem · intermolecular forces & boiling point|Each of the following compounds contains two carbon atoms. Which has the highest boiling point?
+Repair_Drill_1|Q43|Chem · molecular polarity (molecular shape)|Which one of the following molecules is polar?
+Repair_Drill_1|Q44|Chem · Hess's law (reversing and combining steps)|Given the following data: C(s) + O₂(g) → CO₂(g), ΔH = −394 kJ mol⁻¹; CO(g) + ½O₂(g) → CO₂(g), ΔH = −283 kJ mol⁻¹. What is ΔH for the reaction C(s) + ½O₂(g) → CO(g)?
+Repair_Drill_1|Q45|Maths · radical equations|Solve for x: √(3x − 2) = 4.
+Repair_Drill_1|Q46|Maths · radical equations (extraneous roots)|Solve for x: √(x + 6) = x. Which answer lists ALL valid solutions?
+Repair_Drill_1|Q47|Maths · linear inequalities (sign flip)|Solve the inequality: 5 − 3x ≥ 20.
+Repair_Drill_1|Q48|Maths · linear inequalities (dividing by a negative)|Solve the inequality: −2x + 7 > 15.
+Repair_Drill_1|Q49|Maths · function evaluation|If f(x) = 3x² − 4x + 5, what is f(2)?
+Repair_Drill_1|Q50|Maths · Pythagoras (ladder problem, 3-4-5)|A 15 m ladder leans against a vertical wall with its foot 9 m from the base of the wall. How high up the wall does the ladder reach?
+Repair_Drill_1|Q51|Maths · Pythagoras (perimeter, 8-15-17)|A rectangle has a width of 16 cm and a diagonal of 34 cm. What is its perimeter?
+Repair_Drill_1|Q52|Maths · bracket expansion (linear equation)|Solve for x: 4(x − 2) = 2x + 2.
+Repair_Drill_1|Q53|Maths · circle area and circumference|Using π = 3.14, what is the area of a circle with a diameter of 12 cm?
+Repair_Drill_1|Q54|Physics · unit conversion (km/h to m/s)|A car travels at 72 km/h. What is this speed in m/s?
+Repair_Drill_1|Q55|Physics · unit conversion (m/s to km/h, reverse)|A cyclist rides at 15 m/s. What is this speed in km/h?
+Repair_Drill_1|Q56|Physics · parallel resistors|Two 6 Ω resistors are connected in parallel. What is the total resistance?
+Repair_Drill_1|Q57|Physics · parallel resistors (three branches)|Three resistors of 4 Ω, 4 Ω and 2 Ω are connected in parallel. What is the total resistance?
+Repair_Drill_1|Q58|Physics · electrical power (P = I²R)|A current of 3 A flows through a 4 Ω resistor. What power is dissipated?
+Repair_Drill_1|Q59|Physics · electrical power (P = VI)|An appliance draws a current of 2.5 A when connected to a 12 V supply. What power does it use?
+Repair_Drill_1|Q60|Physics · pressure in fluids (P = ρgh)|What is the gauge pressure at a depth of 5 m in water? (ρ = 1000 kg/m³, g = 9.8 m/s²)
+Repair_Drill_1|Q61|Physics · density (ρ = m/V)|A block has a mass of 540 g and a volume of 200 cm³. What is its density, and which metal is it consistent with?
+Repair_Drill_1|Q62|Physics · inverse-square law (consolidation)|A lamp produces a light intensity of 90 W/m² at a distance of 1 m. What is the intensity at 3 m from the lamp?
+Repair_Drill_1|Q63|Logic & reasoning · conditional logic (contrapositive)|'If Maria catches the 8:00 train, she arrives before noon.' Maria did not arrive before noon. Which conclusion necessarily follows?
+Repair_Drill_1|Q64|Logic & reasoning · contradicting a conditional|A technician states: 'If the sample is contaminated, the result is unreliable.' Which statement, if true, contradicts this?
+Repair_Drill_1|Q65|Logic & reasoning · converse/inverse fallacy|Anna reasons: 'If the alarm rings, the neighbours call the police. The alarm did not ring, so the neighbours did not call the police.' Her reasoning is...
+Repair_Drill_1|Q66|Logic & reasoning · syllogisms (all/some/no)|All cardiologists are doctors. Some teachers are doctors. No cardiologist is a teacher. Which conclusion follows necessarily?
+Repair_Drill_1|Q67|Logic & reasoning · syllogisms (all/no)|No reptiles are warm-blooded. All snakes are reptiles. Which conclusion follows necessarily?
+Repair_Drill_1|Q68|Logic & reasoning · drawing conclusions|A study of 5,000 cyclists found that riders without helmets were more than three times as likely to sustain head injuries as riders wearing helmets. Which conclusion is best supported?
+Repair_Drill_1|Q69|Logic & reasoning · drawing conclusions|A survey of 2,000 employees found that those who walk to work reported, on average, higher job satisfaction than those who commute by car. Which conclusion follows?
+Repair_Drill_1|Q70|Logic & reasoning · clock angles|What is the angle between the hour hand and the minute hand of an analogue clock at 3:15?
+bank_bio_hard|Q1|Biology · amino acid classes|The side chains of four amino acids are considered: serine bears a hydroxyl group, alanine bears a methyl group, aspartic acid bears a second carboxyl group, and lysine bears a terminal amino group. Which statement is co
+bank_bio_hard|Q2|Biology · ionisation of peptides at pH|A tripeptide is assembled in the order glutamic acid, glycine, lysine. Peptide bonds are not ionisable, and the only groups carrying charge near pH 7 are the terminal amino and carboxyl groups plus the side chains of the
+bank_bio_hard|Q3|Biology · proline and secondary structure|Collagen aside, proline is rarely found in the middle of an alpha helix. The best explanation is that proline:
+bank_bio_hard|Q4|Biology · disulfide bonds and tertiary structure|A reagent breaks the four intrachain disulfide bridges of a protein made of a single polypeptide chain, without touching any peptide bond. Which levels of protein structure are directly lost, and which are preserved?
+bank_bio_hard|Q5|Biology · alpha helix vs beta sheet|Two synthetic peptides of equal length adopt different secondary structures: peptide P forms an alpha helix and peptide Q forms an antiparallel beta sheet. Which statement is correct?
+bank_bio_hard|Q6|Biology · globular and fibrous proteins|A newly characterised protein is a long, water-insoluble strand that gives tendon its tensile strength and forms insoluble fibres outside the body. Which classification and justification are correct?
+bank_bio_hard|Q7|Biology · levels of protein structure|Which statement about levels of protein structure is correct?
+bank_bio_hard|Q8|Biology · cellulose vs starch|Cellulose and starch are both polymers of glucose, yet cellulose passes through the human gut largely undigested. The reason is that:
+bank_bio_hard|Q9|Biology · glycogen mobilisation|Muscle glycogen releases usable glucose units faster than the amylopectin of a starchy meal, although both are branched polymers of alpha-glucose. The best explanation is that glycogen:
+bank_bio_hard|Q10|Biology · carotenoids and xanthophylls|In a chromatogram of a leaf extract, the yellow-orange bands contain carotenes and xanthophylls. Which statement about these pigments is correct?
+bank_bio_hard|Q11|Biology · lipid energy storage|Per gram, fat stores about twice as much usable energy as glycogen. Which statement explains this most directly?
+bank_bio_hard|Q12|Biology · starch digestion by amylase|Starch is incubated with purified amylase under gut-like conditions, and the mixture then meets the brush-border enzymes of the small intestine. Which statement describes the carbohydrate products of the two stages corre
+bank_bio_hard|Q13|Biology · lactose digestion|Lactose, the disaccharide in milk, is hydrolysed at the intestinal brush border by lactase. The correct reaction is:
+bank_bio_hard|Q14|Biology · enzyme concentration and rate|In a tube containing enzyme and a large excess of its substrate, the enzyme concentration is doubled while temperature and pH are held constant. The initial reaction rate will:
+bank_bio_hard|Q15|Biology · enzyme amount vs substrate amount|Two tubes contain the same small, fixed amount of substrate. Tube X receives 1 unit of enzyme and tube Y receives 4 units of the same enzyme; temperature and pH are equal and optimal. Which outcome is expected?
+bank_bio_hard|Q16|Biology · enzymes and equilibrium|An enzyme is added to a reaction mixture that has already reached chemical equilibrium. Which statement is correct?
+bank_bio_hard|Q17|Biology · prion misfolding cascade|In prion diseases, a misfolded form of a normal membrane protein acts as a template: contact converts the normal form into the misfolded shape, which then joins growing aggregates. Which statement follows from this mecha
+bank_bio_hard|Q18|Biology · chaperones and aggregation|A cell line carries a mutation that disables its main chaperone proteins, while protein synthesis continues normally and amino acid sequences are unchanged. The most likely consequence inside the cell is that:
+bank_bio_hard|Q19|Biology · products of smooth ER and lysosome action|In a steroid-producing gland cell, the smooth endoplasmic reticulum is actively making hormones, while a lysosome is digesting a bacterium taken in by phagocytosis. Which pair of products is formed by the smooth endoplas
+bank_bio_hard|Q20|Biology · peroxisomes vs lysosomes|Which of the following statements about peroxisomes and lysosomes is correct?
+bank_bio_hard|Q21|Biology · peroxisome catalase failure|In animal cells the first step of peroxisomal fatty acid oxidation is catalysed by an oxidase that passes electrons directly to oxygen, forming hydrogen peroxide. A mutation abolishes the activity of peroxisomal catalase
+bank_bio_hard|Q22|Biology · ATP dependence of transport|A metabolic poison halts ATP production in an animal cell kept in an isotonic medium. Which combination of transport processes continues at its normal rate for some time?
+bank_bio_hard|Q23|Biology · facilitated diffusion case|Cells are cultured in a medium whose glucose concentration is higher than the glucose concentration inside the cells. The cells take up glucose through a membrane carrier protein, and the uptake rate is unchanged when AT
+bank_bio_hard|Q24|Biology · osmosis with a penetrating solute|A red blood cell whose interior behaves as 300 mmol/dm³ of non-penetrating solute is placed in a large volume of solution containing 150 mmol/dm³ sodium chloride (fully dissociated) and 100 mmol/dm³ urea. Sodium chloride
+bank_bio_hard|Q25|Biology · fluid mosaic model|Which statement about the fluid mosaic model of the plasma membrane is correct?
+bank_bio_hard|Q26|Biology · integral vs peripheral proteins|Researchers treat sealed vesicles of plasma membrane in two ways. Treatment 1 uses a concentrated salt solution that disrupts ionic and polar interactions but leaves the bilayer intact. Treatment 2 uses a mild detergent 
+bank_bio_hard|Q27|Biology · hypertonic solution, animal cell|A red blood cell is moved from an isotonic medium into a solution with a higher total concentration of non-penetrating solutes than the cytosol. What is the outcome?
+bank_bio_hard|Q28|Biology · tonicity in plant vs animal cells|Cells from the same tissue are divided into two samples: one sample is placed in solution X, which is hypertonic to the cells, and the other in solution Y, which is hypotonic to the cells. Both plant and animal cells are
+bank_bio_hard|Q29|Biology · viruses as acellular|Viruses are described as acellular. Which statement gives the main reason?
+bank_bio_hard|Q30|Biology · viral structure and replication|Which of the following statements about viruses is correct?
+bank_bio_hard|Q31|Biology · plastid storage types|Which pairing of a plastid type with what it stores is correct?
+bank_bio_hard|Q32|Biology · plastid differentiation in ripening|During the ripening of a tomato fruit the green colour fades, red pigments accumulate, and the starch stored in the fruit is converted into sugars. Which combination of plastid events fits these changes?
+bank_bio_hard|Q33|Biology · lysosomal storage disease|In Tay-Sachs disease, a defective gene leaves one enzyme inactive inside a particular organelle. Nerve cells of affected children develop swollen vesicles packed with undigested ganglioside lipids. Which statement identi
+bank_bio_hard|Q34|Biology · organelle malfunction matching|Three treatments each disable one organelle in a cell line. After treatment 1, secreted proteins are synthesised but are never given mature carbohydrate chains and are not sorted to their destinations. After treatment 2,
+bank_bio_hard|Q35|Biology · replication enzymes (topoisomerase)|A bacterial culture is treated with a drug that completely inhibits DNA gyrase, a topoisomerase. Helicase and DNA polymerase are unaffected, and replication was already under way at several forks when the drug was added.
+bank_bio_hard|Q36|Biology · replication enzymes (ligase)|In a temperature-sensitive bacterial mutant shifted to the restrictive temperature, DNA ligase is inactive while helicase, primase and DNA polymerase still function normally. Which observation is expected in cells that w
+bank_bio_hard|Q37|Biology · nucleosomes and chromatin|In a eukaryotic species, nucleosomes are arranged with a repeat length of 200 bp of DNA per nucleosome. Each nucleosome core particle contains two copies each of histones H2A, H2B, H3 and H4, with 147 bp of DNA wrapped a
+bank_bio_hard|Q38|Biology · histone properties|Which statement about histones is correct?
+bank_bio_hard|Q39|Biology · semi-conservative replication (Meselson-Stahl)|Bacteria are grown for many generations in a medium whose only nitrogen source is the heavy isotope 15N, so that all their DNA is fully heavy. The culture is then transferred to ordinary 14N medium and allowed to complet
+bank_bio_hard|Q40|Biology · Meselson-Stahl two-generation readout|In a Meselson-Stahl type experiment, bacteria grown in 15N medium are shifted to 14N medium and allowed to replicate for exactly two rounds. Centrifugation then separates the DNA into two distinct bands: one at intermedi
+bank_bio_hard|Q41|Biology · eukaryotic ribosome structure and assembly|Which statement about the eukaryotic (80S) ribosome is correct?
+bank_bio_hard|Q42|Biology · RNA splicing (introns in prokaryotes)|A eukaryotic gene consists of two exons separated by one intron, and that intron contains a stop codon in the reading frame. The DNA of the gene, intron included, is inserted into a bacterium under the control of a bacte
+bank_bio_hard|Q43|Biology · RNA splicing (eukaryote vs prokaryote)|Which statement about RNA splicing is correct?
+bank_bio_hard|Q44|Biology · mutation types (nonsense)|A codon table shows that CAG codes for glutamine and that UAG is a stop codon. In an mRNA molecule, the codon CAG is changed to UAG by a single base substitution. This mutation is best classified as:
+bank_bio_hard|Q45|Biology · mutation types (frameshift)|The beginning of an mRNA reads AUG CCU GGU UGA, where UGA is the fourth codon and is a stop signal. Given the code AUG = methionine, CCU = proline, GGU = glycine, ACC = threonine, UGG = tryptophan, UUG = leucine, a mutat
+bank_bio_hard|Q46|Biology · mutation types (silent and missense)|A codon table gives: GAA and GAG both code for glutamate, GUA codes for valine, and UAA is a stop codon. In the same gene in two different individuals, single-base substitutions occur at the same codon: in mutant X the c
+bank_bio_hard|Q47|Biology · PCR components (primers and Taq polymerase)|A researcher sets up a PCR containing the DNA template, Taq polymerase and all four dNTPs, but accidentally omits the primers. The thermal cycler still runs its full programme of denaturation, annealing and extension. Wh
+bank_bio_hard|Q48|Biology · PCR amplification (copy counting)|A PCR tube starts with exactly one double-stranded DNA molecule. The reaction runs three complete cycles, and in every cycle each single strand present serves as the template for one newly synthesized complementary stran
+bank_bio_hard|Q49|Biology · cell cycle checkpoints (G1 DNA damage)|A culture of actively dividing fibroblasts is exposed to UV radiation while all cells are in G1, producing numerous thymine dimers. The G1 checkpoint responds normally. Which outcome is expected?
+bank_bio_hard|Q50|Biology · cell cycle phases (G1, S, G2, M, G0)|Which statement about the phases of the eukaryotic cell cycle is correct?
+bank_bio_hard|Q51|Biology · mitotic nondisjunction (mosaicism)|During an early mitotic division of a chromosomally normal human embryo (2n = 46), the two sister chromatids of chromosome 21 fail to separate in anaphase of one cell. Which outcome is expected in the two daughter cells 
+bank_bio_hard|Q52|Biology · meiosis I stages|Which of the following statements about meiosis I is false?
+bank_bio_hard|Q53|Biology · crossing over (prophase I)|Crossing over, a major source of new allele combinations, occurs:
+bank_bio_hard|Q54|Biology · anaphase II chromosome counts|A plant species has a diploid number of 2n = 10. During anaphase II of meiosis, how many chromosomes move toward each pole, and what does each of them consist of?
+bank_bio_hard|Q55|Biology · nondisjunction in meiosis I|In a primary spermatocyte with 2n = 12, a nondisjunction of one homologous pair occurs during meiosis I, and meiosis II then proceeds normally. How many of the four resulting gametes have an abnormal chromosome number?
+bank_bio_hard|Q56|Biology · nondisjunction in meiosis II|A primary spermatocyte (2n = 24) completes meiosis I normally. During meiosis II, in one of the two secondary spermatocytes the sister chromatids of one chromosome fail to separate, while the other secondary spermatocyte
+bank_bio_hard|Q57|Biology · identifying nondisjunction stage|A male with 2n = 20 produces a sperm sample in which a single nondisjunction event occurred in one meiocyte. The four sperm from that meiocyte carry 11, 10, 10 and 9 chromosomes respectively. In which division did the no
+bank_bio_hard|Q58|Biology · sources of genetic variability|Which statement about the origin of genetic variability in sexually reproducing organisms is correct?
+bank_bio_hard|Q59|Biology · independent assortment (2ⁿ combinations)|In an animal species with 2n = 12, how many genetically different chromosome combinations can the gametes acquire through independent assortment alone, ignoring crossing over?
+bank_bio_hard|Q60|Biology · codominance (1:2:1 ratio)|In humans the M and N blood-group alleles are codominant. A couple are both of type MN. Which phenotype ratio is expected among their children?
+bank_bio_hard|Q61|Biology · Mendelian ratios|Which of the following statements about Mendelian crosses is false?
+bank_bio_hard|Q62|Biology · dihybrid genotype counting|Two pea plants heterozygous for seed shape and for seed colour (AaBb × AaBb) are crossed, and the two genes assort independently. How many different genotypes are expected among the offspring?
+bank_bio_hard|Q63|Biology · dihybrid phenotype fractions|In a cross AaBb × aaBb, with the two genes assorting independently, what is expected among the offspring?
+bank_bio_hard|Q64|Biology · Hardy-Weinberg (carrier frequency)|In a population of 500 people at Hardy-Weinberg equilibrium, 20 people show an autosomal recessive condition (genotype aa). How many people are expected to be heterozygous carriers?
+bank_bio_hard|Q65|Biology · Hardy-Weinberg (allele frequency)|A population is in Hardy-Weinberg equilibrium, and 9 percent of its members show a phenotype caused by a recessive allele. What is the frequency of the dominant allele in this population?
+bank_bio_hard|Q66|Biology · bottleneck effect and spontaneous generation|Which statement about evolution and the history of evolutionary thought is correct?
+bank_bio_hard|Q67|Biology · epithelial types and their locations|Which option pairs every site with the epithelium that normally lines it?
+bank_bio_hard|Q68|Biology · epithelial classification|Which of the following statements about epithelial tissue is false?
+bank_bio_hard|Q69|Biology · pseudostratified epithelium|A light micrograph shows a single layer of tall cells, all resting on the same basement membrane. The nuclei lie at several different heights, giving a layered look, and the free surface carries motile projections. This 
+bank_bio_hard|Q70|Biology · exchange surfaces and endothelium|Oxygen travels from the air inside an alveolus into the blood by crossing the alveolar wall and then the capillary wall. Which statement about these exchange surfaces is correct?
+bank_bio_hard|Q71|Biology · kidney epithelia (proximal tubule)|A toxin selectively destroys the brush border of the cells lining the proximal convoluted tubule, leaving the rest of the nephron intact. Which outcome is expected?
+bank_bio_hard|Q72|Biology · kidney epithelia (loop of Henle)|Which nephron segment is correctly matched to its lining epithelium and to the reason that epithelium suits it?
+bank_bio_hard|Q73|Biology · apical specializations and junctions|A student wrote the following notes on the surface specializations of epithelial cells. Which note is correct?
+bank_bio_hard|Q74|Biology · cilia versus microvilli (motility)|In a hereditary disorder the dynein arms of cilia are absent, so cilia cannot beat. Which consequence is expected?
+bank_bio_hard|Q75|Biology · valve failure (mitral regurgitation)|A patient's mitral (bicuspid) valve no longer closes completely. What happens during ventricular systole?
+bank_bio_hard|Q76|Biology · valve failure (aortic incompetence)|The aortic semilunar valve of a patient becomes incompetent, so that it fails to close after ventricular systole. Which combination of effects during ventricular diastole follows?
+bank_bio_hard|Q77|Biology · heart valves (semilunar vs atrioventricular)|Which pairing of a heart valve with its position and its type is correct?
+bank_bio_hard|Q78|Biology · double circulation (flow ordering)|A drop of blood enters the heart through the superior vena cava. On its way to the aorta it must pass the following structures: pulmonary artery, pulmonary vein, right ventricle, left atrium, left ventricle. In which ord
+bank_bio_hard|Q79|Biology · pulmonary circuit (oxygen status of vessels)|A red blood cell leaves the right ventricle and is followed until it re-enters the heart. Which option gives the correct route, with the oxygenation status of the blood at each named stage?
+bank_bio_hard|Q80|Biology · double circulation (pressure and vessel roles)|Which statement about the human double circulation is correct?
+bank_bio_hard|Q81|Biology · breathing mechanics (inhalation)|At the start of a quiet inhalation the diaphragm contracts. Which chain of events follows?
+bank_bio_hard|Q82|Biology · breathing mechanics (forced exhalation)|A person blows out a candle forcefully. Which combination of events occurs during this forced exhalation?
+bank_bio_hard|Q83|Biology · pleura (layers and fluid)|Which statement about the pleural membranes is correct?
+bank_bio_hard|Q84|Biology · pleura (pneumothorax cascade)|A stab wound lets air enter the left pleural cavity (pneumothorax). What immediate effect does this have on the left lung?
+bank_bio_hard|Q85|Biology · CO2 transport (share of each form)|In human blood, which option gives the approximate shares of carbon dioxide transported as bicarbonate ions, bound to hemoglobin, and dissolved in plasma, respectively?
+bank_bio_hard|Q86|Biology · hemoglobin binding sites (heme vs globin)|Oxygen and carbon dioxide are both carried with the help of hemoglobin. Which statement about their binding sites on hemoglobin is correct?
+bank_bio_hard|Q87|Biology · O2 transport (dissolved vs bound)|Approximately what percentage of the oxygen transported in systemic arterial blood is carried bound to hemoglobin as oxyhemoglobin?
+bank_bio_hard|Q88|Biology · anemia and oxygen delivery|A patient has a severely reduced hemoglobin concentration, yet the partial pressure of oxygen in her arterial blood is normal. Which statement explains why her tissues still receive too little oxygen?
+bank_bio_hard|Q89|Biology · disease matching (emphysema)|Emphysema progressively destroys the walls between the pulmonary alveoli. Which direct consequence for gas exchange follows?
+bank_bio_hard|Q90|Biology · disease-to-system matching|Which pairing of a condition with the structure primarily affected is incorrect?
+bank_bio_hard|Q91|Biology · coronary circulation under exertion|Fatty plaques narrow a patient's coronary arteries. Why is the heart muscle endangered especially during physical exertion?
+bank_bio_hard|Q92|Biology · pancreatic enzymes (zymogen activation cascade)|In the small intestine, the enzyme enterokinase converts pancreatic trypsinogen into active trypsin, and trypsin then activates the other pancreatic proenzymes. A drug that fully inhibits enterokinase is given. Which out
+bank_bio_hard|Q93|Biology · bile (production, storage, emulsification)|Which statement about bile in human digestion is correct?
+bank_bio_hard|Q94|Biology · stomach (hydrochloric acid and pepsin)|A drug almost completely abolishes hydrochloric acid secretion by the stomach. Which outcome follows most directly?
+bank_bio_hard|Q95|Biology · stomach (rennin and milk)|Rennin (chymosin), secreted by the gastric mucosa of young mammals, turns liquid milk into a solid curd so that it stays longer in the stomach. The substance on which rennin acts is:
+bank_bio_hard|Q96|Biology · digestive enzymes (integrated check)|Which of the following statements about human digestion is false?
+bank_bio_hard|Q97|Biology · thyroid (T3/T4 and calcitonin)|A treatment destroys most of a patient's thyroid gland, including both the follicular cells and the parafollicular (C) cells, while the four parathyroid glands remain intact. Which outcome is expected?
+bank_bio_hard|Q98|Biology · calcium homeostasis (PTH and calcitonin)|Blood tests show that a person's plasma calcium concentration is abnormally high. Which endocrine response is expected?
+bank_bio_hard|Q99|Biology · kidney (renal threshold for glucose)|In untreated type 1 diabetes, insulin secretion is nearly absent and blood glucose rises far above the normal renal threshold. Why does glucose appear in the urine?
+bank_bio_hard|Q100|Biology · pancreatic islets (insulin and glucagon)|During a long fast, glucagon helps to keep the blood glucose level stable. Which statement about this hormone is correct?
+bank_bio_hard|Q101|Biology · nephron (loop of Henle, medullary gradient)|A drug blocks the active pumping of sodium ions out of the ascending limb of the loop of Henle. Which outcome follows?
+bank_bio_hard|Q102|Biology · nephron (filtration, reabsorption, secretion)|A drug enters the fluid of the kidney tubule by two routes: filtration at the glomerulus, and active transport from the peritubular blood into the tubule. The second route of entry is called:
+bank_bio_hard|Q103|Biology · kidney (ADH and water balance)|A healthy person quickly drinks one litre of pure water and plasma osmolarity falls slightly. Which sequence of events follows?
+bank_bio_hard|Q104|Biology · bone (osteoblasts and osteoclasts)|Which statement about the cells of bone tissue is correct?
+bank_bio_hard|Q105|Biology · neuron (action potential phases)|A toxin blocks the voltage-gated potassium channels of a neuron but leaves all other channels and the sodium-potassium pump intact. Which outcome follows when the axon is stimulated above threshold?
+bank_bio_hard|Q106|Biology · neuron (synapse)|A poison blocks the voltage-gated calcium channels in the presynaptic terminal of a chemical synapse, while impulse conduction along the axon itself is normal. Which outcome follows?
+bank_bio_hard|Q107|Biology · neuron (myelin and saltatory conduction)|A disease progressively destroys the myelin sheath of peripheral motor axons. Which chain of consequences follows for a signal travelling toward the muscle?
+bank_bio_hard|Q108|Biology · autonomic division (sympathetic vs parasympathetic)|A patient is given a drug that mimics acetylcholine at the receptors of the parasympathetic division of the autonomic nervous system. Which set of effects is expected?
+bank_bio_hard|Q109|Biology · eye (rods, cones, dark adaptation)|A person walks from bright sunshine into a dim cinema, sees almost nothing at first and regains useful vision over several minutes. Which explanation is correct?
+bank_bio_hard|Q110|Biology · nervous system divisions (CNS and PNS)|Which statement about the organisation of the human nervous system is correct?
+bank_bio_hard|Q111|Biology · meninges and cerebrospinal fluid|A lumbar puncture is performed to sample the fluid that cushions the brain and spinal cord. The needle passes through the dura mater and then through one further meningeal layer before reaching the fluid. Which layer is 
+bank_bio_hard|Q112|Biology · vagus nerve and autonomic control|In an animal experiment both vagus nerves are cut, and the animal is observed after recovery from the surgery. Which set of consequences is expected?
+bank_bio_hard|Q113|Biology · glycolysis regulation (PFK-1)|Phosphofructokinase-1 (PFK-1) catalyses the committed step of glycolysis. Which of the following statements about its control is false?
+bank_bio_hard|Q114|Biology · PFK-1 and the AMP:ATP ratio|During a sprint, the ATP concentration inside a fast muscle fibre falls and its AMP concentration rises. What is the most likely immediate effect on glycolysis in that fibre?
+bank_bio_hard|Q115|Biology · link reaction (pyruvate oxidation)|In the aerobic respiration of one glucose molecule, what do the two link reactions (oxidative decarboxylation of pyruvate) together yield, and where do they occur?
+bank_bio_hard|Q116|Biology · pyruvate oxidation (inhibitor cascade)|A toxin irreversibly inhibits the pyruvate dehydrogenase complex in cells that are supplied only with glucose. Which outcome follows?
+bank_bio_hard|Q117|Biology · citric acid cycle products|What are the products of one complete turn of the citric acid cycle?
+bank_bio_hard|Q118|Biology · citric acid cycle (carbon tracing)|Acetyl-CoA labelled with ¹⁴C on its methyl (CH₃) carbon enters the citric acid cycle. When is the label first released as ¹⁴CO₂?
+bank_bio_hard|Q119|Biology · citric acid cycle (organisation)|Which of the following statements about the citric acid cycle is false?
+bank_bio_hard|Q120|Biology · electron transport chain complexes|Which of the following statements about the mitochondrial electron transport chain is false?
+bank_bio_hard|Q121|Biology · ETC inhibitors (rotenone)|Rotenone specifically blocks electron transfer at complex I of the respiratory chain. A respiring cell is then supplied with succinate as its main oxidisable substrate. Which outcome is expected?
+bank_bio_hard|Q122|Biology · ETC inhibitors (cyanide)|Cyanide binds the Fe³⁺ of cytochrome a₃ in complex IV and halts electron transfer to oxygen. In a mitochondrion poisoned in this way, what happens?
+bank_bio_hard|Q123|Biology · chemiosmosis (uncoupling)|A molecule that makes the inner mitochondrial membrane leaky to protons is added to actively respiring mitochondria. Which outcome is expected?
+bank_bio_hard|Q124|Biology · NADH and FADH₂ entry points|Per molecule delivered to the respiratory chain, FADH₂ yields roughly two ATP, whereas NADH yields roughly two to three times as many. What is the main reason for the difference?
+bank_bio_hard|Q125|Biology · NAD⁺, FAD and ATP as carriers|Which of the following statements about the roles of NAD⁺, FAD and ATP in metabolism is correct?
+bank_bio_hard|Q126|Biology · alcoholic fermentation|Which of the following statements about alcoholic fermentation in yeast is correct?
+bank_bio_hard|Q127|Biology · lactic acid fermentation|A muscle fibre metabolises glucose entirely by glycolysis followed by lactic acid fermentation. What is the net ATP yield per glucose, and why does fermentation remain indispensable?
+bank_bio_hard|Q128|Biology · cross-bridge cycle and ATP|During skeletal muscle contraction, what is the role of ATP at the moment a myosin head detaches from actin?
+bank_bio_hard|Q129|Biology · dystrophin and sarcolemma stability|Dystrophin is absent or non-functional in Duchenne muscular dystrophy. What is its normal role in a skeletal muscle fibre?
+bank_bio_hard|Q130|Biology · fibre type I versus type II|A muscle biopsy from an athlete shows fibres rich in mitochondria and myoglobin, with few glycogen granules and strong resistance to fatigue. Which fibre type is this, and in which sport would such fibres predominate?
+bank_chem_hard|Q1|Chemistry · epimers and stereoisomer classes|D-glucose and D-galactose are both aldohexoses with the same bonding order; their Fischer projections differ only at carbon 4, where the OH points right in glucose and left in galactose. Which term most precisely classif
+bank_chem_hard|Q2|Chemistry · enantiomers (full R/S inversion)|A synthesis produces a molecule with the same bonding order as (2R,3S,4R)-hexane-2,3,4-triol but with configurations (2S,3R,4S) at its three chiral centers. Which term most precisely classifies the relationship between t
+bank_chem_hard|Q3|Chemistry · anomers of glucose|In water, D-glucose cyclises and exists as two forms that differ only at carbon 1: in the alpha form the new OH points down from the ring, in the beta form it points up, while the configurations at carbons 2 to 5 are ide
+bank_chem_hard|Q4|Chemistry · diastereomers from R/S pairs|Butane-2,3-diol exists in stereoisomeric forms: one has the configuration (2R,3R) and another has (2R,3S). Which term most precisely classifies these two forms?
+bank_chem_hard|Q5|Chemistry · functional group isomerism|Compound X is CH₃OCH₂CH₃ (methoxyethane) and compound Y is CH₃CH₂CH₂OH (propan-1-ol); both have molecular formula C₃H₈O. Which statement is correct?
+bank_chem_hard|Q6|Chemistry · aldose versus ketose isomerism|D-glucose is an aldohexose with an aldehyde group at C-1, while D-fructose is a ketohexose with a ketone group at C-2. Both have molecular formula C₆H₁₂O₆. Which term most precisely classifies the pair?
+bank_chem_hard|Q7|Chemistry · amide nomenclature|The structure CH₃CH₂CONH₂ is named:
+bank_chem_hard|Q8|Chemistry · functional group recognition (wintergreen)|Oil of wintergreen (methyl 2-hydroxybenzoate) consists of a benzene ring bearing an OH group attached directly to the ring, plus a COOCH₃ group joined through the carbonyl carbon. Which two functional groups does the mol
+bank_chem_hard|Q9|Chemistry · ether nomenclature|The structure CH₃CH₂OCH₂CH₃ is named:
+bank_chem_hard|Q10|Chemistry · ketone identification with constraints|Which of the following compounds is a ketone and contains exactly four carbon atoms?
+bank_chem_hard|Q11|Chemistry · D and L assignment|An aldohexose is drawn as a Fischer projection with the aldehyde at the top as C-1. The OH groups at C-2, C-3 and C-4 point right, right and left respectively, and the OH at C-5, the chiral center farthest from the aldeh
+bank_chem_hard|Q12|Chemistry · alpha versus beta glycosidic bonds|Maltose and cellobiose are both disaccharides of two glucose units with molecular formula C₁₂H₂₂O₁₁. Maltose joins its units with an alpha-1,4 glycosidic bond and cellobiose with a beta-1,4 bond. Human enzymes hydrolyse 
+bank_chem_hard|Q13|Chemistry · reducing end logic|In sucrose, the glycosidic bond links the anomeric carbon C-1 of glucose to the anomeric carbon C-2 of fructose. In maltose, the glycosidic bond uses the anomeric carbon of only one of its two glucose units. Which statem
+bank_chem_hard|Q14|Chemistry · moles to molecules|How many molecules are present in 4.4 g of propane, C₃H₈? (H = 1, C = 12; Avogadro constant = 6.02 × 10²³ mol⁻¹)
+bank_chem_hard|Q15|Chemistry · atom counting via Avogadro|How many hydrogen atoms are present in 0.25 mol of water, H₂O? (Avogadro constant = 6.02 × 10²³ mol⁻¹)
+bank_chem_hard|Q16|Chemistry · mole bridge between compounds|What mass of ammonia, NH₃, contains the same number of molecules as 4.4 g of carbon dioxide, CO₂? (C = 12, O = 16, N = 14, H = 1)
+bank_chem_hard|Q17|Chemistry · molar volume at STP|What volume does 8.8 g of carbon dioxide, CO₂, occupy at STP? (C = 12, O = 16; molar volume at STP = 22.4 dm³/mol)
+bank_chem_hard|Q18|Chemistry · gas volume to particle count|How many molecules are present in 560 cm³ of an ideal gas at STP? (1 dm³ = 1000 cm³; molar volume at STP = 22.4 dm³/mol; Avogadro constant = 6.02 × 10²³ mol⁻¹)
+bank_chem_hard|Q19|Chemistry · mass from gas volume|What is the mass of 4.48 dm³ of oxygen gas, O₂, measured at STP? (O = 16; molar volume at STP = 22.4 dm³/mol)
+bank_chem_hard|Q20|Chemistry · limiting reagent with gas volume|10.0 g of calcium carbonate (M = 100 g/mol) is treated with 100 cm³ of 1.0 mol/dm³ hydrochloric acid: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. What volume of CO₂ is released, measured at STP? (1 dm³ = 1000 cm³; molar volume at 
+bank_chem_hard|Q21|Chemistry · percentage yield|In theory, 9.2 g of ethanol (M = 46 g/mol) dehydrates completely to ethene (M = 28 g/mol): C₂H₅OH → C₂H₄ + H₂O. The actual mass of ethene collected is 4.2 g. What is the percentage yield?
+bank_chem_hard|Q22|Chemistry · Boyle's law|A diver exhales an air bubble of volume 2.0 dm³ at a depth where the pressure is 400 kPa. The temperature stays constant as the bubble rises to the surface, where the pressure is 100 kPa. What is the volume of the bubble
+bank_chem_hard|Q23|Chemistry · Gay-Lussac's law|A rigid sealed canister holds a fixed amount of gas at 27 °C and 100 kPa. It is heated until the gas reaches 327 °C. What is the new pressure inside the canister?
+bank_chem_hard|Q24|Chemistry · combined gas law|A gas occupies 9.0 dm³ at 27 °C and 100 kPa. What volume does it occupy at 127 °C and 200 kPa?
+bank_chem_hard|Q25|Chemistry · Dalton's law of partial pressures|A sealed vessel contains 0.20 mol of nitrogen gas and 0.30 mol of oxygen gas at constant temperature, and the total pressure is 150 kPa. What is the partial pressure of the oxygen?
+bank_chem_hard|Q26|Chemistry · concentration after mixing|100 cm³ of 0.80 mol/dm³ hydrochloric acid is mixed with 400 cm³ of 0.20 mol/dm³ hydrochloric acid. Assuming the volumes are additive, what is the concentration of the resulting solution?
+bank_chem_hard|Q27|Chemistry · dilution to a target volume|A solution is prepared by diluting 25 cm³ of a 2.0 mol/dm³ solution to a concentration of 0.10 mol/dm³. What is the final volume of the diluted solution?
+bank_chem_hard|Q28|Chemistry · pH of a strong acid|What is the pH of a 2.0 × 10⁻⁴ mol/dm³ solution of hydrochloric acid, a strong acid that is fully ionised in water?
+bank_chem_hard|Q29|Chemistry · pOH from a strong acid|What is the pOH of a 5.0 × 10⁻² mol/dm³ solution of nitric acid, a strong acid that is fully ionised in water? (Kw = 1.0 × 10⁻¹⁴ at 25 °C)
+bank_chem_hard|Q30|Chemistry · pH from a dibasic strong base|Strontium hydroxide, Sr(OH)₂, is a strong base that is fully dissociated in water. What is the pH of a 5.0 × 10⁻⁴ mol/dm³ solution of Sr(OH)₂? (Kw = 1.0 × 10⁻¹⁴ at 25 °C)
+bank_chem_hard|Q31|Chemistry · ordering pH across acid and base solutions|Four solutions are prepared at 25 °C (Kw = 1.0 × 10⁻¹⁴) from fully ionised solutes: P is 1.0 × 10⁻³ mol/dm³ HCl, Q is 5.0 × 10⁻³ mol/dm³ HCl, R is 1.0 × 10⁻³ mol/dm³ NaOH and S is 1.0 × 10⁻³ mol/dm³ Ba(OH)₂. Which option
+bank_chem_hard|Q32|Chemistry · Kw and the pH of neutral water|Pure water is heated from 25 °C to 60 °C. As the temperature rises, Kw increases, and the pH of pure water at 60 °C is measured to be 6.5. Which of the following statements is correct?
+bank_chem_hard|Q33|Chemistry · ionic product of water|At 10 °C the ionic product of water has fallen to Kw = 3.0 × 10⁻¹⁵ mol² dm⁻⁶. What is the hydroxide ion concentration, [OH⁻], in pure water at 10 °C?
+bank_chem_hard|Q34|Chemistry · pH shift on dilution|10 cm³ of 0.10 mol/dm³ hydrochloric acid, fully ionised, is diluted with water to a final volume of 1.0 dm³. By how much does the pH of the solution change?
+bank_chem_hard|Q35|Chemistry · dilution to a target pH|What volume of water must be added to 20 cm³ of 1.0 × 10⁻² mol/dm³ hydrochloric acid, fully ionised, to obtain a solution of pH 4.0 at 25 °C?
+bank_chem_hard|Q36|Chemistry · recognising a buffer mixture|Which of the following mixtures, made up with pure water as solvent, can act as a buffer solution?
+bank_chem_hard|Q37|Chemistry · buffer behaviour on dilution|A buffer solution contains comparable amounts of ethanoic acid and sodium ethanoate and has pH 4.8. An equal volume of pure water is added to it. Which of the following statements is correct?
+bank_chem_hard|Q38|Chemistry · hydrolysis of salt ions|Which of the following statements about the behaviour of salts dissolved in water is correct?
+bank_chem_hard|Q39|Chemistry · percent w/v converted to molarity|A drip bag holds 500 cm³ of glucose solution containing 9.0 g of glucose (M = 180 g/mol); the label reads 1.8 % w/v, meaning 1.8 g of glucose per 100 cm³ of solution. What is the molarity of the glucose?
+bank_chem_hard|Q40|Chemistry · solubility converted to molarity and pH|At 25 °C the solubility of calcium hydroxide in water is 1.85 g per dm³ of saturated solution, and the dissolved salt is fully dissociated. (M(Ca(OH)₂) = 74 g/mol; Kw = 1.0 × 10⁻¹⁴ at 25 °C; for dilute aqueous solutions 
+bank_chem_hard|Q41|Chemistry · oxidation number of carbon in an organic molecule|What is the oxidation number of the carbon atom in methanal, HCHO?
+bank_chem_hard|Q42|Chemistry · oxidation numbers in the thiosulfate ion|In the thiosulfate ion, S₂O₃²⁻, the structure has a central sulfur atom bonded to three oxygen atoms and to one terminal sulfur atom, as if one oxygen of a sulfate unit had been replaced by sulfur. Which of the following
+bank_chem_hard|Q43|Chemistry · oxidation numbers in sulfate and nitrite|Which of the following statements about oxidation numbers in oxoanions is correct?
+bank_chem_hard|Q44|Chemistry · oxidation-number change in alcohol oxidation|Ethanol, CH₃CH₂OH, is oxidised to ethanal, CH₃CHO. Which of the following statements is correct?
+bank_chem_hard|Q45|Chemistry · identifying the oxidising agent|In aqueous solution, 2FeCl₃ + SnCl₂ → 2FeCl₂ + SnCl₄. Which species acts as the oxidising agent?
+bank_chem_hard|Q46|Chemistry · agents in the MnO₂ and hydrochloric acid reaction|In the laboratory preparation of chlorine, MnO₂ reacts with concentrated hydrochloric acid: MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O. Which of the following statements is correct?
+bank_chem_hard|Q47|Chemistry · disproportionation of chlorine|Chlorine gas is bubbled into cold dilute sodium hydroxide: Cl₂ + 2NaOH → NaCl + NaClO + H₂O. Which of the following statements is correct?
+bank_chem_hard|Q48|Chemistry · electrons in a balanced half-equation|Sulfite ions, SO₃²⁻, are oxidised to sulfate ions, SO₄²⁻, in acidic solution. When this change is written as a balanced half-equation, how many electrons appear on the right-hand side?
+bank_chem_hard|Q49|Chemistry · electron count and coefficients in a redox equation|In acidic solution, manganate(VII) ions, MnO₄⁻, oxidise iron(II) ions, Fe²⁺, to Fe³⁺, the manganese ending as Mn²⁺. In the balanced ionic equation, how many electrons are transferred per MnO₄⁻ ion, and what coefficient d
+bank_chem_hard|Q50|Chemistry · IMF type and boiling point at similar molar mass|Butane (C₄H₁₀, Mr 58), propanone (C₃H₆O, Mr 58) and propan-1-ol (C₃H₈O, Mr 60) boil at approximately 0 °C, 56 °C and 97 °C, in some order. Which assignment is correct?
+bank_chem_hard|Q51|Chemistry · isomer branching and boiling point|Butan-1-ol, butan-2-ol and 2-methylpropan-2-ol are isomers that all contain an O-H group. Their boiling points are approximately 118 °C, 100 °C and 82 °C respectively. Which statement correctly explains this trend?
+bank_chem_hard|Q52|Chemistry · hydrogen bonding versus molar mass|Hydrogen fluoride (Mr 20) boils at approximately 20 °C, while hydrogen chloride (Mr 36.5) boils at approximately -85 °C. Which statement explains this comparison?
+bank_chem_hard|Q53|Chemistry · molecular polarity from geometry|Which of the following statements is correct?
+bank_chem_hard|Q54|Chemistry · dipole cancellation in tetrahedral molecules|Carbon tetrachloride, CCl₄, chloroform, CHCl₃, and dichloromethane, CH₂Cl₂, are all tetrahedral molecules. Which statement about their polarity is correct?
+bank_chem_hard|Q55|Chemistry · shape and net dipole (SO2 versus CO2)|Carbon dioxide and sulfur dioxide both contain polar bonds to oxygen, yet CO₂ is non-polar and SO₂ is polar. Why?
+bank_chem_hard|Q56|Chemistry · bond type from melting point and conductivity data|Four unknown substances were tested, with these results. P: melting point 801 °C, conducts electricity only when molten or dissolved in water. Q: melting point −95 °C, never conducts electricity. R: melting point 1085 °C
+bank_chem_hard|Q57|Chemistry · melting points of ionic versus molecular solids|Sodium chloride melts at 801 °C while iodine melts at 114 °C, although iodine has the larger molar mass. Which statement explains the comparison?
+bank_chem_hard|Q58|Chemistry · bond energy accounting and sign of ΔH|Use these average bond energies: H-H 436 kJ/mol, Cl-Cl 242 kJ/mol, H-Cl 431 kJ/mol. For the reaction H₂ + Cl₂ → 2HCl, the enthalpy change is approximately:
+bank_chem_hard|Q59|Chemistry · endothermic reactions and enthalpy level|The thermal decomposition of calcium carbonate, CaCO₃ → CaO + CO₂, has ΔH = +178 kJ/mol. Which statement is correct?
+bank_chem_hard|Q60|Chemistry · rate constant units by reaction order|For reactions in dilute solution at a fixed temperature, the units of reaction rate are always mol/(dm³·s). Which statement about rate constants is correct?
+bank_chem_hard|Q61|Chemistry · first-order half-life decay|A drug is removed from the bloodstream by first-order kinetics with a half-life of 4 hours. Starting from an initial dose D, the amount still present 12 hours after administration is:
+bank_chem_hard|Q62|Chemistry · order from rate data and units of k|For the reaction A + B → products, kept at constant temperature: doubling [A] while holding [B] constant doubles the rate, and doubling [B] while holding [A] constant increases the rate fourfold. Which statement is corre
+bank_chem_hard|Q63|Chemistry · catalysis versus equilibrium position|The Haber process, N₂(g) + 3H₂(g) ⇌ 2NH₃(g) with ΔH = −92 kJ/mol, uses an iron catalyst. Which statement is correct?
+bank_chem_hard|Q64|Chemistry · catalyst as an unconsumed pathway provider|Manganese(IV) oxide speeds up the decomposition of hydrogen peroxide, 2H₂O₂ → 2H₂O + O₂, and the black powder can be recovered unchanged at the end. The best explanation is that MnO₂:
+bank_chem_hard|Q65|Chemistry · collision theory and temperature|A reaction mixture is heated from 25 °C to 55 °C and the rate rises sharply. According to collision theory, the main reason is that:
+bank_mpl_hard|Q1|Maths · logarithm properties (quotient and complement)|Given that log₁₀ 2 ≈ 0.30 and log₁₀ 3 ≈ 0.48, what is the value of log₁₀ 7.5?
+bank_mpl_hard|Q2|Maths · log equations (domain check)|Solve the equation log₃(x + 1) + log₃(x − 1) = 1.
+bank_mpl_hard|Q3|Maths · change of base|What is the value of log₈ 32?
+bank_mpl_hard|Q4|Maths · mixed-base log equation|What is the solution of log₂ x + log₄ x = 6?
+bank_mpl_hard|Q5|Maths · inequalities (three-factor sign study)|Which interval is the solution set of (x − 1)(x + 2)(x − 4) > 0?
+bank_mpl_hard|Q6|Maths · rational inequalities|What is the solution set of the inequality (x − 3)/(x + 2) ≤ 0?
+bank_mpl_hard|Q7|Maths · absolute value inequality|What is the solution set of |2x − 5| < 7?
+bank_mpl_hard|Q8|Maths · quadratic inequality (dividing by x)|What is the solution set of the inequality x² < x?
+bank_mpl_hard|Q9|Maths · nested radicals|Which expression is equal to √(7 + 4√3)?
+bank_mpl_hard|Q10|Maths · rational exponents|What is the value of 27^(2/3) + 16^(3/4)?
+bank_mpl_hard|Q11|Maths · exponent laws (building a number)|If 2^a = 3 and 2^b = 5, which of the following is equal to 60?
+bank_mpl_hard|Q12|Maths · linear systems (ticket sales)|For a school show, adult tickets cost 12 euro and child tickets cost 7 euro. In total 180 tickets were sold, and the takings were 1730 euro. How many adult tickets were sold?
+bank_mpl_hard|Q13|Maths · linear system (sum and difference)|The sum of two numbers is 45 and their difference is 13. What is the larger number?
+bank_mpl_hard|Q14|Maths · linear systems (mixture)|A laboratory technician mixes a 20% saline solution with a 50% saline solution to obtain 6 dm³ of a 30% saline solution. What volume of the 50% solution is needed?
+bank_mpl_hard|Q15|Maths · composite functions|The function f is defined by f(x) = (x + 1)/(x − 1) for x ≠ 1. What is f(f(3))?
+bank_mpl_hard|Q16|Maths · inverse functions|The function f is defined by f(x) = (2x + 1)/(x − 3) for x ≠ 3. Which of the following is the inverse function f⁻¹(x)?
+bank_mpl_hard|Q17|Maths · composite solids (cylinder and cone)|A solid wooden block has the shape of a right circular cylinder of radius 6 cm and height 9 cm. A conical hole with the same base radius and the same height is drilled out of the block. What fraction of the cylinder's vo
+bank_mpl_hard|Q18|Maths · shaded areas (circle in a square)|A circle of radius 5 cm is inscribed in a square. Taking π = 3.14, what is the area of the part of the square that lies outside the circle?
+bank_mpl_hard|Q19|Maths · equilateral triangle (area from the height)|An equilateral triangle has sides of length 12 cm. What is its area?
+bank_mpl_hard|Q20|Maths · cylinder surface area|A closed cylindrical tin has radius 3 cm and height 8 cm. What is its total surface area, ends included?
+bank_mpl_hard|Q21|Maths · clock angles|What is the angle between the hour hand and the minute hand of a clock at 3:40? (The hour hand turns at 0.5° per minute, the minute hand at 6° per minute.)
+bank_mpl_hard|Q22|Maths · clock angles|Between 7:00 and 8:00 the hands of a clock are exactly 100 degrees apart at 7:20. At what later time in that hour are they exactly 100 degrees apart again? (The hour hand turns at 0.5 degrees per minute, the minute hand 
+bank_mpl_hard|Q23|Maths · notable trigonometric values|What is the value of tan 30° × tan 60°?
+bank_mpl_hard|Q24|Maths · trig identities (expansion and cancellation)|For an angle θ, what is the value of (sin θ + cos θ)² − 2 sin θ cos θ?
+bank_mpl_hard|Q25|Maths · notable values combined|What is the value of (sin 45° − cos 45°)² + 2 sin 30° cos 60°?
+bank_mpl_hard|Q26|Maths · slope between two points|A straight line passes through the points (2, 5) and (6, 17). What is its slope?
+bank_mpl_hard|Q27|Maths · rate of change from data (unit conversion)|A cyclist rides along a straight road at a constant speed. Her distance from the start is recorded as 1.8 km after 6 minutes and 3.0 km after 10 minutes. What is her speed in m/s?
+bank_mpl_hard|Q28|Maths · average rate of change|Water is pumped into a tank that already contains 40 L. The volume reaches 90 L after 5 minutes and 160 L after 15 minutes. What is the average rate of inflow over the whole 15 minutes?
+bank_mpl_hard|Q29|Maths · two-dice sums|Two fair six-sided dice are rolled once. What is the probability that the sum of the two scores is at least 9?
+bank_mpl_hard|Q30|Maths · joint condition on three dice|Three fair six-sided dice are rolled. What is the probability that all three show the same number?
+bank_mpl_hard|Q31|Maths · ordered vs unordered dice pairs|Two fair six-sided dice are rolled. What is the probability that the two scores are a 2 and a 5, in either order?
+bank_mpl_hard|Q32|Maths · combined events (inclusion-exclusion)|Two fair six-sided dice are rolled. What is the probability that the sum is 7 or at least one die shows a six?
+bank_mpl_hard|Q33|Maths · exactly-two-heads counting|A fair coin is flipped four times. What is the probability of getting exactly two heads?
+bank_mpl_hard|Q34|Maths · complement without replacement|An urn contains 3 red, 4 green and 5 blue balls. Two balls are drawn at random without replacement. What is the probability that at least one of them is green?
+bank_mpl_hard|Q35|Maths · independent events (exactly one)|The probability that a candidate passes a maths test is 2/3, and the probability that she passes an independent logic test is 3/4. What is the probability that she passes exactly one of the two tests?
+bank_mpl_hard|Q36|Maths · independent events (coin and die)|A fair coin is tossed and a fair six-sided die is rolled. What is the probability of obtaining tails and a score greater than 4?
+bank_mpl_hard|Q37|Maths · speed conversion (km/h to m/s)|A high-speed train covers 270 km in 3.0 h at a constant speed. Expressed in m/s, its speed is:
+bank_mpl_hard|Q38|Maths · volume prefixes (m³ to litres)|A swimming pool is 5.0 m long, 2.0 m wide and 1.2 m deep. What volume of water does it hold, expressed in litres?
+bank_mpl_hard|Q39|Maths · fractions in context (common denominator)|A water tank is 2/3 full. A valve then drains 1/4 of the tank's total capacity. What fraction of the tank is still full?
+bank_mpl_hard|Q40|Maths · fractions of a quantity|A water tank is one third full. After 40 more litres are poured in, the tank is three quarters full. What is the full capacity of the tank?
+bank_mpl_hard|Q41|Physics · velocity-time table (non-uniform acceleration)|The velocity of a trolley moving along a straight track is recorded every 2 s: at 0 s it is 0 m/s, at 2 s it is 6 m/s, at 4 s it is 10 m/s, at 6 s it is 12 m/s and at 8 s it is 12 m/s. Which statement is correct?
+bank_mpl_hard|Q42|Physics · average speed from a velocity-time graph|In a race, a sprinter increases her speed steadily from 0 to 8.0 m/s during the first 4.0 s and then keeps running at a constant 8.0 m/s for the next 6.0 s. What is her average speed over the whole 10 s?
+bank_mpl_hard|Q43|Physics · average vs instantaneous (light gates)|On a straight air track, a glider passes sensor P moving at 2.0 m/s and sensor Q moving at 4.0 m/s. The sensors are 6.0 m apart and the glider takes 2.0 s to travel from P to Q. Which statement is correct?
+bank_mpl_hard|Q44|Physics · motion graphs (gradient and area)|Which of the following statements about motion graphs is correct?
+bank_mpl_hard|Q45|Physics · tangential vs centripetal acceleration|Which statement correctly distinguishes the tangential and the centripetal components of acceleration for an object moving in a circle?
+bank_mpl_hard|Q46|Physics · centripetal acceleration (value and direction)|A cyclist rides around a circular track of radius 20 m at a constant speed of 10 m/s. Which statement about her acceleration is correct?
+bank_mpl_hard|Q47|Physics · circular motion (speeding up)|A car is driven around a circular test track while the driver steadily presses the accelerator, so the car is speeding up. At such an instant, which statement about the car's acceleration is correct?
+bank_mpl_hard|Q48|Physics · stopping distance (reaction plus braking)|A car travels at 72 km/h along a straight road when the driver sees a hazard. Her reaction time is 1.0 s, after which the brakes produce a constant deceleration of 5.0 m/s2 until the car stops. What total distance does t
+bank_mpl_hard|Q49|Physics · braking deceleration from stopping distance|A train travelling at 30 m/s applies its brakes and comes to rest after covering 150 m at constant deceleration. What is the magnitude of the deceleration?
+bank_mpl_hard|Q50|Physics · Newton's second law with friction|A crate of mass 4.0 kg is pulled along a horizontal floor by a horizontal force of 24 N. A frictional force of 8.0 N opposes the motion. What is the acceleration of the crate?
+bank_mpl_hard|Q51|Physics · weight component on a slope|A block of mass 2.0 kg slides down a frictionless slope inclined at 30° to the horizontal. What is its acceleration along the slope? (g = 10 m/s2, sin 30° = 0.50, cos 30° = 0.87.)
+bank_mpl_hard|Q52|Physics · Newton's second law with weight|A crane lifts a 50 kg load by applying a vertical upward force of 550 N. What is the upward acceleration of the load? (g = 10 m/s2.)
+bank_mpl_hard|Q53|Physics · recoil (momentum conservation)|An astronaut of mass 60 kg floats at rest in space and throws a tool of mass 2.0 kg so that it moves away from her at 6.0 m/s. What is the velocity of the astronaut immediately afterwards?
+bank_mpl_hard|Q54|Physics · impulse at a wall|A ball of mass 0.50 kg strikes a wall horizontally at 12 m/s and rebounds along its original line at 8.0 m/s. The contact with the wall lasts 0.020 s. What is the magnitude of the average force exerted by the wall on the
+bank_mpl_hard|Q55|Physics · power from work and time|A motor lifts a 60 kg load at constant speed through a height of 10 m in 20 s. What is the useful output power of the motor? (g = 10 m/s2.)
+bank_mpl_hard|Q56|Physics · power at constant speed (P = Fv)|A car moves at a constant 20 m/s along a horizontal road. The total resistive force on it is 600 N. What power must the engine deliver to maintain this speed?
+bank_mpl_hard|Q57|Physics · pressure (gauge vs absolute)|A diver works at a depth of 15 m in a fresh-water lake. The density of water is 1000 kg/m3, g = 10 m/s2, and the atmospheric pressure at the surface is 100 kPa. Which statement about the pressures on the diver is correct
+bank_mpl_hard|Q58|Physics · manometer|An open-tube manometer contains mercury of density 13600 kg/m3. The mercury level in the arm open to the atmosphere stands 100 mm above the level in the arm connected to a gas supply. Atmospheric pressure is 100 kPa and 
+bank_mpl_hard|Q59|Physics · Stevin (layered liquids)|A tank contains 0.80 m of oil of density 800 kg/m3 floating on 1.2 m of water of density 1000 kg/m3. Taking g = 10 m/s2 what is the gauge pressure at the bottom of the tank?
+bank_mpl_hard|Q60|Physics · floating (density ordering)|Three blocks are placed in oil of density 800 kg/m3. Block P floats with exactly half its volume submerged, block Q floats with one quarter of its volume submerged, and block R sinks and rests on the bottom. Which statem
+bank_mpl_hard|Q61|Physics · floating equilibrium|A block of weight 6.0 N and density 750 kg/m3 floats freely in water of density 1000 kg/m3. What is the apparent weight of the block while it floats?
+bank_mpl_hard|Q62|Physics · calorimetry (q = mcΔT)|How much heat must be supplied to 2.0 kg of water to raise its temperature from 20 °C to 70 °C? (c of water = 4200 J/(kg K); ignore heat losses.)
+bank_mpl_hard|Q63|Physics · calorimetry (mixing two substances)|A 0.40 kg block of aluminium at 100 °C is dropped into 0.60 kg of water at 20 °C in an insulated container. (c of aluminium = 900 J/(kg K), c of water = 4200 J/(kg K).) What is the final equilibrium temperature?
+bank_mpl_hard|Q64|Physics · calorimetry (mixing, unknown mass)|In an insulated cup, 0.50 kg of water at 12 °C is mixed with hot water at 82 °C, and the mixture settles at 32 °C. (c of water = 4200 J/(kg K); ignore heat losses.) What mass of hot water was added?
+bank_mpl_hard|Q65|Physics · energy (kWh conversion)|An electric heater consumes 2.5 kWh of energy. (1 kWh = 3.6 MJ.) This energy, expressed in megajoules, is:
+bank_mpl_hard|Q66|Physics · Joule heating (E = Pt)|A heating element connected across a 12 V supply carries a current of 2.0 A. How much energy does it convert to heat in 5.0 minutes?
+bank_mpl_hard|Q67|Physics · power in series vs parallel|Two identical 6.0 Ω resistors are connected, first in series and then in parallel, across a 12 V battery of negligible internal resistance. Which one of the following statements is false?
+bank_mpl_hard|Q68|Physics · resistor networks (equivalent resistance)|A 6.0 Ω resistor is connected in parallel with a 3.0 Ω resistor, and this pair is connected in series with a 5.0 Ω resistor across a supply. What is the equivalent resistance of the whole network?
+bank_mpl_hard|Q69|Physics · series-parallel network|A battery of negligible internal resistance supplies 24 V to an 8.0 Ω resistor connected in series with a parallel combination of a 12 Ω resistor and a 6.0 Ω resistor. What current does the battery supply?
+bank_mpl_hard|Q70|Physics · parallel branch resistance|A 6.0 Ω resistor draws 2.0 A from a battery of negligible internal resistance. When a second resistor is connected in parallel with it, the current drawn from the battery rises to 3.0 A. What is the resistance of the sec
+bank_mpl_hard|Q71|Physics · short circuit in a network|A 4.0 Ω resistor and a 12 Ω resistor are connected in series across a 6.0 V battery of negligible internal resistance. A wire of negligible resistance is then connected across the 12 Ω resistor. What current does the bat
+bank_mpl_hard|Q72|Physics · intensity (definition and units)|Intensity measures how fast a wave delivers energy to a surface, per unit area of that surface. The SI unit in which intensity is expressed is:
+bank_mpl_hard|Q73|Physics · intensity (inverse-square scaling)|A small lamp is treated as a point source radiating uniformly in all directions. At 2.0 m from the lamp the intensity of its radiation is 36 W/m2. What is the intensity at 6.0 m from the lamp?
+bank_mpl_hard|Q74|Physics · heat transfer (convection)|In a heated room, a radiator warms the air beside it. This air rises, cooler air replaces it, and the resulting circulating flow carries thermal energy around the room. This circulating flow transports the energy mainly 
+bank_mpl_hard|Q75|Physics · heat transfer (vacuum flask, three modes)|A vacuum flask keeps a drink hot. It has double walls with silvered surfaces and a vacuum between them, closed at the top by a stopper. Which statement about how the flask limits heat loss is correct?
+bank_mpl_hard|Q76|Logic · syllogisms (valid conclusion)|In a library, every manuscript in the special archive is catalogued. Some of the archive's manuscripts are illustrated, and no illustrated item in the archive may leave the building. Which of the following must be true?
+bank_mpl_hard|Q77|Logic · syllogisms (only-if conversion)|At a tennis club, only members with a current season pass may book the courts, and all club rules are followed. Nadia booked a court this week. Some members with a season pass also take coaching lessons. Which of the fol
+bank_mpl_hard|Q78|Logic · syllogisms (chained universals)|Every swimmer who won a medal this season trains at the Riverside pool, and nobody who trains at the Riverside pool pays a joining fee. Which of the following must be true?
+bank_mpl_hard|Q79|Logic · syllogisms (particular and negative premises)|Some players in the squad are left-footed. No left-footed player takes the corner kicks, and every player in the squad is a professional. Which of the following must be true?
+bank_mpl_hard|Q80|Logic · syllogisms (valid conclusion)|Every baker at the Saturday market arrives before dawn, and some bakers at the market sell rye bread. Which of the following must be true?
+bank_mpl_hard|Q81|Logic · syllogisms (universal instantiation)|Every member of the rowing club can swim, and no member of the rowing club is under sixteen. Tara is a member of the rowing club. Which of the following must be true?
+bank_mpl_hard|Q82|Logic · truth-tellers and liars (conjunction self-test)|About a postponed football match, Ria says: 'The match was postponed because of rain.' Tom says: 'The match was postponed because of rain, and Ria is lying.' Exactly one of the two always tells the truth and the other al
+bank_mpl_hard|Q83|Logic · truth-tellers and liars (three speakers)|Three pupils, Amara, Ben and Cara, are asked about a missing lab key. Each of them either always tells the truth or always lies. Amara says: 'Ben is lying.' Ben says: 'Cara is lying.' Cara says: 'Both Amara and Ben are l
+bank_mpl_hard|Q84|Logic · truth-tellers and liars (contradictory pair)|Three teachers are questioned about a borrowed stopwatch. Exactly one of them is lying and the other two are telling the truth. Priya says: 'I did not take the stopwatch.' Quinn says: 'Priya is lying.' Ravi says: 'Quinn 
+bank_mpl_hard|Q85|Logic · truth-tellers and liars (unique truth teller)|After a match, the scoreboard was found broken. Exactly one of the three candidates for team captain always tells the truth and the other two always lie. Dana says: 'Eli broke the scoreboard.' Eli says: 'I did not break 
+bank_mpl_hard|Q86|Logic · consistency puzzles (exactly one true)|At a lost property office, exactly one of Pia's two statements is true and exactly one of Sam's two statements is true. The clerk confirms the blue bag was collected on exactly one day. Pia says: 'The bag was collected o
+bank_mpl_hard|Q87|Logic · conditional equivalence (contrapositive)|A notice at the swimming pool reads: 'If the pool is at capacity, new swimmers are turned away.' Which of the following is logically equivalent to the notice?
+bank_mpl_hard|Q88|Logic · conditional equivalence (inverse vs contrapositive)|The coach tells the squad: 'If a player attends every training session this month, she will be selected for the final.' Which of the following is logically equivalent to the coach's statement?
+bank_mpl_hard|Q89|Logic · conditional equivalence (only-if decoding)|Under the library's loan rule, a book may be borrowed for a full term only if it is on the reserve list. Which of the following must also be true if the rule is obeyed?
+bank_mpl_hard|Q90|Logic · conditional equivalence (chained conditionals)|A ferry company's policy states that if a sailing is delayed, meal vouchers are issued, and that if meal vouchers are issued, the terminal canteen stays open late. Which of the following is logically equivalent to the po
+bank_mpl_hard|Q91|Logic · conditional equivalence (biconditional)|A security manual states: 'The side gate stays locked if and only if the alarm is armed.' Which of the following is logically equivalent to this statement?
+bank_mpl_hard|Q92|Logic · hidden assumption|A council reports that streets repaved with a new porous surface drain rainwater quickly and form far fewer puddles, and concludes that repaving will reduce road accidents in which vehicles slip. The conclusion depends o
+bank_mpl_hard|Q93|Logic · weakening an argument|At a gym, members on the flexible plan attend twice as often as members on the standard plan and report larger fitness gains. The manager concludes that the flexible plan itself causes the better fitness. Which of the fo
+bank_mpl_hard|Q94|Logic · strengthening an argument|A ferry operator installed automatic ticket scanners on two of its six routes. Boarding time on those two routes fell by a third within two months and stayed flat on the other four. The operator concludes the scanners ca
+bank_mpl_hard|Q95|Logic · inference from data|Last year a sports centre cut its evening swim sessions from five per week to three. Over the year, total attendance at evening swims stayed almost unchanged, and the waiting list for evening swims grew longer. Which of 
+imat_mock1|Q1|Reading comprehension|"Vaccination operates on the principle of immunological memory. Upon first exposure to an antigen, naïve lymphocytes proliferate and differentiate, generating both effector cells that clear the pathogen and long-lived me
+imat_mock1|Q2|Reading comprehension|"Enzymes lower the activation energy of a reaction without altering the free energy difference between substrates and products. Consequently, an enzyme changes the rate at which equilibrium is reached but never the posit
+imat_mock1|Q3|GK|(General knowledge) Which of the following Italian scientists is best known for discovering a method of staining nervous tissue that allowed the visualisation of individual neurons, a contribution that shared the 1906 No
+imat_mock1|Q4|Constraint logic|Five friends — A, B, C, D, E — sit in a row. B sits immediately to the right of A. C is not adjacent to A. D sits at one of the ends. E sits to the left of D. Which of the following must be true?
+imat_mock1|Q5|Formal logic|All patients with disease X have elevated marker M. Some patients with disease Y also have elevated marker M. No patient with disease X has disease Y. From these, which conclusion necessarily follows?
+imat_mock1|Q6|Code/sequence logic|In a certain code, READING is written as SFB EJ OH. How is MONKEY written?
+imat_mock1|Q7|Numerical reasoning|A clock shows 3:15. What is the angle between the hour and minute hands?
+imat_mock1|Q8|Calendar reasoning|If the day after tomorrow is Wednesday, what day was it three days before yesterday?
+imat_mock1|Q9|Sequence|A sequence begins 2, 6, 12, 20, 30, … What is the next term?
+imat_mock1|Q10|Cellular respiration|In which cellular compartment does the Krebs (citric acid) cycle take place?
+imat_mock1|Q11|Cellular respiration|How many net ATP molecules are produced by substrate-level phosphorylation during glycolysis per molecule of glucose?
+imat_mock1|Q12|Cellular respiration|Which molecule serves as the final electron acceptor of the mitochondrial electron transport chain?
+imat_mock1|Q13|Cellular respiration|The ATP synthase enzyme is located in the:
+imat_mock1|Q14|Cellular respiration|During which phase of cellular respiration is the majority of CO₂ released?
+imat_mock1|Q15|Cell organelles|Which organelle is the primary site of protein synthesis for proteins destined for secretion?
+imat_mock1|Q16|Cell organelles|Which of the following is a function of the Golgi apparatus?
+imat_mock1|Q17|Cell membrane|Which structure is responsible for the selective permeability of the cell membrane?
+imat_mock1|Q18|Cell membrane / transport|Which transport mechanism requires the direct hydrolysis of ATP to move a substance against its concentration gradient?
+imat_mock1|Q19|Enzymes|Which of the following correctly describes the induced-fit model of enzyme action?
+imat_mock1|Q20|Enzymes|A competitive inhibitor of an enzyme:
+imat_mock1|Q21|Muscle/tissue|Which type of muscle is involuntary, striated, and has branched cells connected by intercalated discs?
+imat_mock1|Q22|Muscle/tissue|The functional unit of contraction in skeletal muscle is the:
+imat_mock1|Q23|Muscle/tissue|During the sliding filament mechanism, myosin binds to:
+imat_mock1|Q24|Respiratory system|Oxygen is transported in blood primarily:
+imat_mock1|Q25|Digestive system|In which part of the human digestive system does the majority of nutrient absorption occur?
+imat_mock1|Q26|Endocrine system|Which hormone, produced by the beta cells of the pancreas, lowers blood glucose concentration?
+imat_mock1|Q27|Endocrine / excretory|Which hormone is released from the posterior pituitary and causes water reabsorption in the kidney collecting duct?
+imat_mock1|Q28|Bones/anatomy|Which bone of the upper limb is the humerus? It is the:
+imat_mock1|Q29|DNA replication|In DNA replication, the enzyme that unwinds the double helix at the replication fork is:
+imat_mock1|Q30|Genetics|In a diploid organism with 2n = 46, how many chromosomes are present in a mature gamete?
+imat_mock1|Q31|Genetics|A man with blood group AB and a woman with blood group O have a child. Which blood groups are possible in their offspring?
+imat_mock1|Q32|Translation|During translation, the codon AUG serves to:
+imat_mock1|Q33|Redox|What is the oxidation number of sulfur in H₂SO₄?
+imat_mock1|Q34|Redox|In the reaction Zn + CuSO₄ → ZnSO₄ + Cu, which species is reduced?
+imat_mock1|Q35|Acids & bases|An acidic aqueous solution at 25 °C has a pH of 3. The concentration of H⁺ is:
+imat_mock1|Q36|Acids & bases|What is the pH of a 0.01 M solution of a strong monoprotic acid (e.g., HCl) at 25 °C?
+imat_mock1|Q37|Bonding|Which type of bond involves the complete transfer of electrons from one atom to another?
+imat_mock1|Q38|Bonding|How many electrons are shared in a double covalent bond between two atoms?
+imat_mock1|Q39|Gas laws|At constant temperature and pressure, the volume of a gas is directly proportional to the number of moles. This is:
+imat_mock1|Q40|Stoichiometry/mole|Calculate the number of molecules in 0.5 mol of N₂ (Avogadro's number = 6.022 × 10²³).
+imat_mock1|Q41|Periodic table|Which element is in Group 17 and Period 3 of the periodic table?
+imat_mock1|Q42|Atomic structure|Which subatomic particle has no electric charge and a mass of approximately 1 amu?
+imat_mock1|Q43|Equilibrium|For the equilibrium N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH < 0. Increasing the pressure at constant temperature will:
+imat_mock1|Q44|Organic|The functional group –COOH characterises which class of organic compounds?
+imat_mock1|Q45|Organic|Which of the following compounds is an alkane?
+imat_mock1|Q46|Kinetics|The rate of a chemical reaction generally increases with temperature because:
+imat_mock1|Q47|Solutions|What is the molar concentration of a solution containing 0.2 mol of NaCl dissolved to make 500 mL of solution?
+imat_mock1|Q48|Algebra/roots|Solve for x: √(2x − 1) = 3.
+imat_mock1|Q49|Inequalities|Solve: 2x − 5 < 3x + 1.
+imat_mock1|Q50|Geometry|In a triangle, two angles are 50° and 60°. What is the third angle?
+imat_mock1|Q51|Functions|If f(x) = 2x² − 3x + 1, what is f(2)?
+imat_mock1|Q52|Geometry|A circle has radius 5 cm. What is its area? (Take π = 3.14.)
+imat_mock1|Q53|Probability|A bag contains 3 red and 2 blue balls. One ball is drawn at random. What is the probability it is blue?
+imat_mock1|Q54|Geometry|A rectangle has length 12 cm and diagonal 13 cm. What is its perimeter?
+imat_mock1|Q55|Kinematics|A car travels 120 km in 2 hours at constant velocity. What is its speed in m/s?
+imat_mock1|Q56|Electricity|Three resistors of 2 Ω, 3 Ω, and 6 Ω are connected in parallel. What is the equivalent resistance?
+imat_mock1|Q57|Electricity|A current of 2 A flows through a 5 Ω resistor. What is the power dissipated?
+imat_mock1|Q58|Dynamics|A book rests on a table. The reaction force of the table on the book is an example of which law?
+imat_mock1|Q59|Gravitation|The gravitational force between two bodies is F = Gm₁m₂/r². If the distance between the two bodies is halved, the gravitational force becomes:
+imat_mock1|Q60|Fluid mechanics|The pressure at depth h in a fluid of density ρ is given by P = ρgh. If ρ = 1000 kg/m³, g = 9.8 m/s², and h = 10 m, what is the gauge pressure?
+imat_mock2|Q1|Reading|"Antibiotic resistance arises when bacteria acquire genetic changes — by mutation or horizontal gene transfer — that reduce susceptibility to a drug. Resistant strains survive treatment and proliferate, so each course of
+imat_mock2|Q2|Reading|"Homeostasis refers to the maintenance of a constant internal environment despite external changes. Core variables such as body temperature, blood pH, and blood glucose are regulated by negative feedback loops: a sensor 
+imat_mock2|Q3|GK|(General knowledge) The Italian Renaissance anatomist who published De humani corporis fabrica (1543), correcting many Galenic errors through direct dissection, was:
+imat_mock2|Q4|Ordering logic|Four students — P, Q, R, S — are ranked in an exam. P scored higher than Q but lower than R. S scored lower than Q. Who scored lowest?
+imat_mock2|Q5|Formal logic|"If it rains, the match is cancelled." The match was not cancelled. Therefore:
+imat_mock2|Q6|Numerical reasoning|A machine applies the rule: take a number, square it, then subtract 4. If the output is 32, the input could be:
+imat_mock2|Q7|Clock|At 9:45, what is the angle between the hour and minute hands of a clock?
+imat_mock2|Q8|Family/relational logic|A is the father of B. B is the sister of C. How is A related to C?
+imat_mock2|Q9|Sequence|Complete the series: 1, 4, 9, 16, 25, ?
+imat_mock2|Q10|Cellular respiration|Glycolysis occurs in the:
+imat_mock2|Q11|Cellular respiration|Under anaerobic conditions in human muscle, pyruvate is converted to:
+imat_mock2|Q12|Cellular respiration|The net reaction of aerobic respiration (per glucose) produces approximately how many ATP in eukaryotes (modern estimate)?
+imat_mock2|Q13|Cellular respiration|Which coenzyme carries electrons from glycolysis and the Krebs cycle to the electron transport chain?
+imat_mock2|Q14|Cellular respiration|The proton-motive force across the inner mitochondrial membrane is generated by:
+imat_mock2|Q15|Cellular respiration|Which metabolic pathway occurs in both cellular respiration and photosynthesis?
+imat_mock2|Q16|Bioenergetics|In which organelle does photosynthesis take place in plant cells?
+imat_mock2|Q17|Bioenergetics|The light-dependent reactions of photosynthesis produce:
+imat_mock2|Q18|Respiratory/circulatory|Which blood vessels carry oxygenated blood from the lungs to the heart?
+imat_mock2|Q19|Respiratory system|Gas exchange in the lungs occurs across the walls of the:
+imat_mock2|Q20|Digestive system|Which cells of the gastric glands secrete hydrochloric acid?
+imat_mock2|Q21|Digestive system|Bile, which emulsifies fats, is produced by the __ and stored in the __.
+imat_mock2|Q22|Excretory system|The basic functional unit of the kidney is the:
+imat_mock2|Q23|Excretory system|Filtration of blood in the nephron occurs at the:
+imat_mock2|Q24|Histology|Which tissue lines the inner surface of the stomach and intestines?
+imat_mock2|Q25|Histology/muscle|Smooth muscle is found in the walls of all of the following EXCEPT:
+imat_mock2|Q26|Histology|Which connective tissue cell type produces the fibres of regular dense connective tissue (e.g., tendons)?
+imat_mock2|Q27|Respiratory physiology|The primary stimulus for ventilation during moderate exercise is the rise in:
+imat_mock2|Q28|Endocrine/metabolism|Insulin promotes which of the following in liver and muscle?
+imat_mock2|Q29|Anatomy|The long bone of the thigh is the:
+imat_mock2|Q30|Cell membrane/osmosis|A red blood cell placed in a hypertonic solution will:
+imat_mock2|Q31|Cell cycle|The phase of mitosis in which chromosomes align at the cell's equator is:
+imat_mock2|Q32|Nucleic acids|Which of the following is the correct base-pairing rule in DNA?
+imat_mock2|Q33|Stoichiometry|Balance: __ Al + __ O₂ → __ Al₂O₃. The coefficient of O₂ is:
+imat_mock2|Q34|Redox|What is the oxidation number of Mn in KMnO₄?
+imat_mock2|Q35|Acid-base/stoichiometry|25.0 mL of 0.10 M HCl is neutralised by 0.05 M NaOH. What volume of NaOH is required?
+imat_mock2|Q36|Acids & bases|A buffer solution resists changes in pH when small amounts of acid or base are added. A typical buffer consists of:
+imat_mock2|Q37|Periodic table/bonding|Which has the highest electronegativity?
+imat_mock2|Q38|Bonding/VSEPR|The shape of a methane (CH₄) molecule is:
+imat_mock2|Q39|Gas laws|At STP, what volume is occupied by 1 mole of an ideal gas? (Use standard value.)
+imat_mock2|Q40|Mole|Calculate the molar mass of CaCO₃. (Ca = 40, C = 12, O = 16.)
+imat_mock2|Q41|Acids & bases|Which has the lowest pH?
+imat_mock2|Q42|Organic|Which of the following is an aromatic compound?
+imat_mock2|Q43|Organic|Which functional group is present in aldehydes?
+imat_mock2|Q44|Equilibrium|For the equilibrium 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), ΔH < 0. Increasing temperature will:
+imat_mock2|Q45|Atomic structure|The isotope ¹⁴C has how many neutrons? (C atomic number = 6.)
+imat_mock2|Q46|Kinetics|A catalyst increases the rate of a reaction by:
+imat_mock2|Q47|Organic reactions|What type of reaction is: CH₄ + Cl₂ → CH₃Cl + HCl (in light)?
+imat_mock2|Q48|Algebra|Solve: (x − 2)(x + 3) = 0.
+imat_mock2|Q49|Quadratics|Solve: x² − 5x + 6 = 0.
+imat_mock2|Q50|Algebra/rational|Solve: 3/x = 9. (x ≠ 0.)
+imat_mock2|Q51|Inequalities|Solve the inequality: −2x + 1 > 7.
+imat_mock2|Q52|Geometry|In a right triangle with legs 6 and 8, what is the hypotenuse?
+imat_mock2|Q53|Trigonometry|sin 30° = ?
+imat_mock2|Q54|general|A is the set {1, 2, 3}; B is the set {a, b}. How many ordered pairs are in A × B (the Cartesian product)?
+imat_mock2|Q55|Kinematics|A body accelerates uniformly from rest at 2 m/s² for 5 s. What distance does it cover?
+imat_mock2|Q56|Electricity|Two resistors, 4 Ω and 6 Ω, are in series across a 10 V battery. What is the current?
+imat_mock2|Q57|Electricity/Ohm's law|A 1.5 V cell delivers 0.3 A through a lamp. What is the lamp's resistance?
+imat_mock2|Q58|Dynamics|A 2 kg block is pushed with a force of 10 N on a frictionless surface. What is its acceleration?
+imat_mock2|Q59|Dynamics/energy|A 5 kg object is lifted 2 m. How much gravitational PE is gained? (g = 9.8 m/s².)
+imat_mock2|Q60|Gravitation|The acceleration due to gravity on the Moon is about 1/6 of that on Earth. An astronaut's weight on the Moon compared to Earth is:
+imat_mock3|Q1|Reading|"A gene is a region of DNA that encodes a functional product, usually a protein. In eukaryotes, coding regions (exons) are interrupted by non-coding regions (introns). After transcription, introns are removed and exons a
+imat_mock3|Q2|Reading|"A mutation is a heritable change in the nucleotide sequence of a genome. Mutations may be neutral, harmful, or — rarely — beneficial. Beneficial mutations can increase in frequency in a population over generations throu
+imat_mock3|Q3|GK|(General knowledge) Which Italian scientist won the 1986 Nobel Prize in Physiology or Medicine for the discovery of nerve growth factor (NGF)?
+imat_mock3|Q4|Ordering|In a race, Ali finished before Bashir but after Chen. Dev finished last. Who finished first?
+imat_mock3|Q5|Formal logic / biology|"All enzymes are proteins." This statement is:
+imat_mock3|Q6|Code logic|In a certain language, "TREE" is written as "USFF". How is "BIRD" written?
+imat_mock3|Q7|Sequence|What comes next: 3, 6, 11, 18, 27, ?
+imat_mock3|Q8|Calendar|If today is Tuesday, what day will it be 100 days from today?
+imat_mock3|Q9|Clock|A clock reads 7:00. What is the angle between the hour and minute hands?
+imat_mock3|Q10|Nucleic acids|In DNA, the two strands run in opposite directions. This property is called:
+imat_mock3|Q11|DNA replication|DNA replication is described as "semiconservative" because:
+imat_mock3|Q12|DNA replication|The enzyme that joins Okazaki fragments by forming phosphodiester bonds is:
+imat_mock3|Q13|Transcription|During transcription in eukaryotes, the enzyme responsible is:
+imat_mock3|Q14|Transcription/RNA processing|During which process are introns removed from pre-mRNA?
+imat_mock3|Q15|Translation|The three-nucleotide sequence on mRNA that specifies an amino acid is a:
+imat_mock3|Q16|Translation|The anticodon is found on:
+imat_mock3|Q17|Biological molecules|The bonds linking amino acids in a protein are:
+imat_mock3|Q18|Biological molecules|The secondary structure of proteins (α-helix, β-sheet) is stabilised mainly by:
+imat_mock3|Q19|Genetics/meiosis|A diploid cell with 2n = 6 undergoes meiosis. How many chromosomes are in each resulting gamete?
+imat_mock3|Q20|Genetics|In a cross between two heterozygous tall plants (Tt × Tt), where T (tall) is dominant, what is the expected phenotypic ratio in the offspring?
+imat_mock3|Q21|Sex-linked genetics|In humans, haemophilia is an X-linked recessive trait. A carrier mother (XᴴXʰ) and an unaffected father (XᴴY) have a son. What is the probability the son has haemophilia?
+imat_mock3|Q22|Sex-linked genetics|A man who is colour-blind (X-linked recessive) has daughters with a woman who is not colour-blind and is not a carrier. What is true of their daughters?
+imat_mock3|Q23|Genetics|In a dihybrid cross (AaBb × AaBb) with independent assortment, the expected phenotypic ratio is:
+imat_mock3|Q24|Genetics/molecular|A bacterium acquires antibiotic resistance via a plasmid from another bacterium. This is an example of:
+imat_mock3|Q25|Cell cycle|The phases of mitosis in correct order are:
+imat_mock3|Q26|Cell organelles|Which organelle contains digestive enzymes and functions in intracellular digestion?
+imat_mock3|Q27|Cell structure|Which structure is common to both plant and animal cells?
+imat_mock3|Q28|Cellular respiration|In cellular respiration, glycolysis produces a net gain of:
+imat_mock3|Q29|Enzymes|The non-protein component required for some enzymes to function (e.g., a metal ion) is called a:
+imat_mock3|Q30|Nervous system|At the neuromuscular junction, the neurotransmitter released by motor neurons is:
+imat_mock3|Q31|Nervous system|The resting potential of a typical neuron is approximately:
+imat_mock3|Q32|Biochemistry|Which vitamin is required for blood clotting?
+imat_mock3|Q33|Mole|How many moles are in 36 g of water (H₂O; molar mass = 18 g/mol)?
+imat_mock3|Q34|Stoichiometry|Balance: __ C₃H₈ + __ O₂ → __ CO₂ + __ H₂O. The coefficient of O₂ is:
+imat_mock3|Q35|Redox|The oxidation number of nitrogen in NO₃⁻ is:
+imat_mock3|Q36|Acids & bases|What is the pH of a 0.001 M solution of HNO₃ (strong acid)?
+imat_mock3|Q37|Acids & bases|Which of the following is a weak acid?
+imat_mock3|Q38|Bonding|Which bond is most polar?
+imat_mock3|Q39|Gas laws|Boyle's law states that, at constant temperature, the pressure of a fixed mass of gas is:
+imat_mock3|Q40|Atomic structure|The number of protons in an atom of ²³Na (sodium) is:
+imat_mock3|Q41|Organic|Which of the following is an alkene?
+imat_mock3|Q42|Organic|The functional group of alcohols is:
+imat_mock3|Q43|Organic|Which has a C=O group bonded to two carbons (within a chain)?
+imat_mock3|Q44|Kinetics|Increasing the concentration of a reactant in a reaction generally:
+imat_mock3|Q45|Thermo/energetics|For an endothermic reaction, ΔH is:
+imat_mock3|Q46|Atomic/nuclear|Which isotope is radioactive?
+imat_mock3|Q47|Acids & bases|A solution has a pH of 8. It is:
+imat_mock3|Q48|Powers|Simplify: (2³) × (2²).
+imat_mock3|Q49|Logs|Solve: log₁₀(x) = 2.
+imat_mock3|Q50|Algebra|Solve: x² = 49 (x > 0).
+imat_mock3|Q51|Inequalities|Solve the inequality: x/3 − 1 ≥ 2.
+imat_mock3|Q52|Geometry|A square has perimeter 20 cm. What is its area?
+imat_mock3|Q53|Trigonometry|cos 60° = ?
+imat_mock3|Q54|Probability|Two fair coins are tossed. What is the probability of getting at least one head?
+imat_mock3|Q55|Kinematics|A car decelerates uniformly from 20 m/s to rest in 5 s. What is its deceleration?
+imat_mock3|Q56|Electricity|Three 6 Ω resistors are connected in parallel. The equivalent resistance is:
+imat_mock3|Q57|Electricity|What is the voltage across a 10 Ω resistor carrying 0.5 A?
+imat_mock3|Q58|Dynamics/energy|A ball of mass 0.5 kg moves at 4 m/s. What is its kinetic energy?
+imat_mock3|Q59|Dynamics/work|A 10 N force moves an object 5 m in the direction of the force. How much work is done?
+imat_mock3|Q60|Thermodynamics|Specific heat capacity of water is 4200 J/(kg·°C). How much energy heats 2 kg of water by 10 °C?
+imat_mock4|Q1|Reading|"Osmosis is the net movement of water across a selectively permeable membrane from a region of lower solute concentration to a region of higher solute concentration. In animal cells, an extracellular solution that is mor
+imat_mock4|Q2|Reading|"In genetics, a test cross is used to determine whether an individual displaying a dominant phenotype is homozygous or heterozygous. The individual is crossed with a homozygous recessive partner. If any offspring show th
+imat_mock4|Q3|GK|(General knowledge) The Italian chemist who proposed a number equal to the number of particles in one mole (~6.022 × 10²³), honoured in the constant's name though he did not measure it, is:
+imat_mock4|Q4|Constraint logic|Six boxes are stacked. Box R is above S but below T. Box U is immediately below S. Box V is at the very top. The order from top to bottom could be:
+imat_mock4|Q5|Formal logic|All squares are rectangles. Some rectangles are rhombi. Therefore:
+imat_mock4|Q6|Numerical reasoning|If 5 machines make 5 widgets in 5 minutes, how long does it take 100 machines to make 100 widgets?
+imat_mock4|Q7|Clock|What is the angle between the hands of a clock at 12:30?
+imat_mock4|Q8|Relational logic|Pointing to a photograph, Maria says, "Her mother is my mother's only daughter." How is the person in the photograph related to Maria?
+imat_mock4|Q9|Algebra/numerical|A number is doubled, then 8 is added; the result is 20. The number is:
+imat_mock4|Q10|Cellular respiration|The mitochondrial matrix is the site of:
+imat_mock4|Q11|Cellular respiration|The net reaction of cellular respiration is:
+imat_mock4|Q12|Cellular respiration|Which gas is produced by muscle cells during anaerobic respiration in yeast but NOT in humans?
+imat_mock4|Q13|Cell organelles|The inner mitochondrial membrane is folded into:
+imat_mock4|Q14|Bioenergetics|The Calvin cycle of photosynthesis occurs in the:
+imat_mock4|Q15|Bioenergetics|Which is the correct site of the light-dependent reactions?
+imat_mock4|Q16|Acids & bases/biochemistry|A solution of pH 2 is how many times more acidic than a solution of pH 5?
+imat_mock4|Q17|Biological molecules|The four levels of protein structure in order are:
+imat_mock4|Q18|Biological molecules|Which monosaccharide is the primary energy source for cells and the product of dietary carbohydrate digestion?
+imat_mock4|Q19|Biological molecules|Which of the following is a disaccharide?
+imat_mock4|Q20|Biological molecules|Lipids are largely insoluble in water because they are:
+imat_mock4|Q21|Nucleic acids|DNA differs from RNA in that DNA:
+imat_mock4|Q22|Genetics|A population is in Hardy–Weinberg equilibrium for a locus with two alleles A (frequency p) and a (frequency q). The frequency of the heterozygote Aa is:
+imat_mock4|Q23|Genetics|ABO blood groups are an example of:
+imat_mock4|Q24|Genetics|In humans, the normal diploid number of chromosomes is:
+imat_mock4|Q25|Cell cycle|The cell-cycle phase in which DNA is replicated is:
+imat_mock4|Q26|Circulatory system|Which vessels have thick muscular walls and carry blood away from the heart under high pressure?
+imat_mock4|Q27|Respiratory system|The exchange of O₂ and CO₂ between blood and air occurs by:
+imat_mock4|Q28|Endocrine system|The hormone secreted by the adrenal medulla in the "fight or flight" response is:
+imat_mock4|Q29|Anatomy|The longest bone in the human body is the:
+imat_mock4|Q30|Histology/muscle|Smooth muscle is characterised by:
+imat_mock4|Q31|Cell organelles|The organelle responsible for ATP production in animal cells is the:
+imat_mock4|Q32|Circulatory system|Which is the correct sequence of blood flow through the heart, starting from the body?
+imat_mock4|Q33|Mole|Calculate the number of moles in 22 g of CO₂. (C = 12, O = 16.)
+imat_mock4|Q34|Gas laws/mole|What volume does 0.25 mol of an ideal gas occupy at STP (Vm = 22.4 L/mol)?
+imat_mock4|Q35|Mole|How many atoms are in 1.5 mol of He?
+imat_mock4|Q36|Solutions/mole|What is the molarity of a solution made by dissolving 5.85 g NaCl (molar mass 58.5) in water to make 500 mL?
+imat_mock4|Q37|Redox|The oxidation number of Cr in Cr₂O₇²⁻ is:
+imat_mock4|Q38|Redox|Identify the oxidising agent in: CuO + H₂ → Cu + H₂O.
+imat_mock4|Q39|Acids & bases|Calculate the pH of a 0.05 M solution of a strong base NaOH (assume full dissociation, 25 °C).
+imat_mock4|Q40|Acids & bases|The conjugate base of H₂O is:
+imat_mock4|Q41|Periodic table|Which has the greatest first ionisation energy?
+imat_mock4|Q42|Bonding/VSEPR|Which molecule has a linear geometry?
+imat_mock4|Q43|Bonding|Which intermolecular force is strongest?
+imat_mock4|Q44|Gas laws|Increasing pressure on a gas at constant temperature will (Boyle's law):
+imat_mock4|Q45|Organic|The structural formula CH₃–CH₂–OH represents:
+imat_mock4|Q46|Reactions|In the reaction: AgNO₃ + NaCl → AgCl + NaNO₃, the precipitate is:
+imat_mock4|Q47|Equilibrium/kinetics|For a reaction at equilibrium, adding a catalyst will:
+imat_mock4|Q48|Algebra|Solve: 2x² − 8 = 0.
+imat_mock4|Q49|Algebra/absolute|Solve: |x − 3| = 5.
+imat_mock4|Q50|Logs|Solve: log₂(x) + log₂(x − 3) = 2 (x > 3).
+imat_mock4|Q51|Inequalities|Solve the inequality: x² − 4 < 0.
+imat_mock4|Q52|general|A right circular cylinder has radius 3 and height 10. What is its volume? (Use π = 3.14.)
+imat_mock4|Q53|Trigonometry|tan 45° = ?
+imat_mock4|Q54|Probability|A die is rolled once. What is the probability of an even number greater than 2?
+imat_mock4|Q55|Kinematics|A car accelerates from 5 m/s to 25 m/s in 10 s. What is its acceleration?
+imat_mock4|Q56|Electricity|A 12 V battery drives a current through a 4 Ω resistor in series with a 2 Ω resistor. What is the current?
+imat_mock4|Q57|Electricity|A 3 A current flows for 2 minutes. What total charge passes a point?
+imat_mock4|Q58|Dynamics/momentum|A 2 kg object moving at 3 m/s collides with a stationary 1 kg object and they stick together. What is their common velocity?
+imat_mock4|Q59|Kinematics/free fall|A 4 kg object is dropped (from rest). Ignoring air resistance, what is its velocity after 3 s? (g = 9.8 m/s².)
+imat_mock4|Q60|Waves|A wave has frequency 50 Hz and wavelength 4 m. What is its speed?
+imat_mock5|Q1|Reading|"In oxidative phosphorylation, the proton gradient across the inner mitochondrial membrane is coupled to ATP synthesis. If the membrane is made permeable to protons by an uncoupler such as dinitrophenol, the gradient dis
+imat_mock5|Q2|Reading|"A population bottleneck occurs when a population's size is drastically reduced for at least one generation. The genetic diversity of the surviving population is typically much lower than that of the original, because al
+imat_mock5|Q3|GK|(General knowledge) The Italian physician and educator who developed an eponymous educational method emphasising self-directed activity in a prepared environment, and was nominated for the Nobel Peace Prize multiple time
+imat_mock5|Q4|Constraint logic|Five people — F, G, H, I, J — are in a queue. F is immediately behind G. H is somewhere in front of G. I is not at either end. J is at the back. Which must be true?
+imat_mock5|Q5|Formal logic|"All metals conduct electricity. X conducts electricity." From these, we can conclude:
+imat_mock5|Q6|Modular reasoning|A number, when divided by 3, gives remainder 2; when divided by 5, gives remainder 3. The smallest positive such number is:
+imat_mock5|Q7|Clock|A clock reads 8:20. What is the angle between the hands?
+imat_mock5|Q8|Calendar|If the 5th of a month is a Tuesday, what day is the 27th of the same month?
+imat_mock5|Q9|Sequence|Complete the letter series: A, C, F, J, O, ?
+imat_mock5|Q10|Cellular respiration/enzymes|In glycolysis, the committed (rate-limiting) step is catalysed by:
+imat_mock5|Q11|Cellular respiration|In the electron transport chain, FADH₂ donates electrons to:
+imat_mock5|Q12|Cellular respiration|The chemiosmotic synthesis of ATP in mitochondria is driven by the flow of protons through ATP synthase from:
+imat_mock5|Q13|Cellular respiration|Under anaerobic conditions, yeast cells regenerate NAD⁺ by reducing pyruvate to:
+imat_mock5|Q14|Muscle physiology|During muscle contraction, calcium ions released from the sarcoplasmic reticulum bind to:
+imat_mock5|Q15|Muscle physiology|The sliding filament theory states that during contraction:
+imat_mock5|Q16|Histology/muscle|Slow-twitch (Type I) muscle fibres are specialised for:
+imat_mock5|Q17|Respiratory physiology|Most CO₂ transported in the blood is carried:
+imat_mock5|Q18|Respiratory physiology|The enzyme carbonic anhydrase, abundant in red blood cells, catalyses:
+imat_mock5|Q19|Excretory physiology|In the nephron, the majority of filtered water and solutes is reabsorbed in the:
+imat_mock5|Q20|Endocrine/excretory|Antidiuretic hormone (ADH) increases water reabsorption by inserting aquaporins into the:
+imat_mock5|Q21|Endocrine/excretory|Aldosterone, secreted by the adrenal cortex, acts on the kidney to increase reabsorption of:
+imat_mock5|Q22|Histology/nervous|In nervous tissue, the myelin sheath is produced in the CNS by __ and in the PNS by __.
+imat_mock5|Q23|Nervous physiology|During an action potential, the rapid depolarisation is due to:
+imat_mock5|Q24|Genetics|A cross between two plants both with red flowers produces 3 red : 1 white offspring. This is consistent with:
+imat_mock5|Q25|Genetics|A man with blood group A (genotype AO) and a woman with blood group B (genotype BO) can have children with which blood groups?
+imat_mock5|Q26|DNA replication|DNA polymerase synthesises new DNA in which direction?
+imat_mock5|Q27|Translation|The genetic code is described as "degenerate" because:
+imat_mock5|Q28|Molecular/regulation|A bacterial operon whose transcription is increased in the presence of a small molecule (e.g., lactose for the lac operon) is:
+imat_mock5|Q29|Immunology|Which cell type produces antibodies?
+imat_mock5|Q30|Bioenergetics|In photosynthesis, the oxygen released comes from:
+imat_mock5|Q31|Nucleic acids|In a DNA double helix, 20% of bases are adenine. The percentage of guanine is:
+imat_mock5|Q32|Genetics/molecular|A mutation that inserts a single nucleotide into a coding sequence (not in multiples of 3) is called a:
+imat_mock5|Q33|Stoichiometry|How many grams of CO₂ are produced when 0.5 mol of C reacts completely with O₂? (C = 12, O = 16.)
+imat_mock5|Q34|Stoichiometry|Balance: __ Fe + __ O₂ → __ Fe₂O₃. The coefficient of Fe is:
+imat_mock5|Q35|Acid-base/stoichiometry|What volume of 0.1 M H₂SO₄ is needed to neutralise 25 mL of 0.2 M NaOH? (H₂SO₄ is diprotic.)
+imat_mock5|Q36|Acids & bases|The pH of a buffer containing 0.1 M acetic acid (pKa = 4.76) and 0.1 M sodium acetate is:
+imat_mock5|Q37|general|The oxidation number of oxygen in hydrogen peroxide (H₂O₂) is:
+imat_mock5|Q38|Redox|Which species is reduced in: 2Na + Cl₂ → 2NaCl?
+imat_mock5|Q39|Gas laws|An ideal gas occupies 2 L at 1 atm and 300 K. What is its volume at 2 atm and 300 K?
+imat_mock5|Q40|Atomic structure|How many electrons can occupy the d-subshell (5 orbitals)?
+imat_mock5|Q41|Atomic structure|Which element has the electron configuration 1s² 2s² 2p⁶ 3s¹?
+imat_mock5|Q42|Bonding/VSEPR|The geometry of NH₃ (ammonia) is:
+imat_mock5|Q43|Bonding/solutions|Which compound is most soluble in water?
+imat_mock5|Q44|Thermo|An exothermic reaction has:
+imat_mock5|Q45|Organic|The IUPAC name of CH₃–CH₂–CH₂–CH₃ is:
+imat_mock5|Q46|Equilibrium|For the equilibrium H₂(g) + I₂(g) ⇌ 2HI(g), ΔH < 0. Increasing pressure at constant T will:
+imat_mock5|Q47|Kinetics|If the rate constant doubles when temperature increases by 10 °C, and the rate at T₁ is r, the rate at T₁ + 20 °C is approximately:
+imat_mock5|Q48|Quadratics|Solve: x² − 5x − 6 = 0.
+imat_mock5|Q49|Logs|Solve: log₃(x) = −2.
+imat_mock5|Q50|Rational|Solve: (2x − 1)/(x + 1) = 3 (x ≠ −1).
+imat_mock5|Q51|Inequalities|Solve the inequality: x² − 5x + 6 > 0.
+imat_mock5|Q52|Geometry|A circle has circumference 12π. What is its area?
+imat_mock5|Q53|Trigonometry/geometry|In a right triangle, the side opposite the 30° angle has length 5. What is the length of the hypotenuse?
+imat_mock5|Q54|Probability|Two dice are rolled. What is the probability that the sum is 7?
+imat_mock5|Q55|Kinematics|A car starts from rest and accelerates uniformly at 3 m/s². How far does it travel in 4 s?
+imat_mock5|Q56|Electricity|A 6 Ω and a 3 Ω resistor are connected in parallel across a 12 V battery. What is the total current from the battery?
+imat_mock5|Q57|Electricity/energy|A 100 W bulb is operated on a 200 V supply for 10 s. How much electrical energy is used?
+imat_mock5|Q58|Dynamics/momentum|A 2 kg ball moving at 5 m/s strikes a wall and rebounds at 3 m/s. What is the magnitude of the change in momentum?
+imat_mock5|Q59|Gravitation|A satellite orbits Earth at a radius where gravitational acceleration is 2 m/s². If Earth's radius is R and the satellite is at 3R from the centre, the surface gravitational acceleration is:
+imat_mock5|Q60|Thermodynamics|A 0.5 kg block of iron (c = 450 J/kg·°C) is heated from 20 °C to 100 °C. How much heat is required?
+imat_mock6|Q1|Reading comprehension|"Bacteria store fragments of viral DNA in ordered arrays (CRISPR loci) in their own genome. These fragments are transcribed into guide molecules used by Cas proteins, which cut any invading DNA whose sequence matches a g
+imat_mock6|Q2|Constraint logic|Five friends P, Q, R, S and T sit in a row of five seats, all facing the same direction, with seat 1 at the left end and seat 5 at the right end. Q sits immediately to the right of P. R does not sit adjacent to P. S sits
+imat_mock6|Q3|GK|(General knowledge) The 2026 Winter Olympic Games, held in February 2026, are hosted by:
+imat_mock6|Q4|Formal logic|No reptile is warm-blooded. Some reptiles are kept as pets.  Which conclusion necessarily follows?
+imat_mock6|Q5|Clock angles|A clock shows 4:40. What is the angle between the hour hand and the minute hand?
+imat_mock6|Q6|Data reasoning|An enzyme was assayed at three pH values. Without inhibitor, the measured rates at pH 5, 7 and 9 were 20, 100 and 20 respectively. With a fixed concentration of inhibitor I present, the rates were 18, 50 and 18 at the sa
+imat_mock6|Q7|Critical reasoning|A large national audit reports that patients operated on in city hospitals have fewer post-surgical complications than patients operated on in small rural hospitals. The authors conclude that the quality of surgical care
+imat_mock6|Q8|Sequence|A sequence begins 2, 4, 7, 14, 17, 34, … following a repeating two-step rule. What is the next term?
+imat_mock6|Q9|Numerical reasoning|A jacket costing 120 is discounted by 20%, and the new price is then discounted by a further 25%. What is the total percentage reduction from the original price?
+imat_mock6|Q10|Genetics|In a dihybrid cross AaBb × AaBb with two unlinked genes (complete dominance at both), what is the probability that an offspring has genotype AaBb?
+imat_mock6|Q11|Genetics|Which cross is expected to produce a phenotypic ratio of 9:3:3:1 (two traits, complete dominance)?
+imat_mock6|Q12|Genetics|A mother is a carrier of red-green colour blindness (XᴴXʰ) and the father has normal vision (XᴴY). What fraction of their sons is expected to be colour-blind?
+imat_mock6|Q13|Molecular biology|DNA replication is described as "semiconservative" because each daughter double helix:
+imat_mock6|Q14|Molecular biology|The enzyme that synthesises an RNA strand from a DNA template during transcription is:
+imat_mock6|Q15|Molecular biology|Which nucleic-acid molecule physically carries the anticodon?
+imat_mock6|Q16|Proteins|The α-helix of a protein is stabilised primarily by:
+imat_mock6|Q17|Molecular biology|A point mutation changes an mRNA codon from AUG (methionine) to UGA. UGA is a stop codon. The most likely consequence is:
+imat_mock6|Q18|Cellular respiration|In aerobic respiration, CO₂ is released:
+imat_mock6|Q19|Cellular respiration|Cyanide blocks complex IV of the electron transport chain. Why does ATP synthesis by ATP synthase then stop?
+imat_mock6|Q20|Cellular respiration|The main purpose of the fermentation step (lactic acid or alcoholic) in anaerobic conditions is to:
+imat_mock6|Q21|Enzymes|Two inhibitors were characterised for an enzyme. With inhibitor I, the apparent Km is 4× higher and Vmax is unchanged. With inhibitor II, Km is unchanged and Vmax falls to a quarter. Inhibitor I is best classified as:
+imat_mock6|Q22|Membranes / transport|A cell's ATP is rapidly depleted by a metabolic poison. Which transport process will fail first?
+imat_mock6|Q23|Nervous system|The neurotransmitter released at the neuromuscular junction of vertebrates is:
+imat_mock6|Q24|Nervous system|The resting membrane potential of a typical vertebrate neurone is closest to:
+imat_mock6|Q25|Blood / circulatory|Vitamin K is required in the liver for the synthesis of:
+imat_mock6|Q26|Endocrine / excretory|After 12 hours without drinking, blood plasma osmolality rises. Which endocrine response helps conserve water?
+imat_mock6|Q27|Muscle|In skeletal muscle contraction, which event directly exposes the myosin-binding sites on actin?
+imat_mock6|Q28|Immunity|Antibodies circulating in plasma are produced by:
+imat_mock6|Q29|Cell cycle|A human cell has just completed DNA replication (S phase). Which chromosome/chromatid count is correct?
+imat_mock6|Q30|Tissues|The walls of the pulmonary alveoli are lined by:
+imat_mock6|Q31|Photosynthesis|The light-independent reactions of photosynthesis (Calvin cycle) take place in the:
+imat_mock6|Q32|Cellular respiration|Yeast cells are switched from aerobic to strictly anaerobic conditions. Which process can still produce ATP?
+imat_mock6|Q33|Redox / oxidation numbers|What is the oxidation number of chromium in the dichromate ion, Cr₂O₇²⁻?
+imat_mock6|Q34|Redox|In the reaction Zn(s) + 2HCl(aq) → ZnCl₂(aq) + H₂(g), the reducing agent is:
+imat_mock6|Q35|Bonding / polarity|Which molecule has a net dipole moment (is polar overall)?
+imat_mock6|Q36|Acids & bases|0.001 M hydrochloric acid (pH 3) is diluted tenfold with water. The pH of the new solution is:
+imat_mock6|Q37|Acids & bases|What is the pH of a 0.01 M solution of NaOH at 25 °C? (Kw = 1.0 × 10⁻¹⁴)
+imat_mock6|Q38|Stoichiometry|3 mol of H₂ are mixed with 2 mol of O₂ and sparked: 2H₂ + O₂ → 2H₂O. What is the maximum amount of water formed?
+imat_mock6|Q39|Solutions|20 mL of a 1.5 M HCl solution is diluted with water to a final volume of 150 mL. The concentration of the diluted solution is:
+imat_mock6|Q40|Mole concept|How many molecules are present in 0.50 mol of CO₂? (Nₐ = 6.02 × 10²³ mol⁻¹)
+imat_mock6|Q41|Gas laws|A sealed elastic balloon at constant pressure holds air at 27 °C. It is warmed to 327 °C. Its volume:
+imat_mock6|Q42|Periodic table|Which atom has the largest radius?
+imat_mock6|Q43|Bonding|A white crystalline solid has a high melting point, shatters when struck, and conducts electricity only when molten or dissolved. It is most likely:
+imat_mock6|Q44|Organic chemistry|Ethanoic acid reacts with ethanol in the presence of a few drops of concentrated H₂SO₄. The organic product is:
+imat_mock6|Q45|Organic chemistry|Which single observation distinguishes ethene from ethane?
+imat_mock6|Q46|Equilibrium / kinetics|For the exothermic equilibrium 2SO₂ + O₂ ⇌ 2SO₃, raising the temperature at constant pressure:
+imat_mock6|Q47|Solutions|A solution contains 0.10 mol of glucose dissolved in 500 g of water. Its molality is:
+imat_mock6|Q48|Inequalities|Solve the inequality 5 − 3x ≥ 14.
+imat_mock6|Q49|Functions / domain|What is the domain of f(x) = √(4 − x) / (x − 2)?
+imat_mock6|Q50|Logarithms|What is the value of log₃ 81?
+imat_mock6|Q51|Probability|Three fair coins are tossed. What is the probability of getting at least one head?
+imat_mock6|Q52|Trigonometry|A straight ramp 10 m long makes a 60° angle with the horizontal ground. How far along the ground does the ramp span (horizontal distance between its two ends)? (cos 60° = 0.5, sin 60° = 0.87)
+imat_mock6|Q53|Functions|If f(x) = 2x − 3 and g(x) = x², what is f(g(2))?
+imat_mock6|Q54|Exponents|Simplify (2⁵ × 2³) ÷ 2⁴.
+imat_mock6|Q55|Circuits|A 6 V battery drives a current through a 2 Ω resistor connected in series with a parallel pair made of a 6 Ω and a 3 Ω resistor. What current flows from the battery?
+imat_mock6|Q56|Electricity|A kettle draws 4.6 A from a 230 V supply. Its power consumption is closest to:
+imat_mock6|Q57|Thermal physics|Equal masses of aluminium (specific heat 900 J/(kg·K)) and copper (specific heat 385 J/(kg·K)) receive the same quantity of heat. Which statement is correct?
+imat_mock6|Q58|Kinematics|A car travelling at 20 m/s brakes uniformly and comes to rest in 4.0 s. The magnitude of its deceleration is:
+imat_mock6|Q59|Kinematics / graphs|A velocity-time graph shows: a linear rise from 0 to 4 m/s during the first 4 s, a constant 4 m/s for the next 4 s, then a linear fall back to 0 over the final 4 s. What total distance is covered?
+imat_mock6|Q60|Fluid mechanics|A block floats stationary in water. Which statement must be true?
+imat_mock7|Q1|Reading comprehension|"Resistance to antibiotics commonly arises when random mutations reduce a bacterium's sensitivity to a drug. Under antibiotic treatment, resistant cells survive while their susceptible competitors are killed, so resistan
+imat_mock7|Q2|Critical reasoning|A randomised trial reports that patients given drug X recovered in a median of 5 days versus 7 days with placebo, recovery being recorded by patient self-report. The authors conclude X speeds recovery.  Which of the foll
+imat_mock7|Q3|GK|(General knowledge) The 2025 G7 summit was hosted by:
+imat_mock7|Q4|Constraint logic|A clinic must schedule three locums, X, Y and Z, one for each of Monday, Tuesday and Wednesday. X must work earlier in the week than Z. Y cannot work on Tuesday.  Which of the following must be true?
+imat_mock7|Q5|Formal logic|A chemical test turns blue if and only if protein X is present in a sample. A particular sample did not turn the test blue.  Which conclusion is valid?
+imat_mock7|Q6|Clock angles|A clock reads 9:18. What is the angle between the hour hand and the minute hand?
+imat_mock7|Q7|Data reasoning|Of 1,000 people screened, 100 have the disease. The test is positive in 90 of the 100 diseased people, and also positive in 180 of the 900 healthy people.  What fraction of all positive results are false positives?
+imat_mock7|Q8|Numerical reasoning|A cyclist rides from A to B at 60 km/h and returns immediately along the same route at 120 km/h. The average speed for the whole trip is:
+imat_mock7|Q9|Sequence|A sequence begins 2, 3, 5, 9, 17, 33, … Each term follows one rule from the previous term. What is the next term?
+imat_mock7|Q10|Genetics|A plant with genotype AaBb for two unlinked genes is crossed with a double-recessive aabb plant, and the offspring phenotypes appear 1:1:1:1. This result shows that the AaBb parent:
+imat_mock7|Q11|Genetics|In snapdragons, flower colour shows incomplete dominance: CRCR is red, CRCW is pink, CWCW is white. Two pink plants are crossed. The expected offspring ratio is:
+imat_mock7|Q12|Genetics|Two genes assort independently. A cross AaBb × aabb is performed. What fraction of the offspring is expected to be aabb?
+imat_mock7|Q13|Genetics|Two unaffected parents have a child affected by a rare autosomal recessive disease. What is the probability that their next child is affected?
+imat_mock7|Q14|Molecular biology|On the lagging strand, DNA polymerase works away from the replication fork, producing short Okazaki fragments. Which enzyme joins these fragments into a continuous strand?
+imat_mock7|Q15|Molecular biology|A DNA template strand contains the triplet 3'-TAC-5'. The mRNA produced from this triplet is:
+imat_mock7|Q16|Molecular biology|Which of the following codons signals termination of translation?
+imat_mock7|Q17|Proteins|A protein is heated to 70 °C and denatures. What has happened to its structure?
+imat_mock7|Q18|Enzymes|An inhibitor reduces an enzyme's Vmax by 75% but leaves Km exactly unchanged. The inhibitor is best described as:
+imat_mock7|Q19|Cellular respiration|A poison blocks complex I of the mitochondrial electron transport chain. Which statement follows?
+imat_mock7|Q20|Photosynthesis|The Calvin cycle cannot keep running for long in darkness because it directly requires:
+imat_mock7|Q21|Membranes / osmosis|A red blood cell is placed in seawater, which is hypertonic to blood plasma. What happens?
+imat_mock7|Q22|Cell cycle|The protein p53 accumulates when DNA is damaged in G1. Its role is to:
+imat_mock7|Q23|Genetics / meiosis|Nondisjunction occurs during meiosis in a human oocyte, producing an egg with 24 chromosomes. Fertilisation by a normal sperm gives a zygote with:
+imat_mock7|Q24|Nervous system|The rapid rising (depolarisation) phase of a nerve action potential is caused by:
+imat_mock7|Q25|Nervous system|At a chemical synapse, the immediate trigger for neurotransmitter release from the presynaptic terminal is:
+imat_mock7|Q26|Endocrine|Several hours after a carbohydrate-rich meal, blood glucose is falling. Which endocrine change is occurring?
+imat_mock7|Q27|Immunity|Antivenom is produced by immunising horses, then collecting and purifying the antibodies. A snakebite victim receiving antivenom acquires:
+imat_mock7|Q28|Blood / circulatory|A patient is blood group O, Rh-negative. Which donor red-cell type can be transfused to this patient without a risk of agglutination (within the ABO and Rh systems)?
+imat_mock7|Q29|Digestive system|Pancreatic lipase, acting in the small intestine, digests:
+imat_mock7|Q30|Excretory system|Glucose that is filtered at the glomerulus is normally:
+imat_mock7|Q31|Tissues / skeleton|Which cells deposit new bone matrix during bone growth and remodeling?
+imat_mock7|Q32|Cell cycle|Cells are briefly exposed to radioactively labelled thymidine. Radioactivity will be incorporated into DNA during which phase?
+imat_mock7|Q33|Redox / oxidation numbers|What are the oxidation numbers of nitrogen in the ammonium ion (NH₄⁺) and in the nitrate ion (NO₃⁻), respectively?
+imat_mock7|Q34|Redox / reactivity|Given the activity series Mg > Zn > Cu > Ag, which reaction occurs spontaneously at room temperature?
+imat_mock7|Q35|Bonding / polarity|Which bond is the most polar (largest electronegativity difference)? (EN: H 2.2, C 2.55, N 3.04, O 3.44)
+imat_mock7|Q36|Bonding / polarity|Which molecule contains polar bonds but has zero net dipole moment?
+imat_mock7|Q37|Acids & bases|100 mL of 0.1 M HCl is mixed with 100 mL of 0.3 M NaOH. The pH of the resulting solution is:
+imat_mock7|Q38|Acids & bases|An aqueous solution of HCl is prepared at the extraordinarily low concentration of 1.0 × 10⁻⁸ M. At 25 °C its pH is:
+imat_mock7|Q39|Stoichiometry / titration|25.0 mL of H₂SO₄ solution is completely neutralised by 20.0 mL of 0.15 M NaOH (H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O). The molarity of the acid is:
+imat_mock7|Q40|Stoichiometry|2.50 g of a hydrate of copper(II) sulfate (CuSO₄·nH₂O, M(CuSO₄) = 160 g/mol) is heated to constant mass, leaving 1.60 g of anhydrous CuSO₄. The value of n is:
+imat_mock7|Q41|Gases / mole|What is the mass of 5.6 L of oxygen gas O₂ measured at STP (molar volume 22.4 L/mol; M(O₂) = 32 g/mol)?
+imat_mock7|Q42|Periodic table / ions|The species Na⁺, Mg²⁺, F⁻, O²⁻ and Ne all have 10 electrons. Which is the smallest?
+imat_mock7|Q43|Organic chemistry|Which of the following can exist as cis and trans isomers?
+imat_mock7|Q44|Organic chemistry|Propan-1-ol is oxidised with acidified potassium dichromate, and the volatile organic product is distilled off as it forms. The product is:
+imat_mock7|Q45|Equilibrium|For the equilibrium A ⇌ B, a solution initially containing only A at 1.0 M reaches equilibrium with [B] = 0.75 M. The equilibrium constant Kc is:
+imat_mock7|Q46|Equilibrium / energetics|For an exothermic reaction at equilibrium, increasing the temperature:
+imat_mock7|Q47|Solutions|What is the approximate molarity of pure water at 25 °C (density 1.0 g/mL, M(H₂O) = 18 g/mol)?
+imat_mock7|Q48|Inequalities|Solve x² − 5x + 6 > 0.
+imat_mock7|Q49|Inequalities|Solve |2x − 1| ≤ 5.
+imat_mock7|Q50|Logarithms|Given log₁₀ 2 = 0.30, the value of log₁₀ 5 is:
+imat_mock7|Q51|Probability|Two fair dice are rolled. What is the probability of getting at least one six?
+imat_mock7|Q52|Trigonometry|A vertical pole 6 m tall casts a shadow when the sun's elevation is 45°. How long is the shadow? (tan 45° = 1, tan 30° = 0.58)
+imat_mock7|Q53|Functions|If f(x) = (2x + 3)/5, then f⁻¹(x), the inverse function, is:
+imat_mock7|Q54|Graphs / quadratics|What is the vertex (turning point) of the parabola y = x² − 4x + 7?
+imat_mock7|Q55|Circuits|A 12 V battery drives a 4 Ω resistor in series with a parallel pair of two 4 Ω resistors. What power is dissipated in one of the two parallel resistors?
+imat_mock7|Q56|Energy / kinematics|A stone is dropped from rest from a height of 5 m (g = 10 m/s², air resistance negligible). Its speed just before impact is:
+imat_mock7|Q57|Thermal physics|1 kg of water and 1 kg of iron each receive 10 kJ of heat. (c_water = 4200, c_iron = 450 J/(kg·K).) Which statement is correct?
+imat_mock7|Q58|Kinematics|A ball falls freely from rest for 2.0 s (g = 10 m/s²). The distance it falls is:
+imat_mock7|Q59|Dynamics|A person stands on bathroom scales inside a lift that is accelerating upward. Compared with the person's true weight:
+imat_mock7|Q60|Waves|A sound wave of frequency 500 Hz has a wavelength of 0.68 m in air. The speed of sound is:
+imat_mock8|Q1|Reading comprehension|"The human gut hosts trillions of microbes that assist digestion, synthesise vitamin K and several B vitamins, and help train the developing immune system. A course of antibiotics can transiently reduce the diversity of 
+imat_mock8|Q2|Critical reasoning|A city finds that neighbourhoods with more street trees have lower childhood asthma rates. The council concludes that planting trees will reduce asthma.  Which of the following, if true, most weakens the council's conclu
+imat_mock8|Q3|GK|(General knowledge) The Milano Cortina 2026 Winter Olympic Games are the __ time that Italy has hosted the Winter Olympic Games.
+imat_mock8|Q4|Formal logic|A sealed box contains a number of levers. Exactly one of the following two statements is true: (1) All of the levers in the box are made of steel. (2) None of the levers in the box is made of steel.  Which conclusion fol
+imat_mock8|Q5|Constraint logic|Three tasks (triage, laboratory and records) must be assigned, one each, to Anil, Bea and Cara. Anil refuses to do triage. Cara refuses to do records.  How many different valid assignments are possible?
+imat_mock8|Q6|Clock angles|A clock reads 7:35. What is the angle between the hour hand and the minute hand?
+imat_mock8|Q7|Data reasoning|In a dose-finding trial, patients rated their average pain on a 0 to 10 scale. At doses of 0, 2.5, 5 and 10 mg the mean pain scores were 8, 5, 3 and 3 respectively.  Which conclusion is best supported?
+imat_mock8|Q8|Numerical reasoning|A share price rises by 10% one day and falls by 10% the next day. The net change over the two days is:
+imat_mock8|Q9|Data reasoning|In a class of 30 students, 18 study biology, 15 study chemistry, and 8 study both. How many study neither subject?
+imat_mock8|Q10|Genetics|A father is blood group AB; a mother is blood group O (genotype OO). Which statement about their children is correct?
+imat_mock8|Q11|Genetics|Genes A and B lie on the same chromosome and crossing over between them never occurs. An individual with chromosomes AB/ab (coupling arrangement) is crossed with ab/ab. The offspring will be:
+imat_mock8|Q12|Genetics|A woman is a carrier of haemophilia (XᴴXʰ). Her husband has haemophilia (XʰY). What fraction of their daughters is expected to have haemophilia?
+imat_mock8|Q13|Molecular biology|In double-stranded DNA, guanine pairs with cytosine through:
+imat_mock8|Q14|Molecular biology|Retroviruses such as HIV copy their RNA genome into DNA inside the host cell using:
+imat_mock8|Q15|Molecular biology|During translation, the mRNA codon 5'-AUG-3' is read by the tRNA anticodon. Written in the 3' to 5' direction, the anticodon is:
+imat_mock8|Q16|Proteins|Which protein exhibits quaternary structure?
+imat_mock8|Q17|Proteins|When two amino acids join to form a dipeptide, the reaction is:
+imat_mock8|Q18|Cellular respiration|Fermentation yields only about 2 ATP per glucose, versus roughly 30 by full aerobic oxidation, because:
+imat_mock8|Q19|Cellular respiration|Substrate-level phosphorylation (direct transfer of a phosphate from a substrate to ADP) occurs in:
+imat_mock8|Q20|Photosynthesis|Leaves look green because chlorophyll:
+imat_mock8|Q21|Membranes / transport|The sodium-potassium pump of the cell membrane moves:
+imat_mock8|Q22|Cell cycle|Which checkpoint ensures that DNA replication is complete and undamaged before mitosis begins?
+imat_mock8|Q23|Cell cycle / meiosis|Meiosis II resembles mitosis because in both processes:
+imat_mock8|Q24|Nervous system|The inside of a resting neurone is negative relative to the outside mainly because:
+imat_mock8|Q25|Nervous system|Which sequence correctly traces a simple reflex arc?
+imat_mock8|Q26|Endocrine|Which hormone raises blood glucose as part of the acute stress response?
+imat_mock8|Q27|Immunity|Vaccination with a live attenuated (weakened) pathogen produces which type of immunity?
+imat_mock8|Q28|Circulatory system|The natural pacemaker region that initiates each heartbeat is the:
+imat_mock8|Q29|Respiratory system|Gas exchange in the pulmonary alveoli is highly efficient mainly because:
+imat_mock8|Q30|Excretory system|ADH (vasopressin) increases water reabsorption in the kidney by:
+imat_mock8|Q31|Biotechnology|PCR (the polymerase chain reaction) requires a heat-stable DNA polymerase because:
+imat_mock8|Q32|Integrative biology|An antibiotic blocks the bacterial 70S ribosome but not the eukaryotic 80S ribosome. This selectivity means the drug can:
+imat_mock8|Q33|Redox / oxidation numbers|What is the oxidation number of carbon in methanol, CH₃OH?
+imat_mock8|Q34|Redox|In the reaction Cl₂ + 2NaOH → NaCl + NaOCl + H₂O, the chlorine:
+imat_mock8|Q35|Bonding / polarity|Which molecule has zero net dipole moment despite having polar bonds?
+imat_mock8|Q36|Bonding / geometry|Which molecule has a trigonal pyramidal shape?
+imat_mock8|Q37|Acids & bases|What is the pH of a 0.005 M solution of Ba(OH)₂ at 25 °C? (Ba(OH)₂ releases 2 OH⁻ per formula unit; Kw = 1.0 × 10⁻¹⁴)
+imat_mock8|Q38|Acids & bases|Solution A has pH 4 and solution B has pH 6. The [H⁺] of A compared with B is:
+imat_mock8|Q39|Mole concept|How many atoms (total) are present in 0.25 mol of CO₂? (Nₐ = 6.02 × 10²³ mol⁻¹)
+imat_mock8|Q40|Stoichiometry|Heating 10.0 g of pure CaCO₃ (M = 100 g/mol) would release 2.24 L of CO₂ at STP. An experiment on an impure sample of the same mass releases 1.68 L at STP. The percentage of CaCO₃ in the sample is:
+imat_mock8|Q41|Gas laws|A gas at 27 °C and 1.0 atm is sealed in a rigid vessel and heated to 127 °C. The new pressure is closest to:
+imat_mock8|Q42|Periodic table|A chlorine atom is smaller than a sodium atom mainly because:
+imat_mock8|Q43|Organic chemistry|Methanol reacts with propanoic acid under reflux with concentrated H₂SO₄. The organic product is:
+imat_mock8|Q44|Organic chemistry|Hydrogen bromide adds to propene (CH₃-CH=CH₂). The major product is:
+imat_mock8|Q45|Equilibrium|For the heterogeneous equilibrium CaCO₃(s) ⇌ CaO(s) + CO₂(g), the equilibrium constant is written as:
+imat_mock8|Q46|Electrochemistry|In a working galvanic (voltaic) cell:
+imat_mock8|Q47|Solutions|Four 0.10 M solutions are prepared: glucose (C₆H₁₂O₆), NaCl, CaCl₂, and sucrose. Which has the lowest freezing point?
+imat_mock8|Q48|Inequalities|Solve the inequality 8 − 5x < −12.
+imat_mock8|Q49|Inequalities|Solve −3 < 2x + 1 ≤ 7.
+imat_mock8|Q50|Exponents / logarithms|If 2ˣ = 40, then x satisfies:
+imat_mock8|Q51|Probability|One card is drawn at random from a standard 52-card deck. What is the probability it is a heart or a king?
+imat_mock8|Q52|Trigonometry|A straight ramp 8 m long makes a 30° angle with the horizontal. How high is its upper end above the ground? (sin 30° = 0.5, cos 30° = 0.87)
+imat_mock8|Q53|Functions|If f(x) = 2x − 1, then f(f(x)) equals:
+imat_mock8|Q54|Graphs / geometry|The circle (x − 1)² + (y + 2)² = 16 has centre and radius:
+imat_mock8|Q55|Circuits|A 24 V battery drives a 2 Ω resistor in series with a parallel pair of 12 Ω and 6 Ω. What current flows from the battery?
+imat_mock8|Q56|Electricity|A 60 W lamp is designed for a 120 V supply. The resistance of its filament is:
+imat_mock8|Q57|Thermal physics|Water boiling at atmospheric pressure stays at exactly 100 °C even though the flame keeps supplying heat. This is because:
+imat_mock8|Q58|Dynamics / momentum|Cars once had rigid metal bumpers; modern cars crumple in a crash. The physics reason a crumple zone reduces injury is that it:
+imat_mock8|Q59|Kinematics / graphs|On a distance-time graph, a horizontal segment means the object is:
+imat_mock8|Q60|Fluid mechanics|A block of density 0.90 g/cm³ floats in water (1.00 g/cm³). What fraction of the block's volume is submerged?
+imat_mock9|Q1|Logic · inference from a controlled study|"Researchers followed two groups of office workers for a year. Group A worked in a building where filtered air was fully exchanged every 20 minutes; Group B worked in an identical building where the air was exchanged eve
+imat_mock9|Q2|Logic · separating correlation from causation|"Last year a city began charging drivers to enter its central zone. Within six months, car traffic in the zone had fallen by a quarter and buses ran measurably faster. A survey found that most people entering the zone tr
+imat_mock9|Q3|Logic · syllogism (quantifier chain)|Every student who passed the practical examination attended all of the laboratory sessions. Some of the students who attended all of the laboratory sessions were awarded a scholarship. No scholarship winner was charged a
+imat_mock9|Q4|Logic · one-true-statement consistency puzzle|Exactly one of four office workers jammed the shared printer, and exactly one of the four statements they made about the incident is true. Dana said: Erik jammed the printer. Erik said: Farid did not jam the printer. Far
+imat_mock9|Q5|Logic · weakening an argument (alternative cause)|A town installed automatic speed cameras along its main road. During the following year, accidents on that road fell by 30 per cent, and the council concluded that the cameras had slowed drivers down and so prevented acc
+imat_mock9|Q6|Logic · conditional equivalence (converse and inverse traps)|A safety rule states: whenever the fire alarm sounds, all staff evacuate the building.  Which one of the following statements is logically equivalent to this rule?
+imat_mock9|Q7|Logic · linear seating (cannot be true)|Six friends stand in a row for a photograph, in positions numbered 1 to 6 from left to right. Jana stands in position 1. Femi stands somewhere to the right of Gita. Hugo stands immediately to the left of Kofi. Ivo stands
+imat_mock9|Q8|Logic · scheduling with an adjacency rule|The four lectures Anthropology, Botany, Chemistry and Demography are scheduled one per hour at 9:00, 11:00, 13:00 and 15:00. Chemistry is scheduled earlier than Demography. Botany is not scheduled at 9:00. Anthropology i
+imat_mock9|Q9|Logic · ranking with a chain of conditions|Five entries, P, Q, R, S and T, are ranked from 1st (best) to 5th in a short-story competition. T is ranked third. S is ranked better than R. R is ranked better than Q.  Which one of the following must be true?
+imat_mock9|Q10|Biology · pH, ionisation and salt bridges|A protein's folded shape is held partly by ionic bonds (salt bridges) between the side chain of a lysine residue and the side chain of an aspartate residue. At pH 7 the lysine side chain is positively charged and the asp
+imat_mock9|Q11|Biology · digestive enzymes and pH optima|A patient takes a drug that keeps the pH of the stomach contents close to 7 instead of the usual strongly acidic value, but leaves the small intestine unchanged. Pepsin works optimally near pH 2, while trypsin works opti
+imat_mock9|Q12|Biology · glycogen entry into glycolysis|Glucose units released from glycogen inside a muscle cell enter glycolysis as glucose 6-phosphate, so the hexokinase step, which consumes 1 ATP, is bypassed, while the other ATP-consuming step of glycolysis still occurs.
+imat_mock9|Q13|Biology · primary and secondary active transport|In the epithelial cells lining the small intestine, glucose is absorbed from the lumen by a transporter that carries glucose together with sodium ions, driven by the sodium concentration gradient. That gradient is mainta
+imat_mock9|Q14|Biology · osmosis, plasmolysis and turgor|A plant leaf cell is placed in a solution whose concentration of non-penetrating solutes is much higher than that of the cell sap. Which outcome is expected?
+imat_mock9|Q15|Biology · nucleolus, ribosome assembly and translation|A drug stops the transcription of ribosomal RNA in the nucleolus of a eukaryotic cell, while the transcription of protein-coding genes and the rest of the cell's metabolism continue intact for several hours. Which outcom
+imat_mock9|Q16|Biology · promoter versus coding mutations|In a eukaryotic gene, a single base substitution occurs well upstream of the coding sequence, within the promoter region where RNA polymerase binds, and the change weakens this binding. The coding sequence itself is unch
+imat_mock9|Q17|Biology · nondisjunction in meiosis I and gamete outcomes|During meiosis I in a human oocyte, one pair of homologous chromosomes fails to separate (nondisjunction). Meiosis II then proceeds normally, and the resulting egg cell is fertilised by a normal sperm. Which statement is
+imat_mock9|Q18|Biology · dihybrid cross with independent assortment|Two guinea pigs, both heterozygous for coat colour (Bb) and for hair length (Ll), are crossed. The two genes assort independently. What is the probability that an offspring shows both recessive traits, that is, brown coa
+imat_mock9|Q19|Biology · Hardy-Weinberg carrier frequency|In a population in Hardy-Weinberg equilibrium, one child in 2,500 is born with a recessive genetic disease. Assuming random mating and a large population, roughly what fraction of the population are carriers (heterozygot
+imat_mock9|Q20|Biology · spindle poisons and mitotic arrest|Colchicine prevents the assembly of spindle microtubules. A cell that has completed DNA replication is exposed to colchicine as it enters mitosis. At which stage, and with which appearance, will treated cells accumulate?
+imat_mock9|Q21|Biology · ATP synthase block with fermentation logic|A toxin blocks the proton channel of mitochondrial ATP synthase, so protons can no longer flow back into the matrix, while the electron transport chain still transfers electrons to oxygen at first. In cells whose mitocho
+imat_mock9|Q22|Biology · cross-bridge cycle and rigor mortis|After death, calcium ions leak out of the sarcoplasmic reticulum and are never pumped back, and ATP production has stopped. Cross-bridges form between myosin heads and actin. Which statement explains why the muscles then
+imat_mock9|Q23|Biology · aortic stenosis and ventricular workload|The aortic semilunar valve of a patient is narrowed (stenosed), so the opening through which blood leaves the left ventricle is reduced. Which chain of consequences follows?
+imat_mock9|Q24|Biology · pleural pressure and lung recoil|In a healthy chest, the pressure in the pleural cavity between the lung and the chest wall is lower than atmospheric, which keeps the lung expanded against the chest wall. A fractured rib tears the lung surface and lets 
+imat_mock9|Q25|Biology · carbon monoxide and oxygen transport|Carbon monoxide binds to haemoglobin at the same sites as oxygen, with an affinity more than 200 times greater, and it is released only slowly. A fire victim is breathing air containing carbon monoxide. A pulse oximeter 
+imat_mock9|Q26|Biology · hepatic portal circulation|A glucose molecule is absorbed from the lumen of the small intestine into a capillary of an intestinal villus. Which of the following gives the correct route it takes on the way to the hepatic vein?
+imat_mock9|Q27|Biology · thyroid feedback with exogenous hormone|A person takes tablets containing thyroxine (T4) every day in fairly high doses, without medical supervision. The normal feedback control of the thyroid axis still works correctly. Which pattern of blood hormone levels i
+imat_mock9|Q28|Biology · ADH, thirst and water balance|A hill walker walks for hours in extreme heat, loses a large volume of sweat and drinks almost nothing. Plasma volume falls and the plasma becomes more concentrated. Which set of responses is expected?
+imat_mock9|Q29|Biology · hypoglycaemia counter-regulation|A person with type 1 diabetes injects insulin but then skips the next meal and takes vigorous exercise, and the blood glucose level begins to fall below normal. Which sequence of responses follows in this person?
+imat_mock9|Q30|Biology · epithelium matched to function|The oesophagus is lined by stratified squamous epithelium many cells thick, while the small intestine is lined by a single layer of columnar cells. Which statement best explains this difference?
+imat_mock9|Q31|Biology · cartilage structure and repair|A patient tears the meniscus, a pad of cartilage in the knee, and is told that it heals much more slowly than a similar tear in the skin. Which feature of cartilage best explains this?
+imat_mock9|Q32|Biology · bottleneck effect and allele frequency|A large beetle population has an allele frequency of 0.4 for allele A at one locus. A flood leaves only ten survivors: six AA, three Aa and one aa, and these found a new population. What is the frequency of allele A amon
+imat_mock9|Q33|Chemistry · isomer classification (constitutional vs stereoisomers)|Consider three pairs of organic compounds. Pair P: butan-1-ol and butan-2-ol. Pair Q: (2R)-butan-2-ol and (2S)-butan-2-ol. Pair R: cis-pent-2-ene and trans-pent-2-ene. Which of the following statements is correct?
+imat_mock9|Q34|Chemistry · limiting reagent with gas volumes|4.8 g of methane (M = 16 g/mol) is mixed with 4.8 g of oxygen gas (M = 32 g/mol) and ignited, and the reaction CH₄ + 2O₂ → CO₂ + 2H₂O proceeds until one reactant is used up. Which statement is correct? (Molar volume of a
+imat_mock9|Q35|Chemistry · molarity to pH, then dilution|0.40 g of sodium hydroxide (M = 40 g/mol), a strong base that is fully dissociated in water, is dissolved and made up to exactly 1.0 dm3 of solution at 25 °C. Then 10 cm3 of this solution is diluted with water to a final
+imat_mock9|Q36|Chemistry · Kw and pH of a base (temperature shift)|At 25 °C the ionic product of water is Kw = 1.0 × 10^-14, but at a higher temperature Kw is larger: in one such case Kw = 1.0 × 10^-13. What is the pH of a 0.010 mol/dm3 solution of sodium hydroxide, fully dissociated, a
+imat_mock9|Q37|Chemistry · dilution with a non-tenfold factor|20 cm3 of 0.010 mol/dm3 hydrochloric acid, a strong acid that is fully ionised, is diluted with water to a final volume of 400 cm3. Taking log10 2 = 0.30, what is the pH of the diluted solution?
+imat_mock9|Q38|Chemistry · IMF type and boiling point ordering|Four pure molecular liquids with similar molar masses are: propane CH₃CH₂CH₃ (Mr 44), propanone CH₃COCH₃ (Mr 58), ethanol C₂H₅OH (Mr 46) and ethanoic acid CH₃COOH (Mr 60). In the liquid state, two ethanoic acid molecules
+imat_mock9|Q39|Chemistry · rate law exponents|For the reaction A + 2B → products, experiments at fixed temperature show that the rate is proportional to the concentration of A and to the square of the concentration of B. If the concentration of A is doubled and the 
+imat_mock9|Q40|Chemistry · oxidation numbers in an oxoanion|What is the average oxidation number of a sulfur atom in the tetrathionate ion, S₄O₆^2-, if the four sulfur atoms are treated as equivalent?
+imat_mock9|Q41|Chemistry · oxidation number matching|In which species does nitrogen have the same oxidation number as sulfur has in the sulfite ion, SO₃^2-?
+imat_mock9|Q42|Chemistry · first-order half-life with concentration|A substance decomposes by first-order kinetics with a half-life of 20 minutes at 25 °C. A sealed 2.0 dm3 vessel initially contains 0.80 mol of the substance. What is its concentration after 60 minutes?
+imat_mock9|Q43|Chemistry · mole bridge to atom counts|Sample X contains 4.4 g of carbon dioxide, CO₂, and sample Y contains 4.9 g of sulfuric acid, H₂SO₄ (M = 98 g/mol). (C = 12, O = 16; Avogadro constant = 6.02 × 10^23 per mol.) Which statement about the oxygen atoms in th
+imat_mock9|Q44|Chemistry · neutralisation excess with pH|50 cm3 of 0.20 mol/dm3 hydrochloric acid, fully ionised, is mixed with 150 cm3 of 0.10 mol/dm3 sodium hydroxide, fully dissociated. What is the pH of the resulting solution at 25 °C? (Kw = 1.0 × 10^-14; log 2.5 = 0.40)
+imat_mock9|Q45|Chemistry · limiting reagent with gas volume and leftover|1.08 g of aluminium (M = 27 g/mol) is added to 100 cm3 of 0.10 mol/dm3 sulfuric acid and reacts completely as far as possible: 2Al + 3H₂SO₄ → Al₂(SO₄)₃ + 3H₂. Which statement is correct? (Molar volume of a gas at STP = 2
+imat_mock9|Q46|Chemistry · concentration on evaporation|A student evaporates water from 500 cm3 of a 0.20 mol/dm3 sodium chloride solution until the volume is exactly 200 cm3, with no loss of solute. The concentration of the final solution is:
+imat_mock9|Q47|Chemistry · pH scale as powers of ten|Two solutions at 25 °C have pH values of 3.5 and 5.5. The hydrogen ion concentration of the solution with pH 3.5 is how many times that of the solution with pH 5.5?
+imat_mock9|Q48|Maths · logarithm properties|Given that log₁₀ 5 = 0.70 and log₁₀ 3 = 0.48, what is the value of log₁₀ 45?
+imat_mock9|Q49|Maths · discriminant condition (inequality)|For which values of k does the equation x^2 + kx + 9 = 0 have no real solutions?
+imat_mock9|Q50|Maths · composite solids (conservation of volume)|A solid metal sphere of radius 3 cm is melted down and recast into a solid right circular cylinder of radius 2 cm. What is the height of the cylinder? (Volume of a sphere = (4/3)πr^3; volume of a cylinder = πr^2h)
+imat_mock9|Q51|Maths · probability (same colour, without replacement)|A bag contains 3 red balls and 5 blue balls. Two balls are drawn at random without replacement. What is the probability that the two balls are the same colour?
+imat_mock9|Q52|Maths · rate of change from a table|A toy train runs along a straight track away from its start point, and its distance from the start is recorded at one-minute intervals: 0 m at 0 min, 120 m at 1 min, 300 m at 2 min and 540 m at 3 min. What is the greates
+imat_mock9|Q53|Maths · simplifying radicals|What is the value of √50 + √18 - √8, written in the form a√2?
+imat_mock9|Q54|Maths · probability of combined events|For two events A and B, P(A) = 0.5, P(B) = 0.4 and P(A and B) = 0.2. What is P(A or B)?
+imat_mock9|Q55|Physics · acceleration from a velocity-time table|A trolley moves along a straight track and its velocity is recorded every 2.0 s: 0 m/s at 0 s, 10 m/s at 2.0 s, 14 m/s at 4.0 s, 14 m/s at 6.0 s and 6 m/s at 8.0 s. What is the magnitude of the trolley's acceleration bet
+imat_mock9|Q56|Physics · circular motion (centripetal acceleration)|A car travels around a circular bend of radius 50 m at a constant speed of 10 m/s. Which of the following statements is correct?
+imat_mock9|Q57|Physics · series-parallel network|A battery of negligible internal resistance supplies 24 V to an 8.0 Ω resistor connected in series with a parallel combination of a 12 Ω resistor and a 6.0 Ω resistor. What current does the battery supply?
+imat_mock9|Q58|Physics · calorimetry (mixing two water samples)|In an insulated container, 0.40 kg of water at 20 °C is mixed with 0.20 kg of water at 65 °C. Assuming no heat is exchanged with the surroundings, what is the final temperature of the mixture?
+imat_mock9|Q59|Physics · gauge pressure in a liquid|A farm tank contains a liquid of density 800 kg/m3 filled to a depth of 3.0 m and open to the atmosphere (100 kPa). What is the gauge pressure exerted by the liquid at the bottom of the tank? (g = 10 m/s2)
+imat_mock9|Q60|Physics · power and energy (unit conversions)|An electric kettle rated at 2.0 kW takes 3.0 minutes to bring its water to the boil. How much electrical energy does the kettle transfer in that time?

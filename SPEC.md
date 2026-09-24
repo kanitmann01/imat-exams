@@ -17,8 +17,8 @@ Style note: exam titles and section labels in the source data contain em dash pu
 
 A mobile-friendly, offline-capable web app for sitting and reviewing IMAT practice papers:
 
-- 8 full mock exams (60 Q each, max 90), 1 General Knowledge drill (100 Q, max 150), 1 Repair drill (70 Q, max 105). All content comes from the existing exams; no content is rewritten by hand.
-- Exam-day realistic runner: password gate, 100-minute countdown, section-grouped paper, question navigator, autosave, auto-submit at zero.
+- 11 full mock exams (60 Q each, max 90): Mocks 1-9 built from the research dossier papers; Mocks 10-11 (added 2026-09, freshly authored) model the 2024-2026 MUR decree format exactly (Q1-4 reading/GK, Q5-9 logic, 10-32 biology, 33-47 chemistry, 48-54 maths, 55-60 physics; Mock 10 leans 2025-style metabolism/theory, Mock 11 leans 2024-style genetics/stoichiometry). Plus 1 GK drill (100 Q), 1 Repair drill (70 Q) and 4 medium-hard banks (bio 130, chem 65, maths/physics/logic 95, GK 60).
+- Exam-day realistic runner: password gate, 100-minute countdown, section-grouped paper, question navigator, autosave; at zero the clock freezes and the paper stays open (manual submit only, no auto-submit).
 - A product layer the old files never had: persistent attempt history with full review, one-tap reattempt, score comparison, and an analytics dashboard.
 - Strict anti-leak guarantees: nothing in the pre-submit UI may hint at the answer (topic pills, difficulty badges, answer-letter clustering, emphasis markers, and internal calibration notes are all eliminated at build time).
 - Free forever: static hosting on GitHub Pages, optional free-tier Supabase sync, no servers of our own.
@@ -367,7 +367,7 @@ Exactly as Section 2.4: no topic, no difficulty, no explanations, no correctness
 - On route unmount or tab hidden: persist, stop the interval.
 - On resume: kind mode (default, `strictTimer: false`): `remainingSec` unchanged while away, `lastTickAt` reset to now. Strict mode (`strictTimer: true`, per-exam override in Settings, default off): subtract `min(elapsedSinceLastTick, remainingSec)` from `remainingSec`. This is a deliberate deviation from the old wall-clock behavior, chosen as practice kindness; strict mode exists to rehearse real exam conditions.
 - Display: `MM:SS`, tabular numerals; amber pulse at 5:00 and below (matches current styling).
-- Auto-submit at 00:00: runs the submit path with the modal SKIPPED, sets `autoSubmitted: true`, grades whatever is answered, navigates to review, toast "Time is up: paper auto-submitted".
+- At 00:00 (2026-09 change, on request): NO auto-submit. The ticker stops, the header chip turns red at 00:00, a persistent "Time expired" banner is prepended to the paper, and a one-time toast explains the paper stays open. Answers can still be changed; only the Submit button grades and navigates. A resumed attempt with `remainingSec` 0 mounts straight into this expired state instead of force-finalizing. `attempt.autoSubmitted` stays `false` for new attempts (the field and the legacy history/review badge are kept so old attempts still render).
 
 ### 6.6 Grading engine (pure module, browser and node)
 
@@ -630,7 +630,7 @@ Store the approved set in `e2e/screens/` and eyeball-diff on UI changes (no pixe
 1. Unlock once, close browser, reopen: no gate prompt.
 2. Start Mock 6, answer 5, back to Home, Resume: answers intact, timer paused (kind) / reduced (strict).
 3. Kill the tab mid-exam, reopen via Home: same as 2.
-4. Let a 2-minute exam (dev override `?duration=120` for testing only) hit zero: auto-submit lands on Review with `autoSubmitted` badge.
+4. Let a 2-minute exam (dev override `?duration=120` for testing only) hit zero: clock freezes at 00:00, red chip plus expired banner appear, the paper stays open; pressing Submit lands on Review with no auto-submit badge.
 5. Submit with 3 blanks: modal shows 3, grading correct.
 6. Review filters and navigator jump-reveal work.
 7. Reattempt: new paper, options visibly reordered on shuffle-safe questions, history now has 2 rows.
@@ -647,7 +647,7 @@ Store the approved set in `e2e/screens/` and eyeball-diff on UI changes (no pixe
 - **UNIT-3 storage:** attempt CRUD via the adapter interface (memory implementation), index consistency, corrupted JSON record is quarantined with a report instead of crashing, quota-error path flips to memory mode.
 - **UNIT-4 legacy import:** fixture localStorage blob (all legacy key shapes from 5.4) converts to attempts; recomputed scores match stored totals for well-formed data; the tracker cross-check values (48.9 / 42.4 / 45.8 / 32.9) round-trip when fed as fixture answers; history dedupe against result; skipped in-progress case reported.
 - **UNIT-5 scrub:** S1-S5 rules against the named leak instances (Mock 2 Q54, Mock 4 Q52, Mock 5 Q37, Mock 1 Q1, Mock 6 Q1) and the S4 preservation fixtures.
-- **UNIT-6 timer math:** visible-tick accounting, pause on hidden, kind vs strict resume, auto-submit trigger at 0, drift resistance (fake clocks).
+- **UNIT-6 timer math:** visible-tick accounting, pause on hidden, kind vs strict resume, expire signal at 0 (the view now uses it to freeze the paper open), drift resistance (fake clocks).
 
 **E2E (Playwright, against a local static server and, post-deploy, the Pages URL):**
 

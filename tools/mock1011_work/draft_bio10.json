@@ -1,0 +1,373 @@
+{
+  "agent": "bio10",
+  "questions": [
+    {
+      "mock": 10,
+      "slot": 10,
+      "topic": "Cellular respiration",
+      "lik": "H",
+      "stem": "Glycolysis is often divided into an energy investment stage and an energy payoff stage. Which of the following statements about the breakdown of one molecule of glucose to pyruvate is true?",
+      "options": [
+        "The two ATP molecules are spent before the six carbon sugar is cleaved into two three carbon molecules, so every reaction of the payoff stage happens twice for each glucose that enters.",
+        "Four ATP molecules are consumed in the investment stage and only two are produced in the payoff stage, so glycolysis causes a net loss of ATP.",
+        "ATP is invested to pump pyruvate across the mitochondrial membrane before the payoff stage can begin.",
+        "The net yield is four ATP per glucose, because each ATP forming reaction occurs only once per glucose molecule.",
+        "The investment stage can proceed only when oxygen is available to withdraw electrons from the pathway."
+      ],
+      "ans": "A",
+      "exp": "ATP is invested at the hexokinase and phosphofructokinase steps before aldolase cleaves the six carbon sugar, and every payoff reaction then runs twice per glucose, giving four ATP produced against two consumed, a net gain of two. The distractors invert this accounting or claim that glycolysis requires oxygen, which it does not."
+    },
+    {
+      "mock": 10,
+      "slot": 11,
+      "topic": "Cellular respiration",
+      "lik": "H",
+      "stem": "In eukaryotic cells, the pyruvate produced by glycolysis does not enter the Krebs cycle directly. Which statement describes what happens to it first?",
+      "options": [
+        "It crosses both mitochondrial membranes unchanged and condenses directly with oxaloacetate to form citrate.",
+        "It is converted to lactate inside the mitochondrial matrix so that NAD+ can be regenerated for glycolysis.",
+        "In the mitochondrial matrix it is oxidatively decarboxylated: one carbon leaves as CO2, NAD+ is reduced to NADH, and the remaining two carbon acetyl group is attached to coenzyme A.",
+        "It is converted to acetyl-CoA in the cytosol, and the acetyl-CoA is then carried into the mitochondria by transport vesicles.",
+        "It is fully oxidised to CO2 and water at the inner mitochondrial membrane by the cytochromes of the electron transport chain."
+      ],
+      "ans": "C",
+      "exp": "Each pyruvate enters the matrix and is oxidatively decarboxylated by the pyruvate dehydrogenase complex, releasing one CO2, reducing NAD+ to NADH and transferring the acetyl group to coenzyme A. Only then can the acetyl group condense with oxaloacetate; lactate formation happens in the cytosol during fermentation, and the electron transport chain never oxidises pyruvate itself."
+    },
+    {
+      "mock": 10,
+      "slot": 12,
+      "topic": "Cellular respiration",
+      "lik": "H",
+      "stem": "Which of the following statements about the Krebs (citric acid) cycle is true?",
+      "options": [
+        "Oxaloacetate is consumed in stoichiometric amounts, so the diet must continuously supply it for the cycle to keep turning.",
+        "Most of the ATP generated in aerobic respiration is produced by substrate level phosphorylation inside the cycle itself.",
+        "For each acetyl group oxidised, one turn of the cycle releases four molecules of CO2.",
+        "Each turn regenerates the four carbon acceptor oxaloacetate, so the cycle can continue as long as acetyl-CoA, NAD+, FAD and ADP are supplied.",
+        "One reaction of the cycle consumes molecular oxygen directly, which is what links the cycle to the electron transport chain."
+      ],
+      "ans": "D",
+      "exp": "The cycle ends each turn by regenerating oxaloacetate, so it functions catalytically rather than consuming the acceptor. Two CO2 are released per acetyl group, oxygen is consumed by the electron transport chain rather than by any cycle reaction, and the single GTP per turn is a small fraction of aerobic ATP output, most of which comes from oxidative phosphorylation."
+    },
+    {
+      "mock": 10,
+      "slot": 13,
+      "topic": "Cellular respiration",
+      "lik": "H",
+      "stem": "In the mitochondrial electron transport chain, which complexes pump protons (H+) from the matrix to the intermembrane space?",
+      "options": [
+        "Complexes I, III and IV pump protons, while complex II passes electrons to ubiquinone without pumping any.",
+        "All four complexes pump protons, which is why NADH and FADH2 yield exactly the same number of ATP.",
+        "Only complex IV pumps protons, and it does so while reducing oxygen to water.",
+        "Complexes II and III are the only pumping complexes, because electrons reach both of them at the same energy level.",
+        "No complex pumps protons directly; protons cross the membrane together with the electrons inside the mobile carriers."
+      ],
+      "ans": "A",
+      "exp": "Complexes I, III and IV translocate protons across the inner membrane, while complex II (succinate dehydrogenase) hands electrons to ubiquinone without pumping, which is why FADH2, which enters at complex II, yields fewer ATP than NADH. Protons never ride across the membrane with the electrons."
+    },
+    {
+      "mock": 10,
+      "slot": 14,
+      "topic": "Cellular respiration",
+      "lik": "H",
+      "stem": "Actively respiring mitochondria maintain a pH difference between the matrix and the intermembrane space. Which statement is correct?",
+      "options": [
+        "The matrix is more acidic than the intermembrane space, because ATP synthase releases H+ into the matrix as it converts ADP and phosphate into ATP.",
+        "The intermembrane space is more acidic than the matrix, because electron transport pumps H+ out of the matrix and the resulting gradient drives H+ back through ATP synthase.",
+        "The two compartments have identical pH values, because protons diffuse freely through the outer mitochondrial membrane until equilibrium is reached.",
+        "The intermembrane space is more alkaline, because ATP synthesis consumes protons inside the matrix faster than electron transport can replace them.",
+        "No significant pH difference can build up, because the inner mitochondrial membrane is freely permeable to protons."
+      ],
+      "ans": "B",
+      "exp": "Electron transport pumps H+ from the matrix into the intermembrane space, making that compartment more acidic and storing energy in a concentration and electrical gradient that ATP synthase dissipates during synthesis. The inner membrane being impermeable to protons is precisely what allows the gradient to exist, so claims of free proton permeability contradict the whole mechanism."
+    },
+    {
+      "mock": 10,
+      "slot": 15,
+      "topic": "Cellular respiration",
+      "lik": "H",
+      "stem": "During a 400 m sprint, fast muscle fibres convert pyruvate to lactate. Which statement correctly describes the subsequent fate of this lactate?",
+      "options": [
+        "It is excreted unchanged by the kidneys, which greatly lowers the pH of the urine after every sprint.",
+        "It is converted back into glucose inside the same muscle fibre and immediately exported into the blood.",
+        "It remains locked inside the fibre as a permanent inert waste product.",
+        "It is converted by human muscle enzymes into ethanol and CO2, exactly as in yeast fermentation.",
+        "Much of it is carried in the blood to the liver, where it is converted back into glucose that can be returned to the blood or stored as liver glycogen."
+      ],
+      "ans": "E",
+      "exp": "In the Cori cycle the blood carries lactate to the liver, which converts it back to glucose for release into the blood or storage as glycogen. Muscle fibres lack glucose 6 phosphatase, so they cannot convert lactate back to free glucose for export, and human cells cannot ferment lactate to ethanol."
+    },
+    {
+      "mock": 10,
+      "slot": 16,
+      "topic": "Enzymes",
+      "lik": "M",
+      "stem": "The rate of an enzyme catalysed reaction is measured with and without inhibitor X at a series of substrate concentrations. X lowers the rate at every concentration, but at very high substrate concentration the inhibited reaction approaches the same maximum velocity as the uninhibited reaction. Which conclusion is correct?",
+      "options": [
+        "X is a competitive inhibitor: the apparent Km is raised but Vmax is unchanged, because sufficiently concentrated substrate outcompetes X for the active site.",
+        "X is a non-competitive inhibitor that lowers Vmax, and the apparent convergence of the two curves must be an experimental artefact.",
+        "X binds only to the enzyme substrate complex, so its inhibitory effect becomes stronger as substrate concentration rises.",
+        "X works by raising the activation energy of the catalysed reaction, so no concentration of substrate can overcome it.",
+        "X irreversibly destroys the active sites, so adding more substrate can never bring the rate back toward the uninhibited maximum."
+      ],
+      "ans": "A",
+      "exp": "Reaching the same maximum velocity at high substrate concentration is the signature of competitive inhibition: substrate and inhibitor compete for the same active site, so the apparent Km rises while Vmax is unchanged. A non-competitive inhibitor removes functional enzyme and lowers Vmax in a way that substrate cannot overcome, and irreversible or uncompetitive binding would prevent the observed convergence."
+    },
+    {
+      "mock": 10,
+      "slot": 17,
+      "topic": "Enzymes",
+      "lik": "M",
+      "stem": "The vitamin niacin (vitamin B3) is a precursor of the nicotinamide ring of NAD+. Severe dietary deficiency of niacin would be expected to impair most directly the activity of:",
+      "options": [
+        "hydrolytic enzymes such as amylase and trypsin, because NAD+ supplies the water used to break glycosidic and peptide bonds.",
+        "only the protein complexes of the electron transport chain, because NAD+ is split there to release the energy stored in ATP.",
+        "every enzyme in the body, because NAD+ is needed for the correct folding of all newly made proteins.",
+        "dehydrogenases of pathways such as glycolysis and the Krebs cycle, because NAD+ is a coenzyme that accepts electrons from oxidised substrates and must be continuously regenerated.",
+        "the sodium potassium pump, because NAD+ is hydrolysed to provide the energy for active transport."
+      ],
+      "ans": "D",
+      "exp": "NAD+ is the reusable coenzyme of dehydrogenases, accepting electrons from substrates in glycolysis, the link reaction and the Krebs cycle, so a shortage cripples oxidation reactions throughout metabolism. Water for hydrolysis comes from the solvent, ATP rather than NAD+ powers the sodium potassium pump, and NAD+ has no general role in protein folding."
+    },
+    {
+      "mock": 10,
+      "slot": 18,
+      "topic": "Muscle",
+      "lik": "H",
+      "stem": "According to the sliding filament model, which of the following occurs within a sarcomere during a strong contraction of a skeletal muscle fibre?",
+      "options": [
+        "The thick filaments shorten because the myosin tails coil up like springs around the actin filaments.",
+        "The thin filaments shorten because actin monomers are stripped from their ends during force generation.",
+        "The thick and thin filaments keep their original lengths while the sarcomere shortens: the I band and the H zone become narrower but the A band keeps its width.",
+        "The A band and the I band shorten in the same proportion, reflecting the equal shortening of thick and thin filaments.",
+        "The H zone widens as the thin filaments are pulled away from the centre of the sarcomere."
+      ],
+      "ans": "C",
+      "exp": "Cross bridge cycling pulls the filaments past one another without changing their length, so the A band, whose width equals the thick filament length, stays constant while the I band and H zone narrow as overlap grows. Neither filament type behaves as a spring or disassembles during contraction."
+    },
+    {
+      "mock": 10,
+      "slot": 19,
+      "topic": "Muscle",
+      "lik": "H",
+      "stem": "Which of the following statements about motor units in skeletal muscle is true?",
+      "options": [
+        "A motor unit consists of a single muscle fibre together with all the motor neurons that supply it.",
+        "Muscles used for fine, precise movements, such as the external muscles of the eye, are organised into a small number of large motor units.",
+        "A motor unit consists of one motor neuron together with all the muscle fibres it innervates, and when that neuron fires, every fibre in the unit contracts.",
+        "During a weak contraction, all of the muscle's motor units are active, but each one fires action potentials of reduced amplitude.",
+        "Force can be increased only by raising the firing frequency of a fixed set of motor units, never by recruiting additional units."
+      ],
+      "ans": "C",
+      "exp": "A motor unit is one motor neuron plus all the fibres it supplies, and all of those fibres contract together when the neuron fires. Fine control requires many small motor units, and graded whole muscle force comes both from frequency coding and from recruiting additional units, since individual action potentials are all or none."
+    },
+    {
+      "mock": 10,
+      "slot": 20,
+      "topic": "Histology",
+      "lik": "M",
+      "stem": "Which of the following correctly matches an epithelial type with its normal location and the advantage it provides there?",
+      "options": [
+        "Transitional epithelium; the lining of the small intestine; its ability to stretch provides a huge absorptive surface.",
+        "Simple squamous epithelium; the lining of the urinary bladder; its many cell layers protect against acidic urine.",
+        "Ciliated pseudostratified columnar epithelium; the walls of the alveoli; the beating cilia stir the air to speed diffusion.",
+        "Simple columnar epithelium; the dry outer surface of the skin; its single layer heals wounds faster than any multilayered epithelium.",
+        "Keratinised stratified squamous epithelium; the epidermis of the skin; its dead, keratin filled surface cells resist abrasion and reduce water loss."
+      ],
+      "ans": "E",
+      "exp": "The epidermis is keratinised stratified squamous epithelium whose dead, keratin rich surface cells withstand wear and limit water loss from the dry body surface. The bladder, not the intestine, is lined by transitional epithelium, the thin simple squamous lining of the alveoli has no cilia, and skin owes its protective value to many layers, not to a single one."
+    },
+    {
+      "mock": 10,
+      "slot": 21,
+      "topic": "Histology",
+      "lik": "M",
+      "stem": "Which of the following statements about connective tissues is true?",
+      "options": [
+        "Blood is not classified as connective tissue because it contains no extracellular matrix.",
+        "Cartilage contains no blood vessels: its chondrocytes sit in matrix filled spaces called lacunae and receive nutrients by diffusion, which is one reason injured cartilage heals slowly.",
+        "The collagen fibres of tendons are secreted by chondrocytes that migrate in from nearby cartilage.",
+        "Dense regular connective tissue such as tendon is rich in ground substance and poor in fibres, which makes it highly elastic.",
+        "Adipose tissue stores fat droplets in a sparse network of collagen fibres rather than inside cells."
+      ],
+      "ans": "B",
+      "exp": "Cartilage is avascular, and its chondrocytes within lacunae are nourished by diffusion through the matrix, which explains its slow repair. Blood is a connective tissue whose matrix is plasma, tendon collagen is secreted by fibroblasts and packed densely, and adipose tissue stores fat inside adipocytes."
+    },
+    {
+      "mock": 10,
+      "slot": 22,
+      "topic": "Organelles",
+      "lik": "M",
+      "stem": "A protein is about to be secreted from a pancreatic cell. Which statement correctly describes its passage through the Golgi apparatus?",
+      "options": [
+        "Transport vesicles from the endoplasmic reticulum fuse with the cis face, the protein is modified and sorted as it moves through the cisternae, and secretory vesicles bud from the trans face.",
+        "The protein is synthesised on ribosomes attached to the Golgi membrane itself and released directly into its cisternae.",
+        "Vesicles from the endoplasmic reticulum enter the Golgi at the trans face and leave from the cis face once modification is complete.",
+        "The Golgi returns all processed proteins to the endoplasmic reticulum, which then exports them from the cell.",
+        "The Golgi directs proteins only to lysosomes and the nucleus, while secreted proteins bypass it entirely."
+      ],
+      "ans": "A",
+      "exp": "ER derived vesicles enter at the cis face, and secretory vesicles leave from the trans face after modification, chiefly of sugar chains, and sorting toward the plasma membrane, lysosomes and endosomes. Secreted proteins are synthesised on ER bound ribosomes, not on the Golgi, and the Golgi does not ship its products back to the ER for export."
+    },
+    {
+      "mock": 10,
+      "slot": 23,
+      "topic": "Organelles",
+      "lik": "M",
+      "stem": "In a gland cell that is actively exporting proteins, which statement about ribosomes is true?",
+      "options": [
+        "Bound ribosomes are structurally larger than free ribosomes, and only bound ribosomes can translate mRNA.",
+        "Free ribosomes synthesise all proteins destined for export, which are then imported into the rough ER after they have folded.",
+        "Each ribosome is permanently bound or permanently free for its whole life, a status fixed when it is assembled in the nucleolus.",
+        "Free ribosomes and ribosomes bound to the rough ER are structurally the same, and a ribosome binds to the ER because the protein it starts to translate carries a signal sequence.",
+        "Secreted proteins are translated inside the Golgi apparatus, so ribosomes take no part in their synthesis."
+      ],
+      "ans": "D",
+      "exp": "All ribosomes are built from the same subunits; one binds to the ER only because the growing chain carries a signal sequence recognised at the ER membrane, so the same ribosome can be free in one round of translation and bound in the next. Secreted proteins enter the ER while being made, not after folding in the cytosol."
+    },
+    {
+      "mock": 10,
+      "slot": 24,
+      "topic": "Membrane transport",
+      "lik": "M",
+      "stem": "Which of the following statements about the sodium potassium pump (Na+/K+ ATPase) of animal cells is true?",
+      "options": [
+        "It carries Na+ and K+ down their concentration gradients and spends ATP only to make the carriers cycle faster.",
+        "It moves two Na+ out of the cell and three K+ in for each ATP hydrolysed, so it makes the interior slightly positive.",
+        "It hydrolyses one ATP for each cycle in which it moves three Na+ out of the cell and two K+ in, maintaining gradients that secondary active transport and nerve impulses depend on.",
+        "It is a ligand gated channel that opens to let Na+ and K+ diffuse through whenever ATP binds to it.",
+        "Its net effect is to make the inside of the cell electrically positive with respect to the outside."
+      ],
+      "ans": "C",
+      "exp": "Each ATP hydrolysed drives three Na+ out and two K+ in, moving both ions against their gradients and making the interior slightly more negative than the exterior. The stored gradients then power secondary active transport, such as glucose uptake in the intestine, and underlie the resting and action potentials of neurons."
+    },
+    {
+      "mock": 10,
+      "slot": 25,
+      "topic": "Blood gases",
+      "lik": "H",
+      "stem": "In blood passing through the capillaries of a vigorously contracting muscle, the local PCO2 and the H+ concentration both rise. What effect does this have on haemoglobin?",
+      "options": [
+        "Haemoglobin's affinity for oxygen rises, the dissociation curve shifts to the left, and oxygen is released only at very low PO2 values.",
+        "Haemoglobin's affinity for oxygen falls, the dissociation curve shifts to the right, and at any given PO2 a larger fraction of the bound oxygen is unloaded to the muscle.",
+        "Affinity is unchanged; the extra CO2 simply displaces oxygen from the haeme iron in a one for one exchange.",
+        "The affinity falls because H+ competes with oxygen for binding to the iron atoms of the haeme groups.",
+        "The heat produced by the muscle shifts the curve to the left and thereby cancels out the effect of the extra CO2."
+      ],
+      "ans": "B",
+      "exp": "Rising CO2 and H+ lower haemoglobin's oxygen affinity, the Bohr effect, shifting the curve to the right so that more oxygen unloads in active tissue; the rise in muscle temperature shifts the curve in the same direction. H+ binds to amino acid residues and stabilises the low affinity state of the protein, it does not compete for the haeme iron, which is the oxygen binding site."
+    },
+    {
+      "mock": 10,
+      "slot": 26,
+      "topic": "Bone",
+      "lik": "M",
+      "stem": "A patient spends four months completely immobile in bed. Which statement best describes what happens to bone remodelling in the unloaded bones?",
+      "options": [
+        "Resorption by osteoclasts exceeds deposition by osteoblasts, so bone mass falls, because mechanical loading is a normal stimulus for bone formation.",
+        "Deposition by osteoblasts rises to compensate for the missing load, so the bones become denser than before.",
+        "Osteoblasts and osteoclasts both stop working, so bone mass remains exactly constant.",
+        "Osteoclasts are inactivated by disuse, while osteoblasts convert compact bone into spongy bone of equal mass.",
+        "Bone mass is controlled only by calcium regulating hormones, which are unaffected by loading, so no change occurs."
+      ],
+      "ans": "A",
+      "exp": "Mechanical loading normally stimulates osteoblast activity, so disuse shifts the remodelling balance toward osteoclast resorption and bone mass falls, as seen in prolonged bed rest and spaceflight. Osteoclasts are not silenced by disuse, and hormonal regulation of calcium continues throughout."
+    },
+    {
+      "mock": 10,
+      "slot": 27,
+      "topic": "Hormones",
+      "lik": "H",
+      "stem": "Which of the following statements about the adrenal medulla is true?",
+      "options": [
+        "It is regulated by releasing hormones from the hypothalamus, which stimulate the anterior pituitary to act on it.",
+        "It secretes steroid hormones that diffuse into target cells and bind to nuclear receptors.",
+        "Its main secretion, cortisol, raises blood glucose during prolonged stress.",
+        "Its hormones slow the heart and promote glycogen storage, preparing the body for rest and digestion.",
+        "It is directly innervated by preganglionic sympathetic neurons, so its hormones can be released into the blood within seconds of a stressful stimulus, without any pituitary hormone intervening."
+      ],
+      "ans": "E",
+      "exp": "The adrenal medulla behaves like a sympathetic ganglion whose chromaffin cells are directly innervated by preganglionic sympathetic fibres, allowing release of catecholamines within seconds of a stressor. Cortisol comes from the adrenal cortex under pituitary control, and medullary hormones act at cell surface receptors and prepare the body for fight or flight."
+    },
+    {
+      "mock": 10,
+      "slot": 28,
+      "topic": "Liver",
+      "lik": "M",
+      "stem": "Which of the following is a normal function of the human liver?",
+      "options": [
+        "Secreting digestive enzymes into the duodenum through the bile ducts.",
+        "Producing insulin and glucagon in response to changing blood glucose.",
+        "Converting the ammonia released by amino acid breakdown into urea, which the blood carries to the kidneys for excretion.",
+        "Manufacturing red blood cells throughout adult life.",
+        "Storing the bile produced by the gallbladder until fat reaches the small intestine."
+      ],
+      "ans": "C",
+      "exp": "The liver detoxifies the ammonia produced by amino acid deamination by converting it to urea, which the kidneys then excrete. Digestive enzymes come from the pancreas, insulin and glucagon from the pancreatic islets, red blood cells are made in the bone marrow of adults, and it is the gallbladder that stores the bile made by the liver."
+    },
+    {
+      "mock": 10,
+      "slot": 29,
+      "topic": "Biological molecules",
+      "lik": "M",
+      "stem": "Which of the following statements about a triglyceride molecule is true?",
+      "options": [
+        "It consists of one glycerol joined by ester bonds to three fatty acids, and it is so non polar that it is essentially insoluble in water.",
+        "It carries a phosphate group in place of one fatty acid, which is why triglycerides form the bilayers of cell membranes.",
+        "Its fatty acids are attached to glycerol by peptide bonds, so dietary fat is digested by proteases.",
+        "It is built from three glycerol molecules condensed onto a single fatty acid chain.",
+        "In a saturated triglyceride the fatty acid chains contain double bonds that introduce kinks and lower the melting point."
+      ],
+      "ans": "A",
+      "exp": "A triglyceride is glycerol esterified to three fatty acids and is wholly non polar, hence essentially water insoluble. A phosphate replaces one fatty acid only in phospholipids, which are the membrane forming lipids, and double bonded, kinked chains characterise unsaturated fats, not saturated ones."
+    },
+    {
+      "mock": 10,
+      "slot": 30,
+      "topic": "Respiratory mechanics",
+      "lik": "M",
+      "stem": "Which statement correctly describes quiet exhalation at rest?",
+      "options": [
+        "Quiet exhalation is powered by contraction of the internal intercostal muscles and the abdominal muscles, which squeeze the air out of the lungs.",
+        "The diaphragm and external intercostal muscles relax, the lungs and chest wall recoil elastically, alveolar pressure rises above atmospheric pressure, and air flows out with no active muscle contraction.",
+        "Air leaves the lungs because alveolar pressure falls below atmospheric pressure during exhalation.",
+        "The diaphragm flattens further during exhalation, pressing the abdominal organs upward against the lungs.",
+        "Quiet exhalation uses exactly the same muscles as quiet inhalation, but contracts them in the reverse direction."
+      ],
+      "ans": "B",
+      "exp": "Quiet exhalation is passive: relaxation of the diaphragm and external intercostals lets the elastic recoil of the lungs and chest wall raise alveolar pressure above atmospheric pressure, driving air out. The internal intercostals and abdominal muscles are recruited only for forced exhalation, and air always flows from higher to lower pressure."
+    },
+    {
+      "mock": 10,
+      "slot": 31,
+      "topic": "Genetics",
+      "lik": "M",
+      "stem": "In a plant species, tall stem (T) is dominant over dwarf (t). A tall plant of unknown genotype is crossed with a dwarf plant, and the offspring consist of 61 tall and 59 dwarf plants. What conclusion follows?",
+      "options": [
+        "The tall parent is homozygous TT, and the dwarf offspring must have arisen by new mutation.",
+        "The 1:1 ratio indicates incomplete dominance, the heterozygotes being of intermediate height.",
+        "The genotype of the tall parent cannot be deduced from the phenotypes of the offspring.",
+        "The tall parent is heterozygous (Tt), because crossing a heterozygote with a homozygous recessive plant yields a 1:1 phenotype ratio, reflecting segregation of T and t into equal numbers of gametes.",
+        "The dwarf parent must actually be heterozygous, since half of the offspring grew tall."
+      ],
+      "ans": "D",
+      "exp": "The dwarf parent must be tt and contributes only t gametes, so a 1:1 tall to dwarf ratio can arise only if the tall parent produces T and t gametes in equal numbers, that is, is heterozygous. A TT parent would give all tall offspring, and the dwarf parent, being phenotypically recessive, cannot be heterozygous."
+    },
+    {
+      "mock": 10,
+      "slot": 32,
+      "topic": "Cell cycle",
+      "lik": "M",
+      "stem": "Most mature neurons of an adult human never divide again, whereas liver cells can resume division after part of the liver is surgically removed. Which statement explains this difference?",
+      "options": [
+        "Neurons remain permanently arrested at the metaphase checkpoint, with chromosomes aligned but unable to separate.",
+        "Neurons keep replicating their DNA but cannot condense their chromosomes, so they become polyploid.",
+        "Liver cells regenerate the organ by meiosis, followed by fusion of the cells formed.",
+        "Both cell types are outside the cycle, and liver regrowth occurs purely by enlargement of existing cells, with no new cell divisions.",
+        "Neurons are held in a permanent G0 phase outside the division cycle, while liver cells remain able to re-enter the cycle from G0 when growth signals arrive."
+      ],
+      "ans": "E",
+      "exp": "Neurons exit the cycle into permanent G0, while hepatocytes remain able to re-enter G1 from G0 when growth signals follow injury, which is why liver regrows after partial removal. Neurons do not continue replicating DNA, and liver regrowth involves mitotic division of existing cells, not meiosis."
+    }
+  ]
+}
