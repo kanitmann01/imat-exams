@@ -71,7 +71,7 @@ export async function mount(ctx, examId) {
   }
 
   /* ---------- timer ---------- */
-  const timerChip = el("span", { id: "timer", class: "timer", text: fmtClock(attempt.remainingSec) });
+  const timerChip = el("span", { id: "timer", class: "timer", role: "timer", "aria-label": "Time remaining", text: fmtClock(attempt.remainingSec) });
   function persistTimer() {
     attempt.remainingSec = Math.max(0, attempt.remainingSec);
     attempt.lastTickAt = Date.now();
@@ -125,7 +125,7 @@ export async function mount(ctx, examId) {
         el("span", { text: sec.label }),
         el("span", { class: "cnt", text: "Q" + sec.from + "-" + sec.to })));
     }
-    const opts = el("div", { class: "opts" });
+    const opts = el("div", { class: "opts", role: "radiogroup", "aria-labelledby": "stem-" + q.n });
     for (let i = 0; i < 5; i++) {
       const letter = "ABCDE"[i];
       const input = el("input", { type: "radio", name: "q" + q.n, value: letter });
@@ -144,7 +144,7 @@ export async function mount(ctx, examId) {
     }
     const card = el("div", { class: "qcard", id: "q" + q.n, dataset: { qn: q.n, sec: code } },
       el("div", { class: "qtop" }, el("span", { class: "qnum", text: "Question " + q.n })),
-      el("div", { class: "stem", text: q.stem }),
+      el("div", { class: "stem", id: "stem-" + q.n, text: q.stem }),
       opts);
     cardEls[q.n] = card;
     paper.append(card);
@@ -216,7 +216,8 @@ export async function mount(ctx, examId) {
   function jumpTo(n) {
     const card = cardEls[n];
     if (!card) return;
-    card.scrollIntoView({ behavior: "smooth", block: "start" });
+    const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    card.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "start" });
     closeDrawer();
   }
 

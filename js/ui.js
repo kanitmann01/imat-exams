@@ -47,7 +47,7 @@ let toastTid = null;
 export function toast(msg) {
   let t = document.getElementById("toast");
   if (!t) {
-    t = el("div", { id: "toast" });
+    t = el("div", { id: "toast", role: "status", "aria-live": "polite" });
     document.body.append(t);
   }
   t.textContent = msg;

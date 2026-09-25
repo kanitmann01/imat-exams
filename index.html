@@ -6,9 +6,13 @@
 <title>IMAT Exam Platform</title>
 <meta name="description" content="IMAT 2026 mock exams: sit, review, reattempt, compare. Autosaves, works offline.">
 <meta name="theme-color" content="#1F3864">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="IMAT Exams">
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="icon" href="./assets/icons/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="./css/app.css?v=b2447b1b">
+<link rel="apple-touch-icon" href="./assets/icons/icon-192.png">
+<link rel="stylesheet" href="./css/app.css?v=83def4a1">
 </head>
 <body>
 
@@ -17,8 +21,8 @@
     <div class="k">IMAT 2026</div>
     <h1>Exam Platform</h1>
     <div class="s">Mocks, drills, review and analytics. Progress autosaves; resume any time.</div>
-    <input type="password" id="gate-pw" placeholder="Enter exam password" autocomplete="off">
-    <div class="err" id="gate-err"></div>
+    <input type="password" id="gate-pw" placeholder="Enter exam password" autocomplete="off" aria-label="Exam password">
+    <div class="err" id="gate-err" aria-live="assertive"></div>
     <button class="btn btn-primary" id="gate-btn">Unlock</button>
   </div>
 </div>
@@ -28,7 +32,7 @@
   <main id="main"></main>
 </div>
 
-<script src="./config.js?v=b2447b1b"></script>
-<script type="module" src="./js/app.js?v=b2447b1b"></script>
+<script src="./config.js?v=83def4a1"></script>
+<script type="module" src="./js/app.js?v=83def4a1"></script>
 </body>
 </html>

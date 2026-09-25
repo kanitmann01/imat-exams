@@ -148,7 +148,7 @@ export async function mount(ctx) {
         el("td", { text: totalErrors ? Math.round((r.errors / totalErrors) * 100) + "%" : "-" })));
     }
     table.append(tbody);
-    if (rows.length) topicCard.append(table);
+    if (rows.length) topicCard.append(el("div", { class: "tscroll" }, table));
     else topicCard.append(el("p", { class: "muted", text: "Sit this paper once and your error topics land here." }));
     sectionCards.append(topicCard);
   }

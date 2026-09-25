@@ -104,7 +104,7 @@ export async function mount(ctx) {
       body.append(row);
     }
     table.append(body);
-    tableWrap.append(table);
+    tableWrap.append(el("div", { class: "tscroll" }, table));
   }
 
   function renderChart() {

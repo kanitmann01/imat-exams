@@ -98,7 +98,8 @@ async function boot() {
     const err = document.getElementById("gate-err");
     err.textContent = "";
     input.value = "";
-    input.focus();
+    // autofocus pops the on-screen keyboard over half the gate on touch devices
+    if (matchMedia("(hover: hover) and (pointer: fine)").matches) input.focus();
     const btn = document.getElementById("gate-btn");
     btn.onclick = null;
     input.onkeydown = null;
