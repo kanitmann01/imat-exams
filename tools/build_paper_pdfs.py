@@ -18,8 +18,8 @@ from reportlab.lib.units import mm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import (HRFlowable, KeepTogether, PageBreak,
-                                Paragraph, SimpleDocTemplate, Table,
-                                TableStyle)
+                                Paragraph, SimpleDocTemplate, Spacer,
+                                Table, TableStyle)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, ".."))
@@ -60,6 +60,8 @@ INK = colors.HexColor("#101828")
 MUTE = colors.HexColor("#5b6472")
 RULE = colors.HexColor("#c9d1dc")
 KEYBG = colors.HexColor("#eef2f7")
+ACCENT = colors.HexColor("#16295c")
+CONTENT_W = A4[0] - 34 * mm
 
 pdfmetrics.registerFont(TTFont("DJV", REG))
 pdfmetrics.registerFont(TTFont("DJVB", BOLD))
@@ -74,11 +76,18 @@ S_META = ParagraphStyle("m", fontName="DJV", fontSize=9, leading=12.5,
 S_SECT = ParagraphStyle("s", fontName="DJVB", fontSize=10.5, leading=14,
                         textColor=INK, spaceBefore=11, spaceAfter=1)
 S_STEM = ParagraphStyle("q", fontName="DJV", fontSize=9.3, leading=12.8,
-                        textColor=INK, spaceBefore=7)
+                        textColor=INK, spaceBefore=13)
 S_SRC = ParagraphStyle("src", parent=S_STEM, fontName="DJVI", leftIndent=14)
 S_OPT = ParagraphStyle("o", fontName="DJV", fontSize=9.3, leading=12.6,
                        textColor=INK, leftIndent=17, spaceBefore=1.5)
 S_OPTI = ParagraphStyle("oi", parent=S_OPT, spaceBefore=4)
+S_ANS = ParagraphStyle("an", fontName="DJVB", fontSize=9.6, leading=12.5,
+                       textColor=ACCENT, spaceAfter=1.5)
+S_SOLBOX = ParagraphStyle("sb", fontName="DJV", fontSize=9.2, leading=13.2,
+                          textColor=INK, spaceAfter=3)
+S_CALCL = ParagraphStyle("cl", fontName="DJV", fontSize=9.3, leading=13.5,
+                         textColor=INK, leftIndent=8, spaceBefore=1,
+                         spaceAfter=3.5)
 S_KEYH = ParagraphStyle("kh", fontName="DJVB", fontSize=12, leading=15,
                         textColor=INK, spaceAfter=3)
 S_NOTE = ParagraphStyle("kn", fontName="DJV", fontSize=8.6, leading=11.5,
@@ -87,6 +96,64 @@ S_SOLH = ParagraphStyle("sh", fontName="DJVB", fontSize=9.8, leading=13,
                         textColor=INK, spaceBefore=10)
 S_SOL = ParagraphStyle("st", fontName="DJV", fontSize=9.3, leading=12.8,
                        textColor=INK, leftIndent=14, spaceBefore=1)
+
+
+_CALC_EQ = re.compile(r"=[^=]")
+
+
+def is_calc_sentence(s):
+    t = s.strip().rstrip(".")
+    if not _CALC_EQ.search(t) or not any(c.isdigit() for c in t):
+        return False
+    words = [w for w in re.findall(r"[A-Za-z]{3,}", t)
+             if w.lower() not in ("the", "and", "mol", "per")]
+    return len(words) <= 4
+
+
+def sol_blocks(text):
+    """Split a solution into display pieces: prose stays merged into
+    paragraphs, but sentences that are essentially calculations get their
+    own line with breathing room; the solver's original line breaks are
+    preserved as paragraph breaks."""
+    blocks, buf = [], []
+
+    def flush():
+        if buf:
+            blocks.append(("p", " ".join(buf)))
+            del buf[:]
+
+    for ln in [l.strip() for l in text.split("\n") if l.strip()]:
+        if is_calc_sentence(ln):
+            flush()
+            blocks.append(("c", ln.rstrip(".")))
+            continue
+        for sent in re.split(r"(?<=\.)\s+", ln):
+            if is_calc_sentence(sent):
+                flush()
+                blocks.append(("c", sent.strip().rstrip(".")))
+            else:
+                buf.append(sent.strip())
+        flush()
+    flush()
+    return blocks
+
+
+def answer_box(letter, text):
+    inner = [Paragraph("Answer: %s" % letter, S_ANS)]
+    for kind, piece in sol_blocks(text):
+        inner.append(Paragraph(esc(piece), S_CALCL if kind == "c" else S_SOLBOX))
+    t = Table([[inner]], colWidths=[CONTENT_W], spaceBefore=3, spaceAfter=2,
+              hAlign="LEFT")
+    t.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, -1), KEYBG),
+        ("LINEBEFORE", (0, 0), (0, -1), 2.2, ACCENT),
+        ("TOPPADDING", (0, 0), (-1, -1), 6),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 7),
+        ("LEFTPADDING", (0, 0), (-1, -1), 10),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 8),
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+    ]))
+    return t
 
 LETTERS = "ABCDE"
 
@@ -176,11 +243,11 @@ def meta_line(bank):
     if bank.get("targetScore") is not None:
         parts.append("personal target: %s/90.0" % bank["targetScore"])
     parts.append(KIND_LABEL.get(bank["kind"], bank["kind"]))
-    parts.append("answer key + worked solutions at the end")
+    parts.append("answer + worked solution follow every question")
     return "  ·  ".join(parts)
 
 
-def q_flowables(q, order):
+def q_flowables(q, order, letter, sol_text):
     out = []
     opts = [q["options"][i] for i in order]
     lines = q["stem"].split("\n")
@@ -201,6 +268,7 @@ def q_flowables(q, order):
     else:
         for i, o in enumerate(opts):
             out.append(Paragraph("<b>%s)</b> %s" % (LETTERS[i], esc(o)), S_OPT))
+    out.append(answer_box(letter, sol_text))
     return out
 
 
@@ -239,12 +307,19 @@ def build(bank, path, solutions):
         Paragraph(esc(bank["title"]), S_TITLE),
         Paragraph(esc(meta_line(bank)), S_META),
         HRFlowable(width="100%", thickness=1, color=RULE, spaceAfter=2),
+        Paragraph(
+            "Each question is immediately followed by its answer and worked "
+            "solution, so this paper is for review and paper study rather "
+            "than blind simulation. Letters refer to the option order "
+            "printed here; the online app shuffles options on every "
+            "attempt.", S_NOTE),
     ]
     qmap = {q["n"]: q for q in bank["questions"]}
     counts = {L: 0 for L in LETTERS}
     orders = {n: print_order(bank["id"], qmap[n], counts)
               for n in sorted(qmap)}
     printed = {n: printed_ans(orders[n], qmap[n]) for n in qmap}
+    sols = solutions[bank["id"]]
     for sec in sorted(bank["sections"], key=lambda s: s["from"]):
         header = [
             Paragraph(
@@ -252,35 +327,12 @@ def build(bank, path, solutions):
                 S_SECT),
             HRFlowable(width="100%", thickness=0.5, color=RULE),
         ]
-        first = q_flowables(qmap[sec["from"]], orders[sec["from"]])
+        first = q_flowables(qmap[sec["from"]], orders[sec["from"]],
+                            printed[sec["from"]], sols[sec["from"]])
         story.append(KeepTogether(header + first))
         for n in range(sec["from"] + 1, sec["to"] + 1):
-            story.append(KeepTogether(q_flowables(qmap[n], orders[n])))
-    story.append(PageBreak())
-    story.append(Paragraph("Answer key", S_KEYH))
-    story.append(HRFlowable(width="100%", thickness=0.5, color=RULE, spaceAfter=4))
-    story.append(Paragraph(
-        "This key refers to the option order printed in this paper. The online "
-        "app shuffles option order on every attempt, so answer letters inside "
-        "the app will differ from the ones here.", S_NOTE))
-    story.append(key_table(bank["questions"],
-                           [printed[q["n"]] for q in bank["questions"]]))
-
-    sols = solutions[bank["id"]]
-    story.append(PageBreak())
-    story.append(Paragraph("Worked solutions", S_KEYH))
-    story.append(HRFlowable(width="100%", thickness=0.5, color=RULE, spaceAfter=4))
-    story.append(Paragraph(
-        "Each solution shows the reasoning that produces the key, and names "
-        "the wrong options by their content. Letters refer to the option "
-        "order printed in this paper.", S_NOTE))
-    for q in bank["questions"]:
-        text = sols[q["n"]]
-        block = [Paragraph(
-            "Question %d  ·  Answer: %s" % (q["n"], printed[q["n"]]), S_SOLH)]
-        for ln in [l.strip() for l in text.split("\n") if l.strip()]:
-            block.append(Paragraph(esc(ln), S_SOL))
-        story.append(KeepTogether(block))
+            story.append(KeepTogether(
+                q_flowables(qmap[n], orders[n], printed[n], sols[n])))
     doc.build(story, onFirstPage=footer, onLaterPages=footer)
 
 
