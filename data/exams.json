@@ -123,6 +123,28 @@
    "bankVersion": "bc3ae70fc"
   },
   {
+   "id": "imat_mock11_legacy",
+   "title": "IMAT MOCK EXAM 11 (Legacy): Final Dress Rehearsal",
+   "kind": "mock",
+   "qCount": 60,
+   "durationSec": 6000,
+   "maxTenths": 900,
+   "targetScore": 42,
+   "sectionCount": 5,
+   "bankVersion": "bdb638912"
+  },
+  {
+   "id": "imat_mock10_legacy",
+   "title": "IMAT MOCK EXAM 10 (Legacy): 2026 Blueprint",
+   "kind": "mock",
+   "qCount": 60,
+   "durationSec": 6000,
+   "maxTenths": 900,
+   "targetScore": 44,
+   "sectionCount": 5,
+   "bankVersion": "bc3284ce0"
+  },
+  {
    "id": "GK_Drill_100",
    "title": "IMAT GK DRILL — 100 Questions",
    "kind": "gk_drill",
