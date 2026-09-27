@@ -28,9 +28,9 @@ SECTIONS = [
 ]
 
 META = {
-    10: {"id": "imat_mock10", "title": "IMAT MOCK EXAM 10: 2026 Blueprint",
+    10: {"id": "imat_mock10", "title": "IMAT MOCK EXAM 10: Final Simulation",
          "targetScore": 44},
-    11: {"id": "imat_mock11", "title": "IMAT MOCK EXAM 11: Final Dress Rehearsal",
+    11: {"id": "imat_mock11", "title": "IMAT MOCK EXAM 11: Last Rehearsal",
          "targetScore": 42},
 }
 

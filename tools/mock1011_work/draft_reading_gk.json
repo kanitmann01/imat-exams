@@ -1,150 +1,125 @@
 {
-  "agent": "reading_gk",
-  "questions": [
-    {
-      "mock": 10,
-      "slot": 1,
-      "topic": "Reading comprehension",
-      "lik": "H",
-      "stem": "Screening programmes aim to detect disease in people who have no symptoms, on the assumption that treating earlier improves outcomes. Yet early detection has a structural drawback. Some of the cancers that screening finds grow so slowly that they would never have caused symptoms in a person's lifetime; counting these cases as cures makes screening appear more effective than it really is, a phenomenon known as overdiagnosis. At the same time, trials show that breast cancer screening does reduce deaths from breast cancer, though the absolute benefit for any individual woman is small, because the disease is uncommon in any single year. Deciding whether to attend screening therefore involves weighing a small reduction in the risk of death against the possibility of unnecessary treatment.\n\nWhich of the following statements is most strongly supported by the passage?",
-      "options": [
-        "Screening programmes can only succeed against diseases that produce symptoms at an early stage.",
-        "Overdiagnosis occurs because screening detects some cancers that would never have harmed the person.",
-        "Breast cancer screening has been shown to reduce deaths from all causes.",
-        "The absolute benefit of breast cancer screening is large, because the disease is common.",
-        "The passage implies that women should generally be advised not to attend screening."
-      ],
-      "ans": "B",
-      "exp": "The passage defines overdiagnosis in exactly these terms: some cancers found by screening 'grow so slowly that they would never have caused symptoms', and counting them as cures inflates apparent effectiveness. A is contradicted because screening targets people without symptoms and does reduce breast cancer deaths; C overreaches, as the passage limits the reduction to deaths from breast cancer; D reverses the text, which calls the absolute benefit small because the disease is uncommon; E is unsupported, since the passage describes weighing benefits against harms, not advising against attendance.",
-      "sources": ["", ""]
-    },
-    {
-      "mock": 10,
-      "slot": 2,
-      "topic": "Reading comprehension",
-      "lik": "H",
-      "stem": "Professional ecologists cannot survey species across entire countries with the staff and funding available to them. Citizen science projects address this gap by recruiting volunteers to record what they observe: birds counted in gardens, butterflies photographed on walks, plants logged along roadsides. The resulting datasets have repeatedly revealed changes in the distribution and timing of species, such as earlier flowering, that smaller professional studies would have missed. The approach has limits, however. Volunteers sample unevenly, recording more near cities and at weekends, and they more easily notice conspicuous species. Project organisers therefore write structured protocols, provide identification training and statistically adjust for sampling bias, treating volunteer data not as a cheap substitute for professional monitoring but as a complement that extends its geographical reach.\n\nWhich of the following statements follows from the passage?",
-      "options": [
-        "Data collected by volunteers are too unreliable to inform ecological research.",
-        "Citizen science projects can extend the geographical coverage of monitoring beyond what professional ecologists could achieve alone.",
-        "Volunteers overlook conspicuous species because these are difficult to photograph.",
-        "Professional ecologists have largely stopped carrying out their own surveys since volunteers took over the work.",
-        "Statistical adjustment eliminates sampling bias from volunteer-collected data."
-      ],
-      "ans": "B",
-      "exp": "The passage states that professional ecologists cannot survey entire countries and that organisers treat volunteer data as 'a complement that extends its geographical reach', which is exactly B. A and D are contradicted, since volunteer datasets revealed real changes and the text calls them a complement rather than a substitute; C inverts the statement that volunteers more easily notice conspicuous species; E is too strong, because organisers 'statistically adjust for' bias rather than eliminate it.",
-      "sources": ["", ""]
-    },
-    {
-      "mock": 10,
-      "slot": 3,
-      "topic": "General knowledge",
-      "lik": "H",
-      "stem": "(General knowledge) The chorus Va, pensiero, known in English as the Chorus of the Hebrew Slaves and often treated as an unofficial Italian anthem, comes from the opera Nabucco, first performed at La Scala in 1842. Who was the composer?",
-      "options": [
-        "Vincenzo Bellini",
-        "Gaetano Donizetti",
-        "Giuseppe Verdi",
-        "Gioachino Rossini",
-        "Giacomo Puccini"
-      ],
-      "ans": "C",
-      "exp": "Nabucco, with a libretto by Temistocle Solera, was composed by Giuseppe Verdi and premiered at La Scala in Milan on 9 March 1842; its third-act chorus Va, pensiero established his reputation. Bellini, Donizetti and Rossini belong to earlier generations of Italian opera and Puccini to the following one, but none of them wrote Nabucco.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Va,_pensiero",
-        "https://www.classical-music.com/articles/chorus-of-the-hebrew-slaves-lyrics"
-      ]
-    },
-    {
-      "mock": 10,
-      "slot": 4,
-      "topic": "Reading comprehension",
-      "lik": "H",
-      "stem": "When Alfred Wegener proposed continental drift in 1912, most geologists dismissed him. He had assembled an impressive case: the fit of the Atlantic coastlines, identical fossils on opposite shores, and traces of ancient glaciation in what are now tropical latitudes. What he lacked was a credible driving force, and his suggestion that continents plough through the ocean floor was physically implausible. The balance changed only in the decades after the Second World War, when mapping of the ocean floor revealed mid-ocean ridges and magnetic stripes recording seafloor spreading, and when the locations of earthquakes traced out the boundaries of moving plates. Drifting continents, once rejected, became the organising principle of modern geology not because Wegener's evidence was rediscovered but because new kinds of evidence, gathered with instruments he never had, settled the question of mechanism.\n\nWhich of the following statements is supported by the passage?",
-      "options": [
-        "Wegener's theory was rejected mainly because the observations behind it were later shown to be mistaken.",
-        "The mechanism Wegener proposed for continental movement was regarded as physically implausible.",
-        "Plate tectonics won acceptance once Wegener's original evidence was rediscovered after the Second World War.",
-        "Ocean-floor mapping showed that mid-ocean ridges and magnetic stripes do not exist.",
-        "The question of what drives continental movement remains unanswered in modern geology."
-      ],
-      "ans": "B",
-      "exp": "The passage states directly that Wegener's suggestion that continents plough through the ocean floor 'was physically implausible', which is B. A is contradicted because the text calls his evidence an impressive case and pins the rejection on the missing mechanism; C is contradicted by the closing sentence, which says acceptance came from new evidence rather than rediscovery of Wegener's; D inverts the text, in which mapping revealed the ridges and stripes; E is contradicted because the new evidence 'settled the question of mechanism'.",
-      "sources": ["", ""]
-    },
-    {
-      "mock": 11,
-      "slot": 1,
-      "topic": "Reading comprehension",
-      "lik": "H",
-      "stem": "Memories formed during the day are initially fragile. In deep sleep, patterns of activity recorded in the hippocampus replay the firing sequences that occurred while a task was being learned, and this replay coincides with brief rhythmic events that coordinate communication between the hippocampus and the cortex. In rodents, experimentally disrupting these replay events selectively impairs later performance on the learned task while leaving performance on other tasks intact. In humans, volunteers kept awake after memorising a list of words recall fewer items the next day than volunteers allowed to sleep, even when both groups are tested at the same interval after learning. On this evidence, sleep is not a passive interruption of mental life but an active part of how new memories become stable.\n\nWhich of the following statements is most strongly supported by the passage?",
-      "options": [
-        "All human memories are formed during deep sleep.",
-        "Disrupting hippocampal replay impairs rodents' performance on every task that is tested.",
-        "Sleep appears to play an active role in stabilising newly formed memories.",
-        "People kept awake after learning remember more because less time has passed since learning.",
-        "Staying awake after memorising a word list has no effect on next-day recall in humans."
-      ],
-      "ans": "C",
-      "exp": "The concluding sentence states that sleep is 'an active part of how new memories become stable', summarising the replay, disruption and human sleep-deprivation findings, so C follows. A is contradicted because memories are formed during the day and stabilised during sleep; B is contradicted by 'selectively' and the intact performance on other tasks; D is contradicted because both groups are tested at the same interval and the sleepers recall more; E directly contradicts the human experiment described.",
-      "sources": ["", ""]
-    },
-    {
-      "mock": 11,
-      "slot": 2,
-      "topic": "Reading comprehension",
-      "lik": "H",
-      "stem": "Wind and solar generators share a property that conventional power plants do not: their output follows the weather rather than demand. On windy spring afternoons a grid may receive more electricity than it can use, while on still winter evenings, when demand peaks, renewable output can fall close to zero. Grid-scale batteries installed in recent years address part of this mismatch by shifting surplus electricity across a few hours, and they have become cheap enough to be deployed in large numbers. They cannot, however, shift a summer surplus to a winter deficit, because storing electricity for months remains far too expensive with current technology. Electricity systems that rely heavily on wind and solar therefore still need some combination of long-duration storage, flexible demand, deliberately overbuilt generation and backup plants that can be counted on whatever the weather.\n\nWhich of the following statements is most strongly supported by the passage?",
-      "options": [
-        "Grid-scale batteries are already able to store summer surplus electricity for use in winter.",
-        "The output of wind and solar plants follows electricity demand more closely than that of conventional plants.",
-        "Batteries can help balance renewable supply and demand over periods of a few hours, but not over whole seasons.",
-        "Because batteries have become cheap, overbuilding renewable generation is no longer necessary.",
-        "Flexible demand on its own can replace all backup generation in a renewable-based system."
-      ],
-      "ans": "C",
-      "exp": "The passage says batteries shift surplus electricity 'across a few hours' but 'cannot shift a summer surplus to a winter deficit', which is exactly C. A and D are directly contradicted by those sentences and by the closing list, which still includes overbuilt generation; B reverses the opening claim that renewable output follows the weather rather than demand; E is contradicted because the passage calls for a combination of measures including backup plants that work whatever the weather.",
-      "sources": ["", ""]
-    },
-    {
-      "mock": 11,
-      "slot": 3,
-      "topic": "General knowledge",
-      "lik": "H",
-      "stem": "(General knowledge) The Italian physician Camillo Golgi, who spent most of his career at the University of Pavia, shared the 1906 Nobel Prize in Physiology or Medicine, awarded for work on the structure of the nervous system. With which scientist did he share it?",
-      "options": [
-        "Santiago Ramón y Cajal",
-        "Ivan Pavlov",
-        "Robert Koch",
-        "Charles Sherrington",
-        "Emil von Behring"
-      ],
-      "ans": "A",
-      "exp": "The 1906 Nobel Prize in Physiology or Medicine was awarded jointly to Camillo Golgi and the Spanish histologist Santiago Ramón y Cajal 'in recognition of their work on the structure of the nervous system', Golgi for his black reaction staining method and Cajal for the neuron doctrine. Pavlov won the prize in 1904, Koch in 1905, Behring in 1901 and Sherrington in 1932.",
-      "sources": [
-        "https://www.nobelprize.org/prizes/medicine/1906/summary/",
-        "https://en.wikipedia.org/wiki/Camillo_Golgi"
-      ]
-    },
-    {
-      "mock": 11,
-      "slot": 4,
-      "topic": "General knowledge",
-      "lik": "H",
-      "stem": "(General knowledge) At the Milano Cortina 2026 Winter Olympic Games, held in Italy in February 2026, which country finished at the top of the final medal table?",
-      "options": [
-        "United States",
-        "Germany",
-        "Norway",
-        "Italy",
-        "Netherlands"
-      ],
-      "ans": "C",
-      "exp": "Norway led the final medal table at Milan Cortina with 18 gold medals and 41 medals in total, a record for a single Winter Games, ahead of the United States with 33; host nation Italy finished with 10 golds among 30 medals. Confirmed by the final medal counts published by NBC Olympics and Wikipedia.",
-      "sources": [
-        "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
-        "https://en.wikipedia.org/wiki/2026_Winter_Olympics_medal_table"
-      ]
-    }
-  ]
+ "agent": "reading_gk",
+ "questions": [
+  {
+   "mock": 10, "slot": 1,
+   "stem": "\"Stop taking this medicine and tell your doctor immediately if you notice any of the following rare side effects: swelling of the face, lips or throat, difficulty breathing, or a severe skin rash with blistering. Common side effects include nausea and headache. Uncommon side effects include dizziness and sleep disturbance. The frequency of certain other effects cannot be determined based on available data.\"\n\nFrom the informational leaflet for a prescription antihistamine\n\nWhich of the following statements is the correct interpretation of the information contained in this excerpt?",
+   "options": [
+    "A patient who develops a blistering skin rash while taking this medicine should stop taking it and contact a doctor immediately.",
+    "Nausea is a rarer side effect of this medicine than a severe skin rash.",
+    "Difficulty breathing is a common side effect of this medicine.",
+    "Every patient who takes this medicine experiences at least one side effect.",
+    "Sleep disturbance is a reason to stop the medicine immediately."
+   ],
+   "ans": "A",
+   "exp": "The leaflet places a severe blistering rash in the group of rare effects for which the instruction is to stop the medicine and tell a doctor immediately, so the matching interpretation is the one about the blistering rash. Nausea is listed as common, so calling it rarer than the rash reverses the frequency ranking, and difficulty breathing belongs to the rare, urgent group rather than the common one. No statement in the leaflet supports the claim that every patient has side effects, and immediate stopping is reserved for the rare effects, not for sleep disturbance.",
+   "topic": "Reading · medicine leaflet (frequency bands and urgent effects)",
+   "lik": "H"
+  },
+  {
+   "mock": 10, "slot": 2,
+   "stem": "\"Street trees and small parks measurably cool dense neighbourhoods in summer. In a survey of ten Mediterranean cities, streets whose canopy covered more than 30% of the view from the pavement were on average 2.1 °C cooler on summer afternoons than otherwise similar streets with sparse canopy. The difference was largest in districts with low buildings and narrow streets, where shaded surfaces trap less heat. Cooling depended on species and on irrigation: unwatered young trees grew too slowly in dry summers to shade anything. City planners quoted in the report treat canopy as one instrument among several, alongside reflective roofs and lighter pavements.\"\n\nFrom a newspaper report on urban climate research\n\nIndicate which of the following statements is not correct:",
+   "options": [
+    "Streets with more than 30% canopy cover were, on average, cooler than similar streets with sparse canopy in the survey.",
+    "How well trees cool a street can depend on the species and on whether the trees are watered.",
+    "Tree planting has been shown by the report to be a complete solution to summer heat in Mediterranean cities.",
+    "In districts with low buildings and narrow streets, the cooling difference associated with canopy was largest.",
+    "The report presents canopy as one of several instruments available to city planners."
+   ],
+   "ans": "C",
+   "exp": "The report describes canopy as one instrument among several, alongside reflective roofs and lighter pavements, so the statement claiming tree planting is a complete solution contradicts the passage and is the incorrect one. The other four statements restate the survey's comparisons, the role of species and irrigation, and the district effect faithfully.",
+   "topic": "Reading · science reporting (overreach beyond evidence)",
+   "lik": "H"
+  },
+  {
+   "mock": 10, "slot": 3,
+   "stem": "\"In this country the ruler causes money to be made from the inner bark of mulberry trees, pressed into sheets like paper and cut into round pieces of different values. With this money everything can be bought throughout the whole empire. Refusing it is punishable, and every year the ruler causes all the mulberry bark that can be gathered to be bought up. It costs him almost nothing, yet with it he buys the goods of merchants from every land, who must accept it in exchange.\"\n\nAdapted from The Travels of Marco Polo (13th century)\n\nWhat does the passage describe?",
+   "options": [
+    "Seashells used as currency",
+    "Gold coins stamped with the ruler's seal",
+    "Paper money issued by a ruler",
+    "Letters of credit drawn on banks",
+    "Barter between merchants and the ruler"
+   ],
+   "ans": "C",
+   "exp": "The money is described as sheets pressed from mulberry bark, cut into pieces of different values and imposed as legal tender across the empire, which identifies it as state-issued paper money. Gold coins and letters of credit are different instruments, and barter contradicts the requirement that merchants accept the money in exchange.",
+   "topic": "Reading · historical source (early paper money)",
+   "lik": "M"
+  },
+  {
+   "mock": 10, "slot": 4,
+   "stem": "\"Bacteria in the large intestine ferment fibres that human digestive enzymes cannot break down. The fermentation releases short-chain fatty acids, which are absorbed and used by the cells of the intestinal wall as an energy source. Some of these acids also enter the bloodstream and influence the activity of immune cells. The composition of the bacterial population differs between people and shifts with diet over weeks.\"\n\nFrom a popular science book on the human body\n\nOnly one of the following statements is coherent with the excerpt:",
+   "options": [
+    "Gut bacteria can convert dietary fibre into substances that the body absorbs and uses.",
+    "Human digestive enzymes release short-chain fatty acids from fibre in the small intestine.",
+    "The bacterial population of the intestine is fixed at birth and does not change with diet.",
+    "Short-chain fatty acids act only inside the intestinal lumen and never enter the blood.",
+    "Immune cell activity is independent of the products of gut bacteria."
+   ],
+   "ans": "A",
+   "exp": "The passage states that bacteria ferment fibre into short-chain fatty acids which are absorbed and used, some of them reaching the bloodstream and influencing immune cells, so the first statement is the coherent one. The claim that human enzymes do this in the small intestine contradicts the opening sentence, the fixed-population claim contradicts the shift with diet, and the last two claims reverse what is said about the bloodstream and immune cells.",
+   "topic": "Reading · biomedical text (coherence check)",
+   "lik": "H"
+  },
+  {
+   "mock": 11, "slot": 1,
+   "stem": "\"Take this medicine at evenly spaced times as prescribed and complete the full course, even if your symptoms improve, because stopping early can let the infection return. If you forget a dose, take it as soon as you remember, but skip the missed dose if your next dose is due soon; never take a double dose. Return any unused tablets to a pharmacy: they must not be kept to treat future illnesses or given to other people.\"\n\nFrom the informational leaflet for an antibiotic\n\nWhich of the following statements is the correct interpretation of the instructions?",
+   "options": [
+    "Stopping the course when symptoms improve is the recommended way to avoid side effects.",
+    "Two tablets should be taken together whenever a dose is missed.",
+    "Leftover tablets must not be saved to treat a later illness.",
+    "This antibiotic should always be taken with food.",
+    "Sharing the medicine with a family member who has similar symptoms is acceptable."
+   ],
+   "ans": "C",
+   "exp": "The leaflet explicitly says unused tablets must be returned to a pharmacy and not kept for future illnesses or given to others, which matches the statement about leftovers. The full course is required even after symptoms improve, a missed dose is skipped rather than doubled, and nothing in the excerpt mentions taking the medicine with food.",
+   "topic": "Reading · medicine leaflet (dosage instructions)",
+   "lik": "H"
+  },
+  {
+   "mock": 11, "slot": 2,
+   "stem": "\"In a large Spanish trial, volunteers at high cardiovascular risk were assigned by lottery to either a Mediterranean-style diet supplemented with extra-virgin olive oil and nuts, or to a control diet advised only to limit fat. Over about five years, the Mediterranean groups suffered roughly 30% fewer heart attacks, strokes and deaths from cardiovascular causes than the control group. The benefit appeared without meaningful weight loss and without a rise in calorie intake. The researchers note that the diet as a whole was tested, not any single ingredient, and that participants lived in a Mediterranean country where these foods are familiar and affordable.\"\n\nFrom a newspaper report on nutrition research\n\nIndicate which of the following statements is not correct:",
+   "options": [
+    "Assignment to the Mediterranean or the control diet in the trial was random.",
+    "Major cardiovascular events were about 30% lower in the Mediterranean groups.",
+    "The trial demonstrated the protective effect of extra-virgin olive oil alone.",
+    "The benefit did not depend on the participants losing weight.",
+    "The researchers evaluated a whole dietary pattern rather than one ingredient."
+   ],
+   "ans": "C",
+   "exp": "The passage states that the diet as a whole was tested and not any single ingredient, so the claim that olive oil alone was shown to be protective is the incorrect one. The other statements restate the lottery assignment, the 30% reduction in events, the absence of weight-loss dependence and the whole-pattern evaluation.",
+   "topic": "Reading · science reporting (single-ingredient overreach)",
+   "lik": "H"
+  },
+  {
+   "mock": 11, "slot": 3,
+   "stem": "\"With the telescope I have detected four small stars that have escaped the notice of every astronomer before me. They attend a certain planet, arranged in a straight line with it, and their distances from the planet change: at times one hides behind the planet or passes in front of it, and they complete their circuits in unequal periods, the nearest the fastest.\"\n\nAdapted from Galileo Galilei, Sidereus Nuncius (1610)\n\nWhat did the author observe?",
+   "options": [
+    "Comets passing close to the Sun",
+    "Spots on the surface of the Sun",
+    "Fixed stars that never change position",
+    "Four moons orbiting a planet",
+    "The rings of Saturn"
+   ],
+   "ans": "D",
+   "exp": "The objects follow a planet, pass behind and in front of it, and circuit it at different speeds like attendants, which identifies them as the four large moons of Jupiter observed by Galileo. Fixed stars do not orbit a planet, comets orbit the Sun, and neither sunspots nor rings match bodies that repeatedly disappear behind a planet in a straight line with it.",
+   "topic": "Reading · history of science source (Galileo's telescope)",
+   "lik": "M"
+  },
+  {
+   "mock": 11, "slot": 4,
+   "stem": "\"An antibiotic kills susceptible bacteria but spares any cells that already carry resistance genes, for example a gene encoding an enzyme that destroys the drug. The surviving cells multiply, and resistance genes can also pass between bacteria on small circles of DNA. In environments where antibiotics are used often, such as hospitals, resistant strains therefore make up a growing share of the bacterial population over time.\"\n\nFrom a microbiology textbook\n\nOnly one of the following statements is coherent with the excerpt:",
+   "options": [
+    "Bacteria deliberately mutate when an antibiotic is present so that they can survive it.",
+    "Antibiotics create resistance genes inside susceptible bacteria.",
+    "Resistance genes can never move from one bacterium to another.",
+    "Frequent use of antibiotics favours the spread of resistant strains.",
+    "Susceptible and resistant cells are killed by an antibiotic to the same degree."
+   ],
+   "ans": "D",
+   "exp": "Because the drug spares cells that already carry resistance genes while killing susceptible ones, frequent antibiotic use selects for resistant strains, which then multiply and share genes, so the selection statement is the coherent one. Deliberate mutation and direct creation of genes are misreadings of selection, the passage says genes pass between bacteria on circles of DNA, and by definition susceptible cells are killed more than resistant ones.",
+   "topic": "Reading · biomedical text (selection reasoning)",
+   "lik": "H"
+  }
+ ]
 }

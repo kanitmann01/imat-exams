@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "id": "imat_mock10",
- "title": "IMAT MOCK EXAM 10: 2026 Blueprint",
+ "title": "IMAT MOCK EXAM 10: Final Simulation",
  "kind": "mock",
  "durationSec": 6000,
  "maxTenths": 900,
@@ -43,68 +43,68 @@
    "short": "Physics"
   }
  ],
- "bankVersion": "b76d604cf",
+ "bankVersion": "b8a0fa2ef",
  "questions": [
   {
    "n": 1,
-   "stem": "Screening programmes aim to detect disease in people who have no symptoms, on the assumption that treating earlier improves outcomes. Yet early detection has a structural drawback. Some of the cancers that screening finds grow so slowly that they would never have caused symptoms in a person's lifetime; counting these cases as cures makes screening appear more effective than it really is, a phenomenon known as overdiagnosis. At the same time, trials show that breast cancer screening does reduce deaths from breast cancer, though the absolute benefit for any individual woman is small, because the disease is uncommon in any single year. Deciding whether to attend screening therefore involves weighing a small reduction in the risk of death against the possibility of unnecessary treatment.\n\nWhich of the following statements is most strongly supported by the passage?",
+   "stem": "\"Stop taking this medicine and tell your doctor immediately if you notice any of the following rare side effects: swelling of the face, lips or throat, difficulty breathing, or a severe skin rash with blistering. Common side effects include nausea and headache. Uncommon side effects include dizziness and sleep disturbance. The frequency of certain other effects cannot be determined based on available data.\"\n\nFrom the informational leaflet for a prescription antihistamine\n\nWhich of the following statements is the correct interpretation of the information contained in this excerpt?",
    "options": [
-    "Screening programmes can only succeed against diseases that produce symptoms at an early stage.",
-    "Overdiagnosis occurs because screening detects some cancers that would never have harmed the person.",
-    "Breast cancer screening has been shown to reduce deaths from all causes.",
-    "The absolute benefit of breast cancer screening is large, because the disease is common.",
-    "The passage implies that women should generally be advised not to attend screening."
+    "A patient who develops a blistering skin rash while taking this medicine should stop taking it and contact a doctor immediately.",
+    "Nausea is a rarer side effect of this medicine than a severe skin rash.",
+    "Difficulty breathing is a common side effect of this medicine.",
+    "Every patient who takes this medicine experiences at least one side effect.",
+    "Sleep disturbance is a reason to stop the medicine immediately."
    ],
-   "ans": "B",
-   "exp": "The passage defines overdiagnosis in exactly these terms: some cancers found by screening 'grow so slowly that they would never have caused symptoms', and counting them as cures inflates apparent effectiveness. A is contradicted because screening targets people without symptoms and does reduce breast cancer deaths; C overreaches, as the passage limits the reduction to deaths from breast cancer; D reverses the text, which calls the absolute benefit small because the disease is uncommon; E is unsupported, since the passage describes weighing benefits against harms, not advising against attendance.",
+   "ans": "A",
+   "exp": "The leaflet places a severe blistering rash in the group of rare effects for which the instruction is to stop the medicine and tell a doctor immediately, so the matching interpretation is the one about the blistering rash. Nausea is listed as common, so calling it rarer than the rash reverses the frequency ranking, and difficulty breathing belongs to the rare, urgent group rather than the common one. No statement in the leaflet supports the claim that every patient has side effects, and immediate stopping is reserved for the rare effects, not for sleep disturbance.",
    "perm": [
-    1,
+    0,
     4,
     2,
     3,
-    0
+    1
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Reading comprehension",
+   "topic": "Reading · medicine leaflet (frequency bands and urgent effects)",
    "lik": "H"
   },
   {
    "n": 2,
-   "stem": "Professional ecologists cannot survey species across entire countries with the staff and funding available to them. Citizen science projects address this gap by recruiting volunteers to record what they observe: birds counted in gardens, butterflies photographed on walks, plants logged along roadsides. The resulting datasets have repeatedly revealed changes in the distribution and timing of species, such as earlier flowering, that smaller professional studies would have missed. The approach has limits, however. Volunteers sample unevenly, recording more near cities and at weekends, and they more easily notice conspicuous species. Project organisers therefore write structured protocols, provide identification training and statistically adjust for sampling bias, treating volunteer data not as a cheap substitute for professional monitoring but as a complement that extends its geographical reach.\n\nWhich of the following statements follows from the passage?",
+   "stem": "\"Street trees and small parks measurably cool dense neighbourhoods in summer. In a survey of ten Mediterranean cities, streets whose canopy covered more than 30% of the view from the pavement were on average 2.1 °C cooler on summer afternoons than otherwise similar streets with sparse canopy. The difference was largest in districts with low buildings and narrow streets, where shaded surfaces trap less heat. Cooling depended on species and on irrigation: unwatered young trees grew too slowly in dry summers to shade anything. City planners quoted in the report treat canopy as one instrument among several, alongside reflective roofs and lighter pavements.\"\n\nFrom a newspaper report on urban climate research\n\nIndicate which of the following statements is not correct:",
    "options": [
-    "Data collected by volunteers are too unreliable to inform ecological research.",
-    "Citizen science projects can extend the geographical coverage of monitoring beyond what professional ecologists could achieve alone.",
-    "Volunteers overlook conspicuous species because these are difficult to photograph.",
-    "Professional ecologists have largely stopped carrying out their own surveys since volunteers took over the work.",
-    "Statistical adjustment eliminates sampling bias from volunteer-collected data."
+    "Streets with more than 30% canopy cover were, on average, cooler than similar streets with sparse canopy in the survey.",
+    "How well trees cool a street can depend on the species and on whether the trees are watered.",
+    "Tree planting has been shown by the report to be a complete solution to summer heat in Mediterranean cities.",
+    "In districts with low buildings and narrow streets, the cooling difference associated with canopy was largest.",
+    "The report presents canopy as one of several instruments available to city planners."
    ],
-   "ans": "B",
-   "exp": "The passage states that professional ecologists cannot survey entire countries and that organisers treat volunteer data as 'a complement that extends its geographical reach', which is exactly B. A and D are contradicted, since volunteer datasets revealed real changes and the text calls them a complement rather than a substitute; C inverts the statement that volunteers more easily notice conspicuous species; E is too strong, because organisers 'statistically adjust for' bias rather than eliminate it.",
+   "ans": "C",
+   "exp": "The report describes canopy as one instrument among several, alongside reflective roofs and lighter pavements, so the statement claiming tree planting is a complete solution contradicts the passage and is the incorrect one. The other four statements restate the survey's comparisons, the role of species and irrigation, and the district effect faithfully.",
    "perm": [
     0,
     3,
-    2,
+    1,
     4,
-    1
+    2
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Reading comprehension",
+   "topic": "Reading · science reporting (overreach beyond evidence)",
    "lik": "H"
   },
   {
    "n": 3,
-   "stem": "(General knowledge) The chorus Va, pensiero, known in English as the Chorus of the Hebrew Slaves and often treated as an unofficial Italian anthem, comes from the opera Nabucco, first performed at La Scala in 1842. Who was the composer?",
+   "stem": "\"In this country the ruler causes money to be made from the inner bark of mulberry trees, pressed into sheets like paper and cut into round pieces of different values. With this money everything can be bought throughout the whole empire. Refusing it is punishable, and every year the ruler causes all the mulberry bark that can be gathered to be bought up. It costs him almost nothing, yet with it he buys the goods of merchants from every land, who must accept it in exchange.\"\n\nAdapted from The Travels of Marco Polo (13th century)\n\nWhat does the passage describe?",
    "options": [
-    "Vincenzo Bellini",
-    "Gaetano Donizetti",
-    "Giuseppe Verdi",
-    "Gioachino Rossini",
-    "Giacomo Puccini"
+    "Seashells used as currency",
+    "Gold coins stamped with the ruler's seal",
+    "Paper money issued by a ruler",
+    "Letters of credit drawn on banks",
+    "Barter between merchants and the ruler"
    ],
    "ans": "C",
-   "exp": "Nabucco, with a libretto by Temistocle Solera, was composed by Giuseppe Verdi and premiered at La Scala in Milan on 9 March 1842; its third-act chorus Va, pensiero established his reputation. Bellini, Donizetti and Rossini belong to earlier generations of Italian opera and Puccini to the following one, but none of them wrote Nabucco.",
+   "exp": "The money is described as sheets pressed from mulberry bark, cut into pieces of different values and imposed as legal tender across the empire, which identifies it as state-issued paper money. Gold coins and letters of credit are different instruments, and barter contradicts the requirement that merchants accept the money in exchange.",
    "perm": [
     1,
     0,
@@ -114,213 +114,213 @@
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "General knowledge",
-   "lik": "H"
+   "topic": "Reading · historical source (early paper money)",
+   "lik": "M"
   },
   {
    "n": 4,
-   "stem": "When Alfred Wegener proposed continental drift in 1912, most geologists dismissed him. He had assembled an impressive case: the fit of the Atlantic coastlines, identical fossils on opposite shores, and traces of ancient glaciation in what are now tropical latitudes. What he lacked was a credible driving force, and his suggestion that continents plough through the ocean floor was physically implausible. The balance changed only in the decades after the Second World War, when mapping of the ocean floor revealed mid-ocean ridges and magnetic stripes recording seafloor spreading, and when the locations of earthquakes traced out the boundaries of moving plates. Drifting continents, once rejected, became the organising principle of modern geology not because Wegener's evidence was rediscovered but because new kinds of evidence, gathered with instruments he never had, settled the question of mechanism.\n\nWhich of the following statements is supported by the passage?",
+   "stem": "\"Bacteria in the large intestine ferment fibres that human digestive enzymes cannot break down. The fermentation releases short-chain fatty acids, which are absorbed and used by the cells of the intestinal wall as an energy source. Some of these acids also enter the bloodstream and influence the activity of immune cells. The composition of the bacterial population differs between people and shifts with diet over weeks.\"\n\nFrom a popular science book on the human body\n\nOnly one of the following statements is coherent with the excerpt:",
    "options": [
-    "Wegener's theory was rejected mainly because the observations behind it were later shown to be mistaken.",
-    "The mechanism Wegener proposed for continental movement was regarded as physically implausible.",
-    "Plate tectonics won acceptance once Wegener's original evidence was rediscovered after the Second World War.",
-    "Ocean-floor mapping showed that mid-ocean ridges and magnetic stripes do not exist.",
-    "The question of what drives continental movement remains unanswered in modern geology."
+    "Gut bacteria can convert dietary fibre into substances that the body absorbs and uses.",
+    "Human digestive enzymes release short-chain fatty acids from fibre in the small intestine.",
+    "The bacterial population of the intestine is fixed at birth and does not change with diet.",
+    "Short-chain fatty acids act only inside the intestinal lumen and never enter the blood.",
+    "Immune cell activity is independent of the products of gut bacteria."
    ],
-   "ans": "B",
-   "exp": "The passage states directly that Wegener's suggestion that continents plough through the ocean floor 'was physically implausible', which is B. A is contradicted because the text calls his evidence an impressive case and pins the rejection on the missing mechanism; C is contradicted by the closing sentence, which says acceptance came from new evidence rather than rediscovery of Wegener's; D inverts the text, in which mapping revealed the ridges and stripes; E is contradicted because the new evidence 'settled the question of mechanism'.",
+   "ans": "A",
+   "exp": "The passage states that bacteria ferment fibre into short-chain fatty acids which are absorbed and used, some of them reaching the bloodstream and influencing immune cells, so the first statement is the coherent one. The claim that human enzymes do this in the small intestine contradicts the opening sentence, the fixed-population claim contradicts the shift with diet, and the last two claims reverse what is said about the bloodstream and immune cells.",
    "perm": [
-    1,
+    0,
     4,
     3,
     2,
-    0
+    1
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Reading comprehension",
+   "topic": "Reading · biomedical text (coherence check)",
    "lik": "H"
   },
   {
    "n": 5,
-   "stem": "All the guides at the city museum speak at least three languages. Nobody who speaks at least three languages ever needs an interpreter on a tour. Which one of the following statements must be true?",
+   "stem": "Consider this statement: Every chemist working in this laboratory speaks German.\nWhich of the following statements is deducible from the given statement?",
    "options": [
-    "Everyone who speaks at least three languages works as a guide at the city museum.",
-    "Some guides at the city museum need an interpreter on some tours.",
-    "No guide at the city museum ever needs an interpreter on a tour.",
-    "Anyone who never needs an interpreter on a tour speaks at least three languages.",
-    "Every guide at the city museum works full time."
+    "Everyone in the laboratory who speaks German is a chemist.",
+    "Someone working in the laboratory who does not speak German is not one of its chemists.",
+    "Nobody in the laboratory speaks German.",
+    "Some chemists working in the laboratory do not speak German.",
+    "German is spoken in the laboratory only by chemists."
    ],
-   "ans": "C",
-   "exp": "Every guide speaks at least three languages, and everyone who speaks at least three languages never needs an interpreter, so chaining the two premises proves that no guide ever needs an interpreter on a tour. Options A and D are illegitimate converses of the two premises, and option B flatly contradicts the chain. Option E introduces working hours, about which the premises say nothing.",
+   "ans": "B",
+   "exp": "If every chemist in the laboratory speaks German, then anyone in the laboratory who lacks German cannot belong to that group of chemists, which is the contrapositive. The claim that everyone speaking German is a chemist is the converse, which does not follow, and the remaining options contradict or go beyond the given statement.",
    "perm": [
-    2,
     0,
     1,
+    2,
     4,
     3
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Logic",
+   "topic": "Logic · deduction from a universal statement",
    "lik": "H"
   },
   {
    "n": 6,
-   "stem": "Five colleagues, Elena, Jonas, Nadia, Omar and Priya, sit around a circular table with five chairs numbered 1 to 5 in clockwise order, one person per chair. Elena sits in chair 1. Nadia sits immediately clockwise from Elena. Omar does not sit next to Elena. Jonas sits immediately anticlockwise from Priya. Which one of the following statements must be true?",
+   "stem": "From the given statements:\nIf the vaccine shipment arrives on Monday, then the clinic starts the vaccination campaign on Tuesday.\nThe campaign did not start on Tuesday.\nWhich conclusion can be deduced?",
    "options": [
-    "Omar sits between Nadia and Jonas.",
-    "Priya sits immediately clockwise from Elena.",
-    "Omar sits next to Elena.",
-    "Nadia and Priya sit next to each other.",
-    "Jonas sits immediately anticlockwise from Elena."
+    "The vaccine shipment arrived on Monday.",
+    "The vaccine shipment was lost.",
+    "The campaign will start on Wednesday.",
+    "The vaccine shipment did not arrive on Monday.",
+    "The campaign started on Monday."
    ],
-   "ans": "A",
-   "exp": "Elena is in chair 1 and Nadia immediately clockwise from her, so Nadia is in chair 2, leaving chairs 3, 4 and 5 for Jonas, Omar and Priya. Jonas sitting immediately anticlockwise from Priya allows only Priya 5 with Jonas 4, or Priya 4 with Jonas 3; the second case would force Omar into chair 5, which is next to Elena in chair 1, so Priya is in chair 5, Jonas in chair 4 and Omar in chair 3. Omar therefore sits between Nadia (chair 2) and Jonas (chair 4), and every other option fails in this unique arrangement.",
+   "ans": "D",
+   "exp": "By modus tollens, if arriving on Monday would force a Tuesday start and there was no Tuesday start, the shipment cannot have arrived on Monday. Saying the shipment was lost goes beyond the premises, since a delay or a holiday closure would also be consistent with no Tuesday start.",
    "perm": [
     3,
     2,
-    4,
     1,
+    4,
     0
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Logic",
+   "topic": "Logic · conditional reasoning (modus tollens)",
    "lik": "H"
   },
   {
    "n": 7,
-   "stem": "Five coloured balls, one each of blue, green, red, white and yellow, are placed in five boxes numbered 1 to 5 from left to right, one ball per box. The green ball is immediately to the left of the red ball. The red ball is in a box with an even number. The yellow ball is somewhere to the right of the green ball. The white ball is immediately to the right of the yellow ball. The blue ball is in box 5. In which box must the yellow ball be?",
+   "stem": "Five runners, Ada, Beppe, Chiara, Dario and Elena, finished a race with no tied places. Dario finished before Chiara, Chiara finished before Ada, Ada finished before Beppe, and Beppe finished before Elena. Which of the following statements can be deduced?",
    "options": [
-    "Box 1",
-    "Box 2",
-    "Box 3",
-    "Box 4",
-    "Box 5"
+    "Ada finished before Dario.",
+    "Beppe finished before Ada.",
+    "Chiara finished last.",
+    "Dario finished after Ada.",
+    "Elena finished after Chiara."
    ],
-   "ans": "C",
-   "exp": "The red ball is in an even numbered box with green immediately to its left, so green and red can only occupy boxes 1 and 2, or boxes 3 and 4. If they occupied boxes 3 and 4, the yellow ball would have to sit to the right of green, but only boxes 1 and 2 would remain free besides box 5 (blue), which is impossible, so green is in box 1 and red in box 2. Yellow and white then fill boxes 3 and 4, and white immediately to the right of yellow places yellow in box 3 and white in box 4.",
+   "ans": "E",
+   "exp": "The constraints chain into the single order Dario, Chiara, Ada, Beppe, Elena, so Elena is behind every runner who precedes Beppe, including Chiara. The other four statements each reverse one of the given relations.",
    "perm": [
-    3,
+    2,
     1,
     0,
-    4,
-    2
+    3,
+    4
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Logic",
-   "lik": "H"
+   "topic": "Logic · ordering constraints (transitive chain)",
+   "lik": "M"
   },
   {
    "n": 8,
-   "stem": "One term is missing from the following sequence: 5, 8, 14, ?, 35. What is the missing term?",
+   "stem": "Three friends, Nadia, Omar and Paolo, each drove home in a different car, one red, one blue and one white. Nadia drove neither the red nor the blue car, and Omar did not drive the blue car. Which of the following statements is true?",
    "options": [
-    "18",
-    "20",
-    "22",
-    "23",
-    "26"
+    "Nadia drove the blue car.",
+    "Omar drove the red car.",
+    "Paolo drove the white car.",
+    "Omar drove the white car.",
+    "Paolo drove the red car."
    ],
-   "ans": "D",
-   "exp": "The differences between consecutive terms grow by a constant 3: they are 3, 6, 9 and 12, so the sequence runs 5, 8, 14, 14 + 9 = 23, 23 + 12 = 35, which matches the given final term exactly. The alternative of doubling differences, 3, 6, 12, 24, would make the fifth term 26 + 24 = 50 rather than 35, so it is ruled out. The missing term is therefore 23.",
+   "ans": "B",
+   "exp": "Nadia driving neither red nor blue forces her into the white car, and since Omar did not drive blue and white is taken, Omar drove red, leaving blue for Paolo. Every other option contradicts this unique assignment.",
    "perm": [
     0,
     1,
     2,
-    3,
-    4
+    4,
+    3
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Logic",
-   "lik": "H"
+   "topic": "Logic · assignment puzzle (two constraints)",
+   "lik": "M"
   },
   {
    "n": 9,
-   "stem": "What is the angle between the hour hand and the minute hand of an analogue clock at 5:30?",
+   "stem": "A watch gains 3 minutes every hour. It is set to the correct time at 8:00 am. When the true time is 10:00 am, the watch shows:",
    "options": [
-    "5 degrees",
-    "15 degrees",
-    "25 degrees",
-    "30 degrees",
-    "45 degrees"
+    "9:57 am",
+    "10:00 am",
+    "10:03 am",
+    "10:06 am",
+    "10:09 am"
    ],
-   "ans": "B",
-   "exp": "At 5:30 the minute hand points straight at the 6, which is 180 degrees from the 12. The hour hand sits halfway between the 5 and the 6, that is at 150 + 15 = 165 degrees, because it moves 0.5 degrees per minute and has travelled 30 minutes past the hour. The angle between the hands is therefore 180 - 165 = 15 degrees.",
+   "ans": "D",
+   "exp": "In the two hours since 8:00 am the watch has gained 2 × 3 = 6 minutes, so at a true time of 10:00 am it reads 10:06 am. The 10:03 option counts only one hour of gain, 9:57 am treats the watch as losing time, and 10:09 am triples the gain.",
    "perm": [
-    0,
-    1,
-    2,
     3,
-    4
+    2,
+    4,
+    1,
+    0
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Logic",
-   "lik": "H"
+   "topic": "Logic · clocks and time (fast-running watch)",
+   "lik": "M"
   },
   {
    "n": 10,
-   "stem": "Glycolysis is often divided into an energy investment stage and an energy payoff stage. Which of the following statements about the breakdown of one molecule of glucose to pyruvate is true?",
+   "stem": "The immediate benefit that lactic fermentation provides to a muscle cell working without enough oxygen is that it:",
    "options": [
-    "The two ATP molecules are spent before the six carbon sugar is cleaved into two three carbon molecules, so every reaction of the payoff stage happens twice for each glucose that enters.",
-    "Four ATP molecules are consumed in the investment stage and only two are produced in the payoff stage, so glycolysis causes a net loss of ATP.",
-    "ATP is invested to pump pyruvate across the mitochondrial membrane before the payoff stage can begin.",
-    "The net yield is four ATP per glucose, because each ATP forming reaction occurs only once per glucose molecule.",
-    "The investment stage can proceed only when oxygen is available to withdraw electrons from the pathway."
+    "produces a large amount of ATP by oxidising lactate completely.",
+    "converts lactate into glycogen for storage.",
+    "restores NAD⁺ so that glycolysis can continue producing ATP.",
+    "releases the energy of reduced FAD for ATP synthesis.",
+    "transports pyruvate into the mitochondrial matrix."
    ],
-   "ans": "A",
-   "exp": "ATP is invested at the hexokinase and phosphofructokinase steps before aldolase cleaves the six carbon sugar, and every payoff reaction then runs twice per glucose, giving four ATP produced against two consumed, a net gain of two. The distractors invert this accounting or claim that glycolysis requires oxygen, which it does not.",
+   "ans": "C",
+   "exp": "Fermentation reduces pyruvate to lactate, and this step reoxidises the cell's NADH to NAD⁺, allowing glycolysis to continue making its small ATP yield; without regenerated NAD⁺, glycolysis stalls. Lactate is not oxidised for ATP inside the muscle cell, and the other options describe steps of aerobic respiration that fermentation does not perform.",
    "perm": [
+    1,
     2,
-    0,
     3,
     4,
-    1
+    0
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Cellular respiration",
+   "topic": "Bio · lactic fermentation (NAD⁺ regeneration)",
    "lik": "H"
   },
   {
    "n": 11,
-   "stem": "In eukaryotic cells, the pyruvate produced by glycolysis does not enter the Krebs cycle directly. Which statement describes what happens to it first?",
+   "stem": "Which of the following statements about glycolysis is correct?",
    "options": [
-    "It crosses both mitochondrial membranes unchanged and condenses directly with oxaloacetate to form citrate.",
-    "It is converted to lactate inside the mitochondrial matrix so that NAD+ can be regenerated for glycolysis.",
-    "In the mitochondrial matrix it is oxidatively decarboxylated: one carbon leaves as CO2, NAD+ is reduced to NADH, and the remaining two carbon acetyl group is attached to coenzyme A.",
-    "It is converted to acetyl-CoA in the cytosol, and the acetyl-CoA is then carried into the mitochondria by transport vesicles.",
-    "It is fully oxidised to CO2 and water at the inner mitochondrial membrane by the cytochromes of the electron transport chain."
+    "It takes place in the cytosol and produces a net gain of 2 ATP per glucose molecule.",
+    "It takes place inside the mitochondrial matrix and produces a net gain of 4 ATP per glucose molecule.",
+    "It requires molecular oxygen in its first step.",
+    "It reduces FAD to FADH₂ during the oxidation of glucose 6-phosphate.",
+    "It converts glucose directly into acetyl-CoA without forming pyruvate."
    ],
-   "ans": "C",
-   "exp": "Each pyruvate enters the matrix and is oxidatively decarboxylated by the pyruvate dehydrogenase complex, releasing one CO2, reducing NAD+ to NADH and transferring the acetyl group to coenzyme A. Only then can the acetyl group condense with oxaloacetate; lactate formation happens in the cytosol during fermentation, and the electron transport chain never oxidises pyruvate itself.",
+   "ans": "A",
+   "exp": "Glycolysis is the cytosolic splitting of glucose into two pyruvate molecules with a net yield of 2 ATP and 2 NADH. Oxygen is not required at any glycolytic step, FAD is not involved because FADH₂ is produced later in the Krebs cycle, and pyruvate, not acetyl-CoA, is the product of glycolysis.",
    "perm": [
     2,
-    1,
     4,
-    0,
-    3
+    1,
+    3,
+    0
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Cellular respiration",
+   "topic": "Bio · glycolysis (location and ATP yield)",
    "lik": "H"
   },
   {
    "n": 12,
-   "stem": "Which of the following statements about the Krebs (citric acid) cycle is true?",
+   "stem": "In a eukaryotic cell supplied with oxygen, the largest share of the ATP produced from one glucose molecule comes from:",
    "options": [
-    "Oxaloacetate is consumed in stoichiometric amounts, so the diet must continuously supply it for the cycle to keep turning.",
-    "Most of the ATP generated in aerobic respiration is produced by substrate level phosphorylation inside the cycle itself.",
-    "For each acetyl group oxidised, one turn of the cycle releases four molecules of CO2.",
-    "Each turn regenerates the four carbon acceptor oxaloacetate, so the cycle can continue as long as acetyl-CoA, NAD+, FAD and ADP are supplied.",
-    "One reaction of the cycle consumes molecular oxygen directly, which is what links the cycle to the electron transport chain."
+    "glycolysis itself.",
+    "the Krebs cycle operating directly.",
+    "the conversion of pyruvate to acetyl-CoA.",
+    "oxidative phosphorylation.",
+    "lactic fermentation."
    ],
    "ans": "D",
-   "exp": "The cycle ends each turn by regenerating oxaloacetate, so it functions catalytically rather than consuming the acceptor. Two CO2 are released per acetyl group, oxygen is consumed by the electron transport chain rather than by any cycle reaction, and the single GTP per turn is a small fraction of aerobic ATP output, most of which comes from oxidative phosphorylation.",
+   "exp": "Of the roughly 30 ATP obtained from one glucose molecule, about 26 arise when the reduced coenzymes produced by the earlier stages are oxidised through the electron transport chain, that is by oxidative phosphorylation. Glycolysis and the Krebs cycle contribute only 2 ATP each by direct transfer of phosphate, the link reaction contributes none, and fermentation adds nothing beyond the yield of glycolysis.",
    "perm": [
     0,
     2,
@@ -330,261 +330,261 @@
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Cellular respiration",
+   "topic": "Bio · respiration (ATP yield distribution)",
    "lik": "H"
   },
   {
    "n": 13,
-   "stem": "In the mitochondrial electron transport chain, which complexes pump protons (H+) from the matrix to the intermembrane space?",
+   "stem": "ATP synthase of the inner mitochondrial membrane produces ATP using the energy released by:",
    "options": [
-    "Complexes I, III and IV pump protons, while complex II passes electrons to ubiquinone without pumping any.",
-    "All four complexes pump protons, which is why NADH and FADH2 yield exactly the same number of ATP.",
-    "Only complex IV pumps protons, and it does so while reducing oxygen to water.",
-    "Complexes II and III are the only pumping complexes, because electrons reach both of them at the same energy level.",
-    "No complex pumps protons directly; protons cross the membrane together with the electrons inside the mobile carriers."
+    "electrons jumping directly onto oxygen molecules.",
+    "protons flowing down their gradient through the enzyme.",
+    "hydrolysis of creatine phosphate.",
+    "direct transfer of a phosphate group from NADH to ADP.",
+    "diffusion of glucose across the membrane."
    ],
-   "ans": "A",
-   "exp": "Complexes I, III and IV translocate protons across the inner membrane, while complex II (succinate dehydrogenase) hands electrons to ubiquinone without pumping, which is why FADH2, which enters at complex II, yields fewer ATP than NADH. Protons never ride across the membrane with the electrons.",
+   "ans": "B",
+   "exp": "In chemiosmosis, the electron transport chain pumps protons into the intermembrane space, and the stored gradient drives protons back through ATP synthase, which couples this flow to the phosphorylation of ADP. Oxygen serves only as the final electron acceptor at the end of the chain, and no phosphate group is handed over directly from NADH.",
    "perm": [
-    1,
-    4,
     0,
+    4,
     3,
-    2
+    2,
+    1
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Cellular respiration",
+   "topic": "Bio · oxidative phosphorylation (chemiosmosis)",
    "lik": "H"
   },
   {
    "n": 14,
-   "stem": "Actively respiring mitochondria maintain a pH difference between the matrix and the intermembrane space. Which statement is correct?",
+   "stem": "In the mitochondrial respiratory chain, which carrier transfers electrons from complex I to complex III?",
    "options": [
-    "The matrix is more acidic than the intermembrane space, because ATP synthase releases H+ into the matrix as it converts ADP and phosphate into ATP.",
-    "The intermembrane space is more acidic than the matrix, because electron transport pumps H+ out of the matrix and the resulting gradient drives H+ back through ATP synthase.",
-    "The two compartments have identical pH values, because protons diffuse freely through the outer mitochondrial membrane until equilibrium is reached.",
-    "The intermembrane space is more alkaline, because ATP synthesis consumes protons inside the matrix faster than electron transport can replace them.",
-    "No significant pH difference can build up, because the inner mitochondrial membrane is freely permeable to protons."
+    "Cytochrome c",
+    "NADH",
+    "Molecular oxygen",
+    "ATP synthase",
+    "Ubiquinone (coenzyme Q)"
    ],
-   "ans": "B",
-   "exp": "Electron transport pumps H+ from the matrix into the intermembrane space, making that compartment more acidic and storing energy in a concentration and electrical gradient that ATP synthase dissipates during synthesis. The inner membrane being impermeable to protons is precisely what allows the gradient to exist, so claims of free proton permeability contradict the whole mechanism.",
+   "ans": "E",
+   "exp": "Ubiquinone is the lipid-soluble mobile carrier that accepts electrons from complex I, and also from complex II, and delivers them to complex III. Cytochrome c performs the analogous transfer but between complexes III and IV, NADH donates electrons to complex I rather than shuttling between complexes, and oxygen only receives electrons at complex IV.",
    "perm": [
-    3,
     4,
-    1,
     2,
+    3,
+    1,
     0
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Cellular respiration",
+   "topic": "Bio · electron transport chain (mobile carriers)",
    "lik": "H"
   },
   {
    "n": 15,
-   "stem": "During a 400 m sprint, fast muscle fibres convert pyruvate to lactate. Which statement correctly describes the subsequent fate of this lactate?",
+   "stem": "In a tissue that is metabolising actively and releasing much CO₂, haemoglobin releases oxygen more readily because:",
    "options": [
-    "It is excreted unchanged by the kidneys, which greatly lowers the pH of the urine after every sprint.",
-    "It is converted back into glucose inside the same muscle fibre and immediately exported into the blood.",
-    "It remains locked inside the fibre as a permanent inert waste product.",
-    "It is converted by human muscle enzymes into ethanol and CO2, exactly as in yeast fermentation.",
-    "Much of it is carried in the blood to the liver, where it is converted back into glucose that can be returned to the blood or stored as liver glycogen."
+    "H⁺ and CO₂ bind to haemoglobin and lower its affinity for oxygen.",
+    "the rising pH shifts haemoglobin into a high-affinity state.",
+    "CO₂ competes with oxygen for the iron atom of the heme group.",
+    "oxygen bound to one heme group prevents oxygen from binding to the others.",
+    "the red blood cells take up bicarbonate and expel all their oxygen."
    ],
-   "ans": "E",
-   "exp": "In the Cori cycle the blood carries lactate to the liver, which converts it back to glucose for release into the blood or storage as glycogen. Muscle fibres lack glucose 6 phosphatase, so they cannot convert lactate back to free glucose for export, and human cells cannot ferment lactate to ethanol.",
+   "ans": "A",
+   "exp": "This is the Bohr effect: protons and CO₂ bind to haemoglobin at sites other than the heme iron, stabilising the low-affinity state and so promoting oxygen unloading exactly where metabolism is most active. CO₂ lowers the blood pH rather than raising it, and the cooperative binding of oxygen works in the opposite direction to the one described.",
    "perm": [
-    3,
+    4,
     0,
     1,
-    4,
-    2
+    2,
+    3
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Cellular respiration",
+   "topic": "Bio · oxygen transport (Bohr effect)",
    "lik": "H"
   },
   {
    "n": 16,
-   "stem": "The rate of an enzyme catalysed reaction is measured with and without inhibitor X at a series of substrate concentrations. X lowers the rate at every concentration, but at very high substrate concentration the inhibited reaction approaches the same maximum velocity as the uninhibited reaction. Which conclusion is correct?",
+   "stem": "In skeletal muscle, the calcium ions released during contraction bind to troponin. The effect of this binding is to:",
    "options": [
-    "X is a competitive inhibitor: the apparent Km is raised but Vmax is unchanged, because sufficiently concentrated substrate outcompetes X for the active site.",
-    "X is a non-competitive inhibitor that lowers Vmax, and the apparent convergence of the two curves must be an experimental artefact.",
-    "X binds only to the enzyme substrate complex, so its inhibitory effect becomes stronger as substrate concentration rises.",
-    "X works by raising the activation energy of the catalysed reaction, so no concentration of substrate can overcome it.",
-    "X irreversibly destroys the active sites, so adding more substrate can never bring the rate back toward the uninhibited maximum."
+    "detach the myosin heads from actin permanently.",
+    "provide the energy for the power stroke.",
+    "move tropomyosin away from the myosin-binding sites on actin.",
+    "hydrolyse the ATP attached to the myosin heads.",
+    "shorten the myosin filaments themselves."
    ],
-   "ans": "A",
-   "exp": "Reaching the same maximum velocity at high substrate concentration is the signature of competitive inhibition: substrate and inhibitor compete for the same active site, so the apparent Km rises while Vmax is unchanged. A non-competitive inhibitor removes functional enzyme and lowers Vmax in a way that substrate cannot overcome, and irreversible or uncompetitive binding would prevent the observed convergence.",
+   "ans": "C",
+   "exp": "Calcium binding to troponin shifts the attached tropomyosin and exposes the myosin-binding sites on actin, allowing cross-bridge cycling to begin. ATP hydrolysis on the myosin head provides the energy for the power stroke, and the filaments slide past each other without changing length.",
    "perm": [
     3,
-    0,
-    2,
-    4,
-    1
-   ],
-   "shuffleSafe": true,
-   "shuffleUnsafeReason": null,
-   "topic": "Enzymes",
-   "lik": "M"
-  },
-  {
-   "n": 17,
-   "stem": "The vitamin niacin (vitamin B3) is a precursor of the nicotinamide ring of NAD+. Severe dietary deficiency of niacin would be expected to impair most directly the activity of:",
-   "options": [
-    "hydrolytic enzymes such as amylase and trypsin, because NAD+ supplies the water used to break glycosidic and peptide bonds.",
-    "only the protein complexes of the electron transport chain, because NAD+ is split there to release the energy stored in ATP.",
-    "every enzyme in the body, because NAD+ is needed for the correct folding of all newly made proteins.",
-    "dehydrogenases of pathways such as glycolysis and the Krebs cycle, because NAD+ is a coenzyme that accepts electrons from oxidised substrates and must be continuously regenerated.",
-    "the sodium potassium pump, because NAD+ is hydrolysed to provide the energy for active transport."
-   ],
-   "ans": "D",
-   "exp": "NAD+ is the reusable coenzyme of dehydrogenases, accepting electrons from substrates in glycolysis, the link reaction and the Krebs cycle, so a shortage cripples oxidation reactions throughout metabolism. Water for hydrolysis comes from the solvent, ATP rather than NAD+ powers the sodium potassium pump, and NAD+ has no general role in protein folding.",
-   "perm": [
-    3,
-    4,
     1,
+    4,
     2,
     0
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Enzymes",
+   "topic": "Bio · muscle contraction (calcium and troponin)",
+   "lik": "H"
+  },
+  {
+   "n": 17,
+   "stem": "Cardiac muscle cells are joined end to end by intercalated discs containing gap junctions. The main function of these junctions is to:",
+   "options": [
+    "anchor the cells firmly to the heart's tendons.",
+    "allow rapid electrical coupling between adjacent cells.",
+    "synthesise the collagen fibres of the heart skeleton.",
+    "increase the surface area available for gas exchange.",
+    "store oxygen within the muscle cells."
+   ],
+   "ans": "B",
+   "exp": "The gap junctions of the intercalated discs let ions flow directly from cell to cell, so the excitation begun at the pacemaker spreads across the whole chamber and makes it contract as a single unit. Anchoring and collagen roles belong to connective structures, and oxygen is stored by myoglobin, not by junctions.",
+   "perm": [
+    4,
+    1,
+    2,
+    3,
+    0
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Bio · cardiac histology (intercalated discs)",
    "lik": "M"
   },
   {
    "n": 18,
-   "stem": "According to the sliding filament model, which of the following occurs within a sarcomere during a strong contraction of a skeletal muscle fibre?",
+   "stem": "During contraction of a sarcomere, which region remains unchanged in length?",
    "options": [
-    "The thick filaments shorten because the myosin tails coil up like springs around the actin filaments.",
-    "The thin filaments shorten because actin monomers are stripped from their ends during force generation.",
-    "The thick and thin filaments keep their original lengths while the sarcomere shortens: the I band and the H zone become narrower but the A band keeps its width.",
-    "The A band and the I band shorten in the same proportion, reflecting the equal shortening of thick and thin filaments.",
-    "The H zone widens as the thin filaments are pulled away from the centre of the sarcomere."
+    "The I band",
+    "The H zone",
+    "The I band together with the H zone",
+    "The A band",
+    "None: every band shortens"
    ],
-   "ans": "C",
-   "exp": "Cross bridge cycling pulls the filaments past one another without changing their length, so the A band, whose width equals the thick filament length, stays constant while the I band and H zone narrow as overlap grows. Neither filament type behaves as a spring or disassembles during contraction.",
+   "ans": "D",
+   "exp": "The A band corresponds to the full length of the myosin filaments, which do not shorten, so it stays constant while the sarcomere contracts. The I band, which contains actin only, and the H zone, where myosin has no overlapping actin, both become narrower as the filaments slide.",
    "perm": [
-    3,
+    2,
     1,
     4,
     0,
-    2
+    3
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Muscle",
+   "topic": "Bio · sliding filament (sarcomere bands)",
    "lik": "H"
   },
   {
    "n": 19,
-   "stem": "Which of the following statements about motor units in skeletal muscle is true?",
+   "stem": "The effect of a competitive inhibitor on an enzyme-catalysed reaction can be overcome effectively by:",
    "options": [
-    "A motor unit consists of a single muscle fibre together with all the motor neurons that supply it.",
-    "Muscles used for fine, precise movements, such as the external muscles of the eye, are organised into a small number of large motor units.",
-    "A motor unit consists of one motor neuron together with all the muscle fibres it innervates, and when that neuron fires, every fibre in the unit contracts.",
-    "During a weak contraction, all of the muscle's motor units are active, but each one fires action potentials of reduced amplitude.",
-    "Force can be increased only by raising the firing frequency of a fixed set of motor units, never by recruiting additional units."
+    "increasing the concentration of the substrate.",
+    "increasing the concentration of a cofactor of the enzyme.",
+    "cooling the reaction mixture.",
+    "adding a non-competitive inhibitor.",
+    "raising the pH to the enzyme's optimum value."
    ],
-   "ans": "C",
-   "exp": "A motor unit is one motor neuron plus all the fibres it supplies, and all of those fibres contract together when the neuron fires. Fine control requires many small motor units, and graded whole muscle force comes both from frequency coding and from recruiting additional units, since individual action potentials are all or none.",
+   "ans": "A",
+   "exp": "A competitive inhibitor occupies the active site and competes with the substrate, so a sufficiently high substrate concentration can outcompete it and restore the reaction's maximum rate. Cofactors, temperature and pH do not displace an active-site competitor, and adding a second inhibitor can only reduce the rate further.",
    "perm": [
-    3,
     0,
+    3,
+    1,
     4,
-    2,
-    1
+    2
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Muscle",
+   "topic": "Bio · enzymes (competitive inhibition)",
    "lik": "H"
   },
   {
    "n": 20,
-   "stem": "Which of the following correctly matches an epithelial type with its normal location and the advantage it provides there?",
+   "stem": "A small organic non-protein molecule that must be bound to an enzyme for the enzyme to show its activity is called:",
    "options": [
-    "Transitional epithelium; the lining of the small intestine; its ability to stretch provides a huge absorptive surface.",
-    "Simple squamous epithelium; the lining of the urinary bladder; its many cell layers protect against acidic urine.",
-    "Ciliated pseudostratified columnar epithelium; the walls of the alveoli; the beating cilia stir the air to speed diffusion.",
-    "Simple columnar epithelium; the dry outer surface of the skin; its single layer heals wounds faster than any multilayered epithelium.",
-    "Keratinised stratified squamous epithelium; the epidermis of the skin; its dead, keratin filled surface cells resist abrasion and reduce water loss."
+    "a holoenzyme.",
+    "an apoenzyme.",
+    "a zymogen.",
+    "a substrate analogue.",
+    "a coenzyme."
    ],
    "ans": "E",
-   "exp": "The epidermis is keratinised stratified squamous epithelium whose dead, keratin rich surface cells withstand wear and limit water loss from the dry body surface. The bladder, not the intestine, is lined by transitional epithelium, the thin simple squamous lining of the alveoli has no cilia, and skin owes its protective value to many layers, not to a single one.",
+   "exp": "Coenzymes are organic cofactors, such as NAD⁺ or FAD, that must associate with the protein part for activity. The apoenzyme is the inactive protein alone and the holoenzyme is the active complex of protein plus cofactor, a zymogen is an inactive enzyme precursor, and a substrate analogue is a mimic that blocks the active site rather than activating the enzyme.",
    "perm": [
     1,
     2,
-    4,
     0,
+    4,
     3
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Histology",
+   "topic": "Bio · enzymes (cofactors and coenzymes)",
    "lik": "M"
   },
   {
    "n": 21,
-   "stem": "Which of the following statements about connective tissues is true?",
+   "stem": "Which digestive enzyme acts in the stomach and has an optimum pH of about 2?",
    "options": [
-    "Blood is not classified as connective tissue because it contains no extracellular matrix.",
-    "Cartilage contains no blood vessels: its chondrocytes sit in matrix filled spaces called lacunae and receive nutrients by diffusion, which is one reason injured cartilage heals slowly.",
-    "The collagen fibres of tendons are secreted by chondrocytes that migrate in from nearby cartilage.",
-    "Dense regular connective tissue such as tendon is rich in ground substance and poor in fibres, which makes it highly elastic.",
-    "Adipose tissue stores fat droplets in a sparse network of collagen fibres rather than inside cells."
+    "Pancreatic amylase",
+    "Trypsin",
+    "Pepsin",
+    "Intestinal maltase",
+    "Pancreatic lipase"
    ],
-   "ans": "B",
-   "exp": "Cartilage is avascular, and its chondrocytes within lacunae are nourished by diffusion through the matrix, which explains its slow repair. Blood is a connective tissue whose matrix is plasma, tendon collagen is secreted by fibroblasts and packed densely, and adipose tissue stores fat inside adipocytes.",
+   "ans": "C",
+   "exp": "The hydrochloric acid of the stomach gives pepsin its strongly acidic optimum around pH 2, at which it hydrolyses proteins into peptides. Amylase, trypsin, maltase and lipase all work at near-neutral to mildly alkaline pH in the mouth, pancreas or small intestine.",
    "perm": [
-    2,
+    1,
     4,
     0,
     3,
-    1
+    2
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Histology",
+   "topic": "Bio · digestion (enzyme environments)",
    "lik": "M"
   },
   {
    "n": 22,
-   "stem": "A protein is about to be secreted from a pancreatic cell. Which statement correctly describes its passage through the Golgi apparatus?",
+   "stem": "In the liver, the toxic ammonia produced by the breakdown of amino acids is converted mainly into:",
    "options": [
-    "Transport vesicles from the endoplasmic reticulum fuse with the cis face, the protein is modified and sorted as it moves through the cisternae, and secretory vesicles bud from the trans face.",
-    "The protein is synthesised on ribosomes attached to the Golgi membrane itself and released directly into its cisternae.",
-    "Vesicles from the endoplasmic reticulum enter the Golgi at the trans face and leave from the cis face once modification is complete.",
-    "The Golgi returns all processed proteins to the endoplasmic reticulum, which then exports them from the cell.",
-    "The Golgi directs proteins only to lysosomes and the nucleus, while secreted proteins bypass it entirely."
+    "uric acid.",
+    "urea.",
+    "creatinine.",
+    "carbon dioxide.",
+    "glucose."
    ],
-   "ans": "A",
-   "exp": "ER derived vesicles enter at the cis face, and secretory vesicles leave from the trans face after modification, chiefly of sugar chains, and sorting toward the plasma membrane, lysosomes and endosomes. Secreted proteins are synthesised on ER bound ribosomes, not on the Golgi, and the Golgi does not ship its products back to the ER for export.",
+   "ans": "B",
+   "exp": "Mammals detoxify ammonia in the liver through the urea cycle, and the urea produced passes to the blood for excretion by the kidneys. Uric acid is the nitrogen waste of birds and reptiles, creatinine comes from phosphocreatine breakdown in muscle, and ammonia is not routed into carbon dioxide or glucose by this pathway.",
    "perm": [
     2,
-    0,
+    1,
     3,
     4,
-    1
+    0
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Organelles",
+   "topic": "Bio · liver (urea cycle)",
    "lik": "M"
   },
   {
    "n": 23,
-   "stem": "In a gland cell that is actively exporting proteins, which statement about ribosomes is true?",
+   "stem": "If the secretion of antidiuretic hormone (ADH) stops, the most direct consequence for the kidneys is that the person produces:",
    "options": [
-    "Bound ribosomes are structurally larger than free ribosomes, and only bound ribosomes can translate mRNA.",
-    "Free ribosomes synthesise all proteins destined for export, which are then imported into the rough ER after they have folded.",
-    "Each ribosome is permanently bound or permanently free for its whole life, a status fixed when it is assembled in the nucleolus.",
-    "Free ribosomes and ribosomes bound to the rough ER are structurally the same, and a ribosome binds to the ER because the protein it starts to translate carries a signal sequence.",
-    "Secreted proteins are translated inside the Golgi apparatus, so ribosomes take no part in their synthesis."
+    "a small volume of highly concentrated urine.",
+    "urine containing glucose.",
+    "urine with an abnormally high sodium concentration and no other change.",
+    "a large volume of dilute urine.",
+    "no urine at all."
    ],
    "ans": "D",
-   "exp": "All ribosomes are built from the same subunits; one binds to the ER only because the growing chain carries a signal sequence recognised at the ER membrane, so the same ribosome can be free in one round of translation and bound in the next. Secreted proteins enter the ER while being made, not after folding in the cytosol.",
+   "exp": "ADH makes the collecting duct permeable to water by driving the insertion of aquaporin channels; without it, water is no longer reabsorbed there, so the urine stays dilute and its volume is large. Glucose in the urine signals high blood glucose instead, and urine formation continues without ADH, it is only its volume and concentration that change.",
    "perm": [
     3,
     2,
@@ -594,165 +594,165 @@
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Organelles",
-   "lik": "M"
+   "topic": "Bio · osmoregulation (ADH and the collecting duct)",
+   "lik": "H"
   },
   {
    "n": 24,
-   "stem": "Which of the following statements about the sodium potassium pump (Na+/K+ ATPase) of animal cells is true?",
+   "stem": "The cells that resorb bone matrix by secreting acid and digestive enzymes are:",
    "options": [
-    "It carries Na+ and K+ down their concentration gradients and spends ATP only to make the carriers cycle faster.",
-    "It moves two Na+ out of the cell and three K+ in for each ATP hydrolysed, so it makes the interior slightly positive.",
-    "It hydrolyses one ATP for each cycle in which it moves three Na+ out of the cell and two K+ in, maintaining gradients that secondary active transport and nerve impulses depend on.",
-    "It is a ligand gated channel that opens to let Na+ and K+ diffuse through whenever ATP binds to it.",
-    "Its net effect is to make the inside of the cell electrically positive with respect to the outside."
+    "osteoclasts.",
+    "osteoblasts.",
+    "osteocytes.",
+    "chondroblasts.",
+    "fibroblasts."
    ],
-   "ans": "C",
-   "exp": "Each ATP hydrolysed drives three Na+ out and two K+ in, moving both ions against their gradients and making the interior slightly more negative than the exterior. The stored gradients then power secondary active transport, such as glucose uptake in the intestine, and underlie the resting and action potentials of neurons.",
+   "ans": "A",
+   "exp": "Osteoclasts break down bone by sealing off a region of matrix, acidifying it and releasing enzymes, which releases calcium into the blood. Osteoblasts build new matrix, osteocytes are the mature cells maintaining bone in lacunae, and chondroblasts and fibroblasts form cartilage and connective tissue.",
    "perm": [
     3,
+    1,
     0,
-    2,
     4,
-    1
+    2
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Membrane transport",
+   "topic": "Bio · bone (cell roles)",
    "lik": "M"
   },
   {
    "n": 25,
-   "stem": "In blood passing through the capillaries of a vigorously contracting muscle, the local PCO2 and the H+ concentration both rise. What effect does this have on haemoglobin?",
+   "stem": "Which hormone raises the concentration of glucose in the blood by stimulating glycogen breakdown in the liver?",
    "options": [
-    "Haemoglobin's affinity for oxygen rises, the dissociation curve shifts to the left, and oxygen is released only at very low PO2 values.",
-    "Haemoglobin's affinity for oxygen falls, the dissociation curve shifts to the right, and at any given PO2 a larger fraction of the bound oxygen is unloaded to the muscle.",
-    "Affinity is unchanged; the extra CO2 simply displaces oxygen from the haeme iron in a one for one exchange.",
-    "The affinity falls because H+ competes with oxygen for binding to the iron atoms of the haeme groups.",
-    "The heat produced by the muscle shifts the curve to the left and thereby cancels out the effect of the extra CO2."
+    "Insulin",
+    "Thyroxine",
+    "Glucagon",
+    "Aldosterone",
+    "Melatonin"
    ],
-   "ans": "B",
-   "exp": "Rising CO2 and H+ lower haemoglobin's oxygen affinity, the Bohr effect, shifting the curve to the right so that more oxygen unloads in active tissue; the rise in muscle temperature shifts the curve in the same direction. H+ binds to amino acid residues and stabilises the low affinity state of the protein, it does not compete for the haeme iron, which is the oxygen binding site.",
+   "ans": "C",
+   "exp": "Glucagon, secreted by the alpha cells of the pancreas when blood glucose falls, activates glycogen phosphorylase in the liver and so raises blood glucose. Insulin has the opposite effect, and aldosterone and melatonin regulate salt balance and circadian rhythms rather than blood glucose.",
    "perm": [
-    1,
+    2,
     0,
     4,
-    2,
+    1,
     3
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Blood gases",
-   "lik": "H"
+   "topic": "Bio · endocrine system (glucagon)",
+   "lik": "M"
   },
   {
    "n": 26,
-   "stem": "A patient spends four months completely immobile in bed. Which statement best describes what happens to bone remodelling in the unloaded bones?",
+   "stem": "The bond that joins two glucose units within glycogen is:",
    "options": [
-    "Resorption by osteoclasts exceeds deposition by osteoblasts, so bone mass falls, because mechanical loading is a normal stimulus for bone formation.",
-    "Deposition by osteoblasts rises to compensate for the missing load, so the bones become denser than before.",
-    "Osteoblasts and osteoclasts both stop working, so bone mass remains exactly constant.",
-    "Osteoclasts are inactivated by disuse, while osteoblasts convert compact bone into spongy bone of equal mass.",
-    "Bone mass is controlled only by calcium regulating hormones, which are unaffected by loading, so no change occurs."
+    "a peptide bond.",
+    "an ester bond.",
+    "a phosphodiester bond.",
+    "a hydrogen bond.",
+    "a glycosidic bond."
    ],
-   "ans": "A",
-   "exp": "Mechanical loading normally stimulates osteoblast activity, so disuse shifts the remodelling balance toward osteoclast resorption and bone mass falls, as seen in prolonged bed rest and spaceflight. Osteoclasts are not silenced by disuse, and hormonal regulation of calcium continues throughout.",
+   "ans": "E",
+   "exp": "Monosaccharides are linked in glycogen, starch and cellulose by glycosidic bonds, formed by condensation reactions between hydroxyl groups of adjacent sugars. Peptide bonds join amino acids, ester bonds join glycerol to fatty acids, and phosphodiester bonds join nucleotides in nucleic acids.",
    "perm": [
+    0,
     1,
     2,
-    3,
     4,
-    0
+    3
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Bone",
+   "topic": "Bio · carbohydrates (glycosidic bonds)",
    "lik": "M"
   },
   {
    "n": 27,
-   "stem": "Which of the following statements about the adrenal medulla is true?",
+   "stem": "A cell is treated with ouabain, a poison that blocks the sodium-potassium pump. The most direct consequence is that the cell gradually:",
    "options": [
-    "It is regulated by releasing hormones from the hypothalamus, which stimulate the anterior pituitary to act on it.",
-    "It secretes steroid hormones that diffuse into target cells and bind to nuclear receptors.",
-    "Its main secretion, cortisol, raises blood glucose during prolonged stress.",
-    "Its hormones slow the heart and promote glycogen storage, preparing the body for rest and digestion.",
-    "It is directly innervated by preganglionic sympathetic neurons, so its hormones can be released into the blood within seconds of a stressful stimulus, without any pituitary hormone intervening."
+    "reverses the direction of the Na⁺/K⁺ gradient across its membrane.",
+    "loses the Na⁺/K⁺ concentration gradient across its membrane.",
+    "becomes freely permeable to all ions.",
+    "increases its rate of ATP production.",
+    "starts pumping potassium out and sodium in."
    ],
-   "ans": "E",
-   "exp": "The adrenal medulla behaves like a sympathetic ganglion whose chromaffin cells are directly innervated by preganglionic sympathetic fibres, allowing release of catecholamines within seconds of a stressor. Cortisol comes from the adrenal cortex under pituitary control, and medullary hormones act at cell surface receptors and prepare the body for fight or flight.",
+   "ans": "B",
+   "exp": "The pump maintains the gradients by exporting 3 Na⁺ and importing 2 K⁺ for each ATP hydrolysed, so blocking it allows the gradients to decay through ion leakage. The blocked pump neither reverses direction nor makes the membrane non-specific, and removing an ATP consumer reduces, rather than increases, ATP use.",
    "perm": [
     0,
-    2,
+    3,
     1,
-    4,
-    3
+    2,
+    4
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Hormones",
+   "topic": "Bio · membrane transport (Na⁺/K⁺ pump)",
    "lik": "H"
   },
   {
    "n": 28,
-   "stem": "Which of the following is a normal function of the human liver?",
+   "stem": "A digestive enzyme secreted by a pancreatic cell reaches the plasma membrane by passing through which sequence of structures?",
    "options": [
-    "Secreting digestive enzymes into the duodenum through the bile ducts.",
-    "Producing insulin and glucagon in response to changing blood glucose.",
-    "Converting the ammonia released by amino acid breakdown into urea, which the blood carries to the kidneys for excretion.",
-    "Manufacturing red blood cells throughout adult life.",
-    "Storing the bile produced by the gallbladder until fat reaches the small intestine."
+    "Free ribosome, then nucleus, then plasma membrane.",
+    "Rough ER, Golgi apparatus, secretory vesicle, plasma membrane.",
+    "Golgi apparatus, rough ER, lysosome, plasma membrane.",
+    "Smooth ER, Golgi apparatus, nucleus, plasma membrane.",
+    "Rough ER, lysosome, Golgi apparatus, plasma membrane."
    ],
-   "ans": "C",
-   "exp": "The liver detoxifies the ammonia produced by amino acid deamination by converting it to urea, which the kidneys then excrete. Digestive enzymes come from the pancreas, insulin and glucagon from the pancreatic islets, red blood cells are made in the bone marrow of adults, and it is the gallbladder that stores the bile made by the liver.",
+   "ans": "B",
+   "exp": "Secreted proteins begin on ribosomes attached to the rough ER, pass into its lumen, travel in vesicles to the Golgi apparatus for modification and sorting, and finally leave in secretory vesicles that fuse with the plasma membrane. The routes through the nucleus or the lysosomes do not occur for secretory cargo.",
    "perm": [
     3,
     2,
-    1,
     0,
-    4
+    4,
+    1
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Liver",
+   "topic": "Bio · protein secretion (pathway)",
    "lik": "M"
   },
   {
    "n": 29,
-   "stem": "Which of the following statements about a triglyceride molecule is true?",
+   "stem": "Lysosomal enzymes are synthesised on the rough ER and are then sorted, tagged and packaged for delivery to the lysosomes by:",
    "options": [
-    "It consists of one glycerol joined by ester bonds to three fatty acids, and it is so non polar that it is essentially insoluble in water.",
-    "It carries a phosphate group in place of one fatty acid, which is why triglycerides form the bilayers of cell membranes.",
-    "Its fatty acids are attached to glycerol by peptide bonds, so dietary fat is digested by proteases.",
-    "It is built from three glycerol molecules condensed onto a single fatty acid chain.",
-    "In a saturated triglyceride the fatty acid chains contain double bonds that introduce kinks and lower the melting point."
+    "the Golgi apparatus.",
+    "the smooth endoplasmic reticulum.",
+    "the nucleolus.",
+    "the peroxisomes.",
+    "the mitochondria."
    ],
    "ans": "A",
-   "exp": "A triglyceride is glycerol esterified to three fatty acids and is wholly non polar, hence essentially water insoluble. A phosphate replaces one fatty acid only in phospholipids, which are the membrane forming lipids, and double bonded, kinked chains characterise unsaturated fats, not saturated ones.",
+   "exp": "After synthesis on the rough ER, lysosomal enzymes move to the Golgi apparatus, where they receive a targeting tag and are packed into vesicles that fuse with lysosomes. The smooth ER handles lipids and detoxification, and the nucleolus assembles ribosomal subunits.",
    "perm": [
-    0,
     2,
+    0,
     1,
     3,
     4
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Biological molecules",
+   "topic": "Bio · organelles (Golgi routing to lysosomes)",
    "lik": "M"
   },
   {
    "n": 30,
-   "stem": "Which statement correctly describes quiet exhalation at rest?",
+   "stem": "A triglyceride molecule consists of:",
    "options": [
-    "Quiet exhalation is powered by contraction of the internal intercostal muscles and the abdominal muscles, which squeeze the air out of the lungs.",
-    "The diaphragm and external intercostal muscles relax, the lungs and chest wall recoil elastically, alveolar pressure rises above atmospheric pressure, and air flows out with no active muscle contraction.",
-    "Air leaves the lungs because alveolar pressure falls below atmospheric pressure during exhalation.",
-    "The diaphragm flattens further during exhalation, pressing the abdominal organs upward against the lungs.",
-    "Quiet exhalation uses exactly the same muscles as quiet inhalation, but contracts them in the reverse direction."
+    "glycerol, two fatty acids and one phosphate group.",
+    "glycerol and three fatty acids.",
+    "three amino acids joined to glycerol.",
+    "one glucose unit joined to three fatty acids.",
+    "glycerol and four fatty acids."
    ],
    "ans": "B",
-   "exp": "Quiet exhalation is passive: relaxation of the diaphragm and external intercostals lets the elastic recoil of the lungs and chest wall raise alveolar pressure above atmospheric pressure, driving air out. The internal intercostals and abdominal muscles are recruited only for forced exhalation, and air always flows from higher to lower pressure.",
+   "exp": "A triglyceride is one glycerol molecule esterified to three fatty acid chains, the form in which fat is stored in adipose tissue. The molecule bearing a phosphate group instead of one fatty acid is a phospholipid, and amino acids and glucose are not components of triglycerides.",
    "perm": [
     2,
     0,
@@ -762,285 +762,261 @@
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Respiratory mechanics",
+   "topic": "Bio · lipids (triglyceride structure)",
    "lik": "M"
   },
   {
    "n": 31,
-   "stem": "In a plant species, tall stem (T) is dominant over dwarf (t). A tall plant of unknown genotype is crossed with a dwarf plant, and the offspring consist of 61 tall and 59 dwarf plants. What conclusion follows?",
+   "stem": "The ability to taste a certain bitter compound is controlled by a dominant allele T. A man who is a heterozygous taster (Tt) and a woman who cannot taste the compound (tt) have a child. The probability that the child cannot taste the compound is:",
    "options": [
-    "The tall parent is homozygous TT, and the dwarf offspring must have arisen by new mutation.",
-    "The 1:1 ratio indicates incomplete dominance, the heterozygotes being of intermediate height.",
-    "The genotype of the tall parent cannot be deduced from the phenotypes of the offspring.",
-    "The tall parent is heterozygous (Tt), because crossing a heterozygote with a homozygous recessive plant yields a 1:1 phenotype ratio, reflecting segregation of T and t into equal numbers of gametes.",
-    "The dwarf parent must actually be heterozygous, since half of the offspring grew tall."
+    "0",
+    "1/4",
+    "1/2",
+    "3/4",
+    "1"
    ],
-   "ans": "D",
-   "exp": "The dwarf parent must be tt and contributes only t gametes, so a 1:1 tall to dwarf ratio can arise only if the tall parent produces T and t gametes in equal numbers, that is, is heterozygous. A TT parent would give all tall offspring, and the dwarf parent, being phenotypically recessive, cannot be heterozygous.",
+   "ans": "C",
+   "exp": "The cross Tt × tt gives half Tt tasters and half tt non-tasters, so the probability of a child who cannot taste is 1/2. The fractions 1/4 and 3/4 come from a Tt × Tt cross, which this is not.",
    "perm": [
-    4,
-    3,
-    1,
     0,
-    2
+    1,
+    2,
+    3,
+    4
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Genetics",
+   "topic": "Bio · genetics (monohybrid cross)",
    "lik": "M"
   },
   {
    "n": 32,
-   "stem": "Most mature neurons of an adult human never divide again, whereas liver cells can resume division after part of the liver is surgically removed. Which statement explains this difference?",
+   "stem": "During quiet inhalation, which of the following occurs?",
    "options": [
-    "Neurons remain permanently arrested at the metaphase checkpoint, with chromosomes aligned but unable to separate.",
-    "Neurons keep replicating their DNA but cannot condense their chromosomes, so they become polyploid.",
-    "Liver cells regenerate the organ by meiosis, followed by fusion of the cells formed.",
-    "Both cell types are outside the cycle, and liver regrowth occurs purely by enlargement of existing cells, with no new cell divisions.",
-    "Neurons are held in a permanent G0 phase outside the division cycle, while liver cells remain able to re-enter the cycle from G0 when growth signals arrive."
+    "The diaphragm relaxes and rises back into the thorax.",
+    "The internal intercostal muscles contract strongly.",
+    "The diaphragm contracts and the thoracic volume increases.",
+    "The pressure inside the alveoli rises above atmospheric pressure.",
+    "The rib cage is pulled inward."
    ],
-   "ans": "E",
-   "exp": "Neurons exit the cycle into permanent G0, while hepatocytes remain able to re-enter G1 from G0 when growth signals follow injury, which is why liver regrows after partial removal. Neurons do not continue replicating DNA, and liver regrowth involves mitotic division of existing cells, not meiosis.",
+   "ans": "C",
+   "exp": "Inhalation is active: the contracting diaphragm flattens and the external intercostal muscles raise the ribs, enlarging the thoracic cavity so that alveolar pressure falls below atmospheric pressure and air flows in. A relaxing, rising diaphragm and alveolar pressure above atmospheric both describe exhalation.",
    "perm": [
     0,
     1,
+    3,
     2,
-    4,
-    3
+    4
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Cell cycle",
+   "topic": "Bio · ventilation (inhalation mechanics)",
    "lik": "M"
   },
   {
    "n": 33,
-   "stem": "Acidified potassium dichromate(VI) solution oxidises iodide ions to iodine: Cr2O7^2-(aq) + 14H+(aq) + 6I-(aq) -> 2Cr3+(aq) + 3I2(aq) + 7H2O(l). Which of the following statements is correct?",
+   "stem": "A 0.001 mol/dm³ solution of a monoprotic weak acid has a pH of 4.0. The acid dissociation constant Ka of this acid is approximately:",
    "options": [
-    "Iodine is oxidised, its oxidation number rising from -1 to 0, while chromium is reduced from +7 to +3.",
-    "Iodine is oxidised, its oxidation number rising from -1 to 0, while chromium is reduced from +6 to +3.",
-    "Iodine is reduced from 0 to -1, while chromium is oxidised from +3 to +6.",
-    "Chromium is oxidised from +6 to +7, while iodine is reduced from 0 to -1.",
-    "Neither element changes its oxidation number, because this is not a redox reaction."
+    "1.0 × 10⁻³",
+    "1.0 × 10⁻⁴",
+    "1.0 × 10⁻⁵",
+    "1.0 × 10⁻⁶",
+    "1.0 × 10⁻⁷"
    ],
-   "ans": "B",
-   "exp": "In Cr2O7^2-, 2x + 7(-2) = -2, so each Cr = +6; it falls to +3 in Cr3+, so chromium is reduced. Iodide, I- at -1, becomes I2 at 0, so iodine is the element oxidised. Option A forgets the 2- charge on the ion.",
+   "ans": "C",
+   "exp": "A pH of 4.0 means [H⁺] = 1.0 × 10⁻⁴ mol/dm³, and for a weak acid Ka = [H⁺]²/C = (1.0 × 10⁻⁴)²/0.001 = 1.0 × 10⁻⁵. The value 1.0 × 10⁻⁴ wrongly equates Ka with [H⁺] itself, and 1.0 × 10⁻⁷ comes from multiplying [H⁺] by C instead of squaring and dividing.",
    "perm": [
+    4,
     3,
-    0,
-    1,
     2,
-    4
+    1,
+    0
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Redox",
+   "topic": "Chem · weak acid pH (deriving Ka from pH)",
    "lik": "H"
   },
   {
    "n": 34,
-   "stem": "A coil of copper wire is immersed in a solution of silver nitrate, and the reaction Cu(s) + 2Ag+(aq) -> Cu2+(aq) + 2Ag(s) slowly produces a blue solution and silvery crystals on the wire. Which of the following statements is correct?",
+   "stem": "An aqueous solution of ammonium chloride, NH₄Cl, the salt of a strong acid and a weak base, is:",
    "options": [
-    "Cu is the oxidising agent because it donates two electrons.",
-    "Cu2+ is the oxidising agent because it carries the larger charge.",
-    "Ag+ is the oxidising agent because it accepts electrons from copper atoms.",
-    "NO3- is reduced to NO while the silver is deposited.",
-    "Ag is the reducing agent because it accepts electrons from the copper."
-   ],
-   "ans": "C",
-   "exp": "Electrons pass from Cu (0 to +2, so copper is oxidised and is the reducing agent) to Ag+ (+1 to 0, reduced, so Ag+ is the oxidising agent). Nitrate is a spectator ion and is unchanged.",
-   "perm": [
-    1,
-    0,
-    4,
-    3,
-    2
-   ],
-   "shuffleSafe": true,
-   "shuffleUnsafeReason": null,
-   "topic": "Redox",
-   "lik": "H"
-  },
-  {
-   "n": 35,
-   "stem": "According to VSEPR theory, what are the shape of the ammonia molecule, NH3, and the approximate H-N-H bond angle?",
-   "options": [
-    "bent, about 104.5 degrees",
-    "trigonal pyramidal, about 107 degrees",
-    "tetrahedral, about 109.5 degrees",
-    "trigonal planar, about 120 degrees",
-    "linear, about 180 degrees"
+    "neutral, because it is a salt and salts do not affect pH.",
+    "acidic, because NH₄⁺ donates a proton to water.",
+    "basic, because Cl⁻ is a strong base.",
+    "basic, because NH₄⁺ releases hydroxide ions.",
+    "impossible to classify without knowing the concentration."
    ],
    "ans": "B",
-   "exp": "Nitrogen has four electron domains (three bonding pairs and one lone pair) in a roughly tetrahedral arrangement; the lone pair repels more strongly, so the molecule is a trigonal pyramid with the H-N-H angle compressed from 109.5 to about 107 degrees. 104.5 degrees is the angle in water, which has two lone pairs.",
+   "exp": "NH₄⁺ is the conjugate acid of the weak base ammonia and releases a proton to water, generating H₃O⁺, while Cl⁻, the conjugate base of a strong acid, is a spectator, so the solution is acidic. The concentration changes how acidic the solution is but not the direction of the effect.",
    "perm": [
-    1,
     2,
-    4,
     0,
+    1,
+    4,
     3
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Bonding",
-   "lik": "H"
+   "topic": "Chem · salt hydrolysis (weak base salt)",
+   "lik": "M"
   },
   {
-   "n": 36,
-   "stem": "Water (Mr 18) boils at 100 °C, whereas hydrogen sulfide (Mr 34) boils at about -60 °C. Which statement explains this difference?",
+   "n": 35,
+   "stem": "A solid substance does not conduct electricity at all, but the same substance in the molten state conducts well. The substance is most likely:",
    "options": [
-    "Water molecules are held together by ionic bonds between H+ and OH- ions.",
-    "Hydrogen sulfide molecules form hydrogen bonds with each other, while water molecules cannot.",
-    "Water boils higher because breaking the strong O-H covalent bonds inside its molecules requires more energy than breaking S-H bonds.",
-    "Water molecules attract one another through hydrogen bonds, which are much stronger than the dipole-dipole and London forces present in liquid hydrogen sulfide.",
-    "Hydrogen sulfide in fact boils higher than water because it has the larger molar mass."
+    "copper.",
+    "sulfur.",
+    "silicon dioxide.",
+    "sodium chloride.",
+    "glucose."
    ],
    "ans": "D",
-   "exp": "Hydrogen bonded to the very electronegative oxygen allows hydrogen bonding between water molecules; sulfur is not electronegative enough, so H2S relies only on weaker dipole-dipole and London forces despite its greater mass. Option C confuses intramolecular covalent bonds with the intermolecular forces broken on boiling.",
+   "exp": "In an ionic solid the ions are fixed in the lattice and cannot carry charge, but melting frees them to move, which is exactly the behaviour described. Copper conducts as a solid because of its delocalised electrons, while sulfur, silicon dioxide and glucose neither conduct as solids nor as melts.",
    "perm": [
+    3,
     1,
     4,
     0,
+    2
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · bonding and conductivity (ionic solids)",
+   "lik": "M"
+  },
+  {
+   "n": 36,
+   "stem": "Which of the following bonds is the most polar? (Pauling electronegativities: H = 2.20, C = 2.55, N = 3.04, O = 3.44, Cl = 3.16)",
+   "options": [
+    "C–O",
+    "C–N",
+    "C–Cl",
+    "C–H",
+    "C–C"
+   ],
+   "ans": "A",
+   "exp": "Polarity grows with the electronegativity difference between the bonded atoms, and oxygen differs most from carbon among the partners listed, so C–O is the most polar bond. Chlorine and nitrogen follow, C–H is only weakly polar, and C–C joins identical atoms and is non-polar.",
+   "perm": [
+    2,
+    0,
+    4,
+    1,
+    3
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · bond polarity (electronegativity)",
+   "lik": "M"
+  },
+  {
+   "n": 37,
+   "stem": "What is the average oxidation number of sulfur in sodium thiosulfate, Na₂S₂O₃?",
+   "options": [
+    "−2",
+    "0",
+    "+2",
+    "+4",
+    "+6"
+   ],
+   "ans": "C",
+   "exp": "With sodium at +1 (two atoms) and oxygen at −2 (three atoms), the two sulfur atoms must together contribute +2, giving an average of +2 per sulfur. The value +6 belongs to sulfur in sulfate and −2 to sulfide, neither of which matches this ion.",
+   "perm": [
+    0,
+    1,
+    4,
     3,
     2
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Bonding",
-   "lik": "H"
-  },
-  {
-   "n": 37,
-   "stem": "10 cm3 of a 1.0 x 10^-2 mol/dm3 solution of hydrochloric acid, which is fully ionised in water, is diluted with water to 100 cm3. Then 10 cm3 of this diluted solution is further diluted with water to 1000 cm3. What is the pH of the final solution?",
-   "options": [
-    "2",
-    "3",
-    "4",
-    "5",
-    "9"
-   ],
-   "ans": "D",
-   "exp": "First dilution is tenfold: c = 1.0 x 10^-2 / 10 = 1.0 x 10^-3 mol/dm3. Second dilution takes 10 cm3 to 1000 cm3, a hundredfold: c = 1.0 x 10^-5 mol/dm3. Since HCl is fully ionised, [H+] = 1.0 x 10^-5 mol/dm3 and pH = 5. (Option B stops after the first dilution; option E is the pOH.)",
-   "perm": [
-    0,
-    1,
-    2,
-    3,
-    4
-   ],
-   "shuffleSafe": true,
-   "shuffleUnsafeReason": null,
-   "topic": "Acids & bases",
+   "topic": "Chem · oxidation numbers (average value)",
    "lik": "H"
   },
   {
    "n": 38,
-   "stem": "Aqueous ethanoic acid is at equilibrium: CH3COOH(aq) <=> H+(aq) + CH3COO-(aq). The solution is diluted with pure water at constant temperature. Which of the following statements is correct?",
+   "stem": "In the reaction 2Mg + CO₂ → 2MgO + C, which species is oxidised?",
    "options": [
-    "The degree of dissociation decreases, because there are fewer acid molecules per unit volume.",
-    "The value of Ka decreases in proportion to the dilution.",
-    "The degree of dissociation increases, but the concentrations of all species fall, so the pH rises.",
-    "The pH falls, because dilution causes more H+ ions to be produced.",
-    "The equilibrium shifts to the left, towards undissociated CH3COOH."
+    "Carbon, because its oxidation number falls from +4 to 0.",
+    "Oxygen, because it changes partner.",
+    "CO₂, because it loses oxygen atoms.",
+    "Both magnesium and carbon are oxidised.",
+    "Magnesium, because its oxidation number rises from 0 to +2."
    ],
-   "ans": "C",
-   "exp": "Dilution lowers the concentration of dissolved species, so the equilibrium shifts towards the side with the larger number of solute particles: the degree of dissociation increases. However, [H+] still falls, so the pH rises. Ka is a constant that depends only on temperature, not on concentration.",
+   "ans": "E",
+   "exp": "Oxidation means an increase in oxidation number, and magnesium goes from 0 in the element to +2 in MgO, losing two electrons that reduce the carbon of CO₂. Carbon falling from +4 to 0 is reduction, and oxygen switching partners is not by itself a redox change.",
    "perm": [
-    4,
     3,
     2,
+    4,
     0,
     1
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Acids & bases",
-   "lik": "H"
+   "topic": "Chem · redox (identifying oxidation)",
+   "lik": "M"
   },
   {
    "n": 39,
-   "stem": "Serine is an alpha-amino acid whose side chain is -CH2OH. Which set of functional groups is present in a molecule of serine?",
+   "stem": "Which of the following compounds is a ketone?",
    "options": [
-    "amino, carboxyl and thiol",
-    "amino, carboxyl and hydroxyl",
-    "amino, carboxyl and amide",
-    "carboxyl, hydroxyl and ester",
-    "amino, hydroxyl and keto"
+    "Propanal",
+    "Propan-1-ol",
+    "Propanoic acid",
+    "Propanone",
+    "Methanal"
    ],
-   "ans": "B",
-   "exp": "Every amino acid contains an amino group (-NH2) and a carboxyl group (-COOH) on the alpha carbon; serine's side chain adds a hydroxyl group (-CH2OH). A thiol side chain belongs to cysteine and an amide side chain to asparagine.",
+   "ans": "D",
+   "exp": "Propanone, CH₃COCH₃, carries its carbonyl group on a carbon within the chain, which is the defining feature of a ketone. Propanal and methanal are aldehydes with the carbonyl at the end of the chain, propan-1-ol is an alcohol and propanoic acid is a carboxylic acid.",
    "perm": [
-    2,
     1,
-    3,
+    2,
     0,
+    3,
     4
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Organic chemistry",
+   "topic": "Chem · organic functional groups (ketones)",
    "lik": "M"
   },
   {
    "n": 40,
-   "stem": "But-1-ene and but-2-ene are structural isomers with the molecular formula C4H8. Which of the following statements is correct?",
+   "stem": "Which of the following pairs contains only monosaccharides?",
    "options": [
-    "Both alkenes can exist as cis and trans isomers.",
-    "Neither alkene shows cis-trans isomerism because their C=C bonds rotate freely.",
-    "Only but-1-ene shows cis-trans isomerism, because its double bond is at the end of the carbon chain.",
-    "But-2-ene shows cis-trans isomerism because rotation about its C=C double bond is completely free.",
-    "Only but-2-ene can exist as cis and trans isomers, because in but-1-ene one carbon of the C=C double bond carries two identical hydrogen atoms."
+    "glucose and sucrose",
+    "maltose and fructose",
+    "lactose and galactose",
+    "glucose and fructose",
+    "starch and cellulose"
    ],
-   "ans": "E",
-   "exp": "Restricted rotation about the C=C bond gives cis-trans isomerism only when each double-bond carbon carries two different groups. In but-1-ene, CH2=CH-CH2-CH3, the terminal carbon has two identical hydrogens, so no cis-trans pair exists; in but-2-ene each double-bond carbon has one H and one CH3, so both cis and trans forms exist.",
+   "ans": "D",
+   "exp": "Glucose, fructose and galactose are single sugar units, whereas sucrose, maltose and lactose are disaccharides built from two such units, and starch and cellulose are polysaccharides. Only the glucose and fructose pair consists of two monosaccharides.",
    "perm": [
-    3,
-    0,
-    1,
-    2,
-    4
-   ],
-   "shuffleSafe": true,
-   "shuffleUnsafeReason": null,
-   "topic": "Organic chemistry",
-   "lik": "M"
-  },
-  {
-   "n": 41,
-   "stem": "Sodium, magnesium and aluminium are consecutive elements in the third period of the periodic table. Which statement is correct?",
-   "options": [
-    "Their atomic radii increase from sodium to aluminium because each atom contains more electrons.",
-    "Their atomic radii decrease from sodium to aluminium because nuclear charge increases while the outer electrons remain in the same shell.",
-    "Their first ionisation energies decrease from sodium to aluminium because the atoms become heavier.",
-    "Aluminium is the least electronegative of the three because metallic character increases across a period.",
-    "Sodium has the smallest atomic radius of the three because it has the fewest electrons."
-   ],
-   "ans": "B",
-   "exp": "Across period 3 the nuclear charge rises from 11 to 13 while the outer electrons enter the same third shell, so the pull on the outer electrons increases and the radii shrink: Na > Mg > Al. First ionisation energy and electronegativity increase across the period, so sodium is the least electronegative.",
-   "perm": [
-    0,
-    1,
     4,
     3,
+    0,
+    1,
     2
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Periodic table",
+   "topic": "Chem · carbohydrates (mono- vs di- vs polysaccharides)",
    "lik": "M"
   },
   {
-   "n": 42,
-   "stem": "A fixed mass of an ideal gas occupies 6.0 dm3 at 27 °C and 150 kPa. What volume will the same mass of gas occupy at 127 °C and 100 kPa?",
+   "n": 41,
+   "stem": "What amount of oxygen, in moles, is required for the complete combustion of 0.5 mol of propane? (C₃H₈ + 5O₂ → 3CO₂ + 4H₂O)",
    "options": [
-    "3.0 dm3",
-    "6.0 dm3",
-    "8.0 dm3",
-    "9.0 dm3",
-    "12.0 dm3"
+    "0.5 mol",
+    "1.5 mol",
+    "2.0 mol",
+    "2.5 mol",
+    "5.0 mol"
    ],
-   "ans": "E",
-   "exp": "V2 = V1 x T2/T1 x P1/P2 = 6.0 x 400/300 x 150/100 = 12.0 dm3, with temperatures in kelvin (27 °C = 300 K, 127 °C = 400 K). Option C applies only the temperature change and option D only the pressure change; option A inverts both ratios.",
+   "ans": "D",
+   "exp": "The balanced equation uses 5 mol of O₂ per mol of propane, so 0.5 mol requires 2.5 mol of oxygen. The values 1.5 and 2.0 mol are the amounts of CO₂ and of H₂O formed, not of oxygen consumed.",
    "perm": [
     0,
     1,
@@ -1050,213 +1026,237 @@
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Gas laws",
-   "lik": "M"
+   "topic": "Chem · stoichiometry (combustion oxygen demand)",
+   "lik": "H"
+  },
+  {
+   "n": 42,
+   "stem": "What mass of water is produced when 4.0 g of methane burns completely in excess oxygen? (CH₄ + 2O₂ → CO₂ + 2H₂O; molar masses: CH₄ = 16 g/mol, H₂O = 18 g/mol)",
+   "options": [
+    "4.5 g",
+    "8.0 g",
+    "9.0 g",
+    "18.0 g",
+    "36.0 g"
+   ],
+   "ans": "C",
+   "exp": "4.0 g of methane is 0.25 mol, and each mole of methane yields 2 mol of water, giving 0.5 mol, that is 9.0 g. The 4.5 g option forgets the factor of 2 in the equation and the larger values lose track of the mole amount of methane.",
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · stoichiometry (mass of product)",
+   "lik": "H"
   },
   {
    "n": 43,
-   "stem": "Nitrogen dioxide dimerises: 2NO2(g) <=> N2O4(g), with delta H = -57 kJ/mol for the forward reaction. An equilibrium mixture of the two gases is heated at constant volume. Which statement is correct?",
+   "stem": "Going from left to right across a period of the periodic table, the first ionisation energy of the elements generally:",
    "options": [
-    "The equilibrium shifts towards NO2 and the value of Kc increases.",
-    "The equilibrium shifts towards N2O4 and the value of Kc increases.",
-    "The equilibrium shifts towards N2O4 and the value of Kc stays the same.",
-    "The equilibrium shifts towards NO2 and the value of Kc decreases.",
-    "The position of equilibrium does not change; only the rates of the forward and reverse reactions increase."
+    "increases, because nuclear charge rises while the outer electrons enter the same shell.",
+    "decreases, because the atoms become heavier.",
+    "remains constant, because the shell number does not change.",
+    "increases, because the atomic radius increases.",
+    "decreases, because the outer electron lies further from the nucleus."
    ],
-   "ans": "D",
-   "exp": "Raising the temperature favours the endothermic direction, which here is the reverse reaction (towards brown NO2), so the mixture shifts towards NO2. Kc changes only with temperature, and for a forward reaction that is exothermic its value decreases on heating.",
+   "ans": "A",
+   "exp": "Across a period, protons are added to the nucleus while the outer electrons occupy the same shell, so attraction on the outer electron grows and more energy is needed to remove it. Atomic radius in fact decreases across a period, so the claims based on growing radius are wrong.",
    "perm": [
+    0,
+    2,
+    3,
+    4,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · periodicity (ionisation energy trend)",
+   "lik": "M"
+  },
+  {
+   "n": 44,
+   "stem": "The maximum number of electrons that the 3p sublevel can hold is:",
+   "options": [
+    "2",
+    "3",
+    "6",
+    "8",
+    "10"
+   ],
+   "ans": "C",
+   "exp": "A p sublevel contains three orbitals, each holding two electrons of opposite spin, giving 6 in total. The value 2 is the capacity of a single orbital, 8 is the total for the whole second shell and 10 is the capacity of a d sublevel.",
+   "perm": [
+    0,
     1,
     2,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · atomic structure (sublevel capacity)",
+   "lik": "M"
+  },
+  {
+   "n": 45,
+   "stem": "The industrial synthesis of ammonia is exothermic: N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH < 0. Which set of conditions gives the highest equilibrium yield of NH₃?",
+   "options": [
+    "High temperature and low pressure",
+    "High temperature and high pressure",
+    "Low temperature and low pressure",
+    "Any temperature, provided a catalyst is used",
+    "Low temperature and high pressure"
+   ],
+   "ans": "E",
+   "exp": "The forward reaction converts 4 mol of gas into 2, so high pressure pushes the equilibrium towards ammonia, and because the reaction is exothermic, low temperature favours the products. A catalyst speeds both directions equally and changes the rate of reaching equilibrium, never its position.",
+   "perm": [
+    4,
+    3,
+    0,
+    2,
+    1
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · equilibrium (Le Chatelier on ammonia synthesis)",
+   "lik": "H"
+  },
+  {
+   "n": 46,
+   "stem": "Adding a catalyst to a reversible reaction already at equilibrium:",
+   "options": [
+    "raises the activation energy of the forward reaction only.",
+    "lowers the activation energies of forward and reverse reactions and does not shift the position of equilibrium.",
+    "shifts the equilibrium position towards the products.",
+    "increases the enthalpy change of the reaction.",
+    "increases the concentrations of the reactants."
+   ],
+   "ans": "B",
+   "exp": "A catalyst offers an alternative path of lower activation energy for both directions, so forward and reverse rates rise equally and the equilibrium composition stays the same. Since the enthalpy change depends only on initial and final states, it is untouched, and no concentration is altered.",
+   "perm": [
+    2,
+    1,
+    0,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · kinetics (catalysts and equilibrium)",
+   "lik": "M"
+  },
+  {
+   "n": 47,
+   "stem": "The compound CuSO₄ is correctly named:",
+   "options": [
+    "copper(II) sulfate.",
+    "copper(I) sulfate.",
+    "copper(II) sulfite.",
+    "copper(II) sulfide.",
+    "copper(I) sulfide."
+   ],
+   "ans": "A",
+   "exp": "The sulfate ion SO₄²⁻ carries a double charge, so the single copper ion in the formula must be Cu²⁺, giving copper(II) sulfate. Sulfite is SO₃²⁻ with one oxygen fewer, sulfide is the simple S²⁻ ion, and copper(I) would require the formula Cu₂SO₄.",
+   "perm": [
+    2,
+    1,
+    0,
+    3,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Chem · nomenclature (Stock system)",
+   "lik": "M"
+  },
+  {
+   "n": 48,
+   "stem": "The set of real solutions of the inequality x² + 2x + 5 ≤ 0 is:",
+   "options": [
+    "the empty set.",
+    "the set of all real numbers.",
+    "x ≤ −1.",
+    "only x = −1.",
+    "x ≥ −1."
+   ],
+   "ans": "A",
+   "exp": "The discriminant is 2² − 4 × 1 × 5 = −16, which is negative, so the upward-opening parabola never touches or crosses the x-axis and the expression is always positive, leaving no real solution. The value x = −1 is only the vertex position and does not satisfy the inequality.",
+   "perm": [
+    2,
+    1,
     4,
     3,
     0
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Equilibrium",
-   "lik": "M"
-  },
-  {
-   "n": 44,
-   "stem": "Which of the following statements about the bonding in benzene, C6H6, is correct?",
-   "options": [
-    "Benzene contains three separate C=C double bonds alternating with single bonds, which explains why it reacts mainly by addition.",
-    "The benzene ring is non-planar, with its pi electrons localised on alternating carbon atoms.",
-    "The six carbon atoms form a planar ring with six delocalised pi electrons spread over the whole ring, making all six C-C bonds equivalent and intermediate in length between single and double bonds.",
-    "All six C-C bonds in benzene are single bonds, and the sixth valence electron of each carbon moves freely like the electrons of a metal.",
-    "Benzene undergoes addition in preference to substitution because addition preserves the delocalised system."
-   ],
-   "ans": "C",
-   "exp": "Each carbon is sp2 hybridised and contributes one electron to a pi system delocalised over all six carbons, so the ring is planar with six identical C-C bonds of about 139 pm. Because delocalisation stabilises the ring, benzene reacts by substitution, which preserves the aromatic system, rather than by addition, which would destroy it.",
-   "perm": [
-    2,
-    4,
-    0,
-    3,
-    1
-   ],
-   "shuffleSafe": true,
-   "shuffleUnsafeReason": null,
-   "topic": "Aromatic compounds",
-   "lik": "M"
-  },
-  {
-   "n": 45,
-   "stem": "For a given reversible reaction, the value of the equilibrium constant Kc is changed by which of the following?",
-   "options": [
-    "A change in temperature.",
-    "Adding a catalyst.",
-    "Increasing the concentration of a reactant.",
-    "Increasing the total pressure.",
-    "Adding an inert gas at constant volume."
-   ],
-   "ans": "A",
-   "exp": "Only temperature changes the value of Kc. Concentration, pressure and inert-gas additions can shift the equilibrium position but leave Kc unchanged. A catalyst offers an alternative route of lower activation energy and accelerates the forward and reverse reactions equally, so it changes neither the position of equilibrium nor Kc.",
-   "perm": [
-    4,
-    1,
-    0,
-    3,
-    2
-   ],
-   "shuffleSafe": true,
-   "shuffleUnsafeReason": null,
-   "topic": "Kinetics",
-   "lik": "M"
-  },
-  {
-   "n": 46,
-   "stem": "What is the chemical formula of iron(III) sulfate?",
-   "options": [
-    "FeSO4",
-    "Fe2(SO4)3",
-    "Fe(SO4)3",
-    "Fe3(SO4)2",
-    "Fe2S3"
-   ],
-   "ans": "B",
-   "exp": "Iron(III) is Fe3+ and sulfate is SO4^2-; the least common multiple of the charges is 6, giving two Fe3+ ions for three sulfate ions: Fe2(SO4)3. FeSO4 is iron(II) sulfate, and Fe2S3 wrongly treats sulfate as separate S and O atoms.",
-   "perm": [
-    1,
-    2,
-    0,
-    3,
-    4
-   ],
-   "shuffleSafe": true,
-   "shuffleUnsafeReason": null,
-   "topic": "Nomenclature",
-   "lik": "M"
-  },
-  {
-   "n": 47,
-   "stem": "Naturally occurring potassium contains the radioactive isotope potassium-40. How many neutrons are there in one atom of potassium-40? (Potassium has atomic number 19.)",
-   "options": [
-    "19",
-    "20",
-    "21",
-    "40",
-    "59"
-   ],
-   "ans": "C",
-   "exp": "The number of neutrons is the mass number minus the atomic number: 40 - 19 = 21. Option A is the number of protons and option D is the mass number itself; potassium-39 would have 20 neutrons.",
-   "perm": [
-    0,
-    1,
-    2,
-    3,
-    4
-   ],
-   "shuffleSafe": true,
-   "shuffleUnsafeReason": null,
-   "topic": "Atomic structure",
-   "lik": "M"
-  },
-  {
-   "n": 48,
-   "stem": "Solve the inequality sqrt(2x - 5) < 9.",
-   "options": [
-    "x < 43",
-    "x <= 43",
-    "x >= 5/2",
-    "5/2 <= x < 43",
-    "5/2 < x < 43"
-   ],
-   "ans": "D",
-   "exp": "Domain: 2x - 5 >= 0, so x >= 5/2. Both sides are non negative, so square: 2x - 5 < 81, giving x < 43. Together: 5/2 <= x < 43. The endpoint 5/2 is allowed because sqrt(0) = 0 < 9.",
-   "perm": [
-    1,
-    0,
-    4,
-    2,
-    3
-   ],
-   "shuffleSafe": true,
-   "shuffleUnsafeReason": null,
-   "topic": "Inequalities",
+   "topic": "Maths · quadratic inequalities (empty solution set)",
    "lik": "H"
   },
   {
    "n": 49,
-   "stem": "Solve the inequality cos(x) <= 1/2 for 0 <= x <= 2pi.",
+   "stem": "Solve the inequality 5x − 3 < 2x + 9.",
    "options": [
-    "pi/3 < x < 5pi/3",
-    "0 <= x <= pi/3 or 5pi/3 <= x <= 2pi",
-    "pi/3 <= x <= 2pi/3",
-    "2pi/3 <= x <= 4pi/3",
-    "pi/3 <= x <= 5pi/3"
+    "x < 4",
+    "x > 4",
+    "x < 2",
+    "x > 2",
+    "x < 12"
    ],
-   "ans": "E",
-   "exp": "cos(x) = 1/2 at x = pi/3 and x = 5pi/3, and between these values on [0, 2pi] the cosine falls below 1/2 (at x = pi, cos = -1). So the solution is pi/3 <= x <= 5pi/3.",
+   "ans": "A",
+   "exp": "Moving the x terms to one side gives 3x < 12, and dividing by the positive number 3 keeps the sense of the inequality, so x < 4. No sign flip occurs because the divisor is positive, and the x < 12 option forgets to divide.",
    "perm": [
+    3,
+    1,
     2,
     0,
-    1,
+    4
+   ],
+   "shuffleSafe": true,
+   "shuffleUnsafeReason": null,
+   "topic": "Maths · linear inequalities",
+   "lik": "M"
+  },
+  {
+   "n": 50,
+   "stem": "The equation x² − 5x + k = 0 has one root equal to 2. The value of k is:",
+   "options": [
+    "−6",
+    "2",
+    "4",
+    "6",
+    "10"
+   ],
+   "ans": "D",
+   "exp": "Substituting x = 2 gives 4 − 10 + k = 0, so k = 6; the other root is then 3, since the two roots sum to 5. The value 4 copies the square of the given root and 10 copies the middle coefficient.",
+   "perm": [
     4,
+    0,
+    2,
+    1,
     3
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Trigonometry",
-   "lik": "H"
-  },
-  {
-   "n": 50,
-   "stem": "In a survey of 100 tourists visiting Rome, 62 say they will visit the Colosseum, 55 say they will visit the Vatican Museums, and 17 say they will visit neither of the two. How many of the tourists will visit both attractions?",
-   "options": [
-    "17",
-    "28",
-    "34",
-    "38",
-    "117"
-   ],
-   "ans": "C",
-   "exp": "Visiting at least one: 100 - 17 = 83. Inclusion-exclusion: both = 62 + 55 - 83 = 34.",
-   "perm": [
-    0,
-    1,
-    2,
-    3,
-    4
-   ],
-   "shuffleSafe": true,
-   "shuffleUnsafeReason": null,
-   "topic": "Sets",
-   "lik": "H"
+   "topic": "Maths · quadratic equations (using a known root)",
+   "lik": "M"
   },
   {
    "n": 51,
-   "stem": "The polynomial P(x) = x^3 + ax + b is exactly divisible by (x - 1), and when P(x) is divided by (x + 2) the remainder is 6. What is the value of a?",
+   "stem": "If A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, how many elements does A ∪ B contain?",
    "options": [
-    "-5",
-    "-3",
-    "1",
     "4",
-    "5"
+    "5",
+    "6",
+    "7",
+    "8"
    ],
-   "ans": "A",
-   "exp": "Remainder theorem: P(1) = 1 + a + b = 0 and P(-2) = -8 - 2a + b = 6. Subtracting the second from the first: 9 + 3a = -6, so a = -5 (and b = 4). Check with x^3 - 5x + 4: P(1) = 0, P(-2) = 6.",
+   "ans": "C",
+   "exp": "The union collects every element of both sets, with the shared elements 3 and 4 counted once, giving {1, 2, 3, 4, 5, 6}, that is 6 elements. The value 8 forgets the overlap and the value 4 counts only one set.",
    "perm": [
     0,
     1,
@@ -1266,45 +1266,45 @@
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Polynomials",
-   "lik": "H"
+   "topic": "Maths · sets (union cardinality)",
+   "lik": "M"
   },
   {
    "n": 52,
-   "stem": "A triangle has perimeter 72 cm and its side lengths are in the ratio 3 : 4 : 5. What is the area of the triangle?",
+   "stem": "The product (2x − 3)(x + 5) is equal to:",
    "options": [
-    "108 cm2",
-    "216 cm2",
-    "270 cm2",
-    "360 cm2",
-    "432 cm2"
+    "2x² − 7x − 15",
+    "2x² + 7x + 15",
+    "2x² + 13x − 15",
+    "x² + 7x − 15",
+    "2x² + 7x − 15"
    ],
-   "ans": "B",
-   "exp": "3 + 4 + 5 = 12 parts, each 72/12 = 6 cm, so the sides are 18, 24 and 30 cm. Since 18^2 + 24^2 = 30^2, the triangle is right angled, so area = (18)(24)/2 = 216 cm2.",
+   "ans": "E",
+   "exp": "Multiplying term by term gives 2x² + 10x − 3x − 15, and combining the middle terms gives 2x² + 7x − 15. The 13x option adds 10x and 3x instead of subtracting, and the sign errors on the constant or the leading coefficient produce the other wrong forms.",
    "perm": [
-    0,
-    1,
-    2,
     3,
-    4
+    4,
+    1,
+    0,
+    2
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Geometry",
-   "lik": "H"
+   "topic": "Maths · expanding brackets",
+   "lik": "M"
   },
   {
    "n": 53,
-   "stem": "Marco is 26 years old and his sister Elisa is 14 years old. After how many years will Marco be exactly one and a half times as old as Elisa?",
+   "stem": "A rectangle's length is 3 cm greater than its width, and its perimeter is 26 cm. Its width is:",
    "options": [
-    "2",
-    "5",
-    "10",
-    "12",
-    "24"
+    "4 cm",
+    "5 cm",
+    "6 cm",
+    "8 cm",
+    "10 cm"
    ],
-   "ans": "C",
-   "exp": "26 + x = 1.5(14 + x) gives 26 + x = 21 + 1.5x, so 0.5x = 5 and x = 10. Check: after 10 years, 36 = 1.5 x 24.",
+   "ans": "B",
+   "exp": "Writing w for the width, the perimeter is 2(w + w + 3) = 26, so 2w + 3 = 13 and w = 5, with length 8. The 8 cm option reports the length rather than the width.",
    "perm": [
     0,
     1,
@@ -1314,21 +1314,21 @@
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Algebra",
-   "lik": "H"
+   "topic": "Maths · geometry (rectangle perimeter)",
+   "lik": "L"
   },
   {
    "n": 54,
-   "stem": "Solve the equation 3^(x+3) = 9^(x-1).",
+   "stem": "If sin θ = 0.6 and θ is an acute angle, then cos θ is:",
    "options": [
-    "-5",
-    "1",
-    "3",
-    "5",
-    "7"
+    "0.36",
+    "0.4",
+    "0.6",
+    "0.8",
+    "1.0"
    ],
    "ans": "D",
-   "exp": "Write both sides as powers of 3: 9^(x-1) = 3^(2x-2). Then x + 3 = 2x - 2, so x = 5. Check: 3^8 = 6561 and 9^4 = 6561.",
+   "exp": "From sin²θ + cos²θ = 1, cos²θ = 1 − 0.36 = 0.64, and because θ is acute the cosine is positive, cos θ = 0.8. The value 0.36 is sin²θ itself and 0.4 is double the true shortfall.",
    "perm": [
     0,
     1,
@@ -1338,45 +1338,45 @@
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Algebra",
-   "lik": "H"
+   "topic": "Maths · trigonometry (Pythagorean identity)",
+   "lik": "M"
   },
   {
    "n": 55,
-   "stem": "On a straight motorway a car travels at a constant 108 km/h. A truck ahead travels in the same direction at a constant 25 m/s. At one instant the truck is 100 m in front of the car. How long does it take the car to draw level with the truck?",
+   "stem": "A car travels along a straight motorway at a constant 90 km/h, following a truck that travels at a constant 72 km/h and is 2.0 km ahead. After 5 minutes, which statement is correct?",
    "options": [
-    "3.3 s",
-    "4 s",
-    "10 s",
-    "20 s",
-    "33 s"
+    "The car has overtaken the truck.",
+    "The car has not yet caught the truck.",
+    "The car has drawn exactly level with the truck.",
+    "The car will never catch the truck.",
+    "The car needs more than a further hour to catch the truck."
    ],
-   "ans": "D",
-   "exp": "Convert: 108 km/h = 108/3.6 = 30 m/s. Relative speed = 30 - 25 = 5 m/s. Time to close 100 m: t = 100/5 = 20 s.",
+   "ans": "B",
+   "exp": "The gap closes at the relative speed of 90 − 72 = 18 km/h, so in 5 minutes, one twelfth of an hour, the car gains 18/12 = 1.5 km and still trails by 0.5 km. Closing the full 2.0 km takes 2.0/18 of an hour, about 6.7 minutes in total, so the car is close but not yet level.",
    "perm": [
-    0,
-    1,
-    2,
     3,
-    4
+    2,
+    4,
+    1,
+    0
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Kinematics",
-   "lik": "H"
+   "topic": "Physics · uniform motion (pursuit)",
+   "lik": "M"
   },
   {
    "n": 56,
-   "stem": "A 60 V battery of negligible internal resistance is connected to an 8 Ω resistor in series with a parallel combination of a 20 Ω resistor and a 30 Ω resistor. What current does the battery supply?",
+   "stem": "A circuit contains two resistors of 6 Ω each connected in parallel, and this pair is connected in series with a single 3 Ω resistor. The equivalent resistance of the whole network is:",
    "options": [
-    "2 A",
-    "3 A",
-    "4 A",
-    "5 A",
-    "7.5 A"
+    "2 Ω",
+    "3 Ω",
+    "6 Ω",
+    "9 Ω",
+    "15 Ω"
    ],
-   "ans": "B",
-   "exp": "Parallel pair: (20 x 30)/(20 + 30) = 12 Ω. Total resistance = 8 + 12 = 20 Ω. I = V/R = 60/20 = 3 A.",
+   "ans": "C",
+   "exp": "The two equal 6 Ω resistors in parallel give 6/2 = 3 Ω, and adding the series resistor gives 3 + 3 = 6 Ω. The 15 Ω option treats the parallel pair as a series pair, giving 12 + 3, and the 9 Ω option uses a single 6 Ω in series with 3 Ω.",
    "perm": [
     0,
     1,
@@ -1386,45 +1386,45 @@
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Electricity",
+   "topic": "Physics · circuits (series-parallel network)",
    "lik": "H"
   },
   {
    "n": 57,
-   "stem": "A current is passed through molten potassium chloride held between two electrodes. Which one of the following statements is correct?",
+   "stem": "A wire of uniform material is replaced by a new wire that is twice as long and has half the cross-sectional area. Compared with the original wire, the resistance of the new wire is:",
    "options": [
-    "The K+ ions drift toward the positive electrode and the Cl- ions toward the negative electrode.",
-    "The direction of the conventional current in the liquid is the direction of drift of the positive ions.",
-    "The conventional current in the liquid is carried only by the negative ions.",
-    "The positive ions and the negative ions drift in the same direction.",
-    "No current can flow, because the ions of a molten salt are not free to move."
+    "unchanged.",
+    "double.",
+    "half.",
+    "four times greater.",
+    "four times smaller."
    ],
-   "ans": "B",
-   "exp": "In the liquid, K+ ions drift toward the negative electrode (cathode) and Cl- ions toward the positive electrode (anode); option A reverses these destinations. Conventional current is defined as the direction of positive charge flow, so it points along the drift of the K+ ions. Both ion species contribute to the current.",
+   "ans": "D",
+   "exp": "Resistance is proportional to length and inversely proportional to area, R = ρL/A, so doubling L multiplies R by 2 and halving A multiplies it by a further 2, giving four times the original resistance. The unchanged and doubling options each account for only one of the two changes.",
    "perm": [
+    3,
     0,
-    1,
     4,
-    2,
-    3
+    1,
+    2
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Electricity",
+   "topic": "Physics · resistance of a wire (R = ρL/A)",
    "lik": "H"
   },
   {
    "n": 58,
-   "stem": "The acceleration due to gravity at the surface of a planet of radius R is g. At what height h above the surface has the gravitational acceleration fallen to exactly one quarter of its surface value?",
+   "stem": "At what height above the Earth's surface is the acceleration due to gravity equal to one quarter of its value at the surface? (The Earth's radius is R.)",
    "options": [
     "R/4",
     "R/2",
     "R",
     "2R",
-    "3R"
+    "4R"
    ],
    "ans": "C",
-   "exp": "Since g = GM/r^2, the acceleration is proportional to 1/r^2. To reduce g by a factor of 4, the distance from the centre must double: r = 2R. Height above the surface: h = 2R - R = R.",
+   "exp": "Gravitational acceleration falls as the inverse square of the distance from the Earth's centre, so quartering g requires doubling that distance from R to 2R, which means a height of one radius, R, above the surface. The answers R/2 and 2R come from inverting or misplacing the square.",
    "perm": [
     0,
     4,
@@ -1434,21 +1434,21 @@
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Gravitation",
-   "lik": "H"
+   "topic": "Physics · gravitation (field at height)",
+   "lik": "M"
   },
   {
    "n": 59,
-   "stem": "A 10 kg box is pulled along a horizontal floor by a horizontal force of 60 N. The coefficient of kinetic friction between the box and the floor is 0.40. What is the acceleration of the box? (g = 10 m/s2)",
+   "stem": "A car of mass 1.5 × 10³ kg accelerates along a level road at 2.0 m/s² against a constant frictional force of 500 N. The force the engine must exert is:",
    "options": [
-    "0.4 m/s2",
-    "2 m/s2",
-    "5.6 m/s2",
-    "6 m/s2",
-    "20 m/s2"
+    "500 N",
+    "2500 N",
+    "3000 N",
+    "3500 N",
+    "4000 N"
    ],
-   "ans": "B",
-   "exp": "Normal force N = mg = 10 x 10 = 100 N. Friction = 0.40 x 100 = 40 N. Net force = 60 - 40 = 20 N. a = F/m = 20/10 = 2 m/s2.",
+   "ans": "D",
+   "exp": "Newton's second law gives the net force as ma = 1500 × 2.0 = 3000 N, and the engine must also cancel the 500 N of friction, so it exerts 3500 N. The 3000 N option ignores friction, and 2500 N subtracts it from the net force instead of adding it.",
    "perm": [
     0,
     1,
@@ -1458,21 +1458,21 @@
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Dynamics",
+   "topic": "Physics · dynamics (Newton's second law with friction)",
    "lik": "H"
   },
   {
    "n": 60,
-   "stem": "A rectangular drain hatch of area 0.5 m2 lies flat on the bottom of a swimming pool filled to a depth of 4.0 m with water of density 1000 kg/m3. What force does the water exert on the hatch? (g = 10 m/s2; ignore atmospheric pressure.)",
+   "stem": "A swimming pool is 4 m deep. Taking the density of water as 1000 kg/m³ and g = 10 m/s², the gauge pressure of the water at the bottom of the pool is:",
    "options": [
-    "2000 N",
-    "4000 N",
-    "20000 N",
-    "40000 N",
-    "80000 N"
+    "400 Pa",
+    "2500 Pa",
+    "4000 Pa",
+    "40000 Pa",
+    "400000 Pa"
    ],
-   "ans": "C",
-   "exp": "Gauge pressure at the bottom: P = rho g h = 1000 x 10 x 4.0 = 40000 Pa. Force = P x A = 40000 x 0.5 = 20000 N.",
+   "ans": "D",
+   "exp": "Hydrostatic gauge pressure is ρgh = 1000 × 10 × 4 = 40000 Pa. The 4000 Pa option drops one power of ten and 400000 Pa adds one; note that atmospheric pressure is excluded because the question asks for gauge pressure.",
    "perm": [
     0,
     1,
@@ -1482,8 +1482,8 @@
    ],
    "shuffleSafe": true,
    "shuffleUnsafeReason": null,
-   "topic": "Fluids",
-   "lik": "H"
+   "topic": "Physics · fluids (hydrostatic pressure)",
+   "lik": "M"
   }
  ]
 }
