@@ -1,0 +1,312 @@
+{
+  "bank": "imat_mock11_legacy",
+  "solutions": [
+    {
+      "n": 1,
+      "derived": "C",
+      "text": "The passage itself concludes that sleep is not a passive interruption but an active part of how new memories become stable, and the replay, disruption and sleep deprivation findings all build toward exactly that claim. The claim that disrupting replay impairs performance on every task tested is contradicted by the word 'selectively' and by performance on other tasks remaining intact. The suggestion that awake volunteers remember more because less time has passed ignores the design detail that both groups are tested at the same interval after learning, and the sleepers in fact recall more."
+    },
+    {
+      "n": 2,
+      "derived": "C",
+      "text": "The passage states that grid batteries shift surplus electricity across a few hours and have become cheap, but cannot move a summer surplus to a winter deficit because storing electricity for months remains far too expensive, which is precisely the claim that batteries help over hours but not over whole seasons. The opening sentence says renewable output follows the weather rather than demand, so the claim that it follows demand reverses the passage. Despite cheap batteries, the final sentence still lists long duration storage, flexible demand, overbuilt generation and backup plants as necessary, so none of those can be dropped."
+    },
+    {
+      "n": 3,
+      "derived": "A",
+      "text": "The decisive fact: the 1906 Nobel Prize in Physiology or Medicine was shared by Camillo Golgi and the Spanish histologist Santiago Ramón y Cajal for their work on the structure of the nervous system, Golgi for the silver staining 'black reaction' that made individual nerve cells visible and Cajal for using it to establish the neuron doctrine. Pavlov (1904), von Behring (1901) and Koch (1905) won in adjacent years for different work, and Sherrington's share came much later, in 1932."
+    },
+    {
+      "n": 4,
+      "derived": "C",
+      "text": "The decisive fact: at the Milano Cortina 2026 Winter Games Norway finished at the top of the final medal table with a record 18 gold medals and 41 medals in total, extending its run of leading the Winter Games tables from 2018 and 2022. The United States (33 medals) and the Netherlands followed, and the host nation Italy, despite exceeding its own goals, did not lead the table."
+    },
+    {
+      "n": 5,
+      "derived": "D",
+      "text": "Chain the premises: the electric buses in the fleet are electric vehicles, every electric vehicle is exempt from the congestion charge, and no exempt vehicle may use the toll road, so those electric buses certainly may not use the toll road. Since the fleet has some electric buses, some buses in the city fleet are therefore not allowed on the toll road. The claim that every exempt vehicle is electric is an illegitimate reversal of 'all electric vehicles are exempt', and the claim that some electric buses use the toll road contradicts the chain outright. Nothing constrains the non electric buses, so both the claim that they must pay the congestion charge and the stronger claim that no bus may use the toll road go beyond the evidence."
+    },
+    {
+      "n": 6,
+      "derived": "A",
+      "text": "Lena is third and Carmen finished immediately behind her, so Carmen is fourth. Devi finished behind Carmen, and the only place behind fourth is fifth, so Devi is fifth. That leaves first and second for Aisha and Bruno, and since Bruno did not finish first, Aisha won and Bruno was second. The order Aisha, Bruno, Lena, Carmen, Devi is the unique arrangement fitting every clue, so the only statement that must be true is that Bruno finished second; in this order Aisha is first rather than third, Devi is fifth rather than fourth, and Bruno finished behind Aisha, not ahead."
+    },
+    {
+      "n": 7,
+      "derived": "C",
+      "text": "Step 1: subtract the triple overlap from each pairwise figure to get the 'exactly two' counts: swim and sail only = 25 − 10 = 15, swim and archery only = 20 − 10 = 10, sail and archery only = 15 − 10 = 5. Step 2: exactly two activities = 15 + 10 + 5 = 30. Check: the only swimming, only sailing and only archery regions are 20, 20 and 20, and 20 + 20 + 20 + 15 + 10 + 5 + 10 = 100, matching the 100 children. The value 40 counts children doing at least two activities, because it keeps the ten who do all three inside the tally; exactly two requires removing them from every pair."
+    },
+    {
+      "n": 8,
+      "derived": "D",
+      "text": "Step 1: 1 April 2026 was a Wednesday, so counting forward gives 2 April Thursday, 3 Friday, 4 Saturday, 5 Sunday, 6 April Monday: the first Monday is 6 April. Step 2: Mondays recur every seven days, so the Mondays of April 2026 are 6, 13, 20 and 27 April. Step 3: the second Monday is therefore 13 April. The date 6 April is only the first Monday, and 12 April is a Sunday, one day short."
+    },
+    {
+      "n": 9,
+      "derived": "E",
+      "text": "The four squares in the column (5, 1, 3, 6 from top to bottom) fold into a band that wraps around four faces of the cube, and in any such band faces two positions apart end up opposite, so 5 opposes 3 and 1 opposes 6. The two squares attached at the sides of face 1 fold over and end up opposite each other. Hence the face opposite the face numbered 1 carries the number 6. Every other candidate number (2, 3, 4, 5) is the label of a face adjacent to face 1 in the folded cube."
+    },
+    {
+      "n": 10,
+      "derived": "D",
+      "text": "Step 1: helicase unwinds the parental double helix, primase lays the short RNA primers, DNA polymerase can only extend an existing primer (it cannot start a chain), and ligase seals the gaps between adjacent fragments. Step 2: because the two template strands are antiparallel, only one new strand can be made continuously in the direction of fork opening, from a single primer; the other is built in short fragments, each started by its own primer. The claim that helicase makes the primers gives that job to the wrong enzyme (it belongs to primase), and the claim that the leading strand needs a new primer for every fragment describes the lagging strand instead."
+    },
+    {
+      "n": 11,
+      "derived": "E",
+      "text": "RNA polymerase binds the promoter sequence (the terminator instead signals where transcription stops) and initiates RNA synthesis without any primer, unlike DNA polymerase, while reading one DNA strand as the template. The new RNA grows in the 5' to 3' direction, so the claim that synthesis runs 3' to 5' reverses the actual direction. The poly-A tail is not transcribed from the gene; it is added enzymatically to the 3' end of the finished pre-mRNA in the nucleus."
+    },
+    {
+      "n": 12,
+      "derived": "A",
+      "text": "During elongation a tRNA carrying the next amino acid enters at the A (aminoacyl) site of the ribosome and its anticodon base pairs with the mRNA codon exposed there; peptidyl transferase then transfers the growing chain onto it, and tRNAs step through the P (peptidyl) site and leave by the E (exit) site. The initiator tRNA starts in the P site, not the A site, peptide bonds form at the peptidyl transferase centre of the large subunit rather than at the exit site, and the growing chain rides on the P site tRNA, not on newly entering ones. Bacteria can translate an mRNA while it is still being transcribed, but eukaryotes cannot, since their transcription happens in the nucleus and translation in the cytoplasm."
+    },
+    {
+      "n": 13,
+      "derived": "B",
+      "text": "Step 1: mutation 1 changes codon 2 from GCA to GCC, and both codons specify alanine, so it is silent. Step 2: mutation 2 inserts one base after codon 2, shifting the reading frame: the tail UAC GGU UAA now regroups as GUA, CGG, UUA, which encode valine, arginine and leucine in place of tyrosine, glycine and the stop signal, so every amino acid from position 3 changes and translation runs past the old stop. The suggestion that an insertion adds exactly one amino acid or changes only one position confuses an insertion with a substitution; only inserting or deleting a multiple of three bases would leave the downstream reading frame intact."
+    },
+    {
+      "n": 14,
+      "derived": "B",
+      "text": "The testcross parent aabbcc can contribute only recessive alleles, so at each locus the cross is effectively Aa × aa, giving heterozygous offspring with probability 1/2 and homozygous recessive offspring with probability 1/2. The three genes assort independently, so the probabilities multiply: 1/2 × 1/2 × 1/2 = 1/8. The ratio 3/4 belongs to a heterozygote self cross, where three of four offspring show the dominant phenotype, and has no place in a testcross."
+    },
+    {
+      "n": 15,
+      "derived": "D",
+      "text": "An affected child from two unaffected parents proves that both parents are carriers, so each pregnancy gives 1/4 AA, 1/2 Aa and 1/4 aa. Conditioning on the child being healthy removes only the aa class, leaving one AA to two Aa among unaffected offspring, so the probability that the healthy child is a carrier is 2/3. The unconditional carrier risk for any child of carrier parents is 1/2, which ignores the given information that this particular child is unaffected."
+    },
+    {
+      "n": 16,
+      "derived": "B",
+      "text": "The woman's father passed his only X chromosome, which carried the allele, to all his daughters, so she is certainly a carrier; her unaffected husband passes a normal X to every child. The probability that the first child is a daughter is 1/2, and a daughter of a carrier mother has a 1/2 chance of receiving the mother's mutant X, giving 1/2 × 1/2 = 1/4. Stopping at 1/2 forgets to include the chance that the child is a girl at all."
+    },
+    {
+      "n": 17,
+      "derived": "A",
+      "text": "Since 13 = 4 + 9, the largest recombination frequency is the sum of the other two, which is the signature of the middle gene lying between the outer two: the map order is a, then b 4 units away, then c a further 9 units away. If a or c were the middle gene, the largest distance would have to equal the difference of the other two, not the sum. Genes on three different chromosomes would assort independently and give pairwise recombination frequencies near 50 percent, not 4, 9 and 13 percent."
+    },
+    {
+      "n": 18,
+      "derived": "E",
+      "text": "Anaphase of mitosis begins when the sister chromatids separate at their centromeres and are pulled toward opposite spindle poles. The separation of homologous chromosome pairs happens in anaphase I of meiosis, not mitosis; alignment at the cell's equator is metaphase; breakdown of the nuclear envelope belongs to prophase; and re-formation of nuclear envelopes around each chromosome group is telophase."
+    },
+    {
+      "n": 19,
+      "derived": "C",
+      "text": "Step 1: nondisjunction of sister chromatids in meiosis II sends both copies of chromosome 21 into one egg (24 chromosomes) and none into the other, while meiosis I has already halved the set normally. Step 2: fertilisation of the egg carrying both copies by a normal sperm (23 chromosomes) gives 24 + 23 = 47 chromosomes, with three copies of chromosome 21, which is trisomy 21, Down syndrome. All other chromosomes are present in the usual two copies, so totals of 45, 46 or 69 are impossible, and the extra chromosome is chromosome 21, not a sex chromosome."
+    },
+    {
+      "n": 20,
+      "derived": "B",
+      "text": "The dark form arises by random mutation before the environment changes; once soot darkened the trunks, birds caught the more visible light moths, so dark moths survived and reproduced more successfully and passed on their alleles, which is natural selection acting on pre-existing variation. The alternative routes fail: individual moths cannot acquire heritable darkening during their own lifetimes, soot does not chemically rewrite genes, moths cannot produce dark offspring 'in order to' match a background, and the passage states that light moths greatly outnumbered dark ones before the trees darkened."
+    },
+    {
+      "n": 21,
+      "derived": "B",
+      "text": "The tetraploid plants arose within the same meadow as the diploids, so there is no geographic barrier, which rules out any allopatric account and the claim that a physical barrier is always required. Because tetraploid × diploid crosses produce seeds that die, the polyploids are reproductively isolated, so a new lineage has formed in sympatry, and polyploidy is the classic one step route to speciation in plants. Sharing a meadow does not by itself make one biological species: the species criterion is interbreeding, not geography, and a change in chromosome number clearly can create a new species here."
+    },
+    {
+      "n": 22,
+      "derived": "A",
+      "text": "The oxygen released in photosynthesis comes from the splitting (photolysis) of water at photosystem II in the thylakoid membranes: the water's electrons replace those lost by the photosystem and its oxygen atoms are released as O₂. Electrons from water pass to photosystem II first, not directly to photosystem I; the splitting happens in the thylakoid membrane, not in the stroma, where the Calvin cycle instead fixes CO₂; and ATP is made afterwards by chemiosmosis, not directly by the splitting step. The claim that the released oxygen comes from carbon dioxide has the source backwards."
+    },
+    {
+      "n": 23,
+      "derived": "D",
+      "text": "Xylem, made of dead hollow vessels, carries water and dissolved mineral ions upward from the roots, driven mainly by transpiration pull, while phloem's living sieve tubes carry sucrose from source tissues such as mature leaves to sink tissues such as roots, fruits and buds, and the phloem flow can run upward or downward. Swapping the two cargoes inverts the roles of the tissues, transpiration pull does not move phloem contents, and mature xylem is dead rather than living and actively pumping. The claim that sugars move only downward fails because sinks such as growing shoots sit above the leaves."
+    },
+    {
+      "n": 24,
+      "derived": "D",
+      "text": "Step 1: the impulse from the sinoatrial node spreads across the atria, which contract first. Step 2: conduction is delayed briefly at the atrioventricular node before the impulse continues through the bundle of His and the Purkinje fibres to the ventricles. Step 3: this electrical delay, not the time blood takes to flow and not a difference in muscle contraction speed, lets the atria finish emptying before ventricular contraction begins. There is only one impulse initiating each beat, and the ventricles never contract first in a healthy heart."
+    },
+    {
+      "n": 25,
+      "derived": "A",
+      "text": "Hydrostatic blood pressure in the glomerular capillaries forces water and small solutes (glucose, urea, ions, amino acids) through the filtration barrier into Bowman's capsule, while plasma proteins and blood cells are too large to cross and remain in the blood. Glucose enters the filtrate by filtration and is then reabsorbed in the proximal convoluted tubule; it is not actively secreted into the filtrate, and water leaves the capillaries under pressure rather than by active transport. The idea that proteins are filtered freely and reclaimed later describes a leakiness a healthy glomerulus does not have, and blood cells never normally reach the filtrate."
+    },
+    {
+      "n": 26,
+      "derived": "C",
+      "text": "Action potentials are all or none events: once threshold is reached, every impulse has the same fixed amplitude, and stimulus strength is encoded as firing frequency, so a stronger stimulus produces more impulses per second, never larger ones. Subthreshold stimuli produce no action potential at all, rather than small slow ones. The refractory period guarantees one way propagation by preventing immediate re-excitation behind the impulse, and repolarisation carries the membrane potential back down toward the negative resting value, not above the depolarisation peak."
+    },
+    {
+      "n": 27,
+      "derived": "E",
+      "text": "The hypothalamus secretes CRH, the anterior pituitary responds by releasing ACTH into the bloodstream, and ACTH stimulates the adrenal cortex to secrete cortisol; rising cortisol then inhibits CRH and ACTH release, a negative feedback loop. Cortisol comes from the cortex, not the medulla, which secretes adrenaline under direct nerve control; a fall in cortisol would release the brake and increase, not decrease, ACTH output; and ACTH is a blood borne hormone, not a signal travelling down nerve fibres. The loop is negative, not positive, feedback."
+    },
+    {
+      "n": 28,
+      "derived": "B",
+      "text": "B lymphocytes mature in the bone marrow and, when activated, differentiate into plasma cells that secrete antibodies; T lymphocytes mature in the thymus, and cytotoxic T cells kill infected host cells by direct contact. Antibody secretion is the job of B cells, not T cells; phagocytosis of bacteria belongs to macrophages and neutrophils, not cytotoxic T cells; and only the T cells complete their maturation in the thymus, so placing B cell maturation there misassigns the site."
+    },
+    {
+      "n": 29,
+      "derived": "A",
+      "text": "Microtubules are hollow polymers of the protein tubulin that build the mitotic spindle and form the axoneme at the core of cilia and flagella. The claim that the contractile ring dividing an animal cell at cytokinesis is made of microtubules, and the claim that actin microfilaments form the spindle fibres, each swap the real roles of microtubules and actin: the ring is actin, the spindle is tubulin. Calling microtubules permanently fixed structures also contradicts their constant dynamic assembly and disassembly."
+    },
+    {
+      "n": 30,
+      "derived": "C",
+      "text": "Apoptosis is programmed cell death: internal or external signals activate regulated pathways that fragment the DNA, shrink the cell and package it into membrane bound fragments that neighbouring cells engulf, so no digestive enzymes spill into the tissue and inflammation is avoided. It is essential in healthy development, for instance in removing the webbing between developing fingers. Uncontrolled death after injury with enzyme release and inflammation describes necrosis, and apoptosis is commonly triggered by signals arising within the cell, not only by external toxins."
+    },
+    {
+      "n": 31,
+      "derived": "C",
+      "text": "Primary structure is the linear sequence of amino acids joined by covalent peptide bonds. Hydrogen bonding between backbone atoms defines secondary structure (alpha helices and beta sheets), disulfide bridges between cysteines stabilise the tertiary fold rather than the secondary structure, and the assembly of several separate polypeptide chains into one functional unit is quaternary, not tertiary, structure. Calling the local coiling into alpha helices quaternary structure assigns a secondary feature to the wrong level."
+    },
+    {
+      "n": 32,
+      "derived": "C",
+      "text": "Falling body temperature is detected and the hypothalamus, the thermoregulatory centre, mounts heat generating and heat conserving responses: shivering, the involuntary rapid contraction of skeletal muscle whose metabolism releases heat, together with vasoconstriction of skin vessels and reduced sweating, all part of a negative feedback loop restoring core temperature. Shivering is not a voluntary choice, skin vessels constrict rather than widen in the cold, and increased sweating is the cooling response to heat, not to cold."
+    },
+    {
+      "n": 33,
+      "derived": "B",
+      "text": "M(CuSO₄) = 64 (Cu) + 32 (S) + 4 × 16 (O) = 160 g/mol. Mass = n × M = 0.25 mol × 160 g/mol = 40 g. The figure 160 g is the mass of a whole mole, and 640 g comes from dividing 160 by 0.25 instead of multiplying."
+    },
+    {
+      "n": 34,
+      "derived": "C",
+      "text": "Step 1: moles are 28/28 = 1.0 mol of N₂ and 9.0/2.0 = 4.5 mol of H₂. Step 2: the equation needs 3 mol of H₂ per mol of N₂, so 1.0 mol of N₂ requires only 3.0 mol of H₂; with 4.5 mol available, hydrogen is in excess and N₂ is the limiting reagent. Step 3: 1.0 mol of N₂ yields 2.0 mol of NH₃, so the maximum mass is 2.0 × 17 = 34 g. The value 51 g follows from wrongly treating hydrogen as the limiting reagent and converting all 4.5 mol of it."
+    },
+    {
+      "n": 35,
+      "derived": "B",
+      "text": "Step 1: take 100 g of oxide: 50.0 g of S is 50.0/32 = 1.56 mol and 50.0 g of O is 50.0/16 = 3.13 mol. Step 2: divide both by the smaller amount: 1.56 : 3.13 ≈ 1 : 2. The empirical formula is SO₂. A 1:1 mole ratio would require equal numbers of moles of the two elements, but equal masses do not give that here, since an oxygen atom is only half the mass of a sulfur atom."
+    },
+    {
+      "n": 36,
+      "derived": "C",
+      "text": "Step 1: n = m/M = 5.85/58.5 = 0.10 mol of NaCl. Step 2: V = 500 cm³ = 0.500 dm³. Step 3: c = n/V = 0.10/0.500 = 0.20 mol/dm³. The value 0.10 mol/dm³ is just the mole number with the units swapped, ignoring the dilution to half a cubic decimetre."
+    },
+    {
+      "n": 37,
+      "derived": "C",
+      "text": "KOH is a strong base and dissociates completely, so [OH⁻] = 1.0 × 10⁻⁴ mol/dm³ and pOH = 4. At 25 °C, pH + pOH = 14, so pH = 14 − 4 = 10. The value 4 is the pOH mislabelled as pH, and a solution of a strong base can be neither acidic (pH 4) nor exactly neutral (pH 7)."
+    },
+    {
+      "n": 38,
+      "derived": "A",
+      "text": "At the equivalence point the moles of H⁺ and OH⁻ have reacted exactly, and since NaCl is the salt of a strong acid and a strong base it does not hydrolyse, leaving the solution neutral at pH 7 at 25 °C. Equivalence means equal moles, not equal masses, of acid and base, and the indicator's colour change defines the endpoint, a related but distinct point. The claim that every equivalence point sits at pH 7 fails for weak acid or weak base systems: titrating a weak acid with NaOH gives an alkaline equivalence point because the conjugate base hydrolyses."
+    },
+    {
+      "n": 39,
+      "derived": "D",
+      "text": "Step 1: half equations: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O (manganese falls from +7 to +2, gaining 5 electrons) and C₂O₄²⁻ → 2CO₂ + 2e⁻ (each carbon rises from +3 to +4, so 2 electrons lost per ion). Step 2: equalise the electrons at 10 by multiplying the first half equation by 2 and the second by 5. Step 3: adding gives 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O; the charges balance (left: −2 − 10 + 16 = +4; right: +4), so the coefficient of H⁺ is 16. The value 8 belongs to the unmultiplied permanganate half equation and ignores the factor of 2 needed to match the 10 electrons from five oxalate ions."
+    },
+    {
+      "n": 40,
+      "derived": "E",
+      "text": "Boron has three valence electrons and forms three bonds in BF₃, leaving only six electrons in its valence shell; the molecule is electron deficient and readily accepts a lone pair, which is exactly the behaviour of a Lewis acid. PCl₅ (10 electrons around phosphorus) and SF₆ (12 around sulfur) do exist, because period 3 atoms can expand their octets, so exceeding the octet cannot forbid their existence. Nitrogen in NH₃ holds eight valence electrons (three bonding pairs plus a lone pair), not ten, and phosphorus in PCl₅ has ten electrons around it, not an octet's eight."
+    },
+    {
+      "n": 41,
+      "derived": "B",
+      "text": "Halogens react as oxidising agents by gaining one electron; descending the group, the atomic radius and inner shell shielding increase, so the attraction for an added electron weakens and reactivity falls from fluorine to iodine. Consequently the more reactive halogen always displaces the less reactive one from its salts: chlorine displaces bromine from bromide solutions, and bromine cannot displace chlorine from potassium chloride. Boiling points rise down the group (chlorine is a gas, bromine a liquid, iodine a solid), and halogens are poor electrical conductors."
+    },
+    {
+      "n": 42,
+      "derived": "B",
+      "text": "ΔH = ΣΔHf(products) − ΣΔHf(reactants) = [(−394) + 2 × (−286)] − [(−75) + 0] = (−394 − 572) + 75 = −966 + 75 = −891 kJ/mol. Dropping the factor of 2 on the water term gives −394 − 286 + 75 = −605, and subtracting the methane term with the wrong sign gives −394 − 572 − 75 = −1041; both are bookkeeping slips on the same equation. The positive values cannot be right, since a combustion is always strongly exothermic."
+    },
+    {
+      "n": 43,
+      "derived": "D",
+      "text": "For H₂ + I₂ ⇌ 2HI, Kc = [HI]² / ([H₂] × [I₂]) = (0.60)² / (0.20 × 0.30) = 0.36 / 0.060 = 6.0. The coefficient 2 in front of HI means its concentration enters squared; using [HI] unsquared gives 0.60/0.060 = 10, and inverting the whole fraction gives about 0.17."
+    },
+    {
+      "n": 44,
+      "derived": "C",
+      "text": "Step 1: with [B] held at 0.10, doubling [A] from 0.10 to 0.20 doubles the rate from 0.0020 to 0.0040, so the reaction is first order in A. Step 2: with [A] held at 0.10, doubling [B] from 0.10 to 0.20 quadruples the rate from 0.0020 to 0.0080, so the reaction is second order in B. Step 3: rate = k[A][B]², overall third order. Any law with B only to the first power would predict just a doubling of rate between the first and third experiments, not the observed quadrupling."
+    },
+    {
+      "n": 45,
+      "derived": "B",
+      "text": "The longest continuous carbon chain contains five atoms, so the parent alkane is pentane; no path through six carbons exists, so every hexane based name is impossible. The two methyl branches sit on carbons 2 and 4, and the structure is symmetric, so this numbering holds from either end of the chain, giving 2,4-dimethylpentane. A name placing the substituents at positions 3 and 5 is never acceptable, because the chain must always be numbered to give the lowest possible locants."
+    },
+    {
+      "n": 46,
+      "derived": "D",
+      "text": "Sunlight (ultraviolet) splits Cl₂ into chlorine radicals; a chlorine radical abstracts a hydrogen atom from methane to give HCl and a methyl radical, which then reacts with another Cl₂ molecule to form CH₃Cl and regenerate a chlorine radical. One hydrogen of methane is replaced by chlorine with the carbon skeleton unchanged, which is the definition of free radical substitution. It is not electrophilic addition (methane has no double bond to add across), not nucleophilic substitution (no nucleophile attacks a carbon centre), and not an elimination."
+    },
+    {
+      "n": 47,
+      "derived": "A",
+      "text": "Neutral iron (Z = 26) fills as 1s2 2s2 2p6 3s2 3p6 4s2 3d6. Fe²⁺ forms by losing the two electrons of highest energy, which are the 4s electrons, leaving 1s2 2s2 2p6 3s2 3p6 3d6 with 24 electrons. Removing 3d electrons while keeping 4s reverses the order in which electrons are lost on ionisation, and the arrangement ending 4s2 3d6 still belongs to the neutral atom, not the ion."
+    },
+    {
+      "n": 48,
+      "derived": "E",
+      "text": "Step 1: combine the logarithms: log₂(x(x − 6)) = 4, so x(x − 6) = 2⁴ = 16. Step 2: rearrange to x² − 6x − 16 = 0, which factors as (x − 8)(x + 2) = 0, giving x = 8 or x = −2. Step 3: the logarithms require x > 6 (both x and x − 6 must be positive), so the negative root is rejected and x = 8 is the only solution; check: log₂ 8 + log₂ 2 = 3 + 1 = 4. Keeping x = −2 ignores the domain of the logarithm."
+    },
+    {
+      "n": 49,
+      "derived": "C",
+      "text": "Total committees = C(10,3) = 120. Favourable committees = 1 chemist chosen from 4 times 2 physicists chosen from 6 = C(4,1) × C(6,2) = 4 × 15 = 60. Probability = 60/120 = 1/2. Quoting the raw count of 60 without dividing by the 120 possible committees, or mixing ordered and unordered counts, produces the other fractions offered."
+    },
+    {
+      "n": 50,
+      "derived": "A",
+      "text": "f(x + 3) = (x + 3)² − 4(x + 3) = x² + 6x + 9 − 4x − 12 = x² + 2x − 3, and subtracting 2 gives x² + 2x − 5. The expression x² − 10x + 19 is what substitution of x − 3 instead of x + 3 would produce, a sign slip in the horizontal shift."
+    },
+    {
+      "n": 51,
+      "derived": "D",
+      "text": "Put t = 2x; as x runs from 0 to 2π, t runs from 0 to 4π, two complete circuits of the unit circle. In each circuit, cos t = 1/2 at t = π/3 and t = 5π/3, giving t = π/3, 5π/3, 7π/3, 11π/3 and hence x = π/6, 5π/6, 7π/6, 11π/6: four solutions. Counting solutions only over one period of cosine gives two, forgetting that doubling the angle doubles the range that must be searched."
+    },
+    {
+      "n": 52,
+      "derived": "E",
+      "text": "Step 1: the fraction equals 0 at x = −1, which is allowed since 0 satisfies ≥ 0, and is undefined at x = 2, which is excluded. Step 2: sign test: for x < −1 numerator and denominator are both negative, so the fraction is positive; for −1 < x < 2 the signs differ, so it is negative; for x > 2 both are positive. Step 3: the solution set is x ≤ −1 or x > 2. Writing x ≥ 2 wrongly includes x = 2, where the fraction has no value."
+    },
+    {
+      "n": 53,
+      "derived": "C",
+      "text": "A square inscribed in a circle has each diagonal equal to the circle's diameter: d = 2 × 6 = 12 cm. Area = d²/2 = 12²/2 = 144/2 = 72 cm². Taking 6 cm as the side length gives 36 cm², but a square of side 6 has a diagonal of about 8.5 cm and would sit well inside a circle of radius 6 instead of touching it."
+    },
+    {
+      "n": 54,
+      "derived": "B",
+      "text": "Step 1: from the two given terms, the common difference is d = (31 − 11)/(8 − 3) = 20/5 = 4. Step 2: the first term is a = 11 − 2 × 4 = 3. Step 3: S₁₀ = (10/2)(2a + 9d) = 5 × (6 + 36) = 5 × 42 = 210. Equivalently the ten terms run 3, 7, ..., 39 with mean (3 + 39)/2 = 21, and 21 × 10 = 210."
+    },
+    {
+      "n": 55,
+      "derived": "B",
+      "text": "The vertical launch component is v0y = 20 × sin 30° = 20 × 0.5 = 10 m/s. At maximum height the vertical velocity is momentarily zero, so from v² = u² − 2gh: h = 10²/(2 × 10) = 100/20 = 5 m. Squaring the full launch speed of 20 m/s instead of its vertical component gives 20 m, the classic error behind that distractor."
+    },
+    {
+      "n": 56,
+      "derived": "B",
+      "text": "Kinetic energy = ½mv² gives 200 = ½ × 4.0 × v² = 2v², so v² = 100 and v = 10 m/s. The other speeds fail the same relation: 5 m/s would give only ½ × 4.0 × 25 = 50 J, and 25 m/s would give 1250 J."
+    },
+    {
+      "n": 57,
+      "derived": "C",
+      "text": "Step 1: momentum conservation: 2.0 × 6.0 = 2.0v1 + 4.0v2. Step 2: in a head on elastic collision the relative speed of separation equals the relative speed of approach: v2 − v1 = 6.0. Step 3: solving the pair gives v1 = −2 m/s (the light trolley rebounds) and v2 = 4.0 m/s. Check energy: before, ½ × 2 × 6² = 36 J; after, ½ × 2 × 2² + ½ × 4 × 4² = 4 + 32 = 36 J. A speed of 6 m/s for the heavy trolley would more than double the system's kinetic energy, violating energy conservation."
+    },
+    {
+      "n": 58,
+      "derived": "C",
+      "text": "The object's mass is 50/10 = 5 kg and its volume is 5/2500 = 0.002 m³, so the upthrust equals the weight of displaced water: 1000 × 10 × 0.002 = 20 N. Held at rest, the string tension balances weight minus upthrust: T = 50 − 20 = 30 N. Ignoring buoyancy gives 50 N, and adding the upthrust instead of subtracting it gives 70 N, the wrong sign for a force that pushes upward."
+    },
+    {
+      "n": 59,
+      "derived": "C",
+      "text": "The temperature rise is ΔT = 70 − 20 = 50 K. Q = mcΔT = 0.30 × 2000 × 50 = 30 000 J = 30 kJ. The value 3.0 kJ would follow from a tenfold slip in the mass or the temperature rise, and using an absolute temperature such as 20 K or 70 K instead of the rise also misses the mark."
+    },
+    {
+      "n": 60,
+      "derived": "B",
+      "text": "P = V²/R = 12²/8 = 144/8 = 18 W. Equivalently, I = V/R = 12/8 = 1.5 A and P = VI = 12 × 1.5 = 18 W. The number 1.5 is the current in amperes rather than a power, 96 W comes from multiplying V by R, and 144 W from stopping at V² without dividing by the resistance."
+    }
+  ],
+  "disagreements": [],
+  "notes": [
+    "All 60 derived answers agree with the stored keys; no disagreements.",
+    "Q4 (Milano Cortina 2026 medal table) is a current affairs item after the model's knowledge horizon; it was verified externally against the published final medal table: Norway led with 18 golds and 41 total, ahead of the United States (33 total) and the Netherlands, consistent with the stored key and explanation.",
+    "Q45: the stored explanation says the 3,5-dimethylpentane distractor comes from numbering the chain in the wrong direction, but the described molecule is symmetric, so counting from either end still places the methyls at 2 and 4; the 3,5 name is invalid simply because locants must be minimised. The stored answer itself is correct.",
+    "Q7 sits in Section A under topic 'Logic' but is a Venn diagram counting exercise; numerically consistent (all regions sum to 100)."
+  ]
+}

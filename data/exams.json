@@ -10,7 +10,7 @@
    "maxTenths": 900,
    "targetScore": 47,
    "sectionCount": 5,
-   "bankVersion": "b0674bffa"
+   "bankVersion": "b5b52612b"
   },
   {
    "id": "imat_mock2",
@@ -54,7 +54,7 @@
    "maxTenths": 900,
    "targetScore": 42,
    "sectionCount": 5,
-   "bankVersion": "bf05c95f6"
+   "bankVersion": "bb1fd838b"
   },
   {
    "id": "imat_mock6",

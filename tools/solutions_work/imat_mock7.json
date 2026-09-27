@@ -1,0 +1,312 @@
+{
+  "bank": "imat_mock7",
+  "solutions": [
+    {
+      "n": 1,
+      "derived": "D",
+      "text": "The passage's final sentence reports that years after antibiotic use stopped, resistant strains were still common thanks to compensatory mutations, so halting use does not guarantee resistance dies out. The claim that antibiotics deliberately induce mutations contradicts the passage's statement that resistance mutations arise randomly; the claim that resistant bacteria are always fitter is contradicted by the fitness cost that had to be offset; calling plasmids a kind of virus is unsupported; and denying transfer between species contradicts the plasmid sentence directly."
+    },
+    {
+      "n": 2,
+      "derived": "C",
+      "text": "Recovery is recorded by patient self-report, so the result is trustworthy only if patients cannot tell which arm they are in. An intensely bitter drug next to a tasteless placebo unblinds every participant, so expectation effects can produce or exaggerate self-reported faster recovery, an alternative explanation needing no pharmacological action at all. A few symmetric dropouts, two countries, identical white tablets and the total trial length either affect both arms equally or preserve the blind."
+    },
+    {
+      "n": 3,
+      "derived": "B",
+      "text": "The G7 presidency rotates yearly: 2023 Japan, 2024 Italy (Apulia), 2025 Canada, which hosted the summit at Kananaskis, Alberta. The decisive fact is simply the 2025 host: Canada."
+    },
+    {
+      "n": 4,
+      "derived": "D",
+      "text": "Step 1: X must come before Z, so X cannot be on Wednesday (no later day remains for Z). Step 2: if X is Monday, Y cannot take Tuesday, so Z takes Tuesday and Y Wednesday; if X is Tuesday, Z must take Wednesday and Y takes Monday. Step 3: exactly two schedules exist, (X Mon, Z Tue, Y Wed) and (Y Mon, X Tue, Z Wed). In both, X sits on Monday or Tuesday, so X is never on Wednesday; every other listed claim fails in one of the two schedules (for instance Y is on Wednesday in the first schedule but on Monday in the second)."
+    },
+    {
+      "n": 5,
+      "derived": "E",
+      "text": "'Blue if and only if protein X is present' makes blue both necessary and sufficient for X. The sample did not turn blue, so by the contrapositive of 'X present implies blue', the sample does not contain X. Claims about a botched test, a red colour or other proteins in quantity add assumptions the statement does not license."
+    },
+    {
+      "n": 6,
+      "derived": "C",
+      "text": "Minute hand: 18 min × 6°/min = 108° from 12. Hour hand: 9 × 30° + 18 × 0.5° = 270° + 9° = 279°. Angle = 279° − 108° = 171°. The value 162° comes from freezing the hour hand at 9:00 (270° − 108°) and forgetting it advances 0.5° per minute."
+    },
+    {
+      "n": 7,
+      "derived": "A",
+      "text": "True positives: 90; false positives: 180; all positives: 90 + 180 = 270. False share = 180 ÷ 270 = 2/3. Because only 10 percent of those screened are diseased, positives from healthy people outnumber true positives two to one. The fraction 180/900 (= 1/5) is the false-positive rate among the healthy, a different quantity with a different denominator."
+    },
+    {
+      "n": 8,
+      "derived": "B",
+      "text": "Average speed = total distance ÷ total time. Take d km each way: time = d/60 + d/120 = 3d/120 = d/40 h; total distance = 2d. Average = 2d ÷ (d/40) = 80 km/h, the harmonic mean 2 × 60 × 120 ÷ 180. The simple midpoint 90 km/h ignores that far less time is spent at 120 km/h than at 60."
+    },
+    {
+      "n": 9,
+      "derived": "E",
+      "text": "Successive gaps are 1, 2, 4, 8, 16: each doubles, so the next gap is 32 and the next term is 33 + 32 = 65. Equivalently, every term is twice the previous one minus 1: 2 × 33 − 1 = 65."
+    },
+    {
+      "n": 10,
+      "derived": "A",
+      "text": "The aabb parent can pass on only the ab combination, so each offspring phenotype directly reveals one gamete from the AaBb parent. Four phenotypes in equal numbers mean four gamete types (AB, Ab, aB, ab) at 1/4 each: the signature of independent assortment with double heterozygosity. Tight linkage would instead give mostly the two parental classes, and producing only two gamete types would give only two phenotypes."
+    },
+    {
+      "n": 11,
+      "derived": "D",
+      "text": "Pink = CRCW, so the cross is CRCW × CRCW: offspring draw CR or CW from each parent, giving CRCR 1/4, CRCW 1/2, CWCW 1/4, i.e. 1 red : 2 pink : 1 white. Incomplete dominance makes the heterozygote visibly intermediate, so the genotypic 1:2:1 shows up directly as the phenotypic ratio. The 3 red : 1 white ratio belongs to complete dominance, where red would mask white."
+    },
+    {
+      "n": 12,
+      "derived": "B",
+      "text": "The AaBb parent makes gametes AB, Ab, aB, ab at 1/4 each; the aabb parent makes only ab. An aabb offspring requires ab from each side: probability 1/4. The value 1/16 would come from the 4 × 4 gamete grid of two double heterozygotes, which is not this testcross."
+    },
+    {
+      "n": 13,
+      "derived": "C",
+      "text": "An affected child must be aa, so each unaffected parent carries one recessive allele: the mating is Aa × Aa. Each pregnancy is independent, and in Aa × Aa the chance of an aa child is 1/4. The 2/3 figure answers a different question (the carrier probability among unaffected children), and previous births do not change the odds."
+    },
+    {
+      "n": 14,
+      "derived": "E",
+      "text": "Okazaki fragments are separate DNA pieces separated by nicks in the sugar-phosphate backbone. DNA ligase seals those nicks by forming phosphodiester bonds, producing one continuous strand. Helicase unwinds the helix, primase lays RNA primers, topoisomerase relieves supercoiling and single-strand binding proteins hold the strands apart; none of them joins fragments."
+    },
+    {
+      "n": 15,
+      "derived": "A",
+      "text": "RNA polymerase reads the template 3' to 5' and builds the mRNA antiparallel, 5' to 3', pairing A to the template's T, U to A, G to C. Complementing 3'-T-A-C-5' in the correct antiparallel orientation gives 5'-A-U-G-3', the start codon for methionine. Complementing in the same left-to-right direction instead yields GUA (AUG read backwards); UAC tempts via the anticodon route; and any triplet containing T wrongly keeps DNA's thymine in an RNA strand."
+    },
+    {
+      "n": 16,
+      "derived": "D",
+      "text": "The three stop codons are UAA, UAG and UGA; they code no amino acid and instead bind release factors. Of the codons listed, only UGA is a stop signal. AUG starts translation (methionine), UGG codes tryptophan, UAC tyrosine and GGG glycine."
+    },
+    {
+      "n": 17,
+      "derived": "B",
+      "text": "Denaturation disrupts the weak, non-covalent interactions (hydrogen bonds, ionic contacts, hydrophobic interactions) that hold the folded secondary and tertiary structure together, so the chain unfolds. The covalent peptide bonds and the amino-acid sequence are untouched, so the primary structure survives and the protein can sometimes refold on cooling. Claims that peptide bonds broke or amino acids were destroyed describe hydrolysis or degradation, not denaturation."
+    },
+    {
+      "n": 18,
+      "derived": "E",
+      "text": "Vmax falls to a quarter while Km stays exactly the same. An unchanged Km means the enzyme molecules that still work bind substrate with normal affinity, which rules out any inhibitor competing at the active site (competitive inhibition by a substrate analogue raises the apparent Km and leaves Vmax reachable at high substrate). Lowered Vmax with fixed Km is the signature of a non-competitive inhibitor, which binds elsewhere and knocks out enzyme molecules regardless of substrate concentration."
+    },
+    {
+      "n": 19,
+      "derived": "C",
+      "text": "Electrons enter the chain either at complex I (from NADH) or at complex II (from FADH₂), and both routes converge downstream on ubiquinone, then complexes III and IV, ending at oxygen. Blocking complex I stops all NADH oxidation but leaves the complex II route open, so FADH₂ electrons can still flow to oxygen while fewer protons are pumped. Glycolysis is a cytosolic pathway and does not stop, and complexes II to IV do not shut down when fed from complex II."
+    },
+    {
+      "n": 20,
+      "derived": "A",
+      "text": "The Calvin cycle's reduction step consumes ATP and NADPH that only the light reactions supply, converting glycerate-3-phosphate to the sugar G3P. In darkness the light reactions stop, these pools drain, and the cycle halts. Oxygen is a light-reaction product the cycle does not use, and its carbon entry point is CO₂, not glucose from starch breakdown."
+    },
+    {
+      "n": 21,
+      "derived": "D",
+      "text": "Seawater is hypertonic to the cell: it has the higher solute concentration and the lower water potential, so water moves out of the red cell by osmosis and the cell shrinks and crenates. Water entering and swelling is the response to a hypotonic medium. Mature red cells cannot pump solutes out to restore volume and certainly do not divide."
+    },
+    {
+      "n": 22,
+      "derived": "B",
+      "text": "p53 accumulates after DNA damage and acts as the guardian of the G1 checkpoint: it halts the cycle (via targets such as p21) so repair systems get time to work, and if the damage is irreparable it triggers apoptosis. Pushing the cell into S phase or mitosis with damaged DNA would propagate mutations, exactly what this tumour suppressor exists to prevent."
+    },
+    {
+      "n": 23,
+      "derived": "E",
+      "text": "The nondisjunction egg carries 24 chromosomes (one extra homologue). A normal sperm contributes 23, so the zygote has 24 + 23 = 47 chromosomes: one chromosome type in three copies, a trisomy. A 45-chromosome (monosomy) zygote would require an egg with only 22, and trisomies are not uniformly lethal, trisomy 21 being a viable example."
+    },
+    {
+      "n": 24,
+      "derived": "C",
+      "text": "Threshold depolarisation opens voltage-gated sodium channels, and Na⁺ floods into the axon down its electrochemical gradient, driving the membrane potential rapidly positive: that inward sodium current is the rising phase. Potassium exit through voltage-gated K⁺ channels causes the falling phase, and the sodium-potassium pump is far too slow to produce a millisecond upstroke."
+    },
+    {
+      "n": 25,
+      "derived": "A",
+      "text": "The arriving action potential opens voltage-gated Ca²⁺ channels in the presynaptic terminal, and the resulting calcium influx is the direct trigger for synaptic vesicles to fuse with the membrane and release transmitter. Postsynaptic sodium entry happens afterwards as a consequence, and reuptake is the cleanup step, not the trigger."
+    },
+    {
+      "n": 26,
+      "derived": "D",
+      "text": "As blood glucose falls, pancreatic beta cells secrete less insulin and alpha cells secrete more glucagon, which raises glucose via glycogenolysis and gluconeogenesis. Any combination in which insulin rises while glucose is low, or glucagon falls, would push blood glucose in the wrong direction."
+    },
+    {
+      "n": 27,
+      "derived": "B",
+      "text": "Antivenom is a preparation of ready-made antibodies raised in horses and injected into the victim, so protection is immediate but the victim's own immune system never produced it and keeps no memory of it: passive, artificially acquired immunity. Active immunity would take weeks for the victim's own plasma cells to respond, useless against venom, and injected antibodies obviously do confer protection."
+    },
+    {
+      "n": 28,
+      "derived": "E",
+      "text": "A group O person already has anti-A and anti-B antibodies in the plasma, so donor red cells must carry neither A nor B; being Rh-negative adds the requirement that the cells lack the D antigen as well. Only O negative red cells satisfy both conditions at once. Any Rh-negative type is not enough, because A, B or AB cells would still be agglutinated by the recipient's anti-A or anti-B."
+    },
+    {
+      "n": 29,
+      "derived": "C",
+      "text": "Lipase hydrolyses the ester bonds of dietary triglycerides, releasing fatty acids and glycerol (plus monoacylglycerols), usually acting on bile-emulsified droplets in the small intestine. Proteins are cut by proteases such as trypsin and pepsin, starch by amylase, nucleic acids by nucleases; vitamins are not digested into coenzymes."
+    },
+    {
+      "n": 30,
+      "derived": "A",
+      "text": "Essentially all filtered glucose is reabsorbed actively in the proximal convoluted tubule, co-transported with sodium (SGLT proteins), so normal urine is glucose-free. Glucose spills into urine only when plasma glucose exceeds the tubular transport maximum, as in uncontrolled diabetes. The collecting duct's ADH-controlled reabsorption concerns water, not glucose."
+    },
+    {
+      "n": 31,
+      "derived": "D",
+      "text": "Osteoblasts secrete osteoid, the organic matrix that then mineralises, so they are the cells that deposit new bone during growth and remodelling. Osteoclasts do the reverse (resorb bone), osteocytes are entombed mature cells that maintain the matrix, and chondrocytes build cartilage, not bone."
+    },
+    {
+      "n": 32,
+      "derived": "B",
+      "text": "Labelled thymidine is a DNA building block and is incorporated only while DNA is being replicated, which happens in S phase of interphase. G1 and G2 are gap phases with no bulk DNA synthesis, M is mitosis, and G0 cells have withdrawn from the cycle."
+    },
+    {
+      "n": 33,
+      "derived": "A",
+      "text": "Step 1: in NH₄⁺ each H is +1 and the total charge is +1: x + 4(+1) = +1, so x = −3. Step 2: in NO₃⁻ each O is −2 and the total charge is −1: x + 3(−2) = −1, so x = +5. Nitrogen is −3 in ammonium and +5 in nitrate; an 'average of two nitrogens' is meaningless because the ions are separate species, and nitrogen cannot show −5."
+    },
+    {
+      "n": 34,
+      "derived": "C",
+      "text": "A spontaneous displacement needs the metal to sit above the ion's metal in the activity series (the more reactive metal is oxidised). Zn is above Cu, so zinc loses electrons to Cu²⁺: zinc dissolves as Zn²⁺ while copper plates out. The other proposed reactions each require copper or silver, metals low in the series, to reduce ions of a metal above them, which does not proceed at room temperature."
+    },
+    {
+      "n": 35,
+      "derived": "E",
+      "text": "Electronegativity differences: O-H = 3.44 − 2.2 = 1.24; C-O = 3.44 − 2.55 = 0.89; N-H = 3.04 − 2.2 = 0.84; C-N = 3.04 − 2.55 = 0.49; C-H = 2.55 − 2.2 = 0.35. The largest difference is in O-H, making it the most polar of the five. Atomic size plays no role; only the electronegativity difference counts."
+    },
+    {
+      "n": 36,
+      "derived": "B",
+      "text": "CO₂ contains two polar C=O bonds, but the molecule is linear and symmetric, so the equal bond dipoles point in opposite directions and cancel exactly, leaving zero net dipole. Water (bent), ammonia (pyramidal), sulphur dioxide (bent) and chloroform (asymmetric substitution) all have bond dipole sums that cannot cancel."
+    },
+    {
+      "n": 37,
+      "derived": "D",
+      "text": "Step 1: moles of H⁺ = 0.100 L × 0.1 M = 0.010 mol; moles of OH⁻ = 0.100 L × 0.3 M = 0.030 mol. Step 2: neutralisation is 1:1, so excess OH⁻ = 0.030 − 0.010 = 0.020 mol. Step 3: total volume = 0.200 L, so [OH⁻] = 0.020 ÷ 0.200 = 0.1 M, pOH = 1, pH = 14 − 1 = 13. A pH of 7 would require exact neutralisation, but the base is in threefold excess."
+    },
+    {
+      "n": 38,
+      "derived": "C",
+      "text": "At 10⁻⁸ M the added acid is ten times weaker than the H⁺ that water itself provides (10⁻⁷ M), so self-ionisation cannot be ignored. Solving the charge and Kw balance ([H⁺]² − 10⁻⁸[H⁺] − 10⁻¹⁴ = 0) gives [H⁺] ≈ 1.05 × 10⁻⁷ M, i.e. pH ≈ 6.98: an acidic solution just below 7. The pH is perfectly well defined, and it can never cross to above 7 for an acid, so both 'exactly 7' and 'slightly above 7' contradict the added H₃O⁺."
+    },
+    {
+      "n": 39,
+      "derived": "B",
+      "text": "Step 1: moles of NaOH = 0.0200 L × 0.15 M = 0.0030 mol. Step 2: the equation needs 2 mol of NaOH per 1 mol of H₂SO₄, so acid moles = 0.0030 ÷ 2 = 0.0015 mol. Step 3: concentration = 0.0015 mol ÷ 0.0250 L = 0.060 M. Skipping the factor of 2 gives 0.12 M, the classic slip."
+    },
+    {
+      "n": 40,
+      "derived": "E",
+      "text": "Step 1: moles of CuSO₄ = 1.60 g ÷ 160 g/mol = 0.010 mol. Step 2: water lost = 2.50 − 1.60 = 0.90 g = 0.90 ÷ 18 = 0.050 mol. Step 3: n = 0.050 ÷ 0.010 = 5, so the hydrate is CuSO₄·5H₂O."
+    },
+    {
+      "n": 41,
+      "derived": "A",
+      "text": "Step 1: moles of O₂ = 5.6 L ÷ 22.4 L/mol = 0.25 mol. Step 2: mass = 0.25 mol × 32 g/mol = 8 g. The value 16 g comes from doubling the molar mass as if the gas were tetra-atomic; oxygen gas is diatomic O₂ with M = 32."
+    },
+    {
+      "n": 42,
+      "derived": "D",
+      "text": "All five species share the same 10-electron shell arrangement, so size is set purely by nuclear charge: more protons pull the identical electron cloud tighter. Proton counts: O²⁻ 8, F⁻ 9, Ne 10, Na⁺ 11, Mg²⁺ 12, so the magnesium ion is the smallest and the oxide ion the largest."
+    },
+    {
+      "n": 43,
+      "derived": "C",
+      "text": "Geometrical isomerism around C=C requires each double-bond carbon to carry two different groups. In but-2-ene each alkene carbon bears H and CH₃, so the methyls can sit on the same side or on opposite sides: cis and trans. But-1-ene and 2-methylpropene each have two identical groups on one alkene carbon (two H, or two CH₃), ethene has only hydrogens on both, and propane has no double bond at all."
+    },
+    {
+      "n": 44,
+      "derived": "B",
+      "text": "Oxidation of a primary alcohol runs propan-1-ol → propanal → propanoic acid. Distilling the volatile product off as it forms removes the aldehyde (propanal) before the second oxidation can occur, so that is what is collected; prolonged reflux in contact with the dichromate would push on to propanoic acid. Propanone would require the secondary alcohol propan-2-ol as the starting material."
+    },
+    {
+      "n": 45,
+      "derived": "A",
+      "text": "The 1:1 stoichiometry means forming 0.75 M of B consumes 0.75 M of A, leaving [A]eq = 1.0 − 0.75 = 0.25 M. Kc = [B]/[A] = 0.75/0.25 = 3.0. Quoting 0.75 or 0.25 confuses an equilibrium concentration with the equilibrium constant, which is the ratio of the two."
+    },
+    {
+      "n": 46,
+      "derived": "E",
+      "text": "For an exothermic reaction heat is effectively a product, so adding heat shifts the position in the endothermic (reverse) direction and the equilibrium constant itself decreases. Kc depends only on temperature, so it is neither left unchanged nor restored to its old value; the fact that the reaction runs faster at higher temperature says nothing about where the equilibrium sits."
+    },
+    {
+      "n": 47,
+      "derived": "C",
+      "text": "One litre of pure water has mass 1000 g (density 1.0 g/mL). Moles of H₂O = 1000 g ÷ 18 g/mol ≈ 55.6 mol, so the concentration of water in itself is about 55.6 M. The 18 M figure confuses the molar mass with the molarity of a litre."
+    },
+    {
+      "n": 48,
+      "derived": "D",
+      "text": "Factorise: x² − 5x + 6 = (x − 2)(x − 3); the parabola opens upward with roots 2 and 3. The product is positive outside the roots (both factors positive when x > 3, both negative when x < 2), so the solution set is x < 2 or x > 3. The interval 2 < x < 3 is where the expression is negative, the answer to the reversed inequality."
+    },
+    {
+      "n": 49,
+      "derived": "B",
+      "text": "|2x − 1| ≤ 5 unpacks to −5 ≤ 2x − 1 ≤ 5. Adding 1 throughout: −4 ≤ 2x ≤ 6. Dividing by 2: −2 ≤ x ≤ 3. The tempting shifted interval −3 ≤ x ≤ 2 comes from forgetting to add 1 to both bounds."
+    },
+    {
+      "n": 50,
+      "derived": "A",
+      "text": "log 5 = log(10 ÷ 2) = log 10 − log 2 = 1 − 0.30 = 0.70. Since 5 is half of 10, its log must fall just under 1; halving the log itself to 0.50 confuses the logarithm with the number."
+    },
+    {
+      "n": 51,
+      "derived": "E",
+      "text": "Use the complement: P(no six) = (5/6) × (5/6) = 25/36, so P(at least one six) = 1 − 25/36 = 11/36. The value 5/36 covers only the case where one specified die shows the six and the other does not; the six can land on either die (and double sixes also count), which is why the correct value is larger."
+    },
+    {
+      "n": 52,
+      "derived": "C",
+      "text": "In the right triangle, tan(elevation) = height ÷ shadow length, so shadow = 6 ÷ tan 45° = 6 ÷ 1 = 6 m. At 45° the triangle is isosceles, so the shadow exactly equals the pole's height; the tan 30° figure is unused distractor data."
+    },
+    {
+      "n": 53,
+      "derived": "D",
+      "text": "Set y = (2x + 3)/5 and solve for x: 5y = 2x + 3, so 2x = 5y − 3 and x = (5y − 3)/2. Swapping variable names gives f⁻¹(x) = (5x − 3)/2. Flipping the sign to (5x + 3)/2, or simply restating the original formula, are the standard slips."
+    },
+    {
+      "n": 54,
+      "derived": "A",
+      "text": "Vertex x-coordinate: x = −b ÷ 2a = 4 ÷ 2 = 2. Then y = 2² − 4(2) + 7 = 4 − 8 + 7 = 3, so the vertex is (2, 3). The point (2, 11) comes from computing 4 + 8 + 7, dropping the minus on the linear term; using x = −b = 4 instead of −b/2a produces the (4, 7) decoy."
+    },
+    {
+      "n": 55,
+      "derived": "B",
+      "text": "Step 1: two 4 Ω resistors in parallel give 2 Ω, so the circuit total is 4 + 2 = 6 Ω. Step 2: I = 12 V ÷ 6 Ω = 2 A. Step 3: the parallel section takes 2 A × 2 Ω = 4 V, so each 4 Ω resistor dissipates P = V²/R = 16 ÷ 4 = 4 W (equivalently, the 2 A splits into 1 A per branch: 1² × 4 = 4 W). The 8 W figure is the whole pair and 24 W the entire circuit; a single branch does not carry the full 2 A."
+    },
+    {
+      "n": 56,
+      "derived": "E",
+      "text": "From rest: v² = u² + 2gh = 2 × 10 × 5 = 100, so v = 10 m/s just before impact. Alternatively the fall takes t = √(2h ÷ g) = 1 s and v = gt = 10 m/s. The 50 m/s decoy multiplies g by h once, confusing the formula with v² = 2gh."
+    },
+    {
+      "n": 57,
+      "derived": "D",
+      "text": "ΔT = Q ÷ (mc). Water: 10000 ÷ 4200 ≈ 2.4 K. Iron: 10000 ÷ 450 ≈ 22.2 K. With equal masses and equal heat input, the smaller specific heat capacity (iron) gives the larger temperature rise, about nine times larger; container shape does not appear in the calorimetric equation."
+    },
+    {
+      "n": 58,
+      "derived": "C",
+      "text": "From rest, s = ½gt² = ½ × 10 × (2.0)² = 5 × 4 = 20 m. The 10 m answer uses ½gt and forgets to square the time."
+    },
+    {
+      "n": 59,
+      "derived": "A",
+      "text": "Taking up as positive, Newton's second law on the person gives N − mg = ma, so N = m(g + a), which exceeds the true weight mg: the scales read more and the person feels heavier. The reading tracks acceleration, not velocity: at constant upward speed it would read exactly the true weight."
+    },
+    {
+      "n": 60,
+      "derived": "B",
+      "text": "Wave speed: v = fλ = 500 Hz × 0.68 m = 340 m/s, the familiar speed of sound in air. Doubling the wavelength gives the 680 m/s decoy; halving it gives 170 m/s."
+    }
+  ],
+  "disagreements": [],
+  "notes": [
+    "All 60 stored answers were reproduced independently from the stems and options; zero disagreements.",
+    "Q7: the exp parenthetical mislabels the 1/5 distractor as '1 minus sensitivity'; 1 minus sensitivity would be 1/10. The 1/5 option actually equals 1 minus specificity (the false-positive rate 180/900). The stored answer 2/3 is correct.",
+    "Q15: the exp parenthetical calls the UAC distractor 'the naive same-direction complement'; the same-direction complement of 3'-TAC-5' is actually GUA (AUG read backwards). UAC more plausibly tempts via the anticodon. The stored answer 5'-AUG-3' is correct.",
+    "Q3: GK item verified against current knowledge: the 2025 G7 summit was held in Kananaskis, Canada (2024 presidency: Italy, Apulia)."
+  ]
+}

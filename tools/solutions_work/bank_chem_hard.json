@@ -1,0 +1,337 @@
+{
+ "bank": "bank_chem_hard",
+ "solutions": [
+  {
+   "n": 1,
+   "derived": "D",
+   "text": "Both sugars share the same molecular formula and bonding order, and their Fischer projections differ at exactly one stereocenter, C-4. Sugars of identical connectivity that differ in configuration at a single chiral center are epimers by definition. The mirror-image claim fails because enantiomers require every stereocenter to be inverted, while C-2, C-3 and C-5 still match, and the OH is bonded to C-4 in both sugars, so no connectivity has changed."
+  },
+  {
+   "n": 2,
+   "derived": "E",
+   "text": "The second molecule inverts all three stereocenters of (2R,3S,4R) to give (2S,3R,4S), so it is the exact mirror image of the first, and two non-superimposable mirror images are enantiomers. Diastereomers must keep at least one stereocenter unchanged, and epimers differ at exactly one, so neither label fits. The bonding order never changed, so they are not constitutional isomers either."
+  },
+  {
+   "n": 3,
+   "derived": "B",
+   "text": "The two cyclic forms differ only at C-1, the anomeric carbon created when the aldehyde closes into a hemiacetal ring, and sugars differing in configuration at the anomeric carbon are anomers by definition. They are not conformers, because switching alpha to beta requires breaking and re-forming the C-1 bond rather than rotating about it, and they are not mirror images because the configurations at C-2 to C-5 are identical."
+  },
+  {
+   "n": 4,
+   "derived": "A",
+   "text": "The mirror image of (2R,3R) is (2S,3S), so the (2R,3S) form is not the mirror image of (2R,3R): the pair are stereoisomers that are not mirror images, which is the definition of diastereomers. Keeping one center unchanged at R is exactly what rules out the enantiomer description, and no bond rotation can interconvert them, because rotation about the C2-C3 bond never changes a configuration."
+  },
+  {
+   "n": 5,
+   "derived": "C",
+   "text": "Both compounds have the formula C₃H₈O, but methoxyethane links its oxygen between two carbons (a C-O-C ether link) while propan-1-ol bonds its oxygen to hydrogen (a C-O-H alcohol group), so the atoms are connected differently: they are constitutional isomers of the functional-group type. The enantiomer claim fails because propan-1-ol has no chiral center, since its middle carbon carries two identical hydrogen atoms."
+  },
+  {
+   "n": 6,
+   "derived": "D",
+   "text": "Glucose and fructose share the formula C₆H₁₂O₆, but the carbonyl oxygen is joined to C-1 in the aldehyde and to C-2 in the ketone, so the same atoms are connected in a different order: they are constitutional isomers. Epimers and anomers must keep identical connectivity and differ only at a stereocenter, which is not the case, and moving a carbonyl is a connectivity change, not a stereochemical one."
+  },
+  {
+   "n": 7,
+   "derived": "B",
+   "text": "A carbonyl carbon directly bonded to NH₂ is the amide group, and the three-carbon chain CH₃CH₂CO- gives the name propanamide. Propanamine would need an NH₂ attached to a saturated carbon with no C=O, methyl ethanoate is the ester CH₃COOCH₃, and propanenitrile would carry a C≡N group instead."
+  },
+  {
+   "n": 8,
+   "derived": "C",
+   "text": "An OH bonded directly to a benzene ring is a phenol rather than an alcohol, and the COOCH₃ linkage (carbonyl carbon joined through oxygen to CH₃) is an ester. No free COOH remains, because the parent carboxylic acid group has been converted into the ester, so the molecule contains a phenol and an ester, not an alcohol or a carboxylic acid."
+  },
+  {
+   "n": 9,
+   "derived": "A",
+   "text": "One oxygen atom bridges two CH₂CH₃ groups, the defining C-O-C linkage of an ether, so the name is ethoxyethane, commonly called diethyl ether. Butan-1-ol shares the formula C₄H₁₀O but has a terminal OH on a carbon chain, and butanal, butan-2-one and butanoic acid all require a carbonyl carbon, which this structure lacks."
+  },
+  {
+   "n": 10,
+   "derived": "C",
+   "text": "A ketone has its C=O on an internal carbon of the chain. Butan-2-one, CH₃COCH₂CH₃, meets both requirements: a four-carbon chain and an internal carbonyl. Butanal and butanoic acid reach the carbon count but carry an aldehyde and a carboxylic acid group, propanone is a true ketone with only three carbons, and butan-2-ol is an alcohol with no C=O at all."
+  },
+  {
+   "n": 11,
+   "derived": "E",
+   "text": "The D or L label is decided solely by the chiral center farthest from the carbonyl group, C-5 in an aldohexose: a left-pointing OH there places the sugar in the L series. What happens at C-2 to C-4, including any two-right, two-left balance of the OH groups, is irrelevant to the label, and meso describes internal mirror symmetry, not the D/L classification."
+  },
+  {
+   "n": 12,
+   "derived": "A",
+   "text": "The two disaccharides contain exactly the same atoms; only the three-dimensional geometry of the link differs, alpha-1,4 in maltose versus beta-1,4 in cellobiose. Enzyme active sites are stereochemically specific, so the human enzyme fits the alpha geometry and hydrolyses maltose but cannot bind cellobiose. The claim that beta bonds are chemically stronger fails because both bond types hydrolyse given the right catalyst (human lactase even digests the beta bond of lactose), and cellobiose, with one free anomeric carbon, is itself a reducing sugar."
+  },
+  {
+   "n": 13,
+   "derived": "D",
+   "text": "A sugar is reducing only if it has a free anomeric carbon that can open to the carbonyl form. Sucrose locks both anomeric carbons (C-1 of glucose and C-2 of fructose) inside its glycosidic bond, so neither ring can open and sucrose is non-reducing, while maltose leaves the second glucose's anomeric carbon free and is reducing. The claim that any glycosidic bond blocks reduction fails because only the anomeric centers taking part in the bond are locked, not every unit in the molecule."
+  },
+  {
+   "n": 14,
+   "derived": "C",
+   "text": "Step 1: M(C₃H₈) = 3(12) + 8(1) = 44 g/mol. Step 2: n = 4.4 ÷ 44 = 0.10 mol. Step 3: molecules = 0.10 × 6.02 × 10²³ = 6.02 × 10²². The 6.02 × 10²³ answer treats 4.4 g as a whole mole, and 1.204 × 10²³ doubles the correct count."
+  },
+  {
+   "n": 15,
+   "derived": "B",
+   "text": "Step 1: each H₂O carries two H atoms, so n(H) = 0.25 × 2 = 0.50 mol. Step 2: H atoms = 0.50 × 6.02 × 10²³ = 3.01 × 10²³. The 1.505 × 10²³ value counts water molecules and drops the factor of two, and 9.03 × 10²³ counts all three atoms per molecule instead of the hydrogens alone."
+  },
+  {
+   "n": 16,
+   "derived": "A",
+   "text": "Step 1: n(CO₂) = 4.4 ÷ 44 = 0.10 mol. Step 2: equal numbers of molecules mean equal moles, so n(NH₃) = 0.10 mol. Step 3: M(NH₃) = 14 + 3(1) = 17 g/mol, so mass = 0.10 × 17 = 1.7 g. Equal masses would contain equal molecule numbers only if the molar masses matched, which they do not here."
+  },
+  {
+   "n": 17,
+   "derived": "A",
+   "text": "Step 1: n(CO₂) = 8.8 ÷ 44 = 0.20 mol. Step 2: V = 0.20 × 22.4 = 4.48 dm³ at STP. The 11.2 dm³ answer corresponds to 0.5 mol and the 22.4 dm³ answer to 1 mol, neither of which matches 8.8 g of carbon dioxide."
+  },
+  {
+   "n": 18,
+   "derived": "B",
+   "text": "Step 1: 560 cm³ = 0.560 dm³. Step 2: n = 0.560 ÷ 22.4 = 0.025 mol. Step 3: molecules = 0.025 × 6.02 × 10²³ = 1.505 × 10²². The 1.505 × 10²⁵ answer skips the cm³ to dm³ conversion and divides 560 by 22.4 as though the volume were already in cubic decimetres."
+  },
+  {
+   "n": 19,
+   "derived": "C",
+   "text": "Step 1: n(O₂) = 4.48 ÷ 22.4 = 0.20 mol. Step 2: M(O₂) = 2 × 16 = 32 g/mol. Step 3: mass = 0.20 × 32 = 6.4 g. The 3.2 g answer forgets that oxygen gas is diatomic and uses the atomic mass 16 rather than the molecular mass 32."
+  },
+  {
+   "n": 20,
+   "derived": "B",
+   "text": "Step 1: n(CaCO₃) = 10.0 ÷ 100 = 0.10 mol, which would consume 0.20 mol HCl at the 1:2 ratio. Step 2: n(HCl) = 0.100 dm³ × 1.0 mol/dm³ = 0.10 mol, less than needed, so the acid runs out first. Step 3: n(CO₂) = 0.10 ÷ 2 = 0.05 mol. Step 4: V = 0.05 × 22.4 = 1.12 dm³. The 2.24 dm³ answer treats the carbonate as limiting and ignores the 2 mol of HCl required per mol of CO₂."
+  },
+  {
+   "n": 21,
+   "derived": "C",
+   "text": "Step 1: n(ethanol) = 9.2 ÷ 46 = 0.20 mol, so at most 0.20 mol of ethene can form. Step 2: theoretical mass = 0.20 × 28 = 5.6 g. Step 3: percentage yield = (4.2 ÷ 5.6) × 100 = 75%. The 25% figure reports the 1.4 g shortfall as a share of the theoretical mass instead of the fraction obtained, and 133% inverts the ratio."
+  },
+  {
+   "n": 22,
+   "derived": "E",
+   "text": "At constant temperature, Boyle's law gives P₁V₁ = P₂V₂, so V₂ = (400 × 2.0) ÷ 100 = 8.0 dm³: a fourfold pressure drop forces a fourfold expansion. The 0.5 dm³ answer inverts the pressure ratio and wrongly predicts that the bubble shrinks as it rises toward lower pressure."
+  },
+  {
+   "n": 23,
+   "derived": "D",
+   "text": "Step 1: convert to kelvin, 27 °C = 300 K and 327 °C = 600 K. Step 2: with volume and moles fixed, P₂ = P₁ × (T₂ ÷ T₁) = 100 × (600 ÷ 300) = 200 kPa. The 109 kPa answer comes from multiplying 100 by 327 ÷ 300, using Celsius readings in a ratio that only kelvin values may enter."
+  },
+  {
+   "n": 24,
+   "derived": "B",
+   "text": "The combined gas law gives V₂ = V₁ × (T₂ ÷ T₁) × (P₁ ÷ P₂) = 9.0 × (400 ÷ 300) × (100 ÷ 200) = 6.0 dm³, using 300 K and 400 K. Warming expands the gas but the doubled pressure compresses it more, so the net effect is a shrink from 9.0 to 6.0 dm³. The 12 dm³ answer ignores the pressure change entirely, and 13.5 dm³ inverts both ratios."
+  },
+  {
+   "n": 25,
+   "derived": "D",
+   "text": "Step 1: total moles = 0.20 + 0.30 = 0.50 mol. Step 2: mole fraction of O₂ = 0.30 ÷ 0.50 = 0.60. Step 3: p(O₂) = 0.60 × 150 = 90 kPa. The 60 kPa value is the nitrogen share, and 45 kPa multiplies the raw 0.30 mol by the total pressure without first converting to a mole fraction."
+  },
+  {
+   "n": 26,
+   "derived": "C",
+   "text": "Step 1: moles from the concentrated acid = 0.100 × 0.80 = 0.080 mol. Step 2: moles from the dilute acid = 0.400 × 0.20 = 0.080 mol. Step 3: total = 0.160 mol in 0.500 dm³, so c = 0.160 ÷ 0.500 = 0.32 mol/dm³. The 0.50 mol/dm³ answer takes a plain average of the two concentrations, ignoring that four times more of the dilute solution was used."
+  },
+  {
+   "n": 27,
+   "derived": "D",
+   "text": "Step 1: moles of solute = 0.025 dm³ × 2.0 mol/dm³ = 0.050 mol. Step 2: final volume = 0.050 ÷ 0.10 = 0.50 dm³ = 500 cm³. The question asks for the final volume of the diluted solution, so the original 25 cm³ must not be subtracted; that subtraction would answer a water-added question instead."
+  },
+  {
+   "n": 28,
+   "derived": "C",
+   "text": "HCl is fully ionised, so [H⁺] = 2.0 × 10⁻⁴ mol/dm³ and pH = −log(2.0 × 10⁻⁴) = 4 − log 2 = 4 − 0.30 = 3.70. The 4.0 answer drops the 0.30 contribution of the factor 2, and the 10.3 value would describe a basic solution, impossible for a strong acid."
+  },
+  {
+   "n": 29,
+   "derived": "D",
+   "text": "Step 1: [H⁺] = 5.0 × 10⁻² mol/dm³, so pH = 2 − log 5 = 2 − 0.70 = 1.30. Step 2: pOH = 14.00 − 1.30 = 12.70. The 1.3 answer reports the pH, but pOH is the quantity asked for, obtained through Kw."
+  },
+  {
+   "n": 30,
+   "derived": "C",
+   "text": "Step 1: each Sr(OH)₂ releases two OH⁻ ions, so [OH⁻] = 2 × 5.0 × 10⁻⁴ = 1.0 × 10⁻³ mol/dm³. Step 2: pOH = 3.00 and pH = 14.00 − 3.00 = 11.0. The 10.7 answer forgets the factor of two and keeps pOH = 3.3, and the 3.0 value quotes the pOH as though it were the pH of a base."
+  },
+  {
+   "n": 31,
+   "derived": "B",
+   "text": "Step 1: P (10⁻³ M HCl) has pH 3.0; Q (5 × 10⁻³ M HCl) has pH 3 − 0.70 = 2.3, so the more concentrated acid is the more acidic. Step 2: R (10⁻³ M NaOH) gives pOH 3.0 and pH 11.0. Step 3: S (10⁻³ M Ba(OH)₂) releases two OH⁻ per formula unit, so [OH⁻] = 2 × 10⁻³, pOH = 3 − 0.30 = 2.7 and pH 11.3. Increasing pH therefore runs Q, P, R, S; ordering by concentration alone (which puts P ahead of Q) ignores what the logarithm does to concentration."
+  },
+  {
+   "n": 32,
+   "derived": "E",
+   "text": "Pure water always produces H₃O⁺ and OH⁻ in equal amounts, so it remains neutral at every temperature; neutrality means equal concentrations of the two ions, not a pH of exactly 7, which is a 25 °C coincidence tied to Kw = 1.0 × 10⁻¹⁴. Heating raises Kw, so both concentrations climb above 10⁻⁷ mol/dm³ and the pH falls to 6.5 without any excess of H₃O⁺ over OH⁻."
+  },
+  {
+   "n": 33,
+   "derived": "C",
+   "text": "In pure water [H⁺] = [OH⁻], so Kw = [OH⁻]² and [OH⁻] = √(3.0 × 10⁻¹⁵) ≈ 5.5 × 10⁻⁸ mol/dm³. The 1.0 × 10⁻⁷ value keeps the 25 °C concentration although Kw has fallen, and 3.0 × 10⁻¹⁵ mistakes the ionic product itself for a concentration."
+  },
+  {
+   "n": 34,
+   "derived": "A",
+   "text": "Step 1: initial [H⁺] = 0.10 mol/dm³, pH 1.0. Step 2: the amount of HCl (1.0 × 10⁻³ mol) is unchanged, but the volume grows a hundredfold to 1.0 dm³, so [H⁺] = 1.0 × 10⁻³ mol/dm³ and pH 3.0. The pH rises by exactly 2 units. Dilution is not neutralisation: a 10⁻³ mol/dm³ strong acid still has pH 3, not 7."
+  },
+  {
+   "n": 35,
+   "derived": "D",
+   "text": "Step 1: pH 4.0 requires [H⁺] = 1.0 × 10⁻⁴ mol/dm³, and the stock supplies 1.0 × 10⁻² mol/dm³, so a hundredfold dilution is needed. Step 2: final volume = 20 × 100 = 2000 cm³. Step 3: water to add = 2000 − 20 = 1980 cm³. The 2000 cm³ answer forgets that the 20 cm³ of stock already occupies part of the final volume."
+  },
+  {
+   "n": 36,
+   "derived": "E",
+   "text": "A buffer requires comparable amounts of a weak acid and its conjugate base. Mixing 100 cm³ of 0.10 mol/dm³ ethanoic acid with 50 cm³ of 0.10 mol/dm³ NaOH neutralises exactly half the acid, leaving 0.005 mol of CH₃COOH and 0.005 mol of CH₃COO⁻ side by side in solution. Exact neutralisation leaves only sodium ethanoate with no acid reserve, either strong-acid mixture leaves excess HCl or mere spectator ions, and a weak acid alone carries essentially no conjugate base to absorb added acid."
+  },
+  {
+   "n": 37,
+   "derived": "A",
+   "text": "The pH of an ethanoic acid and ethanoate buffer is governed by the ratio [CH₃COO⁻] ÷ [CH₃COOH]. Adding an equal volume of water divides both concentrations by the same factor, so the ratio, and hence the pH near 4.8, stays essentially unchanged, while the absolute amounts of acid and base available to absorb any added acid or alkali shrink. Dilution costs a buffer its capacity, not its pH, so the claims that the buffer is destroyed or that the pH jumps by about a unit misread which property the ratio controls."
+  },
+  {
+   "n": 38,
+   "derived": "B",
+   "text": "The ethanoate ion is the conjugate base of a weak acid, so it accepts a proton from water, CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻, releasing hydroxide and making sodium ethanoate basic. The ammonium claim reverses the chemistry, because NH₄⁺ donates a proton to water and gives an acidic solution, and chloride and nitrate, as conjugate bases of strong acids, are far too weak to hydrolyse water."
+  },
+  {
+   "n": 39,
+   "derived": "C",
+   "text": "Step 1: n(glucose) = 9.0 ÷ 180 = 0.050 mol. Step 2: the bag volume is 500 cm³ = 0.500 dm³. Step 3: c = 0.050 ÷ 0.500 = 0.10 mol/dm³. This agrees with the label, since 1.8 g per 100 cm³ gives 9.0 g in 500 cm³, and the 0.050 mol/dm³ answer stops at the mole count without dividing by the bag's volume."
+  },
+  {
+   "n": 40,
+   "derived": "A",
+   "text": "Step 1: molar solubility = 1.85 ÷ 74 = 0.025 mol/dm³. Step 2: full dissociation gives [OH⁻] = 2 × 0.025 = 0.050 mol/dm³. Step 3: pOH = 2 − log 5 = 1.30, so pH = 14 − 1.30 = 12.70. The 0.050 mol/dm³ figure reports the hydroxide concentration as the salt's solubility, and the calcium ion works out at 0.025 × 40 = 1.0 g/dm³ = 1000 ppm, not 1850 ppm."
+  },
+  {
+   "n": 41,
+   "derived": "B",
+   "text": "Summing oxidation numbers over the neutral molecule HCHO: each H counts +1 toward carbon and O counts −2, so C + 2(+1) + (−2) = 0, giving the aldehyde carbon an oxidation number of 0. For contrast, carbon sits at +2 in carbon monoxide and at +4 in carbon dioxide, so neither of those values belongs to an aldehyde carbon."
+  },
+  {
+   "n": 42,
+   "derived": "D",
+   "text": "The ion's charge fixes only the sum: 2S + 3(−2) = −2 gives an average of +2 for the two sulfur atoms. Structurally, the S-S bond contributes nothing because identical atoms share the bonding electrons equally, so the central sulfur bonded to three oxygens counts +5 and the terminal sulfur counts −1, and these sum to the required total of +4 for the two sulfurs. The numbers are fully assignable; a bond between identical atoms is ignored in the count, not undefined."
+  },
+  {
+   "n": 43,
+   "derived": "A",
+   "text": "In SO₄²⁻, S + 4(−2) = −2 gives S = +6; in NO₂⁻, N + 2(−2) = −1 gives N = +3. The +4 value for sulfur belongs to sulfite, SO₃²⁻, and +5 for nitrogen belongs to nitrate, NO₃⁻, so any statement using those numbers describes the wrong oxoanion."
+  },
+  {
+   "n": 44,
+   "derived": "E",
+   "text": "In ethanol, the CH₂OH carbon carries two C-H bonds (each counts −1 for carbon) and one C-O bond (+1), giving an oxidation number of −1. In ethanal, the same carbon carries one C-H (−1) and a C=O double bond (+2), giving +1. The rise from −1 to +1 is a loss of two electrons, so ethanol is oxidised. The claim that the carbon falls from +1 to −1 reverses the direction and would describe reduction, and the average over both carbons also moves, from −2 to −1, so no unchanged-average reading survives."
+  },
+  {
+   "n": 45,
+   "derived": "B",
+   "text": "Tin rises from +2 in SnCl₂ to +4 in SnCl₄, so it is oxidised and SnCl₂ is the reducing agent. Iron falls from +3 in FeCl₃ to +2 in FeCl₂, so Fe³⁺ gains electrons, and the species that is reduced is by definition the oxidising agent, which is FeCl₃. Chloride stays at −1 throughout and is a spectator, and an oxidation product such as SnCl₄ cannot itself be the oxidising agent."
+  },
+  {
+   "n": 46,
+   "derived": "C",
+   "text": "Manganese falls from +4 in MnO₂ to +2 in MnCl₂, so MnO₂ is reduced and therefore acts as the oxidising agent, while chloride rises from −1 in HCl to 0 in Cl₂ and is oxidised, making the chloride ion the reducing agent. Calling MnO₂ the reducing agent reverses the rule that the reduced species is the oxidising one, and redox concerns electron transfer, so the absence of transferred oxygen does not mean no oxidation occurs."
+  },
+  {
+   "n": 47,
+   "derived": "A",
+   "text": "Chlorine starts at oxidation number 0 and finishes in two states, −1 in NaCl (reduced) and +1 in NaClO (oxidised), so chlorine is both oxidised and reduced: a disproportionation. Oxygen remains at −2 in OH⁻, ClO⁻ and H₂O throughout, and the hydroxide ion changes no oxidation state, so it is neither agent. Note also that gaining electrons is reduction, so any claim that a species is oxidised because it gains electrons contradicts itself."
+  },
+  {
+   "n": 48,
+   "derived": "B",
+   "text": "Sulfur rises from +4 in SO₃²⁻ to +6 in SO₄²⁻, a loss of two electrons, so the balanced half-equation in acid is SO₃²⁻ + H₂O → SO₄²⁻ + 2H⁺ + 2e⁻, and the charge check agrees: −2 on the left, and −2 + 2 − 2 = −2 on the right. The electron count follows the two-unit change of the sulfur, not the number of oxygen atoms involved."
+  },
+  {
+   "n": 49,
+   "derived": "D",
+   "text": "Step 1: manganese falls from +7 in MnO₄⁻ to +2 in Mn²⁺, so each permanganate ion gains 5 electrons. Step 2: each Fe²⁺ loses 1 electron to become Fe³⁺, so five Fe²⁺ ions are required, giving MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 4H₂O + 5Fe³⁺, with charge and atoms balanced. The 7-electron answer wrongly counts down to oxidation number 0, the metallic state."
+  },
+  {
+   "n": 50,
+   "derived": "A",
+   "text": "With molar masses nearly equal (58, 58, 60), boiling point is decided by the strength of intermolecular forces. Propan-1-ol hydrogen bonds through its O-H group and boils highest at 97 °C, propanone has permanent dipole-dipole forces only and boils at 56 °C, and butane has only weak London forces and boils lowest at 0 °C. Any ranking that places propanone above propan-1-ol fails because dipole-dipole attraction is weaker than hydrogen bonding at the same molar mass."
+  },
+  {
+   "n": 51,
+   "derived": "C",
+   "text": "All three isomers hydrogen bond equally through their O-H groups, so the boiling-point spread comes from the London force component, which grows with molecular surface contact. The unbranched chain of butan-1-ol gives the greatest contact and the highest boiling point (118 °C), while the compact branching of 2-methylpropan-2-ol gives the least contact and the lowest (82 °C). Branching alters intermolecular contact only; it cannot weaken the O-H covalent bonds inside the molecules, and all three carry the same functional group."
+  },
+  {
+   "n": 52,
+   "derived": "D",
+   "text": "Fluorine's high electronegativity lets HF molecules form strong hydrogen bonds, while HCl molecules attract each other only by ordinary dipole-dipole and London forces, so HF boils far higher (about 20 °C versus −85 °C) despite its lower molar mass. The comparison concerns intermolecular forces, not covalent bond strength, because the H-F bonds survive boiling intact; and HCl is polar, just with a weaker dipole and no hydrogen bonding."
+  },
+  {
+   "n": 53,
+   "derived": "C",
+   "text": "BF₃ is trigonal planar, and its three identical B-F dipoles at 120 degrees cancel vectorially, so the molecule is non-polar. Water is bent, so its two O-H dipoles leave a resultant and the molecule is polar; CO₂ is linear and cancels, and ammonia is pyramidal and polar. The general claim that polar bonds always make a polar molecule is disproved by every symmetric case such as BF₃ and CO₂."
+  },
+  {
+   "n": 54,
+   "derived": "B",
+   "text": "In CCl₄ the four identical C-Cl dipoles sit symmetrically in the tetrahedron and cancel exactly, so it is non-polar. Substituting Cl by H destroys the symmetry of the dipole arrangement, so CHCl₃ and CH₂Cl₂ both keep a net dipole and are polar. Adding more identical dipoles in a fully symmetric tetrahedron makes the resultant smaller, not larger, so CCl₄ is the least polar of the three, not the most."
+  },
+  {
+   "n": 55,
+   "derived": "A",
+   "text": "Both molecules contain polar bonds, so geometry decides the outcome. CO₂ is linear, its two equal C=O dipoles point in opposite directions and cancel; SO₂ is bent (the lone pair on sulfur holds the O-S-O angle near 119 degrees), so its two S=O dipoles add to a net dipole. Bond polarity depends on electronegativity difference, not on molecular shape, so the claim that bending changes whether the bonds themselves are polar is wrong."
+  },
+  {
+   "n": 56,
+   "derived": "E",
+   "text": "Conduction through a solid requires mobile charge carriers, and only the delocalised electrons of a metal can move through a rigid lattice, so R, which conducts as a solid, is metallic. P conducts only when molten or dissolved, the signature of an ionic solid whose ions are locked until melting or solution frees them, and S, which never conducts even when molten, is giant covalent rather than ionic, because molten ionic compounds do conduct, so a very high melting point alone cannot mark ionic bonding."
+  },
+  {
+   "n": 57,
+   "derived": "C",
+   "text": "Melting NaCl means overcoming the strong electrostatic attractions between Na⁺ and Cl⁻ ions repeated throughout a giant lattice, which takes 801 °C. Solid iodine is simple molecular, so melting only overcomes the weak London forces between I₂ molecules while every I-I covalent bond stays intact, which takes only 114 °C. The forces between separate iodine molecules are intermolecular London forces, not covalent bonds, and molar mass cannot compare an ionic lattice with a molecular solid."
+  },
+  {
+   "n": 58,
+   "derived": "C",
+   "text": "Step 1: bonds broken cost 436 (H-H) + 242 (Cl-Cl) = 678 kJ/mol. Step 2: bonds formed release 2 × 431 = 862 kJ/mol. Step 3: ΔH = 678 − 862 = −184 kJ/mol, negative because stronger bonds form than break. Reversing the subtraction produces +184, and the 247 magnitudes forget that two H-Cl bonds form per equation as written."
+  },
+  {
+   "n": 59,
+   "derived": "D",
+   "text": "A positive ΔH marks an endothermic change: the products sit higher in enthalpy than the reactants and the difference is absorbed as heat from the surroundings. The claim that stronger bonds form in the products is backwards, because stronger bonds forming releases energy and would drive ΔH negative, and ΔH does not flip sign merely because the mixture is hot."
+  },
+  {
+   "n": 60,
+   "derived": "C",
+   "text": "In rate = k[A]ⁿ, k must carry whatever units make the right-hand side come out in mol/(dm³·s). Zero order gives k the rate's own units, first order gives s⁻¹, and second order gives dm³/(mol·s). So the correct pairing is a first-order constant in s⁻¹ with a second-order constant in dm³/(mol·s); attaching mol/(dm³·s) to a first-order constant actually describes the zero-order case."
+  },
+  {
+   "n": 61,
+   "derived": "B",
+   "text": "Twelve hours contains 12 ÷ 4 = 3 half-lives, and each first-order half-life halves whatever amount is present: D → D/2 → D/4 → D/8. One eighth of the dose remains. Dividing one half by three to get 1/6 treats the decay as linear when it is exponential."
+  },
+  {
+   "n": 62,
+   "derived": "A",
+   "text": "Step 1: doubling [A] doubling the rate fixes A's exponent at 1, and doubling [B] quadrupling the rate fixes B's exponent at 2, so rate = k[A][B]² and the overall order is 1 + 2 = 3. Step 2: k = rate ÷ ([A][B]²), so the units are (mol/(dm³·s)) ÷ (mol/dm³)³ = dm⁶/(mol²·s). The dm³/(mol·s) units belong to a second-order constant and cannot serve an overall third-order rate law."
+  },
+  {
+   "n": 63,
+   "derived": "D",
+   "text": "A catalyst offers a lower-activation-energy pathway and speeds the forward and reverse reactions by the same factor, so the mixture reaches equilibrium sooner while the equilibrium position, K and ΔH all stay unchanged. The claim that it shifts equilibrium toward ammonia fails because the yield is fixed by thermodynamics, and raising the average kinetic energy of molecules is what heating does, not what a catalyst does."
+  },
+  {
+   "n": 64,
+   "derived": "E",
+   "text": "MnO₂ provides the decomposition with an alternative pathway of lower activation energy and is regenerated as the cycle turns, which is exactly why the same black powder can be recovered unchanged and reused. The solid is not consumed (its recovery disproves that), a catalyst does not alter the enthalpy change of the reaction, and raising molecular speeds is what heating accomplishes, not catalysis."
+  },
+  {
+   "n": 65,
+   "derived": "C",
+   "text": "Heating reshapes the Maxwell-Boltzmann energy distribution so that a much larger fraction of molecules has energy at or above the activation energy, and it is this surge in effective collisions that drives the sharp rate rise. The activation energy is a property of the reaction pathway and does not fall when the mixture is warmed, and collision frequency rises only slightly over a 30 degree change, far too little to account for the whole effect."
+  }
+ ],
+ "disagreements": [],
+ "notes": [
+  "Q27: the stored explanation refers to a 475 cm³ distractor, but no such option exists in the bank (475 cm³ would be the volume of water added; the closest printed option is 450 cm³). The stored answer key itself is correct.",
+  "Q41: the stored explanation says the +2 oxidation state belongs to the carboxyl carbon of a carboxylic acid; a carboxyl carbon is in fact +3 (C=O gives +2, C-OH gives +1). Carbon at +2 occurs in carbon monoxide. The stored answer key itself is correct.",
+  "Q39: the stem data (9.0 g in 500 cm³) is internally consistent with the 1.8 % w/v label; both routes give 0.10 mol/dm³.",
+  "All 65 derived answers matched the stored answer keys; no disagreements."
+ ]
+}

@@ -1,0 +1,312 @@
+{
+ "bank": "imat_mock10",
+ "solutions": [
+  {
+   "n": 1,
+   "derived": "A",
+   "text": "The leaflet groups a severe skin rash with blistering, swelling of face, lips or throat, and difficulty breathing among the rare effects for which the instruction is to stop the medicine and contact a doctor immediately, so a patient who develops a blistering rash should do exactly that. Nausea is listed among the common effects, so it is more frequent than the rash, not rarer. Difficulty breathing belongs to the rare, urgent group, not to the common ones. The leaflet never suggests that every patient experiences side effects, and immediate stopping is reserved for the rare effects, while sleep disturbance is only uncommon."
+  },
+  {
+   "n": 2,
+   "derived": "C",
+   "text": "The report presents canopy as one instrument among several, alongside reflective roofs and lighter pavements, and never claims that planting trees alone solves summer heat, so the statement calling tree planting a complete solution goes beyond and against the passage and is the one that is not correct. The other statements faithfully restate the survey finding that streets with more than 30 percent canopy were on average 2.1 °C cooler, the dependence of cooling on species and irrigation, the largest effect in districts with low buildings and narrow streets, and the planners' multi-instrument view."
+  },
+  {
+   "n": 3,
+   "derived": "C",
+   "text": "The passage describes money made from mulberry bark, pressed into sheets and cut into round pieces of different values, accepted throughout the empire on pain of punishment and bought up cheaply by the ruler; this is state-issued paper money. Gold coins are metal rather than bark sheets, letters of credit presuppose banks that do not appear in the text, barter would contradict the merchants' obligation to accept the money in exchange, and seashells are never mentioned."
+  },
+  {
+   "n": 4,
+   "derived": "A",
+   "text": "The excerpt says that intestinal bacteria ferment fibre into short-chain fatty acids, which are absorbed, used as fuel by the cells of the intestinal wall and can enter the bloodstream to influence immune cells, so the coherent statement is that gut bacteria can convert dietary fibre into substances the body absorbs and uses. The claim that human enzymes release the acids in the small intestine contradicts the opening sentence, the population is said to shift with diet rather than be fixed at birth, the acids do enter the blood, and immune cell activity is influenced by them rather than independent of them."
+  },
+  {
+   "n": 5,
+   "derived": "B",
+   "text": "The given statement is 'every chemist working in this laboratory speaks German'. Its contrapositive must also be true: anyone working in the laboratory who does not speak German cannot be one of its chemists. The claim that everyone who speaks German is a chemist, and its restatement that German is spoken in the laboratory only by chemists, is the converse and does not follow; the claim that nobody speaks German contradicts the premise, and so does the claim that some chemists in the laboratory do not speak German."
+  },
+  {
+   "n": 6,
+   "derived": "D",
+   "text": "The premises have the form 'if the shipment arrives on Monday, then the campaign starts on Tuesday' together with 'the campaign did not start on Tuesday'. By modus tollens, the negation of the first part follows: the shipment did not arrive on Monday. That the shipment was lost goes beyond the premises, since a delay would fit equally well, and nothing is said about a Wednesday start or about the campaign starting on Monday."
+  },
+  {
+   "n": 7,
+   "derived": "E",
+   "text": "Chaining the constraints gives one unique order of finish: Dario, then Chiara, then Ada, then Beppe, then Elena. From this order, Elena finished after Chiara is necessarily true. The claims that Ada finished before Dario, that Beppe finished before Ada and that Dario finished after Ada each reverse a link of the chain, and Chiara finished last is false because Elena did."
+  },
+  {
+   "n": 8,
+   "derived": "B",
+   "text": "Nadia drove neither the red nor the blue car, so she took the white car. Omar did not drive the blue car and white is already taken, so Omar drove the red car, which makes that statement true, and Paolo is left with the blue car. Every step is forced, so the assignment is unique and each other statement (Nadia in blue, Paolo in white, Omar in white, Paolo in red) contradicts it."
+  },
+  {
+   "n": 9,
+   "derived": "D",
+   "text": "Between a true time of 8:00 am and a true time of 10:00 am exactly 2 hours pass, and a watch gaining 3 minutes per hour gains 2 × 3 = 6 minutes over those 2 hours. The watch therefore shows 10:06 am. The reading 10:03 am counts only one hour of gain, 9:57 am treats the watch as losing time, and 10:09 am triples the gain."
+  },
+  {
+   "n": 10,
+   "derived": "C",
+   "text": "When oxygen is scarce, glycolysis converts NAD⁺ to NADH, which would soon bring the pathway to a halt. Lactic fermentation reduces pyruvate to lactate and in doing so reoxidises NADH back to NAD⁺, letting glycolysis continue producing its small ATP yield; that regeneration is the immediate benefit to the working muscle cell. Complete oxidation of lactate for ATP, conversion of lactate into glycogen, energy from reduced FAD and transport of pyruvate into the mitochondrial matrix all belong to aerobic respiration or to later liver metabolism, not to fermentation inside the muscle fibre."
+  },
+  {
+   "n": 11,
+   "derived": "A",
+   "text": "Glycolysis splits glucose into two pyruvate molecules in the cytosol, producing 4 ATP while consuming 2 earlier in the pathway, for a net gain of 2 ATP per glucose, plus 2 NADH. No step requires molecular oxygen, FAD is not involved (FADH₂ appears later, in the Krebs cycle), and the product is pyruvate, not acetyl-CoA. The version placing glycolysis in the mitochondrial matrix with a net gain of 4 ATP is wrong on both counts."
+  },
+  {
+   "n": 12,
+   "derived": "D",
+   "text": "Of the roughly 30 ATP obtained from one glucose molecule, glycolysis contributes a net 2 and the Krebs cycle 2 more by direct (substrate-level) phosphorylation, the link reaction contributes none, and fermentation adds nothing beyond glycolysis. The remaining share, about 26 ATP, arises when the NADH and FADH₂ generated by the earlier stages are oxidised through the electron transport chain, that is, by oxidative phosphorylation, which is therefore the largest contributor."
+  },
+  {
+   "n": 13,
+   "derived": "B",
+   "text": "The electron transport chain pumps protons into the intermembrane space, storing energy in a gradient; protons then flow back down this gradient through ATP synthase, and the enzyme couples that flow to the phosphorylation of ADP. Oxygen only accepts electrons at the end of the chain and plays no part in ATP synthase, no phosphate group is transferred directly from NADH, creatine phosphate hydrolysis belongs to the muscle phosphagen system, and glucose diffusion across the membrane is irrelevant here."
+  },
+  {
+   "n": 14,
+   "derived": "E",
+   "text": "Ubiquinone (coenzyme Q) is the small lipid-soluble mobile carrier that accepts electrons from complex I (and also from complex II) and delivers them to complex III. Cytochrome c performs the analogous shuttle but between complexes III and IV, NADH donates its electrons to complex I rather than moving between complexes, molecular oxygen only receives electrons at complex IV, and ATP synthase is not an electron carrier at all."
+  },
+  {
+   "n": 15,
+   "derived": "A",
+   "text": "In actively metabolising tissue, CO₂ forms carbonic acid and releases H⁺; both CO₂ and H⁺ bind to haemoglobin at sites away from the heme iron, stabilising its low-affinity state so that oxygen is unloaded more easily (the Bohr effect). A rising pH would have the opposite effect, since acidity lowers affinity; CO₂ does not compete with oxygen for the iron (carbon monoxide does); cooperative binding means oxygen binding promotes, rather than prevents, further binding; and red blood cells do not expel all their oxygen."
+  },
+  {
+   "n": 16,
+   "derived": "C",
+   "text": "Calcium binding to troponin changes its shape and shifts the attached tropomyosin away from the myosin-binding sites on actin, exposing them so that cross-bridge formation can begin. The energy for the power stroke comes from ATP already hydrolysed on the myosin head, not from calcium; calcium binding neither detaches myosin heads (ATP binding does that) nor hydrolyses their ATP; and the filaments slide past each other without changing length, so the myosin filaments themselves do not shorten."
+  },
+  {
+   "n": 17,
+   "derived": "B",
+   "text": "Gap junctions in the intercalated discs are protein channels that let ions pass directly from one cardiac cell to the next, so the electrical impulse begun at the pacemaker spreads rapidly and the muscle of a chamber contracts as a coordinated unit. Anchoring is the job of the desmosomes in the same discs, collagen synthesis belongs to connective tissue, these junctions have no gas-exchange role, and oxygen is stored inside the cells by myoglobin."
+  },
+  {
+   "n": 18,
+   "derived": "D",
+   "text": "The A band corresponds to the full length of the thick myosin filaments, which do not change length during contraction, so the A band stays constant. As the actin filaments slide inward, the I band (actin only) and the H zone (myosin with no overlapping actin) both narrow, and the sarcomere as a whole shortens, which is why the claim that every band shortens is false."
+  },
+  {
+   "n": 19,
+   "derived": "A",
+   "text": "A competitive inhibitor binds reversibly in the active site and competes with substrate molecules for it, so raising the substrate concentration makes it more likely that substrate rather than inhibitor occupies the site, restoring the maximum rate. Changing the cofactor concentration, cooling the mixture or setting the pH to the optimum does not displace a molecule sitting in the active site, and adding a second inhibitor could only slow the reaction further."
+  },
+  {
+   "n": 20,
+   "derived": "E",
+   "text": "A small organic molecule that must be bound to an enzyme for activity is a coenzyme, examples being NAD⁺ and FAD. The protein alone without it is the apoenzyme, while the holoenzyme is the active complex of protein plus cofactor (the enzyme as a whole, not the small molecule); a zymogen is an inactive precursor of an enzyme, and a substrate analogue is a look-alike molecule that blocks the active site instead of enabling catalysis."
+  },
+  {
+   "n": 21,
+   "derived": "C",
+   "text": "Pepsin is secreted into the stomach, where hydrochloric acid activates it and gives it an optimum pH of about 2 for hydrolysing proteins into peptides. Pancreatic amylase, trypsin and pancreatic lipase all act at near-neutral to mildly alkaline pH in the small intestine, and intestinal maltase works at the neutral pH of intestinal juice, so none of them fits the stomach environment."
+  },
+  {
+   "n": 22,
+   "derived": "B",
+   "text": "In the urea cycle, run in liver cells, the ammonia released by amino acid breakdown is combined with carbon dioxide and an amino group to form urea, which the blood carries to the kidneys for excretion. Uric acid is the nitrogen waste of birds and reptiles, creatinine comes from phosphocreatine breakdown in muscle, and carbon dioxide and glucose are not products of ammonia detoxification."
+  },
+  {
+   "n": 23,
+   "derived": "D",
+   "text": "ADH raises the water permeability of the collecting duct by promoting the insertion of aquaporin channels; if its secretion stops, water is no longer reabsorbed there, so a large volume of dilute urine is produced. A small volume of concentrated urine is the effect of ADH acting, not of its absence; glucose in the urine points to high blood glucose exceeding the renal threshold; and urine formation does not cease, only its volume and concentration change."
+  },
+  {
+   "n": 24,
+   "derived": "A",
+   "text": "Osteoclasts attach to a bone surface, seal off a compartment and pump out acid and lysosomal enzymes, dissolving the mineral and digesting the organic matrix; this resorption releases calcium into the blood. Osteoblasts do the opposite by depositing new matrix, osteocytes are mature cells embedded in lacunae that maintain the tissue, chondroblasts form cartilage, and fibroblasts produce the fibres of connective tissue."
+  },
+  {
+   "n": 25,
+   "derived": "C",
+   "text": "Glucagon, released by the alpha cells of the pancreatic islets when blood glucose is low, activates glycogen phosphorylase in the liver, so stored glycogen is broken down and glucose is released into the blood. Insulin has the opposite action, promoting glycogen synthesis and glucose uptake; aldosterone regulates sodium and potassium balance, melatonin governs circadian rhythms, and thyroxine raises the basal metabolic rate rather than serving as the glucose-raising hormone described."
+  },
+  {
+   "n": 26,
+   "derived": "E",
+   "text": "In glycogen, as in starch and cellulose, glucose units are joined by glycosidic bonds, formed by condensation between hydroxyl groups of adjacent sugars. Peptide bonds join amino acids in proteins, ester bonds link glycerol to fatty acids in fats, phosphodiester bonds join nucleotides in nucleic acids, and hydrogen bonds only stabilise structures weakly without covalently linking the sugar units."
+  },
+  {
+   "n": 27,
+   "derived": "B",
+   "text": "The sodium-potassium pump continuously exports 3 Na⁺ and imports 2 K⁺ per ATP hydrolysed, maintaining the concentration gradients against constant leakage through the membrane. Blocking it stops this maintenance, so the gradients gradually decay and are lost. The pump neither runs backwards nor reverses the gradients, the membrane does not become freely permeable to all ions, and with the pump idle the cell consumes less ATP, not more."
+  },
+  {
+   "n": 28,
+   "derived": "B",
+   "text": "A digestive enzyme is a secreted protein: it is synthesised by ribosomes attached to the rough endoplasmic reticulum, enters the ER lumen, travels in transport vesicles to the Golgi apparatus for modification and sorting, and leaves in secretory vesicles that fuse with the plasma membrane. Free ribosomes make proteins that stay in the cytosol, and the secretory route never passes through the nucleus or the lysosomes."
+  },
+  {
+   "n": 29,
+   "derived": "A",
+   "text": "After synthesis on the rough ER, lysosomal enzymes pass to the Golgi apparatus, where they are tagged (typically with phosphate groups on mannose sugars) and packed into vesicles destined for the lysosomes. The smooth ER handles lipid synthesis and detoxification, the nucleolus assembles ribosomal subunits, and peroxisomes and mitochondria are separate organelles with their own enzymes, none of which sorts lysosomal cargo."
+  },
+  {
+   "n": 30,
+   "derived": "B",
+   "text": "A triglyceride is one glycerol molecule with its three hydroxyl groups esterified to three fatty acid chains, the form in which fat is stored in adipose tissue. Replacing one fatty acid with a phosphate group gives a phospholipid instead; amino acids and glucose are not components of triglycerides, and four fatty acids would not fit the three hydroxyls of glycerol."
+  },
+  {
+   "n": 31,
+   "derived": "C",
+   "text": "The father is Tt and the mother is tt. The father's gametes carry T or t with equal chance, while every maternal gamete carries t, so half the children are Tt (tasters) and half are tt (non-tasters). The probability of a child who cannot taste the compound is therefore 1/2. The fractions 1/4 and 3/4 arise from a Tt × Tt cross, which is not the cross given here."
+  },
+  {
+   "n": 32,
+   "derived": "C",
+   "text": "During quiet inhalation the diaphragm contracts and flattens and the external intercostal muscles raise the ribs, enlarging the thoracic cavity; alveolar pressure then falls slightly below atmospheric pressure and air flows in. A diaphragm that relaxes and rises back into the thorax, strongly contracting internal intercostals, a rib cage pulled inward, and alveolar pressure above atmospheric all describe exhalation."
+  },
+  {
+   "n": 33,
+   "derived": "C",
+   "text": "A pH of 4.0 means [H⁺] = 1.0 × 10⁻⁴ mol/dm³, and dissociation of the monoprotic acid HA gives equal concentrations of H⁺ and A⁻. Using Ka = [H⁺][A⁻]/[HA] with [HA] ≈ C: Ka ≈ (10⁻⁴ × 10⁻⁴)/10⁻³ = 10⁻⁸/10⁻³ = 1.0 × 10⁻⁵ (the exact denominator 10⁻³ − 10⁻⁴ = 9 × 10⁻⁴ gives 1.1 × 10⁻⁵, the same approximation). Equating Ka with [H⁺] itself would wrongly give 10⁻⁴, and multiplying [H⁺] by the concentration instead of squaring and dividing would give 10⁻⁷."
+  },
+  {
+   "n": 34,
+   "derived": "B",
+   "text": "NH₄Cl is the salt of the weak base NH₃ and the strong acid HCl. In water the Cl⁻ ion, as the conjugate base of a strong acid, is a negligible spectator, while NH₄⁺, the conjugate acid of a weak base, donates a proton to water producing H₃O⁺, so the solution is acidic. Salts are not always neutral, Cl⁻ is not a strong base, NH₄⁺ releases protons rather than hydroxide ions, and the concentration would change the degree of acidity but not its direction."
+  },
+  {
+   "n": 35,
+   "derived": "D",
+   "text": "No conduction as a solid but good conduction when molten is the signature of an ionic solid: in the crystal the ions are fixed in the lattice, while melting frees them to move and carry charge. This fits sodium chloride. Copper conducts even as a solid through its delocalised electrons, and sulfur, silicon dioxide and glucose, being molecular substances, conduct in neither state."
+  },
+  {
+   "n": 36,
+   "derived": "A",
+   "text": "Bond polarity increases with the electronegativity difference between the two atoms. The differences from carbon (2.55) are: with oxygen, 3.44 − 2.55 = 0.89; with chlorine, 3.16 − 2.55 = 0.61; with nitrogen, 3.04 − 2.55 = 0.49; with hydrogen, 2.55 − 2.20 = 0.35; with another carbon, 0. The largest difference (0.89) belongs to the carbon-oxygen bond, making it the most polar; chlorine and nitrogen follow, and the carbon-carbon bond is non-polar."
+  },
+  {
+   "n": 37,
+   "derived": "C",
+   "text": "The compound is neutral, so the oxidation numbers must sum to zero. Sodium contributes 2 × (+1) and oxygen 3 × (−2), so 2 + 2x − 6 = 0 for the two sulfur atoms together, giving 2x = +4 and an average of +2 per sulfur. The value +6 corresponds to sulfur in a sulfate ion and −2 to sulfide; in thiosulfate the two sulfur atoms actually have different individual values, and only their average is +2."
+  },
+  {
+   "n": 38,
+   "derived": "E",
+   "text": "Oxidation is electron loss, seen as a rise in oxidation number. Magnesium goes from 0 in the element to +2 in MgO, so magnesium is oxidised, and its electrons reduce carbon from +4 in CO₂ to 0 in the deposited carbon. Describing carbon as oxidised gets it backwards (falling from +4 to 0 is reduction), oxygen merely changes partner while staying at −2, and both magnesium and carbon cannot be oxidised at once because one partner of the electron transfer must be reduced."
+  },
+  {
+   "n": 39,
+   "derived": "D",
+   "text": "A ketone carries its carbonyl group, C=O, on a carbon inside the carbon chain. Propanone, CH₃COCH₃, is the three-carbon ketone (acetone). Propanal and methanal have the carbonyl at the end of the chain and are aldehydes, propan-1-ol is an alcohol, and propanoic acid is a carboxylic acid."
+  },
+  {
+   "n": 40,
+   "derived": "D",
+   "text": "Monosaccharides are single sugar units: glucose, fructose and galactose qualify. Sucrose (glucose plus fructose), maltose (two glucose units) and lactose (galactose plus glucose) are disaccharides, and starch and cellulose are polysaccharides. Only the pair glucose and fructose consists of two monosaccharides."
+  },
+  {
+   "n": 41,
+   "derived": "D",
+   "text": "The balanced equation requires 5 mol of O₂ per 1 mol of propane, so 0.5 mol of propane needs 0.5 × 5 = 2.5 mol of oxygen. The values 1.5 mol and 2.0 mol confuse the oxygen demand with the amounts of CO₂ (3 × 0.5) and H₂O (4 × 0.5) formed, 0.5 mol assumes a one-to-one ratio, and 5.0 mol forgets to scale from 1 mol down to 0.5 mol."
+  },
+  {
+   "n": 42,
+   "derived": "C",
+   "text": "Step 1: amount of methane, n = 4.0 g ÷ 16 g/mol = 0.25 mol. Step 2: the equation yields 2 mol of water per 1 mol of methane, so water formed = 0.25 × 2 = 0.5 mol. Step 3: mass = 0.5 × 18 g/mol = 9.0 g. The value 4.5 g forgets the factor of 2 in front of H₂O, while 18.0 g and 36.0 g lose track of how little methane is burning."
+  },
+  {
+   "n": 43,
+   "derived": "A",
+   "text": "Across a period the nuclear charge rises while the added electrons enter the same principal shell, so the outermost electron is held more strongly and the first ionisation energy generally increases. That atoms become heavier does not by itself lower the ionisation energy, a constant shell number does not make the trend constant, and the atomic radius actually decreases across a period, so any explanation built on a growing radius is wrong."
+  },
+  {
+   "n": 44,
+   "derived": "C",
+   "text": "A p sublevel consists of three orbitals, and each orbital holds at most two electrons of opposite spin, giving 3 × 2 = 6 electrons. The value 2 is the capacity of a single orbital, 10 is the capacity of a d sublevel (five orbitals), and 8 is the capacity of a complete shell such as n = 2."
+  },
+  {
+   "n": 45,
+   "derived": "E",
+   "text": "By Le Chatelier's principle, raising the pressure shifts the equilibrium toward the side with fewer moles of gas; here 4 mol of gas become 2, so high pressure favours NH₃. Because the forward reaction is exothermic, lowering the temperature also favours the products (at the cost of rate). The highest yield therefore comes from low temperature and high pressure. High temperature favours the reverse (endothermic) direction, and a catalyst only speeds the approach to equilibrium without changing its position."
+  },
+  {
+   "n": 46,
+   "derived": "B",
+   "text": "A catalyst provides an alternative reaction path of lower activation energy, and it lowers the barrier for the forward and reverse reactions equally, so both rates rise by the same factor and the equilibrium composition is unchanged; equilibrium is simply reached sooner. It does not shift the position toward products, it does not alter the enthalpy change (which depends only on the initial and final states), and it does not increase reactant concentrations."
+  },
+  {
+   "n": 47,
+   "derived": "A",
+   "text": "The sulfate ion SO₄²⁻ carries a 2− charge, so the single metal ion in CuSO₄ must be Cu²⁺, and the Stock name is copper(II) sulfate. Copper(I) would need two copper ions per sulfate, giving the formula Cu₂SO₄; sulfite is SO₃²⁻ (one oxygen fewer than sulfate) and sulfide is the bare S²⁻ ion, so the copper sulfite and copper sulfide names refer to different compounds altogether."
+  },
+  {
+   "n": 48,
+   "derived": "A",
+   "text": "Completing the square gives x² + 2x + 5 = (x + 1)² + 4. Since (x + 1)² ≥ 0 for every real x, the expression is at least 4 and is therefore always positive; equivalently, the discriminant is 2² − 4 × 1 × 5 = −16, negative, so the upward-opening parabola never touches the x-axis and no interval of solutions exists. The solution set is empty; in particular x = −1, the vertex position, gives the value 4 and does not satisfy the inequality."
+  },
+  {
+   "n": 49,
+   "derived": "A",
+   "text": "Subtracting 2x from both sides gives 3x − 3 < 9; adding 3 gives 3x < 12; dividing by the positive number 3, which does not flip the inequality, gives x < 4. The answer x < 12 forgets the division by 3, and no sign reversal occurs anywhere because the inequality is never multiplied or divided by a negative number."
+  },
+  {
+   "n": 50,
+   "derived": "D",
+   "text": "A root satisfies the equation, so substituting x = 2 gives 2² − 5 × 2 + k = 4 − 10 + k = 0, hence k = 6. As a check, x² − 5x + 6 = 0 has roots 2 and 3, which sum to 5 and multiply to 6, consistent with the coefficients. The value 4 merely copies the square of the given root, and 10 copies the coefficient of x."
+  },
+  {
+   "n": 51,
+   "derived": "C",
+   "text": "The union collects every element of both sets, counting shared elements once: A ∪ B = {1, 2, 3, 4, 5, 6}. In symbols, |A ∪ B| = |A| + |B| − shared = 4 + 4 − 2 = 6, since 3 and 4 belong to both. The answer 8 double counts the two shared elements, and 4 counts only one of the two sets."
+  },
+  {
+   "n": 52,
+   "derived": "E",
+   "text": "Multiplying term by term: 2x × x = 2x², 2x × 5 = 10x, (−3) × x = −3x, and (−3) × 5 = −15. Combining the middle terms, 10x − 3x = 7x, gives 2x² + 7x − 15. The version with 13x adds 10x and 3x instead of subtracting, and the forms with −7x, a positive 15 or a missing factor of 2 on the leading term come from sign and coefficient slips."
+  },
+  {
+   "n": 53,
+   "derived": "B",
+   "text": "Let the width be w; the length is then w + 3. The perimeter is 2(w + w + 3) = 26, so 2w + 3 = 13, 2w = 10 and w = 5 cm, with length 8 cm. The value 8 cm reports the length rather than the width."
+  },
+  {
+   "n": 54,
+   "derived": "D",
+   "text": "From the identity sin²θ + cos²θ = 1: cos²θ = 1 − (0.6)² = 1 − 0.36 = 0.64, and because θ is acute the cosine is positive, so cos θ = √0.64 = 0.8. The value 0.36 is just sin²θ itself, 0.4 subtracts 0.6 from 1 without squaring first, and 0.6 would simply repeat the sine."
+  },
+  {
+   "n": 55,
+   "derived": "B",
+   "text": "The car closes the gap at the relative speed 90 − 72 = 18 km/h. In 5 minutes, which is 1/12 of an hour, it gains 18 × 1/12 = 1.5 km, less than the initial 2.0 km gap, so it still trails by 0.5 km and has not yet caught the truck. Catching up completely would take 2.0 ÷ 18 of an hour, about 6.7 minutes, so the car does catch the truck soon after but is not level at the 5 minute mark."
+  },
+  {
+   "n": 56,
+   "derived": "C",
+   "text": "Two equal resistors in parallel have half the resistance of one: 6 ÷ 2 = 3 Ω. This pair is in series with the 3 Ω resistor, and series resistances add: 3 + 3 = 6 Ω. Treating all three as a series chain gives 15 Ω, and ignoring one of the parallel pair gives 9 Ω; both misread the network."
+  },
+  {
+   "n": 57,
+   "derived": "D",
+   "text": "For a uniform wire, R = ρL/A, so resistance is proportional to length and inversely proportional to cross-sectional area. Doubling the length doubles R, and halving the area doubles R again, giving 2 × 2 = 4 times the original resistance. The answers unchanged and double each account for only one of the two changes, and four times smaller reverses the direction of the effect."
+  },
+  {
+   "n": 58,
+   "derived": "C",
+   "text": "At distance r from the Earth's centre, g is proportional to 1/r². Requiring g to fall to one quarter of its surface value gives (R/(R + h))² = 1/4, so R/(R + h) = 1/2 and R + h = 2R, hence h = R: a height of one Earth radius above the surface. The answers R/2 and 2R come from forgetting to take the square root or from applying the factor 2 to the height instead of the distance from the centre."
+  },
+  {
+   "n": 59,
+   "derived": "D",
+   "text": "The net force needed for the acceleration follows from Newton's second law: F(net) = ma = 1.5 × 10³ × 2.0 = 3000 N. The engine must in addition overcome the 500 N friction, so the driving force it must exert is 3000 + 500 = 3500 N. The value 3000 N omits friction, and 2500 N would correspond to subtracting friction from the net force, which would make no physical sense."
+  },
+  {
+   "n": 60,
+   "derived": "D",
+   "text": "Gauge pressure at depth h is P = ρgh = 1000 kg/m³ × 10 m/s² × 4 m = 40000 Pa (4.0 × 10⁴ Pa). Because the question asks for gauge pressure, atmospheric pressure is excluded. The values 4000 Pa and 400000 Pa are each off by one power of ten, and 400 Pa by three."
+  }
+ ],
+ "disagreements": [],
+ "notes": [
+  "All 60 derived answers agree with the stored keys; no discrepancies found.",
+  "Question 33: using the exact denominator C minus [H+] = 9 x 10^-4 gives Ka = 1.1 x 10^-5; the intended answer uses the [HA] approximately C approximation, giving 1.0 x 10^-5. Both round to the stored option.",
+  "Question 12 states 'about 30 ATP' per glucose; the accepted modern range is 30 to 32, which does not affect the answer since oxidative phosphorylation dominates under any convention.",
+  "All numeric questions (9, 33, 36, 37, 41, 42, 48 to 60) were recomputed from the given data and reproduce the stored answers."
+ ]
+}

@@ -43,7 +43,7 @@
    "short": "Physics"
   }
  ],
- "bankVersion": "bf05c95f6",
+ "bankVersion": "bb1fd838b",
  "questions": [
   {
    "n": 1,
@@ -127,8 +127,8 @@
     "I is between H and G.",
     "F is immediately in front of J."
    ],
-   "ans": "E",
-   "exp": "J is at the back; the order ends …F, J (since F is immediately behind G, F has G in front of it; with J at back, F is immediately before J). H is front of G but we don't know H is at the front (could be H...G F J with I somewhere). The forced relationship is F immediately in front of J.",
+   "ans": "B",
+   "exp": "J is fixed at the back and I can never take an end seat, so the front belongs to H, G or F. G cannot be first because H must be somewhere ahead of it, and F cannot be first because G is immediately ahead of F. That forces H to the front, and only two complete orders satisfy all four rules: H, G, F, I, J and H, I, G, F, J. H is first in both, while F sits immediately in front of J only in the second order, so that claim is not forced.",
    "perm": [
     4,
     3,

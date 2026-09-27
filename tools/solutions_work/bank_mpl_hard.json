@@ -1,0 +1,485 @@
+{
+ "bank": "bank_mpl_hard",
+ "solutions": [
+  {
+   "n": 1,
+   "derived": "C",
+   "text": "log₁₀ 7.5 = log₁₀(15 ÷ 2) = log₁₀ 3 + log₁₀ 5 − log₁₀ 2. Since log₁₀ 5 = 1 − log₁₀ 2 = 0.70, the value is 0.48 + 0.70 − 0.30 = 0.88. The answer 1.88 is log₁₀ 75, forgetting the division by 10, and 1.18 is log₁₀ 15, forgetting the division by 2."
+  },
+  {
+   "n": 2,
+   "derived": "B",
+   "text": "Combine the logarithms: log₃((x + 1)(x − 1)) = log₃(x² − 1) = 1, so x² − 1 = 3 and x = ±2. The arguments require x > 1, so the negative root is rejected and x = 2 is the only solution. The pair x = ±2 keeps the rejected root, for which log₃(x − 1) is not defined."
+  },
+  {
+   "n": 3,
+   "derived": "C",
+   "text": "Write both arguments as powers of 2: 8 = 2³ and 32 = 2⁵. By change of base, log₈ 32 = log 32 ÷ log 8 = 5 log 2 ÷ (3 log 2) = 5/3. The value 3/2 inverts the ratio, and 2 would solve 8² = 64 rather than 8^x = 32."
+  },
+  {
+   "n": 4,
+   "derived": "C",
+   "text": "Change the base: log₄ x = (1/2) log₂ x, so the equation reads (3/2) log₂ x = 6, hence log₂ x = 4 and x = 16. Check: log₂ 16 + log₄ 16 = 4 + 2 = 6. The answer 64 solves log₂ x = 6 alone and drops the second term."
+  },
+  {
+   "n": 5,
+   "derived": "B",
+   "text": "The roots −2, 1 and 4 split the number line into four intervals. Testing one point in each: for x < −2 the product is negative, for −2 < x < 1 it is positive, for 1 < x < 4 it is negative, and for x > 4 it is positive. The solution is therefore −2 < x < 1 or x > 4. The pattern x < −2 or x > 4 tracks only the outer factors and ignores the middle root at x = 1."
+  },
+  {
+   "n": 6,
+   "derived": "D",
+   "text": "The fraction equals zero at x = 3, which is allowed by the ≤ sign, and is undefined at x = −2, which must be excluded. It is negative exactly between those values, where numerator and denominator have opposite signs. The solution is −2 < x ≤ 3. The answer x ≤ 3 ignores the sign change at x = −2, on both sides of which the fraction is positive."
+  },
+  {
+   "n": 7,
+   "derived": "A",
+   "text": "|2x − 5| < 7 means −7 < 2x − 5 < 7. Adding 5 gives −2 < 2x < 12, so −1 < x < 6. The answer 1 < x < 6 keeps only the branch 2x − 5 < 7 and drops the branch 2x − 5 > −7."
+  },
+  {
+   "n": 8,
+   "derived": "E",
+   "text": "Rearranging: x² − x < 0, that is x(x − 1) < 0, which holds between the roots: 0 < x < 1. The answer x < 1 comes from dividing by x without separating cases: for every x < 0 the left side is positive and the right side negative, so the inequality fails there."
+  },
+  {
+   "n": 9,
+   "derived": "B",
+   "text": "Match the perfect square pattern a² + 2ab + b²: 7 + 4√3 = 2² + 2 × 2 × √3 + (√3)² = (2 + √3)², and since 2 + √3 > 0 the square root is 2 + √3. As a check, (1 + √6)² = 7 + 2√6, whose radical term does not match 4√3."
+  },
+  {
+   "n": 10,
+   "derived": "B",
+   "text": "Take the root first, then the power: 27^(2/3) = (³√27)² = 3² = 9, and 16^(3/4) = (⁴√16)³ = 2³ = 8, so the sum is 17. The answer 30 multiplies base by exponent instead: 27 × 2/3 + 16 × 3/4 = 18 + 12."
+  },
+  {
+   "n": 11,
+   "derived": "C",
+   "text": "Factorise: 60 = 4 × 3 × 5. With 2^a = 3 and 2^b = 5, this becomes 2² × 2^a × 2^b = 2^(a + b + 2). The expression 2^(ab) multiplies the exponents, which is the rule for (2^a)^b, not for a product of powers."
+  },
+  {
+   "n": 12,
+   "derived": "D",
+   "text": "Let a be adult and c child tickets: a + c = 180 and 12a + 7c = 1730. Substituting c = 180 − a gives 12a + 7(180 − a) = 1730, so 5a = 470 and a = 94. Check: 94 × 12 + 86 × 7 = 1128 + 602 = 1730. The value 86 is the number of child tickets."
+  },
+  {
+   "n": 13,
+   "derived": "C",
+   "text": "Adding the two conditions eliminates the smaller number: 45 + 13 = 58 is twice the larger number, so the larger is 29 and the smaller 16. The value 16 is the smaller number itself, and 32 = 45 − 13 is twice the smaller number."
+  },
+  {
+   "n": 14,
+   "derived": "B",
+   "text": "Let y be the volume of the 50% solution. Salt balance: 0.20(6 − y) + 0.50y = 0.30 × 6 = 1.8, so 1.2 + 0.3y = 1.8 and y = 2 dm³. The value 4 dm³ is the volume of the 20% solution used."
+  },
+  {
+   "n": 15,
+   "derived": "C",
+   "text": "Step 1: f(3) = (3 + 1)/(3 − 1) = 4/2 = 2. Step 2: f(2) = (2 + 1)/(2 − 1) = 3. So f(f(3)) = 3 (this function is its own inverse). The value 2 stops after a single application of f."
+  },
+  {
+   "n": 16,
+   "derived": "E",
+   "text": "Set y = (2x + 1)/(x − 3) and solve for x: y(x − 3) = 2x + 1, so xy − 3y = 2x + 1, hence x(y − 2) = 3y + 1 and x = (3y + 1)/(y − 2). Therefore f⁻¹(x) = (3x + 1)/(x − 2). The expression (2x + 1)/(x − 3) is f itself, left unchanged instead of inverted."
+  },
+  {
+   "n": 17,
+   "derived": "C",
+   "text": "The cone shares the cylinder's base and height, so its volume is one third of the cylinder's: (1/3)πr²h against πr²h. What remains is 1 − 1/3 = 2/3 of the volume. The fraction 1/3 is the part removed, not the part left."
+  },
+  {
+   "n": 18,
+   "derived": "A",
+   "text": "An inscribed circle touches all four sides, so the square has side 2 × 5 = 10 cm and area 100 cm². The circle's area is 3.14 × 5² = 78.5 cm². Outside area = 100 − 78.5 = 21.5 cm². The value 121.5 cm² adds the two areas instead of subtracting them."
+  },
+  {
+   "n": 19,
+   "derived": "A",
+   "text": "The height comes from the 30-60-90 half triangle: h = 12 × (√3/2) = 6√3 cm. Area = (1/2) × 12 × 6√3 = 36√3 cm². The value 72 cm² uses the side length 12 as if it were the height."
+  },
+  {
+   "n": 20,
+   "derived": "D",
+   "text": "Total surface area = two ends plus curved wall = 2πr² + 2πrh = 2π × 9 + 2π × 24 = 18π + 48π = 66π cm². The value 48π cm² counts only the wall, and 57π cm² forgets one of the two ends."
+  },
+  {
+   "n": 21,
+   "derived": "C",
+   "text": "Measured from 12: hour hand at 3 × 30° + 40 × 0.5° = 110°, minute hand at 40 × 6° = 240°. Angle between them: 240° − 110° = 130°. The answer 150° freezes the hour hand at exactly 3 o'clock and ignores its 20° drift during the 40 minutes."
+  },
+  {
+   "n": 22,
+   "derived": "C",
+   "text": "Let m be minutes past 7:00. Hour hand at 210 + 0.5m, minute hand at 6m, so their separation is |5.5m − 210|. Setting 5.5m − 210 = 100 gives m = 310 ÷ 5.5 = 56 and 4/11 minutes, that is 7:56 and 4/11 (the earlier root m = 20 is the given 7:20). The time 7:52 and 8/11 answers a separation of 80° instead of 100°, and 8:00 exactly assumes the hands approach at 5° per minute instead of 5.5°."
+  },
+  {
+   "n": 23,
+   "derived": "B",
+   "text": "tan 30° = √3/3 and tan 60° = √3, so the product is (√3/3) × √3 = 3/3 = 1 (complementary angles have tangents that are reciprocals). The value 1/3 uses tan 30° twice, and 3 divides the two values instead of multiplying them."
+  },
+  {
+   "n": 24,
+   "derived": "B",
+   "text": "Expand: (sin θ + cos θ)² = sin²θ + 2 sin θ cos θ + cos²θ. Subtracting 2 sin θ cos θ cancels the middle term exactly, leaving sin²θ + cos²θ = 1. The expression 2 sin θ cos θ stops after the expansion and forgets the cancellation."
+  },
+  {
+   "n": 25,
+   "derived": "C",
+   "text": "sin 45° = cos 45°, so the squared term is 0. Then 2 sin 30° cos 60° = 2 × (1/2) × (1/2) = 1/2, and the total is 1/2. The answer 0 forgets the second term altogether."
+  },
+  {
+   "n": 26,
+   "derived": "C",
+   "text": "Slope = change in y over change in x = (17 − 5) ÷ (6 − 2) = 12 ÷ 4 = 3. The values 4 and 12 each use only one of the two changes, and 1/3 inverts the ratio."
+  },
+  {
+   "n": 27,
+   "derived": "B",
+   "text": "Between the two records she covers 3.0 − 1.8 = 1.2 km = 1200 m in 10 − 6 = 4 min = 240 s. Speed = 1200 ÷ 240 = 5 m/s. The value 18 m/s is her speed in km/h (0.3 km per minute × 60) left unconverted, and 300 m/s keeps the rate in metres per minute."
+  },
+  {
+   "n": 28,
+   "derived": "B",
+   "text": "Average rate = total change ÷ total time = (160 − 40) ÷ 15 = 120 ÷ 15 = 8 L/min. The value 8.5 L/min averages the two segment rates (10 and 7 L/min) instead of dividing the total change by the total time."
+  },
+  {
+   "n": 29,
+   "derived": "C",
+   "text": "Counting ordered outcomes: sum 9 in 4 ways, sum 10 in 3, sum 11 in 2, sum 12 in 1, so 10 of 36. P = 10/36 = 5/18. The value 5/36 counts only the five unordered pairs and forgets that (4,6) and (6,4) are different rolls; the value 1/9 answers a sum of exactly 9."
+  },
+  {
+   "n": 30,
+   "derived": "D",
+   "text": "Let the first die show anything; each of the other two must then match it: P = 1 × (1/6) × (1/6) = 1/36. The value 1/216 fixes all three faces in advance, counting only one specific triple instead of all six matching triples, and 1/6 is the chance of three copies of one particular named number."
+  },
+  {
+   "n": 31,
+   "derived": "B",
+   "text": "The favourable ordered outcomes are (2,5) and (5,2), so P = 2/36 = 1/18. The value 1/36 takes a single ordering, and 1/9 wrongly counts four outcomes by also including the doubles (2,2) and (5,5)."
+  },
+  {
+   "n": 32,
+   "derived": "D",
+   "text": "P(sum 7) = 6/36 and P(at least one six) = 11/36, but the rolls (1,6) and (6,1) satisfy both and are counted twice. Inclusion-exclusion gives (6 + 11 − 2)/36 = 15/36 = 5/12. The value 17/36 adds the two probabilities without subtracting the overlap."
+  },
+  {
+   "n": 33,
+   "derived": "D",
+   "text": "There are 2⁴ = 16 equally likely head-tail sequences, and C(4,2) = 6 of them contain exactly two heads, so P = 6/16 = 3/8. The value 1/4 counts only some of the six arrangements."
+  },
+  {
+   "n": 34,
+   "derived": "D",
+   "text": "Use the complement: P(no green) = (8/12) × (7/11) = 56/132 = 14/33, so P(at least one green) = 1 − 14/33 = 19/33. The value 16/33 answers exactly one green, and 14/33 is the complement itself."
+  },
+  {
+   "n": 35,
+   "derived": "C",
+   "text": "Exactly one pass = (pass maths and fail logic) or (fail maths and pass logic): (2/3 × 1/4) + (1/3 × 3/4) = 2/12 + 3/12 = 5/12. The value 1/2 is the probability of passing both, and 11/12 is the probability of passing at least one."
+  },
+  {
+   "n": 36,
+   "derived": "B",
+   "text": "The events are independent: P(tails) × P(score above 4) = (1/2) × (2/6) = 1/6. The value 2/3 computes the union of the two events instead of their joint occurrence, and 1/12 uses a single high face instead of the two faces 5 and 6."
+  },
+  {
+   "n": 37,
+   "derived": "A",
+   "text": "Speed = 270 ÷ 3.0 = 90 km/h. Converting: 90 km/h = 90 000 m in 3600 s = 25 m/s (divide km/h by 3.6). The value 324 m/s multiplies by 3.6 instead of dividing, and 1500 m/s gives metres per minute rather than metres per second."
+  },
+  {
+   "n": 38,
+   "derived": "D",
+   "text": "V = 5.0 × 2.0 × 1.2 = 12 m³. Since 1 m³ = 1000 dm³ and 1 dm³ = 1 L, the pool holds 12 × 1000 = 12 000 L. The value 1200 L multiplies by 100 instead of 1000, confusing a volume factor with a length factor."
+  },
+  {
+   "n": 39,
+   "derived": "C",
+   "text": "Draining removes 1/4 of the capacity, so the remaining fraction is 2/3 − 1/4 = 8/12 − 3/12 = 5/12. The value 1/2 instead removes a quarter of the water already present (2/3 × 3/4), and 11/12 adds the fractions instead of subtracting."
+  },
+  {
+   "n": 40,
+   "derived": "D",
+   "text": "The 40 L fill the fraction 3/4 − 1/3 = 9/12 − 4/12 = 5/12 of the capacity, so the capacity is 40 × 12/5 = 96 L. The value 120 L treats 40 L as one third of the tank, and 60 L treats the 40 L as the two thirds needed to go from one third full to completely full."
+  },
+  {
+   "n": 41,
+   "derived": "D",
+   "text": "Successive accelerations: (6 − 0)/2 = 3, (10 − 6)/2 = 2, (12 − 10)/2 = 1 and (12 − 12)/2 = 0 m/s², so the acceleration is not constant at 3 m/s² over the first 6 s. Displacement is the area under the velocity-time graph: 6 + 16 + 22 + 24 = 68 m, so the average velocity is 68 ÷ 8 = 8.5 m/s and the distance is not 96 m. From 6 s to 8 s the velocity is constant at 12 m/s, so there is no deceleration. The correct statement is that the acceleration between 4 s and 6 s is (12 − 10) ÷ 2 = 1 m/s²."
+  },
+  {
+   "n": 42,
+   "derived": "D",
+   "text": "Distance = area under the velocity-time graph: (1/2) × 4.0 × 8.0 = 16 m while accelerating, plus 8.0 × 6.0 = 48 m at constant speed, total 64 m. Average speed = 64 ÷ 10 = 6.4 m/s. The value 8.0 m/s takes the final speed as the whole-run average, and 4.0 m/s would hold only if the acceleration lasted all 10 s."
+  },
+  {
+   "n": 43,
+   "derived": "A",
+   "text": "Average velocity = displacement ÷ time = 6.0 ÷ 2.0 = 3.0 m/s. Acceleration = change in velocity ÷ time = (4.0 − 2.0) ÷ 2.0 = 1.0 m/s². The value 2.0 m/s² divides the speed change by 1 s instead of 2 s, and averages of 2.0 or 4.0 m/s borrow one instantaneous gate speed for the whole run."
+  },
+  {
+   "n": 44,
+   "derived": "E",
+   "text": "The gradient of a velocity-time graph gives acceleration, not distance, and the area gives displacement, not acceleration. The mean of the initial and final velocities equals the average velocity only when the acceleration is uniform. For uniform acceleration from rest, v = at, so the average velocity (1/2)at is exactly half the final velocity at, which makes that the correct statement."
+  },
+  {
+   "n": 45,
+   "derived": "B",
+   "text": "Tangential acceleration acts along the tangent and changes the speed, the magnitude of the velocity. Centripetal acceleration acts towards the centre and changes only the direction of the velocity. The version that swaps the two roles reverses their definitions, and any claim that both components change only the speed, or only the direction, contradicts what each component does."
+  },
+  {
+   "n": 46,
+   "derived": "C",
+   "text": "Constant speed on a circle still means a continuously changing direction, so the acceleration is purely centripetal: a = v²/r = 10² ÷ 20 = 5.0 m/s², directed towards the centre. Zero acceleration ignores the direction change, and the values 0.50 m/s² and 2.0 m/s² come from v/r and r/v instead of v²/r."
+  },
+  {
+   "n": 47,
+   "derived": "E",
+   "text": "Because the speed changes there is a tangential component along the direction of motion; because the direction changes there is a centripetal component towards the centre. The resultant therefore points forwards and inwards, between tangent and radius. Pointing straight at the centre would require constant speed, and a resultant pointing outwards never occurs in circular motion."
+  },
+  {
+   "n": 48,
+   "derived": "C",
+   "text": "Convert: 72 km/h = 72 ÷ 3.6 = 20 m/s. Reaction distance: 20 × 1.0 = 20 m. Braking distance from v² = 2as: s = 20² ÷ (2 × 5.0) = 40 m, equivalently average braking speed 10 m/s over 4.0 s. Total = 20 + 40 = 60 m. The value 40 m forgets the reaction phase, and 80 m multiplies the full 20 m/s by the whole braking time instead of using the average 10 m/s."
+  },
+  {
+   "n": 49,
+   "derived": "C",
+   "text": "With final speed zero in v² = u² + 2as: a = 30² ÷ (2 × 150) = 900 ÷ 300 = 3.0 m/s². The value 6.0 m/s² drops the factor of 2, and 1.5 m/s² squares the average speed of 15 m/s instead of the initial speed."
+  },
+  {
+   "n": 50,
+   "derived": "B",
+   "text": "Resultant force = 24 − 8.0 = 16 N, since friction opposes the pull. Newton's second law: a = 16 ÷ 4.0 = 4.0 m/s². The value 6.0 m/s² divides the pull by the mass and ignores friction, and 8.0 m/s² quotes the resultant force in newtons as if it were an acceleration."
+  },
+  {
+   "n": 51,
+   "derived": "A",
+   "text": "Only the weight component along the slope accelerates the block: F = mg sin 30° = 2.0 × 10 × 0.50 = 10 N, so a = 10 ÷ 2.0 = 5.0 m/s² (equivalently a = g sin 30°; the mass cancels). The value 8.7 m/s² uses cos 30°, the component perpendicular to the slope, and 17.4 or 20 m/s² quote forces in newtons as accelerations without dividing by the mass."
+  },
+  {
+   "n": 52,
+   "derived": "B",
+   "text": "Weight = 50 × 10 = 500 N. Resultant upward force = 550 − 500 = 50 N, so a = 50 ÷ 50 = 1.0 m/s². The value 11 m/s² ignores the weight entirely, and 21 m/s² adds the two forces although they act in opposite directions."
+  },
+  {
+   "n": 53,
+   "derived": "B",
+   "text": "Momentum is conserved from zero total: the tool carries 2.0 × 6.0 = 12 kg·m/s in the direction of the throw, so the astronaut gains 12 kg·m/s the opposite way. Her speed is 12 ÷ 60 = 0.20 m/s, opposite to the throw. The value 12 m/s reads the momentum value as a velocity, and 6.0 m/s assumes her speed equals the tool's."
+  },
+  {
+   "n": 54,
+   "derived": "D",
+   "text": "The ball reverses direction, so the momentum change has magnitude 0.50 × (12 + 8.0) = 10 kg·m/s. Average force = Δp ÷ Δt = 10 ÷ 0.020 = 500 N. The value 100 N subtracts the speeds as if the ball continued through the wall without rebounding, and 1000 N adds the speeds but forgets the mass."
+  },
+  {
+   "n": 55,
+   "derived": "C",
+   "text": "At constant speed the lifting force equals the weight, 60 × 10 = 600 N. Work = force × distance = 600 × 10 = 6000 J. Power = 6000 ÷ 20 = 300 W. The value 30 W leaves g out of the work, and 6000 W quotes the work in joules as if it were a power."
+  },
+  {
+   "n": 56,
+   "derived": "D",
+   "text": "At constant speed the driving force balances the 600 N resistance. Power = Fv = 600 × 20 = 12 000 W. The value 30 W divides force by speed instead of multiplying, and 600 W is just the force itself rather than force times velocity."
+  },
+  {
+   "n": 57,
+   "derived": "A",
+   "text": "Stevin's law gives the gauge pressure: ρgh = 1000 × 10 × 15 = 150 000 Pa = 150 kPa. The absolute pressure adds the atmospheric pressure acting on the surface: 150 + 100 = 250 kPa. The claim that the atmosphere does not act underwater is wrong: the water column rests on the surface, so the atmospheric push is transmitted down through the water."
+  },
+  {
+   "n": 58,
+   "derived": "E",
+   "text": "The level in the open arm stands higher, so the gas pressure exceeds atmospheric by ρgh = 13600 × 10 × 0.100 = 13 600 Pa = 13.6 kPa. Absolute pressure = 100 + 13.6 = 113.6 kPa. The value 86.4 kPa subtracts the column instead of adding it, and 101 kPa computes the column with the density of water (about 1 kPa) instead of mercury."
+  },
+  {
+   "n": 59,
+   "derived": "D",
+   "text": "Each layer adds its own ρgh: oil gives 800 × 10 × 0.80 = 6.4 kPa and water gives 1000 × 10 × 1.2 = 12 kPa. Total gauge pressure = 18.4 kPa. The value 20 kPa uses the density of water for both layers, and 12 kPa forgets the oil layer."
+  },
+  {
+   "n": 60,
+   "derived": "B",
+   "text": "A floating block displaces its own weight, so its density is the submerged fraction times the oil's density: block P: 0.5 × 800 = 400 kg/m³; block Q: 0.25 × 800 = 200 kg/m³. A block resting on the bottom must be denser than the fluid, so R exceeds 800 kg/m³. Hence Q at 200 kg/m³ is the least dense and R is denser than the oil. The claim that Q is denser than P inverts the rule: the smaller the submerged fraction, the lower the density."
+  },
+  {
+   "n": 61,
+   "derived": "A",
+   "text": "A floating block is in equilibrium: upthrust = weight = 6.0 N exactly (it displaces its own weight of water, submerging the fraction 750/1000 of its volume). The net force is zero, so the apparent weight is 0 N. The value 1.5 N subtracts only three quarters of the weight, but the whole weight is already supported by the upthrust."
+  },
+  {
+   "n": 62,
+   "derived": "D",
+   "text": "Q = mcΔT with ΔT = 70 − 20 = 50 K: Q = 2.0 × 4200 × 50 = 420 000 J = 420 kJ. The value 588 kJ uses the final temperature 70 °C instead of the 50 K rise, and 210 kJ corresponds to only 1.0 kg of water."
+  },
+  {
+   "n": 63,
+   "derived": "B",
+   "text": "Heat lost by aluminium = heat gained by water: 0.40 × 900 × (100 − T) = 0.60 × 4200 × (T − 20). So 36 000 − 360T = 2520T − 50 400, hence 86 400 = 2880T and T = 30 °C. The value 52 °C is the mass-weighted average of the starting temperatures, ignoring that water's specific heat is far larger than aluminium's; 60 °C is the plain average."
+  },
+  {
+   "n": 64,
+   "derived": "B",
+   "text": "Same substance on both sides, so c cancels: m_cold × ΔT_cold = m_hot × ΔT_hot. Thus 0.50 × (32 − 12) = m × (82 − 32), so 10 = 50m and m = 0.20 kg. The value 0.70 kg uses the 70 K gap between the two starting temperatures instead of the cold water's actual 20 K rise."
+  },
+  {
+   "n": 65,
+   "derived": "C",
+   "text": "Each kWh equals 3.6 MJ, so 2.5 kWh = 2.5 × 3.6 = 9.0 MJ. The value 2.5 MJ treats 1 kWh as 1 MJ and drops the 3.6 factor."
+  },
+  {
+   "n": 66,
+   "derived": "D",
+   "text": "Power = VI = 12 × 2.0 = 24 W; time = 5.0 × 60 = 300 s. Energy = Pt = 24 × 300 = 7200 J = 7.2 kJ. The value 3.6 kJ multiplies voltage by time and forgets the current, and 0.72 kJ treats 5.0 minutes as 30 s."
+  },
+  {
+   "n": 67,
+   "derived": "E",
+   "text": "Series: total resistance 12 Ω, current 1.0 A, so the battery supplies 12 W and each resistor dissipates I²R = 6.0 W, both true. Parallel: equivalent resistance (6.0 × 6.0)/(6.0 + 6.0) = 3.0 Ω, so the battery supplies 12² ÷ 3.0 = 48 W, exactly four times the series power, also true. The false statement is the one giving the parallel equivalent resistance as 6.0 Ω: two equal resistors in parallel halve the resistance rather than leaving it unchanged."
+  },
+  {
+   "n": 68,
+   "derived": "C",
+   "text": "Parallel pair: (6.0 × 3.0)/(6.0 + 3.0) = 2.0 Ω. In series with 5.0 Ω: total = 2.0 + 5.0 = 7.0 Ω. The value 14 Ω adds all three as if all were in series, and 2.0 Ω forgets the series resistor."
+  },
+  {
+   "n": 69,
+   "derived": "B",
+   "text": "Parallel pair: (12 × 6.0)/(12 + 6.0) = 4.0 Ω. Total resistance = 8.0 + 4.0 = 12 Ω, so I = 24 ÷ 12 = 2.0 A. The value 3.0 A divides 24 V by the 8.0 Ω alone, ignoring the parallel section, and 1.5 A doubles the total resistance."
+  },
+  {
+   "n": 70,
+   "derived": "C",
+   "text": "Battery voltage: V = 6.0 × 2.0 = 12 V. Adding a parallel branch does not change the voltage, so the original resistor still draws 2.0 A and the extra 3.0 − 2.0 = 1.0 A flows through the new branch. Its resistance is 12 ÷ 1.0 = 12 Ω. The value 6.0 Ω assumes the extra current is shared equally between the branches, and 18 Ω adds resistances as if the second resistor were in series."
+  },
+  {
+   "n": 71,
+   "derived": "C",
+   "text": "The wire of negligible resistance short-circuits the 12 Ω resistor, so only the 4.0 Ω resistor limits the current: I = 6.0 ÷ 4.0 = 1.5 A. The value 0.375 A is the current before the wire is added (6.0 V across 4.0 + 12 = 16 Ω), and 0.50 A would follow from short-circuiting the 4.0 Ω instead of the 12 Ω."
+  },
+  {
+   "n": 72,
+   "derived": "D",
+   "text": "Intensity = power per unit area = energy ÷ (time × area). Since power in watts is joules per second, the unit is W/m². The unit J/s is the watt alone, with no area division, and J/m² is energy per area with the per-second factor missing."
+  },
+  {
+   "n": 73,
+   "derived": "A",
+   "text": "A point source spreads its power over a sphere of area 4πr², so intensity follows an inverse-square law. Tripling the distance from 2.0 m to 6.0 m divides the intensity by 3² = 9: 36 ÷ 9 = 4.0 W/m². The value 12 W/m² scales as 1/r instead of 1/r²."
+  },
+  {
+   "n": 74,
+   "derived": "A",
+   "text": "Energy carried by the bulk motion of a warmed fluid is convection: the heated air expands, becomes less dense, rises, and cooler air sinks to replace it, forming the circulating flow that transports the energy. Conduction passes energy between neighbouring molecules without bulk flow, and radiation travels as electromagnetic waves, not as moving air."
+  },
+  {
+   "n": 75,
+   "derived": "E",
+   "text": "Conduction and convection both need a material medium, so the vacuum blocks both paths at once. The silvered surfaces reflect infrared radiation back towards the drink, cutting radiation losses. Saying the vacuum blocks only convection is wrong because conduction has no medium in a vacuum either, and it is the silvering, not the vacuum, that handles radiation."
+  },
+  {
+   "n": 76,
+   "derived": "C",
+   "text": "Premise two guarantees that at least one illustrated archive manuscript exists, and premise one catalogues every archive manuscript, so at least one manuscript is both illustrated and catalogued: some of the archive's illustrated manuscripts are catalogued must be true. The claim that every catalogued item is illustrated is the invalid converse of the first premise. Items that may leave the building need not be catalogued, because non-archive items fall outside the cataloguing rule, and denying that any catalogued archive item is illustrated simply contradicts the premises."
+  },
+  {
+   "n": 77,
+   "derived": "A",
+   "text": "'Only members with a pass may book' means booking implies holding a pass. Nadia booked a court, so she holds a current season pass. The claim that every pass holder books the courts merely reverses the rule, and the coaching-lesson statements concern pass holders who need not be Nadia."
+  },
+  {
+   "n": 78,
+   "derived": "D",
+   "text": "Chain the two universals: every medalling swimmer trains at Riverside, and nobody who trains at Riverside pays a joining fee, so no swimmer who won a medal pays a joining fee. The claims that every Riverside trainer medalled, or that fee-paying swimmers medalled, reverse or contradict the chain, and the premises say nothing about fees for people who do not train at Riverside."
+  },
+  {
+   "n": 79,
+   "derived": "A",
+   "text": "At least one squad player is left-footed, and every squad player is a professional, so at least one professional is left-footed. No left-footed player takes the corners, so that professional does not take them: some professionals do not take the corner kicks. The claim that every corner taker is right-footed adds an assumption, since the premises never say that not left-footed means right-footed."
+  },
+  {
+   "n": 80,
+   "derived": "B",
+   "text": "Some bakers sell rye bread, and every baker arrives before dawn, so at least one of the before-dawn arrivals sells rye bread. The claim that everyone arriving before dawn sells rye reverses the first premise, and nothing makes rye sellers bakers in general."
+  },
+  {
+   "n": 81,
+   "derived": "E",
+   "text": "Both premises are universal and Tara is a member, so both apply to her: she can swim and she is not under sixteen. The claim that every swimmer is a club member reverses the first premise, and the premises say nothing about who is allowed to join."
+  },
+  {
+   "n": 82,
+   "derived": "D",
+   "text": "Test Tom as the truth teller: his statement then asserts that rain caused the postponement and that Ria is lying. But Ria asserted exactly that rain caused it, so she would be telling the truth, a contradiction. Hence Tom is the liar and Ria the truth teller, which also fixes the fact that rain caused the postponement; Tom's conjunction fails because its second half is false."
+  },
+  {
+   "n": 83,
+   "derived": "B",
+   "text": "Suppose Amara tells the truth: then Ben lies, so Ben's claim is false and Cara tells the truth; yet Cara's claim that both Amara and Ben lie would then be false, which a truth teller cannot utter. So Amara lies, making Ben's claim true and Ben truthful; Cara's claim that both Amara and Ben lie is then false, fitting a liar. The assignment is unique: Amara and Cara lie, Ben tells the truth."
+  },
+  {
+   "n": 84,
+   "derived": "D",
+   "text": "Quinn and Ravi contradict each other, so the single liar must be one of that pair; either way Priya is among the two truth tellers and her denial is accurate. If Priya were the liar, Quinn and Ravi would both be truthful, but they contradict, which is impossible. So Priya did not take the stopwatch, although the statements never settle who actually did, which is why the options naming a culprit fail."
+  },
+  {
+   "n": 85,
+   "derived": "B",
+   "text": "If Eli told the truth, Dana and Fran would both be liars, but Fran's claim that Dana is lying would then be true, impossible for a liar. If Fran told the truth, Dana would be lying, which makes Eli's denial true as well, giving two truth tellers. So Dana is the single truth teller, Eli's denial is false, and Eli broke the scoreboard."
+  },
+  {
+   "n": 86,
+   "derived": "E",
+   "text": "If the day were Monday, both of Pia's statements would be true; if it were Wednesday, both would be false. Neither fits her requirement of exactly one true statement. Any other day makes 'not Wednesday' true and 'Monday' false for Pia, and likewise leaves Sam with exactly one true statement, so the collection happened on a day that is neither Monday nor Wednesday."
+  },
+  {
+   "n": 87,
+   "derived": "E",
+   "text": "The notice reads: if at capacity, then turned away. A conditional is equivalent only to its contrapositive: if new swimmers are not turned away, the pool is not at capacity. The version reading 'if turned away, then at capacity' merely reverses the conditional, and 'if not at capacity, then not turned away' denies both parts in the same order, which is not equivalent."
+  },
+  {
+   "n": 88,
+   "derived": "A",
+   "text": "The coach's promise is: perfect attendance → selected. Its contrapositive, 'not selected → attendance was not perfect', is the only equivalent form. The mirror statement 'imperfect attendance → not selected' is the inverse and does not follow, and 'selected → perfect attendance' merely reverses the promise."
+  },
+  {
+   "n": 89,
+   "derived": "B",
+   "text": "'Full term only if on the reserve list' means full-term borrowing implies a reserve listing. Denying the requirement gives the equivalent claim: a book not on the reserve list may not be borrowed for a full term. A reserve listing alone does not grant full-term borrowing (that is the converse), and the rule says nothing about banning shorter loans."
+  },
+  {
+   "n": 90,
+   "derived": "C",
+   "text": "Chaining the rules: delayed → vouchers → canteen open late, so 'delayed → canteen late'. Its contrapositive, 'canteen does not stay open late → the sailing was not delayed', is equivalent to the policy as a whole. Starting from no delay, or inferring a delay from a late canteen, reverses the direction of the chain and is not entailed."
+  },
+  {
+   "n": 91,
+   "derived": "A",
+   "text": "A biconditional ('locked if and only if armed') stays true when both sides are negated together: the gate is unlocked exactly when the alarm is disarmed. The statements pairing unlocked with armed, or locked with disarmed, contradict the manual, and mixing a negated side with the plain other side breaks the two-way match."
+  },
+  {
+   "n": 92,
+   "derived": "C",
+   "text": "The argument runs from fewer puddles to fewer slip accidents, which needs two things: that surface water is what usually makes vehicles slip, and that the porous surface introduces no new slipperiness of its own. The statement combining exactly those two ideas supplies the missing link. Costs and council intentions are beside the chain, driver caution would be a rival explanation rather than a needed assumption, and the asphalt comparison merely restates a premise."
+  },
+  {
+   "n": 93,
+   "derived": "E",
+   "text": "If members choose their own plans and the members already training hard mostly picked the flexible plan, then the higher attendance and gains existed before the plan and need not be caused by it. This self-selection explanation strikes directly at the causal claim. The higher fee and the automatic recording do not touch the cause, and the identical assessments for both groups strengthen the study rather than weaken it."
+  },
+  {
+   "n": 94,
+   "derived": "D",
+   "text": "The strongest support is the withdrawal test: boarding times returned exactly to their old level while the scanners were out of service and fell again after repairs, reconnecting the effect to the suspected cause far more tightly than the before-and-after contrast alone. Extra staff on the same two routes suggest a rival cause, the advertising campaign covered all six routes so it cannot explain the difference between them, and passenger approval says nothing about speed."
+  },
+  {
+   "n": 95,
+   "derived": "C",
+   "text": "Total evening attendance stayed roughly constant while the sessions fell from five to three per week, so the same total was spread over fewer sessions: on average each remaining session now accommodates more swimmers. Nothing in the data shows that anyone gave up evening swimming, that morning sessions changed, or that the waiting list existed before the cuts, and what the centre should do is a recommendation the data cannot settle."
+  }
+ ],
+ "disagreements": [],
+ "notes": [
+  "All 95 stored answers were confirmed by independent derivation (numeric items recomputed from the stem data, logic items checked for uniqueness and distractor consistency); no disagreements.",
+  "No ambiguities, missing data, or exp-field errors were found in this bank."
+ ]
+}

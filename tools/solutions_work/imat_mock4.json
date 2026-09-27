@@ -1,0 +1,313 @@
+{
+  "bank": "imat_mock4",
+  "solutions": [
+    {
+      "n": 1,
+      "derived": "E",
+      "text": "The passage states that osmosis moves water from lower to higher solute concentration, so the consistent statement is that water moves toward the higher-solute side. The claim that water moves from high to low solute concentration reverses the stated direction, and the claim that a dilute external solution makes an animal cell shrink reverses the stated effect: dilute outside means water enters and the cell swells. Osmosis is passive, so the ATP claim also contradicts the passage."
+    },
+    {
+      "n": 2,
+      "derived": "C",
+      "text": "A recessive offspring must receive a recessive allele from each parent, so a dominant-phenotype parent that produces one must carry the recessive allele, meaning it is heterozygous; this direct restatement of the passage is the strongest inference. The 3:1 ratio belongs to a self-cross of two heterozygotes, not to a test cross (heterozygote × recessive gives roughly 1:1). The claim that all-dominant offspring prove the parent is homozygous recessive is self-contradictory, and the test-cross partner is homozygous recessive, not dominant."
+    },
+    {
+      "n": 3,
+      "derived": "B",
+      "text": "The constant is Avogadro's number, ≈ 6.022 × 10²³ particles per mole, named after the Italian chemist Amedeo Avogadro, whose 1811 hypothesis that equal gas volumes contain equal numbers of molecules underpins the mole concept. Cannizzaro later championed Avogadro's ideas but the constant does not bear his name, and Molina, Fermi and Natta are 20th-century scientists unrelated to the mole."
+    },
+    {
+      "n": 4,
+      "derived": "A",
+      "text": "V must be at the very top, and the chain T above R above S, with U immediately below S, fixes the run T, R, S, U in positions 2 to 5, leaving the sixth box W at the bottom: V, T, R, S, U, W. Every other listing breaks a rule: one starts with T, leaving V below the top; one puts R above T; one swaps R and S; and one places U second, contradicting U immediately below S. The arrangement is unique."
+    },
+    {
+      "n": 5,
+      "derived": "E",
+      "text": "The premises connect squares to rectangles (all) and rectangles to rhombi (some), but the 'some rectangles' that are rhombi need not include any square, and nothing forces every square to be a rhombus either; both cases remain logically possible, so no conclusion about squares and rhombi is entailed. The suggestion that some rectangles are squares would require assuming squares exist (existential import), which a universal statement alone does not provide. Although in real geometry a square is in fact a rhombus, that is outside knowledge, not a deduction from these premises."
+    },
+    {
+      "n": 6,
+      "derived": "B",
+      "text": "Step 1: from 5 machines making 5 widgets in 5 minutes, each machine makes 1 widget in 5 minutes. Step 2: 100 machines working in parallel each make 1 widget in the same 5 minutes, so 100 widgets take 5 minutes. The intuitive answer of 100 minutes wrongly scales time with the machine and widget counts, which here grow together and leave the time unchanged."
+    },
+    {
+      "n": 7,
+      "derived": "D",
+      "text": "Step 1: at 30 minutes the minute hand sits at 30/60 × 360° = 180°. Step 2: the hour hand moves 360° in 12 hours, i.e. 30° per hour, so in 30 minutes it moves 15° away from the 12. Step 3: the angle between the hands is 180° − 15° = 165°. The tempting 180° assumes the hour hand is still exactly on 12 and ignores its drift toward 1."
+    },
+    {
+      "n": 8,
+      "derived": "B",
+      "text": "My mother's only daughter is Maria herself, since she has no sisters. The sentence therefore says the photographed person's mother is Maria, so the person in the photograph is Maria's daughter. Maria herself is ruled out because that person's mother would then be Maria's mother, not Maria, and a sister or aunt would require another daughter of Maria's mother."
+    },
+    {
+      "n": 9,
+      "derived": "B",
+      "text": "Let the number be x. Doubling then adding 8 gives 2x + 8 = 20, so 2x = 12 and x = 6; check: 2 × 6 + 8 = 20. Wrong values such as halving 20 directly come from undoing the operations in the wrong order; the correct reversal is subtract 8 first, then halve."
+    },
+    {
+      "n": 10,
+      "derived": "B",
+      "text": "The matrix is the innermost compartment of the mitochondrion and contains the Krebs (citric acid) cycle enzymes. Glycolysis runs in the cytosol, the electron transport chain is embedded in the inner membrane rather than the matrix, lactate fermentation is cytosolic, and the light reactions belong to chloroplast thylakoids, not mitochondria."
+    },
+    {
+      "n": 11,
+      "derived": "A",
+      "text": "Aerobic respiration consumes one glucose with six oxygen molecules and yields six CO₂, six H₂O and energy: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy. The equation 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ runs the other way and is photosynthesis, while glucose → 2 lactate and glucose → 2 ethanol + 2CO₂ are only the anaerobic fermentation branches, not the overall aerobic reaction."
+    },
+    {
+      "n": 12,
+      "derived": "B",
+      "text": "Yeast ferments pyruvate to ethanol plus CO₂, so it releases carbon dioxide; human muscle reduces pyruvate to lactate and releases no CO₂. CO₂ is therefore produced in yeast anaerobic respiration but not in human muscle. O₂, N₂, CH₄ and H₂ are products of neither pathway."
+    },
+    {
+      "n": 13,
+      "derived": "B",
+      "text": "The inner mitochondrial membrane folds into cristae, which enlarge the surface available for electron transport chain complexes and ATP synthase. Thylakoids are chloroplast membranes, cisternae are flattened Golgi/ER sacs, and microvilli and villi are folds of cell surfaces or the intestine, none of them mitochondrial."
+    },
+    {
+      "n": 14,
+      "derived": "B",
+      "text": "The Calvin cycle, i.e. the light-independent fixation of CO₂, takes place in the stroma, the fluid surrounding the thylakoids. The thylakoid membrane hosts the light-dependent reactions instead, and the matrix is a mitochondrial compartment, so neither fits."
+    },
+    {
+      "n": 15,
+      "derived": "B",
+      "text": "The light-dependent reactions occur on the thylakoid membranes, where the photosystems, the electron transport chain and ATP synthase are located. The stroma instead hosts the Calvin cycle, and the cytosol, matrix and cell wall are not sites of the light reactions."
+    },
+    {
+      "n": 16,
+      "derived": "E",
+      "text": "Each pH unit corresponds to a factor of 10 in H⁺ concentration, so a difference of 5 − 2 = 3 units gives a ratio of 10³ = 1000. The answer 30 comes from multiplying the difference by 10 as if the scale were linear, and 100 from taking the difference as 2 units."
+    },
+    {
+      "n": 17,
+      "derived": "A",
+      "text": "The levels build up as primary (amino acid sequence), secondary (local α-helix and β-sheet held by backbone hydrogen bonds), tertiary (overall 3D fold of one polypeptide) and quaternary (assembly of several chains). Listings that swap secondary and tertiary or reverse the whole order misplace these levels."
+    },
+    {
+      "n": 18,
+      "derived": "C",
+      "text": "Glucose is the monosaccharide used directly in respiration and the main product of dietary carbohydrate (starch and glycogen) digestion. Fructose and galactose are other monosaccharides that must first be converted into glycolytic intermediates, while sucrose and lactose are disaccharides and not monosaccharides at all."
+    },
+    {
+      "n": 19,
+      "derived": "C",
+      "text": "Sucrose consists of glucose joined to fructose by a glycosidic bond, making it a disaccharide. Glucose and fructose themselves are monosaccharides, and cellulose and glycogen are long-chain polysaccharides."
+    },
+    {
+      "n": 20,
+      "derived": "B",
+      "text": "Lipids are built around long non-polar hydrocarbon chains, so water cannot form favourable interactions with them: they are hydrophobic and hence water-insoluble. Charged or highly polar species dissolve readily, so those claims go the wrong way, and lipids are neither amino-acid based nor necessarily small molecules."
+    },
+    {
+      "n": 21,
+      "derived": "C",
+      "text": "The decisive fact is that DNA uses the base thymine where RNA uses uracil. The same contrast rules out the other claims: DNA contains deoxyribose rather than ribose, DNA is usually double-stranded (RNA is the usually single-stranded one), both use four types of nucleotide, and DNA resides chiefly in the nucleus, not the cytoplasm."
+    },
+    {
+      "n": 22,
+      "derived": "C",
+      "text": "In Hardy-Weinberg equilibrium the genotype frequencies are p² for AA, 2pq for the heterozygote Aa and q² for aa, with p + q = 1. The heterozygote frequency is therefore 2pq; p² and q² are the two homozygotes, and p + q is simply 1."
+    },
+    {
+      "n": 23,
+      "derived": "B",
+      "text": "Type AB individuals express both the A and B antigens, showing codominance, and the system involves three alleles (Iᴬ, Iᴮ, i) in the population, i.e. multiple alleles. The trait is autosomal, so sex-linked inheritance, mitochondrial inheritance, polygenic inheritance and X-inactivation do not describe it."
+    },
+    {
+      "n": 24,
+      "derived": "C",
+      "text": "Human somatic (diploid) cells carry 2n = 46 chromosomes, arranged as 23 pairs. The value 23 is the haploid (gamete) number, and 44 counts only the 22 autosome pairs while omitting the two sex chromosomes."
+    },
+    {
+      "n": 25,
+      "derived": "B",
+      "text": "DNA replication occurs in S (synthesis) phase of interphase, when the genome is copied. G1 and G2 are growth phases without replication, M phase is mitosis, and cytokinesis divides the cytoplasm."
+    },
+    {
+      "n": 26,
+      "derived": "B",
+      "text": "Arteries carry blood away from the heart at high pressure and therefore have thick, elastic, muscular walls. Veins and venules return blood at low pressure through thinner walls, capillaries are one-cell-thick exchange vessels, and lymph vessels are also thin-walled and low pressure."
+    },
+    {
+      "n": 27,
+      "derived": "B",
+      "text": "Gas exchange across the alveolar and capillary walls occurs by passive diffusion down partial-pressure gradients: O₂ moves in and CO₂ out with no energy cost. Osmosis concerns water movement, and active transport, phagocytosis and exocytosis are energy-requiring processes not used for respiratory gas exchange."
+    },
+    {
+      "n": 28,
+      "derived": "B",
+      "text": "The adrenal medulla secretes adrenaline (epinephrine), which drives the fight-or-flight response: raised heart rate, blood pressure and blood glucose. Cortisol is made in the adrenal cortex, insulin in the pancreas, thyroxine in the thyroid and oestrogen in the ovaries, so none of them is the medulla's emergency hormone."
+    },
+    {
+      "n": 29,
+      "derived": "B",
+      "text": "The femur, the thigh bone, is the longest and strongest bone in the human body. The tibia and humerus are also long bones but shorter, and the spine and skull are structures made of many bones, not single long bones."
+    },
+    {
+      "n": 30,
+      "derived": "B",
+      "text": "Smooth muscle consists of spindle-shaped cells with no striations and is controlled involuntarily by the autonomic nervous system. Striations plus voluntary control describe skeletal muscle, and branched cells with intercalated discs describe cardiac muscle, as does presence in the heart only."
+    },
+    {
+      "n": 31,
+      "derived": "B",
+      "text": "Mitochondria perform oxidative phosphorylation and supply most of the ATP in animal cells. Chloroplasts do this job only in plants (animal cells have none), ribosomes build proteins, lysosomes digest material and the nucleus stores DNA, so none of them is the ATP-producing organelle."
+    },
+    {
+      "n": 32,
+      "derived": "A",
+      "text": "From the body, blood enters the right side via the vena cava, flows right atrium → right ventricle → pulmonary artery → lungs, returns via the pulmonary vein → left atrium → left ventricle and leaves through the aorta. Shortcuts that start at the aorta or the pulmonary vein, or that route pulmonary-vein blood into the right atrium, contradict this one-way circuit."
+    },
+    {
+      "n": 33,
+      "derived": "B",
+      "text": "Step 1: molar mass of CO₂ = 12 + 2 × 16 = 44 g/mol. Step 2: n = m ÷ M = 22 g ÷ 44 g/mol = 0.5 mol. Counting only one oxygen (molar mass 28) or inverting the division produces the other numerical options, and 22 is the given mass, not an amount in moles."
+    },
+    {
+      "n": 34,
+      "derived": "B",
+      "text": "At STP one mole of ideal gas occupies 22.4 L, so V = n × Vm = 0.25 × 22.4 = 5.6 L. The value 11.2 L is the volume of 0.5 mol, twice the given amount, and 22.4 L would require a full mole."
+    },
+    {
+      "n": 35,
+      "derived": "A",
+      "text": "Helium is monatomic, so the number of atoms equals moles × Avogadro's number: 1.5 × 6.022 × 10²³ = 9.03 × 10²³. The plain 6.02 × 10²³ forgets the 1.5 multiplier (that is one mole), and 3.01 × 10²³ corresponds to only 0.5 mol."
+    },
+    {
+      "n": 36,
+      "derived": "B",
+      "text": "Step 1: n = 5.85 g ÷ 58.5 g/mol = 0.1 mol. Step 2: convert the volume: 500 mL = 0.5 L. Step 3: M = 0.1 mol ÷ 0.5 L = 0.2 M. Stopping after step 1 and quoting the mole amount as a concentration gives the 0.1 M trap."
+    },
+    {
+      "n": 37,
+      "derived": "B",
+      "text": "Let the oxidation number of Cr be x. With oxygen at −2 and the ion's total charge at −2: 2x + 7 × (−2) = −2, so 2x = 12 and x = +6. The value +12 stops before dividing by the two chromium atoms, and −2 is the contribution of the oxygens, not of chromium."
+    },
+    {
+      "n": 38,
+      "derived": "A",
+      "text": "Copper goes from +2 in CuO to 0 in Cu, so CuO gains electrons and is reduced; the species that is reduced is by definition the oxidising agent. H₂ loses electrons (it is oxidised to H₂O) and is the reducing agent, and the copper metal is the reduction product, not an agent."
+    },
+    {
+      "n": 39,
+      "derived": "C",
+      "text": "Step 1: NaOH dissociates fully, so [OH⁻] = 0.05 M. Step 2: pOH = −log(0.05) = −log(5 × 10⁻²) = 2 − log 5 ≈ 2 − 0.70 = 1.30. Step 3: pH = 14 − 1.30 = 12.70. The value 1.3 is exactly this pOH misread as a pH, and 13 would correspond to 0.1 M."
+    },
+    {
+      "n": 40,
+      "derived": "B",
+      "text": "A conjugate base is what remains after the acid donates one proton: H₂O − H⁺ = OH⁻, so the hydroxide ion is water's conjugate base. H₃O⁺ is instead water's conjugate acid, formed when water accepts a proton, and H⁺ is the transferred particle itself, not the remaining species."
+    },
+    {
+      "n": 41,
+      "derived": "D",
+      "text": "First ionisation energy rises across Period 3 as nuclear charge pulls on electrons in the same shell, peaking at the noble gas; argon's complete third shell makes it the highest of the five. Sodium is the lowest with its single, easily lost 3s electron, and chlorine, though high, still lies below argon."
+    },
+    {
+      "n": 42,
+      "derived": "C",
+      "text": "CO₂ has two electron domains around the central carbon (two double bonds, no lone pairs), which spread to 180°, giving linear O=C=O. H₂O is bent (two lone pairs on O), NH₃ is trigonal pyramidal, SO₂ is bent, and CH₄ is tetrahedral with four bonding pairs, so none of them is linear."
+    },
+    {
+      "n": 43,
+      "derived": "C",
+      "text": "Hydrogen bonding, the attraction between H bonded to N, O or F and a lone pair on another electronegative atom, is the strongest of the intermolecular forces listed; dipole-dipole and London dispersion (the van der Waals family) are weaker. Covalent bonding is an intramolecular bond holding atoms within a molecule, so it does not count as an intermolecular force."
+    },
+    {
+      "n": 44,
+      "derived": "B",
+      "text": "Boyle's law, pV = constant at fixed temperature, makes pressure and volume inversely proportional (P ∝ 1/V), so increasing pressure decreases the volume. Temperature is constant by assumption and the amount of gas is fixed, so neither the temperature nor the mole number can change."
+    },
+    {
+      "n": 45,
+      "derived": "B",
+      "text": "The chain CH₃-CH₂-OH has two carbons bearing a hydroxyl group, which is ethanol (C₂H₅OH). Methanol would have one carbon, propanol three, ethanoic acid would carry a -COOH group instead of -OH, and an ether would have C-O-C without the O-H bond."
+    },
+    {
+      "n": 46,
+      "derived": "C",
+      "text": "Mixing the solutions exchanges ions, and silver chloride is insoluble, so AgCl comes out of solution as a white precipitate while NaNO₃ stays dissolved (sodium salts and nitrates are always soluble). The two reactants are the dissolved starting salts, and a precipitate does indeed form."
+    },
+    {
+      "n": 47,
+      "derived": "C",
+      "text": "A catalyst lowers the activation energy of the forward and reverse reactions by the same amount, so both rates rise equally and equilibrium is simply reached sooner, with the position and K_eq unchanged. Any claim of a shift toward products or reactants, or of a changed K_eq, contradicts this symmetry, and the reaction does not stop."
+    },
+    {
+      "n": 48,
+      "derived": "A",
+      "text": "Step 1: 2x² = 8. Step 2: x² = 4. Step 3: x = +2 or x = −2, since squaring either gives 4. The answer x = 2 only drops the negative root, and x = ±4 comes from skipping the division by 2 before taking the square root."
+    },
+    {
+      "n": 49,
+      "derived": "C",
+      "text": "The equation |x − 3| = 5 says x is 5 units from 3, so x = 3 + 5 = 8 or x = 3 − 5 = −2. Both roots are needed: answering 8 only or −2 only discards one branch of the absolute value."
+    },
+    {
+      "n": 50,
+      "derived": "A",
+      "text": "Step 1: combine the logs: log₂[x(x − 3)] = 2. Step 2: undo the log: x(x − 3) = 2² = 4. Step 3: x² − 3x − 4 = 0, so (x − 4)(x + 1) = 0 and x = 4 or x = −1. The domain x > 3 rejects x = −1 as extraneous, leaving x = 4."
+    },
+    {
+      "n": 51,
+      "derived": "C",
+      "text": "x² − 4 < 0 factors as (x − 2)(x + 2) < 0, which holds between the roots, so −2 < x < 2. The reversed region x < −2 or x > 2 solves the opposite inequality x² > 4, and the one-sided bounds each miss part of the interval."
+    },
+    {
+      "n": 52,
+      "derived": "C",
+      "text": "V = πr²h = 3.14 × 3² × 10 = 3.14 × 9 × 10 = 282.6. The value 94.2 comes from forgetting to square the radius (3.14 × 3 × 10), and 30 from omitting π altogether."
+    },
+    {
+      "n": 53,
+      "derived": "C",
+      "text": "In a 45-45-90 right triangle the two legs are equal, so tan 45° = opposite ÷ adjacent = 1. The values √3 and √3/3 are tan 60° and tan 30° respectively, and 0 is tan 0°."
+    },
+    {
+      "n": 54,
+      "derived": "B",
+      "text": "The even faces greater than 2 are 4 and 6, giving 2 favourable outcomes out of 6 equally likely faces: P = 2/6 = 1/3. Including the face 2, which is not greater than 2, wrongly gives 3/6 = 1/2."
+    },
+    {
+      "n": 55,
+      "derived": "B",
+      "text": "Acceleration is the change in velocity over time: a = (25 − 5) ÷ 10 = 20 ÷ 10 = 2 m/s². The value 20 m/s² is the velocity change never divided by the time, and using the final speed alone (25 ÷ 10 = 2.5) is not the acceleration either."
+    },
+    {
+      "n": 56,
+      "derived": "B",
+      "text": "Step 1: in series, resistances add: R = 4 + 2 = 6 Ω. Step 2: I = V ÷ R = 12 ÷ 6 = 2 A. The value 3 A comes from dividing by only the 4 Ω resistor and ignoring the 2 Ω in series with it."
+    },
+    {
+      "n": 57,
+      "derived": "D",
+      "text": "Charge is current × time with time in seconds: t = 2 min = 120 s, so Q = 3 × 120 = 360 C. Taking the 2 of '2 minutes' as seconds gives the 6 C trap, and forgetting the conversion entirely produces the smaller values."
+    },
+    {
+      "n": 58,
+      "derived": "B",
+      "text": "Total momentum is conserved: before, p = 2 kg × 3 m/s + 1 kg × 0 = 6 kg·m/s; after, the combined mass is 3 kg moving at v, so 3v = 6 and v = 2 m/s. The value 6 m/s mistakes the initial momentum for the final velocity, and 3 m/s ignores the added mass."
+    },
+    {
+      "n": 59,
+      "derived": "C",
+      "text": "For free fall from rest, v = g × t = 9.8 × 3 = 29.4 m/s; the 4 kg mass does not affect the velocity. The values 9.8 m/s and 88.2 m/s correspond to t = 1 s and t = 9 s, and mass would matter only for weight or energy, not for speed."
+    },
+    {
+      "n": 60,
+      "derived": "D",
+      "text": "Wave speed is frequency × wavelength: v = fλ = 50 Hz × 4 m = 200 m/s. The value 12.5 m/s comes from dividing instead of multiplying, inverting the relation."
+    }
+  ],
+  "disagreements": [],
+  "notes": [
+    "All 60 derived answers match the stored keys; the disagreements list is empty.",
+    "Q5 (squares/rhombi): under traditional syllogistic logic with existential import, 'some rectangles are squares' would also follow from 'all squares are rectangles'; the solution uses the modern no-existential-import reading, which matches the stored key.",
+    "Q12 stem reads 'produced by muscle cells during anaerobic respiration in yeast'; yeast has no muscle cells, but the intended contrast (yeast vs human muscle fermentation products, CO2 vs lactate) is unambiguous.",
+    "Q4: the winning option's wording '(and W)' is unusual but unambiguous, with W understood as the sixth box at the bottom.",
+    "Q16 (pH comparison) sits in the Biology section although it is a pure chemistry calculation; harmless for a mock."
+  ]
+}

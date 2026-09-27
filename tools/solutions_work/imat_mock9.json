@@ -1,0 +1,311 @@
+{
+  "bank": "imat_mock9",
+  "solutions": [
+    {
+      "n": 1,
+      "derived": "A",
+      "text": "The study controls temperature, lighting and noise and is double-blind, so the performance gap can reasonably be attributed to the ventilation difference, and the passage itself says the gap was widest on high-pollution days. The motivation claim is pure invention, keeping confounders equal does not show they never matter, and a wider gap on polluted days falls well short of proving that outdoor pollution directly impairs decision-making."
+    },
+    {
+      "n": 2,
+      "derived": "E",
+      "text": "The passage states the fall in car journeys outright, but it merely reports the shopkeepers' lower revenues alongside it, so no causal link between the charge and the revenue dip is established. The purpose of the charge is never given (only how the revenue was spent), and the survey shows visitors still arrive, mostly by public transport. Reading the revenue fall as caused by the charge confuses a coincidence of facts with a demonstrated cause."
+    },
+    {
+      "n": 3,
+      "derived": "B",
+      "text": "Some attendees win scholarships, and no scholarship winner pays a laboratory fee, so at least one student who attended all of the sessions was not charged a fee; that conclusion is forced. Nothing ties fees to passing: the scholarship winners need not have passed, so the passers are not guaranteed any fee-free member. Saying that every student who was not charged attended all sessions merely reverses the first premise, which is not licensed."
+    },
+    {
+      "n": 4,
+      "derived": "C",
+      "text": "Test each candidate. If Farid jammed it, the accusation of Erik fails, Erik's denial and Farid's own denial fail, and only Gus's claim that Erik did not do it is true: exactly one true statement. If Erik did it, the accusation of Erik, Erik's denial regarding Farid and Farid's denial are all true (three truths), and if Dana or Gus did it, the same three denials are true. So the only assignment fitting the one-true-statement condition has Farid jamming the printer."
+    },
+    {
+      "n": 5,
+      "derived": "A",
+      "text": "An equally large fall on roads with no cameras points to some town-wide cause (weather, traffic volumes, reporting habits) acting everywhere, which removes the council's grounds for crediting the cameras. Drivers feeling watched and thousands of recorded violations say nothing about what caused the accident drop, and an unchanged speed limit actually closes off an alternative explanation rather than weakening the case."
+    },
+    {
+      "n": 6,
+      "derived": "B",
+      "text": "The rule has the form: if the alarm sounds, the staff evacuate. The only equivalent form of a conditional is its contrapositive: if the staff do not evacuate, the alarm has not sounded. Saying that evacuation proves the alarm sounded runs the implication backwards, saying that no alarm means no evacuation is the inverse, and the biconditional adds an unproven claim in the opposite direction."
+    },
+    {
+      "n": 7,
+      "derived": "D",
+      "text": "With Jana fixed at position 1, the Hugo-Kofi pair must sit together and Gita, Femi, Ivo must appear in that order. The four feasible rows are: Jana, Hugo, Kofi, Gita, Femi, Ivo; Jana, Gita, Hugo, Kofi, Femi, Ivo; Jana, Gita, Femi, Hugo, Kofi, Ivo; and Jana, Gita, Femi, Ivo, Hugo, Kofi. Hugo at 2, Ivo at 4, Femi at 3 and Kofi at 5 each occur somewhere in this list, but Gita only ever lands in position 2 or 4, so Gita in position 5 is impossible."
+    },
+    {
+      "n": 8,
+      "derived": "C",
+      "text": "Chemistry must precede Demography, so Demography can never occupy the first slot at 9:00, whichever arrangement holds. Working through the cases, Chemistry lands at 9:00 in four of the five valid orders and at 13:00 in the one that begins Anthropology, Botany; Botany can sit at 11:00, 13:00 or 15:00; and Anthropology takes 9:00 in only that single order. Every other listed claim fails in at least one valid schedule, while Demography not being at 9:00 holds in all of them."
+    },
+    {
+      "n": 9,
+      "derived": "D",
+      "text": "Positions 1, 2, 4 and 5 hold P, S, R and Q with S ahead of R ahead of Q, giving exactly four rankings: S, R, Q, P; S, R, P, Q; S, P, R, Q; and P, S, R, Q (reading positions 1, 2, 4, 5 in order). In every ranking Q is fourth or fifth. S first, P second and R fourth each fail in at least one ranking, and in the last ranking P finishes ahead of S, so only the claim about Q must be true."
+    },
+    {
+      "n": 10,
+      "derived": "C",
+      "text": "The salt bridge is an ionic attraction between the positively charged lysine side chain and the negatively charged aspartate side chain. At pH 2 the aspartate side chain is protonated and neutral, so the attraction vanishes and that region of the tertiary structure is destabilised, while the covalent backbone and hence the amino acid sequence are untouched, since side-chain ionic bonds are not peptide bonds. No new bridge can form because aspartate does not turn positive, and uncharged groups do not attract more strongly than opposite charges."
+    },
+    {
+      "n": 11,
+      "derived": "A",
+      "text": "Pepsin's optimum is near pH 2, so raising the stomach contents to roughly pH 7 leaves it working far below its maximum. The small intestine is unchanged, so trypsin, happiest near pH 8, keeps its normal activity there. Enzymes do not shift their optima to suit their surroundings, and trypsin in any case prefers alkaline conditions, so the claim that both enzymes need strongly acidic conditions is wrong."
+    },
+    {
+      "n": 12,
+      "derived": "C",
+      "text": "Per glucose unit, glycolysis pays out 4 ATP (2 at phosphoglycerate kinase, 2 at pyruvate kinase). A free glucose molecule would also spend 1 ATP at hexokinase and 1 at phosphofructokinase, but a glycogen-derived unit enters already phosphorylated as glucose 6-phosphate, so only the phosphofructokinase ATP is spent: net = 4 - 1 = 3 ATP. Fermenting pyruvate to lactate merely regenerates NAD+ and changes no ATP figure."
+    },
+    {
+      "n": 13,
+      "derived": "E",
+      "text": "The sodium-glucose cotransporter runs on the downhill sodium gradient, and that gradient exists only because the sodium-potassium pump spends ATP maintaining it (secondary active transport). Inactivate the pump and sodium leaks in until the gradient dissipates, so the cotransporter loses its driving force and glucose absorption by this route fails. The transporter's own lack of direct ATP use is irrelevant: its energy source is the pump."
+    },
+    {
+      "n": 14,
+      "derived": "B",
+      "text": "The outside solution holds more non-penetrating solute than the cell sap, so it is hypertonic and water leaves the cell by osmosis. The protoplast shrinks and pulls away from the cell wall (plasmolysis), and the cell cannot burst because it is losing water while the rigid wall resists deformation rather than blocking osmosis. Every water-entry picture contradicts the direction of the concentration difference."
+    },
+    {
+      "n": 15,
+      "derived": "D",
+      "text": "The nucleolus transcribes ribosomal RNA and assembles ribosomal subunits. With that blocked, no new ribosomes reach the cytoplasm, so messenger RNA keeps being transcribed but is translated ever less efficiently and total protein synthesis falls. Secreted proteins are made on rough ER ribosomes drawing on the same subunit supply, the nucleolus has no protective role for mRNA, and DNA replication is untouched."
+    },
+    {
+      "n": 16,
+      "derived": "B",
+      "text": "The substitution lies in the promoter, outside the coding sequence, so the mRNA sequence and therefore the amino acid sequence of the protein are unchanged. Because polymerase binds less well, transcription is less efficient and the protein is made in reduced amounts. Frameshifts need insertions or deletions rather than substitutions, a mutated promoter reduces transcription but does not destroy DNA, and this mutation plainly does affect the cell."
+    },
+    {
+      "n": 17,
+      "derived": "A",
+      "text": "Step 1: in meiosis I nondisjunction both homologues of the pair go to the same pole, so after a normal meiosis II the four products are two with 24 chromosomes and two with 22; none is normal. Step 2: fertilisation by a normal sperm (23 chromosomes) gives 47 or 45 chromosomes depending on which product becomes the egg. The 24, 24, 23, 23 pattern with two normal products belongs to nondisjunction in meiosis II, and aneuploid eggs are certainly capable of being fertilised."
+    },
+    {
+      "n": 18,
+      "derived": "A",
+      "text": "For each gene separately, Bb × Bb gives the recessive phenotype with probability 1/4. The genes assort independently, so P(bb and ll) = 1/4 × 1/4 = 1/16. The value 9/16 is instead the chance of showing both dominant traits."
+    },
+    {
+      "n": 19,
+      "derived": "C",
+      "text": "Affected frequency q² = 1/2500, so q = 1/50 = 0.02 and p = 0.98. Carrier frequency = 2pq = 2 × 0.98 × 0.02 = 0.0392, which is roughly 0.04 = 1/25. The allele frequency itself is 1/50, and 1/2500 counts only affected individuals, so both undershoot the heterozygote total."
+    },
+    {
+      "n": 20,
+      "derived": "B",
+      "text": "Chromosomes condense and the nuclear envelope breaks down without needing the spindle, so treated cells reach a metaphase-like state with fully condensed chromosomes, each still two joined sister chromatids. With no microtubules nothing pulls the chromatids apart, anaphase never begins and the cells pile up there; colchicine blocks division rather than triggering it or sending cells back to interphase."
+    },
+    {
+      "n": 21,
+      "derived": "E",
+      "text": "Step 1: with the proton return path blocked, the gradient builds until protons can no longer be pumped, so electron transport stalls even though oxygen is present. Step 2: NADH is no longer reoxidised and accumulates. Step 3: glycolysis needs NAD+ at its oxidation step, so the cell regenerates NAD+ by reducing pyruvate to lactate. The rival story, a dissipating gradient with accelerated transport, describes an uncoupler, which is the opposite of a blocked channel."
+    },
+    {
+      "n": 22,
+      "derived": "E",
+      "text": "In the cross-bridge cycle, ATP binding to myosin is what detaches the head from actin. After death there is no ATP, so heads that have bound actin can never release: the cross-bridges lock and the muscle freezes in a contracted, rigid state. Filament lengths never change, the calcium has already leaked out of the sarcoplasmic reticulum, and tropomyosin's position depends on calcium, not ATP."
+    },
+    {
+      "n": 23,
+      "derived": "D",
+      "text": "A narrowed outlet raises the resistance the left ventricle works against, so it must reach a higher pressure to eject, ejection is prolonged, and the wall thickens over time under the chronic load. Backflow from the aorta during diastole describes an incompetent (leaky) valve, not a narrowed one; the mitral valve is closed throughout systole; and the pulmonary circuit is not the first circuit to feel the problem."
+    },
+    {
+      "n": 24,
+      "derived": "B",
+      "text": "Sub-atmospheric pleural pressure normally couples the lung's inward elastic recoil to the chest wall, keeping the lung expanded. When air leaks in and the pressure equals atmospheric, the recoil is unopposed, so the lung collapses inward while the chest wall springs outward. Nothing pushes air into the lung tissue and the alveolar elastic fibres are not destroyed; with no pressure difference there is simply nothing holding the lung open."
+    },
+    {
+      "n": 25,
+      "derived": "A",
+      "text": "Carbon monoxide sits on the same haem sites as oxygen with vastly higher affinity, so most haemoglobin is locked up as carboxyhaemoglobin and the blood's oxygen content collapses. A pulse oximeter cannot optically distinguish carboxyhaemoglobin from oxyhaemoglobin, so it reports a falsely reassuring high saturation. Dissolved plasma oxygen is a negligible share of transport, and the remaining sites hold oxygen more tightly, releasing less to tissues, so delivery falls rather than rises."
+    },
+    {
+      "n": 26,
+      "derived": "A",
+      "text": "Glucose entering a blood capillary of the villus travels in the hepatic portal vein to the liver, crosses the liver sinusoids (a second capillary bed) and leaves by the hepatic vein, without passing the heart on the way. The lacteal carries fats in lymph rather than glucose, and the hepatic artery brings oxygenated blood to the liver instead of collecting absorbed nutrients."
+    },
+    {
+      "n": 27,
+      "derived": "D",
+      "text": "The tablets raise circulating T4 above normal. Because feedback control is intact, the hypothalamus and pituitary respond to high T4 by cutting TRH and TSH secretion, so TSH is low while T4 is high. The patterns with high TSH get the feedback backwards, and oral thyroxine is absorbed (it is exactly how hypothyroidism is treated), so the blood levels are anything but normal."
+    },
+    {
+      "n": 28,
+      "derived": "E",
+      "text": "Sweating without drinking makes the plasma more concentrated and reduces its volume, and both changes stimulate ADH release from the posterior pituitary. ADH makes the collecting ducts reabsorb water, so the urine becomes scant and concentrated, and hypothalamic osmoreceptors produce thirst. Falling ADH with copious dilute urine describes the response to drinking too much, the opposite scenario."
+    },
+    {
+      "n": 29,
+      "derived": "B",
+      "text": "Falling blood glucose triggers the counter-regulatory hormones glucagon and adrenaline, which mobilise liver glycogen into glucose and produce the warning symptoms of hunger, trembling and sweating. In type 1 diabetes the pancreas cannot secrete extra insulin, storing glucose as glycogen would push the level the wrong way, and falling glucagon would deepen the hypoglycaemia."
+    },
+    {
+      "n": 30,
+      "derived": "E",
+      "text": "Structure follows function: the oesophagus is scraped by swallowed food, so a many-layered squamous lining sacrifices absorption for abrasion resistance, while the intestine absorbs nutrients through a single thin layer that keeps diffusion distances short. The oesophagus digests nothing, and the single layer is a functional specialisation rather than a weakness."
+    },
+    {
+      "n": 31,
+      "derived": "D",
+      "text": "Repair cells, oxygen and matrix building blocks reach a wound through blood vessels, and cartilage is essentially avascular, so supplies arrive only by slow diffusion through the matrix and healing drags on. Keratin is an epidermal protein, cartilage is connective tissue, and sitting beneath the skin does not physically block repair cells from reaching it."
+    },
+    {
+      "n": 32,
+      "derived": "D",
+      "text": "The ten survivors hold 6 × 2 + 3 = 15 copies of allele A out of 20 alleles, a frequency of 15/20 = 0.75. A chance-driven crash to a handful of founders that shifts allele frequency is the bottleneck form of genetic drift. Counting only the homozygotes' alleles gives 12/20 = 0.60, and nothing in the story involves migration, selection or mutation."
+    },
+    {
+      "n": 33,
+      "derived": "A",
+      "text": "Butan-1-ol and butan-2-ol share a formula but differ in which carbon bears the OH group, so they are constitutional isomers. The R and S forms of butan-2-ol are non-superimposable mirror images (enantiomers), and the cis and trans forms of pent-2-ene differ in the geometry about the double bond, so both of those pairs are stereoisomers. Cis and trans alkenes are diastereomers rather than mirror images, and a difference in position of a group never produces stereoisomers."
+    },
+    {
+      "n": 34,
+      "derived": "C",
+      "text": "Step 1: n(CH₄) = 4.8/16 = 0.30 mol and n(O₂) = 4.8/32 = 0.15 mol. Step 2: the equation needs 2 mol of O₂ per mol of CH₄, so 0.15 mol of O₂ can burn only 0.075 mol of CH₄; oxygen is limiting, not in excess. Step 3: CO₂ formed = 0.075 mol, so V = 0.075 × 22.4 = 1.68 dm³ at STP. Step 4: methane left = 0.30 - 0.075 = 0.225 mol, that is 0.225 × 16 = 3.6 g. The 3.36 dm³ answers treat each mole of O₂ as yielding a mole of CO₂, forgetting the 2:1 ratio."
+    },
+    {
+      "n": 35,
+      "derived": "C",
+      "text": "Step 1: 0.40/40 = 0.010 mol of NaOH in 1.0 dm³ gives [OH⁻] = 1.0 × 10⁻² mol/dm³, pOH = 2 and pH = 12. Step 2: taking 10 cm³ of it up to 1.0 dm³ is a hundredfold dilution, so [OH⁻] = 1.0 × 10⁻⁴ mol/dm³, pOH = 4 and pH = 14 - 4 = 10. The value 4 is the pOH mislabelled as pH, and pH 11 would correspond to a tenfold dilution."
+    },
+    {
+      "n": 36,
+      "derived": "C",
+      "text": "The ionic product gives [H⁺] = Kw ÷ [OH⁻] = 1.0 × 10⁻¹³ / 1.0 × 10⁻² = 1.0 × 10⁻¹¹ mol/dm³, so pH = 11. The value 12 comes from reusing the 25 °C Kw of 10⁻¹⁴; 2 is the pOH at this temperature; and 6.5 is merely the pH of neutral water here, not of an alkaline solution."
+    },
+    {
+      "n": 37,
+      "derived": "D",
+      "text": "Step 1: initial [H⁺] = 0.010 mol/dm³, so pH = 2.00. Step 2: the dilution factor is 400/20 = 20, so pH rises by log₁₀ 20 = log₁₀ 2 + log₁₀ 10 = 0.30 + 1.00 = 1.30. Step 3: pH = 2.00 + 1.30 = 3.30, equivalently [H⁺] falls to 5.0 × 10⁻⁴ mol/dm³. Assuming a tenfold dilution gives 3.00, a hundredfold would be needed for 4.00, and 2.30 would require concentrating the acid."
+    },
+    {
+      "n": 38,
+      "derived": "E",
+      "text": "Boiling point tracks the strongest intermolecular force. Propane is non-polar (London forces only) and boils lowest; propanone adds a permanent dipole but has no O-H bond, so it cannot donate hydrogen bonds; ethanol hydrogen bonds in pairs; and ethanoic acid forms dimers held by two hydrogen bonds at once, needing the most energy to vaporise. The order is propane, then propanone, then ethanol, then ethanoic acid; the similar molar masses mean size cannot decide the ranking."
+    },
+    {
+      "n": 39,
+      "derived": "E",
+      "text": "With rate proportional to [A]¹[B]², doubling [A] multiplies the rate by 2 and tripling [B] multiplies it by 3² = 9, for a total factor of 2 × 9 = 18. The factor 6 results from dropping the square and treating B as first order."
+    },
+    {
+      "n": 40,
+      "derived": "B",
+      "text": "Six oxygens at -2 each contribute -12; the ion's charge is -2, so the four sulfur atoms together carry +10, and the average per sulfur is +10 ÷ 4 = +2.5. The value +10 is the sum over all four atoms, not one atom's average."
+    },
+    {
+      "n": 41,
+      "derived": "D",
+      "text": "In SO₃²⁻ the three oxygens give -6 and the ion carries -2, so sulfur is +4. In NO₂ a neutral molecule with two oxygens at -4 requires nitrogen at +4, a match. Nitrogen is 0 in N₂, -3 in NH₃, +2 in NO and +1 in N₂O."
+    },
+    {
+      "n": 42,
+      "derived": "C",
+      "text": "60 minutes is exactly three half-lives: 0.80 → 0.40 → 0.20 → 0.10 mol. Concentration = 0.10 mol ÷ 2.0 dm³ = 0.050 mol/dm³. The 0.10 mol/dm³ answer is the number of moles without dividing by the vessel volume, and a fourth half-life would be needed to reach 0.025 mol/dm³."
+    },
+    {
+      "n": 43,
+      "derived": "B",
+      "text": "Sample X: 4.4/44 = 0.10 mol of CO₂ × 2 oxygen atoms = 0.20 mol of O atoms. Sample Y: 4.9/98 = 0.050 mol of H₂SO₄ × 4 = 0.20 mol of O atoms. Each is 0.20 × 6.02 × 10²³ ≈ 1.2 × 10²³ atoms, so the counts are equal. The 2.4 × 10²³ answers slip an extra factor of two into one of the conversions."
+    },
+    {
+      "n": 44,
+      "derived": "D",
+      "text": "Step 1: acid gives 0.050 × 0.20 = 0.010 mol H⁺; base gives 0.150 × 0.10 = 0.015 mol OH⁻. Step 2: excess OH⁻ = 0.005 mol in a total volume of 0.200 dm³, so [OH⁻] = 0.005/0.200 = 0.025 mol/dm³. Step 3: pOH = -log(2.5 × 10⁻²) = 2 - 0.40 = 1.60, so pH = 14 - 1.60 = 12.40. The 13.00 answer skips dividing by the combined volume, and 1.60 is the pOH, not the pH (it would also wrongly make the acid the excess reagent)."
+    },
+    {
+      "n": 45,
+      "derived": "B",
+      "text": "Step 1: n(Al) = 1.08/27 = 0.040 mol; n(H₂SO₄) = 0.100 × 0.10 = 0.010 mol. Step 2: the equation 2Al + 3H₂SO₄ needs 1.5 mol of acid per mol of Al, so consuming all the aluminium would need 0.060 mol of acid; only 0.010 mol is present, so the acid is limiting and aluminium is in excess. Step 3: 3 mol of H₂ per 3 mol of acid gives 0.010 mol of H₂ = 0.010 × 22.4 = 0.224 dm³ at STP. Step 4: aluminium consumed = (2/3) × 0.010 ≈ 0.0067 mol (0.18 g), leaving about 0.90 g unused. The 1.344 dm³ figure wrongly treats aluminium as the limiting reagent."
+    },
+    {
+      "n": 46,
+      "derived": "E",
+      "text": "Moles of NaCl = 0.500 × 0.20 = 0.10 mol, and evaporation removes solvent only. Final concentration = 0.10 / 0.200 = 0.50 mol/dm³. Removing water must concentrate the solution, so any value at or below 0.20 has the direction reversed, and 0.08 comes from multiplying by the volume ratio instead of dividing by it."
+    },
+    {
+      "n": 47,
+      "derived": "C",
+      "text": "pH is logarithmic: a gap of 5.5 - 3.5 = 2.0 units means a factor of 10² = 100 in hydrogen ion concentration. The answer 20 treats the scale as linear (10 per unit), and the pH 3.5 solution is the more acidic one, so its hydrogen ion concentration is 100 times higher."
+    },
+    {
+      "n": 48,
+      "derived": "C",
+      "text": "45 = 3² × 5, so log₁₀ 45 = 2 log₁₀ 3 + log₁₀ 5 = 2(0.48) + 0.70 = 0.96 + 0.70 = 1.66. The value 1.18 is log₁₀ 15 (3 × 5), and 1.88 corresponds to log₁₀ 75 (3 × 5²)."
+    },
+    {
+      "n": 49,
+      "derived": "E",
+      "text": "No real solutions requires the discriminant k² - 4 × 9 = k² - 36 to be negative, that is k² < 36, which holds exactly for -6 < k < 6 with strict inequalities. At k = ±6 the discriminant is zero and there is a repeated real root (x = -3 for k = 6, x = 3 for k = -6), so the versions including the endpoints wrongly count that repeated root as no solution."
+    },
+    {
+      "n": 50,
+      "derived": "C",
+      "text": "Sphere volume = (4/3)π × 3³ = 36π cm³. Melting conserves volume, so π × 2² × h = 36π, giving h = 36/4 = 9 cm. The 18 cm answer divides by 2π instead of 4π, forgetting to square the cylinder radius."
+    },
+    {
+      "n": 51,
+      "derived": "D",
+      "text": "P(both red) = (3/8) × (2/7) = 6/56 and P(both blue) = (5/8) × (4/7) = 20/56; the two events are mutually exclusive, so P(same colour) = 26/56 = 13/28. The value 15/28 is the complement 1 - 13/28, the probability of two different colours rather than the same."
+    },
+    {
+      "n": 52,
+      "derived": "C",
+      "text": "The per-minute distances are 120 m, 180 m and 240 m, each covered in 60 s, so the average speeds are 2.0, 3.0 and 4.0 m/s; the greatest is 4.0 m/s. The 3.0 m/s figure is the overall average (540 m in 180 s), and 9.0 m/s wrongly squeezes all 540 m into a single minute."
+    },
+    {
+      "n": 53,
+      "derived": "C",
+      "text": "√50 = 5√2, √18 = 3√2 and √8 = 2√2, so the expression is (5 + 3 - 2)√2 = 6√2, giving a = 6. Adding all three coefficients (10) ignores the minus sign, and 4 comes from flipping the sign of the middle term."
+    },
+    {
+      "n": 54,
+      "derived": "D",
+      "text": "Addition rule: P(A or B) = P(A) + P(B) - P(A and B) = 0.5 + 0.4 - 0.2 = 0.7. The overlap must be subtracted because adding the two probabilities counts their shared outcomes twice; skipping that subtraction gives 0.9."
+    },
+    {
+      "n": 55,
+      "derived": "B",
+      "text": "Between 6.0 s and 8.0 s the velocity falls from 14 m/s to 6 m/s: a = (6 - 14)/2.0 = -4 m/s², so the magnitude is 4 m/s². The 8 m/s² answer uses the velocity change without dividing by the time."
+    },
+    {
+      "n": 56,
+      "derived": "A",
+      "text": "Centripetal acceleration a = v²/r = 10²/50 = 2.0 m/s², always directed toward the centre of the bend. Constant speed does not mean zero acceleration because the velocity's direction keeps changing, and 0.20 m/s² comes from dividing v by r without squaring."
+    },
+    {
+      "n": 57,
+      "derived": "B",
+      "text": "Step 1: the 12 Ω and 6.0 Ω pair in parallel has resistance (12 × 6.0)/(12 + 6.0) = 72/18 = 4.0 Ω. Step 2: total resistance = 8.0 + 4.0 = 12 Ω. Step 3: I = 24 V ÷ 12 Ω = 2.0 A. The 3.0 A answer ignores the parallel section entirely (24/8.0), even though all the supplied current must pass through it."
+    },
+    {
+      "n": 58,
+      "derived": "B",
+      "text": "Heat balance with equal specific heat capacities: 0.40 × (T - 20) = 0.20 × (65 - T). Expanding: 0.40T - 8 = 13 - 0.20T, so 0.60T = 21 and T = 35 °C. The plain average 42.5 °C ignores that the cool sample has twice the mass, which pulls the final temperature below the midpoint."
+    },
+    {
+      "n": 59,
+      "derived": "C",
+      "text": "Gauge pressure counts only the liquid column: p = ρgh = 800 × 10 × 3.0 = 24,000 Pa = 24 kPa. The word gauge excludes the 100 kPa of atmospheric pressure on the open surface (adding it gives the absolute pressure, 124 kPa), and 8.0 kPa corresponds to dropping the depth factor."
+    },
+    {
+      "n": 60,
+      "derived": "C",
+      "text": "E = P × t in consistent units: 2.0 kW = 2000 W and 3.0 minutes = 180 s, so E = 2000 × 180 = 360,000 J = 3.6 × 10⁵ J. The 6.0 × 10³ J answer multiplies 2.0 by 3.0 without converting either the power or the time unit."
+    }
+  ],
+  "disagreements": [],
+  "notes": [
+    "Question 38 stem says the ethanoic acid dimer is held by two hydrogen bonds each; strictly, the dimer contains two hydrogen bonds in total, one donated by each molecule. The intended boiling point order is unaffected.",
+    "Question 43: the exact atom count is 0.20 × 6.02 × 10²³ = 1.204 × 10²³, presented rounded as 1.2 × 10²³ in the options; both samples genuinely hold the same number of oxygen atoms.",
+    "All 60 derived answers match the stored key; no discrepancies found, and no logic puzzle produced a second assignment satisfying the constraints."
+  ]
+}

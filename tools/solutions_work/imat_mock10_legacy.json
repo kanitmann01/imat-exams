@@ -1,0 +1,312 @@
+{
+  "bank": "imat_mock10_legacy",
+  "solutions": [
+    {
+      "n": 1,
+      "derived": "B",
+      "text": "The passage defines overdiagnosis in exactly these terms: some cancers found by screening grow so slowly that they would never have caused symptoms or harmed the person in their lifetime, so that statement is directly supported. The text limits the proven benefit to deaths from breast cancer, not deaths from all causes, and it calls the absolute benefit small because the disease is uncommon in any single year, so the claim of a large benefit from a common disease reverses the passage. Screening targets people without symptoms, and the passage presents a weighing of small benefit against possible harm rather than any advice to avoid screening."
+    },
+    {
+      "n": 2,
+      "derived": "B",
+      "text": "The passage states that professional ecologists cannot survey entire countries and that organisers treat volunteer data as a complement that extends the geographical reach of monitoring, which is precisely the claim that citizen science extends coverage beyond what professionals could achieve alone. The claim that volunteer data are too unreliable is contradicted by the datasets repeatedly revealing real changes such as earlier flowering, and the text calls volunteers a complement, not a substitute that replaced professional surveys. The idea that volunteers overlook conspicuous species inverts the statement that they notice such species more easily, and organisers statistically adjust for sampling bias, which is not the same as eliminating it."
+    },
+    {
+      "n": 3,
+      "derived": "C",
+      "text": "Nabucco, premiered at La Scala in Milan in 1842, was composed by Giuseppe Verdi, and its third-act chorus Va, pensiero, the Chorus of the Hebrew Slaves, became an unofficial Italian anthem and established Verdi's reputation. Bellini, Donizetti and Rossini belong to earlier generations of Italian opera and Puccini to the following generation, so none of them matches the 1842 premiere."
+    },
+    {
+      "n": 4,
+      "derived": "B",
+      "text": "The passage states directly that Wegener's own suggestion, that continents plough through the ocean floor, was physically implausible, which is exactly the claim about his proposed mechanism. His observational evidence is called an impressive case, so rejection was not because his observations were later shown wrong, and acceptance came after the Second World War from new kinds of evidence (mid-ocean ridges, magnetic stripes, earthquake locations), explicitly not from rediscovering his data. The new evidence settled the question of mechanism, so that question is not still open."
+    },
+    {
+      "n": 5,
+      "derived": "C",
+      "text": "Chain the premises: every guide speaks at least three languages, and nobody who speaks at least three languages ever needs an interpreter on a tour, so no guide at the museum ever needs an interpreter on a tour. The reversals of the premises, that every trilingual speaker is a museum guide or that anyone spared an interpreter must speak three languages, are illegitimate converses and do not follow, and the claim that some guides need an interpreter contradicts the chain outright. Working hours are never mentioned in the premises."
+    },
+    {
+      "n": 6,
+      "derived": "A",
+      "text": "Step 1: Elena is in chair 1 and Nadia immediately clockwise from her, so Nadia is in chair 2, leaving chairs 3, 4 and 5 for Jonas, Omar and Priya. Step 2: Jonas immediately anticlockwise from Priya allows only Priya 5 with Jonas 4, or Priya 4 with Jonas 3; the second case forces Omar into chair 5, which is adjacent to Elena's chair 1, violating the condition on Omar. Step 3: the seating is uniquely Elena 1, Nadia 2, Omar 3, Jonas 4, Priya 5. Omar in chair 3 sits between Nadia and Jonas; Priya sits immediately anticlockwise, not clockwise, from Elena; Omar is not next to Elena; Nadia and Priya are not neighbours; and the chair immediately anticlockwise from Elena holds Priya, not Jonas."
+    },
+    {
+      "n": 7,
+      "derived": "C",
+      "text": "Step 1: red is in an even-numbered box with green immediately to its left, so the pair occupies boxes 1 and 2, or boxes 3 and 4. Step 2: if green were in box 3, yellow would need a box to the right of it, but boxes 4 and 5 are taken by red and blue while boxes 1 and 2 lie to the left, so the pair must be green 1, red 2. Step 3: yellow and white then fill boxes 3 and 4, and white being immediately to the right of yellow places yellow in box 3 and white in box 4."
+    },
+    {
+      "n": 8,
+      "derived": "D",
+      "text": "Step 1: the successive differences are 8 - 5 = 3 and 14 - 8 = 6, and the pattern of differences growing by 3 each time gives 3, 6, 9, 12. Step 2: the missing term is 14 + 9 = 23, and the check 23 + 12 = 35 matches the given final term exactly. Doubling the differences instead (3, 6, 12, 24) would make the fifth term 50 rather than 35, so the constant growth of 3 is the only pattern that fits."
+    },
+    {
+      "n": 9,
+      "derived": "B",
+      "text": "At 5:30 the minute hand points exactly at the 6, that is 180 degrees from the 12. The hour hand moves 0.5 degrees per minute, so half an hour past 5 it sits at 150 + 15 = 165 degrees. The angle between the hands is 180 - 165 = 15 degrees. The value of 30 degrees would hold only exactly on the hour, forgetting that the hour hand has moved halfway toward the 6."
+    },
+    {
+      "n": 10,
+      "derived": "A",
+      "text": "In the investment stage, hexokinase and phosphofructokinase each spend one ATP while the sugar still has all six carbons; aldolase then cleaves it into two three-carbon sugars. Every payoff-stage reaction, including both ATP-producing steps, therefore runs twice per glucose, so four ATP are produced against two invested, a net gain of two. Claims of a net ATP loss or of a four-ATP net yield both mangle this accounting, and glycolysis needs no oxygen at any step, nor does it pump pyruvate across any membrane."
+    },
+    {
+      "n": 11,
+      "derived": "C",
+      "text": "Pyruvate crosses into the mitochondrial matrix, where the pyruvate dehydrogenase complex oxidatively decarboxylates it: one carbon leaves as CO2, NAD+ is reduced to NADH, and the remaining two-carbon acetyl group is transferred to coenzyme A, forming acetyl-CoA. Only acetyl-CoA, never pyruvate itself, condenses with oxaloacetate to make citrate. Lactate formation is a cytosolic fermentation route, secretory traffic does not move metabolites between compartments by vesicles, and the electron transport chain oxidises NADH and FADH2, not pyruvate."
+    },
+    {
+      "n": 12,
+      "derived": "D",
+      "text": "Each turn of the cycle regenerates the four-carbon acceptor oxaloacetate, so the cycle runs catalytically and needs only a supply of acetyl-CoA plus oxidised cofactors (NAD+, FAD) and ADP. Two CO2, not four, are released per acetyl group, no cycle reaction consumes molecular oxygen (that happens in the electron transport chain), and the single GTP made by substrate level phosphorylation per turn is a minor share of the ATP of aerobic respiration, most of which comes from oxidative phosphorylation. Oxaloacetate is regenerated each turn and does not need to be eaten."
+    },
+    {
+      "n": 13,
+      "derived": "A",
+      "text": "Complexes I, III and IV use the energy of electron transfer to pump H+ from the matrix to the intermembrane space, whereas complex II, succinate dehydrogenase, merely passes electrons from FADH2 to ubiquinone without pumping. This is exactly why FADH2, which enters at complex II and bypasses complex I, yields less ATP than NADH; if all four complexes pumped, the two donors would give identical yields, which they do not. Protons never ride across the membrane together with the electrons inside the mobile carriers."
+    },
+    {
+      "n": 14,
+      "derived": "B",
+      "text": "Electron transport pumps H+ out of the matrix into the intermembrane space, so the intermembrane space becomes more acidic (lower pH) than the matrix, and the stored electrochemical gradient drives H+ back inward through ATP synthase to power ATP synthesis. The mechanism depends on the inner membrane being impermeable to protons; free proton permeability would collapse the gradient, and a more alkaline intermembrane space would reverse the actual direction of pumping."
+    },
+    {
+      "n": 15,
+      "derived": "E",
+      "text": "In the Cori cycle the blood carries lactate from the muscle to the liver, which converts it back into glucose by gluconeogenesis and returns the glucose to the blood or stores it as liver glycogen. Muscle fibres cannot do this themselves because they lack glucose 6 phosphatase, so they cannot export free glucose made from lactate, and human cells never ferment lactate to ethanol and CO2 as yeast does. Lactate is a temporary carbon carrier, not an inert waste locked in the fibre, and it is not simply excreted by the kidneys."
+    },
+    {
+      "n": 16,
+      "derived": "A",
+      "text": "The rate falling at every substrate concentration yet approaching the same maximum velocity at very high concentration is the signature of competitive inhibition: substrate and inhibitor compete for the same active site, and sufficiently concentrated substrate outcompetes the inhibitor, leaving Vmax unchanged while the apparent Km rises. A non-competitive inhibitor removes functional enzyme and lowers Vmax in a way no substrate concentration can overcome, so the observed convergence at the uninhibited maximum rules that out, as do irreversible destruction of active sites and inhibition that grows with substrate concentration."
+    },
+    {
+      "n": 17,
+      "derived": "D",
+      "text": "Niacin is the precursor of the nicotinamide ring of NAD+, the reusable coenzyme that dehydrogenases use to accept electrons from substrates being oxidised in glycolysis, the link reaction and the Krebs cycle, so niacin deficiency cripples those dehydrogenases most directly. ATP, not NAD+, powers the sodium potassium pump; water for hydrolysis comes from the solvent, not from NAD+; NAD+ has no general role in protein folding; and the electron transport chain regenerates NAD+ rather than splitting it for energy."
+    },
+    {
+      "n": 18,
+      "derived": "C",
+      "text": "In the sliding filament model, cross-bridge cycling slides the thick and thin filaments past each other without changing either filament's length, so the sarcomere shortens while the A band, whose width equals the thick filament length, keeps its width. The I band and the H zone narrow as filament overlap increases. Neither filament coils like a spring or loses monomers during contraction, and pulling thin filaments away from the centre would widen, not narrow, the H zone."
+    },
+    {
+      "n": 19,
+      "derived": "C",
+      "text": "A motor unit is one motor neuron together with all the muscle fibres it innervates, and because a neuron's signal is all-or-none, every fibre of the unit contracts when that neuron fires. Fine, precise control, as in the external eye muscles, requires many small motor units rather than a few large ones; whole-muscle force is graded both by firing frequency and by recruiting additional units; and individual action potentials do not shrink in amplitude during weak contractions."
+    },
+    {
+      "n": 20,
+      "derived": "E",
+      "text": "The epidermis is keratinised stratified squamous epithelium: its dead, keratin-filled surface cells resist abrasion and reduce water loss from the dry outer skin, which is exactly the stated match. Transitional (stretchable) epithelium lines the urinary bladder, not the small intestine; alveolar walls are lined by a thin simple squamous layer with no cilia; and skin's protection comes from having many layers, not from healing faster as a single layer."
+    },
+    {
+      "n": 21,
+      "derived": "B",
+      "text": "Cartilage is avascular: its chondrocytes sit in matrix-filled lacunae and receive nutrients by diffusion, which is one reason injured cartilage heals slowly. Blood is a connective tissue whose matrix is plasma, tendon collagen is secreted by fibroblasts (not by cartilage cells) and dense regular tissue is fibre-rich and stiff rather than ground-substance rich and elastic, while adipose tissue stores fat inside adipocytes, not in an extracellular fibre network."
+    },
+    {
+      "n": 22,
+      "derived": "A",
+      "text": "Vesicles from the endoplasmic reticulum fuse with the cis face of the Golgi; the protein is chemically modified (chiefly its sugar chains) and sorted as it passes through the cisternae; and secretory vesicles bud from the trans face toward the plasma membrane. Secreted proteins are synthesised on ribosomes of the rough ER, not on the Golgi membrane, and the Golgi ships its products forward rather than returning everything to the ER for export."
+    },
+    {
+      "n": 23,
+      "derived": "D",
+      "text": "Free ribosomes and ribosomes bound to the rough ER are structurally identical; a ribosome becomes bound only when the growing polypeptide's signal sequence is recognised at the ER membrane, so the same ribosome can be free in one round of translation and bound in the next, and its status is not fixed in the nucleolus. Secreted proteins are threaded into the ER while being translated, not imported after folding in the cytosol, and no translation occurs inside the Golgi."
+    },
+    {
+      "n": 24,
+      "derived": "C",
+      "text": "For each ATP hydrolysed, the pump exports three Na+ out of the cell and imports two K+, both against their concentration gradients, keeping Na+ low and K+ high inside and making the interior slightly more negative than the exterior. Those stored gradients power secondary active transport, such as glucose absorption in the intestine, and underlie the resting and action potentials of neurons. Moving ions down their gradients needs no ATP, an exchange of two out for three in would make the interior positive, which is the reverse of the facts, and the pump is an ATP-driven carrier, not a ligand-gated channel."
+    },
+    {
+      "n": 25,
+      "derived": "B",
+      "text": "Rising PCO2 and H+ concentration lower haemoglobin's affinity for oxygen, the Bohr effect: the dissociation curve shifts to the right, so at any given PO2 a larger fraction of the bound oxygen is unloaded to the working muscle, and the heat the muscle produces shifts the curve in the same (rightward) direction. H+ binds to amino acid side chains and stabilises haemoglobin's low-affinity state; it does not compete with oxygen for the haeme iron, which remains the oxygen binding site, and a leftward shift with higher affinity is the opposite of what actually happens."
+    },
+    {
+      "n": 26,
+      "derived": "A",
+      "text": "Mechanical loading is a normal stimulus for osteoblast deposition, so in unloaded bones resorption by osteoclasts exceeds deposition and bone mass falls, as seen after months of bed rest and in astronauts. Disuse does not silence osteoclasts, deposition cannot rise to compensate for a missing stimulus, and hormonal calcium regulation operates alongside mechanical regulation rather than replacing it, so bone mass does not stay constant."
+    },
+    {
+      "n": 27,
+      "derived": "E",
+      "text": "The adrenal medulla behaves like a modified sympathetic ganglion: preganglionic sympathetic neurons innervate its chromaffin cells directly, so adrenaline and noradrenaline can be released into the blood within seconds of a stressful stimulus with no pituitary hormone intervening. Cortisol is a steroid secreted by the adrenal cortex under hypothalamus and anterior pituitary control, and medullary catecholamines act through cell-surface receptors to raise heart rate and blood glucose for fight or flight, not to promote rest and glycogen storage."
+    },
+    {
+      "n": 28,
+      "derived": "C",
+      "text": "The liver detoxifies the ammonia released by deamination of amino acids by converting it into urea, which the blood carries to the kidneys for excretion. Digestive enzymes are secreted by the pancreas, insulin and glucagon come from the pancreatic islets, red blood cells in adults are made in the bone marrow, and the liver produces bile while the gallbladder, not the liver, stores it."
+    },
+    {
+      "n": 29,
+      "derived": "A",
+      "text": "A triglyceride is one glycerol molecule joined by ester bonds to three fatty acids, and with no charged or strongly polar head group it is non-polar and essentially insoluble in water. Replacing one fatty acid with a phosphate group gives a phospholipid, the membrane-forming lipid, not a triglyceride; ester bonds are digested by lipases, not proteases; and saturated fats by definition have no double bonds, so no kinks or lowered melting point. The molecule is one glycerol with three acids, not three glycerols on one acid."
+    },
+    {
+      "n": 30,
+      "derived": "B",
+      "text": "Quiet exhalation is passive: the diaphragm and external intercostal muscles relax, the elastic recoil of the lungs and chest wall reduces lung volume, alveolar pressure rises above atmospheric pressure, and air flows out with no active contraction. The internal intercostals and abdominal muscles are recruited only for forced exhalation; air always flows from higher to lower pressure, so a fall of alveolar pressure below atmospheric would draw air in; and muscles cannot contract in a reverse direction."
+    },
+    {
+      "n": 31,
+      "derived": "D",
+      "text": "The dwarf parent must be tt and contributes only t gametes, so an offspring is tall only if it receives T from the tall parent. The 61 tall to 59 dwarf offspring, about 1:1, therefore mean the tall parent makes T and t gametes in equal numbers, that is, it is heterozygous Tt, the classic test cross. A TT parent would give all tall offspring, the dwarf parent cannot be heterozygous because dwarf is the recessive phenotype, and a 1:1 phenotype ratio reflects equal segregation of gametes, not incomplete dominance."
+    },
+    {
+      "n": 32,
+      "derived": "E",
+      "text": "Mature neurons have permanently exited the cell cycle into the G0 phase and never divide again, whereas hepatocytes remain able to re-enter G1 and proliferate when growth signals arrive after partial hepatectomy, which is how the liver regrows. Neurons are not arrested at a metaphase checkpoint and do not keep replicating DNA into polyploidy, and liver regeneration occurs by mitotic division of existing cells, not by meiosis, cell fusion, or mere enlargement of cells without division."
+    },
+    {
+      "n": 33,
+      "derived": "B",
+      "text": "In the dichromate ion, 2x + 7(-2) = -2 gives x = +6 for each chromium; in Cr3+ chromium is +3, so chromium is reduced from +6 to +3. Iodide goes from -1 in I- to 0 in I2, an increase, so iodine is the element oxidised. The +7 figure comes from ignoring the 2- charge of the dichromate ion, and the reaction is genuinely redox because both elements change oxidation number."
+    },
+    {
+      "n": 34,
+      "derived": "C",
+      "text": "Each copper atom loses two electrons (oxidation number 0 to +2), so copper is oxidised and acts as the reducing agent; each Ag+ ion gains one of those electrons (+1 to 0), so Ag+ is reduced and is therefore the oxidising agent, which by definition is the species that accepts electrons. Nitrate ions are spectators and are unchanged, the size of an ion's charge does not make it an oxidising agent, and the silver metal produced has already been reduced, so it cannot be the reducing agent in this reaction."
+    },
+    {
+      "n": 35,
+      "derived": "B",
+      "text": "Nitrogen in NH3 has four electron domains, three bonding pairs and one lone pair, arranged roughly tetrahedrally. The lone pair repels more strongly than the bonding pairs, compressing the H-N-H angle below 109.5 degrees, so the molecule is a trigonal pyramid with an angle of about 107 degrees. The 104.5 degrees value belongs to water, which has two lone pairs, while 120 or 180 degrees would require trigonal planar or linear electron arrangements, which NH3 does not have."
+    },
+    {
+      "n": 36,
+      "derived": "D",
+      "text": "Boiling separates molecules, so only intermolecular forces matter. Water's hydrogen atoms are bonded to the very electronegative oxygen, allowing strong hydrogen bonds between molecules, whereas sulfur in H2S is not electronegative enough for hydrogen bonding, so H2S relies on much weaker dipole-dipole and London forces despite its larger molar mass. The covalent O-H bonds inside the molecule are not broken at boiling, water is not an ionic compound, and H2S in fact boils about 160 degrees lower than water, not higher."
+    },
+    {
+      "n": 37,
+      "derived": "D",
+      "text": "Step 1: the first dilution takes 10 cm3 to 100 cm3, a tenfold dilution, so the concentration becomes 1.0 x 10^-2 / 10 = 1.0 x 10^-3 mol/dm3. Step 2: the second dilution takes 10 cm3 to 1000 cm3, a hundredfold dilution, so the concentration becomes 1.0 x 10^-3 / 100 = 1.0 x 10^-5 mol/dm3. Step 3: HCl is fully ionised, so [H+] = 1.0 x 10^-5 mol/dm3 and pH = -log(1.0 x 10^-5) = 5. A pH of 3 accounts for only the first dilution, and 9 is the pOH (14 - 5), not the pH."
+    },
+    {
+      "n": 38,
+      "derived": "C",
+      "text": "Dilution lowers the concentrations of all dissolved species, so by Le Chatelier's principle the equilibrium shifts toward the side with more dissolved particles, the ion side, meaning the degree of dissociation increases. The extra dissociation cannot fully offset the dilution, so [H+] still falls and the pH rises. Ka depends only on temperature and is unchanged, a decrease in the degree of dissociation or a fall of pH is the opposite of what happens, and the shift is toward the ions, not toward undissociated CH3COOH."
+    },
+    {
+      "n": 39,
+      "derived": "B",
+      "text": "The backbone of every alpha-amino acid carries an amino group and a carboxyl group attached to the alpha carbon, and serine's side chain, -CH2OH, is an alcohol, contributing a hydroxyl group. A thiol side chain would make the amino acid cysteine and an amide side chain asparagine, while no ester or keto group appears anywhere in serine's structure."
+    },
+    {
+      "n": 40,
+      "derived": "E",
+      "text": "Cis-trans isomerism about a C=C bond requires each double-bond carbon to carry two different groups, since rotation about the double bond is restricted. In but-1-ene, CH2=CH-CH2-CH3, the terminal double-bond carbon carries two identical hydrogen atoms, so no distinct cis and trans forms exist; in but-2-ene each double-bond carbon carries one H and one CH3, so both cis and trans forms exist. Claiming free rotation about a C=C bond contradicts the very existence of cis-trans isomers, and it is but-2-ene, not but-1-ene, that shows them."
+    },
+    {
+      "n": 41,
+      "derived": "B",
+      "text": "Across period 3 the nuclear charge rises from +11 for sodium to +12 for magnesium to +13 for aluminium while the outer electrons remain in the same third shell, so the stronger pull draws the shell inward and the atomic radius decreases from sodium to aluminium. First ionisation energy and electronegativity both increase across the period, so aluminium is the most, not the least, electronegative of the three and metallic character falls, and it is sodium that has the largest radius, not the smallest."
+    },
+    {
+      "n": 42,
+      "derived": "E",
+      "text": "Step 1: convert temperatures to kelvin: T1 = 27 + 273 = 300 K and T2 = 127 + 273 = 400 K. Step 2: apply the combined gas law, V2 = V1 x (T2/T1) x (P1/P2) = 6.0 x (400/300) x (150/100) = 6.0 x 4/3 x 3/2 = 12.0 dm3. Heating the gas at fixed pressure would raise the volume to 8.0 dm3 and halving the pressure at fixed temperature would raise it to 9.0 dm3, so only applying both changes gives 12.0 dm3, while inverting either ratio gives a wrongly smaller volume."
+    },
+    {
+      "n": 43,
+      "derived": "D",
+      "text": "The forward reaction (dimerisation to N2O4) is exothermic, so raising the temperature favours the endothermic reverse direction and the equilibrium shifts toward NO2. Kc changes only with temperature, and for an exothermic forward reaction its value decreases on heating. A shift toward N2O4 contradicts Le Chatelier's principle, and heating at constant volume is precisely a temperature change, so it cannot leave the position of equilibrium or Kc unchanged."
+    },
+    {
+      "n": 44,
+      "derived": "C",
+      "text": "Each of the six sp2-hybridised carbons contributes one electron to a pi system delocalised around the planar ring, so all six C-C bonds are equivalent and intermediate in length between single and double bonds (about 139 pm). Because the delocalised system stabilises the ring, benzene reacts mainly by substitution, which preserves it, rather than by addition, which would destroy it. A Kekule structure of three fixed alternating double bonds does not describe real benzene, and the ring is planar, not non-planar."
+    },
+    {
+      "n": 45,
+      "derived": "A",
+      "text": "The value of Kc depends only on temperature, so only a temperature change alters it. Changing reactant concentrations or total pressure, or adding an inert gas at constant volume, can shift the position of equilibrium but leaves Kc unchanged, and a catalyst accelerates the forward and reverse reactions equally, changing neither the position of equilibrium nor Kc."
+    },
+    {
+      "n": 46,
+      "derived": "B",
+      "text": "Iron(III) is the Fe3+ ion and sulfate is the SO4^2- ion; the least common multiple of the charges is 6, so two Fe3+ ions balance three sulfate ions, giving Fe2(SO4)3. FeSO4 is iron(II) sulfate, Fe(SO4)3 and Fe3(SO4)2 leave the charges unbalanced, and Fe2S3 wrongly treats sulfate as if it were bare sulfide."
+    },
+    {
+      "n": 47,
+      "derived": "C",
+      "text": "The number of neutrons equals the mass number minus the atomic number: 40 - 19 = 21. The value 19 is the number of protons, 40 is the mass number itself, and 20 neutrons would correspond to potassium-39, the common stable isotope, not to radioactive potassium-40."
+    },
+    {
+      "n": 48,
+      "derived": "D",
+      "text": "Step 1: the square root requires 2x - 5 >= 0, so x >= 5/2. Step 2: both sides are non-negative on the domain, so squaring preserves the inequality: 2x - 5 < 81, giving x < 43. Step 3: combining, 5/2 <= x < 43. Omitting the domain condition gives x < 43, which wrongly admits values below 5/2, and the endpoint x = 5/2 is included because sqrt(0) = 0 < 9."
+    },
+    {
+      "n": 49,
+      "derived": "E",
+      "text": "cos(x) = 1/2 at x = pi/3 and x = 5pi/3, and since cosine decreases from 1 to -1 on [0, pi] and rises again from pi to 2pi, the values with cos(x) <= 1/2 lie between these two crossings, with cos(pi) = -1 confirming the middle of the interval qualifies. The solution set is therefore pi/3 <= x <= 5pi/3. Removing the endpoints excludes the values where equality holds, and the two outer intervals describe exactly the region where cos(x) >= 1/2, the opposite of what is asked."
+    },
+    {
+      "n": 50,
+      "derived": "C",
+      "text": "Step 1: 17 tourists visit neither attraction, so 100 - 17 = 83 visit at least one of the two. Step 2: by inclusion-exclusion, the number visiting at least one equals 62 + 55 minus the number visiting both, so the overlap is 62 + 55 - 83 = 34. Adding the two counts without subtracting the overlap gives 117, which exceeds the total of 100 tourists, and omitting the neither group from the calculation gives the wrong overlap."
+    },
+    {
+      "n": 51,
+      "derived": "A",
+      "text": "Step 1: divisibility by (x - 1) means P(1) = 0 by the factor theorem: 1 + a + b = 0. Step 2: the remainder on division by (x + 2) is P(-2) = 6 by the remainder theorem: -8 - 2a + b = 6. Step 3: subtracting the second equation from the first gives 9 + 3a = -6, so a = -5 and then b = 4. Check: P(x) = x^3 - 5x + 4 gives P(1) = 0 and P(-2) = -8 + 10 + 4 = 6, as required."
+    },
+    {
+      "n": 52,
+      "derived": "B",
+      "text": "Step 1: the perimeter of 72 cm is shared among 3 + 4 + 5 = 12 ratio parts, each part 72/12 = 6 cm, giving sides 18, 24 and 30 cm. Step 2: since 18^2 + 24^2 = 324 + 576 = 900 = 30^2, the triangle is right angled with legs 18 and 24. Step 3: area = (18 x 24)/2 = 216 cm2. Using the hypotenuse 30 as the base with a leg as height, or forgetting to halve the product of the legs, produces the larger distractor values."
+    },
+    {
+      "n": 53,
+      "derived": "C",
+      "text": "Let x be the number of years. Then 26 + x = 1.5(14 + x), so 26 + x = 21 + 1.5x, which gives 0.5x = 5 and x = 10. Check: after 10 years Marco is 36 and Elisa is 24, and 36 = 1.5 x 24."
+    },
+    {
+      "n": 54,
+      "derived": "D",
+      "text": "Write both sides as powers of 3: 9^(x-1) = (3^2)^(x-1) = 3^(2x-2). Equating the exponents of the equal powers of 3 gives x + 3 = 2x - 2, so x = 5. Check: 3^(5+3) = 3^8 = 6561 and 9^(5-1) = 9^4 = 6561."
+    },
+    {
+      "n": 55,
+      "derived": "D",
+      "text": "Step 1: convert the car's speed: 108 km/h = 108/3.6 = 30 m/s. Step 2: since both vehicles move in the same direction, the gap closes at the relative speed 30 - 25 = 5 m/s. Step 3: the 100 m gap closes in t = 100/5 = 20 s. Using the car's full speed as the closing speed, ignoring the truck, would give about 3.3 s, which is far too short because the truck is also moving forward."
+    },
+    {
+      "n": 56,
+      "derived": "B",
+      "text": "Step 1: the parallel combination of 20 Ω and 30 Ω has equivalent resistance (20 x 30)/(20 + 30) = 600/50 = 12 Ω. Step 2: the total circuit resistance is 8 + 12 = 20 Ω. Step 3: I = V/R = 60/20 = 3 A. Adding 20 Ω and 30 Ω as if they were in series would give 50 Ω and a much smaller current, and forgetting the 8 Ω series resistor would give 60/12 = 5 A."
+    },
+    {
+      "n": 57,
+      "derived": "B",
+      "text": "In the molten salt, K+ ions drift toward the negative electrode and Cl- ions toward the positive electrode, with both species contributing to the current. Conventional current is defined as the direction of flow of positive charge, so inside the liquid it points along the drift of the K+ ions, which is the correct statement. Swapping the destinations of the two ions reverses the physics, the two ion species drift in opposite directions rather than the same one, and molten salts conduct precisely because their ions are free to move."
+    },
+    {
+      "n": 58,
+      "derived": "C",
+      "text": "Gravitational acceleration follows g = GM/r^2, with r measured from the planet's centre, so g falls as the inverse square of the distance. For g to fall to one quarter of its surface value, the distance from the centre must double: r = 2R. The height above the surface is therefore h = 2R - R = R. Answering 2R forgets that r already includes the planet's radius, and R/4 or R/2 treat the falloff as linear rather than inverse-square."
+    },
+    {
+      "n": 59,
+      "derived": "B",
+      "text": "Step 1: the normal force is N = mg = 10 x 10 = 100 N, so kinetic friction is f = 0.40 x 100 = 40 N, opposing the motion. Step 2: the net force is 60 - 40 = 20 N. Step 3: a = F/m = 20/10 = 2 m/s2. Ignoring friction would give 60/10 = 6 m/s2, mistaking the friction coefficient for an acceleration gives 0.4 m/s2, and quoting the net force of 20 N as if it were an acceleration gives 20 m/s2."
+    },
+    {
+      "n": 60,
+      "derived": "C",
+      "text": "Step 1: the gauge pressure at depth h in a liquid is P = rho x g x h = 1000 x 10 x 4.0 = 40000 Pa. Step 2: the force on the hatch is pressure times area = 40000 x 0.5 = 20000 N. Quoting 40000 confuses the pressure in pascals with the force in newtons, and 80000 would follow from failing to multiply by the area; atmospheric pressure is explicitly to be ignored, and including it would give a much larger value."
+    }
+  ],
+  "disagreements": [],
+  "notes": [
+    "All 60 derived answers agree with the stored keys; every numeric item was recomputed from the stem data and both logic seating/sequence puzzles were verified to have a unique solution with no distractor satisfying the constraints.",
+    "The stored exp fields for n 33, 36, 37 and 47 refer to options by letter (e.g. Option A, Option B, option E), which matches only the stored order and would mislead if the explanations were ever printed against the shuffled paper; the worked solutions here reference distractors by content only.",
+    "n 37: at 1.0 x 10^-5 mol/dm3 the water autoionisation contribution shifts the pH by under 0.01, so pH 5 remains the expected answer at IMAT level.",
+    "n 42: the stem's temperatures convert to 300 K and 400 K exactly (273.15 rounded), consistent with the stored key and options."
+  ]
+}

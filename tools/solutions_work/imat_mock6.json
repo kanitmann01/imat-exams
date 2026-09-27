@@ -1,0 +1,312 @@
+{
+  "bank": "imat_mock6",
+  "solutions": [
+    {
+      "n": 1,
+      "derived": "C",
+      "text": "The passage describes storing fragments of viral DNA and transcribing them into guide molecules; it never says the bacterium rewrites its own DNA during infection to match the invader, which would be the opposite of passive fragment storage. Protection passing to offspring, RNA guides, escape via mutation of the targeted sequence, and the inherited-immunity behaviour are each stated or directly implied in the passage."
+    },
+    {
+      "n": 2,
+      "derived": "D",
+      "text": "Step 1: S sits at an end seat, seat 1 or seat 5. Step 2: T must sit somewhere to the left of S, so S cannot be at seat 1 (nothing lies to its left); S is therefore forced to seat 5, the far right, in every valid arrangement. A consistent layout such as T in seat 1, P in 2, Q in 3, R in 4, S in 5 (and equally R in 1, T in 2, P in 3, Q in 4, S in 5) shows the other claims can fail: P need not be at the far left, T can occupy an end seat, R need not sit between P and T, and Q can sit adjacent to R."
+    },
+    {
+      "n": 3,
+      "derived": "A",
+      "text": "The 2026 Winter Olympic Games (6 to 22 February 2026) are hosted by Milano and Cortina d'Ampezzo in Italy, the country's third Winter Games after Cortina d'Ampezzo 1956 and Turin 2006. Turin is the tempting recall, but it hosted in 2006, not 2026."
+    },
+    {
+      "n": 4,
+      "derived": "D",
+      "text": "The reptiles that are kept as pets exist by the second premise, and every reptile is not warm-blooded by the first, so at least some pets are not warm-blooded. Saying all pets are cold-blooded or that some pets are warm-blooded adds unsupported assumptions about non-reptile pets, the claim that no pet is a reptile directly contradicts the second premise, and nothing in the premises makes any warm-blooded animal a pet."
+    },
+    {
+      "n": 5,
+      "derived": "B",
+      "text": "The minute hand moves 6 degrees per minute: at 40 minutes it stands at 40 × 6 = 240°. The hour hand moves 0.5 degrees per minute: it stands at 4 × 30 + 40 × 0.5 = 120 + 20 = 140°. The angle between the hands is 240 − 140 = 100°. Leaving the hour hand fixed at exactly 4 o'clock (120°) ignores the 40 minutes of drift and produces the common wrong value of 120°."
+    },
+    {
+      "n": 6,
+      "derived": "C",
+      "text": "Without inhibitor the rate peaks at pH 7 (100, against 20 at pH 5 and 20 at pH 9), so the optimum sits at pH 7 itself, not between 7 and 9, and the enzyme is plainly still active at pH 9. With inhibitor the fractional falls are 10 percent at pH 5 (20 to 18) and 10 percent at pH 9, but 50 percent at pH 7 (100 to 50), so the relative inhibition is greatest at pH 7 and is not a constant fraction at every pH. A residual rate of 18 out of 20 at acidic pH gives no evidence that the enzyme is destroyed there."
+    },
+    {
+      "n": 7,
+      "derived": "E",
+      "text": "The argument treats the complication rate as a pure measure of surgical quality. If rural hospitals perform a higher share of emergency operations, which carry higher complication rates in any setting, the observed gap could reflect how severe the cases are rather than how good the care is, cutting the link between the evidence and the conclusion. Longer rural shifts and newer city equipment would if anything strengthen the conclusion, and bed counts or teaching status say nothing about case severity."
+    },
+    {
+      "n": 8,
+      "derived": "B",
+      "text": "The rule alternates ×2 and +3: 2 × 2 = 4, 4 + 3 = 7, 7 × 2 = 14, 14 + 3 = 17, 17 × 2 = 34. Since 34 came from doubling, the next step is +3, giving 34 + 3 = 37. Doubling again to 68 would break the established alternation."
+    },
+    {
+      "n": 9,
+      "derived": "A",
+      "text": "Step 1: after the 20 percent discount the price is 120 × 0.80 = 96. Step 2: after the further 25 percent discount it is 96 × 0.75 = 72. Step 3: total reduction = (120 − 72)/120 = 48/120 = 40 percent. Adding 20 and 25 to get 45 percent is wrong because the second discount acts on the already reduced price, not the original."
+    },
+    {
+      "n": 10,
+      "derived": "B",
+      "text": "From Aa × Aa the probability of genotype Aa is 1/2, and from Bb × Bb the probability of Bb is 1/2; the genes are unlinked, so multiply: 1/2 × 1/2 = 1/4. Nine-sixteenths instead gives the chance of showing both dominant phenotypes, a different question from the double heterozygote genotype."
+    },
+    {
+      "n": 11,
+      "derived": "E",
+      "text": "Only the double heterozygote cross AaBb × AaBb yields 9 both-dominant : 3 first-trait-only : 3 second-trait-only : 1 double recessive, since both genes segregate 3:1 independently. Crossing a double heterozygote with a double recessive is the testcross giving 1:1:1:1, the monohybrid Aa × Aa gives only 3:1, and crossing homozygous parents gives uniform offspring."
+    },
+    {
+      "n": 12,
+      "derived": "A",
+      "text": "A son's single X chromosome always comes from the mother, because the father supplies the Y. The carrier mother passes Xᴴ or Xʰ with equal probability, so exactly half of her sons inherit Xʰ and are colour-blind. One quarter would be the rate among all children rather than among sons, and the father's normal X passes only to daughters, so he contributes nothing to his sons' vision."
+    },
+    {
+      "n": 13,
+      "derived": "C",
+      "text": "Each daughter double helix keeps one intact parental strand paired with one newly synthesised strand, because each parental strand templates its partner; Meselson and Stahl confirmed exactly this result. Molecules made entirely of new nucleotides describe the conservative model, and old and new segments randomly mixed within single strands describe the dispersive model, both of which that experiment excluded."
+    },
+    {
+      "n": 14,
+      "derived": "D",
+      "text": "RNA polymerase reads the DNA template 3' to 5' and joins ribonucleotides into an RNA chain 5' to 3'; that is the defining enzyme of transcription. Reverse transcriptase copies RNA into DNA, DNA polymerase copies DNA into DNA, and helicase only unwinds the parental double helix."
+    },
+    {
+      "n": 15,
+      "derived": "B",
+      "text": "The anticodon is the three-base sequence on the anticodon loop of transfer RNA, and it base-pairs with the complementary codon on messenger RNA during translation. Messenger RNA carries codons rather than anticodons, and ribosomal RNA provides the structure and catalysis of the ribosome rather than codon recognition."
+    },
+    {
+      "n": 16,
+      "derived": "A",
+      "text": "The α-helix is secondary structure held together by hydrogen bonds between backbone C=O and N-H groups, giving the regular coiled pattern. Disulfide bridges belong to tertiary structure, and the side chains project outward from the helix without taking part in its stabilising pattern."
+    },
+    {
+      "n": 17,
+      "derived": "E",
+      "text": "Changing the methionine codon into the stop codon UGA turns a sense codon into a stop signal, a nonsense mutation: the ribosome releases the chain early and the protein is truncated. Only one codon is altered, so the downstream reading frame is intact and no frameshift occurs, and premature termination shortens rather than elongates the product."
+    },
+    {
+      "n": 18,
+      "derived": "C",
+      "text": "All six CO₂ per glucose are released in the mitochondrial matrix: two during pyruvate oxidation (pyruvate to acetyl-CoA) and four across the two turns of the Krebs cycle, at the decarboxylations of isocitrate and α-ketoglutarate. Glycolysis runs in the cytosol and releases no CO₂, and the electron transport chain on the inner membrane transfers electrons to oxygen without any decarboxylation step."
+    },
+    {
+      "n": 19,
+      "derived": "D",
+      "text": "ATP synthase is driven by the proton gradient that the electron transport chain builds. Blocking complex IV stops electron flow, protons are no longer pumped, and the gradient dissipates, so there is no proton-motive force left to power the synthase. Cyanide never touches ATP synthase itself, glycolysis and pyruvate supply continue, and there is no mechanism by which the Krebs cycle would accelerate and flood the matrix with protons."
+    },
+    {
+      "n": 20,
+      "derived": "B",
+      "text": "Fermentation's purpose is to re-oxidise the NADH produced by glycolysis back to NAD⁺, because glycolysis halts without a fresh supply of NAD⁺. It generates no ATP itself: the entire anaerobic yield (a net 2 per glucose) comes from glycolysis, lactic acid fermentation releases no CO₂, and NADH is consumed rather than synthesised in the fermentation step."
+    },
+    {
+      "n": 21,
+      "derived": "C",
+      "text": "A fourfold higher apparent Km with Vmax unchanged is the signature of competitive inhibition: the inhibitor competes at the active site, and a high enough substrate concentration can outcompete it, so the maximum rate survives. The other inhibitor's profile, Vmax falling to a quarter with Km unchanged, is non-competitive; an irreversible poison would collapse Vmax regardless of substrate level, and an activator would not raise Km."
+    },
+    {
+      "n": 22,
+      "derived": "A",
+      "text": "The sodium-potassium pump is primary active transport and consumes ATP directly, so rapid ATP depletion stops it first. Water movement through aquaporins, oxygen diffusion, osmosis and facilitated diffusion of glucose down its gradient are all passive, gradient-driven processes that need no ATP."
+    },
+    {
+      "n": 23,
+      "derived": "D",
+      "text": "At the vertebrate neuromuscular junction the motor neurone releases acetylcholine, which binds nicotinic receptors on the muscle fibre membrane and triggers contraction. Adrenaline, dopamine, GABA and serotonin act as transmitters at central or autonomic synapses, not at this junction."
+    },
+    {
+      "n": 24,
+      "derived": "E",
+      "text": "A typical vertebrate neurone rests near −70 mV, set mainly by potassium leak channels. The −55 mV figure is the usual firing threshold and +30 mV the peak of the action potential, while 0 mV or −30 mV are far too positive for a resting membrane."
+    },
+    {
+      "n": 25,
+      "derived": "B",
+      "text": "Vitamin K is the cofactor for γ-carboxylation of glutamate residues, which the liver needs to produce functional prothrombin (factor II) and factors VII, IX and X; without it, clotting fails. It plays no role in haemoglobin synthesis, bile salts are made independently of it, insulin is pancreatic rather than hepatic, and the restriction to albumin alone is wrong because the vitamin K products are the clotting factors."
+    },
+    {
+      "n": 26,
+      "derived": "A",
+      "text": "Raised plasma osmolality, sensed by hypothalamic osmoreceptors, is the primary stimulus for increased ADH (vasopressin) secretion; ADH inserts aquaporins in the collecting duct so the kidney reabsorbs and conserves water. Aldosterone chiefly conserves sodium, atrial natriuretic peptide promotes salt and water loss (the opposite of conservation), and insulin or a halt in cortisol does not address water balance here."
+    },
+    {
+      "n": 27,
+      "derived": "C",
+      "text": "Calcium released from the sarcoplasmic reticulum binds troponin, whose shape change pulls tropomyosin away from the myosin-binding sites on actin. Assigning the calcium binding to tropomyosin itself swaps the roles of the two regulatory proteins, ATP binding to myosin belongs to cross-bridge cycling, and acetylcholine acts on the sarcolemma well before this step."
+    },
+    {
+      "n": 28,
+      "derived": "B",
+      "text": "Activated B lymphocytes differentiate into plasma cells, and it is these plasma cells that secrete the antibodies found in plasma. Helper T cells coordinate the response and cytotoxic T cells kill infected targets, but neither secretes antibodies, and macrophages engulf pathogens and present antigen instead."
+    },
+    {
+      "n": 29,
+      "derived": "D",
+      "text": "Replication doubles the DNA while every centromere remains intact, so each of the 46 chromosomes now consists of two sister chromatids: 46 chromosomes and 92 chromatids. The chromosome count would only reach 92 at anaphase, when the sister chromatids separate and each begins to count as a chromosome."
+    },
+    {
+      "n": 30,
+      "derived": "E",
+      "text": "Gas exchange demands the thinnest possible barrier, so the alveolar walls are lined by simple squamous epithelium, a single layer of flattened cells. Ciliated columnar tissue lines the conducting airways, and stratified, transitional or cuboidal linings would all be far too thick for rapid diffusion."
+    },
+    {
+      "n": 31,
+      "derived": "A",
+      "text": "The Calvin cycle enzymes, including RuBisCO for carbon fixation, are dissolved in the stroma, the fluid surrounding the thylakoids. The thylakoid membranes and their lumen host the light-dependent reactions instead, and neither the mitochondrial matrix nor the cytosol has any part in photosynthesis."
+    },
+    {
+      "n": 32,
+      "derived": "C",
+      "text": "Glycolysis requires no oxygen and still delivers a net 2 ATP per glucose, so it continues under strictly anaerobic conditions. With O₂ absent the electron transport chain stalls, so oxidative phosphorylation and proton flow through ATP synthase stop, NAD⁺ runs short, fermentation must regenerate it, and the Krebs cycle and fatty-acid β-oxidation grind to a halt."
+    },
+    {
+      "n": 33,
+      "derived": "C",
+      "text": "The sum of the oxidation numbers equals the ion charge: 2x + 7(−2) = −2. Solving, 2x = +12 and x = +6, so each chromium atom is in the +6 state. Twelve is the combined total of both chromium atoms before halving, and +7 is the state of manganese in permanganate, a different ion."
+    },
+    {
+      "n": 34,
+      "derived": "A",
+      "text": "Zinc starts at oxidation number 0 and ends as Zn²⁺ (+2), losing the electrons that convert H⁺ (+1) into H₂ (0). The reducing agent is the species that is itself oxidised, so zinc fills that role; H⁺ is the oxidising agent, chloride ions are spectators, and H₂ and Zn²⁺ are products that cannot act as agents in the forward reaction."
+    },
+    {
+      "n": 35,
+      "derived": "C",
+      "text": "CH₃Cl is tetrahedral yet asymmetric: its single C-Cl bond dipole is not balanced by the three C-H dipoles, so a net dipole remains. CO₂ (linear), BF₃ (trigonal planar), CCl₄ and CH₄ (both tetrahedral) are all symmetric, and their individual bond dipoles cancel to zero overall."
+    },
+    {
+      "n": 36,
+      "derived": "B",
+      "text": "HCl is a strong acid, so the initial hydrogen ion concentration is 0.001 M = 10⁻³ M, hence pH 3. A tenfold dilution lowers this to 10⁻⁴ M, and since pH = −log[H⁺], the pH rises by exactly one unit to 4. Diluting cannot make the solution more acidic (pH 2), and pH 7 would require dilution so extreme that water's own ionisation dominates the hydrogen ion concentration."
+    },
+    {
+      "n": 37,
+      "derived": "D",
+      "text": "NaOH dissociates completely, so [OH⁻] = 0.01 M = 10⁻² M and pOH = 2. With pH + pOH = 14 at 25 °C, pH = 14 − 2 = 12. The value 2 mistakes pOH for pH, and 13 would correspond to a ten times more concentrated (0.1 M) hydroxide solution."
+    },
+    {
+      "n": 38,
+      "derived": "A",
+      "text": "The equation consumes 2 mol H₂ per 1 mol O₂. Three mol of H₂ needs only 1.5 mol of O₂, and with 2 mol available the hydrogen is the limiting reactant, so the water formed follows the hydrogen: the 2:2 ratio of hydrogen to water means 3 mol of H₂ yields 3 mol of H₂O. Basing the answer on the 2 mol of oxygen (4 mol of water) forgets that the hydrogen runs out first."
+    },
+    {
+      "n": 39,
+      "derived": "C",
+      "text": "Dilution conserves moles of solute: 0.020 L × 1.5 M = 0.030 mol of HCl. Dividing by the final volume, 0.030 ÷ 0.150 = 0.20 M (equivalently 1.5 × 20/150). The figure 0.15 M would follow from wrongly assuming a tenfold dilution, but 20 mL to 150 mL is a 7.5-fold dilution."
+    },
+    {
+      "n": 40,
+      "derived": "B",
+      "text": "Number of molecules = moles × Avogadro's constant: 0.50 × 6.02 × 10²³ = 3.01 × 10²³ molecules. Tripling that to 9.03 × 10²³ counts the atoms in the sample (three per CO₂ molecule), which is not what the question asks for."
+    },
+    {
+      "n": 41,
+      "derived": "D",
+      "text": "Gas laws use absolute temperature: 27 °C = 300 K and 327 °C = 600 K. At constant pressure Charles's law gives V proportional to T, so doubling the kelvin temperature doubles the volume. Taking the ratio of the Celsius values (327 ÷ 27 ≈ 12) produces the spurious twelve-fold increase."
+    },
+    {
+      "n": 42,
+      "derived": "E",
+      "text": "Atomic radius increases down a group and decreases across a period. Potassium lies one full period below sodium, magnesium, aluminium and chlorine, at the left edge of its own period, so it is the largest atom listed; within the third period the ranking runs Na > Mg > Al > Cl."
+    },
+    {
+      "n": 43,
+      "derived": "A",
+      "text": "High melting point, brittleness under impact, and conduction only when molten or dissolved are the classic signature of an ionic solid: a rigid lattice of ions that cannot carry charge until free to move, and that shatters because slipped layers bring like charges together and repel. Metals conduct as solids, molecular solids such as wax melt far too easily, and graphite conducts even as a solid through delocalised electrons."
+    },
+    {
+      "n": 44,
+      "derived": "C",
+      "text": "An acid-catalysed reaction of a carboxylic acid with an alcohol is esterification: ethanoic acid + ethanol → ethyl ethanoate + water, with the concentrated H₂SO₄ acting as catalyst. Sodium ethanoate would need a base such as NaOH, ethanal is a mild oxidation product of ethanol, and the anhydride would require two acid molecules to condense rather than an acid with an alcohol."
+    },
+    {
+      "n": 45,
+      "derived": "B",
+      "text": "Ethene's carbon-carbon double bond adds bromine across itself immediately, decolourising bromine water, whereas saturated ethane reacts with bromine only slowly under ultraviolet light, giving one clean visual test. Both hydrocarbons are gases at room temperature, neither dissolves freely in water, and the double bond belongs to ethene, not ethane."
+    },
+    {
+      "n": 46,
+      "derived": "D",
+      "text": "Raising the temperature always increases the rate, because more molecules exceed the activation energy, so any claim of a slower reaction fails. For this exothermic equilibrium, Le Chatelier's principle shifts the position of equilibrium in the endothermic (reverse) direction at higher temperature, so the equilibrium yield of SO₃ falls. The correct combination is therefore a faster reaction with a lower yield."
+    },
+    {
+      "n": 47,
+      "derived": "A",
+      "text": "Molality is defined as moles of solute per kilogram of solvent: 0.10 mol ÷ 0.500 kg = 0.20 mol/kg. The common slips are dividing by a solution-based mass or scaling to a full kilogram, but the definition pins the denominator to the solvent mass alone."
+    },
+    {
+      "n": 48,
+      "derived": "B",
+      "text": "Rearranging: −3x ≥ 14 − 5, so −3x ≥ 9. Dividing by the negative number −3 reverses the inequality sign: x ≤ −3. Failing to flip the sign gives the wrong direction, and using a strict less-than wrongly excludes x = −3, which satisfies the original statement exactly (5 − 3(−3) = 14)."
+    },
+    {
+      "n": 49,
+      "derived": "E",
+      "text": "Two conditions apply at once: the square root needs 4 − x ≥ 0, giving x ≤ 4, and the denominator needs x − 2 ≠ 0, giving x ≠ 2. The domain is therefore x ≤ 4 with x ≠ 2. Overlooking the fraction misses the exclusion of 2, while excluding 4 is baseless since x = 4 simply makes the function equal 0."
+    },
+    {
+      "n": 50,
+      "derived": "D",
+      "text": "log₃ 81 asks for the exponent x with 3ˣ = 81; since 3 × 3 × 3 × 3 = 81, the value is 4. The figure 27 reverses the question by answering what 3³ equals, and 81 confuses the argument of the logarithm with its value."
+    },
+    {
+      "n": 51,
+      "derived": "C",
+      "text": "At least one head fails only if all three coins show tails, which has probability (1/2)³ = 1/8. Subtracting, P(at least one head) = 1 − 1/8 = 7/8. The value 3/8 counts exactly one head (three of the eight equally likely outcomes), a different event, and 1/8 is the all-tails probability itself."
+    },
+    {
+      "n": 52,
+      "derived": "A",
+      "text": "The ground span is the side adjacent to the 60° angle, so it uses the cosine: 10 × cos 60° = 10 × 0.5 = 5 m. Using sine instead (10 × 0.87 = 8.7 m) gives the ramp's vertical height, not its horizontal reach."
+    },
+    {
+      "n": 53,
+      "derived": "E",
+      "text": "Composition works inside out: g(2) = 2² = 4, then f(4) = 2 × 4 − 3 = 8 − 3 = 5. Reporting 8 applies only the doubling and drops the minus 3, while evaluating g(f(2)) in the wrong order gives (2 × 2 − 3)² = 1."
+    },
+    {
+      "n": 54,
+      "derived": "B",
+      "text": "Index laws: multiplying powers with the same base adds exponents, and dividing subtracts them. So (2⁵ × 2³) ÷ 2⁴ = 2^(5+3−4) = 2⁴ = 16. Multiplying the exponents (2¹⁵) or adding instead of subtracting on division breaks those laws."
+    },
+    {
+      "n": 55,
+      "derived": "D",
+      "text": "Step 1: the parallel pair gives 1/R = 1/6 + 1/3 = 1/2, so R = 2 Ω. Step 2: this 2 Ω sits in series with the separate 2 Ω resistor, for a total of 4 Ω. Step 3: current = V/R = 6/4 = 1.5 A. Dividing 6 V by the parallel pair alone (2 Ω) forgets the series resistor, and summing all three resistances as if all were in series (11 Ω) ignores the parallel arrangement."
+    },
+    {
+      "n": 56,
+      "derived": "C",
+      "text": "Power = voltage × current = 230 × 4.6 = 1058 W, closest to 1060 W. Dividing instead of multiplying gives 230 ÷ 4.6 = 50, the arithmetic slip behind the smallest value offered."
+    },
+    {
+      "n": 57,
+      "derived": "A",
+      "text": "From Q = mcΔT, equal heat and equal masses give ΔT proportional to 1/c. Copper's smaller specific heat (385 against 900) means its temperature rises further, by the factor 900/385 ≈ 2.3. The actual heat supplied cancels in the ratio so it cannot be required, and aluminium, with the larger specific heat, warms less rather than more."
+    },
+    {
+      "n": 58,
+      "derived": "E",
+      "text": "The deceleration magnitude is the speed change divided by the stopping time: a = (20 − 0)/4.0 = 5 m/s². Dividing the other way round (4/20 = 0.2) inverts the definition of acceleration."
+    },
+    {
+      "n": 59,
+      "derived": "C",
+      "text": "Distance is the area under the velocity-time graph: rising triangle ½ × 4 × 4 = 8 m, flat rectangle 4 × 4 = 16 m, falling triangle ½ × 4 × 4 = 8 m, totalling 32 m (equivalently the trapezium ½ × (12 + 4) × 4 = 32 m). Counting only the plateau rectangle (16 m) or only the acceleration phases misses part of the motion."
+    },
+    {
+      "n": 60,
+      "derived": "B",
+      "text": "A floating block is in equilibrium: the buoyant force equals its weight, and by Archimedes' principle the buoyant force equals the weight of the displaced water, so the displaced water weighs exactly what the block weighs. A displaced volume equal to the block's own volume would require matching densities and full submersion, a block density greater than water's would mean sinking, and a zero buoyant force could not balance the block's weight."
+    }
+  ],
+  "disagreements": [],
+  "notes": [
+    "All 60 stored answer keys were confirmed by independent derivation; no disagreements.",
+    "Question 36 is an exam-level idealisation: at 10⁻⁴ M strong acid the true pH is a negligible fraction above 4 due to water autoionisation; the intended value is 4.",
+    "Question 3 is a general-knowledge item; the stored fact (Milano and Cortina d'Ampezzo host the 2026 Winter Games) is correct.",
+    "Question 2 has more than one valid seating arrangement, but the constraint that S sits at seat 5 holds in all of them, so the must-be-true answer is well defined."
+  ]
+}

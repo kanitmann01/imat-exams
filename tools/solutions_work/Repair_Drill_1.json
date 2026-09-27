@@ -1,0 +1,362 @@
+{
+  "bank": "Repair_Drill_1",
+  "solutions": [
+    {
+      "n": 1,
+      "derived": "D",
+      "text": "The Krebs cycle enzymes sit free in the mitochondrial matrix, where acetyl-CoA enters the cycle (succinate dehydrogenase is the one exception, bound to the inner membrane). Placing the cycle in the inner membrane confuses it with the electron transport chain and ATP synthase, which are oxidative phosphorylation machinery, and glycolysis rather than the cycle runs in the cytosol."
+    },
+    {
+      "n": 2,
+      "derived": "A",
+      "text": "Oxidising acetyl-CoA to CO2 in the citric acid cycle happens in the matrix, where the cycle's enzymes sit. ATP synthesis driven by the proton gradient, electron transfer between complexes I and IV, and the reduction of O2 to water all occur at the inner mitochondrial membrane, while conversion of glucose to pyruvate is glycolysis and happens in the cytosol. The recurring error is putting the whole respiratory chain inside the matrix."
+    },
+    {
+      "n": 3,
+      "derived": "C",
+      "text": "ATP synthase is embedded in the inner mitochondrial membrane, with its catalytic head facing the matrix. It is driven by the H+ gradient between the intermembrane space and the matrix that the electron transport chain builds. Saying it sits free in the matrix confuses the site of the Krebs cycle with the site of oxidative phosphorylation."
+    },
+    {
+      "n": 4,
+      "derived": "E",
+      "text": "Step 1: cyanide blocks complex IV, so electrons cannot pass to O2 and the chain backs up. Step 2: proton pumping into the intermembrane space stops, so the H+ gradient across the inner membrane dissipates. Step 3: ATP synthase is not itself an electron transport complex, but it depends entirely on that gradient, so ATP synthesis halts. The claim that it keeps working normally ignores this dependency, and protons would not accumulate in the matrix to boost output, because the gradient runs the other way."
+    },
+    {
+      "n": 5,
+      "derived": "B",
+      "text": "CO2 leaves whenever carbon exits the fuel: two molecules are released in pyruvate oxidation (the link reaction) and four more in the citric acid cycle, six per glucose. Glycolysis splits glucose into two pyruvates with no carbon lost, and the electron transport chain shuttles electrons, not carbon, so it releases none. Locating CO2 release in the electron transport chain is therefore impossible."
+    },
+    {
+      "n": 6,
+      "derived": "D",
+      "text": "Glycolysis converts glucose to two pyruvates with no carbon lost, and lactic acid fermentation then reduces pyruvate straight to lactate with no decarboxylation step. So zero CO2 molecules are released. The tempting count of two wrongly imports the CO2 output of pyruvate oxidation, a step that does not occur in this anaerobic pathway."
+    },
+    {
+      "n": 7,
+      "derived": "A",
+      "text": "About 70% of blood CO2 travels as bicarbonate ions: carbonic anhydrase in red blood cells converts CO2 and water to carbonic acid, which dissociates to HCO3- that then diffuses into the plasma. Carbaminohemoglobin accounts for only about 23% and about 7% stays dissolved. Also, CO2 binds the globin protein part of hemoglobin, while the heme iron is reserved for O2."
+    },
+    {
+      "n": 8,
+      "derived": "C",
+      "text": "Roughly 70% of CO2 is carried as bicarbonate, formed by carbonic anhydrase in red blood cells. The 23% figure belongs to carbaminohemoglobin and 7% to CO2 dissolved in plasma, so those two answers come from swapping the genuine transport pools, and 97% is the familiar O2 saturation of hemoglobin, not a CO2 statistic."
+    },
+    {
+      "n": 9,
+      "derived": "E",
+      "text": "High ATP binds an allosteric regulatory site on phosphofructokinase-1, the rate-limiting enzyme of glycolysis, and lowers its activity. It is not competitive inhibition: ATP binds away from the active site, so it does not compete with fructose-6-phosphate for the substrate pocket. Saying ATP activates PFK-1 gets the direction of regulation backwards, since AMP is the activator."
+    },
+    {
+      "n": 10,
+      "derived": "B",
+      "text": "Substrate-level phosphorylation delivers only 2 ATP from glycolysis plus 2 GTP from the citric acid cycle, about 4 of the 30-32 total. The remaining roughly 26-28 ATP come from oxidative phosphorylation: NADH and FADH2 supply electrons to the transport chain, which pumps protons to power ATP synthase. Picking any substrate-level step mistakes the small direct yield for the bulk of the total."
+    },
+    {
+      "n": 11,
+      "derived": "D",
+      "text": "In cross-bridge cycling the myosin heads bind directly to actin and pivot to pull the thin filaments. Calcium binds troponin, which shifts tropomyosin off the myosin-binding sites on actin, so the regulatory proteins act only indirectly. Myosin never attaches to troponin, tropomyosin or calcium during contraction."
+    },
+    {
+      "n": 12,
+      "derived": "A",
+      "text": "Fermentation's job is to oxidise the NADH from glycolysis back to NAD+ (pyruvate to lactate in muscle, to ethanol and CO2 in yeast). Without recycled NAD+, glycolysis would stall once its supply ran out and the net 2 ATP per glucose would stop. The fermentation steps themselves generate no ATP, so extra ATP beyond glycolysis is a mirage."
+    },
+    {
+      "n": 13,
+      "derived": "C",
+      "text": "Bile contains no enzymes. Its bile salts emulsify large fat globules into tiny droplets, greatly increasing the surface area that pancreatic lipase can attack. Hydrolysing triglycerides is lipase's chemical job, and converting pepsinogen to pepsin is what stomach acid does, not bile."
+    },
+    {
+      "n": 14,
+      "derived": "E",
+      "text": "Step 1: the diaphragm contracts and flattens. Step 2: the thoracic cavity enlarges, so thoracic volume increases. Step 3: the larger volume lowers the pressure inside the lungs below atmospheric, and air flows in down that pressure difference. Accounts with decreasing volume or rising lung pressure describe exhalation and contradict inhalation mechanics."
+    },
+    {
+      "n": 15,
+      "derived": "B",
+      "text": "Quiet expiration is passive: the diaphragm relaxes and domes upward, thoracic volume falls, and the lungs' elastic recoil pushes air out. Contracting and flattening is the inhalation movement, and forcible abdominal muscle contraction belongs to forced expiration, not quiet breathing."
+    },
+    {
+      "n": 16,
+      "derived": "D",
+      "text": "Oxygenated blood returns from the lungs in the pulmonary veins to the left atrium, moves to the left ventricle, and is pumped into the aorta to supply the body. The right ventricle instead sends deoxygenated blood through the pulmonary artery to the lungs. Any route through the right side of the heart or the pulmonary artery describes pulmonary, not systemic, delivery."
+    },
+    {
+      "n": 17,
+      "derived": "A",
+      "text": "The semilunar valves guard the ventricular outlets in the aorta and pulmonary artery and snap shut as the ventricles relax, stopping ejected blood from falling back into them. Preventing backflow from ventricles into atria is the job of the atrioventricular valves (tricuspid and mitral), a different valve set."
+    },
+    {
+      "n": 18,
+      "derived": "C",
+      "text": "Transitional epithelium (urothelium) lines the bladder and ureters: its rounded surface cells flatten as the organ fills, allowing repeated stretching and recoil without leakage. Simple columnar epithelium is built for secretion and absorption and cannot survive that distension, and stratified squamous is the abrasion-resistant lining of skin and oesophagus, not a stretchy one."
+    },
+    {
+      "n": 19,
+      "derived": "E",
+      "text": "Simple cuboidal epithelium lines kidney tubules and forms much of secretory glands, since its cells carry enough cytoplasm and organelles for active secretion and absorption. Simple squamous cells are paper-thin, specialised for diffusion in alveoli and vessel linings, not secretory work. Simple columnar instead dominates absorptive surfaces like the gut lining."
+    },
+    {
+      "n": 20,
+      "derived": "B",
+      "text": "The coordinated beating of the cilia sweeps the mucus blanket, with its trapped dust and microbes, upward toward the pharynx to be swallowed or expelled. The mucus is secreted by goblet cells rather than made by the cilia, and gas exchange occurs in the thin-walled alveoli, not the trachea."
+    },
+    {
+      "n": 21,
+      "derived": "D",
+      "text": "Homologous chromosomes are physically pulled to opposite poles in anaphase I, so a failure of that separation is anaphase I nondisjunction. By telophase I the chromosomes have already reached the poles, so blaming telophase comes too late. Anaphase II separates sister chromatids instead, which is the meiosis-II version of the error."
+    },
+    {
+      "n": 22,
+      "derived": "A",
+      "text": "Meiosis II separates sister chromatids, the identical copies of each chromosome joined at the centromere, so their failure to part defines meiosis-II nondisjunction. Homologous chromosomes and bivalents already separated in anaphase I, so they cannot be the structures failing in this division."
+    },
+    {
+      "n": 23,
+      "derived": "C",
+      "text": "At metaphase I each homologous pair (tetrad) orients randomly relative to the spindle poles, and that orientation alone decides which maternal or paternal copy reaches each gamete, giving 2^23 combinations in humans. By metaphase II the homologues have already separated, and only individual chromosomes align. Prophase I is for pairing and crossing over, not this alignment."
+    },
+    {
+      "n": 24,
+      "derived": "E",
+      "text": "Crossing over occurs in prophase I while homologues are paired as bivalents, when chiasmata form and non-sister chromatids exchange corresponding segments. Metaphase I merely aligns the already-exchanged pairs on the spindle, so it displays the results of crossing over rather than performing it."
+    },
+    {
+      "n": 25,
+      "derived": "B",
+      "text": "Sugars differing in configuration at exactly one of several chiral centres are epimers, so glucose and galactose are C-4 epimers. Enantiomers must be mirror images at every chiral centre, which these are not, and anomers differ at the anomeric carbon (C-1) of the cyclic form, not C-4."
+    },
+    {
+      "n": 26,
+      "derived": "D",
+      "text": "Hexosaminidase A normally degrades GM2 ganglioside inside lysosomes, the organelle holding the cell's hydrolytic enzymes, so the undigested lipid accumulates there: Tay-Sachs is a classic lysosomal storage disease. Peroxisomes instead handle very-long-chain fatty acid oxidation and catalase reactions, not ganglioside breakdown."
+    },
+    {
+      "n": 27,
+      "derived": "A",
+      "text": "Secretory and membrane proteins are made and folded inside the rough ER, so misfolded chains accumulate and are sensed there, triggering the unfolded protein response that slows translation and expands ER folding capacity. The smooth ER specialises in lipid synthesis and detoxification and does not fold proteins, and the Golgi only processes proteins that already folded correctly."
+    },
+    {
+      "n": 28,
+      "derived": "C",
+      "text": "PTH raises blood calcium by stimulating osteoclast-mediated bone resorption, increasing renal calcium reabsorption, promoting vitamin D activation (which also raises intestinal absorption) and increasing urinary phosphate excretion. Triggering calcitonin release is the exception: calcitonin is a separate thyroid hormone that lowers blood calcium, so attributing it to PTH reverses the two hormones' opposite effects."
+    },
+    {
+      "n": 29,
+      "derived": "E",
+      "text": "0.9% saline has the same osmolarity as plasma, making it isotonic: water moves into and out of the red cells at equal rates and they keep their normal shape. Predicting swelling (hypotonic) or shrinkage (hypertonic) contradicts the stated equality of osmolarity."
+    },
+    {
+      "n": 30,
+      "derived": "B",
+      "text": "A crash to a few randomly surviving individuals that then rebuild the population is the bottleneck effect, genetic drift that strips allelic diversity. The founder effect instead describes a few individuals leaving to colonise new habitat and start a new population elsewhere; here the population rebounds in place, so the bottleneck fits."
+    },
+    {
+      "n": 31,
+      "derived": "D",
+      "text": "Step 1: oxidation numbers in H2SO4 sum to 0, with H at +1 and O at -2, so 2(+1) + S + 4(-2) = 0. Step 2: S = 8 - 2 = +6. Step 3: sulfur sits in Period 3, Group 16, directly below oxygen; assigning it to Group 17 confuses it with chlorine, the halogen of that row."
+    },
+    {
+      "n": 32,
+      "derived": "A",
+      "text": "In KMnO4 potassium is +1 and oxygen is -2, so (+1) + Mn + 4(-2) = 0 and Mn = +7. The +8 answer omits potassium's +1 from the sum, and +2 is the state of the Mn2+ ion produced when permanganate acts as an oxidising agent, not its state inside the ion."
+    },
+    {
+      "n": 33,
+      "derived": "C",
+      "text": "Zinc goes from 0 to +2 in ZnSO4, losing electrons, so zinc is oxidised and acts as the reducing agent. Copper goes from +2 in Cu2+ to 0 as metal, gaining those electrons, so Cu2+ is reduced. Pairing 'loses electrons' with 'reduced' is self-contradictory, and copper metal is the product, not the reducing agent."
+    },
+    {
+      "n": 34,
+      "derived": "E",
+      "text": "pH = -log[H+], so pH 4.0 gives [H+] = 10^-4 = 1.0 x 10^-4 mol dm^-3. The value 1.0 x 10^-10 mol dm^-3 is the hydroxide concentration instead, since pOH = 14 - 4 = 10, and 10^-3 would correspond to pH 3."
+    },
+    {
+      "n": 35,
+      "derived": "B",
+      "text": "Step 1: pOH = -log(1.0 x 10^-4) = 4. Step 2: at 25 C, pH + pOH = 14, so pH = 14 - 4 = 10. Reporting 4 quotes the pOH, and 7 would need a neutral solution with [OH-] = 10^-7 mol dm^-3."
+    },
+    {
+      "n": 36,
+      "derived": "D",
+      "text": "HCl is a strong monoprotic acid and dissociates completely, so [H+] = 0.001 = 10^-3 mol dm^-3 and pH = -log(10^-3) = 3. The value 11 is 14 - 3, which is the pOH of the solution, and -3 is the logarithm with the sign slipped."
+    },
+    {
+      "n": 37,
+      "derived": "A",
+      "text": "Step 1: moles of O2 = 22.4 dm3 / 22.4 dm3 mol-1 = 1 mol. Step 2: molecules = 1 mol x 6.02 x 10^23 mol-1 = 6.02 x 10^23 molecules. Doubling to 1.204 x 10^24 assumes 2 mol of gas, and multiplying Avogadro's number by 22.4 treats a molar volume as a mole count."
+    },
+    {
+      "n": 38,
+      "derived": "C",
+      "text": "Step 1: 250 cm3 = 0.250 dm3. Step 2: concentration = 0.5 mol / 0.250 dm3 = 2.0 mol dm-3. The 0.125 answer multiplies by the volume instead of dividing, and 0.5 mol dm-3 ignores that the solution was diluted up to 250 cm3."
+    },
+    {
+      "n": 39,
+      "derived": "E",
+      "text": "Volume proportional to number of moles at constant temperature and pressure is Avogadro's law: equal volumes of gas at the same T and P contain equal moles. Charles's law links volume to absolute temperature, Boyle's law links volume to pressure, and Dalton's law deals with partial pressures, so none of those describes a moles-volume relationship."
+    },
+    {
+      "n": 40,
+      "derived": "B",
+      "text": "Step 1: convert to kelvin: T1 = 27 + 273 = 300 K and T2 = -73 + 273 = 200 K. Step 2: V2 = 9.0 x (200/300) = 6.0 dm3. Inserting the Celsius readings directly produces the negative volume, and cooling at constant pressure must shrink the gas, so expansion answers like 13.5 dm3 are impossible."
+    },
+    {
+      "n": 41,
+      "derived": "D",
+      "text": "Boyle's law at constant temperature: P1V1 = P2V2, so V2 = 500 x (100/250) = 200 cm3. Raising the pressure must compress the gas, so the 1250 cm3 answer, which multiplies by the inverted ratio 250/100, contradicts that, and 250 cm3 would only fit a doubling of the pressure."
+    },
+    {
+      "n": 42,
+      "derived": "A",
+      "text": "Boiling point tracks intermolecular force strength. Ethanoic acid molecules form cyclic dimers held by two hydrogen bonds at once, giving about 118 C, well above ethanol's one-to-one hydrogen bonding at about 78 C. Ethanal, methoxymethane and ethane lack an O-H hydrogen-bond donor, so dipole and then dispersion forces make them progressively lower-boiling."
+    },
+    {
+      "n": 43,
+      "derived": "C",
+      "text": "NH3 is pyramidal with a lone pair on nitrogen, so its three N-H bond dipoles point asymmetrically and do not cancel: it is polar. CO2 and BeCl2 (linear), BF3 (trigonal planar) and CCl4 (tetrahedral) are all symmetric, so their bond dipoles cancel and the molecules are non-polar despite having polar bonds."
+    },
+    {
+      "n": 44,
+      "derived": "E",
+      "text": "Step 1: reverse the second equation to CO2 -> CO + 1/2 O2, flipping its enthalpy change to +283 kJ mol-1. Step 2: add it to C(s) + O2 -> CO2 (enthalpy -394 kJ mol-1); O2 and CO2 cancel, leaving C(s) + 1/2 O2 -> CO. Step 3: the total is -394 + 283 = -111 kJ mol-1. The -677 figure adds both given values without reversing the second equation, forgetting the sign flip."
+    },
+    {
+      "n": 45,
+      "derived": "B",
+      "text": "Step 1: square both sides: 3x - 2 = 16. Step 2: add 2 and divide by 3: x = 18/3 = 6. Step 3: check: the square root of (18 - 2) is 4, so it is valid. The 14/3 result comes from writing 3x = 16 - 2, subtracting the 2 after squaring instead of adding it."
+    },
+    {
+      "n": 46,
+      "derived": "D",
+      "text": "Step 1: square both sides: x + 6 = x^2, so x^2 - x - 6 = 0. Step 2: factorise: (x - 3)(x + 2) = 0, giving candidates x = 3 and x = -2. Step 3: substitute back: the square root of 9 is 3, which works, but the square root of 4 is 2, never -2, so -2 is extraneous and x = 3 is the only valid solution. Listing both candidates skips this essential check."
+    },
+    {
+      "n": 47,
+      "derived": "A",
+      "text": "Step 1: subtract 5: -3x >= 15. Step 2: divide both sides by -3, which flips the inequality sign: x <= -5. Keeping the direction (x >= -5) is the classic sign-flip error, and using a strict < loses the inclusive boundary of the original >=."
+    },
+    {
+      "n": 48,
+      "derived": "C",
+      "text": "Step 1: subtract 7: -2x > 8. Step 2: divide by -2 and flip the sign: x < -4. The answer x > -4 forgets the flip, and x < -11 comes from adding 7 to the right side (giving -2x > 22) instead of subtracting it."
+    },
+    {
+      "n": 49,
+      "derived": "E",
+      "text": "Substitute x = 2: f(2) = 3(2)^2 - 4(2) + 5 = 12 - 8 + 5 = 9. The value 13 treats -4x as -4 after substituting, and 33 comes from squaring the whole coefficient term as (3x)^2 = 36 instead of 3x^2 = 12."
+    },
+    {
+      "n": 50,
+      "derived": "B",
+      "text": "The ladder is the hypotenuse, so height^2 = 15^2 - 9^2 = 225 - 81 = 144 and the height is 12 m (a scaled 3-4-5 triple). Adding the squares, the square root of (225 + 81) is about 17.5 m, which would make the wall the hypotenuse and contradicts the ladder leaning against it."
+    },
+    {
+      "n": 51,
+      "derived": "D",
+      "text": "Step 1: the diagonal is the hypotenuse, so the missing side = square root of (34^2 - 16^2) = square root of (1156 - 256) = 30 cm (a doubled 8-15-17 triple). Step 2: perimeter = 2 x (16 + 30) = 92 cm. Using the diagonal as if it were a side gives 2 x (16 + 34) = 100 cm, and forgetting to double (16 + 30) gives 46 cm."
+    },
+    {
+      "n": 52,
+      "derived": "A",
+      "text": "Step 1: expand both terms: 4x - 8 = 2x + 2. Step 2: 2x = 10, so x = 5. Step 3: check 4(5 - 2) = 12 and 2(5) + 2 = 12. The answer x = 2 comes from distributing the 4 to only one term inside the bracket (writing 4x - 2), and x = 4 from an arithmetic slip in the expansion."
+    },
+    {
+      "n": 53,
+      "derived": "C",
+      "text": "Radius = 12 / 2 = 6 cm, so area = 3.14 x 6^2 = 3.14 x 36 = 113.04 cm2. The 452.16 cm2 answer forgets to halve the diameter (3.14 x 144), and 37.68 cm2 is the circumference, 2 x 3.14 x 6, not the area."
+    },
+    {
+      "n": 54,
+      "derived": "E",
+      "text": "Convert with the fixed factor 3.6: 72 km/h / 3.6 = 20 m/s, since 1 km/h equals 1000 m per 3600 s. The m/s number must be smaller than the km/h number, so 36 or 240 m/s, which come from dividing by 3 or from multiplying, are wrong."
+    },
+    {
+      "n": 55,
+      "derived": "B",
+      "text": "Multiply by 3.6: 15 m/s x 3.6 = 54 km/h (15 x 3 = 45 plus 15 x 0.6 = 9), because 1 m/s covers 3.6 km in an hour. The converted value must be bigger, so 4.2 or 5 km/h, produced by dividing instead of multiplying, cannot be right."
+    },
+    {
+      "n": 56,
+      "derived": "D",
+      "text": "For parallel resistors, 1/R = 1/6 + 1/6 = 1/3, so R = 3 ohm (two equal resistors in parallel simply halve). A parallel total is always smaller than the smallest branch, so 6 ohm or the series-style 12 ohm are impossible, and leaving 1/3 ohm forgets the final inversion of 1/R."
+    },
+    {
+      "n": 57,
+      "derived": "A",
+      "text": "Step 1: 1/R = 1/4 + 1/4 + 1/2 = 0.25 + 0.25 + 0.5 = 1. Step 2: invert: R = 1 ohm. A parallel total must come out below the smallest branch (2 ohm), so the plain sum of 10 ohm would only be the series result, not this connection's."
+    },
+    {
+      "n": 58,
+      "derived": "C",
+      "text": "P = I^2 R = 3^2 x 4 = 9 x 4 = 36 W. The 12 W answer uses P = IR without squaring the current, 144 W squares the product IR instead, and 48 W squares the resistance; in this formula only the current is squared."
+    },
+    {
+      "n": 59,
+      "derived": "E",
+      "text": "P = VI = 12 V x 2.5 A = 30 W. The 4.8 W answer divides voltage by current and 14.5 W adds them; electrical power is the product of voltage and current, never their quotient or sum."
+    },
+    {
+      "n": 60,
+      "derived": "B",
+      "text": "Gauge pressure = density x g x depth = 1000 x 9.8 x 5 = 49,000 Pa. The 4,900 Pa answer drops a factor of ten, and 9,800 Pa equals just density times g with the depth left out; all three factors multiply in this relation."
+    },
+    {
+      "n": 61,
+      "derived": "D",
+      "text": "Density = mass / volume = 540 g / 200 cm3 = 2.7 g/cm3, which matches aluminium. The 0.37 g/cm3 answer inverts the division (200/540); mass divided by a smaller volume must exceed 1, and no real metal approaches 740 g/cm3."
+    },
+    {
+      "n": 62,
+      "derived": "A",
+      "text": "Intensity follows the inverse-square law: intensity is proportional to 1/distance^2. Tripling the distance from 1 m to 3 m divides the intensity by 3^2 = 9, so 90 / 9 = 10 W/m2. The 30 W/m2 answer divides by 3 only, treating the law as inverse rather than inverse-square."
+    },
+    {
+      "n": 63,
+      "derived": "C",
+      "text": "The statement is a conditional: catching the 8:00 train guarantees arriving before noon. From 'she did not arrive before noon', the valid inference is the contrapositive: she did not catch the 8:00 train. The delay and oversleeping stories add facts that contradict this conclusion, and neither the converse ('arrived before noon, so she caught the train') nor the inverse ('no train, so no arrival') is licensed by the original."
+    },
+    {
+      "n": 64,
+      "derived": "E",
+      "text": "A conditional is false only when its antecedent is true and its consequent is false: the sample is contaminated and yet the result is reliable. Every other combination, including an uncontaminated sample with an unreliable result, leaves the statement intact, because the promise covers only contaminated samples."
+    },
+    {
+      "n": 65,
+      "derived": "B",
+      "text": "The inference runs from 'the alarm did not ring' to 'the neighbours did not call', which is denying the antecedent. The neighbours could still call for some other reason, so the conclusion does not follow; the inverse of a conditional is not equivalent to it. The valid pattern would be the contrapositive: no call from the neighbours implies the alarm did not ring."
+    },
+    {
+      "n": 66,
+      "derived": "D",
+      "text": "Premise two guarantees at least one person who is both a teacher and a doctor. Premise three bars every cardiologist from being a teacher, so that person is a teacher who is not a cardiologist: 'some teachers are not cardiologists' follows necessarily. 'All teachers are doctors' overreaches the premises, and 'some cardiologists are teachers' contradicts premise three outright."
+    },
+    {
+      "n": 67,
+      "derived": "A",
+      "text": "All snakes are reptiles and the reptile set is disjoint from the warm-blooded set, so every snake is cold-blooded: no snakes are warm-blooded. The other options either reverse the inclusion ('all warm-blooded animals are reptiles') or assert warm-blooded reptiles, which the premises exclude."
+    },
+    {
+      "n": 68,
+      "derived": "C",
+      "text": "The data license only the within-study comparison: unhelmeted riders had a higher incidence of head injury than helmeted riders. Risk-taking behaviour, crash frequency, complete prevention and legislative recommendations all import causal or universal claims that observational numbers never established."
+    },
+    {
+      "n": 69,
+      "derived": "E",
+      "text": "The survey supports exactly one comparison: among surveyed employees, walking commuters reported higher average satisfaction than car commuters. An average hides individual variation, so 'every walker more satisfied than every driver' overreaches, and the causal claim, the switching counterfactual and the productivity recommendation all go beyond the correlational data."
+    },
+    {
+      "n": 70,
+      "derived": "B",
+      "text": "Step 1: the minute hand at 15 minutes is 15 x 6 = 90 degrees from 12. Step 2: the hour hand moves 30 degrees per hour plus 0.5 degrees per minute, so it is 3 x 30 + 15 x 0.5 = 97.5 degrees from 12. Step 3: the angle between them is 97.5 - 90 = 7.5 degrees. The zero-degree claim assumes both hands sit on the 3, ignoring the hour hand's quarter-hour drift toward 4."
+    }
+  ],
+  "disagreements": [],
+  "notes": [
+    "All 70 stored answers matched independent derivation (including recomputation of every numeric item); no disagreements.",
+    "Several stored exp fields reference distractors by position or contain em dashes (for example Q4 mentions 'option 4' and Q31 uses an em dash); these are bank-file quirks only and do not affect the derived answers.",
+    "Q2 and Q1: the citric acid cycle exception (succinate dehydrogenase on the inner membrane) is acknowledged in the solutions so the wording 'mainly in the matrix' stays airtight.",
+    "Q70: solution treats the angle as the smaller angle between the hands (7.5 degrees), which is what all five options presuppose."
+  ]
+}

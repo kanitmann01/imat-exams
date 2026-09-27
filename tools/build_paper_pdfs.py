@@ -83,6 +83,10 @@ S_KEYH = ParagraphStyle("kh", fontName="DJVB", fontSize=12, leading=15,
                         textColor=INK, spaceAfter=3)
 S_NOTE = ParagraphStyle("kn", fontName="DJV", fontSize=8.6, leading=11.5,
                         textColor=MUTE, spaceAfter=8)
+S_SOLH = ParagraphStyle("sh", fontName="DJVB", fontSize=9.8, leading=13,
+                        textColor=INK, spaceBefore=10)
+S_SOL = ParagraphStyle("st", fontName="DJV", fontSize=9.3, leading=12.8,
+                       textColor=INK, leftIndent=14, spaceBefore=1)
 
 LETTERS = "ABCDE"
 
@@ -135,12 +139,13 @@ def printed_ans(order, q):
     return LETTERS[order.index(LETTERS.index(q["ans"]))]
 
 
-def check_charset(banks):
+def check_charset(banks, solutions):
     cmap = FTTTFont(REG).getBestCmap()
     missing = {}
     for b in banks:
         blob = b["title"] + "".join(
             q["stem"] + "".join(q["options"]) for q in b["questions"])
+        blob += "".join(solutions[b["id"]].values())
         for ch in set(blob):
             if ord(ch) > 126 and ord(ch) not in cmap:
                 missing.setdefault(repr(ch), hex(ord(ch)))
@@ -171,6 +176,7 @@ def meta_line(bank):
     if bank.get("targetScore") is not None:
         parts.append("personal target: %s/90.0" % bank["targetScore"])
     parts.append(KIND_LABEL.get(bank["kind"], bank["kind"]))
+    parts.append("answer key + worked solutions at the end")
     return "  ·  ".join(parts)
 
 
@@ -222,7 +228,7 @@ def key_table(questions, letters):
     return t
 
 
-def build(bank, path):
+def build(bank, path, solutions):
     doc = SimpleDocTemplate(
         path, pagesize=A4,
         leftMargin=17 * mm, rightMargin=17 * mm,
@@ -259,7 +265,35 @@ def build(bank, path):
         "the app will differ from the ones here.", S_NOTE))
     story.append(key_table(bank["questions"],
                            [printed[q["n"]] for q in bank["questions"]]))
+
+    sols = solutions[bank["id"]]
+    story.append(PageBreak())
+    story.append(Paragraph("Worked solutions", S_KEYH))
+    story.append(HRFlowable(width="100%", thickness=0.5, color=RULE, spaceAfter=4))
+    story.append(Paragraph(
+        "Each solution shows the reasoning that produces the key, and names "
+        "the wrong options by their content. Letters refer to the option "
+        "order printed in this paper.", S_NOTE))
+    for q in bank["questions"]:
+        text = sols[q["n"]]
+        block = [Paragraph(
+            "Question %d  ·  Answer: %s" % (q["n"], printed[q["n"]]), S_SOLH)]
+        for ln in [l.strip() for l in text.split("\n") if l.strip()]:
+            block.append(Paragraph(esc(ln), S_SOL))
+        story.append(KeepTogether(block))
     doc.build(story, onFirstPage=footer, onLaterPages=footer)
+
+
+def load_solutions():
+    sdir = os.path.join(HERE, "solutions_work")
+    out = {}
+    for fn in os.listdir(sdir):
+        if not fn.endswith(".json"):
+            continue
+        with open(os.path.join(sdir, fn), encoding="utf-8") as f:
+            d = json.load(f)
+        out[d["bank"]] = {s["n"]: s["text"] for s in d["solutions"]}
+    return out
 
 
 def main():
@@ -270,13 +304,20 @@ def main():
     for e in manifest["exams"]:
         with open(os.path.join(DATA, "%s.json" % e["id"]), encoding="utf-8") as f:
             banks.append(json.load(f))
-    check_charset(banks)
+    solutions = load_solutions()
+    for b in banks:
+        if b["id"] not in solutions:
+            sys.exit("missing solutions file for %s" % b["id"])
+        want = {q["n"] for q in b["questions"]}
+        if set(solutions[b["id"]]) != want:
+            sys.exit("solutions coverage mismatch for %s" % b["id"])
+    check_charset(banks, solutions)
     for b in banks:
         name = FILENAMES.get(b["id"])
         if not name:
             sys.exit("no filename mapping for %s" % b["id"])
         path = os.path.join(OUT, "%s.pdf" % name)
-        build(b, path)
+        build(b, path, solutions)
         print("%-42s %6.0f KB  %s" % (name, os.path.getsize(path) / 1024, b["id"]))
     print("OK: %d PDFs in papers/" % len(banks))
 

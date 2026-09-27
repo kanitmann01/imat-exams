@@ -1,0 +1,313 @@
+{
+  "bank": "imat_mock2",
+  "solutions": [
+    {
+      "n": 1,
+      "derived": "C",
+      "text": "The passage says each course of antibiotics applies selection favouring resistance and that resistance spreads faster where antibiotic use is high, so cutting unnecessary use removes that pressure and slows the spread. The claim that antibiotic use creates genetic mutations directly is unsupported: the changes arise by chance or gene transfer, and selection merely favours the carriers. The claims that resistance cannot arise without horizontal gene transfer, that all bacteria become resistant after one course, and that resistance is independent of selection pressure each either contradict the passage or overreach it with absolutes."
+    },
+    {
+      "n": 2,
+      "derived": "C",
+      "text": "The passage defines negative feedback as a loop whose effector returns the variable to its set point, so the statement that negative feedback returns a variable toward its set point matches the text exactly. The claim that positive feedback is the main mechanism contradicts the passage, as does the claim that the effector pushes the variable further from the set point. The text explicitly lists body temperature among regulated variables and explicitly requires a sensor, so both remaining options are also false."
+    },
+    {
+      "n": 3,
+      "derived": "B",
+      "text": "The decisive fact: Andreas Vesalius published De humani corporis fabrica in 1543, based on his own dissections, correcting many errors inherited from Galen. Leonardo dissected but published no such anatomical treatise; William Harvey, who described blood circulation, was a 17th century Englishman; Malpighi is associated with microscopy and capillaries, and Galvani with bioelectricity in frog muscle."
+    },
+    {
+      "n": 4,
+      "derived": "D",
+      "text": "From P above Q and P below R we get the chain R above P above Q; adding S below Q extends it to R above P above Q above S. The ranking is fully determined, so the lowest score belongs to S, and the data are sufficient to rule out the undetermined answer."
+    },
+    {
+      "n": 5,
+      "derived": "B",
+      "text": "This is modus tollens: from 'if it rains the match is cancelled' and 'the match was not cancelled', the only valid inference is that it did not rain. The claim that it rained would contradict the conditional, since rain would have forced cancellation, and 'it might have rained' is excluded for the same reason. The teams' refusal is not part of any premise."
+    },
+    {
+      "n": 6,
+      "derived": "C",
+      "text": "The rule is output = x² − 4. Setting x² − 4 = 32 gives x² = 36, so x = 6 or x = −6; of the offered numbers only 6 works (check: 36 − 4 = 32). Neighbours fail quickly: 5² − 4 = 21 and 7² − 4 = 45."
+    },
+    {
+      "n": 7,
+      "derived": "C",
+      "text": "Step 1: the minute hand moves 6° per minute, so at 45 minutes it sits at 45 × 6 = 270° measured from 12. Step 2: the hour hand moves 30° per hour plus 0.5° per minute, so at 9:45 it is at 9 × 30 + 45 × 0.5 = 270 + 22.5 = 292.5°. Step 3: the angle between the hands is 292.5 − 270 = 22.5°. The tempting '0°' answer comes from seeing both hands near the 9, but the minute hand sits exactly on the 9 while the hour hand is three quarters of the way toward 10."
+    },
+    {
+      "n": 8,
+      "derived": "A",
+      "text": "If A is B's father and B is C's sister, then B and C are siblings sharing the same father, so A is C's father as well. Uncle, grandfather, brother and cousin would each require an extra generation or a different relationship link that the statements do not provide."
+    },
+    {
+      "n": 9,
+      "derived": "C",
+      "text": "The terms are perfect squares: 1 = 1², 4 = 2², 9 = 3², 16 = 4², 25 = 5², so the next term is 6² = 36. Cross-check with the differences, which grow by 2 each time (3, 5, 7, 9): the next difference is 11, and 25 + 11 = 36. The value 49 is the square after next (7²) and would skip a term."
+    },
+    {
+      "n": 10,
+      "derived": "B",
+      "text": "Glycolysis takes place in the cytosol, where its soluble enzymes convert glucose to pyruvate without any membrane-bound organelle. The mitochondrial matrix hosts the Krebs cycle and the inner mitochondrial membrane the electron transport chain, so those locations belong to later stages of respiration."
+    },
+    {
+      "n": 11,
+      "derived": "B",
+      "text": "When oxygen is scarce, human muscle runs lactic acid fermentation: lactate dehydrogenase reduces pyruvate to lactate, regenerating NAD⁺ so glycolysis can continue producing ATP. Ethanol and CO₂ is the yeast (alcoholic) route, which humans lack, and converting pyruvate to acetyl-CoA is an aerobic mitochondrial step requiring oxygen-linked oxidative phosphorylation."
+    },
+    {
+      "n": 12,
+      "derived": "D",
+      "text": "Modern estimates give about 30 to 32 ATP per glucose in eukaryotes: roughly 2 from glycolysis, about 2 directly from the Krebs cycle, and the remainder from oxidative phosphorylation, after accounting for proton leak and the cost of shuttling cytosolic NADH into the mitochondrion. The older textbook figure of 36 to 38 assumed perfect efficiency and is now considered too high, while 2 is only the glycolysis yield."
+    },
+    {
+      "n": 13,
+      "derived": "B",
+      "text": "The coenzymes that ferry reducing power from glycolysis and the Krebs cycle to the respiratory chain are NAD⁺/NADH and FAD/FADH₂: NADH hands electrons to complex I and FADH₂ to complex II. Coenzyme A only escorts acetyl groups into the Krebs cycle, and ATP, ADP and AMP are energy-currency molecules, not electron carriers."
+    },
+    {
+      "n": 14,
+      "derived": "B",
+      "text": "Electron transport complexes I, III and IV use the energy released by electron transfer to pump H⁺ from the matrix into the intermembrane space; the resulting electrochemical gradient of protons is the proton-motive force that ATP synthase then exploits. ATP hydrolysis would run ATP synthase in reverse, and oxygen diffusion, pyruvate transport or Ca²⁺ release do not build this gradient."
+    },
+    {
+      "n": 15,
+      "derived": "D",
+      "text": "Both respiration and photosynthesis run an electron transport chain coupled to chemiosmotic ATP synthesis, in the inner mitochondrial membrane and the thylakoid membrane respectively. The Calvin cycle and the light reactions belong only to photosynthesis, and the Krebs cycle only to respiration, so the feature shared by both processes is the chemiosmosis-driven electron transport chain."
+    },
+    {
+      "n": 16,
+      "derived": "B",
+      "text": "Photosynthesis occurs in the chloroplast: the thylakoid membranes host the light reactions and the stroma the Calvin cycle. Mitochondria carry out respiration, the vacuole stores sap, and neither the nucleus nor peroxisomes conduct photosynthesis."
+    },
+    {
+      "n": 17,
+      "derived": "B",
+      "text": "The light reactions split water, releasing O₂, and use the captured light energy to synthesise ATP and NADPH; no sugar is produced at this stage. Glucose appears only later, when the Calvin cycle consumes that ATP and NADPH to fix CO₂, so the claim that light reactions directly produce glucose and O₂ is the classic trap that blurs this division of labour."
+    },
+    {
+      "n": 18,
+      "derived": "B",
+      "text": "Pulmonary veins carry freshly oxygenated blood from the lungs to the left atrium, one of the exceptions to the usual vein pattern. The pulmonary arteries do the opposite, taking deoxygenated blood from the right ventricle to the lungs, and the vena cavae return deoxygenated body blood to the right atrium; the aorta and coronary vessels are systemic, not lung-to-heart, vessels."
+    },
+    {
+      "n": 19,
+      "derived": "C",
+      "text": "Gas exchange occurs in the alveoli: walls one cell thick and an enormous total surface area minimise the diffusion path for O₂ in and CO₂ out. The bronchi, trachea and pharynx are conducting airways with thick, cartilage- or mucosa-lined walls, and the aorta is a blood vessel, not an airway structure."
+    },
+    {
+      "n": 20,
+      "derived": "A",
+      "text": "The parietal (oxyntic) cells of the gastric glands secrete hydrochloric acid and intrinsic factor. Chief cells secrete pepsinogen, goblet and mucous neck cells secrete mucus, and enterocytes are absorptive cells of the intestine, not acid secretors."
+    },
+    {
+      "n": 21,
+      "derived": "B",
+      "text": "Bile is synthesised by hepatocytes in the liver and then concentrated and stored in the gallbladder, from which it is released into the duodenum to emulsify fats. The pancreas makes digestive enzymes and bicarbonate but not bile, and the reversed pairing that has the gallbladder producing bile and the liver storing it swaps the true roles."
+    },
+    {
+      "n": 22,
+      "derived": "B",
+      "text": "The nephron is the kidney's functional unit: about one million per kidney, each performing filtration, reabsorption and secretion. The alveolus belongs to the lung, the sarcomere to muscle, the neuron to nervous tissue, and the hepatocyte to the liver."
+    },
+    {
+      "n": 23,
+      "derived": "B",
+      "text": "Blood is filtered where the glomerulus sits inside Bowman's capsule: capillary blood pressure drives plasma across the filtration barrier into the capsular space. The loop of Henle and the collecting duct handle water and salt recovery downstream, the distal convoluted tubule fine-tunes ions, and the renal pelvis merely collects urine."
+    },
+    {
+      "n": 24,
+      "derived": "B",
+      "text": "The lining of the stomach and intestines is simple columnar epithelium, typically with microvilli and goblet cells, suited to secretion and absorption. Stratified squamous epithelium is the wear-resistant lining of skin and oesophagus, pseudostratified ciliated epithelium lines the airways, transitional epithelium lines the bladder, and simple cuboidal epithelium occurs in ducts and tubules."
+    },
+    {
+      "n": 25,
+      "derived": "D",
+      "text": "Tendons are cords of dense connective tissue, not muscle, and bone is attached by skeletal muscle tissue, so skeletal attachment is the exception. Smooth muscle does occur in the walls of blood vessels, intestines, uterus and bronchi, which is exactly its hollow-organ and vessel pattern."
+    },
+    {
+      "n": 26,
+      "derived": "C",
+      "text": "Fibroblasts secrete the collagen (and elastin) fibres that dominate dense regular connective tissue such as tendons. Chondrocytes sit in cartilage, osteocytes in bone, adipocytes store fat, and erythrocytes transport oxygen; none of them builds tendon fibres."
+    },
+    {
+      "n": 27,
+      "derived": "B",
+      "text": "Ventilation is driven mainly by rising arterial CO₂, which raises blood H⁺; central chemoreceptors in the medulla and peripheral chemoreceptors in the carotid and aortic bodies sense this and increase breathing. The claim that rising blood O₂ is the primary stimulus is doubly wrong: arterial O₂ hardly changes during moderate exercise, and O₂ becomes the decisive drive only when it falls substantially."
+    },
+    {
+      "n": 28,
+      "derived": "B",
+      "text": "Insulin, released when blood glucose is high, promotes GLUT4-mediated glucose uptake in muscle and stimulates glycogen synthesis (glycogenesis) in liver and muscle. It suppresses the opposite processes: glycogenolysis, gluconeogenesis, lipolysis and ketogenesis belong to the low-insulin, glucagon-dominated state, and releasing glucose into the blood is what insulin prevents."
+    },
+    {
+      "n": 29,
+      "derived": "C",
+      "text": "The thigh bone is the femur, the longest and strongest bone in the body. The tibia and fibula are lower-leg bones, the humerus is the arm bone, and the patella is the kneecap, a sesamoid bone."
+    },
+    {
+      "n": 30,
+      "derived": "B",
+      "text": "A hypertonic solution has a higher solute concentration than the cell interior, so water leaves the red cell by osmosis and it shrinks, a change called crenation. Swelling and bursting is the fate in a hypotonic solution, where water flows inward, and an isotonic medium leaves the cell unchanged; the other outcomes (division, changing cell type) are impossible for a mature red cell."
+    },
+    {
+      "n": 31,
+      "derived": "B",
+      "text": "Chromosomes align on the equatorial metaphase plate during metaphase, attached by spindle fibres from both poles. Anaphase is their separation toward the poles, prophase their condensation, telophase the reformation of nuclei, and cytokinesis the division of the cytoplasm."
+    },
+    {
+      "n": 32,
+      "derived": "A",
+      "text": "In double-stranded DNA, adenine pairs with thymine (two hydrogen bonds) and guanine with cytosine (three hydrogen bonds). The pairing of adenine with uracil applies to RNA, where uracil replaces thymine, not to a DNA-DNA duplex, and pairing a base with itself or with the wrong-size partner would distort the helix's uniform width and bonding chemistry."
+    },
+    {
+      "n": 33,
+      "derived": "C",
+      "text": "Balance the atoms of the product Al₂O₃: taking 2 Al₂O₃ accounts for 4 Al and 6 O, so the reactants need 4 Al and 3 O₂. The balanced equation is 4 Al + 3 O₂ → 2 Al₂O₃, hence the coefficient of O₂ is 3 (check: 6 oxygen atoms on each side)."
+    },
+    {
+      "n": 34,
+      "derived": "D",
+      "text": "Oxidation numbers sum to zero in a neutral salt: K contributes +1 and each of the four oxygens −2, so +1 + x + 4 × (−2) = 0, giving x = +7 for manganese. The value +4 would balance only two oxygens (as in MnO₂), and −1 confuses oxygen's charge with manganese's oxidation state."
+    },
+    {
+      "n": 35,
+      "derived": "B",
+      "text": "Step 1: moles of HCl = 0.0250 L × 0.10 mol/L = 0.0025 mol. Step 2: HCl + NaOH reacts 1:1, so 0.0025 mol of NaOH is required. Step 3: volume of NaOH = 0.0025 mol ÷ 0.05 mol/L = 0.050 L = 50 mL. The 25 mL answer forgets that the NaOH is half as concentrated as the acid, so twice the acid volume is needed."
+    },
+    {
+      "n": 36,
+      "derived": "B",
+      "text": "A buffer pairs a weak acid with its conjugate base (or a weak base with its conjugate acid), such as acetic acid and acetate: the weak-acid partner neutralises added base and the conjugate base neutralises added acid. A strong acid is fully dissociated and has no conjugate reserve to draw on, and mixing a strong acid with a strong base simply neutralises rather than buffers."
+    },
+    {
+      "n": 37,
+      "derived": "C",
+      "text": "Electronegativity increases toward the top right of the periodic table, and fluorine tops the entire scale at 4.0 on the Pauling scale. Oxygen is the highest among the rest, chlorine follows, while sodium and caesium sit at the electropositive bottom-left extreme."
+    },
+    {
+      "n": 38,
+      "derived": "C",
+      "text": "Carbon in CH₄ has four bonding pairs and no lone pairs; VSEPR pushes them as far apart as possible, giving a tetrahedron with bond angles of 109.5°. Pyramidal geometry would require a lone pair (as in NH₃), and linear or trigonal planar shapes correspond to two or three electron domains, not four."
+    },
+    {
+      "n": 39,
+      "derived": "B",
+      "text": "The standard molar volume of an ideal gas at STP (0 °C, 1 atm) is 22.4 L per mole: V = nRT/P = 1 × 0.0821 × 273 ÷ 1 ≈ 22.4 L. The 24.0 L figure corresponds to room temperature (about 25 °C), not STP, and 11.2 L is the volume of half a mole."
+    },
+    {
+      "n": 40,
+      "derived": "C",
+      "text": "Molar mass of CaCO₃ = 40 + 12 + (3 × 16) = 40 + 12 + 48 = 100 g/mol. The values 68 and 56 arise from dropping or short-changing the three oxygens, and 84 and 116 match no correct combination of the given atomic masses."
+    },
+    {
+      "n": 41,
+      "derived": "A",
+      "text": "pH measures H⁺ concentration: 0.1 M HCl, being a strong acid, fully dissociates to give [H⁺] = 0.1 M, so pH = 1, the lowest on offer. 0.01 M HCl gives pH 2, and 0.1 M acetic acid dissociates only partially, landing near pH 2.9; pure water is neutral at pH 7 and 0.1 M NaOH is strongly alkaline (about pH 13)."
+    },
+    {
+      "n": 42,
+      "derived": "C",
+      "text": "Aromaticity requires a cyclic, conjugated π system satisfying Hückel's rule, and benzene (C₆H₆) with its six delocalised π electrons is the archetype. Ethene, ethanol, methane and acetylene are all acyclic molecules without a ring or aromatic sextet, so none can be aromatic."
+    },
+    {
+      "n": 43,
+      "derived": "B",
+      "text": "Aldehydes carry the formyl group, -CHO: a carbonyl carbon bonded to at least one hydrogen atom, as in ethanal CH₃CHO. The -OH group marks alcohols, -COOH carboxylic acids, -NH₂ amines, and an internal -C=O carrying no hydrogen defines a ketone instead."
+    },
+    {
+      "n": 44,
+      "derived": "B",
+      "text": "For 2SO₂ + O₂ ⇌ 2SO₃ with ΔH < 0, the forward reaction is exothermic, so the reverse is endothermic. By Le Chatelier's principle, raising the temperature favours the direction that absorbs the added heat, that is the reverse, shifting the equilibrium left and reducing SO₃ yield. The tempting 'shift to the right' answer would hold only if the forward reaction were endothermic."
+    },
+    {
+      "n": 45,
+      "derived": "C",
+      "text": "Neutrons = mass number − atomic number = 14 − 6 = 8, since carbon always has 6 protons. The answer 14 mistakes the mass number for the neutron count, and 6 counts protons instead of neutrons."
+    },
+    {
+      "n": 46,
+      "derived": "C",
+      "text": "A catalyst provides an alternative reaction pathway with a lower activation energy, so a larger fraction of collisions succeeds and the rate rises; the catalyst is regenerated, not consumed. It does not heat the reaction, it lowers rather than raises the barrier, and because it speeds forward and reverse directions equally it never shifts the equilibrium toward products."
+    },
+    {
+      "n": 47,
+      "derived": "B",
+      "text": "In light, a chlorine radical replaces a hydrogen atom of methane, giving CH₃Cl plus HCl; one atom swaps partners, which is free-radical substitution. Addition requires a double or triple bond to open, which methane lacks, and nothing is eliminated, neutralised or burned here."
+    },
+    {
+      "n": 48,
+      "derived": "C",
+      "text": "A product is zero exactly when at least one factor is zero: x − 2 = 0 gives x = 2, and x + 3 = 0 gives x = −3, so both roots must be stated. Keeping only one of them discards a valid solution, and 6 or −6 satisfy no factor of this equation."
+    },
+    {
+      "n": 49,
+      "derived": "B",
+      "text": "Factorise: x² − 5x + 6 = (x − 2)(x − 3), so x = 2 or x = 3 (check: 2 + 3 = 5 and 2 × 3 = 6). The pair −2 and −3 would produce a middle term of +5x, and 1 and 6 multiply to 6 but sum to 7, not 5."
+    },
+    {
+      "n": 50,
+      "derived": "C",
+      "text": "Multiply both sides of 3/x = 9 by x: 3 = 9x, hence x = 3/9 = 1/3. The value 27 comes from multiplying instead of dividing, and 3 from mishandling the fraction; substitution confirms 3 ÷ (1/3) = 9."
+    },
+    {
+      "n": 51,
+      "derived": "B",
+      "text": "Step 1: subtract 1 from both sides to get −2x > 6. Step 2: divide by −2, which flips the inequality sign, giving x < −3 (check x = −4: −2(−4) + 1 = 9 > 7 holds, while x = 0 gives 1, which does not). Forgetting the sign flip produces the mirror-image wrong answers x > 3 or x > −3."
+    },
+    {
+      "n": 52,
+      "derived": "B",
+      "text": "Pythagoras' theorem gives hypotenuse = √(6² + 8²) = √(36 + 64) = √100 = 10, the classic 6-8-10 triple (a scaled 3-4-5 triangle). Any value below 10 cannot be the hypotenuse, since the hypotenuse must be the longest side of a right triangle."
+    },
+    {
+      "n": 53,
+      "derived": "B",
+      "text": "On the unit circle, or from a 30-60-90 triangle with sides 1, √3 and 2, sin 30° = opposite/hypotenuse = 1/2. The value √3/2 belongs to sin 60° (and to cos 30°), while 0 and 1 are the sines of 0° and 90°."
+    },
+    {
+      "n": 54,
+      "derived": "D",
+      "text": "Each of the 3 elements of A pairs with each of the 2 elements of B, so |A × B| = 3 × 2 = 6 ordered pairs: (1,a), (1,b), (2,a), (2,b), (3,a), (3,b). Adding the set sizes (3 + 2 = 5) confuses the size of a union with that of a Cartesian product, and 9 would be the size of A × A, not A × B."
+    },
+    {
+      "n": 55,
+      "derived": "C",
+      "text": "For uniform acceleration from rest, s = ½at² = ½ × 2 × 5² = ½ × 2 × 25 = 25 m. The 10 m answer is actually the speed reached after 5 s (v = at = 10 m/s) mistaken for a distance, and 50 m omits the factor ½."
+    },
+    {
+      "n": 56,
+      "derived": "B",
+      "text": "Series resistances add: R = 4 + 6 = 10 Ω. Ohm's law then gives I = V/R = 10 V ÷ 10 Ω = 1 A. The other answers come from dividing by a single resistor (10 V ÷ 4 Ω or 10 V ÷ 6 Ω) or from wrongly treating the resistors as parallel."
+    },
+    {
+      "n": 57,
+      "derived": "D",
+      "text": "Ohm's law: R = V/I = 1.5 V ÷ 0.3 A = 5 Ω. The value 0.45 Ω comes from multiplying V by I (0.45 is actually the power in watts), and 0.2 from dividing I by V instead of V by I."
+    },
+    {
+      "n": 58,
+      "derived": "B",
+      "text": "Newton's second law: a = F/m = 10 N ÷ 2 kg = 5 m/s². Multiplying (giving 20 m/s²) or dividing the other way (giving 0.2 m/s²) misapplies the relation; since the surface is frictionless, the full 10 N accelerates the block."
+    },
+    {
+      "n": 59,
+      "derived": "C",
+      "text": "Gravitational potential energy gained = mgh = 5 kg × 9.8 m/s² × 2 m = 98 J. The 9.8 J value is just g in numeric form, and 49 J uses 5 × 9.8 but drops the 2 m height."
+    },
+    {
+      "n": 60,
+      "derived": "C",
+      "text": "Weight is W = mg, so with the Moon's gravitational acceleration one sixth of Earth's, the astronaut's weight is likewise one sixth of its Earth value; mass stays the same, but weight scales with g. The 1/36 figure wrongly squares the factor, and weight on the Moon is reduced, not zero."
+    }
+  ],
+  "disagreements": [],
+  "notes": [
+    "All 60 derived answers agree with the stored ans keys; no disagreements.",
+    "Q25: the option about skeletal attachments embeds its own justification (tendons are connective tissue, not muscle) in the option text itself, which partially gives away that it is the exception.",
+    "Q15: the option 'Glycolysis-like reactions of the Calvin cycle only' is awkwardly worded and names no real pathway, but it is clearly not the intended answer; the ETC-with-chemiosmosis option is unambiguous.",
+    "Q12: the stem's 'modern estimate' wording resolves the classic 36-38 vs 30-32 textbook conflict in favour of 30-32; the older figure appears only as a distractor.",
+    "Q39: the 24.0 L distractor corresponds to room-temperature conditions (about 25 °C), which the worked solution flags; the stem's 'standard value' wording makes 22.4 L unambiguous."
+  ]
+}

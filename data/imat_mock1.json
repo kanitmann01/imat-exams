@@ -43,7 +43,7 @@
    "short": "Physics"
   }
  ],
- "bankVersion": "b0674bffa",
+ "bankVersion": "b5b52612b",
  "questions": [
   {
    "n": 1,
@@ -1057,7 +1057,7 @@
    "n": 43,
    "stem": "For the equilibrium N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH < 0. Increasing the pressure at constant temperature will:",
    "options": [
-    "Shift equilibrium to the left (fewer moles side is reactants — wrong)",
+    "Shift the equilibrium to the left, producing more N₂ and H₂.",
     "Shift equilibrium to the right, producing more NH₃",
     "Have no effect",
     "Decrease the rate only",

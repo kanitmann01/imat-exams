@@ -1,0 +1,313 @@
+{
+  "bank": "imat_mock8",
+  "solutions": [
+    {
+      "n": 1,
+      "derived": "C",
+      "text": "The passage explicitly states that gut microbes synthesise vitamin K and several B vitamins, that antibiotics transiently reduce diversity, that transplants transfer metabolic traits between mice, and that diet reshapes the community within days. It makes no claim anywhere about treating or curing inflammatory bowel disease with probiotic supplements, so that statement goes beyond the text. The probiotic claim is plausible-sounding health advice, but plausibility is not support: nothing in the passage links probiotics to any disease outcome."
+    },
+    {
+      "n": 2,
+      "derived": "E",
+      "text": "The council infers causation from a correlation. If tree-lined streets are concentrated in wealthier neighbourhoods, then wealth plausibly drives both the tree planting and the lower asthma (better housing, healthcare, lower pollution exposure), so planting more trees need not change asthma rates at all: this confounder attacks the inference directly. By contrast, the fact that trees produce pollen, or that asthma has many triggers, does not explain why tree-rich areas show less asthma, so neither undermines the conclusion as strongly."
+    },
+    {
+      "n": 3,
+      "derived": "A",
+      "text": "Italy has previously hosted the Winter Games at Cortina d'Ampezzo in 1956 and in Turin in 2006. Milano Cortina 2026 is therefore the third Italian Winter Olympics. Calling it the first or second would ignore one of those earlier editions."
+    },
+    {
+      "n": 4,
+      "derived": "A",
+      "text": "Step 1: test whether the box could be empty. If it were empty, both statements would be vacuously true (all zero levers are steel, and no zero levers are steel), contradicting the condition that exactly one is true. Step 2: so the box contains at least one lever. The condition does not tell us which statement is the true one: a non-empty box is consistent with either all steel or none steel. What follows necessarily is only the existence of at least one lever, and the claim that the box is empty is precisely the case ruled out."
+    },
+    {
+      "n": 5,
+      "derived": "C",
+      "text": "Count by Cara's allowed tasks (she refuses records, so she takes triage or laboratory). Case 1: Cara takes triage, then laboratory and records go freely to Anil and Bea, 2 ways. Case 2: Cara takes laboratory, then triage and records remain; Anil refuses triage, so Anil takes records and Bea takes triage, 1 way. Total 2 + 1 = 3 valid assignments, all distinct people-to-task pairings, so the count is exact."
+    },
+    {
+      "n": 6,
+      "derived": "B",
+      "text": "The minute hand moves 6 degrees per minute: at 35 minutes it sits at 35 × 6 = 210 degrees from 12. The hour hand moves 30 degrees per hour plus 0.5 degrees per minute: at 7:35 it sits at 7 × 30 + 35 × 0.5 = 210 + 17.5 = 227.5 degrees. The angle between them is 227.5 − 210 = 17.5 degrees. The tempting 35 degree answer comes from comparing 210 degrees with 7 × 30 = 210 and forgetting that the hour hand has drifted 17.5 degrees past the 7."
+    },
+    {
+      "n": 7,
+      "derived": "D",
+      "text": "The mean pain score falls from 8 to 5 to 3 as the dose rises from 0 to 5 mg, then stays at 3 at 10 mg. The data therefore support a plateau: increasing the dose beyond 5 mg produces no further average reduction. The trial measured only pain, so it says nothing about safety at 10 mg and cannot identify an optimal dose; the drug clearly does affect pain (8 down to 3), and higher doses are not always better because the score stops falling."
+    },
+    {
+      "n": 8,
+      "derived": "A",
+      "text": "Take a starting price of 100. After the rise it is 110; after the fall it is 110 × 0.90 = 99. The net change is 1 percent down, because successive percentage changes multiply: 1.10 × 0.90 = 0.99. The answers of no change, or a 20 percent style swing, come from adding the percentages instead of applying them to the new base."
+    },
+    {
+      "n": 9,
+      "derived": "E",
+      "text": "By inclusion-exclusion, the number studying at least one subject is 18 + 15 − 8 = 25 (the 8 who take both would otherwise be counted twice). The number studying neither is 30 − 25 = 5."
+    },
+    {
+      "n": 10,
+      "derived": "C",
+      "text": "The AB father passes either the A or the B allele to each child; the OO mother can pass only O. Every child is therefore AO (group A) or BO (group B), each with probability one half. No child can be AB (that needs A and B together) or O (that needs O from both parents), so exactly these two outcomes are impossible."
+    },
+    {
+      "n": 11,
+      "derived": "A",
+      "text": "With no crossing over, the AB/ab parent produces only two gamete types, AB and ab, in equal numbers; the ab/ab tester produces only ab. The offspring are AB/ab and ab/ab in a 1:1 ratio, both combinations identical to the parents' arrangements. The classic 1:1:1:1 testcross ratio would require the recombinant gametes Ab and aB, which cannot arise without crossing over."
+    },
+    {
+      "n": 12,
+      "derived": "D",
+      "text": "Every daughter receives the father's X carrying the haemophilia allele. She is affected only if the mother also passes her marked X, an event with probability one half per daughter; the other half of daughters are carriers. So the expected fraction of affected daughters is 1/2. A quarter would be the fraction among all children, not among daughters specifically."
+    },
+    {
+      "n": 13,
+      "derived": "B",
+      "text": "The decisive fact: a guanine-cytosine pair is joined by three hydrogen bonds, while an adenine-thymine pair has only two. This is why GC-rich DNA needs more heat to separate. The bonds are hydrogen bonds, not covalent links between the strands."
+    },
+    {
+      "n": 14,
+      "derived": "E",
+      "text": "Retroviruses carry reverse transcriptase, an RNA-dependent DNA polymerase that copies the viral RNA genome into DNA, which then integrates into the host chromosome. The host's own DNA polymerase copies DNA templates, not RNA, and RNA polymerase makes RNA from DNA, the wrong direction for this step."
+    },
+    {
+      "n": 15,
+      "derived": "A",
+      "text": "Codon and anticodon pair antiparallel. Reading the codon 5'-AUG-3', the pairing runs A with U, U with A, G with C, so the anticodon written in the 3' to 5' direction is 3'-UAC-5'. Written in the 5' to 3' direction the same anticodon would read CAU, and any sequence containing T cannot be right because tRNA is RNA."
+    },
+    {
+      "n": 16,
+      "derived": "C",
+      "text": "Quaternary structure means an assembly of more than one polypeptide chain. Haemoglobin, with its four subunits (two alpha and two beta chains), is the textbook example. Myoglobin, pepsin and ribonuclease are each a single chain and so show at most tertiary structure, while an alpha-helix is a motif of secondary structure, not a whole protein organisation."
+    },
+    {
+      "n": 17,
+      "derived": "B",
+      "text": "The amino group of one amino acid attacks the carboxyl group of the other; one molecule of water is released and a peptide (amide) bond forms. This is a condensation reaction. Hydrolysis is the reverse process, breaking the bond by adding water, so the option describing hydrolysis with water consumed gets the direction of the reaction backwards."
+    },
+    {
+      "n": 18,
+      "derived": "D",
+      "text": "Fermentation is glycolysis plus the regeneration of NAD+, and it stops at reduced end-products such as lactate or ethanol. The glucose carbon is never fully oxidised to CO2 and water, and the Krebs cycle and electron transport chain never run, so almost all of the glucose's energy remains locked in the end-products. The 2 ATP that are made all come from glycolysis, so fermentation certainly does produce ATP."
+    },
+    {
+      "n": 19,
+      "derived": "C",
+      "text": "Substrate-level phosphorylation is direct transfer of a phosphate group from a substrate to ADP. It occurs at two steps of glycolysis (the phosphoglycerate kinase and pyruvate kinase steps) and at one step of the Krebs cycle (succinyl-CoA synthetase). The electron transport chain instead uses oxidative phosphorylation through a proton gradient, which is why the option naming it is wrong."
+    },
+    {
+      "n": 20,
+      "derived": "B",
+      "text": "Chlorophyll's absorption peaks strongly in the blue and red regions of the spectrum; green light is largely reflected and transmitted, so that is the light reaching our eyes and leaves look green. The claim that it absorbs only green light inverts the truth (leaves would then appear the complementary colour), and absorbing all wavelengths equally would make leaves look black."
+    },
+    {
+      "n": 21,
+      "derived": "D",
+      "text": "The sodium-potassium pump (Na+/K+-ATPase) hydrolyses one ATP to export 3 Na+ and import 2 K+, each ion moved against its gradient. This electrogenic imbalance (net loss of one positive charge per cycle) contributes to the resting potential and keeps the ionic gradients that nerve and muscle firing consume. The ratio 3 out : 2 in at a cost of one ATP is the only version matching the textbook pump."
+    },
+    {
+      "n": 22,
+      "derived": "A",
+      "text": "The G2 checkpoint sits after S phase and before mitosis, and it verifies that DNA replication is complete and that any damage is repaired before the cell commits to division. The G1 checkpoint decides whether to begin a new cycle (cell size, nutrients, DNA integrity at the start), and the spindle checkpoint acts inside mitosis at metaphase, too late to check replication."
+    },
+    {
+      "n": 23,
+      "derived": "D",
+      "text": "In both meiosis II and mitosis, sister chromatids separate and move to opposite poles, so the mechanics of segregation are the same. Pairing of homologues, crossing over, halving of the chromosome number and alignment of bivalents on the equator are all features of meiosis I, and the cell first becomes haploid at the end of meiosis I, already before meiosis II begins."
+    },
+    {
+      "n": 24,
+      "derived": "C",
+      "text": "At rest the membrane is most permeable to potassium through open K+ leak channels. Potassium diffuses out down its concentration gradient, leaving behind unbalanced intracellular negative charge (large fixed anions that cannot follow), and this builds the resting potential of about minus 70 mV. The pump maintains the gradients over time, but its 3-out : 2-in imbalance is only a minor direct contributor to the voltage."
+    },
+    {
+      "n": 25,
+      "derived": "E",
+      "text": "A reflex arc runs: receptor detects the stimulus, sensory (afferent) neurone carries the signal to the CNS, integration occurs in the centre, motor (efferent) neurone carries the command outward, and the effector (muscle or gland) responds. Every sequence that puts the motor neurone before the CNS, or the CNS before the receptor, reverses the direction of information flow."
+    },
+    {
+      "n": 26,
+      "derived": "D",
+      "text": "The decisive fact: adrenaline, released from the adrenal medulla as part of the acute fight-or-flight response, stimulates glycogenolysis in the liver and raises blood glucose to fuel rapid action. Insulin lowers blood glucose (the opposite direction), ADH and aldosterone regulate water and sodium balance rather than glucose, and oxytocin concerns labour and milk ejection."
+    },
+    {
+      "n": 27,
+      "derived": "A",
+      "text": "A live attenuated vaccine delivers an artificially introduced but weakened microbe that multiplies slightly and provokes a genuine primary immune response, generating the person's own plasma cells and memory cells: active, artificially acquired immunity. Passive immunity would mean receiving ready-made antibodies, which is not what a vaccine injects, and the fact that the pathogen is weakened does not stop it from being immunogenic, which is the whole point of attenuation."
+    },
+    {
+      "n": 28,
+      "derived": "C",
+      "text": "The sinoatrial node, a small region in the wall of the right atrium, depolarises fastest of all cardiac cells and initiates each heartbeat, making it the natural pacemaker. The atrioventricular node is only the normal relay to the ventricles, and the bundle of His and Purkinje fibres conduct the impulse onward; the vagus nerve modulates the rate but does not set the rhythm."
+    },
+    {
+      "n": 29,
+      "derived": "B",
+      "text": "Diffusion efficiency scales with surface area divided by wall thickness. Hundreds of millions of alveoli provide roughly 70 square metres of exchange surface behind walls of extremely thin squamous cells (about half a micrometre), which is the structural basis of their efficiency. Alveoli have no muscle to pump air, no cartilage rings (those are in the larger airways), and they store no oxygen."
+    },
+    {
+      "n": 30,
+      "derived": "E",
+      "text": "ADH binds V2 receptors on collecting duct cells and triggers insertion of aquaporin-2 channels into their membrane, so water leaves the filtrate down the medullary osmotic gradient and urine becomes concentrated. It does not act by changing filtration pressure, opening sodium channels, or constricting the efferent arteriole; it is a water-permeability hormone."
+    },
+    {
+      "n": 31,
+      "derived": "C",
+      "text": "Each PCR cycle starts with a denaturation step near 95 degrees Celsius that separates the DNA strands, and this step repeats dozens of times. An ordinary polymerase would be inactivated after the first few cycles, so a heat-stable polymerase such as Taq (from hot-spring bacteria) is needed to survive the whole programme. It is the high-temperature strand-separation step, not low temperature, that demands the special enzyme."
+    },
+    {
+      "n": 32,
+      "derived": "B",
+      "text": "This is selective toxicity: because bacterial ribosomes are 70S while the patient's own cytoplasmic ribosomes are 80S, the drug can shut down bacterial protein synthesis without directly stopping protein synthesis in the patient's cells. It is not side-effect free at any dose, since human mitochondria carry their own 70S-like ribosomes and can be secondarily affected, and the drug targets bacteria, not viruses or mitochondria alone."
+    },
+    {
+      "n": 33,
+      "derived": "C",
+      "text": "Oxidation numbers sum to zero in a neutral molecule. Assign hydrogen +1 (four atoms give +4) and oxygen −2: C + 4 − 2 = 0, so C = −2. The +4 value belongs to the carbon of CO2 and the −4 value to methane; methanol sits between them on the reduction ladder at −2."
+    },
+    {
+      "n": 34,
+      "derived": "E",
+      "text": "Follow the chlorine. In Cl2 both atoms have oxidation number 0. In NaCl the chlorine ends at −1 (it gained an electron, so it was reduced); in NaOCl it ends at +1 (it lost an electron to oxygen, so it was oxidised). The same element is simultaneously oxidised and reduced: a disproportionation, and the arithmetic balances because one atom goes down 1 and the other up 1."
+    },
+    {
+      "n": 35,
+      "derived": "B",
+      "text": "BF3 is trigonal planar: three identical polar B-F bonds point symmetrically at 120 degrees, so their dipoles cancel vectorially and the molecule has zero net dipole despite the polar bonds. In NH3 (trigonal pyramidal), H2O and SO2 (both bent) and CHCl3 (an asymmetric tetrahedron) the bond dipoles do not cancel, leaving a permanent net dipole."
+    },
+    {
+      "n": 36,
+      "derived": "E",
+      "text": "NH3 has three bonding pairs plus one lone pair on nitrogen. The tetrahedral electron arrangement leaves the molecular shape trigonal pyramidal with a bond angle of about 107 degrees. CH4 (no lone pairs) is tetrahedral, H2O (two lone pairs) is bent, BF3 is trigonal planar and CO2 is linear."
+    },
+    {
+      "n": 37,
+      "derived": "D",
+      "text": "Step 1: each Ba(OH)2 releases two hydroxide ions, so [OH−] = 2 × 0.005 = 0.010 M. Step 2: pOH = −log(0.010) = 2. Step 3: pH = 14 − 2 = 12 at 25 degrees Celsius. Forgetting the factor of 2 gives [OH−] = 0.005 M, pOH of about 2.3 and pH about 11.7, which is how the tempting value near 11 arises; the value 2 is the pOH, not the pH."
+    },
+    {
+      "n": 38,
+      "derived": "A",
+      "text": "pH is a logarithmic scale: [H+] of A is 10^-4 M and of B is 10^-6 M. The ratio is 10^-4 / 10^-6 = 10^2 = 100, so A is 100 times more acidic. The difference of 2 pH units is a factor of 100 in concentration, not a factor of 2."
+    },
+    {
+      "n": 39,
+      "derived": "C",
+      "text": "Step 1: number of CO2 molecules = 0.25 mol × 6.02 × 10^23 mol^-1 = 1.5 × 10^23. Step 2: each molecule contains 3 atoms (1 carbon + 2 oxygens), so total atoms = 3 × 1.5 × 10^23 = 4.5 × 10^23. Stopping after step 1 and reporting 1.5 × 10^23 is the classic error of counting molecules instead of atoms."
+    },
+    {
+      "n": 40,
+      "derived": "E",
+      "text": "The CO2 volume is proportional to the amount of CaCO3 present, and the same mass of pure CaCO3 would release 2.24 L. So the percentage of CaCO3 in the sample is 1.68 / 2.24 × 100 = 75%. Taking the deficit instead (0.56 / 2.24 = 25%) measures the impurity rather than the carbonate, and dividing 0.56 by the actual yield 1.68 gives a meaningless 33%."
+    },
+    {
+      "n": 41,
+      "derived": "D",
+      "text": "Gay-Lussac's law (constant volume, constant amount): P2 = P1 × T2 / T1, with absolute temperatures. T1 = 27 + 273 = 300 K, T2 = 127 + 273 = 400 K. P2 = 1.0 × 400/300 = 1.33 atm. Working directly in Celsius (ratio 127/27) is meaningless because the Celsius zero is arbitrary, and inverting the ratio gives the impossible result that heating lowers the pressure."
+    },
+    {
+      "n": 42,
+      "derived": "B",
+      "text": "Sodium and chlorine belong to the same period, so both have their outer electrons in the same third shell. Chlorine's nucleus carries 17 protons against sodium's 11, and this greater nuclear charge pulls the same-shell electrons closer, making the atom smaller. The comparison concerns neutral atoms, so ion formation is irrelevant, and the shell count is identical, not higher, for chlorine."
+    },
+    {
+      "n": 43,
+      "derived": "A",
+      "text": "An alcohol and a carboxylic acid under reflux with concentrated sulfuric acid undergo esterification. The alcohol supplies the alkyl part (methanol gives methyl) and the acid supplies the carboxylate part (propanoic acid gives propanoate), so the product is methyl propanoate, CH3CH2COOCH3, with water as by-product. The reverse name (propanyl-type esters) or any aldehyde or anhydride misreads which fragment comes from which reagent."
+    },
+    {
+      "n": 44,
+      "derived": "C",
+      "text": "Hydrogen bromide adds to propene by Markovnikov's rule: H attaches to the double-bond carbon that already has more hydrogens (the terminal CH2), because that route passes through the more stable secondary carbocation, and Br then bonds to the middle carbon. The product is 2-bromopropane, CH3-CHBr-CH3. The bromine on the end carbon (1-bromopropane) would be the anti-Markovnikov product, obtained only in the presence of peroxides, and the dibromide would need Br2 rather than HBr."
+    },
+    {
+      "n": 45,
+      "derived": "B",
+      "text": "In a heterogeneous equilibrium the pure solids appear in fixed amounts, so their terms are constants that are folded into the equilibrium constant and omitted from the expression. Only the gaseous product remains: Kc = [CO2]. Including the solids in a quotient, or inverting the expression, misapplies the rule that pure phases are excluded."
+    },
+    {
+      "n": 46,
+      "derived": "E",
+      "text": "In any working galvanic cell, oxidation occurs at the anode, and the electrons released travel through the external wire from anode to cathode, where reduction takes place. The salt bridge carries ions, never electrons, and its anions migrate toward the anode compartment to neutralise the positive charge building up there (cations drift toward the cathode side). Any statement that puts oxidation at the cathode, or electrons in the bridge, contradicts these roles."
+    },
+    {
+      "n": 47,
+      "derived": "A",
+      "text": "Freezing-point depression is a colligative property: it depends on the number of dissolved particles, not their identity. Per litre of 0.10 M solution: CaCl2 gives about 0.30 mol of ions (3 per formula unit), NaCl about 0.20 mol (2 per unit), while glucose and sucrose give only 0.10 mol of molecules each. The greatest particle count produces the greatest depression, so the CaCl2 solution freezes lowest, and identical freezing points would require identical particle counts, which is not the case here."
+    },
+    {
+      "n": 48,
+      "derived": "B",
+      "text": "Step 1: subtract 8 from both sides: −5x < −20. Step 2: divide both sides by −5, which flips the direction of the inequality: x > 4. Check x = 5: 8 − 25 = −17, which is indeed less than −12. The slips to avoid are forgetting the flip (giving x < 4) and losing the strictness (giving x at least 4, although x = 4 itself gives 8 − 20 = −12, which fails the strict inequality)."
+    },
+    {
+      "n": 49,
+      "derived": "E",
+      "text": "Step 1: subtract 1 from all three parts: −4 < 2x ≤ 6. Step 2: divide by the positive number 2 (signs and strictness unchanged): −2 < x ≤ 3. The left bound stays strict and the right bound stays inclusive, exactly mirroring the original statement; making either bound strict or both inclusive misreads which comparison applied to which side."
+    },
+    {
+      "n": 50,
+      "derived": "D",
+      "text": "Bracket 40 between consecutive powers of 2: 2^5 = 32 and 2^6 = 64. Since 2^x increases continuously with x, 40 being between 32 and 64 forces 5 < x < 6 (the exact value is log2 40, about 5.32). The equality answers are impossible because neither 32 nor 64 equals 40."
+    },
+    {
+      "n": 51,
+      "derived": "C",
+      "text": "Use inclusion-exclusion on the overlap: 13 hearts + 4 kings − 1 king of hearts (counted in both sets) = 16 favourable cards. Probability = 16/52 = 4/13. Adding 13 + 4 = 17 without removing the overlap overcounts by exactly one card, and 13/52 would cover only the hearts."
+    },
+    {
+      "n": 52,
+      "derived": "E",
+      "text": "The height is the side opposite the 30 degree angle in a right triangle with the ramp as hypotenuse: height = 8 × sin 30° = 8 × 0.5 = 4 m. Using cos 30° instead gives 8 × 0.87, which is about 6.9 m, but that is the horizontal projection of the ramp along the ground, not the vertical rise."
+    },
+    {
+      "n": 53,
+      "derived": "A",
+      "text": "Substitute the inner function into the outer one: f(f(x)) = 2(2x − 1) − 1 = 4x − 2 − 1 = 4x − 3. The common slip of multiplying by 2 only once produces 2x − 3, but composition applies the doubling and the subtraction at both stages."
+    },
+    {
+      "n": 54,
+      "derived": "B",
+      "text": "Compare with the standard form (x − h)^2 + (y − k)^2 = r^2. Here h = 1 (so x − 1) and k = −2, since y + 2 equals y − (−2), giving centre (1, −2). The right side is r^2 = 16, so the radius is r = √16 = 4, not 16 itself; reading the signs of h and k straight from the printed plus signs instead gives the wrong quadrant."
+    },
+    {
+      "n": 55,
+      "derived": "D",
+      "text": "Step 1: reduce the parallel pair: 1/R = 1/12 + 1/6 = 1/12 + 2/12 = 3/12, so R = 4 ohms (equivalently 12 × 6 / 18 = 4). Step 2: in series with the 2 ohm resistor the total is 2 + 4 = 6 ohms. Step 3: from Ohm's law, I = V/R = 24/6 = 4 A. Reporting 24/12 = 2 A would ignore the parallel section, and 24/4 = 6 A would ignore the series resistor."
+    },
+    {
+      "n": 56,
+      "derived": "C",
+      "text": "Use P = V^2 / R and rearrange: R = V^2 / P = 120^2 / 60 = 14400 / 60 = 240 ohms. The value 2 ohms comes from computing V/P, which is actually the current (2 A) that the lamp draws, not its resistance."
+    },
+    {
+      "n": 57,
+      "derived": "B",
+      "text": "Boiling is a phase change: all the heat supplied goes into the latent heat of vaporisation (about 2260 J per gram), the energy needed to pull molecules apart against their intermolecular attractions, so none of it raises the temperature until the last liquid has evaporated. A phase change in progress is isothermal, which is why the reading pins at 100 degrees Celsius; the molecules certainly do not stop moving, and boiling requires continued heat input."
+    },
+    {
+      "n": 58,
+      "derived": "A",
+      "text": "A crash fixes the change of momentum the car must undergo; that change of momentum is the impulse, F × Δt. A crumple zone extends the collision time Δt by deforming, so for the same Δp the average force F on the occupants is smaller, and injury scales with force. The momentum change cannot be eliminated or made instant without harm, and the impulse delivered is set by the crash, not increased by the crumple zone."
+    },
+    {
+      "n": 59,
+      "derived": "C",
+      "text": "On a distance-time graph the gradient of the line is the speed. A horizontal segment has zero gradient, so the distance does not change during that interval: the object is stationary. The same flat line on a velocity-time graph would mean constant non-zero speed, which is exactly why reading the axis label before interpreting matters."
+    },
+    {
+      "n": 60,
+      "derived": "D",
+      "text": "Floating equilibrium: weight equals upthrust, so ρ_block × V × g = ρ_water × V_submerged × g. The g and V cancel, giving V_submerged / V = 0.90 / 1.00 = 0.90, so 90% of the block sits below the surface. The 10% figure describes the fraction above water, the complement of the answer."
+    }
+  ],
+  "disagreements": [],
+  "notes": [
+    "All 60 derived answers agree with the stored keys; no disagreements.",
+    "n=32: the stored exp contains the apparent typo 'Cover-overside', probably meant as a caveat label about mitochondria; the exp's reasoning itself is correct.",
+    "n=3 is general knowledge tied to the 2026 Milano Cortina Games and relies on Cortina 1956 and Turin 2006 as the prior Italian Winter Games, consistent with the stored key.",
+    "n=41: the stored exp correctly notes that working in Celsius gives about 4.7, matching no option; arithmetic in the exp is consistent.",
+    "All numeric items were recomputed from the given data (clock angle, set counting, pH/pOH, mole and gas-law calculations, circuit reduction, probability, floating fraction) and match the stored keys."
+  ]
+}

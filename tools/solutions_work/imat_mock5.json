@@ -1,0 +1,319 @@
+{
+  "bank": "imat_mock5",
+  "solutions": [
+    {
+      "n": 1,
+      "derived": "C",
+      "text": "The passage lists three simultaneous effects of the uncoupler: the proton gradient dissipates, electron transport accelerates, and ATP synthesis falls as the energy escapes as heat. The only statement consistent with all three is that uncoupling breaks the coupling between electron transport and ATP synthesis: oxidation runs on, even faster, while phosphorylation stops. The claim that uncoupling stops electron transport is directly contradicted by the stated acceleration, while the claims that ATP synthesis rises without the gradient, that uncouplers raise ATP yield, and that the gradient is independent of electron transport all contradict the fall in ATP output."
+    },
+    {
+      "n": 2,
+      "derived": "C",
+      "text": "The passage states that alleles are lost by chance during the bottleneck and that surviving rare alleles may afterwards rise by drift, so the diversity that persists and evolves depends partly on the random subset of alleles that survived. The claim that bottlenecks always raise diversity contradicts the stated loss of alleles, and saying drift stops afterwards contradicts the passage's explicit role for drift. Even the broader claim that diversity falls regardless of which alleles survive misses the point: the outcome hinges on which alleles chance kept, which is exactly what the correct inference says."
+    },
+    {
+      "n": 3,
+      "derived": "A",
+      "text": "Maria Montessori (1870 to 1952) developed the Montessori method, built on self-directed activity within a prepared environment, and was nominated several times for the Nobel Peace Prize. Rita Levi-Montalcini was a Nobel laureate neuroembryologist and Elena Lucrezia Cornaro Piscopia the first woman to receive a university doctorate, so neither matches the educational-method description."
+    },
+    {
+      "n": 4,
+      "derived": "B",
+      "text": "Number the positions 1 (front) to 5 (back). J sits at 5, and since F is immediately behind G the pair G,F occupies either positions 3,4 or 2,3. Step 1: if G is third and F fourth, places 1 and 2 go to H and I; I cannot take place 1 (an end), so I takes place 2 and H is forced to the front (order H, I, G, F, J). Step 2: if G is second and F third, H must be somewhere in front of G, so H again takes place 1 and I takes place 4, which is not an end (order H, G, F, I, J). In both admissible orders H is first, so the statement that must be true is that H is at the front. Note that F immediately in front of J fails in the second order, since I rather than F precedes J there."
+    },
+    {
+      "n": 5,
+      "derived": "C",
+      "text": "The premise gives only metal → conducts electricity. Being told that X conducts affirms the consequent, which is an invalid inference: graphite and electrolyte solutions conduct without being metals. So X might or might not be a metal; the claims that X is a metal, not a metal, or an insulator all overstate what follows (an insulator would even contradict the given fact)."
+    },
+    {
+      "n": 6,
+      "derived": "C",
+      "text": "Numbers leaving remainder 3 on division by 5 are 3, 8, 13, 18, ... Testing in order: 3 leaves remainder 0 on division by 3, failing; 8 = 3 × 2 + 2 leaves remainder 2 on division by 3 and 8 = 5 × 1 + 3 leaves remainder 3 on division by 5. Both conditions are met, so 8 is the smallest positive solution. Among the offered values none of the others passes both tests (5 leaves remainder 0 on division by 5, 7 and 13 leave remainder 1 on division by 3, 11 leaves remainder 1 on division by 5), so the solution is unique."
+    },
+    {
+      "n": 7,
+      "derived": "D",
+      "text": "The minute hand moves 6° per minute, so at 20 minutes past it sits at 20 × 6 = 120° measured from 12. The hour hand moves 30° per hour plus 0.5° per minute, so it sits at 8 × 30 + 20 × 0.5 = 240 + 10 = 250°. The angle between the hands is 250 − 120 = 130°. The tempting 120° answer forgets that the hour hand has crept 10° past the 8 during those 20 minutes."
+    },
+    {
+      "n": 8,
+      "derived": "B",
+      "text": "The 27th is 27 − 5 = 22 days after the 5th, and 22 = 3 × 7 + 1, so the weekday advances by exactly one day: Tuesday plus one day is Wednesday. Reading 22 days as three whole weeks with no leftover day would wrongly return Tuesday."
+    },
+    {
+      "n": 9,
+      "derived": "C",
+      "text": "In alphabet positions the terms are A = 1, C = 3, F = 6, J = 10, O = 15. The gaps are +2, +3, +4, +5, so the next gap is +6, giving 15 + 6 = 21, the 21st letter, U. Any constant-step reading (which would give S or T) fits none of the consecutive pairs in the series."
+    },
+    {
+      "n": 10,
+      "derived": "B",
+      "text": "The committed, rate-limiting step of glycolysis is the phosphorylation of fructose-6-phosphate to fructose-1,6-bisphosphate by phosphofructokinase-1, the pathway's principal allosteric control point (inhibited by ATP, activated by AMP). Hexokinase acts earlier and pyruvate kinase last, but neither is the committed control point: once PFK-1 has acted, the sugar cannot easily leave the glycolytic route."
+    },
+    {
+      "n": 11,
+      "derived": "B",
+      "text": "FADH₂ is reoxidised by succinate dehydrogenase, which is itself Complex II of the chain, so its electrons enter downstream of Complex I and fewer protons are pumped (about 1.5 ATP per FADH₂ versus about 2.5 per NADH). Assigning FADH₂ to Complex I describes NADH, and ATP synthase is not an electron carrier at all."
+    },
+    {
+      "n": 12,
+      "derived": "B",
+      "text": "The respiratory chain pumps protons out of the matrix into the intermembrane space, storing energy as an electrochemical gradient. ATP synthase then allows protons to flow back down that gradient, from intermembrane space to matrix, and this return flow powers ATP synthesis. The reverse direction (matrix to intermembrane space) is the pumping step, not the flow through ATP synthase."
+    },
+    {
+      "n": 13,
+      "derived": "B",
+      "text": "Yeast performs alcoholic fermentation: pyruvate is decarboxylated to acetaldehyde (releasing CO₂), and acetaldehyde is reduced to ethanol, oxidising NADH back to NAD⁺ so glycolysis can continue. Lactate is the product in oxygen-starved mammalian muscle and in lactic acid bacteria, not in yeast."
+    },
+    {
+      "n": 14,
+      "derived": "C",
+      "text": "Ca²⁺ released from the sarcoplasmic reticulum binds troponin C; the troponin complex then shifts tropomyosin away from actin's myosin-binding sites, permitting cross-bridge formation. Calcium does not trigger contraction by binding the myosin heads or actin directly."
+    },
+    {
+      "n": 15,
+      "derived": "D",
+      "text": "In the sliding filament model the thick and thin filaments keep constant length and simply slide past one another, pulling the Z-lines toward the sarcomere centre; the sarcomere shortens while neither filament does. Each claim that actin or myosin (or both) shortens contradicts the model's central point, and the Z-lines moving apart is the opposite of what happens."
+    },
+    {
+      "n": 16,
+      "derived": "B",
+      "text": "Type I (slow-twitch, red) fibres are specialised for endurance: abundant mitochondria, high myoglobin, dense capillaries and predominantly oxidative metabolism make them fatigue-resistant. The description of rapid, powerful, short-duration anaerobic bursts matches fast-twitch (Type II) fibres instead."
+    },
+    {
+      "n": 17,
+      "derived": "C",
+      "text": "About 70% of blood CO₂ travels as bicarbonate: CO₂ enters red blood cells, carbonic anhydrase converts it to carbonic acid, which dissociates to H⁺ and HCO₃⁻, and the bicarbonate is exported into the plasma. Only about 23% rides on haemoglobin as carbaminohaemoglobin and about 7% dissolves in plasma, so neither of those is the majority route."
+    },
+    {
+      "n": 18,
+      "derived": "A",
+      "text": "Carbonic anhydrase catalyses the reversible hydration CO₂ + H₂O ⇌ H₂CO₃, which then dissociates into H⁺ and HCO₃⁻; this reaction underpins CO₂ transport and the red cell's buffering of blood pH. It has no role in haemoglobin oxygenation, glycolysis, clotting or the pyruvate to acetyl-CoA step."
+    },
+    {
+      "n": 19,
+      "derived": "C",
+      "text": "The proximal convoluted tubule reabsorbs roughly 65% of the filtered Na⁺, water, glucose and amino acids, by far the largest share of any nephron segment. The distal tubule and collecting duct only fine-tune what remains, and the renal pelvis merely drains urine."
+    },
+    {
+      "n": 20,
+      "derived": "C",
+      "text": "ADH binds V2 receptors on collecting duct principal cells and triggers insertion of aquaporin-2 channels into the apical membrane, sharply increasing the duct's water permeability and hence reabsorption. The glomerulus filters rather than reabsorbs, and proximal water reabsorption follows solutes osmotically without ADH control."
+    },
+    {
+      "n": 21,
+      "derived": "B",
+      "text": "Aldosterone from the adrenal cortex acts on the distal tubule and collecting duct to increase Na⁺ reabsorption (water follows passively) while promoting K⁺ and H⁺ secretion. The option asserting increased K⁺ reabsorption states the opposite of the hormone's actual effect on potassium."
+    },
+    {
+      "n": 22,
+      "derived": "B",
+      "text": "In the CNS, oligodendrocytes wrap myelin around axon segments (one cell serving several axons); in the PNS, Schwann cells myelinate single segments. The pairing astrocytes with Schwann cells fails because astrocytes are supporting and blood-brain barrier cells, not myelin formers, and microglia are the CNS's phagocytes."
+    },
+    {
+      "n": 23,
+      "derived": "B",
+      "text": "The rapid upstroke of the action potential is produced by the opening of voltage-gated Na⁺ channels: Na⁺ floods in down its electrochemical gradient and drives the potential toward about +30 mV. K⁺ efflux through delayed channels causes the repolarising falling phase, and active Na⁺ extrusion by the Na⁺/K⁺ pump is thousands of times too slow to account for a millisecond-scale depolarisation."
+    },
+    {
+      "n": 24,
+      "derived": "B",
+      "text": "A 3 red : 1 white ratio from two red parents is the classic monohybrid result of two heterozygotes under complete dominance: the 1:2:1 genotypic ratio collapses to 3 dominant phenotypes per 1 recessive. Incomplete dominance would instead yield a 1:2:1 phenotype ratio with an intermediate class, and codominance would express both traits side by side; neither produces 3:1."
+    },
+    {
+      "n": 25,
+      "derived": "D",
+      "text": "The father (AO) passes on A or O and the mother (BO) passes on B or O, so the offspring genotypes are AB, AO (group A), BO (group B) and OO (group O). All four ABO phenotypes are therefore possible. Any answer restricting the children to a single group discards three of the four equally likely combinations."
+    },
+    {
+      "n": 26,
+      "derived": "B",
+      "text": "DNA polymerase can only attach a nucleotide to a free 3'-OH end, so every new strand grows in the 5' to 3' direction while its template is read 3' to 5'. Growth in the 3' to 5' direction on the new strand is chemically impossible, which is exactly why the lagging strand is built discontinuously as Okazaki fragments."
+    },
+    {
+      "n": 27,
+      "derived": "B",
+      "text": "The code is degenerate because most amino acids are specified by more than one codon (leucine by six), a consequence of 61 sense codons coding for about 20 amino acids. Degeneracy is not ambiguity: each individual codon still specifies exactly one amino acid, and the code is essentially universal across species."
+    },
+    {
+      "n": 28,
+      "derived": "B",
+      "text": "An operon whose transcription increases when a small molecule is present is inducible, and that molecule is the inducer; for the lac operon, allolactose inactivates the lac repressor and transcription rises. A repressible operon behaves oppositely (transcription falls when the co-repressor, e.g. tryptophan for the trp operon, is present), and constitutive means expressed regardless of the molecule."
+    },
+    {
+      "n": 29,
+      "derived": "B",
+      "text": "Antibodies are secreted by plasma cells, the terminally differentiated form of B lymphocytes. T-helper cells coordinate the response via cytokines, macrophages phagocytose, and mast cells release histamine, but none of them secretes antibody."
+    },
+    {
+      "n": 30,
+      "derived": "B",
+      "text": "The O₂ released comes from splitting water at photosystem II's oxygen-evolving complex: 2 H₂O → 4 H⁺ + 4 e⁻ + O₂. Isotope labelling settled it: water labelled with ¹⁸O yields labelled O₂, whereas labelled CO₂ does not, ruling out carbon dioxide or glucose as the oxygen source."
+    },
+    {
+      "n": 31,
+      "derived": "B",
+      "text": "By Chargaff's rules A = T and G = C in double-stranded DNA. With A = 20%, T is also 20%, leaving 100 − 40 = 60% to split equally between G and C, so G = 30%. The answer of 20% would wrongly make all four bases equal, and 60% is the combined G + C fraction, not G alone."
+    },
+    {
+      "n": 32,
+      "derived": "C",
+      "text": "Inserting one nucleotide, since 1 is not a multiple of 3, shifts the triplet reading frame for every codon downstream, so this is a frameshift mutation. Missense and nonsense mutations change one codon at a time without disturbing the frame, and silent mutations change no amino acid at all."
+    },
+    {
+      "n": 33,
+      "derived": "B",
+      "text": "From C + O₂ → CO₂ the mole ratio of carbon to carbon dioxide is 1:1, so 0.5 mol of C yields 0.5 mol of CO₂. The molar mass of CO₂ is 12 + 2 × 16 = 44 g/mol, giving 0.5 × 44 = 22 g. The value 11 g would correspond to only 0.25 mol, i.e. misapplying the stoichiometry."
+    },
+    {
+      "n": 34,
+      "derived": "D",
+      "text": "Balance by atom counting: each Fe₂O₃ contains 2 Fe and 3 O, so taking 2 Fe₂O₃ requires 4 Fe and 6 O atoms, i.e. 3 O₂. The balanced equation is 4 Fe + 3 O₂ → 2 Fe₂O₃, so the coefficient of Fe is 4. Coefficients of 2 or 3 come from balancing only one element and forgetting the other must match too."
+    },
+    {
+      "n": 35,
+      "derived": "B",
+      "text": "Moles of NaOH = 0.025 L × 0.2 mol/L = 0.005 mol, which needs 0.005 mol of H⁺ to neutralise. Since each H₂SO₄ donates 2 H⁺, the acid required is 0.005 ÷ 2 = 0.0025 mol, so V = 0.0025 ÷ 0.1 = 0.025 L = 25 mL. The value 12.5 mL is the classic slip of treating diprotic sulfuric acid as monoprotic."
+    },
+    {
+      "n": 36,
+      "derived": "B",
+      "text": "Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]) = 4.76 + log(0.1/0.1) = 4.76 + 0 = 4.76. Whenever a buffer's conjugate base and acid concentrations are equal, its pH equals the pKa. The values 3.76 or 5.76 would demand a tenfold ratio between the two components."
+    },
+    {
+      "n": 37,
+      "derived": "B",
+      "text": "Hydrogen peroxide is a peroxide, and in peroxides oxygen takes the exceptional oxidation state −1 rather than the usual −2. Check: with H at +1, 2(+1) + 2x = 0 gives x = −1. The value −2 applies to ordinary oxides, and 0 describes elemental oxygen."
+    },
+    {
+      "n": 38,
+      "derived": "B",
+      "text": "Reduction is gain of electrons: chlorine falls from oxidation number 0 in Cl₂ to −1 in NaCl, so Cl₂ is reduced, while sodium rises from 0 to +1 and is oxidised. Claiming both species are reduced ignores that the electrons lost by sodium must be gained by chlorine, and the product NaCl is not a reacting species."
+    },
+    {
+      "n": 39,
+      "derived": "B",
+      "text": "At constant temperature and amount, Boyle's law applies: P₁V₁ = P₂V₂, so 1 atm × 2 L = 2 atm × V₂, giving V₂ = 1 L. Doubling the pressure halves the volume; the answer of 4 L wrongly treats pressure and volume as directly proportional."
+    },
+    {
+      "n": 40,
+      "derived": "D",
+      "text": "Each of the five d orbitals holds at most 2 electrons of opposite spin, so the d subshell holds 5 × 2 = 10 electrons. The capacities 6 and 14 belong to the p and f subshells (3 and 7 orbitals respectively)."
+    },
+    {
+      "n": 41,
+      "derived": "A",
+      "text": "Summing the superscripts: 2 + 2 + 6 + 1 = 11 electrons, so the element has atomic number 11, sodium. Its lone 3s¹ valence electron explains sodium's +1 chemistry; magnesium would be 3s² and neon stops at 2p⁶."
+    },
+    {
+      "n": 42,
+      "derived": "C",
+      "text": "Nitrogen in NH₃ has three bonding pairs plus one lone pair, four electron domains in all, so the electron-pair geometry is tetrahedral; the lone pair occupies one corner, giving the molecular shape of a trigonal pyramid with a bond angle near 107°. Trigonal planar would require the lone pair's absence, and linear or octahedral arrangements fit neither the domain count nor the observed shape."
+    },
+    {
+      "n": 43,
+      "derived": "C",
+      "text": "Methanol carries a polar O-H group and can donate and accept hydrogen bonds with water, making it miscible with water in all proportions. Methane, ethane, benzene and carbon tetrachloride are essentially non-polar and cannot hydrogen-bond with water, so all dissolve far less."
+    },
+    {
+      "n": 44,
+      "derived": "B",
+      "text": "An exothermic reaction releases heat to the surroundings, so the products end up lower in enthalpy than the reactants and ΔH is negative. ΔH > 0 is the definition of an endothermic reaction, and every chemical reaction still faces an activation energy barrier regardless of the sign of ΔH."
+    },
+    {
+      "n": 45,
+      "derived": "D",
+      "text": "The chain CH₃-CH₂-CH₂-CH₃ contains four carbon atoms joined only by single bonds, so the alkane is butane, C₄H₁₀. Propane has three carbons and pentane five."
+    },
+    {
+      "n": 46,
+      "derived": "C",
+      "text": "Le Chatelier's response to pressure only occurs when the change alters the total moles of gas. Both sides of H₂(g) + I₂(g) ⇌ 2HI(g) hold exactly 2 moles of gas, so raising pressure at constant temperature shifts the position of equilibrium not at all (though the rate does increase). Predicting a right or left shift misapplies the principle to a balanced-mole system, and ΔH is a fixed property of the reaction, not of the pressure."
+    },
+    {
+      "n": 47,
+      "derived": "C",
+      "text": "A rate constant doubling per 10 °C compounds over consecutive 10 °C steps. A 20 °C rise is two such steps, so the rate becomes 2 × 2 = 4 times r. Taking just one doubling (2r) treats the whole 20 °C as a single step."
+    },
+    {
+      "n": 48,
+      "derived": "B",
+      "text": "Factor by finding two numbers with product −6 and sum −5: they are −6 and +1, so x² − 5x − 6 = (x − 6)(x + 1) = 0, giving x = 6 or x = −1. The pair +1 and −6 gives the right product but the wrong sign of the sum, the standard factorisation slip here."
+    },
+    {
+      "n": 49,
+      "derived": "C",
+      "text": "Convert to exponential form: log₃ x = −2 means x = 3⁻² = 1/9. The argument of a logarithm must be positive, so the negative values offered cannot be solutions, and x = 9 would correspond to log₃ 9 = 2, not −2."
+    },
+    {
+      "n": 50,
+      "derived": "A",
+      "text": "Multiply both sides by (x + 1): 2x − 1 = 3(x + 1) = 3x + 3, so 2x − 3x = 3 + 1, giving −x = 4 and x = −4. Check: (2 × (−4) − 1)/((−4) + 1) = (−9)/(−3) = 3, as required. The value +4 results from a sign slip when collecting the x terms."
+    },
+    {
+      "n": 51,
+      "derived": "B",
+      "text": "Factor: x² − 5x + 6 = (x − 2)(x − 3). The parabola opens upward and equals zero at x = 2 and x = 3, so it is positive outside the roots: x < 2 or x > 3. The interval 2 < x < 3 is precisely where the expression is negative, the opposite of what is required."
+    },
+    {
+      "n": 52,
+      "derived": "D",
+      "text": "Circumference C = 2πr = 12π gives r = 6, so area = πr² = π × 36 = 36π. Answering 12π reuses the circumference figure as the area, and 144π results from squaring 12 (the diameter) instead of 6."
+    },
+    {
+      "n": 53,
+      "derived": "C",
+      "text": "In a 30-60-90 triangle the side opposite the 30° angle is half the hypotenuse, since sin 30° = opposite/hypotenuse = 1/2. With that side equal to 5, the hypotenuse is 2 × 5 = 10. The lengths 5√2 and 5√3 belong to 45-45-90 triangles and to the longer leg of a 30-60-90 triangle respectively, not to the hypotenuse."
+    },
+    {
+      "n": 54,
+      "derived": "C",
+      "text": "Two dice produce 36 equally likely ordered outcomes. A sum of 7 arises from six of them: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1), more than any other total. The probability is 6/36 = 1/6; the value 5/36 belongs to totals such as 6 or 8, which have one combination fewer."
+    },
+    {
+      "n": 55,
+      "derived": "B",
+      "text": "Starting from rest, s = ut + ½at² = 0 + ½ × 3 × 4² = ½ × 3 × 16 = 24 m. The value 12 m comes from using s = at and dropping the half, and 48 m from using at² without the ½ factor."
+    },
+    {
+      "n": 56,
+      "derived": "E",
+      "text": "For the parallel pair, 1/R = 1/6 + 1/3 = 1/6 + 2/6 = 3/6, so R = 2 Ω. The total current is I = V/R = 12/2 = 6 A; equivalently the branches draw 12/6 = 2 A and 12/3 = 4 A, summing to 6 A. The value 2 A accounts for only the 6 Ω branch and ignores the second resistor."
+    },
+    {
+      "n": 57,
+      "derived": "C",
+      "text": "Energy = power × time = 100 W × 10 s = 1000 J. Once the bulb's power rating on that supply is given, the 200 V figure adds nothing; substituting the voltage number for the power would produce the spurious 2000 J."
+    },
+    {
+      "n": 58,
+      "derived": "E",
+      "text": "Momentum is a vector, so the rebound reverses the sign: Δp = m(v_f − v_i) = 2 kg × (−3 − 5) m/s = −16 kg·m/s, a magnitude of 16 kg·m/s. The value 4 kg·m/s comes from subtracting the speeds as plain numbers (5 − 3 = 2, times 2 kg) and forgetting the reversal of direction, the standard trap here."
+    },
+    {
+      "n": 59,
+      "derived": "D",
+      "text": "Gravitation obeys an inverse-square law: g ∝ 1/r². Going from the surface (r = R) out to 3R scales g by (1/3)² = 1/9, so the surface value is 9 times the orbital value: g = 2 × 9 = 18 m/s². The value 6 m/s² comes from treating g as proportional to 1/r instead of 1/r²."
+    },
+    {
+      "n": 60,
+      "derived": "B",
+      "text": "Q = mcΔT = 0.5 kg × 450 J/(kg·°C) × (100 − 20) °C = 0.5 × 450 × 80 = 18,000 J. The value 22,500 J arises from using ΔT = 100 °C and ignoring the 20 °C starting temperature."
+    }
+  ],
+  "disagreements": [
+    {
+      "n": 4,
+      "derived": "B",
+      "stored": "E",
+      "note": "The stored answer (F is immediately in front of J) is not forced. The order H, G, F, I, J (front to back) satisfies all four constraints: F immediately behind G (G at 2, F at 3), H in front of G (position 1), I at position 4 which is not an end, J at the back. Two admissible orders survive (H, I, G, F, J and H, G, F, I, J) and H is at the front in both, so 'H is at the front' must be true. The stored explanation's counterexample requires I to sit at the front end of the queue, which violates 'I is not at either end'."
+    }
+  ],
+  "notes": [
+    "Question 4: the stored explanation is internally inconsistent with the stem, as detailed in the disagreement entry; the constraint 'I is not at either end' is what forces H to the front in every valid arrangement.",
+    "Question 2: the stored exp itself flags that the distractor claiming diversity falls regardless of which alleles survive is broadly true; it is rejected only because 'regardless' clashes with the passage's chance-based account, leaving the selected inference as the best supported.",
+    "Question 59 is physically unrealistic (surface gravity of 18 m/s²), but the inverse-square arithmetic the item asks for is self-consistent.",
+    "Option order note: 'derived' letters refer to positions in this data file's options array, not to the printed shuffled paper."
+  ]
+}

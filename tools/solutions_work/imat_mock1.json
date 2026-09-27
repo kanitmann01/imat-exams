@@ -1,0 +1,316 @@
+{
+ "bank": "imat_mock1",
+ "solutions": [
+  {
+   "n": 1,
+   "derived": "C",
+   "text": "The passage states that memory cells respond at LOWER antigen concentrations than naive cells, so the claim that they require a higher concentration to activate says the opposite of the text and is not supported. The other four statements all follow from the passage: long-lived memory cells persist after the pathogen is cleared, the secondary response is faster and stronger (so larger in magnitude), naive lymphocytes proliferate on first exposure, and effector cells clear the pathogen. The tempting trap is the magnitude claim, because it looks like an added detail, yet the passage's 'faster and stronger response' explicitly backs it."
+  },
+  {
+   "n": 2,
+   "derived": "D",
+   "text": "An enzyme lowers the activation energy but leaves the free energy difference between substrates and products unchanged, so the equilibrium position, and therefore the products-to-substrates ratio at equilibrium, is exactly the same with or without enzyme. Every claim that the enzyme makes an endergonic reaction exergonic, raises the equilibrium constant, shifts equilibrium toward products, or turns an unfavourable reaction favourable would require changing the free energy difference, which the passage rules out. More enzyme only means equilibrium is reached sooner, never a different equilibrium."
+  },
+  {
+   "n": 3,
+   "derived": "B",
+   "text": "Camillo Golgi developed the silver-based 'black reaction' for staining nervous tissue, which first allowed individual whole neurons to be seen under the microscope, and he shared the 1906 Nobel Prize in Physiology or Medicine with Ramon y Cajal. The decisive facts are the staining method plus the 1906 prize. The other names belong to different fields: Galileo (astronomy and physics), Levi-Montalcini (nerve growth factor, 1986 Nobel), Meucci (early telephone work), Marconi (radio, 1909 Nobel in Physics)."
+  },
+  {
+   "n": 4,
+   "derived": "D",
+   "text": "Step 1: D must sit at one of the two ends. Step 2: E must sit somewhere to D's left, so D cannot take the left end, because then no seat would exist to the left of D for E. Therefore D is forced to the far right. Every other claim can fail in a valid arrangement: the A-B pair could start at seat 2 (leaving the far left free), E can occupy the far left end, and C only has to avoid sitting next to A, so none of those statements must be true."
+  },
+  {
+   "n": 5,
+   "derived": "B",
+   "text": "Some patients with disease Y have elevated marker M, and no patient with disease X has disease Y, so those M-positive Y patients cannot belong to X: hence some Y patients do not have X. The other conclusions all fail: people outside X and Y could also show elevated M (so elevated M does not imply X or Y), Y patients can clearly have elevated M, and nothing suggests X leads to Y. The valid core is a syllogism: some Y have M, X and Y are disjoint, therefore some Y are not X."
+  },
+  {
+   "n": 6,
+   "derived": "A",
+   "text": "Each letter of READING is shifted one place forward in the alphabet (R to S, E to F, A to B, D to E, I to J, N to O), keeping the split after three and six letters. Applying the same shift to MONKEY gives N, P, O, L, F, Z, that is NPO LFZ. A near miss such as NPO MFZ fails because K shifted one place forward is L, not M, so check every position rather than just the first few letters."
+  },
+  {
+   "n": 7,
+   "derived": "B",
+   "text": "The minute hand moves 6 degrees per minute, so at 15 minutes it sits at 90 degrees. The hour hand moves 0.5 degrees per minute: at 3:00 it is at 90 degrees and by 3:15 it has advanced 15 × 0.5 = 7.5 degrees, to 97.5 degrees. The angle between the hands is 97.5 - 90 = 7.5 degrees. The tempting error is answering 0 degrees by assuming the hands overlap at 3:15; they actually overlap only shortly after, at about 3:16."
+  },
+  {
+   "n": 8,
+   "derived": "B",
+   "text": "If the day after tomorrow is Wednesday, today is Monday. Yesterday was therefore Sunday, and counting back three days from Sunday gives Saturday, Friday, Thursday, so the answer is Thursday. Sanity check forward: Thursday plus 3 days is Sunday (yesterday), plus one more day is Monday (today), plus two more is Wednesday (day after tomorrow)."
+  },
+  {
+   "n": 9,
+   "derived": "C",
+   "text": "The gaps between successive terms are 4, 6, 8 and 10, each 2 larger than the previous, so the next gap is 12 and the next term is 30 + 12 = 42. Equivalently, the terms follow n(n+1): 1×2 = 2, 2×3 = 6, 3×4 = 12, 4×5 = 20, 5×6 = 30, so the sixth term is 6×7 = 42."
+  },
+  {
+   "n": 10,
+   "derived": "B",
+   "text": "The Krebs cycle runs in the mitochondrial matrix, where pyruvate is imported, decarboxylated to acetyl-CoA by pyruvate dehydrogenase, and progressively oxidised. Glycolysis is the cytosol stage, and the intermembrane space is where protons accumulate for chemiosmosis, not where the cycle turns."
+  },
+  {
+   "n": 11,
+   "derived": "C",
+   "text": "Glycolysis spends 2 ATP in the investment phase (hexokinase and phosphofructokinase) and makes 4 ATP in the payoff phase (phosphoglycerate kinase and pyruvate kinase), both by substrate-level phosphorylation, giving a net of 4 - 2 = 2 ATP per glucose. The trap is quoting the gross yield of 4 and forgetting the 2 invested during the early steps."
+  },
+  {
+   "n": 12,
+   "derived": "D",
+   "text": "Oxygen is the terminal electron acceptor: at complex IV it accepts electrons and is reduced to water, and without it the whole chain backs up and oxidative phosphorylation halts. Water is the product of that reduction, not the acceptor, and NAD⁺ and FAD are upstream carriers that deliver electrons into the chain rather than final acceptors."
+  },
+  {
+   "n": 13,
+   "derived": "B",
+   "text": "ATP synthase (complex V) sits in the inner mitochondrial membrane, folded into cristae, and uses the proton gradient between intermembrane space and matrix to drive ADP phosphorylation. The outer membrane and cytosol are not involved, and the thylakoid reference confuses chloroplast anatomy: the chloroplast ATP synthase spans the thylakoid membrane, not a stroma."
+  },
+  {
+   "n": 14,
+   "derived": "B",
+   "text": "Glycolysis and oxidative phosphorylation release no CO₂ at all. Pyruvate oxidation releases one CO₂ per pyruvate and each turn of the Krebs cycle releases two, so all six CO₂ molecules per glucose come from pyruvate oxidation together with the Krebs cycle, making that pair the sole source."
+  },
+  {
+   "n": 15,
+   "derived": "B",
+   "text": "Secretory proteins are synthesised by ribosomes docked on the rough ER, whose studding by ribosomes gives it its name, and they then travel to the Golgi for processing. The smooth ER handles lipids and detoxification, and the nucleolus builds ribosomal subunits, not secreted proteins."
+  },
+  {
+   "n": 16,
+   "derived": "B",
+   "text": "The Golgi receives vesicles from the ER, chemically modifies its cargo (for example by glycosylation), sorts it, and packages it into vesicles for dispatch. The other listed jobs belong elsewhere: ribosomal RNA is made in the nucleolus, oxidative phosphorylation occurs in mitochondria, hydrogen peroxide breakdown is catalase in peroxisomes, and genetic information is stored in the nucleus."
+  },
+  {
+   "n": 17,
+   "derived": "B",
+   "text": "Selective permeability is a property of the phospholipid bilayer itself, whose hydrophobic core blocks ions and large polar molecules, while embedded channel and carrier proteins admit specific solutes. Cell walls such as peptidoglycan or cellulose are porous structural layers rather than selective barriers, and the cytoskeleton provides shape and transport tracks, not permeability."
+  },
+  {
+   "n": 18,
+   "derived": "D",
+   "text": "Primary active transport couples movement against the gradient directly to ATP hydrolysis, as in the sodium-potassium pump. Simple diffusion, osmosis, and channel- or carrier-mediated facilitated diffusion are all passive and run downhill on the gradient, so they consume no ATP at all."
+  },
+  {
+   "n": 19,
+   "derived": "B",
+   "text": "In the induced-fit model the active site is flexible and changes conformation when the substrate binds, moulding around it to align the catalytic groups. The rigid-site picture is the older lock-and-key model, and nothing in induced fit changes the free energy of the reaction or consumes the enzyme."
+  },
+  {
+   "n": 20,
+   "derived": "C",
+   "text": "A competitive inhibitor binds reversibly at the active site and competes with the substrate, so more substrate is needed to reach half-maximal rate: the apparent Km increases while Vmax stays the same, because saturating substrate outcompetes the inhibitor. The pattern of a lowered Vmax with unchanged Km belongs to non-competitive inhibition instead, and no covalent permanent inactivation is involved."
+  },
+  {
+   "n": 21,
+   "derived": "C",
+   "text": "Cardiac muscle is involuntary, striated and built of branched cells joined end to end by intercalated discs, whose gap junctions synchronise contraction. Skeletal muscle is striated but voluntary with unbranched fibres, and smooth muscle is involuntary but not striated, so only cardiac tissue satisfies all three descriptors at once."
+  },
+  {
+   "n": 22,
+   "derived": "B",
+   "text": "The sarcomere, the segment from one Z-disc to the next, is the smallest unit that shortens, so it is the functional unit of skeletal muscle. A myofibril is the whole chain of sarcomeres inside a fibre, the sarcolemma is the cell membrane, and the sarcoplasmic reticulum is the calcium store."
+  },
+  {
+   "n": 23,
+   "derived": "C",
+   "text": "During contraction, calcium binds troponin, tropomyosin shifts away from the binding sites, and the myosin heads attach to actin to form cross-bridges that pull. Calcium regulates the process through troponin and does not bind myosin directly, and titin is the elastic scaffold rather than the myosin partner."
+  },
+  {
+   "n": 24,
+   "derived": "B",
+   "text": "About 98 percent of oxygen travels bound to haemoglobin inside red blood cells, with only a small remainder dissolved in plasma. Bicarbonate is the main transport form of carbon dioxide, not oxygen, and albumin or leucocytes play no role in oxygen carriage."
+  },
+  {
+   "n": 25,
+   "derived": "C",
+   "text": "Most nutrient absorption occurs in the small intestine, whose villi and microvilli create an enormous surface area and whose length gives long contact time, with the jejunum the busiest stretch. The stomach mainly digests, the large intestine mostly reclaims water and ions, and the oesophagus and liver absorb essentially nothing."
+  },
+  {
+   "n": 26,
+   "derived": "B",
+   "text": "Beta cells of the pancreatic islets secrete insulin, which promotes glucose uptake into cells and storage as glycogen, lowering blood glucose. Glucagon, released by alpha cells, does the opposite and raises glucose, while cortisol, adrenaline and thyroxine also tend to raise blood glucose rather than lower it."
+  },
+  {
+   "n": 27,
+   "derived": "B",
+   "text": "Antidiuretic hormone (ADH, vasopressin) is released from the posterior pituitary and causes the collecting duct to insert aquaporin channels, so water is reabsorbed and urine is concentrated. Aldosterone instead promotes sodium reabsorption from the adrenal cortex, and atrial natriuretic peptide promotes sodium loss, the reverse of ADH."
+  },
+  {
+   "n": 28,
+   "derived": "B",
+   "text": "The humerus is the single long bone of the upper arm, running from shoulder to elbow. The femur is the thigh bone, the radius is the thumb-side forearm bone, the tibia is the shin bone, and the clavicle is the collar bone, so only the upper-arm description matches."
+  },
+  {
+   "n": 29,
+   "derived": "B",
+   "text": "Helicase unwinds the double helix by breaking the hydrogen bonds between base pairs at the replication fork. DNA polymerase then builds the new strands, primase lays the RNA primers, and ligase seals the nicks between Okazaki fragments, so the unwinding job belongs to helicase alone."
+  },
+  {
+   "n": 30,
+   "derived": "A",
+   "text": "A diploid count of 2n = 46 means body cells carry 46 chromosomes; meiosis halves this, so a mature gamete carries the haploid number n = 23. Fertilisation then restores 46 in the zygote."
+  },
+  {
+   "n": 31,
+   "derived": "A",
+   "text": "The AB father contributes either the A or the B allele, while the O mother can pass only the recessive allele i. Every child is therefore Ai (group A) or Bi (group B): AB is impossible because the mother supplies no A or B allele, and O is impossible because the father always supplies A or B. So only groups A and B can appear among the offspring."
+  },
+  {
+   "n": 32,
+   "derived": "C",
+   "text": "AUG is the start codon: it sets the reading frame and codes for methionine (N-formylmethionine in bacteria). Termination is handled by the stop codons UAA, UAG and UGA together with release factors, and RNA polymerase is recruited to DNA promoters, never by codons."
+  },
+  {
+   "n": 33,
+   "derived": "C",
+   "text": "Oxidation numbers sum to zero in a neutral molecule: 2(+1) for hydrogen plus x for sulfur plus 4(−2) for oxygen gives 2 + x − 8 = 0, so x = +6. The +2 distractor follows from wrongly taking each oxygen as −1 instead of −2, and +4 comes from miscounting the total oxygen contribution."
+  },
+  {
+   "n": 34,
+   "derived": "B",
+   "text": "In Zn + CuSO₄ → ZnSO₄ + Cu the copper ion gains two electrons (Cu²⁺ + 2e⁻ → Cu), so Cu²⁺ is reduced, while zinc loses electrons to become Zn²⁺ and is oxidised. The sulfate ion is a spectator throughout, and metallic copper is the reduced product rather than the species being reduced."
+  },
+  {
+   "n": 35,
+   "derived": "B",
+   "text": "pH is defined as −log[H⁺], so pH 3 means [H⁺] = 10⁻³ = 1 × 10⁻³ M. The 1 × 10⁻¹¹ M figure is the hydroxide concentration (pOH = 14 - 3 = 11), a classic mix-up, and no option with a factor of 3 belongs in the conversion since pH is a logarithmic scale."
+  },
+  {
+   "n": 36,
+   "derived": "B",
+   "text": "A strong monoprotic acid dissociates completely, so 0.01 M HCl gives [H⁺] = 0.01 = 10⁻² M and pH = −log(10⁻²) = 2. The values 12 and 13 come from computing pOH-style numbers as if the solution were basic rather than acidic."
+  },
+  {
+   "n": 37,
+   "derived": "B",
+   "text": "An ionic bond forms by complete transfer of electrons from one atom to another, producing oppositely charged ions held together by electrostatic attraction, as when sodium donates an electron to chlorine. Covalent bonds share electrons, hydrogen bonds and van der Waals interactions are weak intermolecular attractions, and metallic bonding uses a delocalised electron sea."
+  },
+  {
+   "n": 38,
+   "derived": "D",
+   "text": "A double covalent bond consists of two shared electron pairs, that is 2 × 2 = 4 electrons, as in the O=O bond or the C=O bonds of CO₂. Counting one pair gives 2, which describes a single bond, not a double one."
+  },
+  {
+   "n": 39,
+   "derived": "C",
+   "text": "Volume proportional to the number of moles at constant temperature and pressure is Avogadro's law (V ∝ n). Boyle's law covers V ∝ 1/P at fixed n and T, and Charles's law covers V ∝ T at fixed n and P, so the mole-proportionality is the distinctive signature of Avogadro's law."
+  },
+  {
+   "n": 40,
+   "derived": "A",
+   "text": "Number of molecules = moles × Avogadro's number = 0.5 × 6.022 × 10²³ = 3.011 × 10²³, so approximately 3.01 × 10²³ molecules. The 6.02 × 10²³ answer forgets to halve the mole quantity, and 6.02 × 10²² is a factor-of-10 slip."
+  },
+  {
+   "n": 41,
+   "derived": "B",
+   "text": "Period 3 runs Na, Mg, Al, Si, P, S, Cl, Ar, and the Group 17 halogens fall F (period 2), Cl (period 3), Br (period 4), I (period 5). The intersection is chlorine. Fluorine has the right group but sits in period 2, and sulfur is period 3 but Group 16."
+  },
+  {
+   "n": 42,
+   "derived": "B",
+   "text": "The neutron carries no electric charge and has a mass of about 1 amu, essentially equal to the proton. The proton is positively charged, the electron is negative and roughly 1/1836 of an amu, and a photon is a massless quantum of electromagnetic radiation."
+  },
+  {
+   "n": 43,
+   "derived": "B",
+   "text": "By Le Chatelier's principle, raising the pressure at constant temperature shifts the equilibrium toward the side with fewer gas moles. The left side has 4 moles (1 N₂ + 3 H₂) and the right side has 2 (2 NH₃), so the balance moves right and more ammonia forms. Note the reaction's exothermicity is irrelevant here: pressure, not temperature, is what changes."
+  },
+  {
+   "n": 44,
+   "derived": "C",
+   "text": "The COOH (carboxyl) group is the signature of carboxylic acids. Alcohols carry OH, aldehydes carry CHO, ketones have an internal C=O, and ethers have a C-O-C linkage, so the acidic carboxyl description decides the question."
+  },
+  {
+   "n": 45,
+   "derived": "C",
+   "text": "Alkanes follow the formula CnH2n+2: for n = 4 this predicts C₄H₁₀ (butane), which matches exactly. C₂H₄ and C₃H₆ fit CnH2n (alkenes or cycloalkanes), C₂H₂ fits CnH2n−2 (alkyne), and C₆H₆ is aromatic benzene, so none of those is a saturated alkane."
+  },
+  {
+   "n": 46,
+   "derived": "C",
+   "text": "Raising the temperature increases the fraction of colliding molecules whose energy meets or exceeds the activation energy (the Arrhenius picture, k = A·e^(−Ea/RT)) and also raises collision frequency, so the rate rises. The activation energy itself is fixed by the reaction pathway and does not decrease with heating, and the equilibrium constant grows with temperature only for endothermic reactions, so it does not always increase."
+  },
+  {
+   "n": 47,
+   "derived": "C",
+   "text": "Molarity = moles of solute ÷ litres of solution = 0.2 mol ÷ 0.500 L = 0.4 M. The 0.2 M figure skips the division by the 0.5 L volume, so convert millilitres to litres before dividing."
+  },
+  {
+   "n": 48,
+   "derived": "D",
+   "text": "Step 1: square both sides: 2x − 1 = 9. Step 2: solve: 2x = 10, so x = 5. Check: √(2×5 − 1) = √9 = 3, and the domain condition 2x − 1 ≥ 0 is satisfied. Any smaller listed value leaves the expression under the root unequal to 9."
+  },
+  {
+   "n": 49,
+   "derived": "B",
+   "text": "Rearrange: 2x − 5 < 3x + 1 gives −5 - 1 < 3x - 2x, so −6 < x, that is x > −6. No sign flip is needed because nothing is divided by a negative number; the answer x < −6 incorrectly reverses the inequality."
+  },
+  {
+   "n": 50,
+   "derived": "B",
+   "text": "Angles in a triangle sum to 180 degrees, so the third angle is 180 - 50 - 60 = 70 degrees."
+  },
+  {
+   "n": 51,
+   "derived": "C",
+   "text": "Substitute x = 2: f(2) = 2(2²) − 3(2) + 1 = 8 - 6 + 1 = 3."
+  },
+  {
+   "n": 52,
+   "derived": "C",
+   "text": "Area of a circle = πr² = 3.14 × 5² = 3.14 × 25 = 78.5 cm². The 31.4 figure is actually the circumference (2πr = 2 × 3.14 × 5) wearing area units, and 62.8 is simply double that, so both come from mixing up the circle formulas."
+  },
+  {
+   "n": 53,
+   "derived": "B",
+   "text": "There are 3 + 2 = 5 balls in total and 2 of them are blue, so P(blue) = 2/5. The 3/5 figure is the probability of the complementary event, drawing a red ball."
+  },
+  {
+   "n": 54,
+   "derived": "D",
+   "text": "Step 1: the diagonal, length and width form a right triangle: 13² = 12² + w², so w² = 169 - 144 = 25 and w = 5 cm (the 5-12-13 Pythagorean triple). Step 2: perimeter = 2 × (12 + 5) = 34 cm. The 24 cm figure comes from doubling only the length and forgetting the width entirely."
+  },
+  {
+   "n": 55,
+   "derived": "A",
+   "text": "Speed = 120 km ÷ 2 h = 60 km/h; converting with 1 km/h = 1000 m ÷ 3600 s gives 60 × 1000/3600 ≈ 16.7 m/s. The 33.3 m/s figure results from dividing 120 000 m by only 3600 s, forgetting that the trip lasted two hours, and 60 m/s mistakes the km/h number for a value in m/s."
+  },
+  {
+   "n": 56,
+   "derived": "A",
+   "text": "Step 1: for parallel resistors, 1/R = 1/2 + 1/3 + 1/6. Step 2: with common denominator 6: (3 + 2 + 1)/6 = 6/6 = 1, so R = 1 Ω. Adding the resistances to get 11 Ω is the series rule and does not apply; a parallel equivalent is always smaller than the smallest individual resistor."
+  },
+  {
+   "n": 57,
+   "derived": "C",
+   "text": "Power dissipated by a resistor is P = I²R = 2² × 5 = 4 × 5 = 20 W. The 10 W figure is just the voltage drop (IR = 2 × 5 = 10 V), which is a voltage in volts, not a power in watts."
+  },
+  {
+   "n": 58,
+   "derived": "C",
+   "text": "The upward push of the table on the book and the downward push of the book on the table form an action-reaction pair on two different bodies, which is Newton's third law. The first law only explains why the book stays at rest under zero net force; it does not pair the two forces together."
+  },
+  {
+   "n": 59,
+   "derived": "D",
+   "text": "Gravitational force scales as the inverse square of the distance: with r replaced by r/2, F' = Gm₁m₂/(r/2)² = 4 × Gm₁m₂/r² = 4F. The 2F answer comes from inverting the distance once instead of squaring the inversion."
+  },
+  {
+   "n": 60,
+   "derived": "D",
+   "text": "Gauge pressure P = ρgh = 1000 kg/m³ × 9.8 m/s² × 10 m = 98 000 Pa. Gauge pressure excludes atmospheric pressure, so nothing is added on top. The 980 Pa figure is two orders of magnitude low and 980 000 Pa is a factor-of-10 overshoot, both unit-handling slips."
+  }
+ ],
+ "disagreements": [],
+ "notes": [
+  "All 60 derived answers match the stored keys; no disagreements.",
+  "Question 43: the first distractor's text contains a leftover editorial parenthetical (a draft note asserting the option is wrong), including an em dash character in the bank file. It does not affect correctness since the correct option is unambiguous, but the distractor should be cleaned up before typesetting.",
+  "Question 3 is general knowledge rather than passage-based reasoning; the stored answer (Camillo Golgi, 1906 Nobel with Ramon y Cajal) was verified as correct.",
+  "Question 4 admits several complete seating arrangements, but the statement about D's position holds in every valid arrangement while all other options fail in at least one, so the item is well posed.",
+  "Question 28's stem is awkwardly phrased ('Which bone of the upper limb is the humerus? It is the:') but the intent is unambiguous.",
+  "Question 31 assumes standard ABO genetics without rare phenotypes (e.g. Bombay), which is the intended reading.",
+  "Question 11 asks for net ATP from substrate-level phosphorylation in glycolysis (2); if gross production had been intended the answer would be 4, but the stored key correctly reflects 'net'.",
+  "The 'perm' arrays stored in the bank are consistent with the stored answer letters and were not needed for derivation; the PDF printer should apply them so the printed correct letter matches the stamp."
+ ]
+}
