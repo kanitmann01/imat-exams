@@ -9,7 +9,7 @@
     {
       "n": 2,
       "derived": "D",
-      "text": "Step 1: S sits at an end seat, seat 1 or seat 5. Step 2: T must sit somewhere to the left of S, so S cannot be at seat 1 (nothing lies to its left); S is therefore forced to seat 5, the far right, in every valid arrangement. A consistent layout such as T in seat 1, P in 2, Q in 3, R in 4, S in 5 (and equally R in 1, T in 2, P in 3, Q in 4, S in 5) shows the other claims can fail: P need not be at the far left, T can occupy an end seat, R need not sit between P and T, and Q can sit adjacent to R."
+      "text": "Givens: seats 1 to 5 left to right; Q immediately right of P; R not adjacent to P; S at an end seat (1 or 5); T somewhere left of S.\nDeduction 1: T needs a seat to its left, so S cannot sit at seat 1, because no seat lies to the left of seat 1.\nDeduction 2: S must sit at an end, and seat 1 is impossible, so S sits at seat 5 in every valid arrangement.\nCheck: the layout T in 1, P in 2, Q in 3, R in 4, S in 5 satisfies every given (Q is immediately right of P, R is not adjacent to P, S is at the right end, T is left of S).\nConclusion: S sits at seat 5, the far right, must be true.\nThat same layout kills the tempting alternatives: P is not at the far left, T does occupy an end seat, R is not between P and T, and Q does sit adjacent to R."
     },
     {
       "n": 3,
@@ -19,17 +19,17 @@
     {
       "n": 4,
       "derived": "D",
-      "text": "The reptiles that are kept as pets exist by the second premise, and every reptile is not warm-blooded by the first, so at least some pets are not warm-blooded. Saying all pets are cold-blooded or that some pets are warm-blooded adds unsupported assumptions about non-reptile pets, the claim that no pet is a reptile directly contradicts the second premise, and nothing in the premises makes any warm-blooded animal a pet."
+      "text": "Givens: (1) no reptile is warm-blooded; (2) some reptiles are kept as pets.\nDeduction 1: from (2), at least one animal is both a reptile and a pet.\nDeduction 2: by (1), that animal, being a reptile, is not warm-blooded.\nDeduction 3: therefore at least one pet is not warm-blooded.\nConclusion: some pets are not warm-blooded follows necessarily.\nThe tempting claim that all pets are cold-blooded overshoots: the premises say nothing about pets that are not reptiles, so warm-blooded non-reptile pets remain possible."
     },
     {
       "n": 5,
       "derived": "B",
-      "text": "The minute hand moves 6 degrees per minute: at 40 minutes it stands at 40 × 6 = 240°. The hour hand moves 0.5 degrees per minute: it stands at 4 × 30 + 40 × 0.5 = 120 + 20 = 140°. The angle between the hands is 240 − 140 = 100°. Leaving the hour hand fixed at exactly 4 o'clock (120°) ignores the 40 minutes of drift and produces the common wrong value of 120°."
+      "text": "Given: time 4:40; the minute hand sweeps 6° per minute; the hour hand sweeps 30° per hour plus 0.5° per minute.\nRelationship: minute hand angle from 12 = minutes × 6°; hour hand angle from 12 = hours × 30° + minutes × 0.5°.\nSubstitute: minute hand = 40 × 6° = 240°.\nSubstitute: hour hand = 4 × 30° + 40 × 0.5° = 120° + 20° = 140°.\nAngle between the hands = 240° − 140° = 100°.\nResult: 100°.\nClassic slip: leaving the hour hand frozen at exactly 4 o'clock gives 240° − 120° = 120°, ignoring the extra 20° it creeps forward in 40 minutes."
     },
     {
       "n": 6,
       "derived": "C",
-      "text": "Without inhibitor the rate peaks at pH 7 (100, against 20 at pH 5 and 20 at pH 9), so the optimum sits at pH 7 itself, not between 7 and 9, and the enzyme is plainly still active at pH 9. With inhibitor the fractional falls are 10 percent at pH 5 (20 to 18) and 10 percent at pH 9, but 50 percent at pH 7 (100 to 50), so the relative inhibition is greatest at pH 7 and is not a constant fraction at every pH. A residual rate of 18 out of 20 at acidic pH gives no evidence that the enzyme is destroyed there."
+      "text": "Givens: rates without inhibitor 20 (pH 5), 100 (pH 7), 20 (pH 9); with inhibitor 18, 50, 18 at the same pH values.\nDeduction 1: the uninhibited maximum is 100 at pH 7, so the optimum is at pH 7 itself, not between 7 and 9.\nDeduction 2: relative loss at pH 5 = (20 − 18) ÷ 20 = 2 ÷ 20 = 0.10, a 10% reduction.\nDeduction 3: relative loss at pH 7 = (100 − 50) ÷ 100 = 50 ÷ 100 = 0.50, a 50% reduction.\nDeduction 4: relative loss at pH 9 = (20 − 18) ÷ 20 = 0.10, a 10% reduction.\nDeduction 5: the fractional effect differs with pH and is greatest at pH 7, so inhibition is not a constant fraction.\nResult: the enzyme is most active at pH 7 and the inhibitor's relative effect is also greatest at pH 7.\nThe claim that the enzyme is inactive at pH 9 fails because a rate of 20 is still measured there, and the residual 18 of 20 at pH 5 shows no destruction at acidic pH."
     },
     {
       "n": 7,
@@ -39,12 +39,12 @@
     {
       "n": 8,
       "derived": "B",
-      "text": "The rule alternates ×2 and +3: 2 × 2 = 4, 4 + 3 = 7, 7 × 2 = 14, 14 + 3 = 17, 17 × 2 = 34. Since 34 came from doubling, the next step is +3, giving 34 + 3 = 37. Doubling again to 68 would break the established alternation."
+      "text": "Givens: the terms 2, 4, 7, 14, 17, 34 follow a repeating two-step rule.\nTest the pattern: 2 × 2 = 4 (double), 4 + 3 = 7 (add 3), 7 × 2 = 14 (double), 14 + 3 = 17 (add 3), 17 × 2 = 34 (double).\nThe rule alternates double then add 3, and it reproduces every given term.\nSince 34 was reached by doubling, the next step is add 3.\n34 + 3 = 37.\nResult: 37.\nClassic slip: doubling again to 68 keeps multiplying instead of switching back to the +3 step of the alternating rule."
     },
     {
       "n": 9,
       "derived": "A",
-      "text": "Step 1: after the 20 percent discount the price is 120 × 0.80 = 96. Step 2: after the further 25 percent discount it is 96 × 0.75 = 72. Step 3: total reduction = (120 − 72)/120 = 48/120 = 40 percent. Adding 20 and 25 to get 45 percent is wrong because the second discount acts on the already reduced price, not the original."
+      "text": "Given: original price 120; discounts of 20% then 25%, each taken on the current price.\nRelationship: successive discounts multiply; each step multiplies the running price by (1 − discount).\nSubstitute step 1: 120 × (1 − 0.20) = 120 × 0.80 = 96.\nSubstitute step 2: 96 × (1 − 0.25) = 96 × 0.75 = 72.\nTotal reduction = 120 − 72 = 48.\nPercentage reduction = 48 ÷ 120 = 0.40 = 40%.\nResult: 40%.\nClassic slip: adding 20% + 25% to get 45% wrongly treats the second discount as taken on the original 120 instead of on the reduced 96."
     },
     {
       "n": 10,
@@ -164,12 +164,12 @@
     {
       "n": 33,
       "derived": "C",
-      "text": "The sum of the oxidation numbers equals the ion charge: 2x + 7(−2) = −2. Solving, 2x = +12 and x = +6, so each chromium atom is in the +6 state. Twelve is the combined total of both chromium atoms before halving, and +7 is the state of manganese in permanganate, a different ion."
+      "text": "Given: the dichromate ion Cr₂O₇²⁻; each oxygen has oxidation number −2; the sum of oxidation numbers equals the ion charge.\nRelationship: 2 × (Cr) + 7 × (O) = −2, with x the oxidation number of one chromium.\nSubstitute: 2x + 7 × (−2) = −2.\n2x − 14 = −2.\n2x = −2 + 14 = +12.\nx = +12 ÷ 2 = +6.\nResult: chromium is +6 in dichromate.\nClassic slip: stopping at 2x = +12 and reporting +12 forgets to divide by the two chromium atoms; +7 is the state of manganese in permanganate, a different ion."
     },
     {
       "n": 34,
       "derived": "A",
-      "text": "Zinc starts at oxidation number 0 and ends as Zn²⁺ (+2), losing the electrons that convert H⁺ (+1) into H₂ (0). The reducing agent is the species that is itself oxidised, so zinc fills that role; H⁺ is the oxidising agent, chloride ions are spectators, and H₂ and Zn²⁺ are products that cannot act as agents in the forward reaction."
+      "text": "Givens: Zn + 2HCl → ZnCl₂ + H₂; a reducing agent is the species that itself loses electrons (is oxidised).\nDeduction 1: zinc goes from oxidation number 0 as the element to +2 in ZnCl₂, so zinc loses 2 electrons and is oxidised.\nDeduction 2: hydrogen goes from +1 in H⁺ to 0 in H₂, so hydrogen gains electrons and is reduced.\nDeduction 3: the electrons zinc loses are exactly the ones H⁺ gains, so zinc causes the reduction.\nConclusion: Zn is the reducing agent.\nThe tempting choice H⁺ fails because it gains electrons: it is the oxidising agent, and chloride ions are unchanged spectators."
     },
     {
       "n": 35,
@@ -179,32 +179,32 @@
     {
       "n": 36,
       "derived": "B",
-      "text": "HCl is a strong acid, so the initial hydrogen ion concentration is 0.001 M = 10⁻³ M, hence pH 3. A tenfold dilution lowers this to 10⁻⁴ M, and since pH = −log[H⁺], the pH rises by exactly one unit to 4. Diluting cannot make the solution more acidic (pH 2), and pH 7 would require dilution so extreme that water's own ionisation dominates the hydrogen ion concentration."
+      "text": "Given: 0.001 M HCl, a strong acid, so [H⁺] = 0.001 M = 10⁻³ M (pH 3); then diluted tenfold with water.\nRelationship: pH = −log₁₀[H⁺]; a tenfold dilution divides [H⁺] by 10 and raises pH by exactly 1 unit.\nSubstitute: [H⁺] after dilution = 10⁻³ ÷ 10 = 10⁻⁴ M.\npH = −log₁₀(10⁻⁴) = 4.\nResult: pH 4.\nClassic slip: reading dilution as making the acid stronger gives pH 2; dilution always weakens an acid and raises pH, and pH 7 would need dilution so extreme that water's own ionisation takes over."
     },
     {
       "n": 37,
       "derived": "D",
-      "text": "NaOH dissociates completely, so [OH⁻] = 0.01 M = 10⁻² M and pOH = 2. With pH + pOH = 14 at 25 °C, pH = 14 − 2 = 12. The value 2 mistakes pOH for pH, and 13 would correspond to a ten times more concentrated (0.1 M) hydroxide solution."
+      "text": "Given: 0.01 M NaOH at 25 °C; Kw = 1.0 × 10⁻¹⁴; NaOH is a strong base and dissociates completely.\nRelationship: [OH⁻] = 10⁻² M; pOH = −log₁₀[OH⁻]; pH + pOH = 14 at 25 °C.\nSubstitute: pOH = −log₁₀(10⁻²) = 2.\npH = 14 − 2 = 12.\nResult: pH 12.\nClassic slip: reporting 2 mistakes pOH for pH; a value of 13 would need a ten times more concentrated 0.1 M hydroxide solution."
     },
     {
       "n": 38,
       "derived": "A",
-      "text": "The equation consumes 2 mol H₂ per 1 mol O₂. Three mol of H₂ needs only 1.5 mol of O₂, and with 2 mol available the hydrogen is the limiting reactant, so the water formed follows the hydrogen: the 2:2 ratio of hydrogen to water means 3 mol of H₂ yields 3 mol of H₂O. Basing the answer on the 2 mol of oxygen (4 mol of water) forgets that the hydrogen runs out first."
+      "text": "Given: 3 mol H₂ and 2 mol O₂; equation 2H₂ + O₂ → 2H₂O.\nRelationship: 2 mol H₂ consume 1 mol O₂ and form 2 mol H₂O; the reactant that runs out first (the limiting one) fixes the yield.\nSubstitute: O₂ needed to burn all the H₂ = 3 × (1 ÷ 2) = 1.5 mol O₂.\n1.5 mol needed < 2 mol available, so O₂ is in excess and H₂ is limiting.\nWater formed = 3 mol H₂ × (2 mol H₂O ÷ 2 mol H₂) = 3 mol H₂O.\nResult: 3 mol of water.\nClassic slip: scaling from the 2 mol of O₂ gives 4 mol of water, using a reactant that is never fully consumed because the hydrogen runs out first."
     },
     {
       "n": 39,
       "derived": "C",
-      "text": "Dilution conserves moles of solute: 0.020 L × 1.5 M = 0.030 mol of HCl. Dividing by the final volume, 0.030 ÷ 0.150 = 0.20 M (equivalently 1.5 × 20/150). The figure 0.15 M would follow from wrongly assuming a tenfold dilution, but 20 mL to 150 mL is a 7.5-fold dilution."
+      "text": "Given: 20 mL of 1.5 M HCl; final volume after dilution 150 mL.\nRelationship: dilution conserves moles of solute; C₁V₁ = C₂V₂.\nSubstitute: moles of HCl = 0.020 L × 1.5 mol/L = 0.030 mol.\nC₂ = 0.030 mol ÷ 0.150 L = 0.20 mol/L.\nResult: 0.20 M.\nClassic slip: reading 20 mL to 150 mL as a tenfold dilution gives 0.15 M; the true dilution factor is 150 ÷ 20 = 7.5."
     },
     {
       "n": 40,
       "derived": "B",
-      "text": "Number of molecules = moles × Avogadro's constant: 0.50 × 6.02 × 10²³ = 3.01 × 10²³ molecules. Tripling that to 9.03 × 10²³ counts the atoms in the sample (three per CO₂ molecule), which is not what the question asks for."
+      "text": "Given: n = 0.50 mol of CO₂; Nₐ = 6.02 × 10²³ mol⁻¹.\nRelationship: number of molecules = moles × Avogadro's constant.\nSubstitute: N = 0.50 × 6.02 × 10²³ = 3.01 × 10²³ molecules.\nResult: 3.01 × 10²³ molecules.\nClassic slip: multiplying by 3 again to get 9.03 × 10²³ counts the atoms (three per CO₂ molecule), not the molecules the question asks for."
     },
     {
       "n": 41,
       "derived": "D",
-      "text": "Gas laws use absolute temperature: 27 °C = 300 K and 327 °C = 600 K. At constant pressure Charles's law gives V proportional to T, so doubling the kelvin temperature doubles the volume. Taking the ratio of the Celsius values (327 ÷ 27 ≈ 12) produces the spurious twelve-fold increase."
+      "text": "Given: constant pressure; initial temperature 27 °C, final temperature 327 °C.\nRelationship: Charles's law, V proportional to T at constant pressure, with T in kelvin (K = °C + 273).\nSubstitute: T₁ = 27 + 273 = 300 K.\nSubstitute: T₂ = 327 + 273 = 600 K.\nVolume ratio = T₂ ÷ T₁ = 600 ÷ 300 = 2.\nResult: the volume doubles.\nClassic slip: dividing the Celsius values (327 ÷ 27 ≈ 12) predicts a spurious twelve-fold increase; gas laws never use Celsius."
     },
     {
       "n": 42,
@@ -234,77 +234,78 @@
     {
       "n": 47,
       "derived": "A",
-      "text": "Molality is defined as moles of solute per kilogram of solvent: 0.10 mol ÷ 0.500 kg = 0.20 mol/kg. The common slips are dividing by a solution-based mass or scaling to a full kilogram, but the definition pins the denominator to the solvent mass alone."
+      "text": "Given: 0.10 mol of glucose dissolved in 500 g of water.\nRelationship: molality = moles of solute ÷ kilograms of solvent (solvent mass only, never the whole solution).\nSubstitute: solvent mass = 500 g = 0.500 kg.\nmolality = 0.10 mol ÷ 0.500 kg = 0.20 mol/kg.\nResult: 0.20 mol/kg.\nClassic slip: using a solution-based mass or rescaling to a full kilogram ignores that the definition is pinned to the solvent alone."
     },
     {
       "n": 48,
       "derived": "B",
-      "text": "Rearranging: −3x ≥ 14 − 5, so −3x ≥ 9. Dividing by the negative number −3 reverses the inequality sign: x ≤ −3. Failing to flip the sign gives the wrong direction, and using a strict less-than wrongly excludes x = −3, which satisfies the original statement exactly (5 − 3(−3) = 14)."
+      "text": "Given: 5 − 3x ≥ 14.\nRelationship: isolate x; dividing an inequality by a negative number reverses the direction of the sign.\nStep 1: subtract 5 from both sides: −3x ≥ 14 − 5 = 9.\nStep 2: divide by −3 and flip the sign: x ≤ 9 ÷ (−3) = −3.\nResult: x ≤ −3.\nClassic slip: dividing by −3 without flipping gives x ≥ −3; the boundary itself is included, since 5 − 3 × (−3) = 14 satisfies the original exactly."
     },
     {
       "n": 49,
       "derived": "E",
-      "text": "Two conditions apply at once: the square root needs 4 − x ≥ 0, giving x ≤ 4, and the denominator needs x − 2 ≠ 0, giving x ≠ 2. The domain is therefore x ≤ 4 with x ≠ 2. Overlooking the fraction misses the exclusion of 2, while excluding 4 is baseless since x = 4 simply makes the function equal 0."
+      "text": "Givens: f(x) = √(4 − x) ÷ (x − 2); a square root requires a non-negative input, and a denominator may not be zero.\nCondition 1: 4 − x ≥ 0, so x ≤ 4.\nCondition 2: x − 2 ≠ 0, so x ≠ 2.\nCombine: x ≤ 4 and x ≠ 2.\nResult: the domain is x ≤ 4 with x ≠ 2.\nClassic slip: applying only the square-root condition keeps x = 2, where the function divides by zero; excluding x = 4 is groundless, since x = 4 simply makes f(x) = 0."
     },
     {
       "n": 50,
       "derived": "D",
-      "text": "log₃ 81 asks for the exponent x with 3ˣ = 81; since 3 × 3 × 3 × 3 = 81, the value is 4. The figure 27 reverses the question by answering what 3³ equals, and 81 confuses the argument of the logarithm with its value."
+      "text": "Given: log₃ 81.\nRelationship: log₃ 81 = x means 3ˣ = 81.\nBuild the powers: 3¹ = 3; 3² = 9; 3³ = 27; 3⁴ = 81.\nFour factors of 3 are needed, so x = 4.\nResult: 4.\nClassic slip: answering 27 answers the reversed question (what 3³ equals) instead of the exponent that produces 81."
     },
     {
       "n": 51,
       "derived": "C",
-      "text": "At least one head fails only if all three coins show tails, which has probability (1/2)³ = 1/8. Subtracting, P(at least one head) = 1 − 1/8 = 7/8. The value 3/8 counts exactly one head (three of the eight equally likely outcomes), a different event, and 1/8 is the all-tails probability itself."
+      "text": "Given: three fair coins tossed once each; P(head) = P(tail) = 1/2, tosses independent.\nRelationship: P(at least one head) = 1 − P(no heads), and independent probabilities multiply.\nSubstitute: P(no heads) = 1/2 × 1/2 × 1/2 = 1/8.\nP(at least one head) = 1 − 1/8 = 7/8.\nResult: 7/8.\nClassic slip: 3/8 is the probability of exactly one head (three of the eight equally likely outcomes), a different event from at least one head."
     },
     {
       "n": 52,
       "derived": "A",
-      "text": "The ground span is the side adjacent to the 60° angle, so it uses the cosine: 10 × cos 60° = 10 × 0.5 = 5 m. Using sine instead (10 × 0.87 = 8.7 m) gives the ramp's vertical height, not its horizontal reach."
+      "text": "Given: ramp length 10 m; angle with the horizontal 60°; cos 60° = 0.5, sin 60° = 0.87.\nRelationship: the ground span is the side adjacent to the angle, so span = hypotenuse × cos(angle).\nSubstitute: span = 10 m × cos 60° = 10 × 0.5 = 5 m.\nResult: 5 m.\nClassic slip: using sine instead (10 × 0.87 = 8.7 m) computes the ramp's vertical height, not the horizontal distance along the ground."
     },
     {
       "n": 53,
       "derived": "E",
-      "text": "Composition works inside out: g(2) = 2² = 4, then f(4) = 2 × 4 − 3 = 8 − 3 = 5. Reporting 8 applies only the doubling and drops the minus 3, while evaluating g(f(2)) in the wrong order gives (2 × 2 − 3)² = 1."
+      "text": "Given: f(x) = 2x − 3 and g(x) = x²; required f(g(2)).\nRelationship: f(g(2)) applies g first, then feeds its output into f (work inside out).\nStep 1: g(2) = 2² = 4.\nStep 2: f(4) = 2 × 4 − 3 = 8 − 3 = 5.\nResult: 5.\nClassic slip: reporting 8 keeps only the doubling and drops the −3; running the composition backwards gives g(f(2)) = (2 × 2 − 3)² = 1, a different question."
     },
     {
       "n": 54,
       "derived": "B",
-      "text": "Index laws: multiplying powers with the same base adds exponents, and dividing subtracts them. So (2⁵ × 2³) ÷ 2⁴ = 2^(5+3−4) = 2⁴ = 16. Multiplying the exponents (2¹⁵) or adding instead of subtracting on division breaks those laws."
+      "text": "Given: (2⁵ × 2³) ÷ 2⁴.\nRelationship: with equal bases, multiplying adds exponents and dividing subtracts them.\nStep 1: 2⁵ × 2³ = 2⁵⁺³ = 2⁸.\nStep 2: 2⁸ ÷ 2⁴ = 2⁸⁻⁴ = 2⁴.\nStep 3: 2⁴ = 16.\nResult: 16.\nClassic slip: subtracting in the wrong order (2⁴⁻⁸) or multiplying the exponents (2¹⁵) breaks the index laws; the correct chain is add, then subtract."
     },
     {
       "n": 55,
       "derived": "D",
-      "text": "Step 1: the parallel pair gives 1/R = 1/6 + 1/3 = 1/2, so R = 2 Ω. Step 2: this 2 Ω sits in series with the separate 2 Ω resistor, for a total of 4 Ω. Step 3: current = V/R = 6/4 = 1.5 A. Dividing 6 V by the parallel pair alone (2 Ω) forgets the series resistor, and summing all three resistances as if all were in series (11 Ω) ignores the parallel arrangement."
+      "text": "Given: battery 6 V; a 2 Ω resistor in series with a parallel pair of 6 Ω and 3 Ω.\nRelationship: parallel pair: 1/R = 1/R₁ + 1/R₂; series resistances add; current I = V ÷ R.\nStep 1: 1/R = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2, so the pair is 2 Ω.\nStep 2: total resistance = 2 Ω + 2 Ω = 4 Ω.\nStep 3: I = 6 V ÷ 4 Ω = 1.5 A.\nResult: 1.5 A.\nClassic slip: dividing 6 V by the parallel pair alone (2 Ω) forgets the series resistor; adding all three as a series chain (11 Ω) ignores the parallel connection."
     },
     {
       "n": 56,
       "derived": "C",
-      "text": "Power = voltage × current = 230 × 4.6 = 1058 W, closest to 1060 W. Dividing instead of multiplying gives 230 ÷ 4.6 = 50, the arithmetic slip behind the smallest value offered."
+      "text": "Given: V = 230 V and I = 4.6 A.\nRelationship: electrical power P = V × I.\nSubstitute: P = 230 × 4.6 = 1058 W.\n1058 W ≈ 1060 W.\nResult: about 1060 W.\nClassic slip: dividing instead of multiplying (230 ÷ 4.6 = 50) produces the 50 W value."
     },
     {
       "n": 57,
       "derived": "A",
-      "text": "From Q = mcΔT, equal heat and equal masses give ΔT proportional to 1/c. Copper's smaller specific heat (385 against 900) means its temperature rises further, by the factor 900/385 ≈ 2.3. The actual heat supplied cancels in the ratio so it cannot be required, and aluminium, with the larger specific heat, warms less rather than more."
+      "text": "Given: equal masses of aluminium and copper; equal heat Q supplied; c(Al) = 900 J/(kg·K), c(Cu) = 385 J/(kg·K).\nRelationship: Q = m c ΔT, so ΔT = Q ÷ (m c); with Q and m equal, ΔT is proportional to 1/c.\nSubstitute: ΔT(Cu) ÷ ΔT(Al) = c(Al) ÷ c(Cu) = 900 ÷ 385 ≈ 2.3.\nSo copper, with the smaller specific heat, warms about 2.3 times more.\nResult: copper's temperature rises about 2.3 times more than aluminium's.\nClassic slip: expecting the larger specific heat to give the larger rise reverses the inverse relationship; the actual value of Q cancels in the ratio, so it is not needed."
     },
     {
       "n": 58,
       "derived": "E",
-      "text": "The deceleration magnitude is the speed change divided by the stopping time: a = (20 − 0)/4.0 = 5 m/s². Dividing the other way round (4/20 = 0.2) inverts the definition of acceleration."
+      "text": "Given: initial speed 20 m/s, final speed 0, stopping time 4.0 s.\nRelationship: for uniform braking, a = Δv ÷ t = (final − initial speed) ÷ t; the magnitude is the positive size of this.\nSubstitute: a = (20 − 0) ÷ 4.0 = 20 ÷ 4.0 = 5 m/s².\nResult: 5 m/s².\nClassic slip: dividing the other way (4.0 ÷ 20 = 0.2) inverts the definition of acceleration."
     },
     {
       "n": 59,
       "derived": "C",
-      "text": "Distance is the area under the velocity-time graph: rising triangle ½ × 4 × 4 = 8 m, flat rectangle 4 × 4 = 16 m, falling triangle ½ × 4 × 4 = 8 m, totalling 32 m (equivalently the trapezium ½ × (12 + 4) × 4 = 32 m). Counting only the plateau rectangle (16 m) or only the acceleration phases misses part of the motion."
+      "text": "Given: speed rises 0 to 4 m/s during 0 to 4 s; holds 4 m/s from 4 to 8 s; falls to 0 during 8 to 12 s.\nRelationship: distance = area under the velocity-time graph.\nStep 1, acceleration triangle: ½ × 4 s × 4 m/s = 8 m.\nStep 2, constant-speed rectangle: 4 s × 4 m/s = 16 m.\nStep 3, braking triangle: ½ × 4 s × 4 m/s = 8 m.\nTotal distance = 8 + 16 + 8 = 32 m.\nResult: 32 m.\nClassic slip: counting only the flat rectangle (16 m) drops both triangles; the trapezium formula ½ × (12 + 4) × 4 = 32 m confirms the total."
     },
     {
       "n": 60,
       "derived": "B",
-      "text": "A floating block is in equilibrium: the buoyant force equals its weight, and by Archimedes' principle the buoyant force equals the weight of the displaced water, so the displaced water weighs exactly what the block weighs. A displaced volume equal to the block's own volume would require matching densities and full submersion, a block density greater than water's would mean sinking, and a zero buoyant force could not balance the block's weight."
+      "text": "Givens: the block floats stationary in water; stationary means zero net force; Archimedes' principle says the buoyant force equals the weight of the displaced fluid.\nDeduction 1: zero net force means the upward buoyant force equals the block's downward weight.\nDeduction 2: that buoyant force equals the weight of the displaced water.\nDeduction 3: so the weight of the displaced water equals the weight of the block.\nConclusion: the displaced water weighs exactly as much as the block.\nThe equal-volume claim would need the block's density to match water's and the block fully submerged; a floater is less dense than water and displaces less volume than its own."
     }
   ],
   "disagreements": [],
   "notes": [
     "All 60 stored answer keys were confirmed by independent derivation; no disagreements.",
+    "Worked rewrite applied to 28 quantitative/logic items: section A items 2, 4, 5, 6, 8, 9 (constraints, formal logic, clock, data reasoning, sequence, percentages); section C calculations 33, 34, 36, 37, 38, 39, 40, 41, 47; all of section D (48 to 54); all of section E (55 to 60). The other 32 texts are kept exactly as before.",
     "Question 36 is an exam-level idealisation: at 10⁻⁴ M strong acid the true pH is a negligible fraction above 4 due to water autoionisation; the intended value is 4.",
     "Question 3 is a general-knowledge item; the stored fact (Milano and Cortina d'Ampezzo host the 2026 Winter Games) is correct.",
     "Question 2 has more than one valid seating arrangement, but the constraint that S sits at seat 5 holds in all of them, so the must-be-true answer is well defined."

@@ -24,27 +24,27 @@
   {
    "n": 5,
    "derived": "C",
-   "text": "All squares are rectangles places squares inside the class of rectangles, so the only deducible statement is the contrapositive: a figure that is not a rectangle cannot be a square. Claiming that all rectangles are squares is the invalid converse, reversing an inclusion that need not hold both ways. Although some rectangles really are not squares in ordinary geometry, that fact does not follow from the given statement alone, which is compatible with every rectangle being a square, so it is the tempting but undeduced choice."
+   "text": "Restate the given statement: every square is a rectangle, so the squares form a subclass of the rectangles.\nDeduction 1: a figure that is not a rectangle lies outside the whole class of rectangles.\nDeduction 2: since every square lies inside that class, a figure outside it cannot be a square.\nConclusion: if a figure is not a rectangle, then it is not a square; this is the contrapositive, which always follows from a universal statement.\nThe tempting claim that some rectangles are not squares is true in ordinary geometry but not deducible here, because the premise would hold equally well if every rectangle were a square, and reversing the claim into all rectangles are squares is the invalid converse."
   },
   {
    "n": 6,
    "derived": "D",
-   "text": "Step 1: from the pair, if the match is moved indoors it starts at 2 pm, and the match did not start at 2 pm, modus tollens gives that the match was not moved indoors. Step 2: from the pair, if it rains the match is moved indoors, and it was not moved indoors, modus tollens again gives that it did not rain this afternoon. The premises say nothing about lateness, cancellation, or an indoor start at a different time, so those conclusions add unsupported information."
+   "text": "Restate the chain: if it rains, the match is moved indoors; if it is moved indoors, it starts at 2 pm; and it is given that the match did not start at 2 pm.\nDeduction 1: moved indoors leads to a 2 pm start, and there was no 2 pm start, so by modus tollens the match was not moved indoors.\nDeduction 2: rain leads to an indoor move, and there was no indoor move, so by modus tollens again it did not rain this afternoon.\nConclusion: it did not rain this afternoon.\nThe tempting claim that the match started late fails because the premises name no other starting time at all, and cancellation or an indoor start at a different hour would add facts the premises never supply."
   },
   {
    "n": 7,
    "derived": "C",
-   "text": "Bruno is fixed on the third floor. A person living directly above Bruno is on the fourth floor, so Amara is on the fourth; Chiara lives directly above Amara, so Chiara is on the fifth. The constraints determine all three floors uniquely, and any floor at or below the fourth would put Chiara at or under the position her condition forces her to be above."
+   "text": "Restate: one person per floor; Bruno is on the third floor; Amara lives directly above Bruno; Chiara lives directly above Amara.\nDeduction 1: Bruno is fixed on floor 3.\nDeduction 2: directly above floor 3 is floor 4, so Amara lives on floor 4.\nDeduction 3: directly above floor 4 is floor 5, so Chiara lives on floor 5.\nConclusion: Chiara lives on the fifth floor.\nThe tempting fourth floor is already occupied by Amara, and every floor below the fifth would contradict the two directly-above conditions that force Chiara two storeys above Bruno."
   },
   {
    "n": 8,
    "derived": "E",
-   "text": "Each student takes exactly one language. Sara rejects both French and German, so she must take Spanish; Leo already takes German; that leaves only French for Tom. Every other claim assigns Tom or Sara a language already taken or explicitly excluded, so the only correct statement is that Tom studies French."
+   "text": "Restate: three students take exactly one language each among French, German and Spanish; Sara takes neither French nor German; Leo takes German.\nDeduction 1: Sara's two exclusions leave only Spanish, so Sara studies Spanish.\nDeduction 2: Leo is already fixed on German.\nDeduction 3: French and German are taken and Sara holds Spanish, so the only language left for Tom is French.\nConclusion: Tom studies French.\nAny claim giving Tom German or Spanish fails because those languages are already assigned to Leo and Sara, and giving Sara French contradicts an explicit exclusion."
   },
   {
    "n": 9,
    "derived": "C",
-   "text": "Step 1: at 30 minutes the minute hand points at 6, that is 180 degrees clockwise from 12. Step 2: the hour hand moves 30 degrees per hour, so at 9:30 it sits at 9.5 × 30 = 285 degrees, halfway between the 9 and the 10. Step 3: the angle between the hands is 285 − 180 = 105 degrees. The value 90 degrees would hold only if the hour hand were still exactly on the 9; after half an hour it has drifted 15 degrees past it."
+   "text": "Given: the time 9:30; each hour mark on a clock face spans 30° and the hour hand moves 30° per hour.\nMinute hand: at 30 minutes it points exactly at the 6, so its angle clockwise from 12 is 6 × 30° = 180°.\nHour hand: it starts at the 9, at 9 × 30° = 270°, and drifts 0.5 h × 30°/h = 15° during the half hour, giving 270° + 15° = 285°.\nDifference: 285° − 180° = 105°.\nResult: the angle between the hands is 105°.\nThe tempting 90° freezes the hour hand exactly on the 9 and ignores its 15° half-hour drift."
   },
   {
    "n": 10,
@@ -149,12 +149,12 @@
   {
    "n": 30,
    "derived": "B",
-   "text": "A Punnett square for Aa × Aa gives the four equally likely combinations AA, Aa, Aa and aa, so the genotype ratio is 1:2:1. The familiar 3:1 ratio is phenotypic, arising because AA and Aa look identical when the dominant allele masks the recessive one; 1:1:1 comes from crossing a heterozygote with a homozygous recessive, and 9:3:3:1 belongs to a dihybrid cross."
+   "text": "Given: both parents are heterozygous, Aa x Aa.\nStep 1: each parent's gametes carry A or a, 1/2 each.\nStep 2: Punnett square outcomes: AA with probability 1/4, Aa with probability 1/2 (two ways: A then a, or a then A), aa with probability 1/4.\nStep 3: genotypes therefore appear in the ratio AA : Aa : aa = 1 : 2 : 1.\nStep 4: the question asks for the genotype ratio, not the phenotype ratio.\nResult: 1 : 2 : 1.\nClassic slip: 3 : 1 is the phenotype ratio, because AA and Aa look alike; 9 : 3 : 3 : 1 belongs to a dihybrid cross."
   },
   {
    "n": 31,
    "derived": "D",
-   "text": "Let c be the recessive colour-blind allele on the X chromosome. The mother must be a carrier, because her colour-blind father passed her his only X chromosome, the one bearing c; the father is colour blind, so his X carries c and his Y goes to sons. Step 1: every daughter receives the father's c-bearing X, and from her carrier mother receives a normal X or a c-bearing X with equal chance, so half the daughters are unaffected carriers and half are colour blind. Step 2: every son receives the father's Y and one maternal X, so half the sons are colour blind and half have normal vision. Hence on average half of each sex is colour blind; the claim that daughters cannot have received the allele from their father is exactly backwards, since all of them did, and the claim that all daughters are colour blind ignores the normal allele half of them get from their mother."
+   "text": "Given: colour blindness is caused by a recessive allele on the X chromosome; the man is affected, so his only X chromosome carries the allele; the woman has normal vision but her father was colour blind, so her second X must carry the allele and she is a carrier.\nStep 1: half the man's sperm carry his affected X, half carry Y.\nStep 2: half the woman's eggs carry her normal X, half carry her affected X.\nStep 3: combining equally: affected X + normal X = carrier daughter; affected X + affected X = colour-blind daughter; Y + normal X = normal son; Y + affected X = colour-blind son, each with probability 1/4.\nStep 4: so half the sons and half the daughters are colour blind.\nResult: on average half of the sons and half of the daughters are colour blind.\nClassic slip: every daughter does receive the affected X from the father, but half of the daughters also receive a normal X from the mother and so are only carriers."
   },
   {
    "n": 32,
@@ -164,12 +164,12 @@
   {
    "n": 33,
    "derived": "D",
-   "text": "Sodium hydroxide is a strong base and dissociates completely, so the hydroxide concentration equals 1.0 × 10⁻³ mol/dm³ and pOH = −log(10⁻³) = 3. Using pH + pOH = 14 at 25 °C gives pH = 14 − 3 = 11.0. The value 3.0 is the pOH misread as pH, and 13.0 would require a ten times more concentrated, 0.1 mol/dm³, solution."
+   "text": "Given: c(NaOH) = 0.001 mol/dm³ = 1.0 × 10⁻³ mol/dm³, a strong base; Kw = 1.0 × 10⁻¹⁴ at 25 °C.\nRelationship: a strong base dissociates completely, so [OH⁻] equals its concentration; pOH = −log[OH⁻] and pH + pOH = 14.\nSubstitute: [OH⁻] = 1.0 × 10⁻³ mol/dm³, so pOH = −log(1.0 × 10⁻³).\nStep: pOH = 3.0.\nStep: pH = 14.0 − 3.0 = 11.0.\nResult: the pH of the solution is 11.0.\nThe tempting 3.0 is the pOH itself misreported as the pH, and 13.0 would belong to a ten times more concentrated 0.1 mol/dm³ solution."
   },
   {
    "n": 34,
    "derived": "D",
-   "text": "In pure water every ionisation event produces one H⁺ and one OH⁻, so the two concentrations stay equal and each equals the square root of Kw: √(4.0 × 10⁻¹³) = √(40 × 10⁻¹⁴) ≈ 6.3 × 10⁻⁷ mol/dm³. Equal concentrations of H⁺ and OH⁻ is precisely what neutral means, even though the pH is now about 6.2 rather than 7, because neutrality is defined by the balance of the two ions and not by the number 7. Setting the H⁺ concentration equal to Kw itself confuses the ion product with an ion concentration, and keeping 10⁻⁷ ignores the new temperature."
+   "text": "Given: pure water at 80 °C with Kw = 4.0 × 10⁻¹³.\nRelationship: pure water always produces H⁺ and OH⁻ in equal numbers, so [H⁺] = [OH⁻] = √Kw; neutrality means this equality of the two ions, not a pH of exactly 7.\nSubstitute: [H⁺] = √(4.0 × 10⁻¹³) mol/dm³ = √(40 × 10⁻¹⁴) mol/dm³.\nStep: √40 ≈ 6.3, so [H⁺] ≈ 6.3 × 10⁻⁷ mol/dm³, a pH of about 6.2.\nResult: [H⁺] ≈ 6.3 × 10⁻⁷ mol/dm³ and the water is neutral.\nThe tempting 1.0 × 10⁻⁷ mol/dm³ recycles the 25 °C value and ignores the new temperature, and setting [H⁺] equal to Kw itself confuses the ion product with an ion concentration."
   },
   {
    "n": 35,
@@ -184,17 +184,17 @@
   {
    "n": 37,
    "derived": "C",
-   "text": "Assign the usual oxidation numbers, hydrogen +1 and oxygen −2. For the neutral molecule: 3 × (+1) + x + 4 × (−2) = 0, so x − 5 = 0 and x = +5. The value +3 belongs to phosphorous acid, H₃PO₃, which has one oxygen fewer, and +6 or +7 cannot be balanced by this formula at all."
+   "text": "Given: H₃PO₄, a neutral molecule; standard oxidation numbers H = +1 and O = −2.\nRelationship: oxidation numbers sum to zero over a neutral compound; write the unknown value for phosphorus as x.\nSubstitute: 3 × (+1) + x + 4 × (−2) = 0.\nStep: 3 + x − 8 = 0.\nStep: x − 5 = 0.\nResult: x = +5, so phosphorus is in oxidation state +5.\nThe tempting +3 belongs to phosphorous acid, H₃PO₃, which carries one oxygen fewer than phosphoric acid."
   },
   {
    "n": 38,
    "derived": "D",
-   "text": "Iron rises from +2 in FeCl₂ to +3 in FeCl₃, so the iron loses electrons and is oxidised; chlorine falls from 0 in Cl₂ to −1 in the product, so chlorine gains electrons and is reduced. The species that accepts electrons is by definition the oxidising agent, so Cl₂ plays that role and the iron(II) is the reducing agent. Carrying a negative charge, or merely being the product, does not determine the role."
+   "text": "Restate: in 2FeCl₂ + Cl₂ → 2FeCl₃ the oxidising agent is the species that gains electrons and is itself reduced.\nDeduction 1: iron rises from +2 in FeCl₂ to +3 in FeCl₃, so each iron ion loses one electron and is oxidised.\nDeduction 2: chlorine falls from 0 in Cl₂ to −1 in the chloride ions, so each chlorine atom gains one electron and is reduced.\nConclusion: Cl₂ accepts the electrons given up by the iron, so Cl₂ is the oxidising agent and the iron(II) is the reducing agent.\nThe tempting identification of the iron(II) fails because it donates electrons rather than accepting them, and a negative charge alone never defines the role: the chloride in the products is the already-reduced species, not the electron acceptor."
   },
   {
    "n": 39,
    "derived": "C",
-   "text": "Step 1: C₄H₁₀ has only two carbon skeletons, straight-chain butane and branched 2-methylpropane. Step 2: on butane the hydroxyl can sit on carbon 1 or carbon 2, since positions 3 and 4 mirror 1 and 2, giving butan-1-ol and butan-2-ol. Step 3: on 2-methylpropane the hydroxyl on an outer carbon gives 2-methylpropan-1-ol and on the central carbon gives 2-methylpropan-2-ol. That totals 4 alcohols; the open-chain ethers with this same formula are correctly excluded because the question asks only for alcohols."
+   "text": "Given: molecular formula C₄H₁₀O, open-chain alcohols only, so one OH group on a four-carbon skeleton (ethers are excluded by the question).\nStep 1: four carbons admit exactly two skeletons, straight-chain butane and branched 2-methylpropane.\nStep 2: on butane, positions 1 and 4 are equivalent and positions 2 and 3 are equivalent, so the OH gives butan-1-ol and butan-2-ol, 2 isomers.\nStep 3: on 2-methylpropane, the OH on any of the three equivalent outer carbons gives 2-methylpropan-1-ol and on the single central carbon gives 2-methylpropan-2-ol, 2 isomers.\nStep: 2 + 2 = 4 isomers.\nResult: 4 open-chain alcohols.\nThe tempting count of 2 forgets the branched skeleton, and adding the open-chain ethers would overcount, since the question restricts the answer to alcohols."
   },
   {
    "n": 40,
@@ -204,12 +204,12 @@
   {
    "n": 41,
    "derived": "B",
-   "text": "Amount of substance = mass ÷ molar mass = 8.8 g ÷ 44 g/mol = 0.2 mol, since 44 × 0.2 = 8.8. The value 0.44 comes from dividing by 20 instead of 44, and values above 1 mol come from inverting the division and multiplying mass by molar mass."
+   "text": "Given: mass of CO₂ = 8.8 g; M(CO₂) = 44 g/mol.\nRelationship: amount of substance n = mass ÷ molar mass.\nSubstitute: n = 8.8 g ÷ 44 g/mol.\nStep: 8.8 ÷ 44 = 0.2, so n = 0.2 mol.\nResult: 0.2 mol of carbon dioxide.\nThe tempting 0.44 mol comes from dividing 8.8 by 20 instead of 44, and values above 1 mol come from multiplying the mass by the molar mass instead of dividing."
   },
   {
    "n": 42,
    "derived": "D",
-   "text": "Charles's law at constant pressure: V₁/T₁ = V₂/T₂. Substituting, V₂ = 4.0 dm³ × (600 K ÷ 300 K) = 4.0 × 2 = 8.0 dm³, because doubling the absolute temperature doubles the volume. Halving the volume to 2.0 dm³ reverses the law, as if heating shrank the gas."
+   "text": "Given: V₁ = 4.0 dm³ at T₁ = 300 K; heated at constant pressure to T₂ = 600 K.\nRelationship: Charles's law, V₁ ÷ T₁ = V₂ ÷ T₂, so V₂ = V₁ × (T₂ ÷ T₁).\nSubstitute: V₂ = 4.0 dm³ × (600 K ÷ 300 K).\nStep: 600 ÷ 300 = 2, so V₂ = 4.0 dm³ × 2 = 8.0 dm³.\nResult: the volume becomes 8.0 dm³.\nThe tempting 2.0 dm³ halves the volume on heating, reversing the direct proportionality; a gas shrinks only when its absolute temperature falls."
   },
   {
    "n": 43,
@@ -219,12 +219,12 @@
   {
    "n": 44,
    "derived": "A",
-   "text": "Fill the sublevels in order for 16 electrons: 1s² (2) + 2s² (4) + 2p⁶ (10) + 3s² (12), leaving 16 − 12 = 4 electrons for 3p, so 1s² 2s² 2p⁶ 3s² 3p⁴. The configuration ending 3p⁶ totals 18 electrons and belongs to argon, not sulfur; moving an electron from 3s to 3p, or draining 2p to top up 3p, keeps the same total but violates the sublevel filling order."
+   "text": "Given: neutral sulfur, Z = 16, so 16 electrons to place in the order 1s, 2s, 2p, 3s, 3p.\nStep 1: 1s² takes 2 electrons, running total 2.\nStep 2: 2s² takes 2, running total 4.\nStep 3: 2p⁶ takes 6, running total 10.\nStep 4: 3s² takes 2, running total 12.\nStep 5: the remaining 16 − 12 = 4 electrons fill 3p, giving 3p⁴.\nResult: 1s² 2s² 2p⁶ 3s² 3p⁴.\nThe tempting configuration ending in 3p⁶ holds 18 electrons in total, which is argon rather than sulfur, and the other variants keep 16 only by illegally emptying 2s or 2p."
   },
   {
    "n": 45,
    "derived": "C",
-   "text": "For an equilibrium aA + bB ⇌ cC, the constant is the product concentrations divided by the reactant concentrations, each raised to its coefficient in the balanced equation. Here the coefficients are 2, 1 and 2, so K = [SO₃]² ÷ ([SO₂]² × [O₂]). Dropping the square on the SO₂ concentration, inverting the whole fraction, or using the coefficients as multiplying factors instead of exponents all give invalid expressions."
+   "text": "Given: 2SO₂(g) + O₂(g) ⇌ 2SO₃(g) with coefficients 2, 1 and 2.\nRelationship: the equilibrium constant equals the product concentrations divided by the reactant concentrations, each raised to the power of its stoichiometric coefficient.\nSubstitute: numerator [SO₃] to the power 2; denominator [SO₂] to the power 2 multiplied by [O₂] to the power 1.\nResult: K = [SO₃]² ÷ ([SO₂]² × [O₂]).\nThe tempting version with plain [SO₂] in the denominator forgets that the coefficient 2 becomes an exponent on the SO₂ concentration, and the inverted fraction swaps products and reactants."
   },
   {
    "n": 46,
@@ -234,77 +234,78 @@
   {
    "n": 47,
    "derived": "D",
-   "text": "The total positive charge must cancel the total negative charge: the least common multiple of 3 and 2 is 6, so two Al³⁺ ions give +6 and three SO₄²⁻ ions give −6, requiring Al₂(SO₄)₃, with parentheses because the sulfate ion appears three times. The alternative formulas leave a net charge, for example +1 for AlSO₄ and −3 for Al(SO₄)₃, so none of them can describe a neutral compound."
+   "text": "Given: aluminium ion Al³⁺ with charge +3; sulfate ion SO₄²⁻ with charge −2.\nRelationship: a neutral compound needs equal total positive and negative charge, so take the least common multiple of the charge magnitudes.\nStep: LCM(3, 2) = 6, so the compound needs +6 from aluminium and −6 from sulfate.\nStep: 6 ÷ 3 = 2 aluminium ions and 6 ÷ 2 = 3 sulfate ions.\nResult: Al₂(SO₄)₃, with parentheses because the polyatomic sulfate group appears three times.\nThe tempting AlSO₄ leaves a net charge of +1, and swapping the subscripts to Al₃(SO₄)₂ gives +9 against −4, so neither is neutral."
   },
   {
    "n": 48,
    "derived": "D",
-   "text": "Step 1: subtract 1 from both sides, giving −2x ≥ 4. Step 2: divide both sides by −2; dividing by a negative number reverses the inequality sign, so x ≤ −2. Forgetting the reversal gives x ≥ −2, and mishandling the sign of the constant produces the versions ending at +2, so the sign flip is the whole point of the question."
+   "text": "Given: 1 − 2x ≥ 5.\nStep 1: subtract 1 from both sides, giving −2x ≥ 5 − 1 = 4.\nStep 2: divide both sides by −2; dividing by a negative number reverses the inequality sign.\nStep 3: x ≤ 4 ÷ (−2) = −2.\nResult: x ≤ −2.\nThe tempting x ≥ −2 forgets the sign reversal, and the answers ending at +2 come from losing the minus sign on the constant or on the coefficient."
   },
   {
    "n": 49,
    "derived": "B",
-   "text": "The square of any real number is never negative, and (x − 2)² equals zero only at x = 2 while being strictly positive everywhere else. The condition (x − 2)² ≥ 0 is therefore satisfied by every real number, so the solution set is all real numbers. Restricting the answer to x = 2 solves the stricter equation (x − 2)² = 0, not the inequality."
+   "text": "Restate: find every real x satisfying (x − 2)² ≥ 0.\nDeduction 1: the square of a real number is never negative, so (x − 2)² ≥ 0 holds automatically for every x.\nDeduction 2: equality holds only at x = 2, but the inequality is satisfied by that value and by every other real number as well.\nConclusion: the solution set is all real numbers.\nThe tempting restriction to only x = 2 solves the stricter equation (x − 2)² = 0 instead of the given inequality, and the empty set would require a condition no real number can meet, such as a square being negative."
   },
   {
    "n": 50,
    "derived": "A",
-   "text": "By inclusion-exclusion, the number studying at least one language is 25 + 18 − 9 = 34, because the 9 taking both were counted twice. The class has 40 students, so 40 − 34 = 6 study neither language. The value 34 reports the union instead of the complement, and the value 15 merely counts students not taking French while forgetting the German-only students."
+   "text": "Given: class of 40; 25 study French, 18 study German, 9 study both.\nRelationship: inclusion-exclusion, students taking at least one language = French + German − both, because the 9 taking both were counted twice.\nSubstitute: 25 + 18 − 9.\nStep: 25 + 18 = 43.\nStep: 43 − 9 = 34 study at least one language.\nStep: 40 − 34 = 6 study neither.\nResult: 6 students study neither language.\nThe tempting 15 counts only the students outside French and forgets the German-only students, and 34 stops at the union without subtracting it from the class size."
   },
   {
    "n": 51,
    "derived": "B",
-   "text": "Substitute y = 3 into 3x + 2y = 12: 3x + 6 = 12, so 3x = 6 and x = 2. The answer 3 simply copies the given y, and dividing 12 by 3 before subtracting the 6 gives the incorrect 4."
+   "text": "Given: 3x + 2y = 12 and y = 3.\nStep 1: substitute y = 3, giving 3x + 2 × 3 = 3x + 6 = 12.\nStep 2: subtract 6 from both sides, giving 3x = 12 − 6 = 6.\nStep 3: divide both sides by 3, giving x = 6 ÷ 3 = 2.\nResult: x = 2.\nThe tempting 4 comes from dividing 12 by 3 before removing the 6, and copying the given y supplies the spurious 3."
   },
   {
    "n": 52,
    "derived": "D",
-   "text": "Recognise the difference of squares: x² − 16 = x² − 4² = (x − 4)(x + 4). Expanding back, x² + 4x − 4x − 16 = x² − 16, confirming the middle terms cancel. The perfect squares (x − 4)² and (x + 4)² each add an extra 8x term, x(x − 16) expands to x² − 16x, and (x − 2)(x + 8) expands to x² + 6x − 16."
+   "text": "Given: the expression x² − 16.\nRelationship: difference of squares, a² − b² = (a − b)(a + b).\nSubstitute: 16 = 4², so x² − 16 = x² − 4² = (x − 4)(x + 4).\nCheck by expanding: (x − 4)(x + 4) = x² + 4x − 4x − 16 = x² − 16, the middle terms cancel.\nResult: x² − 16 = (x − 4)(x + 4).\nThe tempting (x − 4)² expands to x² − 8x + 16, carrying a linear term the original lacks, and x(x − 16) expands to x² − 16x."
   },
   {
    "n": 53,
    "derived": "C",
-   "text": "Pythagoras' theorem gives the hypotenuse: √(6² + 8²) = √(36 + 64) = √100 = 10 cm. The perimeter is 6 + 8 + 10 = 24 cm. Adding only the two legs gives 14 cm, which omits the longest side entirely."
+   "text": "Given: right-angled triangle with legs 6 cm and 8 cm.\nRelationship: Pythagoras' theorem, hypotenuse = √(first leg² + second leg²).\nSubstitute: hypotenuse = √(6² + 8²) cm.\nStep: 6² = 36 and 8² = 64, so the sum is 36 + 64 = 100 cm².\nStep: √100 cm² = 10 cm, so the hypotenuse is 10 cm.\nStep: perimeter = 6 cm + 8 cm + 10 cm = 24 cm.\nResult: the perimeter is 24 cm.\nThe tempting 14 cm adds only the two legs and leaves out the hypotenuse entirely."
   },
   {
    "n": 54,
    "derived": "B",
-   "text": "The side opposite an angle relates to the hypotenuse by the sine: opposite = hypotenuse × sin(30°) = 10 × 1/2 = 5 cm. The value 5√3 cm would be the side adjacent to the 30° angle, since cos(30°) = √3/2, and a leg of 10 cm is impossible because it would equal the hypotenuse of the same right triangle."
+   "text": "Given: right-angled triangle, one angle 30°, hypotenuse 10 cm.\nRelationship: sine of an angle = opposite side ÷ hypotenuse, so opposite = hypotenuse × sin(angle).\nSubstitute: opposite = 10 cm × sin(30°).\nStep: sin(30°) = 1/2 exactly.\nStep: 10 cm × 1/2 = 5 cm.\nResult: the side opposite the 30° angle is 5 cm.\nThe tempting 5√3 cm is the side adjacent to the 30° angle, obtained by multiplying by cos(30°) = √3/2 instead of the sine."
   },
   {
    "n": 55,
    "derived": "D",
-   "text": "Distance is the area under the velocity-time graph, here a rectangle of height 6 m/s and width 10 s: 6 × 10 = 60 m. The value 30 m would follow from using an average speed of 3 m/s, appropriate for uniform acceleration from rest but not for a constant velocity, and 600 m multiplies by 100 instead of 10."
+   "text": "Given: constant velocity v = 6 m/s from t = 0 s to t = 10 s.\nRelationship: at constant velocity, distance = velocity × time, which is the area of the rectangle under the velocity-time graph.\nSubstitute: distance = 6 m/s × 10 s.\nStep: 6 × 10 = 60, so distance = 60 m.\nResult: the cyclist covers 60 m.\nThe tempting 30 m halves the speed as if the cyclist accelerated uniformly from rest, and 600 m multiplies by 100 instead of 10."
   },
   {
    "n": 56,
    "derived": "C",
-   "text": "Ohm's law: R = V ÷ I = 12 V ÷ 0.5 A = 24 Ω. Multiplying instead of dividing gives 6, which is actually the power in watts (V × I), and doubling the voltage again yields the spurious 48 Ω."
+   "text": "Given: V = 12 V across the lamp, I = 0.5 A through it.\nRelationship: Ohm's law, resistance R = V ÷ I.\nSubstitute: R = 12 V ÷ 0.5 A.\nStep: dividing by 0.5 doubles the value, so R = 12 × 2 = 24 Ω.\nResult: the resistance of the lamp is 24 Ω.\nThe tempting 6 Ω multiplies instead of dividing, 12 × 0.5 = 6, which is in fact the power in watts, and 48 Ω doubles the voltage a second time."
   },
   {
    "n": 57,
    "derived": "B",
-   "text": "Energy = power × time. Convert 60 W to 0.06 kW, then 0.06 kW × 2 h = 0.12 kWh. In joules the same result is 60 W × 7200 s = 432000 J, and 432000 ÷ 3600000 = 0.12 kWh; each neighbouring option merely shifts the decimal point."
+   "text": "Given: P = 60 W left on for t = 2 hours.\nRelationship: energy = power × time; in kilowatt-hours the power must be in kW and the time in hours.\nStep: 60 W = 0.06 kW.\nSubstitute: E = 0.06 kW × 2 h.\nStep: 0.06 × 2 = 0.12, so E = 0.12 kWh.\nResult: the lamp consumes 0.12 kWh.\nEvery tempting neighbouring value merely shifts the decimal point, for example 1.2 kWh from misreading 60 W as 0.6 kW."
   },
   {
    "n": 58,
    "derived": "A",
-   "text": "Constant velocity means zero acceleration, so Newton's second law with a = 0 forces the resultant force to be zero: the forward push exactly balances friction, and the weight is separately balanced by the normal reaction. Any non-zero resultant, whether forwards or backwards, would accelerate the box and change its velocity."
+   "text": "Restate: the box slides across a level floor at constant velocity; find the resultant force.\nDeduction 1: constant velocity means zero acceleration.\nDeduction 2: Newton's second law gives resultant force = mass × acceleration = mass × 0 = 0.\nDeduction 3: the individual forces do not vanish; the forward push exactly cancels the backward friction, and the weight is separately cancelled by the normal reaction from the floor.\nConclusion: the resultant force on the box is zero.\nThe tempting force equal to friction but directed forwards is the push itself, a single force rather than the resultant; any non-zero resultant would accelerate the box and change its velocity."
   },
   {
    "n": 59,
    "derived": "B",
-   "text": "Weight is mass times local gravitational acceleration, W = mg. The astronaut's mass is the same everywhere, but the Moon's smaller mass and radius give a surface gravity of about 1.6 m/s², roughly one sixth of Earth's 9.8 m/s², so the same body weighs one sixth as much. The amount of matter in the astronaut does not change with location, and the presence or absence of an atmosphere has no bearing on weight."
+   "text": "Given: mass m of the astronaut, unchanged by location; g(Earth) ≈ 9.8 m/s²; g(Moon) ≈ 1.6 m/s².\nRelationship: weight W = mass × local gravitational acceleration.\nStep: ratio of weights = 1.6 ÷ 9.8 ≈ 0.16 ≈ 1/6.\nStep: 9.8 ÷ 6 ≈ 1.6 m/s², confirming that the Moon's smaller mass and radius give about one sixth of Earth's surface gravity.\nResult: the same mass multiplied by a six times smaller g, so the astronaut weighs one sixth as much on the Moon.\nThe tempting claim that the astronaut contains less matter confuses weight with mass, which is identical everywhere, and the absence of an atmosphere plays no part in defining weight."
   },
   {
    "n": 60,
    "derived": "B",
-   "text": "The apparent weight equals the true weight minus the upward buoyant force, so B = 50 − 40 = 10 N. By Archimedes' principle this equals the weight of the water displaced by the object. The values 40 N and 50 N are the apparent and true weights themselves, not the buoyant force, and 90 N adds the two weights where the physics subtracts them."
+   "text": "Given: true weight in air = 50 N; apparent weight fully submerged = 40 N.\nRelationship: the water pushes up with a buoyant force, so apparent weight = true weight − buoyant force, hence buoyant force = true weight − apparent weight.\nSubstitute: buoyant force = 50 N − 40 N.\nStep: 50 − 40 = 10, so buoyant force = 10 N.\nResult: the buoyant force is 10 N, which by Archimedes' principle equals the weight of the displaced water.\nThe tempting 40 N is the apparent weight itself rather than the upward force, and 90 N adds the two weights where the physics subtracts them."
   }
  ],
  "disagreements": [],
  "notes": [
   "All 60 derived answers agree with the stored key; no disagreements.",
+  "Worked rewrites applied to the logic items Q5-9, the quantitative chemistry items Q33, 34, 37, 38, 39, 41, 42, 44, 45 and 47, all mathematics Q48-54 and all physics Q55-60; reading, biology and qualitative chemistry texts (Q35, 36, 40, 43, 46) are unchanged.",
   "Q39: the molecular formula C₄H₁₀O also admits open-chain ether isomers; the count of 4 is correct only because the stem restricts the question to alcohols.",
   "Q46: the distractor claiming the number of reactant molecules able to react stays the same is loosely worded (the fraction able to react clearly rises with temperature), but activation energy is the only listed property that is strictly temperature-independent.",
   "Q16: standard textbook shares are used (about 70% as bicarbonate, roughly a fifth as carbamino compounds, only a few percent dissolved); the bank explanation's ~70% figure matches."

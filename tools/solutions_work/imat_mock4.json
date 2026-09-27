@@ -19,32 +19,32 @@
     {
       "n": 4,
       "derived": "A",
-      "text": "V must be at the very top, and the chain T above R above S, with U immediately below S, fixes the run T, R, S, U in positions 2 to 5, leaving the sixth box W at the bottom: V, T, R, S, U, W. Every other listing breaks a rule: one starts with T, leaving V below the top; one puts R above T; one swaps R and S; and one places U second, contradicting U immediately below S. The arrangement is unique."
+      "text": "Givens: six boxes R, S, T, U, V, W in one stack. V is at the very top. R is above S and below T, so the order T above R above S holds. U is immediately below S.\nDeductions:\nV locks position 1.\nT, R, S, U form a fixed run of four consecutive slots, because U must sit directly under S at the end of the chain.\nThe stack has exactly four free slots (positions 2 to 5), so the run fills them in order: position 2 T, 3 R, 4 S, 5 U.\nThe only box left, W, takes position 6.\nConclusion: from top to bottom the order is V, T, R, S, U, W, and it is unique.\nThe tempting V, T, S, R, U, W swaps R and S, breaking the rule that R sits above S."
     },
     {
       "n": 5,
       "derived": "E",
-      "text": "The premises connect squares to rectangles (all) and rectangles to rhombi (some), but the 'some rectangles' that are rhombi need not include any square, and nothing forces every square to be a rhombus either; both cases remain logically possible, so no conclusion about squares and rhombi is entailed. The suggestion that some rectangles are squares would require assuming squares exist (existential import), which a universal statement alone does not provide. Although in real geometry a square is in fact a rhombus, that is outside knowledge, not a deduction from these premises."
+      "text": "Givens: all squares are rectangles; some rectangles are rhombi.\nDeductions:\nThe rectangles that are rhombi are unspecified, so they may all be rectangles other than squares.\nNo premise forces any square to be a rhombus, and none forbids it either; both 'some squares are rhombi' and 'no square is a rhombus' remain possible.\nConclusion: no valid conclusion about squares being rhombi follows from these premises.\nThe tempting 'some rectangles are squares' would need squares to exist, which a universal statement alone never guarantees; the everyday fact that a square is a rhombus is outside knowledge, not a deduction from the givens."
     },
     {
       "n": 6,
       "derived": "B",
-      "text": "Step 1: from 5 machines making 5 widgets in 5 minutes, each machine makes 1 widget in 5 minutes. Step 2: 100 machines working in parallel each make 1 widget in the same 5 minutes, so 100 widgets take 5 minutes. The intuitive answer of 100 minutes wrongly scales time with the machine and widget counts, which here grow together and leave the time unchanged."
+      "text": "Given: 5 machines make 5 widgets in 5 minutes.\nRate: per machine, 5 widgets ÷ 5 machines = 1 widget per machine in 5 minutes.\nSubstitute: 100 machines × 1 widget per machine, all working in parallel.\n100 machines turn out 100 widgets in the same 5 minutes.\nResult: 5 minutes.\nThe tempting 100 minutes scales the time with the machine count; but machines and widgets both grow ×20, so the time per machine never changes."
     },
     {
       "n": 7,
       "derived": "D",
-      "text": "Step 1: at 30 minutes the minute hand sits at 30/60 × 360° = 180°. Step 2: the hour hand moves 360° in 12 hours, i.e. 30° per hour, so in 30 minutes it moves 15° away from the 12. Step 3: the angle between the hands is 180° − 15° = 165°. The tempting 180° assumes the hour hand is still exactly on 12 and ignores its drift toward 1."
+      "text": "Given: clock reading 12:30.\nRelationships: the minute hand covers 360° in 60 min (6° per min); the hour hand covers 360° in 12 h, i.e. 30° per hour.\nMinute hand: 30 min × 6°/min = 180°, pointing at 6.\nHour hand: 30° × 0.5 = 15° past the 12.\nAngle between the hands: 180° − 15° = 165°.\nResult: 165°.\nThe tempting 180° treats the hour hand as still exactly on 12 and ignores its 15° drift toward 1."
     },
     {
       "n": 8,
       "derived": "B",
-      "text": "My mother's only daughter is Maria herself, since she has no sisters. The sentence therefore says the photographed person's mother is Maria, so the person in the photograph is Maria's daughter. Maria herself is ruled out because that person's mother would then be Maria's mother, not Maria, and a sister or aunt would require another daughter of Maria's mother."
+      "text": "Givens: Maria says the pictured person's mother is my mother's only daughter.\nDeductions:\nMaria's mother has only one daughter, so 'my mother's only daughter' is Maria herself.\nThe pictured person's mother is therefore Maria.\nA person whose mother is Maria is Maria's child.\nConclusion: the person in the photograph is Maria's daughter.\nThe tempting 'Maria herself' fails because the pictured person's mother would then have to be Maria's mother, not Maria."
     },
     {
       "n": 9,
       "derived": "B",
-      "text": "Let the number be x. Doubling then adding 8 gives 2x + 8 = 20, so 2x = 12 and x = 6; check: 2 × 6 + 8 = 20. Wrong values such as halving 20 directly come from undoing the operations in the wrong order; the correct reversal is subtract 8 first, then halve."
+      "text": "Given: a number x is doubled, then 8 is added, giving 20.\nEquation: 2x + 8 = 20.\nUndo the adding first: 2x = 20 − 8 = 12.\nUndo the doubling: x = 12 ÷ 2 = 6.\nCheck: 2 × 6 + 8 = 12 + 8 = 20.\nResult: x = 6.\nThe tempting 10 comes from halving 20 straight away; the reversal must run backwards, subtract 8 first, then halve."
     },
     {
       "n": 10,
@@ -79,7 +79,7 @@
     {
       "n": 16,
       "derived": "E",
-      "text": "Each pH unit corresponds to a factor of 10 in H⁺ concentration, so a difference of 5 − 2 = 3 units gives a ratio of 10³ = 1000. The answer 30 comes from multiplying the difference by 10 as if the scale were linear, and 100 from taking the difference as 2 units."
+      "text": "Given: one solution at pH 2, another at pH 5.\nRelationship: each pH unit is a factor of 10 in H⁺ concentration, so the acidity ratio is 10 raised to the pH difference.\nSubstitute: pH difference = 5 − 2 = 3 units.\nRatio = 10³ = 1000.\nResult: the pH 2 solution is 1000 times more acidic.\nThe tempting 30 treats the pH scale as linear and multiplies the 3-unit gap by 10; the scale is logarithmic, so whole powers of 10 apply."
     },
     {
       "n": 17,
@@ -164,27 +164,27 @@
     {
       "n": 33,
       "derived": "B",
-      "text": "Step 1: molar mass of CO₂ = 12 + 2 × 16 = 44 g/mol. Step 2: n = m ÷ M = 22 g ÷ 44 g/mol = 0.5 mol. Counting only one oxygen (molar mass 28) or inverting the division produces the other numerical options, and 22 is the given mass, not an amount in moles."
+      "text": "Given: mass m = 22 g of CO₂; atomic masses C = 12 g/mol, O = 16 g/mol.\nFormula: amount n = mass ÷ molar mass, n = m ÷ M.\nMolar mass: M(CO₂) = 12 + (2 × 16).\n2 × 16 = 32, so M(CO₂) = 12 + 32 = 44 g/mol.\nSubstitute: n = 22 g ÷ 44 g/mol.\n22 ÷ 44 = 0.5.\nResult: n = 0.5 mol.\nThe tempting 2 mol comes from inverting the division (44 ÷ 22); moles are mass divided by molar mass, never the reverse."
     },
     {
       "n": 34,
       "derived": "B",
-      "text": "At STP one mole of ideal gas occupies 22.4 L, so V = n × Vm = 0.25 × 22.4 = 5.6 L. The value 11.2 L is the volume of 0.5 mol, twice the given amount, and 22.4 L would require a full mole."
+      "text": "Given: n = 0.25 mol of ideal gas at STP; molar volume Vm = 22.4 L/mol.\nFormula: volume V = n × Vm.\nSubstitute: V = 0.25 mol × 22.4 L/mol.\n0.25 × 22.4 = 5.6.\nResult: V = 5.6 L.\nThe tempting 11.2 L is the volume of 0.5 mol, twice the given amount; a quarter mole fills a quarter of 22.4 L."
     },
     {
       "n": 35,
       "derived": "A",
-      "text": "Helium is monatomic, so the number of atoms equals moles × Avogadro's number: 1.5 × 6.022 × 10²³ = 9.03 × 10²³. The plain 6.02 × 10²³ forgets the 1.5 multiplier (that is one mole), and 3.01 × 10²³ corresponds to only 0.5 mol."
+      "text": "Given: n = 1.5 mol of He; Avogadro's number = 6.022 × 10²³ particles per mol.\nRelationship: atoms = n × Avogadro's number; helium is monatomic, so each particle is a single atom.\nSubstitute: atoms = 1.5 mol × 6.022 × 10²³ per mol.\n1.5 × 6.022 = 9.033, so atoms ≈ 9.03 × 10²³.\nResult: 9.03 × 10²³ atoms.\nThe tempting 6.02 × 10²³ is exactly 1 mol of atoms and drops the factor 1.5; 3.01 × 10²³ would be only 0.5 mol."
     },
     {
       "n": 36,
       "derived": "B",
-      "text": "Step 1: n = 5.85 g ÷ 58.5 g/mol = 0.1 mol. Step 2: convert the volume: 500 mL = 0.5 L. Step 3: M = 0.1 mol ÷ 0.5 L = 0.2 M. Stopping after step 1 and quoting the mole amount as a concentration gives the 0.1 M trap."
+      "text": "Given: m = 5.85 g NaCl; M = 58.5 g/mol; final volume 500 mL.\nFormulas: n = m ÷ M, then concentration c = n ÷ V, with V in litres.\nMoles: n = 5.85 g ÷ 58.5 g/mol = 0.1 mol.\nVolume: 500 mL = 0.5 L.\nSubstitute: c = 0.1 mol ÷ 0.5 L.\n0.1 ÷ 0.5 = 0.2.\nResult: c = 0.2 M.\nThe tempting 0.1 M quotes the mole amount as a concentration and forgets to divide by the 0.5 L volume."
     },
     {
       "n": 37,
       "derived": "B",
-      "text": "Let the oxidation number of Cr be x. With oxygen at −2 and the ion's total charge at −2: 2x + 7 × (−2) = −2, so 2x = 12 and x = +6. The value +12 stops before dividing by the two chromium atoms, and −2 is the contribution of the oxygens, not of chromium."
+      "text": "Given: ion Cr₂O₇²⁻; oxygen's oxidation number is −2; all oxidation numbers sum to the ion charge, −2.\nEquation: 2x + 7 × (−2) = −2, with x the oxidation number of one Cr.\nOxygen's total: 7 × (−2) = −14.\nSo 2x = −2 + 14 = +12.\nx = 12 ÷ 2 = +6.\nResult: Cr is +6.\nThe tempting +12 stops at 2x and forgets to divide by the two chromium atoms."
     },
     {
       "n": 38,
@@ -194,7 +194,7 @@
     {
       "n": 39,
       "derived": "C",
-      "text": "Step 1: NaOH dissociates fully, so [OH⁻] = 0.05 M. Step 2: pOH = −log(0.05) = −log(5 × 10⁻²) = 2 − log 5 ≈ 2 − 0.70 = 1.30. Step 3: pH = 14 − 1.30 = 12.70. The value 1.3 is exactly this pOH misread as a pH, and 13 would correspond to 0.1 M."
+      "text": "Given: strong base NaOH, c = 0.05 M, full dissociation, 25 °C so pH + pOH = 14.\nSteps: [OH⁻] = 0.05 M; pOH = −log[OH⁻]; pH = 14 − pOH.\nSubstitute: pOH = −log(0.05) = −log(5 × 10⁻²).\nlog 5 ≈ 0.70, so pOH = 2 − 0.70 = 1.30.\nThen pH = 14 − 1.30 = 12.70.\nResult: pH ≈ 12.7.\nThe tempting 1.3 is the pOH misread as the pH; a base must land above 7."
     },
     {
       "n": 40,
@@ -239,67 +239,67 @@
     {
       "n": 48,
       "derived": "A",
-      "text": "Step 1: 2x² = 8. Step 2: x² = 4. Step 3: x = +2 or x = −2, since squaring either gives 4. The answer x = 2 only drops the negative root, and x = ±4 comes from skipping the division by 2 before taking the square root."
+      "text": "Given: 2x² − 8 = 0.\nRearrange: 2x² = 8.\nDivide by 2: x² = 8 ÷ 2 = 4.\nSquare root both sides: x = +2 or x = −2, because both square to 4.\nResult: x = ±2.\nThe tempting x = 2 only drops the negative root; x = ±4 skips the division by 2 before taking the root."
     },
     {
       "n": 49,
       "derived": "C",
-      "text": "The equation |x − 3| = 5 says x is 5 units from 3, so x = 3 + 5 = 8 or x = 3 − 5 = −2. Both roots are needed: answering 8 only or −2 only discards one branch of the absolute value."
+      "text": "Given: |x − 3| = 5.\nMeaning: the distance from x to 3 is 5, so the inside equals +5 or −5.\nCase +5: x − 3 = 5, so x = 3 + 5 = 8.\nCase −5: x − 3 = −5, so x = 3 − 5 = −2.\nResult: x = 8 or x = −2.\nThe tempting single answers (8 only, or −2 only) each keep one case of the absolute value and discard the other."
     },
     {
       "n": 50,
       "derived": "A",
-      "text": "Step 1: combine the logs: log₂[x(x − 3)] = 2. Step 2: undo the log: x(x − 3) = 2² = 4. Step 3: x² − 3x − 4 = 0, so (x − 4)(x + 1) = 0 and x = 4 or x = −1. The domain x > 3 rejects x = −1 as extraneous, leaving x = 4."
+      "text": "Given: log₂(x) + log₂(x − 3) = 2, with x > 3.\nCombine the logs: log₂[x(x − 3)] = 2.\nUndo the log: x(x − 3) = 2² = 4.\nExpand: x² − 3x − 4 = 0.\nFactor: (x − 4)(x + 1) = 0, so x = 4 or x = −1.\nApply the domain x > 3: x = −1 is rejected, x = 4 survives.\nResult: x = 4.\nThe tempting x = −1 solves the quadratic but makes log₂(x − 3) undefined, so it is extraneous."
     },
     {
       "n": 51,
       "derived": "C",
-      "text": "x² − 4 < 0 factors as (x − 2)(x + 2) < 0, which holds between the roots, so −2 < x < 2. The reversed region x < −2 or x > 2 solves the opposite inequality x² > 4, and the one-sided bounds each miss part of the interval."
+      "text": "Given: x² − 4 < 0.\nRearrange: x² < 4, i.e. (x − 2)(x + 2) < 0.\nBoundaries: the roots x = −2 and x = +2 split the number line into three zones.\nTest the middle, x = 0: 0² − 4 = −4 < 0, true; points beyond ±2 give a positive product.\nResult: −2 < x < 2.\nThe tempting 'x < −2 or x > 2' solves the reversed inequality x² > 4; a square smaller than a number lies between the roots."
     },
     {
       "n": 52,
       "derived": "C",
-      "text": "V = πr²h = 3.14 × 3² × 10 = 3.14 × 9 × 10 = 282.6. The value 94.2 comes from forgetting to square the radius (3.14 × 3 × 10), and 30 from omitting π altogether."
+      "text": "Given: cylinder radius r = 3, height h = 10, π = 3.14.\nFormula: V = πr²h.\nSubstitute: V = 3.14 × 3² × 10.\n3² = 9, so V = 3.14 × 9 × 10.\n3.14 × 9 = 28.26.\n28.26 × 10 = 282.6.\nResult: V = 282.6.\nThe tempting 94.2 forgets to square the radius and computes 3.14 × 3 × 10."
     },
     {
       "n": 53,
       "derived": "C",
-      "text": "In a 45-45-90 right triangle the two legs are equal, so tan 45° = opposite ÷ adjacent = 1. The values √3 and √3/3 are tan 60° and tan 30° respectively, and 0 is tan 0°."
+      "text": "Given: tan 45°.\nMethod: in a 45-45-90 right triangle the two legs are equal, and tan = opposite ÷ adjacent.\nSubstitute: tan 45° = 1 ÷ 1.\nResult: tan 45° = 1.\nThe tempting √3 and √3/3 are tan 60° and tan 30°, dragged in from the 30-60-90 special triangle."
     },
     {
       "n": 54,
       "derived": "B",
-      "text": "The even faces greater than 2 are 4 and 6, giving 2 favourable outcomes out of 6 equally likely faces: P = 2/6 = 1/3. Including the face 2, which is not greater than 2, wrongly gives 3/6 = 1/2."
+      "text": "Given: one fair six-sided die; success = even face and greater than 2.\nSample space: 6 equally likely faces.\nFavourable faces: even and above 2 gives 4 and 6, so 2 outcomes.\nSubstitute: P = 2 ÷ 6.\n2 ÷ 6 = 1/3.\nResult: P = 1/3.\nThe tempting 1/2 also counts the face 2, but 2 is even without being greater than 2."
     },
     {
       "n": 55,
       "derived": "B",
-      "text": "Acceleration is the change in velocity over time: a = (25 − 5) ÷ 10 = 20 ÷ 10 = 2 m/s². The value 20 m/s² is the velocity change never divided by the time, and using the final speed alone (25 ÷ 10 = 2.5) is not the acceleration either."
+      "text": "Given: initial speed 5 m/s, final speed 25 m/s, time 10 s.\nFormula: acceleration a = (final speed − initial speed) ÷ time.\nSubstitute: a = (25 − 5) ÷ 10.\n25 − 5 = 20, so a = 20 ÷ 10 = 2 m/s².\nResult: a = 2 m/s².\nThe tempting 20 m/s² is the velocity change itself, never divided by the 10 s."
     },
     {
       "n": 56,
       "derived": "B",
-      "text": "Step 1: in series, resistances add: R = 4 + 2 = 6 Ω. Step 2: I = V ÷ R = 12 ÷ 6 = 2 A. The value 3 A comes from dividing by only the 4 Ω resistor and ignoring the 2 Ω in series with it."
+      "text": "Given: supply V = 12 V; resistors 4 Ω and 2 Ω in series.\nFormulas: series resistances add, R_total = R₁ + R₂; then Ohm's law I = V ÷ R.\nSubstitute: R_total = 4 Ω + 2 Ω = 6 Ω.\nI = 12 V ÷ 6 Ω.\n12 ÷ 6 = 2.\nResult: I = 2 A.\nThe tempting 3 A divides by the 4 Ω alone and ignores the 2 Ω in series with it."
     },
     {
       "n": 57,
       "derived": "D",
-      "text": "Charge is current × time with time in seconds: t = 2 min = 120 s, so Q = 3 × 120 = 360 C. Taking the 2 of '2 minutes' as seconds gives the 6 C trap, and forgetting the conversion entirely produces the smaller values."
+      "text": "Given: current I = 3 A flowing for t = 2 minutes.\nFormula: charge Q = I × t, with t in seconds.\nConvert: t = 2 × 60 = 120 s.\nSubstitute: Q = 3 A × 120 s.\n3 × 120 = 360.\nResult: Q = 360 C.\nThe tempting 6 C treats the 2 of '2 minutes' as 2 seconds; charge calculations need time in seconds."
     },
     {
       "n": 58,
       "derived": "B",
-      "text": "Total momentum is conserved: before, p = 2 kg × 3 m/s + 1 kg × 0 = 6 kg·m/s; after, the combined mass is 3 kg moving at v, so 3v = 6 and v = 2 m/s. The value 6 m/s mistakes the initial momentum for the final velocity, and 3 m/s ignores the added mass."
+      "text": "Given: object of 2 kg moving at 3 m/s hits a stationary 1 kg object; they stick together.\nPrinciple: conservation of momentum, total p before = total p after; after the collision the mass is 2 + 1 = 3 kg.\nSubstitute: p before = (2 × 3) + (1 × 0) = 6 kg·m/s.\nAfter: 3 × v = 6.\nv = 6 ÷ 3 = 2 m/s.\nResult: v = 2 m/s.\nThe tempting 6 m/s mistakes the initial momentum value for a velocity; the momentum is carried by all 3 kg."
     },
     {
       "n": 59,
       "derived": "C",
-      "text": "For free fall from rest, v = g × t = 9.8 × 3 = 29.4 m/s; the 4 kg mass does not affect the velocity. The values 9.8 m/s and 88.2 m/s correspond to t = 1 s and t = 9 s, and mass would matter only for weight or energy, not for speed."
+      "text": "Given: object of 4 kg dropped from rest, t = 3 s, g = 9.8 m/s².\nFormula: v = v₀ + g × t, with v₀ = 0 for a drop.\nSubstitute: v = 0 + (9.8 × 3).\n9.8 × 3 = 29.4.\nResult: v = 29.4 m/s.\nThe tempting 39.2 is actually the weight, 4 kg × 9.8 m/s² = 39.2 N; the mass never affects free-fall speed."
     },
     {
       "n": 60,
       "derived": "D",
-      "text": "Wave speed is frequency × wavelength: v = fλ = 50 Hz × 4 m = 200 m/s. The value 12.5 m/s comes from dividing instead of multiplying, inverting the relation."
+      "text": "Given: frequency f = 50 Hz, wavelength λ = 4 m.\nFormula: wave speed v = f × λ.\nSubstitute: v = 50 Hz × 4 m.\n50 × 4 = 200.\nResult: v = 200 m/s.\nThe tempting 12.5 m/s divides 50 by 4 instead of multiplying, inverting the wave equation."
     }
   ],
   "disagreements": [],
@@ -308,6 +308,7 @@
     "Q5 (squares/rhombi): under traditional syllogistic logic with existential import, 'some rectangles are squares' would also follow from 'all squares are rectangles'; the solution uses the modern no-existential-import reading, which matches the stored key.",
     "Q12 stem reads 'produced by muscle cells during anaerobic respiration in yeast'; yeast has no muscle cells, but the intended contrast (yeast vs human muscle fermentation products, CO2 vs lactate) is unambiguous.",
     "Q4: the winning option's wording '(and W)' is unusual but unambiguous, with W understood as the sixth box at the bottom.",
-    "Q16 (pH comparison) sits in the Biology section although it is a pure chemistry calculation; harmless for a mock."
+    "Q16 (pH comparison) sits in the Biology section although it is a pure chemistry calculation; harmless for a mock.",
+    "2026-09-26: 26 quantitative/logic solutions (items 4 to 9, 16, 33 to 37 and 39, and 48 to 60) rewritten into the step-by-step worked format; every other text kept verbatim; all 26 re-derived answers confirmed against the stored keys."
   ]
 }

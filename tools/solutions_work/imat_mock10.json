@@ -24,27 +24,27 @@
   {
    "n": 5,
    "derived": "B",
-   "text": "The given statement is 'every chemist working in this laboratory speaks German'. Its contrapositive must also be true: anyone working in the laboratory who does not speak German cannot be one of its chemists. The claim that everyone who speaks German is a chemist, and its restatement that German is spoken in the laboratory only by chemists, is the converse and does not follow; the claim that nobody speaks German contradicts the premise, and so does the claim that some chemists in the laboratory do not speak German."
+   "text": "The given statement: every chemist working in this laboratory speaks German, that is, chemist in the laboratory → speaks German.\nA conditional also guarantees its contrapositive: does not speak German → not a chemist in this laboratory.\nFrom the contrapositive: a person working in the laboratory who does not speak German is therefore not one of its chemists, which is deducible.\nTesting the converse (speaks German → chemist): nothing in the premise forces it, since a German-speaking technician could also work there.\nFrom that same gap: the restatement that German is spoken in the laboratory only by chemists fails for the same reason.\nThe remaining claims contradict the premise outright: that nobody speaks German, or that some chemists do not speak German."
   },
   {
    "n": 6,
    "derived": "D",
-   "text": "The premises have the form 'if the shipment arrives on Monday, then the campaign starts on Tuesday' together with 'the campaign did not start on Tuesday'. By modus tollens, the negation of the first part follows: the shipment did not arrive on Monday. That the shipment was lost goes beyond the premises, since a delay would fit equally well, and nothing is said about a Wednesday start or about the campaign starting on Monday."
+   "text": "Restate the premises: (1) if the shipment arrives on Monday, then the campaign starts on Tuesday; (2) the campaign did not start on Tuesday.\nForm: A → B holds, and B is false.\nModus tollens: from A → B together with not B, therefore not A.\nTherefore the vaccine shipment did not arrive on Monday.\nWhy the tempting alternative fails: the claim that the shipment was lost invents a specific cause; a delayed delivery or any other reason fits the two premises equally well, since they say nothing about what did happen."
   },
   {
    "n": 7,
    "derived": "E",
-   "text": "Chaining the constraints gives one unique order of finish: Dario, then Chiara, then Ada, then Beppe, then Elena. From this order, Elena finished after Chiara is necessarily true. The claims that Ada finished before Dario, that Beppe finished before Ada and that Dario finished after Ada each reverse a link of the chain, and Chiara finished last is false because Elena did."
+   "text": "Restate the constraints: Dario before Chiara, Chiara before Ada, Ada before Beppe, Beppe before Elena, with no tied places.\nChain them: Dario, then Chiara, then Ada, then Beppe, then Elena.\nFrom transitivity: every runner precedes all who come after, so the five places are filled in one unique order.\nFrom the chain: Chiara precedes Ada, who precedes Beppe, who precedes Elena; therefore Elena finished after Chiara, which is deducible.\nThe tempting reversals fail against the chain: Ada before Dario, Beppe before Ada and Dario after Ada each contradict a stated link, and Chiara cannot be last because Elena is behind her."
   },
   {
    "n": 8,
    "derived": "B",
-   "text": "Nadia drove neither the red nor the blue car, so she took the white car. Omar did not drive the blue car and white is already taken, so Omar drove the red car, which makes that statement true, and Paolo is left with the blue car. Every step is forced, so the assignment is unique and each other statement (Nadia in blue, Paolo in white, Omar in white, Paolo in red) contradicts it."
+   "text": "Restate: three cars, red, blue and white, one each; Nadia drove neither the red nor the blue car; Omar did not drive the blue car.\nFrom the first constraint: not red and not blue leaves only white, therefore Nadia drove the white car.\nFrom the second constraint: blue is excluded for Omar and white is taken, therefore Omar drove the red car.\nBy elimination: the only car left for Paolo is the blue one.\nThe assignment is unique (Nadia white, Omar red, Paolo blue), therefore the true statement is that Omar drove the red car.\nEvery competing claim (Nadia in blue, Paolo in white, Omar in white, Paolo in red) collides with one of these forced placements."
   },
   {
    "n": 9,
    "derived": "D",
-   "text": "Between a true time of 8:00 am and a true time of 10:00 am exactly 2 hours pass, and a watch gaining 3 minutes per hour gains 2 × 3 = 6 minutes over those 2 hours. The watch therefore shows 10:06 am. The reading 10:03 am counts only one hour of gain, 9:57 am treats the watch as losing time, and 10:09 am triples the gain."
+   "text": "Given: the watch gains 3 minutes per hour of true time; it is correct at 8:00 am; the true time is now 10:00 am.\nRelationship: shown time = true time + (gain rate × elapsed true time).\nElapsed true time = 10:00 − 8:00 = 2 hours.\nSubstitute: error = 3 minutes/hour × 2 hours = 6 minutes (fast).\nShown time = 10:00 am + 6 minutes = 10:06 am.\nResult: the watch shows 10:06 am.\nClassic slip: 10:03 am counts the gain for only one of the two elapsed hours."
   },
   {
    "n": 10,
@@ -154,7 +154,7 @@
   {
    "n": 31,
    "derived": "C",
-   "text": "The father is Tt and the mother is tt. The father's gametes carry T or t with equal chance, while every maternal gamete carries t, so half the children are Tt (tasters) and half are tt (non-tasters). The probability of a child who cannot taste the compound is therefore 1/2. The fractions 1/4 and 3/4 arise from a Tt × Tt cross, which is not the cross given here."
+   "text": "Given: tasting is dominant, so the father is Tt and the mother must be tt.\nCross: Tt x tt.\nStep 1: the father's gametes carry T or t in equal proportion, 1/2 each.\nStep 2: the mother's gametes all carry t.\nStep 3: offspring are Tt (taster) with probability 1/2 x 1 = 1/2, and tt (non-taster) with probability 1/2 x 1 = 1/2.\nResult: P(cannot taste) = 1/2.\nClassic slip: 1/4 and 3/4 belong to a Tt x Tt cross, which this is not."
   },
   {
    "n": 32,
@@ -164,7 +164,7 @@
   {
    "n": 33,
    "derived": "C",
-   "text": "A pH of 4.0 means [H⁺] = 1.0 × 10⁻⁴ mol/dm³, and dissociation of the monoprotic acid HA gives equal concentrations of H⁺ and A⁻. Using Ka = [H⁺][A⁻]/[HA] with [HA] ≈ C: Ka ≈ (10⁻⁴ × 10⁻⁴)/10⁻³ = 10⁻⁸/10⁻³ = 1.0 × 10⁻⁵ (the exact denominator 10⁻³ − 10⁻⁴ = 9 × 10⁻⁴ gives 1.1 × 10⁻⁵, the same approximation). Equating Ka with [H⁺] itself would wrongly give 10⁻⁴, and multiplying [H⁺] by the concentration instead of squaring and dividing would give 10⁻⁷."
+   "text": "Given: monoprotic weak acid HA with C = 0.001 mol/dm³ = 1.0 × 10⁻³ mol/dm³; pH = 4.0.\nRelationship: the pH fixes [H⁺] as a power of ten with a negative exponent, and Ka = [H⁺][A⁻] ÷ [HA].\n[H⁺] = 1.0 × 10⁻⁴ mol/dm³; 1:1 dissociation gives [A⁻] = 1.0 × 10⁻⁴ mol/dm³.\nWeak acid, so [HA] ≈ C = 1.0 × 10⁻³ mol/dm³.\nSubstitute: Ka ≈ (1.0 × 10⁻⁴ × 1.0 × 10⁻⁴) ÷ 1.0 × 10⁻³.\nNumerator: 1.0 × 10⁻⁴ × 1.0 × 10⁻⁴ = 1.0 × 10⁻⁸.\nDivide: 1.0 × 10⁻⁸ ÷ 1.0 × 10⁻³ = 1.0 × 10⁻⁵.\nResult: Ka ≈ 1.0 × 10⁻⁵ (with the exact denominator 9.0 × 10⁻⁴, Ka = 1.1 × 10⁻⁵, still of order 10⁻⁵).\nClassic slip: setting Ka equal to [H⁺] itself yields 1.0 × 10⁻⁴; the constant needs [H⁺] squared, then divided by C."
   },
   {
    "n": 34,
@@ -179,12 +179,12 @@
   {
    "n": 36,
    "derived": "A",
-   "text": "Bond polarity increases with the electronegativity difference between the two atoms. The differences from carbon (2.55) are: with oxygen, 3.44 − 2.55 = 0.89; with chlorine, 3.16 − 2.55 = 0.61; with nitrogen, 3.04 − 2.55 = 0.49; with hydrogen, 2.55 − 2.20 = 0.35; with another carbon, 0. The largest difference (0.89) belongs to the carbon-oxygen bond, making it the most polar; chlorine and nitrogen follow, and the carbon-carbon bond is non-polar."
+   "text": "Given: electronegativities C = 2.55, H = 2.20, N = 3.04, O = 3.44, Cl = 3.16.\nRelationship: bond polarity rises with the electronegativity difference Δ between the two bonded atoms.\nSubstitute for each bond in turn:\nΔ(C-O) = 3.44 − 2.55 = 0.89.\nΔ(C-Cl) = 3.16 − 2.55 = 0.61.\nΔ(C-N) = 3.04 − 2.55 = 0.49.\nΔ(C-H) = 2.55 − 2.20 = 0.35, and Δ(C-C) = 0.\nResult: the largest difference is 0.89, for carbon-oxygen, so that bond is the most polar.\nClassic slip: choosing carbon-chlorine by reputation; chlorine (3.16) sits below oxygen (3.44) on the scale, which flips that ranking."
   },
   {
    "n": 37,
    "derived": "C",
-   "text": "The compound is neutral, so the oxidation numbers must sum to zero. Sodium contributes 2 × (+1) and oxygen 3 × (−2), so 2 + 2x − 6 = 0 for the two sulfur atoms together, giving 2x = +4 and an average of +2 per sulfur. The value +6 corresponds to sulfur in a sulfate ion and −2 to sulfide; in thiosulfate the two sulfur atoms actually have different individual values, and only their average is +2."
+   "text": "Given: neutral Na₂S₂O₃; fixed oxidation numbers Na = +1 and O = −2; average sulfur value x.\nRelationship: oxidation numbers in a neutral compound sum to 0.\nSubstitute: 2 × (+1) + 2x + 3 × (−2) = 0.\nArithmetic: 2 + 2x − 6 = 0, so 2x = +4.\nDivide: x = +4 ÷ 2 = +2.\nResult: the average oxidation number of sulfur is +2.\nClassic slip: quoting +6, sulfur's value in a sulfate ion, or −2 from sulfide; the two sulfur atoms of thiosulfate even differ individually, and only their average is +2."
   },
   {
    "n": 38,
@@ -204,12 +204,12 @@
   {
    "n": 41,
    "derived": "D",
-   "text": "The balanced equation requires 5 mol of O₂ per 1 mol of propane, so 0.5 mol of propane needs 0.5 × 5 = 2.5 mol of oxygen. The values 1.5 mol and 2.0 mol confuse the oxygen demand with the amounts of CO₂ (3 × 0.5) and H₂O (4 × 0.5) formed, 0.5 mol assumes a one-to-one ratio, and 5.0 mol forgets to scale from 1 mol down to 0.5 mol."
+   "text": "Given: n(C₃H₈) = 0.5 mol; equation C₃H₈ + 5O₂ → 3CO₂ + 4H₂O.\nRelationship: the balancing coefficients fix the mole ratio, 5 mol of O₂ per 1 mol of C₃H₈.\nSubstitute: n(O₂) = 0.5 mol × 5 = 2.5 mol.\nResult: 2.5 mol of oxygen are required.\nClassic slip: quoting 1.5 mol or 2.0 mol reads off the products instead, the CO₂ made (0.5 × 3) or the H₂O made (0.5 × 4), not the oxygen consumed."
   },
   {
    "n": 42,
    "derived": "C",
-   "text": "Step 1: amount of methane, n = 4.0 g ÷ 16 g/mol = 0.25 mol. Step 2: the equation yields 2 mol of water per 1 mol of methane, so water formed = 0.25 × 2 = 0.5 mol. Step 3: mass = 0.5 × 18 g/mol = 9.0 g. The value 4.5 g forgets the factor of 2 in front of H₂O, while 18.0 g and 36.0 g lose track of how little methane is burning."
+   "text": "Given: m(CH₄) = 4.0 g; M(CH₄) = 16 g/mol; M(H₂O) = 18 g/mol; CH₄ + 2O₂ → CO₂ + 2H₂O.\nRelationship: n = m ÷ M, then scale by the equation ratio 2 mol H₂O per 1 mol CH₄, then m = n × M.\nSubstitute: n(CH₄) = 4.0 g ÷ 16 g/mol = 0.25 mol.\nScale: n(H₂O) = 0.25 mol × 2 = 0.5 mol.\nMass: m(H₂O) = 0.5 mol × 18 g/mol = 9.0 g.\nResult: 9.0 g of water.\nClassic slip: 4.5 g drops the coefficient 2 in front of H₂O and reports only half the true yield."
   },
   {
    "n": 43,
@@ -219,7 +219,7 @@
   {
    "n": 44,
    "derived": "C",
-   "text": "A p sublevel consists of three orbitals, and each orbital holds at most two electrons of opposite spin, giving 3 × 2 = 6 electrons. The value 2 is the capacity of a single orbital, 10 is the capacity of a d sublevel (five orbitals), and 8 is the capacity of a complete shell such as n = 2."
+   "text": "Given: the 3p sublevel.\nRelationship: a p sublevel holds 3 orbitals, and each orbital holds at most 2 electrons of opposite spin.\nSubstitute: capacity = 3 × 2 = 6 electrons.\nResult: 6 electrons.\nClassic slip: 2 counts a single orbital and 10 counts the five orbitals of a d sublevel; 8 is a whole shell, not a sublevel."
   },
   {
    "n": 45,
@@ -239,67 +239,67 @@
   {
    "n": 48,
    "derived": "A",
-   "text": "Completing the square gives x² + 2x + 5 = (x + 1)² + 4. Since (x + 1)² ≥ 0 for every real x, the expression is at least 4 and is therefore always positive; equivalently, the discriminant is 2² − 4 × 1 × 5 = −16, negative, so the upward-opening parabola never touches the x-axis and no interval of solutions exists. The solution set is empty; in particular x = −1, the vertex position, gives the value 4 and does not satisfy the inequality."
+   "text": "Given: x² + 2x + 5 ≤ 0 for real x.\nRelationship: an upward-opening quadratic stays positive everywhere when its discriminant b² − 4ac is negative.\nSubstitute: discriminant = 2² − 4 × 1 × 5 = 4 − 20 = −16.\n−16 < 0, so the parabola never reaches the x-axis.\nVertex check: minimum at x = −2 ÷ (2 × 1) = −1, value = (−1)² + 2 × (−1) + 5 = 1 − 2 + 5 = 4.\nThe expression is never below 4, so it is never ≤ 0.\nResult: the solution set is empty.\nClassic slip: offering x = −1 quotes the vertex position, where the expression equals 4, not 0."
   },
   {
    "n": 49,
    "derived": "A",
-   "text": "Subtracting 2x from both sides gives 3x − 3 < 9; adding 3 gives 3x < 12; dividing by the positive number 3, which does not flip the inequality, gives x < 4. The answer x < 12 forgets the division by 3, and no sign reversal occurs anywhere because the inequality is never multiplied or divided by a negative number."
+   "text": "Given: 5x − 3 < 2x + 9.\nRelationship: collect x on one side and numbers on the other; the sign flips only if both sides are divided by a negative number.\nSubtract 2x from both sides: 3x − 3 < 9.\nAdd 3 to both sides: 3x < 12.\nDivide by the positive 3: x < 12 ÷ 3, so x < 4.\nResult: x < 4.\nClassic slip: x < 12 stops one step short, before dividing by 3; no flip is ever due here because the divisor is positive."
   },
   {
    "n": 50,
    "derived": "D",
-   "text": "A root satisfies the equation, so substituting x = 2 gives 2² − 5 × 2 + k = 4 − 10 + k = 0, hence k = 6. As a check, x² − 5x + 6 = 0 has roots 2 and 3, which sum to 5 and multiply to 6, consistent with the coefficients. The value 4 merely copies the square of the given root, and 10 copies the coefficient of x."
+   "text": "Given: x² − 5x + k = 0 with one root x = 2.\nRelationship: a root satisfies the equation, so substitute x = 2 into the left side and set it to 0.\nSubstitute: 2² − 5 × 2 + k = 0.\nArithmetic: 4 − 10 + k = 0, so −6 + k = 0.\nSolve: k = 0 + 6 = 6.\nCheck: x² − 5x + 6 = (x − 2)(x − 3), roots 2 and 3, which sum to the coefficient 5.\nResult: k = 6.\nClassic slip: k = 4 copies the square of the given root; k must offset the −6 left after substituting."
   },
   {
    "n": 51,
    "derived": "C",
-   "text": "The union collects every element of both sets, counting shared elements once: A ∪ B = {1, 2, 3, 4, 5, 6}. In symbols, |A ∪ B| = |A| + |B| − shared = 4 + 4 − 2 = 6, since 3 and 4 belong to both. The answer 8 double counts the two shared elements, and 4 counts only one of the two sets."
+   "text": "Given: A = {1, 2, 3, 4} and B = {3, 4, 5, 6}.\nRelationship: the union counts every element once, |A ∪ B| = |A| + |B| − |A ∩ B|.\nCommon elements: A ∩ B = {3, 4}, so |A ∩ B| = 2.\nSubstitute: |A ∪ B| = 4 + 4 − 2 = 6.\nResult: 6 elements, namely {1, 2, 3, 4, 5, 6}.\nClassic slip: 8 adds both sizes and double counts the two elements that sit in both sets."
   },
   {
    "n": 52,
    "derived": "E",
-   "text": "Multiplying term by term: 2x × x = 2x², 2x × 5 = 10x, (−3) × x = −3x, and (−3) × 5 = −15. Combining the middle terms, 10x − 3x = 7x, gives 2x² + 7x − 15. The version with 13x adds 10x and 3x instead of subtracting, and the forms with −7x, a positive 15 or a missing factor of 2 on the leading term come from sign and coefficient slips."
+   "text": "Given: (2x − 3)(x + 5).\nRelationship: each term of the first bracket multiplies each term of the second.\nSubstitute term by term:\n2x × x = 2x², and 2x × 5 = 10x.\n(−3) × x = −3x, and (−3) × 5 = −15.\nCollect the middle terms: 10x − 3x = 7x.\nResult: 2x² + 7x − 15.\nClassic slip: the version with 13x adds 10x and 3x instead of subtracting, losing the sign of the −3."
   },
   {
    "n": 53,
    "derived": "B",
-   "text": "Let the width be w; the length is then w + 3. The perimeter is 2(w + w + 3) = 26, so 2w + 3 = 13, 2w = 10 and w = 5 cm, with length 8 cm. The value 8 cm reports the length rather than the width."
+   "text": "Given: width w, length = w + 3 cm, perimeter = 26 cm.\nRelationship: perimeter of a rectangle = 2 × (length + width).\nSubstitute: 2 × (w + w + 3) = 26.\nMultiply out: 4w + 6 = 26.\nSubtract 6: 4w = 20.\nDivide by 4: w = 20 ÷ 4 = 5 cm (length 8 cm).\nResult: the width is 5 cm.\nClassic slip: 8 cm is the length; the question asks for the width."
   },
   {
    "n": 54,
    "derived": "D",
-   "text": "From the identity sin²θ + cos²θ = 1: cos²θ = 1 − (0.6)² = 1 − 0.36 = 0.64, and because θ is acute the cosine is positive, so cos θ = √0.64 = 0.8. The value 0.36 is just sin²θ itself, 0.4 subtracts 0.6 from 1 without squaring first, and 0.6 would simply repeat the sine."
+   "text": "Given: sin θ = 0.6, θ acute.\nRelationship: sin²θ + cos²θ = 1.\nSubstitute: (0.6)² + cos²θ = 1.\nArithmetic: 0.36 + cos²θ = 1, so cos²θ = 1 − 0.36 = 0.64.\nSquare root: cos θ = √0.64 = 0.8, positive root because θ is acute.\nResult: cos θ = 0.8.\nClassic slip: 0.4 subtracts 0.6 from 1 without squaring the sine first, and 0.36 is sin²θ itself rather than cos θ."
   },
   {
    "n": 55,
    "derived": "B",
-   "text": "The car closes the gap at the relative speed 90 − 72 = 18 km/h. In 5 minutes, which is 1/12 of an hour, it gains 18 × 1/12 = 1.5 km, less than the initial 2.0 km gap, so it still trails by 0.5 km and has not yet caught the truck. Catching up completely would take 2.0 ÷ 18 of an hour, about 6.7 minutes, so the car does catch the truck soon after but is not level at the 5 minute mark."
+   "text": "Given: car at 90 km/h, truck at 72 km/h, initial gap 2.0 km, elapsed time 5 minutes.\nRelationship: the gap closes at the relative speed (difference of speeds); distance gained = relative speed × time.\nRelative speed = 90 − 72 = 18 km/h.\nTime = 5 min ÷ 60 = 1/12 h.\nSubstitute: distance gained = 18 km/h × 1/12 h = 1.5 km.\nCompare: 1.5 km < 2.0 km, so the car still trails by 2.0 − 1.5 = 0.5 km.\nResult: after 5 minutes the car has not yet caught the truck.\nClassic slip: comparing the car's own distance (90 × 1/12 = 7.5 km) with the 2.0 km gap instead of the relative gain; full catch-up takes 2.0 ÷ 18 h, about 6.7 minutes."
   },
   {
    "n": 56,
    "derived": "C",
-   "text": "Two equal resistors in parallel have half the resistance of one: 6 ÷ 2 = 3 Ω. This pair is in series with the 3 Ω resistor, and series resistances add: 3 + 3 = 6 Ω. Treating all three as a series chain gives 15 Ω, and ignoring one of the parallel pair gives 9 Ω; both misread the network."
+   "text": "Given: two resistors of 6 Ω in parallel, that pair in series with one 3 Ω resistor.\nRelationship: two equal resistors in parallel give half of one value; resistors in series add.\nSubstitute for the pair: 6 Ω ÷ 2 = 3 Ω.\nSeries addition: 3 Ω + 3 Ω = 6 Ω.\nResult: the equivalent resistance of the network is 6 Ω.\nClassic slip: 15 Ω adds all three in a row (6 + 6 + 3); the parallel pair must be reduced before the series step."
   },
   {
    "n": 57,
    "derived": "D",
-   "text": "For a uniform wire, R = ρL/A, so resistance is proportional to length and inversely proportional to cross-sectional area. Doubling the length doubles R, and halving the area doubles R again, giving 2 × 2 = 4 times the original resistance. The answers unchanged and double each account for only one of the two changes, and four times smaller reverses the direction of the effect."
+   "text": "Given: same material, so the same resistivity ρ; the new wire has twice the length and half the cross-sectional area.\nRelationship: R = ρL ÷ A, so R grows in proportion to L and in inverse proportion to A.\nLength step: L × 2 gives R × 2 = 2R.\nArea step: A ÷ 2 gives R × 2 again, so 2 × 2R = 4R.\nResult: the new resistance is four times greater.\nClassic slip: answering double tracks only the length change; the halved area contributes a second factor of 2 in the same direction."
   },
   {
    "n": 58,
    "derived": "C",
-   "text": "At distance r from the Earth's centre, g is proportional to 1/r². Requiring g to fall to one quarter of its surface value gives (R/(R + h))² = 1/4, so R/(R + h) = 1/2 and R + h = 2R, hence h = R: a height of one Earth radius above the surface. The answers R/2 and 2R come from forgetting to take the square root or from applying the factor 2 to the height instead of the distance from the centre."
+   "text": "Given: Earth radius R; find the height h where g is one quarter of its surface value.\nRelationship: g is inversely proportional to the square of the distance r from the Earth's centre, with r = R + h.\nSubstitute: (R ÷ (R + h))² = 1/4.\nTake the square root of both sides: R ÷ (R + h) = 1/2.\nRearrange: 2R = R + h, so h = 2R − R = R.\nResult: h = R, a height of one Earth radius above the surface.\nClassic slip: 2R reports the new distance from the centre and forgets to subtract the surface radius; R/2 skips the square root step."
   },
   {
    "n": 59,
    "derived": "D",
-   "text": "The net force needed for the acceleration follows from Newton's second law: F(net) = ma = 1.5 × 10³ × 2.0 = 3000 N. The engine must in addition overcome the 500 N friction, so the driving force it must exert is 3000 + 500 = 3500 N. The value 3000 N omits friction, and 2500 N would correspond to subtracting friction from the net force, which would make no physical sense."
+   "text": "Given: m = 1.5 × 10³ kg, a = 2.0 m/s², friction 500 N, level road.\nRelationship: Newton's second law on the car gives F(engine) − friction = m × a, so F(engine) = ma + friction.\nSubstitute: ma = 1.5 × 10³ kg × 2.0 m/s² = 3000 N.\nAdd friction: F(engine) = 3000 N + 500 N = 3500 N.\nResult: the engine must exert 3500 N.\nClassic slip: 3000 N reports only the net force; friction opposes the motion, so the engine must cover it on top of the accelerating force."
   },
   {
    "n": 60,
    "derived": "D",
-   "text": "Gauge pressure at depth h is P = ρgh = 1000 kg/m³ × 10 m/s² × 4 m = 40000 Pa (4.0 × 10⁴ Pa). Because the question asks for gauge pressure, atmospheric pressure is excluded. The values 4000 Pa and 400000 Pa are each off by one power of ten, and 400 Pa by three."
+   "text": "Given: depth h = 4 m, density ρ = 1000 kg/m³, g = 10 m/s²; gauge pressure requested.\nRelationship: hydrostatic gauge pressure P = ρ × g × h, with atmospheric pressure excluded.\nSubstitute: P = 1000 kg/m³ × 10 m/s² × 4 m.\nArithmetic: 1000 × 10 = 10000, then 10000 × 4 = 40000.\nResult: P = 40000 Pa (4.0 × 10⁴ Pa).\nClassic slip: 4000 Pa drops one power of ten and 400000 Pa adds one; a magnitude estimate of ρ × g catches both."
   }
  ],
  "disagreements": [],
@@ -307,6 +307,7 @@
   "All 60 derived answers agree with the stored keys; no discrepancies found.",
   "Question 33: using the exact denominator C minus [H+] = 9 x 10^-4 gives Ka = 1.1 x 10^-5; the intended answer uses the [HA] approximately C approximation, giving 1.0 x 10^-5. Both round to the stored option.",
   "Question 12 states 'about 30 ATP' per glucose; the accepted modern range is 30 to 32, which does not affect the answer since oxidative phosphorylation dominates under any convention.",
-  "All numeric questions (9, 33, 36, 37, 41, 42, 48 to 60) were recomputed from the given data and reproduce the stored answers."
+  "All numeric questions (9, 33, 36, 37, 41, 42, 48 to 60) were recomputed from the given data and reproduce the stored answers.",
+  "Worked step-by-step rewrites applied to Q5 to 9 (logic), Q33, Q36, Q37, Q41, Q42 and Q44 (quantitative chemistry) and Q48 to Q60 (maths and physics); qualitative items keep their original wording."
  ]
 }

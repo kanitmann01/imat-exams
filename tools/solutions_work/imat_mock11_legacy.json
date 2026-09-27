@@ -24,27 +24,27 @@
     {
       "n": 5,
       "derived": "D",
-      "text": "Chain the premises: the electric buses in the fleet are electric vehicles, every electric vehicle is exempt from the congestion charge, and no exempt vehicle may use the toll road, so those electric buses certainly may not use the toll road. Since the fleet has some electric buses, some buses in the city fleet are therefore not allowed on the toll road. The claim that every exempt vehicle is electric is an illegitimate reversal of 'all electric vehicles are exempt', and the claim that some electric buses use the toll road contradicts the chain outright. Nothing constrains the non electric buses, so both the claim that they must pay the congestion charge and the stronger claim that no bus may use the toll road go beyond the evidence."
+      "text": "Givens: some buses in the city fleet are electric; every electric vehicle is exempt from the congestion charge; no exempt vehicle may use the toll road.\nTake the electric buses: being electric vehicles, each of them is exempt from the congestion charge.\nEach of those exempt buses is therefore barred from the toll road.\nThe fleet does contain such buses, so at least some buses in the city fleet may not use the toll road.\nThat chain uses only the given premises, so this conclusion must be true.\nClassic slip: the reversal that every exempt vehicle is electric does not follow from an all-to-some premise, and nothing constrains the non electric buses, so any claim about all buses or about the non electric ones overreaches."
     },
     {
       "n": 6,
       "derived": "A",
-      "text": "Lena is third and Carmen finished immediately behind her, so Carmen is fourth. Devi finished behind Carmen, and the only place behind fourth is fifth, so Devi is fifth. That leaves first and second for Aisha and Bruno, and since Bruno did not finish first, Aisha won and Bruno was second. The order Aisha, Bruno, Lena, Carmen, Devi is the unique arrangement fitting every clue, so the only statement that must be true is that Bruno finished second; in this order Aisha is first rather than third, Devi is fifth rather than fourth, and Bruno finished behind Aisha, not ahead."
+      "text": "Givens: five runners, places 1 to 5, no ties; Lena third; Carmen immediately behind Lena; Devi behind Carmen; Bruno not first.\nCarmen immediately behind third place puts Carmen fourth.\nThe only place behind fourth is fifth, so Devi is fifth.\nPlaces 1 and 2 are left for Aisha and Bruno.\nBruno did not finish first, so Aisha is first and Bruno is second.\nThe order Aisha, Bruno, Lena, Carmen, Devi fits every clue and is the only possible one, so Bruno finished second.\nClassic slip: the claim that Devi finished fourth ignores that fourth is already occupied by Carmen, who finished immediately behind Lena."
     },
     {
       "n": 7,
       "derived": "C",
-      "text": "Step 1: subtract the triple overlap from each pairwise figure to get the 'exactly two' counts: swim and sail only = 25 − 10 = 15, swim and archery only = 20 − 10 = 10, sail and archery only = 15 − 10 = 5. Step 2: exactly two activities = 15 + 10 + 5 = 30. Check: the only swimming, only sailing and only archery regions are 20, 20 and 20, and 20 + 20 + 20 + 15 + 10 + 5 + 10 = 100, matching the 100 children. The value 40 counts children doing at least two activities, because it keeps the ten who do all three inside the tally; exactly two requires removing them from every pair."
+      "text": "Givens: 100 children, each does at least one activity; 55 swim, 50 sail, 45 archery; 25 swim and sail, 20 swim and archery, 15 sail and archery; 10 do all three.\nEach pair figure still contains the 10 children who do all three, so exactly-two counts equal the pair figures minus 10.\nSwim and sail only: 25 − 10 = 15.\nSwim and archery only: 20 − 10 = 10.\nSail and archery only: 15 − 10 = 5.\nExactly two activities: 15 + 10 + 5 = 30.\nCheck: the only-one regions come to 20, 20 and 20 (for swimming 55 − 25 − 20 + 10 = 20), and 20 + 20 + 20 + 15 + 10 + 5 + 10 = 100, matching the camp.\nClassic slip: the value 40 counts children doing at least two activities, because it leaves the 10 triple-overlap children inside every pair total."
     },
     {
       "n": 8,
       "derived": "D",
-      "text": "Step 1: 1 April 2026 was a Wednesday, so counting forward gives 2 April Thursday, 3 Friday, 4 Saturday, 5 Sunday, 6 April Monday: the first Monday is 6 April. Step 2: Mondays recur every seven days, so the Mondays of April 2026 are 6, 13, 20 and 27 April. Step 3: the second Monday is therefore 13 April. The date 6 April is only the first Monday, and 12 April is a Sunday, one day short."
+      "text": "Givens: 1 April 2026 was a Wednesday; Mondays recur every 7 days.\nCount forward from Wednesday 1 April: 2 April Thursday, 3 April Friday, 4 April Saturday, 5 April Sunday, 6 April Monday.\nSo the first Monday is 6 April.\nAdd 7 days for each later Monday: 6 + 7 = 13 April, then 13 + 7 = 20 April, then 20 + 7 = 27 April.\nThe Mondays of April 2026 are therefore 6, 13, 20 and 27 April, and the second of them is 13 April.\nClassic slip: 6 April is only the first Monday, and 12 April is a Sunday, one day before the second Monday."
     },
     {
       "n": 9,
       "derived": "E",
-      "text": "The four squares in the column (5, 1, 3, 6 from top to bottom) fold into a band that wraps around four faces of the cube, and in any such band faces two positions apart end up opposite, so 5 opposes 3 and 1 opposes 6. The two squares attached at the sides of face 1 fold over and end up opposite each other. Hence the face opposite the face numbered 1 carries the number 6. Every other candidate number (2, 3, 4, 5) is the label of a face adjacent to face 1 in the folded cube."
+      "text": "Givens: the net is a column of four squares numbered 5, 1, 3, 6 from top to bottom, with square 2 attached to the left edge of square 1 and square 4 to its right edge.\nThe column of four folds into a band that wraps around four faces of the cube.\nIn a four-square band, squares two positions apart end up opposite, so 5 opposes 3 and 1 opposes 6.\nThe two side squares 2 and 4 fold up on either side of face 1 and end up opposite each other.\nSo the face opposite the face numbered 1 carries the number 6.\nClassic slip: 2, 3, 4 and 5 are the labels of faces adjacent to face 1 in the folded cube, and adjacent faces cannot be opposite."
     },
     {
       "n": 10,
@@ -164,27 +164,27 @@
     {
       "n": 33,
       "derived": "B",
-      "text": "M(CuSO₄) = 64 (Cu) + 32 (S) + 4 × 16 (O) = 160 g/mol. Mass = n × M = 0.25 mol × 160 g/mol = 40 g. The figure 160 g is the mass of a whole mole, and 640 g comes from dividing 160 by 0.25 instead of multiplying."
+      "text": "Given: n = 0.25 mol of CuSO₄; atomic masses Cu = 64, S = 32, O = 16 g/mol.\nRelationship: the molar mass M is the sum of the atomic masses in the formula, and mass m = n × M.\nM(CuSO₄) = 64 + 32 + (4 × 16) = 64 + 32 + 64 = 160 g/mol.\nSubstitute: m = 0.25 mol × 160 g/mol.\n0.25 × 160 = 40, so m = 40 g.\nResult: 40 g.\nClassic slip: 160 g is the mass of a whole mole, and 640 g comes from dividing 160 by 0.25 instead of multiplying."
     },
     {
       "n": 34,
       "derived": "C",
-      "text": "Step 1: moles are 28/28 = 1.0 mol of N₂ and 9.0/2.0 = 4.5 mol of H₂. Step 2: the equation needs 3 mol of H₂ per mol of N₂, so 1.0 mol of N₂ requires only 3.0 mol of H₂; with 4.5 mol available, hydrogen is in excess and N₂ is the limiting reagent. Step 3: 1.0 mol of N₂ yields 2.0 mol of NH₃, so the maximum mass is 2.0 × 17 = 34 g. The value 51 g follows from wrongly treating hydrogen as the limiting reagent and converting all 4.5 mol of it."
+      "text": "Given: 28 g of N₂ (M = 28 g/mol), 9.0 g of H₂ (M = 2.0 g/mol), N₂ + 3H₂ → 2NH₃, M(NH₃) = 17 g/mol.\nRelationship: n = m/M; the equation ratio is 1 mol N₂ : 3 mol H₂ : 2 mol NH₃, so compare available moles to find the limiting reagent.\nn(N₂) = 28/28 = 1.0 mol.\nn(H₂) = 9.0/2.0 = 4.5 mol.\nH₂ needed for all the N₂: 3 × 1.0 = 3.0 mol; 4.5 mol are available, so H₂ is in excess and N₂ is limiting.\nNH₃ produced: 2 × 1.0 = 2.0 mol.\nm(NH₃) = 2.0 × 17 = 34 g.\nResult: 34 g.\nClassic slip: 51 g treats hydrogen as limiting and converts all of it (4.5 × 2/3 = 3.0 mol NH₃, then 3.0 × 17 = 51 g), ignoring that the nitrogen runs out first."
     },
     {
       "n": 35,
       "derived": "B",
-      "text": "Step 1: take 100 g of oxide: 50.0 g of S is 50.0/32 = 1.56 mol and 50.0 g of O is 50.0/16 = 3.13 mol. Step 2: divide both by the smaller amount: 1.56 : 3.13 ≈ 1 : 2. The empirical formula is SO₂. A 1:1 mole ratio would require equal numbers of moles of the two elements, but equal masses do not give that here, since an oxygen atom is only half the mass of a sulfur atom."
+      "text": "Given: 50.0% sulfur and 50.0% oxygen by mass; S = 32 g/mol, O = 16 g/mol.\nRelationship: take a 100 g sample, convert each mass to moles with n = m/M, then divide both mole numbers by the smaller.\nn(S) = 50.0/32 = 1.56 mol.\nn(O) = 50.0/16 = 3.13 mol.\nDivide by the smaller: 1.56/1.56 = 1.0 for S.\n3.13/1.56 ≈ 2.0 for O.\nRatio S : O ≈ 1 : 2, so the empirical formula is SO₂.\nResult: SO₂.\nClassic slip: the formula SO assumes equal masses mean equal moles, but an oxygen atom is only half the mass of a sulfur atom, so equal masses hold twice as many moles of O."
     },
     {
       "n": 36,
       "derived": "C",
-      "text": "Step 1: n = m/M = 5.85/58.5 = 0.10 mol of NaCl. Step 2: V = 500 cm³ = 0.500 dm³. Step 3: c = n/V = 0.10/0.500 = 0.20 mol/dm³. The value 0.10 mol/dm³ is just the mole number with the units swapped, ignoring the dilution to half a cubic decimetre."
+      "text": "Given: m = 5.85 g of NaCl, M = 58.5 g/mol, final volume V = 500 cm³.\nRelationship: n = m/M, then concentration c = n/V with V converted to dm³ (1000 cm³ = 1 dm³).\nn(NaCl) = 5.85/58.5 = 0.10 mol.\nV = 500/1000 = 0.500 dm³.\nSubstitute: c = 0.10/0.500 = 0.20 mol/dm³.\nResult: 0.20 mol/dm³.\nClassic slip: 0.10 mol/dm³ merely relabels the mole number as a concentration, ignoring that the salt was made up to half a cubic decimetre."
     },
     {
       "n": 37,
       "derived": "C",
-      "text": "KOH is a strong base and dissociates completely, so [OH⁻] = 1.0 × 10⁻⁴ mol/dm³ and pOH = 4. At 25 °C, pH + pOH = 14, so pH = 14 − 4 = 10. The value 4 is the pOH mislabelled as pH, and a solution of a strong base can be neither acidic (pH 4) nor exactly neutral (pH 7)."
+      "text": "Given: [KOH] = 1.0 × 10⁻⁴ mol/dm³, KOH dissociates completely, Kw = 1.0 × 10⁻¹⁴ at 25 °C.\nRelationship: a fully dissociated strong base gives [OH⁻] equal to its concentration; pOH = −log₁₀[OH⁻]; pH + pOH = 14 at 25 °C.\n[OH⁻] = 1.0 × 10⁻⁴ mol/dm³, so pOH = 4.\nSubstitute: pH = 14 − 4 = 10.\nResult: pH 10.\nClassic slip: the value 4 is the pOH mislabelled as pH; a solution of a strong base can be neither acidic nor exactly neutral."
     },
     {
       "n": 38,
@@ -194,7 +194,7 @@
     {
       "n": 39,
       "derived": "D",
-      "text": "Step 1: half equations: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O (manganese falls from +7 to +2, gaining 5 electrons) and C₂O₄²⁻ → 2CO₂ + 2e⁻ (each carbon rises from +3 to +4, so 2 electrons lost per ion). Step 2: equalise the electrons at 10 by multiplying the first half equation by 2 and the second by 5. Step 3: adding gives 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O; the charges balance (left: −2 − 10 + 16 = +4; right: +4), so the coefficient of H⁺ is 16. The value 8 belongs to the unmultiplied permanganate half equation and ignores the factor of 2 needed to match the 10 electrons from five oxalate ions."
+      "text": "Given: unbalanced MnO₄⁻ + C₂O₄²⁻ + H⁺ → Mn²⁺ + CO₂ + H₂O in acidic solution.\nRelationship: balance with half equations, then equalise the electrons lost and gained.\nReduction: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O, since Mn falls from +7 to +2 (5 electrons gained) and 4 oxygen atoms need 4 H₂O, whose 8 H come from 8 H⁺.\nOxidation: C₂O₄²⁻ → 2CO₂ + 2e⁻, since each C rises from +3 to +4, so 2 electrons are lost per ion.\nEqualise electrons: the lowest common multiple of 5 and 2 is 10, so multiply the reduction by 2 (2 × 5 = 10 electrons) and the oxidation by 5 (5 × 2 = 10 electrons).\nAdd: 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O; the 16 H⁺ come from 2 × 8 and supply the 8 × 2 = 16 H in 8 H₂O.\nResult: the coefficient of H⁺ is 16.\nClassic slip: 8 is the H⁺ count of one permanganate half equation, forgetting that two of them must be multiplied in to match the 10 electrons from five oxalate ions."
     },
     {
       "n": 40,
@@ -209,22 +209,22 @@
     {
       "n": 42,
       "derived": "B",
-      "text": "ΔH = ΣΔHf(products) − ΣΔHf(reactants) = [(−394) + 2 × (−286)] − [(−75) + 0] = (−394 − 572) + 75 = −966 + 75 = −891 kJ/mol. Dropping the factor of 2 on the water term gives −394 − 286 + 75 = −605, and subtracting the methane term with the wrong sign gives −394 − 572 − 75 = −1041; both are bookkeeping slips on the same equation. The positive values cannot be right, since a combustion is always strongly exothermic."
+      "text": "Given: standard enthalpies of formation in kJ/mol: CH₄ = −75, CO₂ = −394, H₂O(l) = −286, O₂ = 0; equation CH₄ + 2O₂ → CO₂ + 2H₂O.\nRelationship: ΔH = ΣΔHf(products) − ΣΔHf(reactants).\nSubstitute: ΔH = [(−394) + 2 × (−286)] − [(−75) + 0].\nWater term: 2 × (−286) = −572.\nProducts: −394 + (−572) = −966.\nReactants: −75 + 0 = −75.\nΔH = −966 − (−75) = −966 + 75 = −891 kJ/mol.\nResult: −891 kJ/mol.\nClassic slip: −605 kJ/mol drops the factor of 2 on the water term (−394 − 286 + 75), and the positive options additionally reverse the products minus reactants order; a combustion cannot be endothermic."
     },
     {
       "n": 43,
       "derived": "D",
-      "text": "For H₂ + I₂ ⇌ 2HI, Kc = [HI]² / ([H₂] × [I₂]) = (0.60)² / (0.20 × 0.30) = 0.36 / 0.060 = 6.0. The coefficient 2 in front of HI means its concentration enters squared; using [HI] unsquared gives 0.60/0.060 = 10, and inverting the whole fraction gives about 0.17."
+      "text": "Given: H₂ + I₂ ⇌ 2HI; at equilibrium [H₂] = 0.20 mol/dm³, [I₂] = 0.30 mol/dm³, [HI] = 0.60 mol/dm³.\nRelationship: Kc = [HI]² / ([H₂] × [I₂]); the coefficient 2 before HI squares its concentration.\nSubstitute: Kc = (0.60)² / (0.20 × 0.30).\nNumerator: 0.60 × 0.60 = 0.36.\nDenominator: 0.20 × 0.30 = 0.060.\nKc = 0.36/0.060 = 6.0.\nResult: Kc = 6.0, with no units because the concentration powers cancel.\nClassic slip: the value 10 leaves [HI] unsquared (0.60/0.060 = 10), and about 0.17 inverts the whole fraction."
     },
     {
       "n": 44,
       "derived": "C",
-      "text": "Step 1: with [B] held at 0.10, doubling [A] from 0.10 to 0.20 doubles the rate from 0.0020 to 0.0040, so the reaction is first order in A. Step 2: with [A] held at 0.10, doubling [B] from 0.10 to 0.20 quadruples the rate from 0.0020 to 0.0080, so the reaction is second order in B. Step 3: rate = k[A][B]², overall third order. Any law with B only to the first power would predict just a doubling of rate between the first and third experiments, not the observed quadrupling."
+      "text": "Given: experiment 1: [A] = 0.10 mol/dm³, [B] = 0.10 mol/dm³, rate = 0.0020 mol/(dm³ s); experiment 2: [A] = 0.20, [B] = 0.10, rate = 0.0040; experiment 3: [A] = 0.10, [B] = 0.20, rate = 0.0080.\nRelationship: rate = k[A]^m[B]^n; compare pairs of experiments that change only one concentration.\nExperiments 1 to 2: [B] is fixed, [A] doubles from 0.10 to 0.20 and the rate doubles from 0.0020 to 0.0040, so m = 1.\nExperiments 1 to 3: [A] is fixed, [B] doubles from 0.10 to 0.20 and the rate quadruples from 0.0020 to 0.0080, so n = 2 (doubling twice: 0.0020 → 0.0040 → 0.0080).\nRate law: rate = k[A][B]², overall order 1 + 2 = 3.\nResult: rate = k[A][B]².\nClassic slip: rate = k[A][B] predicts only a doubling of rate between experiments 1 and 3, not the observed quadrupling."
     },
     {
       "n": 45,
       "derived": "B",
-      "text": "The longest continuous carbon chain contains five atoms, so the parent alkane is pentane; no path through six carbons exists, so every hexane based name is impossible. The two methyl branches sit on carbons 2 and 4, and the structure is symmetric, so this numbering holds from either end of the chain, giving 2,4-dimethylpentane. A name placing the substituents at positions 3 and 5 is never acceptable, because the chain must always be numbered to give the lowest possible locants."
+      "text": "Givens: a five-carbon chain with one methyl group on carbon 2 and one on carbon 4.\nLongest continuous chain: 5 carbons, so the parent alkane is pentane; no path through 6 carbons exists, so any hexane-based name is impossible.\nTwo identical substituents: the prefix is dimethyl.\nNumbering: the substitution pattern is symmetric, so from either end of the chain the methyl groups fall on carbons 2 and 4.\nLowest-locant rule: 2 and 4 are already the lowest possible positions, giving 2,4-dimethylpentane.\nClassic slip: the name 3,5-dimethylpentane uses locants that are never acceptable, because the chain must always be numbered from the end that gives the lowest positions."
     },
     {
       "n": 46,
@@ -234,72 +234,72 @@
     {
       "n": 47,
       "derived": "A",
-      "text": "Neutral iron (Z = 26) fills as 1s2 2s2 2p6 3s2 3p6 4s2 3d6. Fe²⁺ forms by losing the two electrons of highest energy, which are the 4s electrons, leaving 1s2 2s2 2p6 3s2 3p6 3d6 with 24 electrons. Removing 3d electrons while keeping 4s reverses the order in which electrons are lost on ionisation, and the arrangement ending 4s2 3d6 still belongs to the neutral atom, not the ion."
+      "text": "Givens: iron has atomic number 26, so a neutral atom holds 26 electrons; Fe²⁺ has lost 2 and holds 24.\nFill the neutral atom in aufbau order: 1s2 2s2 2p6 3s2 3p6 4s2 3d6, with 4s filling before 3d.\nCount check: 2 + 2 + 6 + 2 + 6 + 2 + 6 = 26 electrons.\nIonisation removes the highest-energy electrons first, which are the two 4s electrons, not any 3d electrons.\nRemove the 4s pair: 1s2 2s2 2p6 3s2 3p6 3d6, leaving 24 electrons.\nResult: the configuration of Fe²⁺ is 1s2 2s2 2p6 3s2 3p6 3d6.\nClassic slip: the arrangement 1s2 2s2 2p6 3s2 3p6 3d4 4s2 keeps the 4s pair and strips 3d electrons instead, reversing the true order in which electrons leave on ionisation."
     },
     {
       "n": 48,
       "derived": "E",
-      "text": "Step 1: combine the logarithms: log₂(x(x − 6)) = 4, so x(x − 6) = 2⁴ = 16. Step 2: rearrange to x² − 6x − 16 = 0, which factors as (x − 8)(x + 2) = 0, giving x = 8 or x = −2. Step 3: the logarithms require x > 6 (both x and x − 6 must be positive), so the negative root is rejected and x = 8 is the only solution; check: log₂ 8 + log₂ 2 = 3 + 1 = 4. Keeping x = −2 ignores the domain of the logarithm."
+      "text": "Given: log₂x + log₂(x − 6) = 4.\nRelationship: log₂a + log₂b = log₂(ab); log₂y = 4 means y = 2⁴; logarithms demand positive arguments, so x > 0 and x − 6 > 0, that is x > 6.\nCombine: log₂(x(x − 6)) = 4, so x(x − 6) = 2⁴ = 16.\nRearrange: x² − 6x − 16 = 0.\nFactorise: (x − 8)(x + 2) = 0, so x = 8 or x = −2.\nApply the domain x > 6: x = −2 is rejected, so x = 8.\nCheck: log₂8 + log₂(8 − 6) = 3 + 1 = 4.\nResult: x = 8 only.\nClassic slip: keeping x = −2 ignores the domain, since there x − 6 = −8 and the logarithm of a negative number does not exist."
     },
     {
       "n": 49,
       "derived": "C",
-      "text": "Total committees = C(10,3) = 120. Favourable committees = 1 chemist chosen from 4 times 2 physicists chosen from 6 = C(4,1) × C(6,2) = 4 × 15 = 60. Probability = 60/120 = 1/2. Quoting the raw count of 60 without dividing by the 120 possible committees, or mixing ordered and unordered counts, produces the other fractions offered."
+      "text": "Given: a committee of 3 chosen from 4 chemists and 6 physicists, so 10 people in all; wanted: exactly one chemist.\nRelationship: probability = favourable committees ÷ total committees, with C(n,r) = n!/(r!(n − r)!).\nTotal committees: C(10,3) = (10 × 9 × 8)/(3 × 2 × 1) = 720/6 = 120.\nFavourable: the one chemist can be picked in C(4,1) = 4 ways.\nThe two physicists can be picked in C(6,2) = (6 × 5)/2 = 15 ways.\nFavourable committees: 4 × 15 = 60.\nSubstitute: P = 60/120 = 1/2.\nResult: 1/2.\nClassic slip: quoting the raw count 60 without dividing by the 120 possible committees, or mixing ordered and unordered counts, gives the other fractions."
     },
     {
       "n": 50,
       "derived": "A",
-      "text": "f(x + 3) = (x + 3)² − 4(x + 3) = x² + 6x + 9 − 4x − 12 = x² + 2x − 3, and subtracting 2 gives x² + 2x − 5. The expression x² − 10x + 19 is what substitution of x − 3 instead of x + 3 would produce, a sign slip in the horizontal shift."
+      "text": "Given: f(x) = x² − 4x; wanted: f(x + 3) − 2.\nRelationship: replace every x by x + 3, expand, then subtract 2.\nSubstitute: f(x + 3) = (x + 3)² − 4(x + 3).\nSquare: (x + 3)² = x² + 6x + 9.\nExpand: 4(x + 3) = 4x + 12, so −4(x + 3) = −4x − 12.\nCombine: x² + 6x + 9 − 4x − 12 = x² + 2x − 3.\nSubtract 2: x² + 2x − 3 − 2 = x² + 2x − 5.\nResult: x² + 2x − 5.\nClassic slip: x² − 10x + 19 results from shifting the wrong way, substituting x − 3 instead of x + 3."
     },
     {
       "n": 51,
       "derived": "D",
-      "text": "Put t = 2x; as x runs from 0 to 2π, t runs from 0 to 4π, two complete circuits of the unit circle. In each circuit, cos t = 1/2 at t = π/3 and t = 5π/3, giving t = π/3, 5π/3, 7π/3, 11π/3 and hence x = π/6, 5π/6, 7π/6, 11π/6: four solutions. Counting solutions only over one period of cosine gives two, forgetting that doubling the angle doubles the range that must be searched."
+      "text": "Given: cos(2x) = 1/2 with 0 ≤ x ≤ 2π, so t = 2x runs over 0 ≤ t ≤ 4π, two full turns.\nRelationship: within one turn of 2π, cos t = 1/2 at t = π/3 and t = 5π/3; each further turn adds 2π.\nFirst turn: t = π/3 and t = 5π/3.\nSecond turn: t = π/3 + 2π = 7π/3 and t = 5π/3 + 2π = 11π/3.\nDivide by 2: x = π/6, 5π/6, 7π/6, 11π/6, all inside the interval.\nResult: 4 solutions.\nClassic slip: the answer 2 searches only one period of cosine, forgetting that doubling the angle doubles the range to be searched."
     },
     {
       "n": 52,
       "derived": "E",
-      "text": "Step 1: the fraction equals 0 at x = −1, which is allowed since 0 satisfies ≥ 0, and is undefined at x = 2, which is excluded. Step 2: sign test: for x < −1 numerator and denominator are both negative, so the fraction is positive; for −1 < x < 2 the signs differ, so it is negative; for x > 2 both are positive. Step 3: the solution set is x ≤ −1 or x > 2. Writing x ≥ 2 wrongly includes x = 2, where the fraction has no value."
+      "text": "Given: the inequality (x + 1)/(x − 2) ≥ 0.\nRelationship: a quotient is ≥ 0 when numerator and denominator share a sign or the numerator is 0; it is undefined where the denominator is 0.\nBoundary points: numerator 0 at x = −1 (allowed, since 0 ≥ 0); denominator 0 at x = 2 (excluded).\nSign test: for x < −1 both parts are negative, so the quotient is positive; for −1 < x < 2 the signs differ, so it is negative; for x > 2 both parts are positive.\nCollect the positive-or-zero regions: x ≤ −1 or x > 2.\nResult: x ≤ −1 or x > 2.\nClassic slip: writing x ≥ 2 includes x = 2, where the denominator vanishes and the fraction has no value."
     },
     {
       "n": 53,
       "derived": "C",
-      "text": "A square inscribed in a circle has each diagonal equal to the circle's diameter: d = 2 × 6 = 12 cm. Area = d²/2 = 12²/2 = 144/2 = 72 cm². Taking 6 cm as the side length gives 36 cm², but a square of side 6 has a diagonal of about 8.5 cm and would sit well inside a circle of radius 6 instead of touching it."
+      "text": "Given: a square inscribed in a circle of radius r = 6 cm.\nRelationship: an inscribed square has each diagonal equal to the diameter, d = 2r, and the area of a square from its diagonal is A = d²/2.\nSubstitute: d = 2 × 6 = 12 cm.\nA = 12²/2 = 144/2 = 72 cm².\nResult: 72 cm².\nClassic slip: 36 cm² treats the 6 cm radius as the side length, but a square of side 6 has a diagonal of about 8.5 cm and would not even touch a circle of radius 6."
     },
     {
       "n": 54,
       "derived": "B",
-      "text": "Step 1: from the two given terms, the common difference is d = (31 − 11)/(8 − 3) = 20/5 = 4. Step 2: the first term is a = 11 − 2 × 4 = 3. Step 3: S₁₀ = (10/2)(2a + 9d) = 5 × (6 + 36) = 5 × 42 = 210. Equivalently the ten terms run 3, 7, ..., 39 with mean (3 + 39)/2 = 21, and 21 × 10 = 210."
+      "text": "Given: arithmetic sequence with 3rd term 11 and 8th term 31.\nRelationship: nth term = a + (n − 1)d; sum of the first n terms S = (n/2)(2a + (n − 1)d).\nCommon difference: d = (31 − 11)/(8 − 3) = 20/5 = 4.\nFirst term: a = 11 − (3 − 1) × 4 = 11 − 8 = 3.\nSubstitute: S₁₀ = (10/2) × (2 × 3 + 9 × 4).\nInner terms: 2 × 3 = 6 and 9 × 4 = 36, so 2a + 9d = 6 + 36 = 42.\nS₁₀ = 5 × 42 = 210.\nResult: 210.\nClassic slip: 290 treats the 3rd term as the first term (a = 11 gives 5 × (22 + 36) = 290), forgetting to step back two places to the true first term."
     },
     {
       "n": 55,
       "derived": "B",
-      "text": "The vertical launch component is v0y = 20 × sin 30° = 20 × 0.5 = 10 m/s. At maximum height the vertical velocity is momentarily zero, so from v² = u² − 2gh: h = 10²/(2 × 10) = 100/20 = 5 m. Squaring the full launch speed of 20 m/s instead of its vertical component gives 20 m, the classic error behind that distractor."
+      "text": "Given: launch speed 20 m/s at 30° above the horizontal; g = 10 m/s²; sin 30° = 0.5.\nRelationship: only the vertical component climbs: v0y = v × sin 30°; at the highest point the vertical velocity is momentarily 0, and v² = u² − 2gh then gives h = v0y²/(2g).\nVertical component: v0y = 20 × 0.5 = 10 m/s.\nSubstitute: h = 10²/(2 × 10) = 100/20 = 5 m.\nResult: 5 m.\nClassic slip: 20 m squares the full launch speed of 20 m/s instead of its vertical component of 10 m/s."
     },
     {
       "n": 56,
       "derived": "B",
-      "text": "Kinetic energy = ½mv² gives 200 = ½ × 4.0 × v² = 2v², so v² = 100 and v = 10 m/s. The other speeds fail the same relation: 5 m/s would give only ½ × 4.0 × 25 = 50 J, and 25 m/s would give 1250 J."
+      "text": "Given: m = 4.0 kg, KE = 200 J.\nRelationship: KE = ½mv², so v² = 2 × KE/m and v = √(2 × KE/m).\nSubstitute: 200 = ½ × 4.0 × v².\n½ × 4.0 = 2.0, so v² = 200/2.0 = 100 m²/s².\nv = √100 = 10 m/s.\nResult: 10 m/s.\nClassic slip: 5 m/s comes from multiplying by ½ instead of dividing by it (v² = (0.5 × 200)/4 = 25), and 100 m/s forgets the square root altogether (2 × 200/4 = 100)."
     },
     {
       "n": 57,
       "derived": "C",
-      "text": "Step 1: momentum conservation: 2.0 × 6.0 = 2.0v1 + 4.0v2. Step 2: in a head on elastic collision the relative speed of separation equals the relative speed of approach: v2 − v1 = 6.0. Step 3: solving the pair gives v1 = −2 m/s (the light trolley rebounds) and v2 = 4.0 m/s. Check energy: before, ½ × 2 × 6² = 36 J; after, ½ × 2 × 2² + ½ × 4 × 4² = 4 + 32 = 36 J. A speed of 6 m/s for the heavy trolley would more than double the system's kinetic energy, violating energy conservation."
+      "text": "Given: m₁ = 2.0 kg moving at 6.0 m/s; m₂ = 4.0 kg at rest; head-on perfectly elastic collision on a frictionless track.\nRelationship: momentum is conserved, and in an elastic collision the relative speed of separation equals the relative speed of approach.\nMomentum: 2.0 × 6.0 = 2.0v₁ + 4.0v₂, so 12 = 2.0v₁ + 4.0v₂.\nRelative speed: v₂ − v₁ = 6.0, so v₁ = v₂ − 6.0.\nSubstitute: 12 = 2.0(v₂ − 6.0) + 4.0v₂ = 2.0v₂ − 12 + 4.0v₂ = 6.0v₂ − 12.\nSolve: 6.0v₂ = 24, so v₂ = 4.0 m/s (and v₁ = −2.0 m/s, the light trolley rebounds).\nEnergy check: before, ½ × 2.0 × 6.0² = 36 J; after, ½ × 2.0 × 2.0² + ½ × 4.0 × 4.0² = 4 + 32 = 36 J.\nResult: the 4.0 kg trolley moves off at 4 m/s.\nClassic slip: 6 m/s for the heavy trolley would force the light one backwards at 6 m/s and give 36 + 72 = 108 J, tripling the kinetic energy that was available."
     },
     {
       "n": 58,
       "derived": "C",
-      "text": "The object's mass is 50/10 = 5 kg and its volume is 5/2500 = 0.002 m³, so the upthrust equals the weight of displaced water: 1000 × 10 × 0.002 = 20 N. Held at rest, the string tension balances weight minus upthrust: T = 50 − 20 = 30 N. Ignoring buoyancy gives 50 N, and adding the upthrust instead of subtracting it gives 70 N, the wrong sign for a force that pushes upward."
+      "text": "Given: weight W = 50 N; object density 2500 kg/m³; water density 1000 kg/m³; g = 10 m/s²; object fully submerged and held at rest.\nRelationship: at rest the forces balance, T + U = W, where the upthrust U = ρ_water × g × V and V = m/ρ_object with m = W/g.\nMass: m = 50/10 = 5 kg.\nVolume: V = 5/2500 = 0.002 m³.\nUpthrust: U = 1000 × 10 × 0.002 = 20 N.\nTension: T = W − U = 50 − 20 = 30 N.\nResult: 30 N.\nClassic slip: 50 N ignores buoyancy altogether, and 70 N adds the upthrust instead of subtracting it, the wrong sign for a force that pushes upward."
     },
     {
       "n": 59,
       "derived": "C",
-      "text": "The temperature rise is ΔT = 70 − 20 = 50 K. Q = mcΔT = 0.30 × 2000 × 50 = 30 000 J = 30 kJ. The value 3.0 kJ would follow from a tenfold slip in the mass or the temperature rise, and using an absolute temperature such as 20 K or 70 K instead of the rise also misses the mark."
+      "text": "Given: m = 0.30 kg of oil, c = 2000 J/(kg K), heated from 20 °C to 70 °C.\nRelationship: Q = m × c × ΔT, with ΔT the temperature rise (a rise of 50 °C equals 50 K).\nΔT = 70 − 20 = 50 K.\nSubstitute: Q = 0.30 × 2000 × 50.\n0.30 × 2000 = 600, then 600 × 50 = 30 000 J.\nQ = 30 000 J = 30 kJ.\nResult: 30 kJ.\nClassic slip: 15 kJ uses half the temperature rise (0.30 × 2000 × 25), and 3.0 kJ is out by a factor of ten through a decimal slip in the mass or the rise."
     },
     {
       "n": 60,
       "derived": "B",
-      "text": "P = V²/R = 12²/8 = 144/8 = 18 W. Equivalently, I = V/R = 12/8 = 1.5 A and P = VI = 12 × 1.5 = 18 W. The number 1.5 is the current in amperes rather than a power, 96 W comes from multiplying V by R, and 144 W from stopping at V² without dividing by the resistance."
+      "text": "Given: V = 12 V across a single R = 8 Ω resistor, negligible internal resistance.\nRelationship: P = V²/R; equivalently I = V/R then P = V × I.\nSubstitute: P = 12²/8 = 144/8 = 18 W.\nCross-check by current: I = 12/8 = 1.5 A, then P = 12 × 1.5 = 18 W.\nResult: 18 W.\nClassic slip: 144 W stops at V² without dividing by the resistance, 96 W multiplies V by R, and 1.5 is the current in amperes rather than a power."
     }
   ],
   "disagreements": [],
@@ -307,6 +307,7 @@
     "All 60 derived answers agree with the stored keys; no disagreements.",
     "Q4 (Milano Cortina 2026 medal table) is a current affairs item after the model's knowledge horizon; it was verified externally against the published final medal table: Norway led with 18 golds and 41 total, ahead of the United States (33 total) and the Netherlands, consistent with the stored key and explanation.",
     "Q45: the stored explanation says the 3,5-dimethylpentane distractor comes from numbering the chain in the wrong direction, but the described molecule is symmetric, so counting from either end still places the methyls at 2 and 4; the 3,5 name is invalid simply because locants must be minimised. The stored answer itself is correct.",
-    "Q7 sits in Section A under topic 'Logic' but is a Venn diagram counting exercise; numerically consistent (all regions sum to 100)."
+    "Q7 sits in Section A under topic 'Logic' but is a Venn diagram counting exercise; numerically consistent (all regions sum to 100).",
+    "Rewrite pass (worked solutions): fully worked step-by-step texts were written for the logic items Q5 to Q9, the chemistry calculations Q33 to Q37, Q39, Q42 to Q45 and Q47, all maths Q48 to Q54 and all physics Q55 to Q60. Reading Q1 and Q2, general knowledge Q3 and Q4, biology Q10 to Q32 and the qualitative chemistry items Q38, Q40, Q41 and Q46 keep their previous texts unchanged. Every stored key was re-derived from the stem before rewriting; all agree."
   ]
 }

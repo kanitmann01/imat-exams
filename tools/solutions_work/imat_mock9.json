@@ -14,12 +14,12 @@
     {
       "n": 3,
       "derived": "B",
-      "text": "Some attendees win scholarships, and no scholarship winner pays a laboratory fee, so at least one student who attended all of the sessions was not charged a fee; that conclusion is forced. Nothing ties fees to passing: the scholarship winners need not have passed, so the passers are not guaranteed any fee-free member. Saying that every student who was not charged attended all sessions merely reverses the first premise, which is not licensed."
+      "text": "Givens: every student who passed attended all laboratory sessions; some students who attended all sessions won a scholarship; no scholarship winner was charged a fee.\nDeduction 1: the second premise guarantees at least one student who both attended every session and won a scholarship.\nDeduction 2: that student, being a scholarship winner, was not charged a fee.\nConclusion: at least one student who attended all of the laboratory sessions was not charged a fee, so that claim is forced.\nWhy the tempting claim fails: clearing the passers of fees would need some of them to have won scholarships, which no premise guarantees, and declaring every non-charged student an attendee merely reverses the first premise."
     },
     {
       "n": 4,
       "derived": "C",
-      "text": "Test each candidate. If Farid jammed it, the accusation of Erik fails, Erik's denial and Farid's own denial fail, and only Gus's claim that Erik did not do it is true: exactly one true statement. If Erik did it, the accusation of Erik, Erik's denial regarding Farid and Farid's denial are all true (three truths), and if Dana or Gus did it, the same three denials are true. So the only assignment fitting the one-true-statement condition has Farid jamming the printer."
+      "text": "Givens: exactly one of Dana, Erik, Farid and Gus jammed the printer, and exactly one of the four statements is true.\nDeduction 1: if Farid did it, the accusation of Erik is false, Erik's denial about Farid is false, Farid's own denial is false, and Gus's denial about Erik is true, giving exactly one truth.\nDeduction 2: if Erik did it, the accusation of Erik, Erik's denial about Farid and Farid's denial are all true, three truths.\nDeduction 3: if Dana or Gus did it, then Erik and Farid are both innocent, so the statements of Erik, Farid and Gus are all true, three truths again.\nConclusion: only Farid as the jammer leaves exactly one true statement, so Farid did it.\nWhy the tempting claim fails: accusing Erik would make Dana's statement true on top of the two denials, breaking the one-truth condition at once."
     },
     {
       "n": 5,
@@ -29,22 +29,22 @@
     {
       "n": 6,
       "derived": "B",
-      "text": "The rule has the form: if the alarm sounds, the staff evacuate. The only equivalent form of a conditional is its contrapositive: if the staff do not evacuate, the alarm has not sounded. Saying that evacuation proves the alarm sounded runs the implication backwards, saying that no alarm means no evacuation is the inverse, and the biconditional adds an unproven claim in the opposite direction."
+      "text": "Givens: the rule is a one-way conditional: if the alarm sounds, all staff evacuate.\nDeduction 1: a conditional of the form P implies Q is logically equivalent only to its contrapositive, not-Q implies not-P.\nDeduction 2: here that contrapositive reads: if the staff do not evacuate, the fire alarm has not sounded.\nConclusion: the contrapositive is the only logically equivalent statement offered.\nWhy the tempting claims fail: evacuation implying the alarm sounded runs the arrow backwards, no alarm implying no evacuation only negates both parts without reversing them, the biconditional adds an unproven claim in the reverse direction, and a bare either-or is not a conditional at all."
     },
     {
       "n": 7,
       "derived": "D",
-      "text": "With Jana fixed at position 1, the Hugo-Kofi pair must sit together and Gita, Femi, Ivo must appear in that order. The four feasible rows are: Jana, Hugo, Kofi, Gita, Femi, Ivo; Jana, Gita, Hugo, Kofi, Femi, Ivo; Jana, Gita, Femi, Hugo, Kofi, Ivo; and Jana, Gita, Femi, Ivo, Hugo, Kofi. Hugo at 2, Ivo at 4, Femi at 3 and Kofi at 5 each occur somewhere in this list, but Gita only ever lands in position 2 or 4, so Gita in position 5 is impossible."
+      "text": "Givens: Jana fixed in position 1; Gita somewhere left of Femi, Femi somewhere left of Ivo; Hugo immediately left of Kofi; the other five people fill positions 2 to 6.\nDeduction 1: the Hugo-Kofi block must occupy positions 2-3, 3-4, 4-5 or 5-6, so there are four cases.\nDeduction 2: block at 2-3 forces Gita, Femi, Ivo into positions 4, 5, 6 in that order.\nDeduction 3: block at 3-4 forces Gita into 2 and Femi, Ivo into 5, 6.\nDeduction 4: block at 4-5 forces Gita, Femi into 2, 3 and Ivo into 6.\nDeduction 5: block at 5-6 forces Gita, Femi, Ivo into 2, 3, 4.\nConclusion: these four rows are the only valid arrangements, and Gita lands on position 2 or 4 in every one of them, so Gita in position 5 is impossible.\nWhy the tempting claims fail: Hugo on 2, Ivo on 4, Femi on 3 and Kofi on 5 each appear in one of the four rows, so none of them is ruled out."
     },
     {
       "n": 8,
       "derived": "C",
-      "text": "Chemistry must precede Demography, so Demography can never occupy the first slot at 9:00, whichever arrangement holds. Working through the cases, Chemistry lands at 9:00 in four of the five valid orders and at 13:00 in the one that begins Anthropology, Botany; Botany can sit at 11:00, 13:00 or 15:00; and Anthropology takes 9:00 in only that single order. Every other listed claim fails in at least one valid schedule, while Demography not being at 9:00 holds in all of them."
+      "text": "Givens: lectures at 9:00, 11:00, 13:00 and 15:00; Chemistry earlier than Demography; Botany not at 9:00; Anthropology immediately before or after Botany.\nDeduction 1: the Anthropology-Botany pair must occupy adjacent slots, 9:00-11:00, 11:00-13:00 or 13:00-15:00, giving five schedules to test.\nDeduction 2: pair at 9:00-11:00 leaves Chemistry at 13:00 and Demography at 15:00.\nDeduction 3: pair at 11:00-13:00, either internal order, leaves Chemistry at 9:00 and Demography at 15:00.\nDeduction 4: pair at 13:00-15:00, either internal order, leaves Chemistry at 9:00 and Demography at 11:00.\nDeduction 5: in all five valid schedules Demography comes after Chemistry, so Demography can never take the first slot.\nConclusion: Demography is not scheduled at 9:00, and this holds in every arrangement, so it must be true.\nWhy the tempting claims fail: Chemistry sits only at 9:00 or 13:00 (never at 11:00 or 15:00), Botany ranges over 11:00, 13:00 and 15:00, and Anthropology opens the day in only one of the five schedules."
     },
     {
       "n": 9,
       "derived": "D",
-      "text": "Positions 1, 2, 4 and 5 hold P, S, R and Q with S ahead of R ahead of Q, giving exactly four rankings: S, R, Q, P; S, R, P, Q; S, P, R, Q; and P, S, R, Q (reading positions 1, 2, 4, 5 in order). In every ranking Q is fourth or fifth. S first, P second and R fourth each fail in at least one ranking, and in the last ranking P finishes ahead of S, so only the claim about Q must be true."
+      "text": "Givens: five ranks with T fixed third; the chain S better than R better than Q; P, S, R and Q fill positions 1, 2, 4 and 5.\nDeduction 1: Q needs both S and R ahead of it, and position 3 is taken, so Q can sit only fourth or fifth.\nDeduction 2: with Q fifth, S and R take two of positions 1, 2 and 4 in that order and P takes the remainder, which gives three rankings.\nDeduction 3: with Q fourth, S and R must take positions 1 and 2 and P is pushed to fifth, one ranking.\nDeduction 4: in all four resulting rankings Q occupies fourth or fifth place.\nConclusion: Q is ranked either fourth or fifth, and this must be true.\nWhy the tempting claims fail: one ranking puts P first and S second, so S first, P second and S ahead of P each break, and R holds second place in three of the four rankings, so R fourth fails too."
     },
     {
       "n": 10,
@@ -169,22 +169,22 @@
     {
       "n": 34,
       "derived": "C",
-      "text": "Step 1: n(CH₄) = 4.8/16 = 0.30 mol and n(O₂) = 4.8/32 = 0.15 mol. Step 2: the equation needs 2 mol of O₂ per mol of CH₄, so 0.15 mol of O₂ can burn only 0.075 mol of CH₄; oxygen is limiting, not in excess. Step 3: CO₂ formed = 0.075 mol, so V = 0.075 × 22.4 = 1.68 dm³ at STP. Step 4: methane left = 0.30 - 0.075 = 0.225 mol, that is 0.225 × 16 = 3.6 g. The 3.36 dm³ answers treat each mole of O₂ as yielding a mole of CO₂, forgetting the 2:1 ratio."
+      "text": "Given: 4.8 g of CH₄ (M = 16 g/mol), 4.8 g of O₂ (M = 32 g/mol), equation CH₄ + 2O₂ → CO₂ + 2H₂O, molar volume 22.4 dm³/mol at STP.\nRelationship: n = m ÷ M; the equation fixes a 1 : 2 : 1 ratio of methane to oxygen to carbon dioxide; gas volume = n × 22.4 dm³ at STP.\nSubstitute: n(CH₄) = 4.8 ÷ 16 = 0.30 mol; n(O₂) = 4.8 ÷ 32 = 0.15 mol.\nLimiting check: 0.15 mol of O₂ burns only 0.15 ÷ 2 = 0.075 mol of CH₄, so the oxygen runs out first.\nHop: CO₂ formed = 0.075 mol (1:1 with the methane burned), so V = 0.075 × 22.4 = 1.68 dm³ at STP.\nHop: methane left = 0.30 - 0.075 = 0.225 mol, mass = 0.225 × 16 = 3.6 g.\nResult: 1.68 dm³ of CO₂ forms at STP and 3.6 g of methane remains.\nClassic slip: letting the 0.15 mol of oxygen stand for 0.15 mol of CO₂, which inflates the volume to 3.36 dm³ by ignoring the 2:1 oxygen requirement."
     },
     {
       "n": 35,
       "derived": "C",
-      "text": "Step 1: 0.40/40 = 0.010 mol of NaOH in 1.0 dm³ gives [OH⁻] = 1.0 × 10⁻² mol/dm³, pOH = 2 and pH = 12. Step 2: taking 10 cm³ of it up to 1.0 dm³ is a hundredfold dilution, so [OH⁻] = 1.0 × 10⁻⁴ mol/dm³, pOH = 4 and pH = 14 - 4 = 10. The value 4 is the pOH mislabelled as pH, and pH 11 would correspond to a tenfold dilution."
+      "text": "Given: 0.40 g of NaOH (M = 40 g/mol) made up to 1.0 dm³, then 10 cm³ of it diluted to 1.0 dm³; Kw = 1.0 × 10⁻¹⁴ at 25 °C.\nRelationship: n = m ÷ M; NaOH is fully dissociated so [OH⁻] equals the NaOH concentration; pH + pOH = 14; dilution divides the concentration by the volume factor.\nSubstitute: n = 0.40 ÷ 40 = 0.010 mol, so the first solution has [OH⁻] = 0.010 ÷ 1.0 = 1.0 × 10⁻² mol/dm³.\nHop: pOH = 2, so pH = 14 - 2 = 12 in the first solution.\nDilution: factor = 1000 ÷ 10 = 100, so [OH⁻] = 1.0 × 10⁻² ÷ 100 = 1.0 × 10⁻⁴ mol/dm³.\nHop: pOH = 4.\nResult: pH = 14 - 4 = 10.\nClassic slip: reading the final pOH, 4, as the pH, or treating the hundredfold dilution as tenfold, which would give pH 11."
     },
     {
       "n": 36,
       "derived": "C",
-      "text": "The ionic product gives [H⁺] = Kw ÷ [OH⁻] = 1.0 × 10⁻¹³ / 1.0 × 10⁻² = 1.0 × 10⁻¹¹ mol/dm³, so pH = 11. The value 12 comes from reusing the 25 °C Kw of 10⁻¹⁴; 2 is the pOH at this temperature; and 6.5 is merely the pH of neutral water here, not of an alkaline solution."
+      "text": "Given: Kw = 1.0 × 10⁻¹³ at the higher temperature; [OH⁻] = 0.010 mol/dm³ from fully dissociated NaOH.\nRelationship: Kw = [H⁺] × [OH⁻], so [H⁺] = Kw ÷ [OH⁻], and pH = -log₁₀[H⁺].\nSubstitute: [H⁺] = (1.0 × 10⁻¹³) ÷ (1.0 × 10⁻²).\nHop: [H⁺] = 1.0 × 10⁻¹¹ mol/dm³.\nHop: pH = -log₁₀(1.0 × 10⁻¹¹) = 11.\nResult: pH = 11 at this temperature.\nClassic slip: dividing by the 25 °C value of Kw, 1.0 × 10⁻¹⁴, which lands on pH 12; the solution is still firmly alkaline even though neutral water here would read pH 6.5."
     },
     {
       "n": 37,
       "derived": "D",
-      "text": "Step 1: initial [H⁺] = 0.010 mol/dm³, so pH = 2.00. Step 2: the dilution factor is 400/20 = 20, so pH rises by log₁₀ 20 = log₁₀ 2 + log₁₀ 10 = 0.30 + 1.00 = 1.30. Step 3: pH = 2.00 + 1.30 = 3.30, equivalently [H⁺] falls to 5.0 × 10⁻⁴ mol/dm³. Assuming a tenfold dilution gives 3.00, a hundredfold would be needed for 4.00, and 2.30 would require concentrating the acid."
+      "text": "Given: 20 cm³ of 0.010 mol/dm³ HCl (strong, fully ionised) diluted to 400 cm³; log₁₀ 2 = 0.30.\nRelationship: the dilution factor is V(final) ÷ V(initial); [H⁺] is divided by it, and each tenfold drop in [H⁺] raises pH by exactly 1, so ΔpH = log₁₀(dilution factor).\nSubstitute: dilution factor = 400 ÷ 20 = 20.\nHop: initial [H⁺] = 0.010 mol/dm³, so initial pH = 2.00.\nHop: ΔpH = log₁₀ 20 = log₁₀ 2 + log₁₀ 10 = 0.30 + 1.00 = 1.30.\nResult: pH = 2.00 + 1.30 = 3.30 (check: [H⁺] = 0.010 ÷ 20 = 5.0 × 10⁻⁴ mol/dm³, and -log(5.0 × 10⁻⁴) = 3.30).\nClassic slip: assuming a clean tenfold dilution, which gives pH 3.00, or a hundredfold one, which gives 4.00; the true factor of 20 needs the log of 2."
     },
     {
       "n": 38,
@@ -194,118 +194,119 @@
     {
       "n": 39,
       "derived": "E",
-      "text": "With rate proportional to [A]¹[B]², doubling [A] multiplies the rate by 2 and tripling [B] multiplies it by 3² = 9, for a total factor of 2 × 9 = 18. The factor 6 results from dropping the square and treating B as first order."
+      "text": "Given: rate proportional to [A]¹ and to [B]²; [A] doubled; [B] tripled.\nRelationship: total rate factor = (change in A)^(order in A) × (change in B)^(order in B) = 2¹ × 3².\nHop: 3² = 9.\nHop: total = 2 × 9 = 18.\nResult: the rate increases by a factor of 18.\nClassic slip: dropping the square and computing 2 × 3 = 6, which treats the rate as first order in B."
     },
     {
       "n": 40,
       "derived": "B",
-      "text": "Six oxygens at -2 each contribute -12; the ion's charge is -2, so the four sulfur atoms together carry +10, and the average per sulfur is +10 ÷ 4 = +2.5. The value +10 is the sum over all four atoms, not one atom's average."
+      "text": "Given: tetrathionate ion S₄O₆²⁻, four sulfur atoms treated as equivalent, oxygen = -2.\nRelationship: oxidation numbers sum to the overall charge: 4x + 6 × (-2) = -2.\nSubstitute: 4x - 12 = -2.\nHop: 4x = -2 + 12 = 10.\nResult: x = 10 ÷ 4 = +2.5, the average oxidation number per sulfur atom.\nClassic slip: reporting +10, the total held by all four sulfur atoms together, as if it were one atom's average."
     },
     {
       "n": 41,
       "derived": "D",
-      "text": "In SO₃²⁻ the three oxygens give -6 and the ion carries -2, so sulfur is +4. In NO₂ a neutral molecule with two oxygens at -4 requires nitrogen at +4, a match. Nitrogen is 0 in N₂, -3 in NH₃, +2 in NO and +1 in N₂O."
+      "text": "Given: sulfur in SO₃²⁻; nitrogen in N₂, NH₃, NO, NO₂ and N₂O; oxygen = -2; neutral molecules sum to 0.\nRelationship: the sum of oxidation numbers equals the species' overall charge.\nHop 1: sulfur, x + 3 × (-2) = -2, so x = +4.\nHop 2: nitrogen in NO₂, x + 2 × (-2) = 0, so x = +4: a match.\nHop 3: sweep the rest: N₂ is 0 (element), NH₃ gives x + 3 = 0 so x = -3, NO gives x - 2 = 0 so x = +2, N₂O gives 2x - 2 = 0 so x = +1.\nResult: only in NO₂ does nitrogen carry +4, the same as sulfur in the sulfite ion.\nClassic slip: forgetting the -2 charge when computing sulfur, which gives +6 instead of +4 and sends the matching astray."
     },
     {
       "n": 42,
       "derived": "C",
-      "text": "60 minutes is exactly three half-lives: 0.80 → 0.40 → 0.20 → 0.10 mol. Concentration = 0.10 mol ÷ 2.0 dm³ = 0.050 mol/dm³. The 0.10 mol/dm³ answer is the number of moles without dividing by the vessel volume, and a fourth half-life would be needed to reach 0.025 mol/dm³."
+      "text": "Given: first-order kinetics, half-life 20 minutes, elapsed time 60 minutes, initial amount 0.80 mol in a 2.0 dm³ vessel.\nRelationship: each half-life halves the amount; number of half-lives = time ÷ half-life; concentration = amount ÷ volume.\nSubstitute: number of half-lives = 60 ÷ 20 = 3.\nHop 1: after 20 min, 0.80 ÷ 2 = 0.40 mol.\nHop 2: after 40 min, 0.40 ÷ 2 = 0.20 mol.\nHop 3: after 60 min, 0.20 ÷ 2 = 0.10 mol.\nHop 4: concentration = 0.10 ÷ 2.0 = 0.050 mol/dm³.\nResult: 0.050 mol/dm³ after 60 minutes.\nClassic slip: quoting the 0.10 as a concentration without dividing by the 2.0 dm³ vessel, or halving one time more, which would give 0.025 mol/dm³."
     },
     {
       "n": 43,
       "derived": "B",
-      "text": "Sample X: 4.4/44 = 0.10 mol of CO₂ × 2 oxygen atoms = 0.20 mol of O atoms. Sample Y: 4.9/98 = 0.050 mol of H₂SO₄ × 4 = 0.20 mol of O atoms. Each is 0.20 × 6.02 × 10²³ ≈ 1.2 × 10²³ atoms, so the counts are equal. The 2.4 × 10²³ answers slip an extra factor of two into one of the conversions."
+      "text": "Given: X = 4.4 g of CO₂ (M = 12 + 32 = 44 g/mol); Y = 4.9 g of H₂SO₄ (M = 98 g/mol); Avogadro constant 6.02 × 10²³ per mol.\nRelationship: n = m ÷ M; each CO₂ holds 2 oxygen atoms, each H₂SO₄ holds 4; atoms = n × atoms per molecule × 6.02 × 10²³.\nSubstitute X: n = 4.4 ÷ 44 = 0.10 mol of CO₂, giving 0.10 × 2 = 0.20 mol of oxygen atoms.\nSubstitute Y: n = 4.9 ÷ 98 = 0.050 mol of H₂SO₄, giving 0.050 × 4 = 0.20 mol of oxygen atoms.\nHop: 0.20 × 6.02 × 10²³ = 1.204 × 10²³ ≈ 1.2 × 10²³ atoms in each sample.\nResult: both samples contain about 1.2 × 10²³ oxygen atoms.\nClassic slip: doubling one conversion, for instance crediting each CO₂ with 4 oxygens, which yields 2.4 × 10²³ for one sample and breaks the equality."
     },
     {
       "n": 44,
       "derived": "D",
-      "text": "Step 1: acid gives 0.050 × 0.20 = 0.010 mol H⁺; base gives 0.150 × 0.10 = 0.015 mol OH⁻. Step 2: excess OH⁻ = 0.005 mol in a total volume of 0.200 dm³, so [OH⁻] = 0.005/0.200 = 0.025 mol/dm³. Step 3: pOH = -log(2.5 × 10⁻²) = 2 - 0.40 = 1.60, so pH = 14 - 1.60 = 12.40. The 13.00 answer skips dividing by the combined volume, and 1.60 is the pOH, not the pH (it would also wrongly make the acid the excess reagent)."
+      "text": "Given: 50 cm³ of 0.20 mol/dm³ HCl; 150 cm³ of 0.10 mol/dm³ NaOH; both fully ionised; Kw = 1.0 × 10⁻¹⁴; log 2.5 = 0.40.\nRelationship: n = c × V; H⁺ and OH⁻ neutralise 1:1; the surviving ion's concentration = leftover moles ÷ total volume; pH + pOH = 14.\nSubstitute: n(H⁺) = 0.050 × 0.20 = 0.010 mol; n(OH⁻) = 0.150 × 0.10 = 0.015 mol.\nHop: excess OH⁻ = 0.015 - 0.010 = 0.005 mol (the base wins).\nHop: total volume = 50 + 150 = 200 cm³ = 0.200 dm³, so [OH⁻] = 0.005 ÷ 0.200 = 0.025 mol/dm³.\nHop: pOH = -log(2.5 × 10⁻²) = 2 - 0.40 = 1.60.\nResult: pH = 14 - 1.60 = 12.40.\nClassic slip: skipping the division by the combined volume, which inflates [OH⁻] to 0.005 mol/dm³ and the pH to 13.00, or reporting the pOH of 1.60 as the pH."
     },
     {
       "n": 45,
       "derived": "B",
-      "text": "Step 1: n(Al) = 1.08/27 = 0.040 mol; n(H₂SO₄) = 0.100 × 0.10 = 0.010 mol. Step 2: the equation 2Al + 3H₂SO₄ needs 1.5 mol of acid per mol of Al, so consuming all the aluminium would need 0.060 mol of acid; only 0.010 mol is present, so the acid is limiting and aluminium is in excess. Step 3: 3 mol of H₂ per 3 mol of acid gives 0.010 mol of H₂ = 0.010 × 22.4 = 0.224 dm³ at STP. Step 4: aluminium consumed = (2/3) × 0.010 ≈ 0.0067 mol (0.18 g), leaving about 0.90 g unused. The 1.344 dm³ figure wrongly treats aluminium as the limiting reagent."
+      "text": "Given: 1.08 g of Al (M = 27 g/mol); 100 cm³ of 0.10 mol/dm³ H₂SO₄; equation 2Al + 3H₂SO₄ → Al₂(SO₄)₃ + 3H₂; molar volume 22.4 dm³/mol at STP.\nRelationship: n = m ÷ M or c × V; the reagent that runs out first fixes the yield; H₂ forms 1:1 with the acid consumed (3:3 in the equation).\nSubstitute: n(Al) = 1.08 ÷ 27 = 0.040 mol; n(H₂SO₄) = 0.100 × 0.10 = 0.010 mol.\nLimiting check: consuming all the aluminium would need 0.040 × 3 ÷ 2 = 0.060 mol of acid, but only 0.010 mol exists, so the acid is limiting.\nHop: H₂ formed = 0.010 mol (1:1 with the acid).\nHop: V = 0.010 × 22.4 = 0.224 dm³ at STP.\nHop: aluminium consumed = 0.010 × 2 ÷ 3 ≈ 0.0067 mol ≈ 0.18 g, leaving about 1.08 - 0.18 = 0.90 g of aluminium unused.\nResult: 0.224 dm³ of H₂ at STP, with aluminium in excess.\nClassic slip: treating the 0.040 mol of aluminium as limiting, which multiplies the gas up to 1.344 dm³ and ignores the acid running dry."
     },
     {
       "n": 46,
       "derived": "E",
-      "text": "Moles of NaCl = 0.500 × 0.20 = 0.10 mol, and evaporation removes solvent only. Final concentration = 0.10 / 0.200 = 0.50 mol/dm³. Removing water must concentrate the solution, so any value at or below 0.20 has the direction reversed, and 0.08 comes from multiplying by the volume ratio instead of dividing by it."
+      "text": "Given: 500 cm³ of 0.20 mol/dm³ NaCl evaporated to exactly 200 cm³, no solute lost.\nRelationship: n = c × V; evaporation removes solvent only, so n stays fixed and c(new) = n ÷ V(new).\nSubstitute: n = 0.500 dm³ × 0.20 mol/dm³ = 0.10 mol.\nHop: V(new) = 200 cm³ = 0.200 dm³.\nResult: c(new) = 0.10 ÷ 0.200 = 0.50 mol/dm³.\nClassic slip: multiplying by the volume ratio instead of dividing (0.20 × 200/500 = 0.08 mol/dm³), which reverses what removing water does."
     },
     {
       "n": 47,
       "derived": "C",
-      "text": "pH is logarithmic: a gap of 5.5 - 3.5 = 2.0 units means a factor of 10² = 100 in hydrogen ion concentration. The answer 20 treats the scale as linear (10 per unit), and the pH 3.5 solution is the more acidic one, so its hydrogen ion concentration is 100 times higher."
+      "text": "Given: two solutions at pH 3.5 and pH 5.5 at 25 °C.\nRelationship: pH = -log₁₀[H⁺], so each whole unit of pH is a factor of 10 in [H⁺], and the factor between two solutions is 10 raised to the pH difference.\nSubstitute: difference = 5.5 - 3.5 = 2.0 units.\nHop: factor = 10² = 100.\nResult: the pH 3.5 solution has 100 times the hydrogen ion concentration of the pH 5.5 solution.\nClassic slip: treating the pH scale as linear and multiplying the 2-unit gap by ten to get 20."
     },
     {
       "n": 48,
       "derived": "C",
-      "text": "45 = 3² × 5, so log₁₀ 45 = 2 log₁₀ 3 + log₁₀ 5 = 2(0.48) + 0.70 = 0.96 + 0.70 = 1.66. The value 1.18 is log₁₀ 15 (3 × 5), and 1.88 corresponds to log₁₀ 75 (3 × 5²)."
+      "text": "Given: log₁₀ 5 = 0.70; log₁₀ 3 = 0.48.\nRelationship: 45 = 3² × 5, so log₁₀ 45 = 2 × log₁₀ 3 + log₁₀ 5 (product rule plus power rule).\nSubstitute: log₁₀ 45 = 2 × 0.48 + 0.70.\nHop: 2 × 0.48 = 0.96.\nResult: 0.96 + 0.70 = 1.66.\nClassic slip: reading 45 as 3 × 5² instead, which gives 0.48 + 2 × 0.70 = 1.88, or as 3 × 5, which gives 1.18."
     },
     {
       "n": 49,
       "derived": "E",
-      "text": "No real solutions requires the discriminant k² - 4 × 9 = k² - 36 to be negative, that is k² < 36, which holds exactly for -6 < k < 6 with strict inequalities. At k = ±6 the discriminant is zero and there is a repeated real root (x = -3 for k = 6, x = 3 for k = -6), so the versions including the endpoints wrongly count that repeated root as no solution."
+      "text": "Given: x² + kx + 9 = 0, asking for the values of k that give no real solutions.\nRelationship: a quadratic has no real roots exactly when its discriminant k² - 4ac is negative.\nSubstitute: discriminant = k² - 4 × 1 × 9 = k² - 36.\nCondition: k² - 36 < 0, that is k² < 36.\nHop: |k| < 6, so -6 < k < 6 with both ends excluded.\nResult: no real solutions precisely when -6 < k < 6.\nClassic slip: writing ≤ at both ends; at k = 6 or k = -6 the discriminant is zero and the equation has the repeated real root x = -3 or x = 3, which still counts as a real solution."
     },
     {
       "n": 50,
       "derived": "C",
-      "text": "Sphere volume = (4/3)π × 3³ = 36π cm³. Melting conserves volume, so π × 2² × h = 36π, giving h = 36/4 = 9 cm. The 18 cm answer divides by 2π instead of 4π, forgetting to square the cylinder radius."
+      "text": "Given: sphere of radius 3 cm melted and recast as a cylinder of radius 2 cm; V(sphere) = (4/3)πr³; V(cylinder) = πr²h.\nRelationship: melting conserves volume, so sphere volume = cylinder volume.\nSubstitute: V(sphere) = (4/3) × π × 3³ = (4/3) × 27 × π = 36π cm³.\nSubstitute: V(cylinder) = π × 2² × h = 4πh.\nEquate: 4πh = 36π.\nResult: h = 36 ÷ 4 = 9 cm.\nClassic slip: dividing 36π by 2π instead of 4π, forgetting to square the cylinder's radius, which gives 18 cm."
     },
     {
       "n": 51,
       "derived": "D",
-      "text": "P(both red) = (3/8) × (2/7) = 6/56 and P(both blue) = (5/8) × (4/7) = 20/56; the two events are mutually exclusive, so P(same colour) = 26/56 = 13/28. The value 15/28 is the complement 1 - 13/28, the probability of two different colours rather than the same."
+      "text": "Given: 3 red and 5 blue balls, 8 in all, two drawn without replacement.\nRelationship: P(both red) and P(both blue) are mutually exclusive, so P(same colour) is their sum; each branch multiplies the first-draw and second-draw probabilities.\nSubstitute red: (3/8) × (2/7) = 6/56.\nSubstitute blue: (5/8) × (4/7) = 20/56.\nHop: sum = 6/56 + 20/56 = 26/56.\nResult: 26/56 = 13/28.\nClassic slip: computing the complement instead, the 30/56 chance of two different colours, and reporting 15/28."
     },
     {
       "n": 52,
       "derived": "C",
-      "text": "The per-minute distances are 120 m, 180 m and 240 m, each covered in 60 s, so the average speeds are 2.0, 3.0 and 4.0 m/s; the greatest is 4.0 m/s. The 3.0 m/s figure is the overall average (540 m in 180 s), and 9.0 m/s wrongly squeezes all 540 m into a single minute."
+      "text": "Given: distance from start 0, 120, 300 and 540 m at times 0, 1, 2 and 3 minutes.\nRelationship: average speed over one interval = distance gained ÷ time, with 1 minute = 60 s.\nHop 1: interval 1 covers 120 - 0 = 120 m, speed = 120 ÷ 60 = 2.0 m/s.\nHop 2: interval 2 covers 300 - 120 = 180 m, speed = 180 ÷ 60 = 3.0 m/s.\nHop 3: interval 3 covers 540 - 300 = 240 m, speed = 240 ÷ 60 = 4.0 m/s.\nCompare: 4.0 m/s is the largest of the three.\nResult: greatest one-minute average speed = 4.0 m/s.\nClassic slip: dividing the whole 540 m by the total 180 s to get the overall 3.0 m/s, which blends the intervals instead of isolating the fastest one."
     },
     {
       "n": 53,
       "derived": "C",
-      "text": "√50 = 5√2, √18 = 3√2 and √8 = 2√2, so the expression is (5 + 3 - 2)√2 = 6√2, giving a = 6. Adding all three coefficients (10) ignores the minus sign, and 4 comes from flipping the sign of the middle term."
+      "text": "Given: √50 + √18 - √8, required in the form a√2.\nRelationship: √(a² × b) = a√b, so extract the largest perfect square from each radicand.\nHop 1: √50 = √(25 × 2) = 5√2.\nHop 2: √18 = √(9 × 2) = 3√2.\nHop 3: √8 = √(4 × 2) = 2√2.\nCombine: (5 + 3 - 2)√2 = 6√2.\nResult: a = 6, value 6√2.\nClassic slip: ignoring the minus sign and summing all coefficients to get 10, or flipping the sign of the middle term to get 4."
     },
     {
       "n": 54,
       "derived": "D",
-      "text": "Addition rule: P(A or B) = P(A) + P(B) - P(A and B) = 0.5 + 0.4 - 0.2 = 0.7. The overlap must be subtracted because adding the two probabilities counts their shared outcomes twice; skipping that subtraction gives 0.9."
+      "text": "Given: P(A) = 0.5, P(B) = 0.4, P(A and B) = 0.2.\nRelationship: addition rule, P(A or B) = P(A) + P(B) - P(A and B); the subtraction removes the double-counted overlap.\nSubstitute: P(A or B) = 0.5 + 0.4 - 0.2.\nHop: 0.5 + 0.4 = 0.9.\nResult: 0.9 - 0.2 = 0.7.\nClassic slip: stopping at 0.9 and never subtracting the 0.2 shared outcomes."
     },
     {
       "n": 55,
       "derived": "B",
-      "text": "Between 6.0 s and 8.0 s the velocity falls from 14 m/s to 6 m/s: a = (6 - 14)/2.0 = -4 m/s², so the magnitude is 4 m/s². The 8 m/s² answer uses the velocity change without dividing by the time."
+      "text": "Given: velocity 14 m/s at 6.0 s; velocity 6 m/s at 8.0 s.\nRelationship: a = Δv ÷ Δt; the magnitude keeps only the size of the answer.\nSubstitute: a = (6 - 14) ÷ (8.0 - 6.0).\nHop 1: Δv = 6 - 14 = -8 m/s.\nHop 2: Δt = 2.0 s, so a = -8 ÷ 2.0 = -4 m/s².\nResult: magnitude of acceleration = 4 m/s² (the trolley is braking).\nClassic slip: quoting the velocity change of 8 m/s as the acceleration without dividing by the 2.0 s interval."
     },
     {
       "n": 56,
       "derived": "A",
-      "text": "Centripetal acceleration a = v²/r = 10²/50 = 2.0 m/s², always directed toward the centre of the bend. Constant speed does not mean zero acceleration because the velocity's direction keeps changing, and 0.20 m/s² comes from dividing v by r without squaring."
+      "text": "Given: radius r = 50 m; speed v = 10 m/s; uniform circular motion.\nRelationship: centripetal acceleration a = v² ÷ r, directed toward the centre at every instant.\nSubstitute: a = 10² ÷ 50.\nHop: 10² = 100, so a = 100 ÷ 50 = 2.0 m/s².\nResult: acceleration of 2.0 m/s² pointing toward the centre of the bend.\nClassic slip: dividing without squaring, 10 ÷ 50 = 0.20 m/s², or reasoning that constant speed means zero acceleration although the direction of travel keeps turning."
     },
     {
       "n": 57,
       "derived": "B",
-      "text": "Step 1: the 12 Ω and 6.0 Ω pair in parallel has resistance (12 × 6.0)/(12 + 6.0) = 72/18 = 4.0 Ω. Step 2: total resistance = 8.0 + 4.0 = 12 Ω. Step 3: I = 24 V ÷ 12 Ω = 2.0 A. The 3.0 A answer ignores the parallel section entirely (24/8.0), even though all the supplied current must pass through it."
+      "text": "Given: 24 V battery of negligible internal resistance; 8.0 Ω in series with a parallel pair of 12 Ω and 6.0 Ω.\nRelationship: parallel pair R = (R₁ × R₂) ÷ (R₁ + R₂); series resistances add; I = V ÷ R_total.\nSubstitute parallel: (12 × 6.0) ÷ (12 + 6.0) = 72 ÷ 18 = 4.0 Ω.\nHop: R_total = 8.0 + 4.0 = 12 Ω.\nSubstitute: I = 24 ÷ 12.\nResult: I = 2.0 A.\nClassic slip: dividing 24 V by the lone 8.0 Ω resistor to get 3.0 A, forgetting that the whole current must also cross the parallel section."
     },
     {
       "n": 58,
       "derived": "B",
-      "text": "Heat balance with equal specific heat capacities: 0.40 × (T - 20) = 0.20 × (65 - T). Expanding: 0.40T - 8 = 13 - 0.20T, so 0.60T = 21 and T = 35 °C. The plain average 42.5 °C ignores that the cool sample has twice the mass, which pulls the final temperature below the midpoint."
+      "text": "Given: m₁ = 0.40 kg of water at 20 °C; m₂ = 0.20 kg of water at 65 °C; insulated container; same specific heat capacity c.\nRelationship: heat gained by the cold water = heat lost by the warm water, m₁c(T - 20) = m₂c(65 - T); c cancels.\nSubstitute: 0.40(T - 20) = 0.20(65 - T).\nExpand: 0.40T - 8.0 = 13.0 - 0.20T.\nCollect: 0.40T + 0.20T = 13.0 + 8.0, so 0.60T = 21.0.\nResult: T = 21.0 ÷ 0.60 = 35 °C.\nClassic slip: taking the plain midpoint (20 + 65) ÷ 2 = 42.5 °C, which weights both samples equally and ignores that the cold one has twice the mass."
     },
     {
       "n": 59,
       "derived": "C",
-      "text": "Gauge pressure counts only the liquid column: p = ρgh = 800 × 10 × 3.0 = 24,000 Pa = 24 kPa. The word gauge excludes the 100 kPa of atmospheric pressure on the open surface (adding it gives the absolute pressure, 124 kPa), and 8.0 kPa corresponds to dropping the depth factor."
+      "text": "Given: ρ = 800 kg/m³; depth h = 3.0 m; g = 10 m/s²; atmospheric pressure 100 kPa on the open surface.\nRelationship: gauge pressure comes from the liquid column alone, p = ρgh; gauge means the atmosphere is excluded.\nSubstitute: p = 800 × 10 × 3.0.\nHop: 800 × 10 = 8000, so p = 8000 × 3.0 = 24000 Pa.\nResult: p = 24 kPa gauge.\nClassic slip: adding the 100 kPa of atmospheric pressure, which answers a different question (the absolute pressure, 124 kPa) instead of the gauge pressure asked."
     },
     {
       "n": 60,
       "derived": "C",
-      "text": "E = P × t in consistent units: 2.0 kW = 2000 W and 3.0 minutes = 180 s, so E = 2000 × 180 = 360,000 J = 3.6 × 10⁵ J. The 6.0 × 10³ J answer multiplies 2.0 by 3.0 without converting either the power or the time unit."
+      "text": "Given: P = 2.0 kW; t = 3.0 minutes.\nRelationship: E = P × t, with P in watts and t in seconds.\nConvert: 2.0 kW = 2000 W; t = 3.0 × 60 = 180 s.\nSubstitute: E = 2000 × 180.\nHop: 2000 × 180 = 360000 J.\nResult: E = 3.6 × 10⁵ J.\nClassic slip: multiplying 2.0 by 3.0 with no unit conversion and stamping the 6.0 as × 10³ J, mixing kilowatts with minutes."
     }
   ],
   "disagreements": [],
   "notes": [
     "Question 38 stem says the ethanoic acid dimer is held by two hydrogen bonds each; strictly, the dimer contains two hydrogen bonds in total, one donated by each molecule. The intended boiling point order is unaffected.",
     "Question 43: the exact atom count is 0.20 × 6.02 × 10²³ = 1.204 × 10²³, presented rounded as 1.2 × 10²³ in the options; both samples genuinely hold the same number of oxygen atoms.",
-    "All 60 derived answers match the stored key; no discrepancies found, and no logic puzzle produced a second assignment satisfying the constraints."
+    "All 60 derived answers match the stored key; no discrepancies found, and no logic puzzle produced a second assignment satisfying the constraints.",
+    "Worked rewrite applied to 32 items: section A logic items 3, 4, 6, 7, 8 and 9; section C calculation items 34, 35, 36, 37 and 39 through 47; all of section D (48 to 54) and all of section E (55 to 60). Section A items 1, 2 and 5 (argument evaluation), section C items 33 and 38 (isomer classes, intermolecular forces) and every section B item are qualitative and keep their previous wording; section B items 12, 18, 19 and 32 involve light arithmetic but sit in the biology section and were left unchanged per the brief."
   ]
 }

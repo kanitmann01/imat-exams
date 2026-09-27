@@ -19,32 +19,32 @@
   {
    "n": 4,
    "derived": "C",
-   "text": "Ali finished before Bashir but after Chen, which fixes the partial order Chen, then Ali, then Bashir. Dev is stated to be last, so only fourth place remains for him and the full order is Chen, Ali, Bashir, Dev. No other arrangement satisfies both statements, so Chen finished first."
+   "text": "Given: Ali finished before Bashir but after Chen; Dev finished last.\nFrom Ali before Bashir: Ali is ahead of Bashir.\nFrom Ali after Chen: Chen is ahead of Ali.\nChain so far: Chen, then Ali, then Bashir, filling places 1 to 3.\nDev is stated last, which is exactly place 4, so the order is Chen, Ali, Bashir, Dev.\nConclusion: Chen finished first.\nThe claim that the winner cannot be determined fails because the comparisons chain end to end and pin the entire order, leaving no arrangement in which anyone else leads."
   },
   {
    "n": 5,
    "derived": "C",
-   "text": "Catalysis is not exclusive to proteins: ribozymes are RNA molecules that catalyse reactions, and the peptidyl transferase activity of the ribosome itself is RNA-based. So the blanket claim is mostly true but has known exceptions, exactly as stated in the answer. Calling it always true ignores ribozymes, while calling it always false ignores that the overwhelming majority of enzymes are proteins."
+   "text": "Given: the claim is that all enzymes are proteins, i.e. every member of the set of enzymes is a protein.\nA universal claim needs every enzyme to be a protein; a single enzyme that is not a protein makes it false.\nRibozymes are RNA molecules that catalyse reactions, and peptidyl transferase in the ribosome is RNA-based, so non-protein enzymes exist.\nTherefore the claim is not strictly true, yet almost all known enzymes are proteins, so it is mostly true with known exceptions.\nConclusion: mostly true, with catalytic RNA as the exceptions.\nCalling it always true overlooks ribozymes, while calling it always false ignores that the overwhelming majority of enzymes are proteins."
   },
   {
    "n": 6,
    "derived": "A",
-   "text": "TREE becomes USFF and each letter is shifted forward by one position in the alphabet: T to U, R to S, and each E to F. Applying the same rule to BIRD gives B to C, I to J, R to S, D to E, spelling CJSE. No other candidate keeps every letter shifted by exactly one."
+   "text": "Given: TREE is written USFF; find the encoding rule and apply it to BIRD.\nCompare letter by letter: T becomes U, R becomes S, E becomes F, E becomes F, so each letter moves exactly one step forward in the alphabet.\nApply to BIRD one letter at a time: B steps to C, I steps to J, R steps to S, D steps to E.\nAssembling in order gives C, J, S, E.\nResult: CJSE.\nAny candidate differing in a single letter breaks a shift: a final F would need D to jump two steps, and a K start would need B to move backwards."
   },
   {
    "n": 7,
    "derived": "B",
-   "text": "The gaps between consecutive terms are 3, 5, 7 and 9, the successive odd numbers, so the next gap is 11. The next term is 27 + 11 = 38. Check: adding 3, 5, 7, 9 in turn to 3 gives 6, 11, 18, 27, confirming the pattern holds throughout."
+   "text": "Given: the sequence 3, 6, 11, 18, 27.\nFirst differences: 6 − 3 = 3, then 11 − 6 = 5, then 18 − 11 = 7, then 27 − 18 = 9.\nThe differences are the consecutive odd numbers, so the next difference is 11.\nNext term: 27 + 11 = 38.\nResult: 38.\nThe tempting 36 repeats the last difference of 9 instead of continuing the odd-number pattern."
   },
   {
    "n": 8,
    "derived": "D",
-   "text": "Weekdays repeat with period 7, so only the remainder of 100 divided by 7 matters. Since 100 = 14 × 7 + 2, the remainder is 2, meaning 100 days from today falls on the same weekday as 2 days from today. Tuesday plus 2 days is Thursday."
+   "text": "Given: today is Tuesday; count 100 days forward.\nWeekdays repeat every 7 days, so only the remainder of 100 ÷ 7 matters.\n100 = 14 × 7 + 2, so the remainder is 2.\nFourteen full weeks bring the calendar back to Tuesday, then 2 more days are added.\nTuesday + 1 day = Wednesday, Tuesday + 2 days = Thursday.\nResult: Thursday.\nCounting Tuesday itself as the first of the two leftover days wrongly lands on Wednesday."
   },
   {
    "n": 9,
    "derived": "C",
-   "text": "The full dial is 360° divided into 12 hour marks, so each hour is 360 ÷ 12 = 30°. At 7:00 the minute hand points at 12 and the hour hand points at 7, i.e. 7 × 30 = 210° measured clockwise from 12. The angle between the hands is the smaller of 210° and 360 − 210 = 150°, so it is 150°."
+   "text": "Given: clock reading 7:00; dial of 360° spread over 12 hour marks.\nEach hour mark spans 360° ÷ 12 = 30°.\nAt 7:00 the minute hand sits on 12 (0°) and the hour hand sits 7 marks away: 7 × 30° = 210°.\nRaw separation: 210°.\nSmaller angle: 360° − 210° = 150°.\nResult: 150°.\nThe tempting 210° quotes the reflex angle, forgetting that the angle between hands is the smaller arc."
   },
   {
    "n": 10,
@@ -164,22 +164,22 @@
   {
    "n": 33,
    "derived": "C",
-   "text": "Amount of substance follows n = m ÷ M. Substituting the given values: n = 36 g ÷ 18 g/mol = 2 mol. The figure 18 is the molar mass itself, and 0.5 mol would correspond to only 9 g of water."
+   "text": "Given: mass m = 36 g of H₂O; molar mass M = 18 g/mol.\nRelationship: amount of substance n = m ÷ M.\nSubstitute: n = 36 g ÷ 18 g/mol.\n36 ÷ 18 = 2.\nResult: n = 2 mol.\nClassic slip: 0.5 mol, from dividing the molar mass by the mass (18 ÷ 36) instead of mass by molar mass."
   },
   {
    "n": 34,
    "derived": "C",
-   "text": "Step 1: balance carbon, 3 C in propane gives 3 CO₂. Step 2: balance hydrogen, 8 H gives 4 H₂O. Step 3: balance oxygen, the products contain 3 × 2 + 4 × 1 = 10 O atoms, so the reactant side needs 10 ÷ 2 = 5 O₂. The balanced equation C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O checks on every element, so the oxygen coefficient is 5."
+   "text": "Given: skeleton equation C₃H₈ + O₂ → CO₂ + H₂O.\nMethod: balance one element at a time, in the order C, then H, then O.\nCarbon: 3 C atoms in C₃H₈ require 3 CO₂.\nHydrogen: 8 H atoms in C₃H₈ require 8 ÷ 2 = 4 H₂O.\nOxygen: products carry 3 × 2 + 4 × 1 = 10 O atoms, so O₂ needed = 10 ÷ 2 = 5.\nResult: C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O, so the O₂ coefficient is 5.\nClassic slip: 4, from copying the water coefficient across to O₂ instead of counting oxygen atoms on both sides."
   },
   {
    "n": 35,
    "derived": "C",
-   "text": "Each oxygen is assigned −2, so three oxygens contribute 3 × (−2) = −6. If x is the oxidation number of nitrogen, the sum over the ion must equal its charge: x + (−6) = −1, giving x = +5."
+   "text": "Given: nitrate ion NO₃⁻ carrying charge −1; standard assignment O = −2.\nRelationship: oxidation numbers sum to the ion charge: x(N) + 3 × x(O) = −1.\nSubstitute: x + 3 × (−2) = −1.\n3 × (−2) = −6.\nx − 6 = −1.\nx = −1 + 6 = +5.\nResult: nitrogen is +5.\nClassic slip: +6, from balancing the sum to zero and forgetting that the ion carries charge −1."
   },
   {
    "n": 36,
    "derived": "C",
-   "text": "HNO₃ is a strong acid, so it dissociates completely and [H⁺] = 0.001 M = 10⁻³ M. pH is defined as −log₁₀[H⁺] = −log₁₀(10⁻³) = 3. The values 11 and 13 would describe strongly basic solutions (pH 14 − 3), which is the mirror-image trap."
+   "text": "Given: HNO₃ at 0.001 M; nitric acid is strong, so it dissociates completely.\nRelationship: one H⁺ per acid molecule gives [H⁺] = 0.001 M = 10⁻³ M, and pH = −log₁₀[H⁺].\nSubstitute: pH = −log₁₀(10⁻³).\nlog₁₀(10⁻³) = −3, so pH = −(−3) = 3.\nResult: pH 3.\nClassic slip: 11, from applying the base formula 14 − pH as if the solution were alkaline."
   },
   {
    "n": 37,
@@ -239,76 +239,76 @@
   {
    "n": 48,
    "derived": "A",
-   "text": "When multiplying powers with the same base, exponents add: 2³ × 2² = 2³⁺² = 2⁵ = 32. Arithmetic check: 8 × 4 = 32, confirming the result. The value 2⁶ adds one exponent too many, 4⁵ wrongly changes the base instead of adding exponents, and 8 is just 2³ alone."
+   "text": "Given: the product 2³ × 2².\nRelationship: multiplying powers of the same base adds exponents, aᵐ × aⁿ = aᵐ⁺ⁿ.\nSubstitute: 2³ × 2² = 2³⁺² = 2⁵.\n2⁵ = 2 × 2 × 2 × 2 × 2 = 32.\nCheck directly: 2³ = 8 and 2² = 4, and 8 × 4 = 32.\nResult: 32.\nClassic slip: 2⁶, from multiplying the exponents 3 × 2 instead of adding them."
   },
   {
    "n": 49,
    "derived": "D",
-   "text": "log₁₀(x) = 2 asks for the number whose base-10 logarithm is 2, i.e. 10 raised to the power 2. Converting from log to exponential form gives x = 10² = 100. Check: log₁₀(100) = log₁₀(10 × 10) = 2."
+   "text": "Given: log₁₀(x) = 2.\nRelationship: log₁₀(x) = y is equivalent to x = 10ʸ.\nRewrite in exponential form: x = 10².\n10² = 10 × 10 = 100.\nCheck: log₁₀(100) = 2 because 10² = 100.\nResult: x = 100.\nClassic slip: x = 20, from multiplying 10 by the exponent 2 instead of raising 10 to the power 2."
   },
   {
    "n": 50,
    "derived": "B",
-   "text": "x² = 49 has two real solutions, x = 7 and x = −7, since both square to 49. The condition x > 0 discards the negative root, leaving x = √49 = 7. The value 14 mistakes doubling for square-rooting, and 24.5 divides 49 by 2 instead of taking the root."
+   "text": "Given: x² = 49 with the condition x > 0.\nRelationship: x² = k gives x = +√k or x = −√k.\n√49 = 7 because 7 × 7 = 49.\nThe other root is −7, but the condition x > 0 removes it.\nResult: x = 7.\nClassic slip: 14, from doubling 7 instead of taking the square root."
   },
   {
    "n": 51,
    "derived": "C",
-   "text": "Step 1: add 1 to both sides, giving x/3 ≥ 3. Step 2: multiply both sides by 3; since 3 is positive the inequality direction is unchanged, so x ≥ 9. Boundary check: at x = 9 the left side is 9/3 − 1 = 2, which satisfies the ≥ condition, and any larger x works while any smaller x fails."
+   "text": "Given: x/3 − 1 ≥ 2.\nIsolate the x term: add 1 to both sides, giving x/3 ≥ 2 + 1 = 3.\nClear the fraction: multiply both sides by 3; since 3 > 0 the direction does not flip, giving x ≥ 3 × 3 = 9.\nBoundary check: at x = 9 the left side is 9 ÷ 3 − 1 = 3 − 1 = 2, which satisfies ≥ 2 exactly.\nResult: x ≥ 9.\nClassic slip: x ≥ 3, from stopping after the first step and never clearing the division by 3."
   },
   {
    "n": 52,
    "derived": "D",
-   "text": "A square has four equal sides, so the side length is 20 ÷ 4 = 5 cm. The area is side squared: 5 × 5 = 25 cm². The value 100 cm² comes from wrongly squaring the perimeter, and 20 cm² confuses the perimeter with the area."
+   "text": "Given: square with perimeter 20 cm.\nRelationship: perimeter = 4 × side, so side = perimeter ÷ 4.\nSubstitute: side = 20 cm ÷ 4 = 5 cm.\nArea relationship: area = side × side.\nSubstitute: area = 5 cm × 5 cm = 25 cm².\nResult: 25 cm².\nClassic slip: 100 cm², from squaring the perimeter 20 instead of the side 5."
   },
   {
    "n": 53,
    "derived": "A",
-   "text": "In a right triangle with angles 30°, 60°, 90° the sides opposite them are in the ratio 1 : √3 : 2. Cosine is adjacent over hypotenuse, and for 60° the adjacent side is the shortest leg, so cos 60° = 1/2. The value √3/2 belongs to cos 30°, the classic mix-up."
+   "text": "Given: the angle 60°.\nRelationship: in a 30°-60°-90° triangle the sides opposite those angles are in ratio 1 : √3 : 2, and cosine = adjacent ÷ hypotenuse.\nFor 60° the adjacent side is the shortest leg, length 1, and the hypotenuse is 2.\nSubstitute: cos 60° = 1 ÷ 2 = 1/2.\nResult: 1/2.\nClassic slip: √3/2, which is cos 30°, from swapping which leg is adjacent to the 60° angle."
   },
   {
    "n": 54,
    "derived": "C",
-   "text": "Two coin tosses give four equally likely outcomes: HH, HT, TH, TT. Exactly one outcome (two tails) contains no head, so P(no head) = 1/4 and P(at least one head) = 1 − 1/4 = 3/4. Alternatively, HT, TH and HH are the three favourable outcomes out of four. The value 1/2 treats the event as if only one toss mattered."
+   "text": "Given: two independent tosses of a fair coin; event = at least one head.\nSample space: HH, HT, TH, TT, four equally likely outcomes.\nFavourable outcomes: HH, HT, TH, three of the four.\nSubstitute: P(at least one head) = 3 ÷ 4 = 3/4.\nCheck by complement: P(no head) = P(TT) = 1/4, and 1 − 1/4 = 3/4.\nResult: 3/4.\nClassic slip: 1/2, from reasoning as though only one toss needed to come up heads and the other could be ignored."
   },
   {
    "n": 55,
    "derived": "B",
-   "text": "Step 1: use a = Δv ÷ t = (v_final − v_initial) ÷ t. Step 2: substitute the data: (0 − 20) ÷ 5 = −4 m/s². The negative sign indicates slowing down, so the deceleration has magnitude 4 m/s²."
+   "text": "Given: initial speed u = 20 m/s, final speed v = 0 m/s (rest), time t = 5 s.\nRelationship: uniform acceleration a = (v − u) ÷ t.\nSubstitute: a = (0 − 20 m/s) ÷ 5 s.\n0 − 20 = −20 m/s.\n−20 ÷ 5 = −4 m/s².\nResult: the acceleration is −4 m/s², so the deceleration is 4 m/s².\nClassic slip: 2 m/s², from dividing the average speed (20 ÷ 2 = 10 m/s) by the time instead of the speed change."
   },
   {
    "n": 56,
    "derived": "E",
-   "text": "For resistors in parallel the reciprocals add: 1/R = 1/6 + 1/6 + 1/6 = 3/6 = 1/2, so R = 2 Ω. Equivalent shortcut: n equal resistors R in parallel give R/n, here 6/3 = 2 Ω. The value 18 Ω is the series combination, the classic trap for this arrangement."
+   "text": "Given: three resistors, each R = 6 Ω, connected in parallel.\nRelationship: 1/R_eq = 1/R₁ + 1/R₂ + 1/R₃.\nSubstitute: 1/R_eq = 1/6 + 1/6 + 1/6 (in 1/Ω).\n1/6 + 1/6 + 1/6 = 3/6 = 1/2.\nR_eq = 1 ÷ (1/2) = 2 Ω.\nResult: 2 Ω.\nClassic slip: 18 Ω, from adding the three resistances as if in series; for equal resistors in parallel the quick check is R ÷ n = 6 ÷ 3 = 2 Ω."
   },
   {
    "n": 57,
    "derived": "A",
-   "text": "Ohm's law gives V = I × R. Substituting: V = 0.5 A × 10 Ω = 5 V. The value 0.05 V results from dividing the current by the resistance instead of multiplying, and 50 V moves the decimal point the wrong way."
+   "text": "Given: resistance R = 10 Ω, current I = 0.5 A.\nRelationship: Ohm's law V = I × R.\nSubstitute: V = 0.5 A × 10 Ω.\n0.5 × 10 = 5.\nResult: V = 5 V.\nClassic slip: 20 V, from computing 10 ÷ 0.5, dividing by the current instead of multiplying."
   },
   {
    "n": 58,
    "derived": "B",
-   "text": "Kinetic energy is KE = ½mv² = ½ × 0.5 kg × (4 m/s)² = 0.25 × 16 = 4 J. The value 2 J comes from computing mv without squaring the speed, and 16 J would be mv² without the factor of ½."
+   "text": "Given: mass m = 0.5 kg, speed v = 4 m/s.\nRelationship: kinetic energy KE = ½ × m × v².\nSubstitute: KE = ½ × 0.5 kg × (4 m/s)².\n(4 m/s)² = 16 m²/s².\n½ × 0.5 kg = 0.25 kg.\nKE = 0.25 kg × 16 m²/s² = 4 J.\nResult: 4 J.\nClassic slip: 2 J, from computing m × v = 0.5 × 4 without squaring the speed."
   },
   {
    "n": 59,
    "derived": "D",
-   "text": "Work equals force times the distance moved in the direction of the force: W = F × d = 10 N × 5 m = 50 J. The value 2 J comes from dividing instead of multiplying, and 0 J would only be correct if the force acted perpendicular to the motion."
+   "text": "Given: force F = 10 N, displacement d = 5 m in the direction of the force.\nRelationship: work W = F × d.\nSubstitute: W = 10 N × 5 m.\n10 × 5 = 50.\nResult: W = 50 J.\nClassic slip: 2 J, from dividing 10 by 5 instead of multiplying."
   },
   {
    "n": 60,
    "derived": "C",
-   "text": "Use the heating relation Q = m × c × ΔT with m = 2 kg, c = 4200 J/(kg·°C) and ΔT = 10 °C: Q = 2 × 4200 × 10 = 84,000 J (84 kJ). The value 42,000 J drops the factor of 2 from the mass, and 840 J is a decimal-place error."
+   "text": "Given: mass m = 2 kg, specific heat capacity c = 4200 J/(kg·°C), temperature rise ΔT = 10 °C.\nRelationship: heat energy Q = m × c × ΔT.\nSubstitute: Q = 2 kg × 4200 J/(kg·°C) × 10 °C.\n2 × 4200 = 8400 J/°C.\n8400 J/°C × 10 °C = 84,000 J.\nResult: 84,000 J.\nClassic slip: 42,000 J, from dropping the factor of 2 and computing for 1 kg of water."
   }
  ],
  "disagreements": [],
  "notes": [
-  "All 60 derived answers agree with the stored keys; no disagreements.",
+  "Worked-solution pass: fully worked rewrites applied to 4, 5, 6, 7, 8, 9 (section A logic), 33, 34, 35, 36 (section C calculations), 48 to 54 (section D), 55 to 60 (section E); 23 rewritten, 37 kept unchanged (reading, GK, biology section B, chemistry theory and recall).",
+  "Every rewritten item was re-derived from the stem before rewriting; all 23 re-derivations matched the stored keys, so disagreements stays empty.",
   "Q2's stem as stored contains em dashes around the word 'rarely'; if the printed paper must avoid em dashes, reword to 'or, rarely, beneficial' at typesetting time (bank file was not modified).",
   "Q21: the stored explanation mentions the per-pregnancy framing; the solution text addresses it explicitly because the 25% distractor is the most tempting one.",
   "Q38 relies on Pauling electronegativities (O-H about 1.2, N-H about 0.8); no distractor is close enough to make the ordering ambiguous.",
-  "Q41: benzene (C6H6) is aromatic; under IMAT-level convention it is not considered an alkene, so the choice of ethene is unambiguous.",
-  "All stored exp fields were checked and contain no factual errors; several were terse and have been expanded in the solutions."
+  "Q41: benzene (C6H6) is aromatic; under IMAT-level convention it is not considered an alkene, so the choice of ethene is unambiguous."
  ]
 }

@@ -19,47 +19,47 @@
     {
       "n": 4,
       "derived": "A",
-      "text": "Step 1: test whether the box could be empty. If it were empty, both statements would be vacuously true (all zero levers are steel, and no zero levers are steel), contradicting the condition that exactly one is true. Step 2: so the box contains at least one lever. The condition does not tell us which statement is the true one: a non-empty box is consistent with either all steel or none steel. What follows necessarily is only the existence of at least one lever, and the claim that the box is empty is precisely the case ruled out."
+      "text": "Givens: exactly one of the two statements is true. Statement 1: all levers in the box are steel. Statement 2: no lever in the box is steel.\nIf the box were empty, both statements would be true at once (a universal claim over zero levers holds vacuously), contradicting exactly one true.\nSo the box contains at least one lever.\nWith at least one lever: if all are steel, statement 1 is true and statement 2 false; if none is steel, statement 1 is false and statement 2 true. Both cases satisfy the condition, so which statement is the true one stays undetermined.\nResult: the only conclusion forced in every allowed case is that the box holds at least one lever.\nThe tempting claim that the box is empty is exactly the case ruled out by the first deduction."
     },
     {
       "n": 5,
       "derived": "C",
-      "text": "Count by Cara's allowed tasks (she refuses records, so she takes triage or laboratory). Case 1: Cara takes triage, then laboratory and records go freely to Anil and Bea, 2 ways. Case 2: Cara takes laboratory, then triage and records remain; Anil refuses triage, so Anil takes records and Bea takes triage, 1 way. Total 2 + 1 = 3 valid assignments, all distinct people-to-task pairings, so the count is exact."
+      "text": "Givens: three tasks (triage, laboratory, records) assigned one each to Anil, Bea and Cara; Anil refuses triage; Cara refuses records.\nCount by Cara's choice, since her refusal touches only records.\nCase 1: Cara takes triage. Laboratory and records go to Anil and Bea in either order: 2 assignments.\nCase 2: Cara takes laboratory. Triage and records remain; Anil refuses triage, so Anil takes records and Bea takes triage: 1 assignment.\nCase 3 is impossible: Cara refuses records.\nResult: 2 + 1 = 3 valid assignments.\nThe tempting 6 counts every permutation and ignores the two refusals; the tempting 2 stops after the first case."
     },
     {
       "n": 6,
       "derived": "B",
-      "text": "The minute hand moves 6 degrees per minute: at 35 minutes it sits at 35 × 6 = 210 degrees from 12. The hour hand moves 30 degrees per hour plus 0.5 degrees per minute: at 7:35 it sits at 7 × 30 + 35 × 0.5 = 210 + 17.5 = 227.5 degrees. The angle between them is 227.5 − 210 = 17.5 degrees. The tempting 35 degree answer comes from comparing 210 degrees with 7 × 30 = 210 and forgetting that the hour hand has drifted 17.5 degrees past the 7."
+      "text": "Given: time 7:35; minute hand speed 6 degrees per minute; hour hand speed 30 degrees per hour plus 0.5 degrees per minute.\nRelationship: measure each hand clockwise from 12, then subtract the two angles.\nSubstitute (minute hand): 35 × 6 = 210 degrees.\nSubstitute (hour hand): 7 × 30 + 35 × 0.5 = 210 + 17.5 = 227.5 degrees.\nDifference: 227.5 − 210 = 17.5 degrees.\nResult: 17.5 degrees between the hands.\nClassic slip: 35 degrees comes from comparing 210 with 7 × 30 = 210 and forgetting that the hour hand has drifted 17.5 degrees past the 7."
     },
     {
       "n": 7,
       "derived": "D",
-      "text": "The mean pain score falls from 8 to 5 to 3 as the dose rises from 0 to 5 mg, then stays at 3 at 10 mg. The data therefore support a plateau: increasing the dose beyond 5 mg produces no further average reduction. The trial measured only pain, so it says nothing about safety at 10 mg and cannot identify an optimal dose; the drug clearly does affect pain (8 down to 3), and higher doses are not always better because the score stops falling."
+      "text": "Givens: mean pain scores 8, 5, 3, 3 at doses 0, 2.5, 5 and 10 mg.\nFrom 0 to 2.5 mg the mean falls 8 → 5; from 2.5 to 5 mg it falls 5 → 3.\nFrom 5 to 10 mg the mean stays at 3: the dose-response curve has flattened.\nResult: the supported conclusion is that increasing the dose beyond 5 mg produces no further average reduction.\nThe trial recorded only pain scores, so the data contain no safety information and cannot identify an optimal dose.\nThe claim of no effect fails because the mean dropped from 8 to 3, and higher doses are not always better because the fall stops."
     },
     {
       "n": 8,
       "derived": "A",
-      "text": "Take a starting price of 100. After the rise it is 110; after the fall it is 110 × 0.90 = 99. The net change is 1 percent down, because successive percentage changes multiply: 1.10 × 0.90 = 0.99. The answers of no change, or a 20 percent style swing, come from adding the percentages instead of applying them to the new base."
+      "text": "Given: a rise of 10 percent on day 1 and a fall of 10 percent on day 2; take a starting price of 100.\nRelationship: successive percentage changes multiply as factors of the running price.\nSubstitute: 100 × 1.10 = 110 after the rise.\n110 × 0.90 = 99 after the fall.\nResult: 99 against a start of 100, a net decrease of 1 percent.\nCross-check: 1.10 × 0.90 = 0.99, which is 99 percent of the start, confirming the 1 percent loss.\nClassic slip: adding 10 and −10 to reach no change forgets that the fall acts on the raised price 110, not on the original 100."
     },
     {
       "n": 9,
       "derived": "E",
-      "text": "By inclusion-exclusion, the number studying at least one subject is 18 + 15 − 8 = 25 (the 8 who take both would otherwise be counted twice). The number studying neither is 30 − 25 = 5."
+      "text": "Given: class of 30; biology 18, chemistry 15, both 8.\nRelationship: inclusion-exclusion, at least one subject = biology + chemistry − both, because the 8 shared students are counted twice in the raw sum.\nSubstitute: 18 + 15 = 33, then 33 − 8 = 25 students study at least one subject.\nNeither = class total − union = 30 − 25 = 5.\nResult: 5 students study neither subject.\nClassic slip: 4 comes from computing 30 − 18 − 8, which treats the shared students as if they stood outside both subjects; the overlap belongs inside the union and is subtracted once when the union is formed."
     },
     {
       "n": 10,
       "derived": "C",
-      "text": "The AB father passes either the A or the B allele to each child; the OO mother can pass only O. Every child is therefore AO (group A) or BO (group B), each with probability one half. No child can be AB (that needs A and B together) or O (that needs O from both parents), so exactly these two outcomes are impossible."
+      "text": "Givens: father AB, so his gametes carry A or B; mother OO, so her gametes carry O only. Each child gets one allele from each parent.\nFather's contribution: A with probability one half, B with probability one half. Mother's contribution: O always.\nCombine: A + O gives AO (group A); B + O gives BO (group B), each with probability one half.\nResult: every child is group A or group B, and groups AB and O are impossible in this pairing.\nAB needs A and B together, but the mother can never supply either; O needs O from both parents, but the father never supplies O.\nThe tempting claim that the children's groups cannot be predicted fails: the outcome set is fully determined, only the A-or-B split is fifty-fifty."
     },
     {
       "n": 11,
       "derived": "A",
-      "text": "With no crossing over, the AB/ab parent produces only two gamete types, AB and ab, in equal numbers; the ab/ab tester produces only ab. The offspring are AB/ab and ab/ab in a 1:1 ratio, both combinations identical to the parents' arrangements. The classic 1:1:1:1 testcross ratio would require the recombinant gametes Ab and aB, which cannot arise without crossing over."
+      "text": "Givens: genes A and B on the same chromosome, no crossing over between them; cross AB/ab × ab/ab.\nNo crossing over means each homologue is passed on intact: the AB/ab parent makes exactly two gamete types, AB and ab, each with probability one half.\nThe tester ab/ab makes only ab gametes.\nCombine: AB + ab gives AB/ab; ab + ab gives ab/ab, in a 1:1 ratio.\nResult: only the two parental types appear, in equal proportions.\nThe classic 1:1:1:1 testcross ratio needs the recombinant gametes Ab and aB, which cannot be produced without crossing over."
     },
     {
       "n": 12,
       "derived": "D",
-      "text": "Every daughter receives the father's X carrying the haemophilia allele. She is affected only if the mother also passes her marked X, an event with probability one half per daughter; the other half of daughters are carriers. So the expected fraction of affected daughters is 1/2. A quarter would be the fraction among all children, not among daughters specifically."
+      "text": "Given: mother XᴴXʰ (carrier), father XʰY (affected).\nRelationship: every daughter receives the father's only X chromosome (Xʰ); she additionally receives Xᴴ or Xʰ from the mother with probability one half each.\nSubstitute: daughter genotypes are XᴴXʰ (carrier) with probability 1/2 and XʰXʰ (affected) with probability 1/2.\nResult: 1/2 of the daughters are expected to have haemophilia.\nClassic slip: 1/4 is the fraction among all children, because it folds in the separate 1/2 chance of being a daughter at all; the question asks only about daughters."
     },
     {
       "n": 13,
@@ -164,12 +164,12 @@
     {
       "n": 33,
       "derived": "C",
-      "text": "Oxidation numbers sum to zero in a neutral molecule. Assign hydrogen +1 (four atoms give +4) and oxygen −2: C + 4 − 2 = 0, so C = −2. The +4 value belongs to the carbon of CO2 and the −4 value to methane; methanol sits between them on the reduction ladder at −2."
+      "text": "Given: methanol CH₃OH, a neutral molecule; standard values H = +1, O = −2.\nRelationship: in a neutral molecule the oxidation numbers sum to 0.\nSubstitute: C + 4 × (+1) + (−2) = 0.\nArithmetic: C + 4 − 2 = 0, so C + 2 = 0.\nResult: carbon is at −2.\nClassic slip: +4 is the oxidation number of the carbon in CO₂, reached by counting oxygens instead of hydrogens; +2 belongs to an aldehyde carbon, one oxidation step above methanol."
     },
     {
       "n": 34,
       "derived": "E",
-      "text": "Follow the chlorine. In Cl2 both atoms have oxidation number 0. In NaCl the chlorine ends at −1 (it gained an electron, so it was reduced); in NaOCl it ends at +1 (it lost an electron to oxygen, so it was oxidised). The same element is simultaneously oxidised and reduced: a disproportionation, and the arithmetic balances because one atom goes down 1 and the other up 1."
+      "text": "Given: Cl₂ + 2NaOH → NaCl + NaOCl + H₂O; chlorine starts as the element, oxidation number 0; Na is +1 and O is −2 throughout the products.\nIn NaCl the chlorine sits at −1 (plain chloride).\nIn NaOCl: +1 + Cl + (−2) = 0, so Cl = +1.\nOne chlorine atom has gone 0 → −1 (gained an electron, reduced); the other has gone 0 → +1 (lost an electron, oxidised).\nResult: the same element is oxidised and reduced in the same reaction, a disproportionation.\nThe tempting reduced-only or oxidised-only readings each cover just one of the two products; unchanged fails because the oxidation numbers demonstrably leave 0."
     },
     {
       "n": 35,
@@ -184,27 +184,27 @@
     {
       "n": 37,
       "derived": "D",
-      "text": "Step 1: each Ba(OH)2 releases two hydroxide ions, so [OH−] = 2 × 0.005 = 0.010 M. Step 2: pOH = −log(0.010) = 2. Step 3: pH = 14 − 2 = 12 at 25 degrees Celsius. Forgetting the factor of 2 gives [OH−] = 0.005 M, pOH of about 2.3 and pH about 11.7, which is how the tempting value near 11 arises; the value 2 is the pOH, not the pH."
+      "text": "Given: c = 0.005 M Ba(OH)₂; each formula unit releases 2 OH⁻; Kw = 1.0 × 10⁻¹⁴, so pH + pOH = 14 at 25 °C.\nRelationship: [OH⁻] = 2 × c; pOH = −log₁₀[OH⁻]; pH = 14 − pOH.\nSubstitute: [OH⁻] = 2 × 0.005 = 0.010 mol/L.\npOH = −log(0.010) = 2.\npH = 14 − 2 = 12.\nResult: pH 12.\nClassic slip: ignoring the factor 2 gives [OH⁻] = 0.005 M, pOH ≈ 2.3 and pH ≈ 11.7, the tempting value near 11; and the intermediate 2 is the pOH, not the pH."
     },
     {
       "n": 38,
       "derived": "A",
-      "text": "pH is a logarithmic scale: [H+] of A is 10^-4 M and of B is 10^-6 M. The ratio is 10^-4 / 10^-6 = 10^2 = 100, so A is 100 times more acidic. The difference of 2 pH units is a factor of 100 in concentration, not a factor of 2."
+      "text": "Given: solution A at pH 4, solution B at pH 6.\nRelationship: pH = −log₁₀[H⁺], so each 1-unit step in pH is a factor of 10 in hydrogen ion concentration.\nSubstitute: [H⁺] of A = 10⁻⁴ mol/L; [H⁺] of B = 10⁻⁶ mol/L.\nRatio: 10⁻⁴ ÷ 10⁻⁶ = 10² = 100.\nResult: A's hydrogen ion concentration is 100 times greater than B's.\nClassic slip: 2 times greater reads the 2-unit pH gap as a linear factor, but the scale is logarithmic."
     },
     {
       "n": 39,
       "derived": "C",
-      "text": "Step 1: number of CO2 molecules = 0.25 mol × 6.02 × 10^23 mol^-1 = 1.5 × 10^23. Step 2: each molecule contains 3 atoms (1 carbon + 2 oxygens), so total atoms = 3 × 1.5 × 10^23 = 4.5 × 10^23. Stopping after step 1 and reporting 1.5 × 10^23 is the classic error of counting molecules instead of atoms."
+      "text": "Given: n = 0.25 mol of CO₂; Nₐ = 6.02 × 10²³ mol⁻¹; each CO₂ molecule contains 3 atoms (1 carbon + 2 oxygen).\nRelationship: molecules = n × Nₐ, then total atoms = molecules × 3.\nSubstitute: 0.25 × 6.02 × 10²³ = 1.5 × 10²³ molecules.\nMultiply by 3: 3 × 1.5 × 10²³ = 4.5 × 10²³ atoms.\nResult: 4.5 × 10²³ atoms in total.\nClassic slip: stopping at 1.5 × 10²³ reports molecules, not atoms; counting only one oxygen (×2 per molecule) gives 3.0 × 10²³."
     },
     {
       "n": 40,
       "derived": "E",
-      "text": "The CO2 volume is proportional to the amount of CaCO3 present, and the same mass of pure CaCO3 would release 2.24 L. So the percentage of CaCO3 in the sample is 1.68 / 2.24 × 100 = 75%. Taking the deficit instead (0.56 / 2.24 = 25%) measures the impurity rather than the carbonate, and dividing 0.56 by the actual yield 1.68 gives a meaningless 33%."
+      "text": "Given: 10.0 g of pure CaCO₃ (M = 100 g/mol) releases 2.24 L of CO₂ at STP; the impure 10.0 g sample releases 1.68 L at STP.\nRelationship: CO₂ volume is directly proportional to the amount of CaCO₃ present, so the purity fraction equals the volume ratio.\nSubstitute: purity = 1.68 ÷ 2.24 = 0.75.\nConvert: 0.75 × 100 = 75 percent.\nResult: the sample is 75 percent CaCO₃.\nClassic slip: 25 percent divides the missing volume 0.56 ÷ 2.24 and so measures the impurity, not the carbonate; 133 percent inverts the ratio and is impossible for a percentage."
     },
     {
       "n": 41,
       "derived": "D",
-      "text": "Gay-Lussac's law (constant volume, constant amount): P2 = P1 × T2 / T1, with absolute temperatures. T1 = 27 + 273 = 300 K, T2 = 127 + 273 = 400 K. P2 = 1.0 × 400/300 = 1.33 atm. Working directly in Celsius (ratio 127/27) is meaningless because the Celsius zero is arbitrary, and inverting the ratio gives the impossible result that heating lowers the pressure."
+      "text": "Given: P₁ = 1.0 atm; T₁ = 27 °C; T₂ = 127 °C; rigid vessel, so volume and amount are constant.\nRelationship: Gay-Lussac's law, P₂ = P₁ × T₂ ÷ T₁, valid only in absolute temperature.\nConvert: T₁ = 27 + 273 = 300 K; T₂ = 127 + 273 = 400 K.\nSubstitute: P₂ = 1.0 × 400 ÷ 300.\nArithmetic: 400 ÷ 300 = 1.33.\nResult: the new pressure is about 1.33 atm.\nClassic slip: inverting the ratio (300 ÷ 400) predicts a pressure fall from heating, which is unphysical; dividing 127 by 27 in plain Celsius is meaningless because the Celsius zero is arbitrary."
     },
     {
       "n": 42,
@@ -234,72 +234,72 @@
     {
       "n": 47,
       "derived": "A",
-      "text": "Freezing-point depression is a colligative property: it depends on the number of dissolved particles, not their identity. Per litre of 0.10 M solution: CaCl2 gives about 0.30 mol of ions (3 per formula unit), NaCl about 0.20 mol (2 per unit), while glucose and sucrose give only 0.10 mol of molecules each. The greatest particle count produces the greatest depression, so the CaCl2 solution freezes lowest, and identical freezing points would require identical particle counts, which is not the case here."
+      "text": "Given: four solutions, each 0.10 M: glucose C₆H₁₂O₆, NaCl, CaCl₂, sucrose.\nRelationship: freezing-point depression is colligative, set by the number of dissolved particles per litre, not their identity.\nCount particles: glucose and sucrose do not ionise, 0.10 mol of particles per litre each.\nNaCl gives 2 ions per formula unit: 2 × 0.10 = 0.20 mol of particles per litre.\nCaCl₂ gives 3 ions per formula unit: 3 × 0.10 = 0.30 mol of particles per litre.\nResult: the greatest particle count gives the greatest depression, so the CaCl₂ solution freezes lowest.\nClassic slip: all four freezing together assumes equal molarity means equal effect, but only particle counts decide; NaCl's 0.20 loses to CaCl₂'s 0.30."
     },
     {
       "n": 48,
       "derived": "B",
-      "text": "Step 1: subtract 8 from both sides: −5x < −20. Step 2: divide both sides by −5, which flips the direction of the inequality: x > 4. Check x = 5: 8 − 25 = −17, which is indeed less than −12. The slips to avoid are forgetting the flip (giving x < 4) and losing the strictness (giving x at least 4, although x = 4 itself gives 8 − 20 = −12, which fails the strict inequality)."
+      "text": "Given: 8 − 5x < −12.\nIsolate the x term: subtract 8 from both sides, −5x < −12 − 8, so −5x < −20.\nDivide both sides by −5: division by a negative number flips the direction, so x > 4.\nCheck: at x = 5, 8 − 5 × 5 = 8 − 25 = −17, and −17 < −12 holds.\nResult: x > 4.\nClassic slip: dividing by −5 without flipping gives x < 4, the exact reverse set; x = 4 itself fails because 8 − 20 = −12 is not strictly less than −12, so the loose bound of 4 or more is wrong too."
     },
     {
       "n": 49,
       "derived": "E",
-      "text": "Step 1: subtract 1 from all three parts: −4 < 2x ≤ 6. Step 2: divide by the positive number 2 (signs and strictness unchanged): −2 < x ≤ 3. The left bound stays strict and the right bound stays inclusive, exactly mirroring the original statement; making either bound strict or both inclusive misreads which comparison applied to which side."
+      "text": "Given: −3 < 2x + 1 ≤ 7.\nSubtract 1 from all three parts: −4 < 2x ≤ 6.\nDivide all three parts by 2, a positive number, so both directions and strictness survive: −2 < x ≤ 3.\nResult: −2 < x ≤ 3.\nClassic slip: making the left bound inclusive (−2 ≤ x) forgets that the original −3 was strict; testing x = −2 gives −3 on the left, which fails."
     },
     {
       "n": 50,
       "derived": "D",
-      "text": "Bracket 40 between consecutive powers of 2: 2^5 = 32 and 2^6 = 64. Since 2^x increases continuously with x, 40 being between 32 and 64 forces 5 < x < 6 (the exact value is log2 40, about 5.32). The equality answers are impossible because neither 32 nor 64 equals 40."
+      "text": "Given: 2ˣ = 40.\nRelationship: 2ˣ rises continuously with x, so bracket 40 between neighbouring whole-number powers.\nCompute: 2⁵ = 32 and 2⁶ = 64.\nCompare: 32 < 40 < 64, so x sits strictly between 5 and 6.\nResult: 5 < x < 6 (exactly log₂ 40 ≈ 5.32).\nClassic slip: x = 5 or x = 6 would require 40 to equal 32 or 64, which it does not."
     },
     {
       "n": 51,
       "derived": "C",
-      "text": "Use inclusion-exclusion on the overlap: 13 hearts + 4 kings − 1 king of hearts (counted in both sets) = 16 favourable cards. Probability = 16/52 = 4/13. Adding 13 + 4 = 17 without removing the overlap overcounts by exactly one card, and 13/52 would cover only the hearts."
+      "text": "Given: one card drawn from a standard 52-card deck; wanted: heart or king.\nRelationship: inclusion-exclusion, favourable = hearts + kings − cards counted in both sets.\nCount: 13 hearts; 4 kings; the king of hearts lies in both, so subtract 1.\nFavourable = 13 + 4 − 1 = 16.\nProbability = 16 ÷ 52 = 4/13.\nResult: 4/13.\nClassic slip: 17/52 adds 13 + 4 and never removes the king of hearts, which is simultaneously a heart and a king."
     },
     {
       "n": 52,
       "derived": "E",
-      "text": "The height is the side opposite the 30 degree angle in a right triangle with the ramp as hypotenuse: height = 8 × sin 30° = 8 × 0.5 = 4 m. Using cos 30° instead gives 8 × 0.87, which is about 6.9 m, but that is the horizontal projection of the ramp along the ground, not the vertical rise."
+      "text": "Given: ramp length (hypotenuse) 8 m; angle with the horizontal 30°; sin 30° = 0.5, cos 30° = 0.87.\nRelationship: in a right triangle the side opposite an angle equals hypotenuse × sin(angle); the height is opposite the 30° angle.\nSubstitute: height = 8 × sin 30° = 8 × 0.5.\nArithmetic: 8 × 0.5 = 4.\nResult: the upper end of the ramp is 4 m above the ground.\nClassic slip: 6.9 m comes from 8 × cos 30° = 8 × 0.87, which is the ramp's horizontal reach along the ground, not the vertical rise."
     },
     {
       "n": 53,
       "derived": "A",
-      "text": "Substitute the inner function into the outer one: f(f(x)) = 2(2x − 1) − 1 = 4x − 2 − 1 = 4x − 3. The common slip of multiplying by 2 only once produces 2x − 3, but composition applies the doubling and the subtraction at both stages."
+      "text": "Given: f(x) = 2x − 1; wanted f(f(x)).\nRelationship: composition feeds the inner output back into f as the input.\nSubstitute: f(f(x)) = 2 × (2x − 1) − 1.\nExpand: 4x − 2 − 1.\nCollect: 4x − 3.\nResult: f(f(x)) = 4x − 3.\nClassic slip: 2x − 3 doubles only once; both the doubling and the subtraction happen at each of the two passes through f."
     },
     {
       "n": 54,
       "derived": "B",
-      "text": "Compare with the standard form (x − h)^2 + (y − k)^2 = r^2. Here h = 1 (so x − 1) and k = −2, since y + 2 equals y − (−2), giving centre (1, −2). The right side is r^2 = 16, so the radius is r = √16 = 4, not 16 itself; reading the signs of h and k straight from the printed plus signs instead gives the wrong quadrant."
+      "text": "Given: (x − 1)² + (y + 2)² = 16.\nRelationship: standard circle form (x − h)² + (y − k)² = r², centre (h, k), radius r.\nMatch: x − 1 = x − h gives h = 1; y + 2 = y − (−2) gives k = −2.\nRadius: r² = 16, so r = √16 = 4.\nResult: centre (1, −2), radius 4.\nClassic slip: reading the plus sign in y + 2 as k = +2 puts the centre in the wrong quadrant, and quoting 16 as the radius confuses r² with r."
     },
     {
       "n": 55,
       "derived": "D",
-      "text": "Step 1: reduce the parallel pair: 1/R = 1/12 + 1/6 = 1/12 + 2/12 = 3/12, so R = 4 ohms (equivalently 12 × 6 / 18 = 4). Step 2: in series with the 2 ohm resistor the total is 2 + 4 = 6 ohms. Step 3: from Ohm's law, I = V/R = 24/6 = 4 A. Reporting 24/12 = 2 A would ignore the parallel section, and 24/4 = 6 A would ignore the series resistor."
+      "text": "Given: V = 24 V battery; 2 Ω resistor in series with a parallel pair of 12 Ω and 6 Ω.\nRelationship: parallel pair via 1/R = 1/R₁ + 1/R₂; series resistances add; Ohm's law I = V ÷ R.\nSubstitute: 1/R = 1/12 + 1/6; with 1/6 = 2/12 this gives 1/R = 3/12.\nInvert: R = 12/3 = 4 Ω.\nAdd the series resistor: 2 + 4 = 6 Ω total.\nSubstitute into Ohm's law: I = 24 ÷ 6 = 4 A.\nResult: 4 A flows from the battery.\nClassic slip: 2 A comes from 24 ÷ 12, which ignores the parallel section; 6 A comes from 24 ÷ 4, which forgets the series 2 Ω."
     },
     {
       "n": 56,
       "derived": "C",
-      "text": "Use P = V^2 / R and rearrange: R = V^2 / P = 120^2 / 60 = 14400 / 60 = 240 ohms. The value 2 ohms comes from computing V/P, which is actually the current (2 A) that the lamp draws, not its resistance."
+      "text": "Given: P = 60 W, V = 120 V.\nRelationship: P = V² ÷ R, rearranged as R = V² ÷ P.\nSubstitute: R = 120² ÷ 60.\nSquare: 120² = 14400.\nDivide: 14400 ÷ 60 = 240.\nResult: the filament resistance is 240 Ω.\nClassic slip: 2 Ω comes from V ÷ P = 120 ÷ 60, which actually computes the current the lamp draws, not the resistance."
     },
     {
       "n": 57,
       "derived": "B",
-      "text": "Boiling is a phase change: all the heat supplied goes into the latent heat of vaporisation (about 2260 J per gram), the energy needed to pull molecules apart against their intermolecular attractions, so none of it raises the temperature until the last liquid has evaporated. A phase change in progress is isothermal, which is why the reading pins at 100 degrees Celsius; the molecules certainly do not stop moving, and boiling requires continued heat input."
+      "text": "Givens: water boiling at atmospheric pressure; flame supplies heat continuously; thermometer stays at exactly 100 °C.\nOnce boiling starts, added energy no longer increases the molecules' average kinetic energy, so the temperature cannot rise.\nEvery joule goes into the latent heat of vaporisation (about 2260 J per gram), pulling molecules apart against their intermolecular attractions.\nA phase change in progress is isothermal: the reading stays pinned until the last liquid has evaporated.\nResult: the temperature holds at 100 °C because the heat is consumed by the phase change itself.\nThe tempting claim that the molecules stop moving fails: they are in fact receiving the energy needed to break free as vapour."
     },
     {
       "n": 58,
       "derived": "A",
-      "text": "A crash fixes the change of momentum the car must undergo; that change of momentum is the impulse, F × Δt. A crumple zone extends the collision time Δt by deforming, so for the same Δp the average force F on the occupants is smaller, and injury scales with force. The momentum change cannot be eliminated or made instant without harm, and the impulse delivered is set by the crash, not increased by the crumple zone."
+      "text": "Givens: a crash fixes the change of momentum Δp the car must undergo; impulse relation F × Δt = Δp.\nThe crumple zone deforms on impact, stretching the collision time Δt.\nRearrange: F = Δp ÷ Δt; with Δp fixed and Δt longer, the average force F shrinks.\nResult: the same momentum change is delivered by a smaller average force on the occupants, and injury scales with force.\nThe tempting claims fail because the impulse is neither eliminated nor increased: Δp is set by the crash, only the time over which it is delivered changes."
     },
     {
       "n": 59,
       "derived": "C",
-      "text": "On a distance-time graph the gradient of the line is the speed. A horizontal segment has zero gradient, so the distance does not change during that interval: the object is stationary. The same flat line on a velocity-time graph would mean constant non-zero speed, which is exactly why reading the axis label before interpreting matters."
+      "text": "Givens: a distance-time graph with a horizontal segment.\nOn a distance-time graph the gradient of the line is the speed, since speed = distance covered ÷ time taken.\nA horizontal segment has zero gradient: zero rise in distance during the interval.\nZero distance covered means zero speed, so the object is stationary for that interval.\nResult: a horizontal segment on a distance-time graph means the object is stationary.\nThe tempting reading of constant non-zero speed comes from importing the rule for velocity-time graphs, where a flat line does mean steady speed; read the axis label first."
     },
     {
       "n": 60,
       "derived": "D",
-      "text": "Floating equilibrium: weight equals upthrust, so ρ_block × V × g = ρ_water × V_submerged × g. The g and V cancel, giving V_submerged / V = 0.90 / 1.00 = 0.90, so 90% of the block sits below the surface. The 10% figure describes the fraction above water, the complement of the answer."
+      "text": "Given: block density ρ_block = 0.90 g/cm³; water density ρ_water = 1.00 g/cm³; block volume V, submerged volume V_sub.\nRelationship: floating equilibrium, weight = upthrust: ρ_block × V × g = ρ_water × V_sub × g.\nCancel g from both sides, then cancel V: V_sub ÷ V = ρ_block ÷ ρ_water = 0.90 ÷ 1.00.\nArithmetic: 0.90 ÷ 1.00 = 0.90.\nResult: 0.90, so 90 percent of the block's volume is submerged.\nClassic slip: 10 percent is the fraction above water, the complement of the submerged share; the submerged fraction tracks the density ratio itself."
     }
   ],
   "disagreements": [],
@@ -308,6 +308,9 @@
     "n=32: the stored exp contains the apparent typo 'Cover-overside', probably meant as a caveat label about mitochondria; the exp's reasoning itself is correct.",
     "n=3 is general knowledge tied to the 2026 Milano Cortina Games and relies on Cortina 1956 and Turin 2006 as the prior Italian Winter Games, consistent with the stored key.",
     "n=41: the stored exp correctly notes that working in Celsius gives about 4.7, matching no option; arithmetic in the exp is consistent.",
-    "All numeric items were recomputed from the given data (clock angle, set counting, pH/pOH, mole and gas-law calculations, circuit reduction, probability, floating fraction) and match the stored keys."
+    "All numeric items were recomputed from the given data (clock angle, set counting, pH/pOH, mole and gas-law calculations, circuit reduction, probability, floating fraction) and match the stored keys.",
+    "Rewrite pass: 30 items rewritten in fully worked step-by-step format (4, 5, 6, 7, 8 and 9 in section A; 10, 11 and 12 as genetics deduction chains in section B; 33, 34, 37, 38, 39, 40, 41 and 47 as chemistry calculations; all of section D, 48 to 54; all of section E, 55 to 60).",
+    "Kept exactly unchanged: reading and critical reasoning (1, 2 and 3), qualitative biology (13 to 32) and chemistry theory (35, 36, 42 to 46).",
+    "All 30 rewritten answers were re-derived from the stems alone and match the stored keys; the derived fields are untouched."
   ]
 }

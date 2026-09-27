@@ -19,32 +19,32 @@
     {
       "n": 4,
       "derived": "D",
-      "text": "Step 1: X must come before Z, so X cannot be on Wednesday (no later day remains for Z). Step 2: if X is Monday, Y cannot take Tuesday, so Z takes Tuesday and Y Wednesday; if X is Tuesday, Z must take Wednesday and Y takes Monday. Step 3: exactly two schedules exist, (X Mon, Z Tue, Y Wed) and (Y Mon, X Tue, Z Wed). In both, X sits on Monday or Tuesday, so X is never on Wednesday; every other listed claim fails in one of the two schedules (for instance Y is on Wednesday in the first schedule but on Monday in the second)."
+      "text": "Given: X, Y, Z fill Monday, Tuesday, Wednesday one each; X works earlier in the week than Z; Y cannot work Tuesday.\nY has only two possible days, so enumerate on Y.\nCase 1, Y on Monday: X and Z take Tuesday and Wednesday, and X before Z forces X on Tuesday, Z on Wednesday.\nCase 2, Y on Wednesday: X and Z take Monday and Tuesday, and X before Z forces X on Monday, Z on Tuesday.\nThese two schedules are the only possibilities.\nTest each claim against both: X on Monday, Y on Monday, Z on Wednesday and Y on Wednesday each fail in one of the two cases.\nX lands on Monday or Tuesday in every valid schedule, so the one claim that must be true is that X never works on Wednesday.\nThe tempting claims fail because each holds in only one of the two schedules, and a must-be-true claim has to hold in both."
     },
     {
       "n": 5,
       "derived": "E",
-      "text": "'Blue if and only if protein X is present' makes blue both necessary and sufficient for X. The sample did not turn blue, so by the contrapositive of 'X present implies blue', the sample does not contain X. Claims about a botched test, a red colour or other proteins in quantity add assumptions the statement does not license."
+      "text": "Given: the test turns blue if and only if protein X is present; this sample did not turn blue.\n'If and only if' gives two implications: X present → blue, and blue → X present.\nThe sample is not blue, so apply the contrapositive of 'X present → blue': not blue → X not present.\nConclusion: the sample does not contain protein X.\nThe tempting 'test performed incorrectly' invents an error the stem never mentions, and a red colour or other proteins in quantity are facts the biconditional says nothing about."
     },
     {
       "n": 6,
       "derived": "C",
-      "text": "Minute hand: 18 min × 6°/min = 108° from 12. Hour hand: 9 × 30° + 18 × 0.5° = 270° + 9° = 279°. Angle = 279° − 108° = 171°. The value 162° comes from freezing the hour hand at 9:00 (270° − 108°) and forgetting it advances 0.5° per minute."
+      "text": "Given: clock reads 9:18.\nRule: the minute hand sweeps 6° per minute from 12; the hour hand sits at 30° per hour plus 0.5° per minute.\nSubstitute: minute hand = 18 × 6° = 108°.\nHour hand = 9 × 30° + 18 × 0.5° = 270° + 9° = 279°.\nAngle = 279° − 108° = 171°.\nResult: 171°.\nClassic slip: parking the hour hand at the 9 mark gives 270° − 108° = 162°, forgetting it advances 0.5° for each of the 18 minutes."
     },
     {
       "n": 7,
       "derived": "A",
-      "text": "True positives: 90; false positives: 180; all positives: 90 + 180 = 270. False share = 180 ÷ 270 = 2/3. Because only 10 percent of those screened are diseased, positives from healthy people outnumber true positives two to one. The fraction 180/900 (= 1/5) is the false-positive rate among the healthy, a different quantity with a different denominator."
+      "text": "Given: 1000 screened, 100 diseased; the test is positive in 90 of the 100 diseased and 180 of the 900 healthy.\nRule: fraction of positives that are false = false positives ÷ all positives.\nSubstitute: all positives = 90 + 180 = 270.\nFalse share = 180 ÷ 270 = 2/3.\nResult: 2/3.\nClassic slip: quoting 180 ÷ 900 = 1/5 (the false-positive rate among the healthy) uses the wrong denominator; because only 10 percent of those screened are diseased, false positives outnumber true positives two to one among all positives."
     },
     {
       "n": 8,
       "derived": "B",
-      "text": "Average speed = total distance ÷ total time. Take d km each way: time = d/60 + d/120 = 3d/120 = d/40 h; total distance = 2d. Average = 2d ÷ (d/40) = 80 km/h, the harmonic mean 2 × 60 × 120 ÷ 180. The simple midpoint 90 km/h ignores that far less time is spent at 120 km/h than at 60."
+      "text": "Given: same route out and back, so equal distances d each way; speeds 60 km/h out and 120 km/h back.\nRule: average speed = total distance ÷ total time.\nSubstitute: total time = d/60 + d/120 = 2d/120 + d/120 = 3d/120 = d/40 h.\nTotal distance = d + d = 2d km.\nAverage = 2d ÷ (d/40) = 2d × 40/d = 80 km/h.\nResult: 80 km/h, the harmonic mean 2 × 60 × 120 ÷ 180.\nClassic slip: the simple midpoint 90 km/h forgets that far more time is spent crawling at 60 than racing at 120, which drags the average below the arithmetic mean."
     },
     {
       "n": 9,
       "derived": "E",
-      "text": "Successive gaps are 1, 2, 4, 8, 16: each doubles, so the next gap is 32 and the next term is 33 + 32 = 65. Equivalently, every term is twice the previous one minus 1: 2 × 33 − 1 = 65."
+      "text": "Given: sequence 2, 3, 5, 9, 17, 33.\nDifferences: 3−2=1, 5−3=2, 9−5=4, 17−9=8, 33−17=16.\nThe gaps 1, 2, 4, 8, 16 double each time, so the next gap = 2 × 16 = 32.\nNext term = 33 + 32 = 65.\nCheck: each term is also twice the previous minus 1, and 2 × 33 − 1 = 65.\nResult: 65.\nClassic slip: doubling straight to 66 drops the minus 1, and stopping at the bare power of two 64 drops the plus 1 in the equivalent form 2ⁿ + 1."
     },
     {
       "n": 10,
@@ -164,7 +164,7 @@
     {
       "n": 33,
       "derived": "A",
-      "text": "Step 1: in NH₄⁺ each H is +1 and the total charge is +1: x + 4(+1) = +1, so x = −3. Step 2: in NO₃⁻ each O is −2 and the total charge is −1: x + 3(−2) = −1, so x = +5. Nitrogen is −3 in ammonium and +5 in nitrate; an 'average of two nitrogens' is meaningless because the ions are separate species, and nitrogen cannot show −5."
+      "text": "Given: NH₄⁺ and NO₃⁻; the sum of oxidation numbers must equal each ion's charge; H is +1 and O is −2 in ions.\nRule: solve for nitrogen separately in each ion.\nSubstitute ammonium: x + 4(+1) = +1, so x = +1 − 4 = −3.\nSubstitute nitrate: x + 3(−2) = −1, so x = −1 + 6 = +5.\nResult: −3 in ammonium, +5 in nitrate.\nClassic slip: averaging the two nitrogens to +1 treats the two ions as one species, but each ion keeps its own nitrogen with its own oxidation number."
     },
     {
       "n": 34,
@@ -174,7 +174,7 @@
     {
       "n": 35,
       "derived": "E",
-      "text": "Electronegativity differences: O-H = 3.44 − 2.2 = 1.24; C-O = 3.44 − 2.55 = 0.89; N-H = 3.04 − 2.2 = 0.84; C-N = 3.04 − 2.55 = 0.49; C-H = 2.55 − 2.2 = 0.35. The largest difference is in O-H, making it the most polar of the five. Atomic size plays no role; only the electronegativity difference counts."
+      "text": "Given: EN values H 2.2, C 2.55, N 3.04, O 3.44.\nRule: the most polar bond has the largest electronegativity difference.\nSubstitute: O−H = 3.44 − 2.2 = 1.24.\nC−O = 3.44 − 2.55 = 0.89.\nN−H = 3.04 − 2.2 = 0.84.\nC−N = 3.04 − 2.55 = 0.49 and C−H = 2.55 − 2.2 = 0.35.\nResult: O−H has the largest gap, 1.24, so it is the most polar.\nClassic slip: trusting atom size ('bigger atoms, bigger dipole') instead of the difference; the C−O bond joins big atoms yet sits well behind O−H."
     },
     {
       "n": 36,
@@ -184,27 +184,27 @@
     {
       "n": 37,
       "derived": "D",
-      "text": "Step 1: moles of H⁺ = 0.100 L × 0.1 M = 0.010 mol; moles of OH⁻ = 0.100 L × 0.3 M = 0.030 mol. Step 2: neutralisation is 1:1, so excess OH⁻ = 0.030 − 0.010 = 0.020 mol. Step 3: total volume = 0.200 L, so [OH⁻] = 0.020 ÷ 0.200 = 0.1 M, pOH = 1, pH = 14 − 1 = 13. A pH of 7 would require exact neutralisation, but the base is in threefold excess."
+      "text": "Given: 100 mL of 0.1 M HCl and 100 mL of 0.3 M NaOH; strong acid and base neutralise 1:1.\nRule: moles = volume(L) × concentration; leftover moles set the excess; pH = 14 − pOH.\nSubstitute: moles H⁺ = 0.100 L × 0.1 mol/L = 0.010 mol.\nMoles OH⁻ = 0.100 L × 0.3 mol/L = 0.030 mol.\nExcess OH⁻ = 0.030 − 0.010 = 0.020 mol.\nTotal volume = 0.100 + 0.100 = 0.200 L, so [OH⁻] = 0.020 ÷ 0.200 = 0.1 mol/L.\npOH = 1, so pH = 14 − 1 = 13.\nResult: pH 13.\nClassic slip: answering 7 assumes exact neutralisation, ignoring that the base brought three times as many moles as the acid."
     },
     {
       "n": 38,
       "derived": "C",
-      "text": "At 10⁻⁸ M the added acid is ten times weaker than the H⁺ that water itself provides (10⁻⁷ M), so self-ionisation cannot be ignored. Solving the charge and Kw balance ([H⁺]² − 10⁻⁸[H⁺] − 10⁻¹⁴ = 0) gives [H⁺] ≈ 1.05 × 10⁻⁷ M, i.e. pH ≈ 6.98: an acidic solution just below 7. The pH is perfectly well defined, and it can never cross to above 7 for an acid, so both 'exactly 7' and 'slightly above 7' contradict the added H₃O⁺."
+      "text": "Given: HCl at 1.0 × 10⁻⁸ M in water at 25 °C, Kw = 10⁻¹⁴.\nRule: water itself supplies 10⁻⁷ M H⁺, ten times the added acid, so both sources enter the charge balance [H⁺] = [Cl⁻] + [OH⁻].\nSubstitute [OH⁻] = Kw/[H⁺]: [H⁺] = 10⁻⁸ + 10⁻¹⁴/[H⁺].\nRearrange: [H⁺]² − 10⁻⁸[H⁺] − 10⁻¹⁴ = 0.\nSolving the quadratic: [H⁺] ≈ 1.05 × 10⁻⁷ mol/L.\npH = −log(1.05 × 10⁻⁷) ≈ 6.98.\nResult: slightly below 7.\nClassic slip: computing −log(10⁻⁸) = 8 ignores water's own ions and absurdly calls a hydrochloric acid solution alkaline."
     },
     {
       "n": 39,
       "derived": "B",
-      "text": "Step 1: moles of NaOH = 0.0200 L × 0.15 M = 0.0030 mol. Step 2: the equation needs 2 mol of NaOH per 1 mol of H₂SO₄, so acid moles = 0.0030 ÷ 2 = 0.0015 mol. Step 3: concentration = 0.0015 mol ÷ 0.0250 L = 0.060 M. Skipping the factor of 2 gives 0.12 M, the classic slip."
+      "text": "Given: 20.0 mL of 0.15 M NaOH neutralises 25.0 mL of H₂SO₄; H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O.\nRule: moles = volume(L) × concentration, then divide by the 2:1 ratio.\nSubstitute: moles NaOH = 0.0200 L × 0.15 mol/L = 0.0030 mol.\nMoles H₂SO₄ = 0.0030 ÷ 2 = 0.0015 mol.\nConcentration = 0.0015 mol ÷ 0.0250 L = 0.060 mol/L.\nResult: 0.060 M.\nClassic slip: skipping the divide-by-2 gives 0.12 M, forgetting each sulfuric acid molecule needs two hydroxides."
     },
     {
       "n": 40,
       "derived": "E",
-      "text": "Step 1: moles of CuSO₄ = 1.60 g ÷ 160 g/mol = 0.010 mol. Step 2: water lost = 2.50 − 1.60 = 0.90 g = 0.90 ÷ 18 = 0.050 mol. Step 3: n = 0.050 ÷ 0.010 = 5, so the hydrate is CuSO₄·5H₂O."
+      "text": "Given: 2.50 g of CuSO₄·nH₂O heated to constant mass leaves 1.60 g of CuSO₄; M(CuSO₄) = 160 g/mol, M(H₂O) = 18 g/mol.\nRule: n = moles of water lost ÷ moles of anhydrous salt.\nSubstitute: moles CuSO₄ = 1.60 g ÷ 160 g/mol = 0.010 mol.\nWater lost = 2.50 g − 1.60 g = 0.90 g.\nMoles H₂O = 0.90 g ÷ 18 g/mol = 0.050 mol.\nn = 0.050 ÷ 0.010 = 5.\nResult: n = 5, so the hydrate is CuSO₄·5H₂O.\nClassic slip: dividing 0.90 g by 160 g/mol (the salt's molar mass) instead of 18, or forgetting to subtract the residue from the starting mass first."
     },
     {
       "n": 41,
       "derived": "A",
-      "text": "Step 1: moles of O₂ = 5.6 L ÷ 22.4 L/mol = 0.25 mol. Step 2: mass = 0.25 mol × 32 g/mol = 8 g. The value 16 g comes from doubling the molar mass as if the gas were tetra-atomic; oxygen gas is diatomic O₂ with M = 32."
+      "text": "Given: 5.6 L of O₂ at STP; molar volume 22.4 L/mol; M(O₂) = 32 g/mol.\nRule: moles = volume ÷ molar volume, then mass = moles × molar mass.\nSubstitute: moles O₂ = 5.6 L ÷ 22.4 L/mol = 0.25 mol.\nMass = 0.25 mol × 32 g/mol = 8 g.\nResult: 8 g.\nClassic slip: using 16 g/mol, the atomic mass of oxygen, forgets that oxygen gas travels as diatomic O₂ molecules."
     },
     {
       "n": 42,
@@ -224,7 +224,7 @@
     {
       "n": 45,
       "derived": "A",
-      "text": "The 1:1 stoichiometry means forming 0.75 M of B consumes 0.75 M of A, leaving [A]eq = 1.0 − 0.75 = 0.25 M. Kc = [B]/[A] = 0.75/0.25 = 3.0. Quoting 0.75 or 0.25 confuses an equilibrium concentration with the equilibrium constant, which is the ratio of the two."
+      "text": "Given: A ⇌ B; initially only A at 1.0 M; at equilibrium [B] = 0.75 M.\nRule: 1:1 stoichiometry means each mole of B formed consumes one mole of A; Kc = [B]/[A].\nSubstitute: [A] at equilibrium = 1.0 − 0.75 = 0.25 mol/L.\nKc = 0.75 ÷ 0.25 = 3.0.\nResult: Kc = 3.0.\nClassic slip: quoting the equilibrium concentration 0.75 (or 0.25) as the constant; Kc is the ratio of the two, not either one alone."
     },
     {
       "n": 46,
@@ -234,72 +234,72 @@
     {
       "n": 47,
       "derived": "C",
-      "text": "One litre of pure water has mass 1000 g (density 1.0 g/mL). Moles of H₂O = 1000 g ÷ 18 g/mol ≈ 55.6 mol, so the concentration of water in itself is about 55.6 M. The 18 M figure confuses the molar mass with the molarity of a litre."
+      "text": "Given: pure water, density 1.0 g/mL, M(H₂O) = 18 g/mol.\nRule: molarity = moles per litre, and here the 'solute' is water itself.\nSubstitute: 1.0 L of water has mass 1000 mL × 1.0 g/mL = 1000 g.\nMoles = 1000 g ÷ 18 g/mol ≈ 55.6 mol.\nConcentration = 55.6 mol ÷ 1.0 L ≈ 55.6 M.\nResult: about 55.6 M.\nClassic slip: quoting 18 M mistakes the molar mass (grams per mole) for the moles sitting in a litre."
     },
     {
       "n": 48,
       "derived": "D",
-      "text": "Factorise: x² − 5x + 6 = (x − 2)(x − 3); the parabola opens upward with roots 2 and 3. The product is positive outside the roots (both factors positive when x > 3, both negative when x < 2), so the solution set is x < 2 or x > 3. The interval 2 < x < 3 is where the expression is negative, the answer to the reversed inequality."
+      "text": "Given: x² − 5x + 6 > 0.\nFactorise: (x − 2)(x − 3) > 0, an upward parabola crossing zero at 2 and 3.\nA product of two factors is positive when both share the same sign.\nFor x > 3 both factors are positive, so the product is positive.\nFor x < 2 both factors are negative, so the product is positive.\nBetween 2 and 3 one factor is negative and one positive, so the product is negative and excluded.\nResult: x < 2 or x > 3.\nClassic slip: answering 2 < x < 3 solves the reversed inequality, the interval where the expression is negative."
     },
     {
       "n": 49,
       "derived": "B",
-      "text": "|2x − 1| ≤ 5 unpacks to −5 ≤ 2x − 1 ≤ 5. Adding 1 throughout: −4 ≤ 2x ≤ 6. Dividing by 2: −2 ≤ x ≤ 3. The tempting shifted interval −3 ≤ x ≤ 2 comes from forgetting to add 1 to both bounds."
+      "text": "Given: |2x − 1| ≤ 5.\nRule: |A| ≤ c unpacks to −c ≤ A ≤ c.\nSubstitute: −5 ≤ 2x − 1 ≤ 5.\nAdd 1 to all three parts: −4 ≤ 2x ≤ 6.\nDivide all three parts by 2: −2 ≤ x ≤ 3.\nResult: −2 ≤ x ≤ 3.\nClassic slip: adjusting only one boundary gives −3 ≤ x ≤ 2; the +1 must be added to both ends."
     },
     {
       "n": 50,
       "derived": "A",
-      "text": "log 5 = log(10 ÷ 2) = log 10 − log 2 = 1 − 0.30 = 0.70. Since 5 is half of 10, its log must fall just under 1; halving the log itself to 0.50 confuses the logarithm with the number."
+      "text": "Given: log₁₀ 2 = 0.30; wanted, log₁₀ 5.\nRule: 5 = 10 ÷ 2, and log(a ÷ b) = log a − log b.\nSubstitute: log 5 = log 10 − log 2 = 1 − 0.30.\n= 0.70.\nResult: 0.70.\nClassic slip: halving the logarithm to 0.50 treats the log like the number; halving a number subtracts log 2 from its log, it does not halve the log."
     },
     {
       "n": 51,
       "derived": "E",
-      "text": "Use the complement: P(no six) = (5/6) × (5/6) = 25/36, so P(at least one six) = 1 − 25/36 = 11/36. The value 5/36 covers only the case where one specified die shows the six and the other does not; the six can land on either die (and double sixes also count), which is why the correct value is larger."
+      "text": "Given: two independent fair dice; wanted, P(at least one six).\nRule: work through the complement, P(at least one six) = 1 − P(no six), with P(not six) = 5/6 on each die.\nSubstitute: P(no six) = 5/6 × 5/6 = 25/36.\nP(at least one six) = 1 − 25/36 = 11/36.\nResult: 11/36.\nClassic slip: 5/36 counts only one named die showing the six with the other missing; the six can land on either die and double sixes also qualify."
     },
     {
       "n": 52,
       "derived": "C",
-      "text": "In the right triangle, tan(elevation) = height ÷ shadow length, so shadow = 6 ÷ tan 45° = 6 ÷ 1 = 6 m. At 45° the triangle is isosceles, so the shadow exactly equals the pole's height; the tan 30° figure is unused distractor data."
+      "text": "Given: pole 6 m tall, sun elevation 45°, tan 45° = 1 (tan 30° = 0.58 also printed).\nRule: in the right triangle, tan(elevation) = opposite ÷ adjacent = height ÷ shadow length.\nSubstitute: shadow = 6 m ÷ tan 45° = 6 m ÷ 1 = 6 m.\nResult: 6 m, since a 45° triangle is isosceles and the shadow equals the height.\nClassic slip: grabbing the printed tan 30° = 0.58 instead of tan 45° gives roughly 10 m, but that angle is unused bait."
     },
     {
       "n": 53,
       "derived": "D",
-      "text": "Set y = (2x + 3)/5 and solve for x: 5y = 2x + 3, so 2x = 5y − 3 and x = (5y − 3)/2. Swapping variable names gives f⁻¹(x) = (5x − 3)/2. Flipping the sign to (5x + 3)/2, or simply restating the original formula, are the standard slips."
+      "text": "Given: f(x) = (2x + 3)/5; wanted, the inverse.\nRule: write y = f(x), solve for x in terms of y, then swap the letters.\nSubstitute: y = (2x + 3)/5.\nMultiply both sides by 5: 5y = 2x + 3.\nSubtract 3: 2x = 5y − 3.\nDivide by 2: x = (5y − 3)/2.\nSwap letters: f⁻¹(x) = (5x − 3)/2.\nResult: f⁻¹(x) = (5x − 3)/2.\nClassic slip: flipping only the sign to (5x + 3)/2, or restating the original formula, skips actually undoing the operations in reverse order."
     },
     {
       "n": 54,
       "derived": "A",
-      "text": "Vertex x-coordinate: x = −b ÷ 2a = 4 ÷ 2 = 2. Then y = 2² − 4(2) + 7 = 4 − 8 + 7 = 3, so the vertex is (2, 3). The point (2, 11) comes from computing 4 + 8 + 7, dropping the minus on the linear term; using x = −b = 4 instead of −b/2a produces the (4, 7) decoy."
+      "text": "Given: y = x² − 4x + 7, so a = 1, b = −4, c = 7.\nRule: the vertex sits at x = −b ÷ 2a; substitute that x back to get y.\nSubstitute: x = −(−4) ÷ (2 × 1) = 4 ÷ 2 = 2.\ny = 2² − 4(2) + 7 = 4 − 8 + 7 = 3.\nResult: vertex (2, 3).\nClassic slip: using x = −b = 4 instead of −b ÷ 2a lands on (4, 7), and sign slips while adding 4 − 8 + 7 produce the (2, 11) and (−2, 19) decoys."
     },
     {
       "n": 55,
       "derived": "B",
-      "text": "Step 1: two 4 Ω resistors in parallel give 2 Ω, so the circuit total is 4 + 2 = 6 Ω. Step 2: I = 12 V ÷ 6 Ω = 2 A. Step 3: the parallel section takes 2 A × 2 Ω = 4 V, so each 4 Ω resistor dissipates P = V²/R = 16 ÷ 4 = 4 W (equivalently, the 2 A splits into 1 A per branch: 1² × 4 = 4 W). The 8 W figure is the whole pair and 24 W the entire circuit; a single branch does not carry the full 2 A."
+      "text": "Given: 12 V source; 4 Ω in series with a parallel pair of two 4 Ω; wanted, power in one parallel resistor.\nRule: parallel pair 1/Rp = 1/R₁ + 1/R₂; series resistances add; I = V ÷ R; P = V² ÷ R.\nSubstitute: 1/Rp = 1/4 + 1/4 = 1/2, so Rp = 2 Ω.\nTotal resistance = 4 + 2 = 6 Ω.\nCircuit current I = 12 V ÷ 6 Ω = 2 A.\nVoltage across the parallel pair = 2 A × 2 Ω = 4 V.\nPower in one resistor = 4² ÷ 4 = 16 ÷ 4 = 4 W.\nResult: 4 W (each branch carries half the current, 1 A, and 1² × 4 = 4 W agrees).\nClassic slip: pushing the full 2 A through one branch gives 16 W, and 8 W or 24 W quote the pair or the whole circuit instead of a single resistor."
     },
     {
       "n": 56,
       "derived": "E",
-      "text": "From rest: v² = u² + 2gh = 2 × 10 × 5 = 100, so v = 10 m/s just before impact. Alternatively the fall takes t = √(2h ÷ g) = 1 s and v = gt = 10 m/s. The 50 m/s decoy multiplies g by h once, confusing the formula with v² = 2gh."
+      "text": "Given: released from rest, h = 5 m, g = 10 m/s².\nRule: v² = u² + 2gh with u = 0 for a drop from rest.\nSubstitute: v² = 0 + 2 × 10 m/s² × 5 m = 100 m²/s².\nv = √100 = 10 m/s.\nResult: 10 m/s just before impact.\nClassic slip: quoting g × h = 50 m/s multiplies g and h once; the formula squares the speed, so the product enters doubled and under the square root."
     },
     {
       "n": 57,
       "derived": "D",
-      "text": "ΔT = Q ÷ (mc). Water: 10000 ÷ 4200 ≈ 2.4 K. Iron: 10000 ÷ 450 ≈ 22.2 K. With equal masses and equal heat input, the smaller specific heat capacity (iron) gives the larger temperature rise, about nine times larger; container shape does not appear in the calorimetric equation."
+      "text": "Given: Q = 10 kJ = 10000 J into 1 kg of water (c = 4200 J/(kg·K)) and 1 kg of iron (c = 450 J/(kg·K)).\nRule: Q = m c ΔT, so ΔT = Q ÷ (m c).\nSubstitute water: ΔT = 10000 ÷ (1 × 4200) ≈ 2.4 K.\nSubstitute iron: ΔT = 10000 ÷ (1 × 450) ≈ 22.2 K.\nCompare: 22.2 ÷ 2.4 ≈ 9, so iron rises about nine times further.\nResult: the iron ends hotter, about 22 K against about 2.4 K for the water.\nClassic slip: assuming equal heat means equal temperature change; with equal masses, ΔT is inversely proportional to the specific heat capacity, and the containers' shape never enters the equation."
     },
     {
       "n": 58,
       "derived": "C",
-      "text": "From rest, s = ½gt² = ½ × 10 × (2.0)² = 5 × 4 = 20 m. The 10 m answer uses ½gt and forgets to square the time."
+      "text": "Given: fall from rest, t = 2.0 s, g = 10 m/s².\nRule: s = ut + ½gt² with u = 0, so s = ½gt².\nSubstitute: s = ½ × 10 m/s² × (2.0 s)².\nSquare the time: (2.0)² = 4 s², so s = 5 × 4 = 20 m.\nResult: 20 m.\nClassic slip: computing ½gt = 10 m forgets to square the time before multiplying."
     },
     {
       "n": 59,
       "derived": "A",
-      "text": "Taking up as positive, Newton's second law on the person gives N − mg = ma, so N = m(g + a), which exceeds the true weight mg: the scales read more and the person feels heavier. The reading tracks acceleration, not velocity: at constant upward speed it would read exactly the true weight."
+      "text": "Given: person of mass m on scales in a lift accelerating upward at a; wanted, the reading compared with the true weight mg.\nRule: Newton's second law on the person, taking up as positive: N − mg = ma, where N is the normal force the scales report.\nSubstitute and rearrange: N = mg + ma = m(g + a).\nSince a > 0, m(g + a) > mg, so the reading exceeds the true weight.\nResult: the scales read more and the person feels heavier.\nClassic slip: tying the reading to velocity; at constant upward speed a = 0 and the scales read exactly mg, so it is acceleration, not motion, that changes the reading."
     },
     {
       "n": 60,
       "derived": "B",
-      "text": "Wave speed: v = fλ = 500 Hz × 0.68 m = 340 m/s, the familiar speed of sound in air. Doubling the wavelength gives the 680 m/s decoy; halving it gives 170 m/s."
+      "text": "Given: f = 500 Hz, λ = 0.68 m.\nRule: wave equation v = f × λ.\nSubstitute: v = 500 Hz × 0.68 m = 340 m/s.\nResult: 340 m/s, the familiar speed of sound in air.\nClassic slip: doubling the wavelength to 680 m/s or halving it to 170 m/s scales the wrong quantity; the speed is the product of frequency and wavelength, not a ratio."
     }
   ],
   "disagreements": [],
@@ -307,6 +307,7 @@
     "All 60 stored answers were reproduced independently from the stems and options; zero disagreements.",
     "Q7: the exp parenthetical mislabels the 1/5 distractor as '1 minus sensitivity'; 1 minus sensitivity would be 1/10. The 1/5 option actually equals 1 minus specificity (the false-positive rate 180/900). The stored answer 2/3 is correct.",
     "Q15: the exp parenthetical calls the UAC distractor 'the naive same-direction complement'; the same-direction complement of 3'-TAC-5' is actually GUA (AUG read backwards). UAC more plausibly tempts via the anticodon. The stored answer 5'-AUG-3' is correct.",
-    "Q3: GK item verified against current knowledge: the 2025 G7 summit was held in Kananaskis, Canada (2024 presidency: Italy, Apulia)."
+    "Q3: GK item verified against current knowledge: the 2025 G7 summit was held in Kananaskis, Canada (2024 presidency: Italy, Apulia).",
+    "Rewrite pass (student feedback): 28 quantitative/logic items now carry fully worked, step-by-step solutions (section A items 4-9, chemistry calculations 33, 35, 37-41, 45, 47, all of maths 48-54, all of physics 55-60). Every other text is kept verbatim, including section B (the brief's keep-list covers biology wholesale, so the genetics crosses 10-13 and 23 were left as they are). All 60 keys were re-derived from the stems before editing; no disagreements."
   ]
 }

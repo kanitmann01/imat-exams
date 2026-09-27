@@ -69,92 +69,92 @@
   {
    "n": 14,
    "derived": "C",
-   "text": "Step 1: M(C₃H₈) = 3(12) + 8(1) = 44 g/mol. Step 2: n = 4.4 ÷ 44 = 0.10 mol. Step 3: molecules = 0.10 × 6.02 × 10²³ = 6.02 × 10²². The 6.02 × 10²³ answer treats 4.4 g as a whole mole, and 1.204 × 10²³ doubles the correct count."
+   "text": "Given: 4.4 g of propane, C₃H₈ (H = 1, C = 12); Avogadro constant 6.02 × 10²³ mol⁻¹.\nRelationship: amount = mass ÷ molar mass, then molecules = amount × Avogadro constant; M(C₃H₈) = 3(12) + 8(1) = 44 g/mol.\nSubstitute: n = 4.4 g ÷ 44 g/mol.\nStep 1: n = 0.10 mol of C₃H₈.\nStep 2: molecules = 0.10 mol × 6.02 × 10²³ mol⁻¹ = 6.02 × 10²².\nResult: 6.02 × 10²² molecules.\nClassic slip: 6.02 × 10²³ treats 4.4 g as a whole mole (as if the molar mass were 4.4 g/mol) and overshoots by a factor of ten."
   },
   {
    "n": 15,
    "derived": "B",
-   "text": "Step 1: each H₂O carries two H atoms, so n(H) = 0.25 × 2 = 0.50 mol. Step 2: H atoms = 0.50 × 6.02 × 10²³ = 3.01 × 10²³. The 1.505 × 10²³ value counts water molecules and drops the factor of two, and 9.03 × 10²³ counts all three atoms per molecule instead of the hydrogens alone."
+   "text": "Given: 0.25 mol of H₂O; each water molecule carries 2 hydrogen atoms; Avogadro constant 6.02 × 10²³ mol⁻¹.\nRelationship: moles of H atoms = moles of H₂O × 2, then atoms = moles of H × Avogadro constant.\nSubstitute: n(H) = 0.25 mol × 2.\nStep 1: n(H) = 0.50 mol of H atoms.\nStep 2: H atoms = 0.50 mol × 6.02 × 10²³ mol⁻¹ = 3.01 × 10²³.\nResult: 3.01 × 10²³ hydrogen atoms.\nClassic slip: 1.505 × 10²³ counts the water molecules and drops the factor of two; 9.03 × 10²³ counts all three atoms per molecule instead of the hydrogens alone."
   },
   {
    "n": 16,
    "derived": "A",
-   "text": "Step 1: n(CO₂) = 4.4 ÷ 44 = 0.10 mol. Step 2: equal numbers of molecules mean equal moles, so n(NH₃) = 0.10 mol. Step 3: M(NH₃) = 14 + 3(1) = 17 g/mol, so mass = 0.10 × 17 = 1.7 g. Equal masses would contain equal molecule numbers only if the molar masses matched, which they do not here."
+   "text": "Given: 4.4 g of CO₂ (C = 12, O = 16); equal molecule numbers mean equal moles of NH₃ (N = 14, H = 1).\nRelationship: n(CO₂) = mass ÷ M, carry the moles across, then mass of NH₃ = n × M.\nSubstitute: M(CO₂) = 12 + 2(16) = 44 g/mol, so n = 4.4 g ÷ 44 g/mol = 0.10 mol.\nStep 1: n(NH₃) = 0.10 mol (same molecule count).\nStep 2: M(NH₃) = 14 + 3(1) = 17 g/mol.\nStep 3: mass = 0.10 mol × 17 g/mol = 1.7 g.\nResult: 1.7 g of NH₃.\nClassic slip: 4.4 g matches masses instead of molecule counts; equal numbers of molecules need equal moles, and the two molar masses here differ."
   },
   {
    "n": 17,
    "derived": "A",
-   "text": "Step 1: n(CO₂) = 8.8 ÷ 44 = 0.20 mol. Step 2: V = 0.20 × 22.4 = 4.48 dm³ at STP. The 11.2 dm³ answer corresponds to 0.5 mol and the 22.4 dm³ answer to 1 mol, neither of which matches 8.8 g of carbon dioxide."
+   "text": "Given: 8.8 g of CO₂ (C = 12, O = 16); molar volume at STP = 22.4 dm³/mol.\nRelationship: n = mass ÷ molar mass, then V = n × molar volume.\nSubstitute: M(CO₂) = 12 + 2(16) = 44 g/mol, so n = 8.8 g ÷ 44 g/mol = 0.20 mol.\nStep 1: n = 0.20 mol.\nStep 2: V = 0.20 mol × 22.4 dm³/mol = 4.48 dm³.\nResult: 4.48 dm³ at STP.\nClassic slip: 11.2 dm³ assumes 0.5 mol of gas, which would require 22 g of CO₂, double the stated mass."
   },
   {
    "n": 18,
    "derived": "B",
-   "text": "Step 1: 560 cm³ = 0.560 dm³. Step 2: n = 0.560 ÷ 22.4 = 0.025 mol. Step 3: molecules = 0.025 × 6.02 × 10²³ = 1.505 × 10²². The 1.505 × 10²⁵ answer skips the cm³ to dm³ conversion and divides 560 by 22.4 as though the volume were already in cubic decimetres."
+   "text": "Given: 560 cm³ of ideal gas at STP (1 dm³ = 1000 cm³); molar volume 22.4 dm³/mol; Avogadro constant 6.02 × 10²³ mol⁻¹.\nRelationship: convert to dm³, then n = V ÷ molar volume, then molecules = n × Avogadro constant.\nSubstitute: V = 560 cm³ ÷ 1000 = 0.560 dm³.\nStep 1: n = 0.560 dm³ ÷ 22.4 dm³/mol = 0.025 mol.\nStep 2: molecules = 0.025 mol × 6.02 × 10²³ mol⁻¹ = 1.505 × 10²².\nResult: 1.505 × 10²² molecules.\nClassic slip: 1.505 × 10²⁵ skips the cm³ to dm³ conversion and divides 560 by 22.4 as if the volume were already in cubic decimetres, inflating the count a thousandfold."
   },
   {
    "n": 19,
    "derived": "C",
-   "text": "Step 1: n(O₂) = 4.48 ÷ 22.4 = 0.20 mol. Step 2: M(O₂) = 2 × 16 = 32 g/mol. Step 3: mass = 0.20 × 32 = 6.4 g. The 3.2 g answer forgets that oxygen gas is diatomic and uses the atomic mass 16 rather than the molecular mass 32."
+   "text": "Given: 4.48 dm³ of O₂ at STP (O = 16); molar volume 22.4 dm³/mol.\nRelationship: n = V ÷ molar volume, then mass = n × M, with M(O₂) = 2 × 16.\nSubstitute: n = 4.48 dm³ ÷ 22.4 dm³/mol.\nStep 1: n = 0.20 mol.\nStep 2: M(O₂) = 2 × 16 = 32 g/mol.\nStep 3: mass = 0.20 mol × 32 g/mol = 6.4 g.\nResult: 6.4 g.\nClassic slip: 3.2 g uses the atomic mass 16 g/mol and forgets that oxygen gas is diatomic."
   },
   {
    "n": 20,
    "derived": "B",
-   "text": "Step 1: n(CaCO₃) = 10.0 ÷ 100 = 0.10 mol, which would consume 0.20 mol HCl at the 1:2 ratio. Step 2: n(HCl) = 0.100 dm³ × 1.0 mol/dm³ = 0.10 mol, less than needed, so the acid runs out first. Step 3: n(CO₂) = 0.10 ÷ 2 = 0.05 mol. Step 4: V = 0.05 × 22.4 = 1.12 dm³. The 2.24 dm³ answer treats the carbonate as limiting and ignores the 2 mol of HCl required per mol of CO₂."
+   "text": "Given: 10.0 g of CaCO₃ (M = 100 g/mol); 100 cm³ = 0.100 dm³ of 1.0 mol/dm³ HCl; CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂; molar volume 22.4 dm³/mol.\nRelationship: convert both reactants to moles, apply the 1:2 stoichiometry to find the limiting reactant, then 1 mol CO₂ per mol of carbonate actually reacted.\nSubstitute: n(CaCO₃) = 10.0 g ÷ 100 g/mol = 0.10 mol; n(HCl) = 0.100 dm³ × 1.0 mol/dm³ = 0.10 mol.\nStep 1: reacting all the carbonate would need 2 × 0.10 = 0.20 mol of HCl.\nStep 2: only 0.10 mol of HCl is available, so the acid runs out first.\nStep 3: from 2HCl : 1CO₂, n(CO₂) = 0.10 mol ÷ 2 = 0.050 mol.\nStep 4: V = 0.050 mol × 22.4 dm³/mol = 1.12 dm³.\nResult: 1.12 dm³ of CO₂ at STP.\nClassic slip: 2.24 dm³ treats the carbonate as the limiting reactant and ignores that every mole of CO₂ consumes two moles of HCl."
   },
   {
    "n": 21,
    "derived": "C",
-   "text": "Step 1: n(ethanol) = 9.2 ÷ 46 = 0.20 mol, so at most 0.20 mol of ethene can form. Step 2: theoretical mass = 0.20 × 28 = 5.6 g. Step 3: percentage yield = (4.2 ÷ 5.6) × 100 = 75%. The 25% figure reports the 1.4 g shortfall as a share of the theoretical mass instead of the fraction obtained, and 133% inverts the ratio."
+   "text": "Given: 9.2 g of ethanol (M = 46 g/mol); C₂H₅OH → C₂H₄ + H₂O in a 1:1 ratio; actual ethene collected 4.2 g (M = 28 g/mol).\nRelationship: percentage yield = (actual mass ÷ theoretical mass) × 100, with the theoretical mass fixed by the 1:1 mole ratio.\nSubstitute: n(ethanol) = 9.2 g ÷ 46 g/mol = 0.20 mol, so n(theoretical ethene) = 0.20 mol.\nStep 1: theoretical mass = 0.20 mol × 28 g/mol = 5.6 g.\nStep 2: percentage yield = (4.2 g ÷ 5.6 g) × 100.\nStep 3: 4.2 ÷ 5.6 = 0.75, so the yield is 75%.\nResult: 75%.\nClassic slip: 25% reports the 1.4 g shortfall as a share of the theoretical mass instead of the fraction actually obtained, and 133% inverts the ratio."
   },
   {
    "n": 22,
    "derived": "E",
-   "text": "At constant temperature, Boyle's law gives P₁V₁ = P₂V₂, so V₂ = (400 × 2.0) ÷ 100 = 8.0 dm³: a fourfold pressure drop forces a fourfold expansion. The 0.5 dm³ answer inverts the pressure ratio and wrongly predicts that the bubble shrinks as it rises toward lower pressure."
+   "text": "Given: bubble volume 2.0 dm³ at depth pressure 400 kPa; surface pressure 100 kPa; temperature constant.\nRelationship: Boyle's law at constant temperature: P₁V₁ = P₂V₂, so V₂ = P₁V₁ ÷ P₂.\nSubstitute: V₂ = (400 kPa × 2.0 dm³) ÷ 100 kPa.\nStep 1: P₁V₁ = 400 × 2.0 = 800 kPa·dm³.\nStep 2: V₂ = 800 ÷ 100 = 8.0 dm³.\nResult: 8.0 dm³ at the surface.\nClassic slip: 0.5 dm³ inverts the pressure ratio and wrongly predicts the bubble shrinking as it rises into lower pressure."
   },
   {
    "n": 23,
    "derived": "D",
-   "text": "Step 1: convert to kelvin, 27 °C = 300 K and 327 °C = 600 K. Step 2: with volume and moles fixed, P₂ = P₁ × (T₂ ÷ T₁) = 100 × (600 ÷ 300) = 200 kPa. The 109 kPa answer comes from multiplying 100 by 327 ÷ 300, using Celsius readings in a ratio that only kelvin values may enter."
+   "text": "Given: rigid canister (fixed volume and moles) at 27 °C and 100 kPa, heated to 327 °C.\nRelationship: pressure-temperature law P₁ ÷ T₁ = P₂ ÷ T₂, so P₂ = P₁ × T₂ ÷ T₁, with T in kelvin (T = °C + 273).\nSubstitute: P₂ = 100 kPa × (T₂ ÷ T₁).\nStep 1: T₁ = 27 + 273 = 300 K; T₂ = 327 + 273 = 600 K.\nStep 2: T₂ ÷ T₁ = 600 ÷ 300 = 2.\nStep 3: P₂ = 100 kPa × 2 = 200 kPa.\nResult: 200 kPa.\nClassic slip: 109 kPa builds the ratio from the Celsius readings (327 ÷ 300), which are not absolute temperatures."
   },
   {
    "n": 24,
    "derived": "B",
-   "text": "The combined gas law gives V₂ = V₁ × (T₂ ÷ T₁) × (P₁ ÷ P₂) = 9.0 × (400 ÷ 300) × (100 ÷ 200) = 6.0 dm³, using 300 K and 400 K. Warming expands the gas but the doubled pressure compresses it more, so the net effect is a shrink from 9.0 to 6.0 dm³. The 12 dm³ answer ignores the pressure change entirely, and 13.5 dm³ inverts both ratios."
+   "text": "Given: 9.0 dm³ at 27 °C and 100 kPa, taken to 127 °C and 200 kPa.\nRelationship: combined gas law V₂ = V₁ × (T₂ ÷ T₁) × (P₁ ÷ P₂), temperatures in kelvin.\nSubstitute: T₁ = 300 K and T₂ = 400 K, so V₂ = 9.0 dm³ × (400 ÷ 300) × (100 ÷ 200).\nStep 1: temperature factor = 400 ÷ 300 ≈ 1.33.\nStep 2: pressure factor = 100 ÷ 200 = 0.50.\nStep 3: V₂ = 9.0 × 1.33 × 0.50 = 6.0 dm³.\nResult: 6.0 dm³ (warming expands the gas, but the doubled pressure compresses it more).\nClassic slip: 12 dm³ keeps only the warming factor and ignores the pressure doubling; 13.5 dm³ inverts both ratios."
   },
   {
    "n": 25,
    "derived": "D",
-   "text": "Step 1: total moles = 0.20 + 0.30 = 0.50 mol. Step 2: mole fraction of O₂ = 0.30 ÷ 0.50 = 0.60. Step 3: p(O₂) = 0.60 × 150 = 90 kPa. The 60 kPa value is the nitrogen share, and 45 kPa multiplies the raw 0.30 mol by the total pressure without first converting to a mole fraction."
+   "text": "Given: 0.20 mol of N₂ plus 0.30 mol of O₂ in one vessel; total pressure 150 kPa; constant temperature.\nRelationship: Dalton's law: partial pressure = mole fraction × total pressure, with x(O₂) = n(O₂) ÷ n(total).\nSubstitute: n(total) = 0.20 + 0.30 = 0.50 mol.\nStep 1: x(O₂) = 0.30 mol ÷ 0.50 mol = 0.60.\nStep 2: p(O₂) = 0.60 × 150 kPa = 90 kPa.\nResult: 90 kPa.\nClassic slip: 45 kPa multiplies the raw 0.30 mol by the total pressure without converting to a mole fraction first, and 60 kPa is the nitrogen share."
   },
   {
    "n": 26,
    "derived": "C",
-   "text": "Step 1: moles from the concentrated acid = 0.100 × 0.80 = 0.080 mol. Step 2: moles from the dilute acid = 0.400 × 0.20 = 0.080 mol. Step 3: total = 0.160 mol in 0.500 dm³, so c = 0.160 ÷ 0.500 = 0.32 mol/dm³. The 0.50 mol/dm³ answer takes a plain average of the two concentrations, ignoring that four times more of the dilute solution was used."
+   "text": "Given: 100 cm³ = 0.100 dm³ of 0.80 mol/dm³ HCl mixed with 400 cm³ = 0.400 dm³ of 0.20 mol/dm³ HCl; volumes additive.\nRelationship: total moles = Σ(volume × concentration) over both stocks; final concentration = total moles ÷ total volume.\nSubstitute: n₁ = 0.100 dm³ × 0.80 mol/dm³; n₂ = 0.400 dm³ × 0.20 mol/dm³.\nStep 1: n₁ = 0.080 mol.\nStep 2: n₂ = 0.080 mol.\nStep 3: n(total) = 0.080 + 0.080 = 0.160 mol; V(total) = 0.100 + 0.400 = 0.500 dm³.\nStep 4: c = 0.160 mol ÷ 0.500 dm³ = 0.32 mol/dm³.\nResult: 0.32 mol/dm³.\nClassic slip: 0.50 mol/dm³ takes a plain average of the two concentrations and ignores that four times more of the dilute solution entered the mixture."
   },
   {
    "n": 27,
    "derived": "D",
-   "text": "Step 1: moles of solute = 0.025 dm³ × 2.0 mol/dm³ = 0.050 mol. Step 2: final volume = 0.050 ÷ 0.10 = 0.50 dm³ = 500 cm³. The question asks for the final volume of the diluted solution, so the original 25 cm³ must not be subtracted; that subtraction would answer a water-added question instead."
+   "text": "Given: 25 cm³ = 0.025 dm³ of 2.0 mol/dm³ solution, diluted to 0.10 mol/dm³.\nRelationship: dilution conserves moles of solute: c₁V₁ = c₂V₂, so V₂ = c₁V₁ ÷ c₂.\nSubstitute: moles of solute = 0.025 dm³ × 2.0 mol/dm³ = 0.050 mol.\nStep 1: V₂ = 0.050 mol ÷ 0.10 mol/dm³ = 0.50 dm³.\nStep 2: 0.50 dm³ × 1000 = 500 cm³.\nResult: 500 cm³ of diluted solution.\nClassic slip: subtracting the original 25 cm³ answers the water-added question instead; the final volume is the whole diluted solution, and the 25 cm³ of stock already sits inside it."
   },
   {
    "n": 28,
    "derived": "C",
-   "text": "HCl is fully ionised, so [H⁺] = 2.0 × 10⁻⁴ mol/dm³ and pH = −log(2.0 × 10⁻⁴) = 4 − log 2 = 4 − 0.30 = 3.70. The 4.0 answer drops the 0.30 contribution of the factor 2, and the 10.3 value would describe a basic solution, impossible for a strong acid."
+   "text": "Given: 2.0 × 10⁻⁴ mol/dm³ HCl, fully ionised, so [H⁺] = 2.0 × 10⁻⁴ mol/dm³.\nRelationship: pH = −log[H⁺]; for a coefficient times a power of ten, −log(a × 10⁻ⁿ) = n − log a.\nSubstitute: pH = 4 − log 2.0.\nStep 1: log 2.0 = 0.30.\nStep 2: pH = 4 − 0.30 = 3.70.\nResult: pH 3.70.\nClassic slip: 4.0 drops the factor of 2 (its 0.30 log contribution) and answers as if [H⁺] were exactly 1 × 10⁻⁴ mol/dm³."
   },
   {
    "n": 29,
    "derived": "D",
-   "text": "Step 1: [H⁺] = 5.0 × 10⁻² mol/dm³, so pH = 2 − log 5 = 2 − 0.70 = 1.30. Step 2: pOH = 14.00 − 1.30 = 12.70. The 1.3 answer reports the pH, but pOH is the quantity asked for, obtained through Kw."
+   "text": "Given: 5.0 × 10⁻² mol/dm³ HNO₃, fully ionised, so [H⁺] = 5.0 × 10⁻² mol/dm³; Kw = 1.0 × 10⁻¹⁴ at 25 °C.\nRelationship: pH = −log[H⁺], then pOH = 14.00 − pH (from Kw = [H⁺][OH⁻]).\nSubstitute: pH = −log(5.0 × 10⁻²) = 2 − log 5.0.\nStep 1: log 5.0 = 0.70, so pH = 2 − 0.70 = 1.30.\nStep 2: pOH = 14.00 − 1.30 = 12.70.\nResult: pOH 12.70.\nClassic slip: 1.30 is the pH, not the pOH; the crossing to the hydroxide scale must run through Kw."
   },
   {
    "n": 30,
    "derived": "C",
-   "text": "Step 1: each Sr(OH)₂ releases two OH⁻ ions, so [OH⁻] = 2 × 5.0 × 10⁻⁴ = 1.0 × 10⁻³ mol/dm³. Step 2: pOH = 3.00 and pH = 14.00 − 3.00 = 11.0. The 10.7 answer forgets the factor of two and keeps pOH = 3.3, and the 3.0 value quotes the pOH as though it were the pH of a base."
+   "text": "Given: 5.0 × 10⁻⁴ mol/dm³ Sr(OH)₂, fully dissociated; each formula unit releases 2 OH⁻; Kw = 1.0 × 10⁻¹⁴ at 25 °C.\nRelationship: [OH⁻] = 2 × concentration, then pOH = −log[OH⁻], then pH = 14.00 − pOH.\nSubstitute: [OH⁻] = 2 × 5.0 × 10⁻⁴ mol/dm³.\nStep 1: [OH⁻] = 1.0 × 10⁻³ mol/dm³.\nStep 2: pOH = −log(1.0 × 10⁻³) = 3.00.\nStep 3: pH = 14.00 − 3.00 = 11.00.\nResult: pH 11.0.\nClassic slip: 10.7 forgets the factor of two and carries pOH 3.30 from a single OH⁻ per formula unit; 3.0 quotes the pOH as if it were the pH of a base."
   },
   {
    "n": 31,
    "derived": "B",
-   "text": "Step 1: P (10⁻³ M HCl) has pH 3.0; Q (5 × 10⁻³ M HCl) has pH 3 − 0.70 = 2.3, so the more concentrated acid is the more acidic. Step 2: R (10⁻³ M NaOH) gives pOH 3.0 and pH 11.0. Step 3: S (10⁻³ M Ba(OH)₂) releases two OH⁻ per formula unit, so [OH⁻] = 2 × 10⁻³, pOH = 3 − 0.30 = 2.7 and pH 11.3. Increasing pH therefore runs Q, P, R, S; ordering by concentration alone (which puts P ahead of Q) ignores what the logarithm does to concentration."
+   "text": "Given: P is 1.0 × 10⁻³ mol/dm³ HCl; Q is 5.0 × 10⁻³ mol/dm³ HCl; R is 1.0 × 10⁻³ mol/dm³ NaOH; S is 1.0 × 10⁻³ mol/dm³ Ba(OH)₂; Kw = 1.0 × 10⁻¹⁴; all solutes fully ionised.\nRelationship: acids: pH = −log[H⁺]; bases: pOH = −log[OH⁻] and pH = 14 − pOH; Ba(OH)₂ releases 2 OH⁻ per formula unit.\nStep 1: P: [H⁺] = 1.0 × 10⁻³ mol/dm³, pH 3.00.\nStep 2: Q: [H⁺] = 5.0 × 10⁻³ mol/dm³, pH = 3 − 0.70 = 2.30.\nStep 3: R: [OH⁻] = 1.0 × 10⁻³ mol/dm³, pOH 3.00, pH 11.00.\nStep 4: S: [OH⁻] = 2 × 10⁻³ mol/dm³, pOH = 3 − 0.30 = 2.70, pH 11.30.\nResult: increasing pH runs Q (2.3), then P (3.0), then R (11.0), then S (11.3).\nClassic slip: placing P ahead of Q orders by concentration alone and forgets that the logarithm makes the five-times-more-concentrated acid the more acidic one."
   },
   {
    "n": 32,
@@ -164,22 +164,22 @@
   {
    "n": 33,
    "derived": "C",
-   "text": "In pure water [H⁺] = [OH⁻], so Kw = [OH⁻]² and [OH⁻] = √(3.0 × 10⁻¹⁵) ≈ 5.5 × 10⁻⁸ mol/dm³. The 1.0 × 10⁻⁷ value keeps the 25 °C concentration although Kw has fallen, and 3.0 × 10⁻¹⁵ mistakes the ionic product itself for a concentration."
+   "text": "Given: pure water at 10 °C with Kw = 3.0 × 10⁻¹⁵ mol² dm⁻⁶; in pure water [H⁺] = [OH⁻].\nRelationship: Kw = [H⁺][OH⁻] = [OH⁻]², so [OH⁻] = √Kw.\nSubstitute: [OH⁻] = √(3.0 × 10⁻¹⁵) mol/dm³.\nStep 1: rewrite 3.0 × 10⁻¹⁵ as 30 × 10⁻¹⁶.\nStep 2: √30 ≈ 5.5 and √(10⁻¹⁶) = 10⁻⁸, so [OH⁻] ≈ 5.5 × 10⁻⁸ mol/dm³.\nResult: [OH⁻] ≈ 5.5 × 10⁻⁸ mol/dm³.\nClassic slip: 1.0 × 10⁻⁷ recycles the 25 °C concentration although Kw has dropped; 3.0 × 10⁻¹⁵ mistakes the ionic product itself for a concentration."
   },
   {
    "n": 34,
    "derived": "A",
-   "text": "Step 1: initial [H⁺] = 0.10 mol/dm³, pH 1.0. Step 2: the amount of HCl (1.0 × 10⁻³ mol) is unchanged, but the volume grows a hundredfold to 1.0 dm³, so [H⁺] = 1.0 × 10⁻³ mol/dm³ and pH 3.0. The pH rises by exactly 2 units. Dilution is not neutralisation: a 10⁻³ mol/dm³ strong acid still has pH 3, not 7."
+   "text": "Given: 10 cm³ = 0.010 dm³ of 0.10 mol/dm³ HCl, fully ionised, diluted to a final volume of 1.0 dm³.\nRelationship: the mole count of H⁺ is fixed by the stock; new [H⁺] = moles ÷ new volume; pH = −log[H⁺].\nSubstitute: moles of H⁺ = 0.010 dm³ × 0.10 mol/dm³ = 1.0 × 10⁻³ mol.\nStep 1: before dilution, [H⁺] = 0.10 mol/dm³, pH 1.0.\nStep 2: after dilution, [H⁺] = 1.0 × 10⁻³ mol ÷ 1.0 dm³ = 1.0 × 10⁻³ mol/dm³.\nStep 3: pH = −log(1.0 × 10⁻³) = 3.0.\nResult: the pH rises by 3.0 − 1.0 = 2 units.\nClassic slip: expecting pH 7 treats dilution as neutralisation; a hundredfold dilution only cuts [H⁺] a hundredfold, and 10⁻³ mol/dm³ of strong acid still has pH 3."
   },
   {
    "n": 35,
    "derived": "D",
-   "text": "Step 1: pH 4.0 requires [H⁺] = 1.0 × 10⁻⁴ mol/dm³, and the stock supplies 1.0 × 10⁻² mol/dm³, so a hundredfold dilution is needed. Step 2: final volume = 20 × 100 = 2000 cm³. Step 3: water to add = 2000 − 20 = 1980 cm³. The 2000 cm³ answer forgets that the 20 cm³ of stock already occupies part of the final volume."
+   "text": "Given: 20 cm³ = 0.020 dm³ of 1.0 × 10⁻² mol/dm³ HCl; target pH 4.0 means target [H⁺] = 1.0 × 10⁻⁴ mol/dm³.\nRelationship: moles of H⁺ are conserved, so final volume = moles ÷ target concentration; water added = final volume − stock volume.\nSubstitute: moles of H⁺ = 0.020 dm³ × 1.0 × 10⁻² mol/dm³ = 2.0 × 10⁻⁴ mol.\nStep 1: final volume = 2.0 × 10⁻⁴ mol ÷ 1.0 × 10⁻⁴ mol/dm³ = 2.0 dm³ = 2000 cm³.\nStep 2: water to add = 2000 − 20 = 1980 cm³.\nResult: 1980 cm³ of water.\nClassic slip: 2000 cm³ quotes the total final volume and forgets that the 20 cm³ of stock already occupies part of it."
   },
   {
    "n": 36,
    "derived": "E",
-   "text": "A buffer requires comparable amounts of a weak acid and its conjugate base. Mixing 100 cm³ of 0.10 mol/dm³ ethanoic acid with 50 cm³ of 0.10 mol/dm³ NaOH neutralises exactly half the acid, leaving 0.005 mol of CH₃COOH and 0.005 mol of CH₃COO⁻ side by side in solution. Exact neutralisation leaves only sodium ethanoate with no acid reserve, either strong-acid mixture leaves excess HCl or mere spectator ions, and a weak acid alone carries essentially no conjugate base to absorb added acid."
+   "text": "Given: 100 cm³ = 0.100 dm³ of 0.10 mol/dm³ ethanoic acid (weak) mixed with 50 cm³ = 0.050 dm³ of 0.10 mol/dm³ NaOH (strong).\nRelationship: a buffer needs comparable amounts of a weak acid and its conjugate base; moles = volume × concentration, and OH⁻ neutralises the acid 1:1.\nSubstitute: n(acid) = 0.100 dm³ × 0.10 mol/dm³ = 0.010 mol; n(OH⁻) = 0.050 dm³ × 0.10 mol/dm³ = 0.0050 mol.\nStep 1: CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O consumes 0.0050 mol of the acid.\nStep 2: acid remaining = 0.010 − 0.0050 = 0.0050 mol; ethanoate formed = 0.0050 mol.\nResult: 0.0050 mol of CH₃COOH and 0.0050 mol of CH₃COO⁻ now sit side by side, the half-neutralised weak acid mixture that buffers.\nClassic slip: full neutralisation (equal volumes of the acid and the alkali) consumes every mole of acid, leaving only sodium ethanoate with no reserve to absorb added alkali; a weak acid alone carries essentially no conjugate base."
   },
   {
    "n": 37,
@@ -194,57 +194,57 @@
   {
    "n": 39,
    "derived": "C",
-   "text": "Step 1: n(glucose) = 9.0 ÷ 180 = 0.050 mol. Step 2: the bag volume is 500 cm³ = 0.500 dm³. Step 3: c = 0.050 ÷ 0.500 = 0.10 mol/dm³. This agrees with the label, since 1.8 g per 100 cm³ gives 9.0 g in 500 cm³, and the 0.050 mol/dm³ answer stops at the mole count without dividing by the bag's volume."
+   "text": "Given: 9.0 g of glucose (M = 180 g/mol) in 500 cm³ = 0.500 dm³ of solution; label 1.8 % w/v means 1.8 g per 100 cm³.\nRelationship: c = n ÷ V, with n = mass ÷ molar mass.\nSubstitute: n = 9.0 g ÷ 180 g/mol = 0.050 mol.\nStep 1: c = 0.050 mol ÷ 0.500 dm³ = 0.10 mol/dm³.\nStep 2: label cross-check: 1.8 g per 100 cm³ scales to 9.0 g per 500 cm³, consistent with the stem.\nResult: 0.10 mol/dm³.\nClassic slip: 0.050 mol/dm³ reports the mole count itself as a concentration and skips the division by the bag's volume."
   },
   {
    "n": 40,
    "derived": "A",
-   "text": "Step 1: molar solubility = 1.85 ÷ 74 = 0.025 mol/dm³. Step 2: full dissociation gives [OH⁻] = 2 × 0.025 = 0.050 mol/dm³. Step 3: pOH = 2 − log 5 = 1.30, so pH = 14 − 1.30 = 12.70. The 0.050 mol/dm³ figure reports the hydroxide concentration as the salt's solubility, and the calcium ion works out at 0.025 × 40 = 1.0 g/dm³ = 1000 ppm, not 1850 ppm."
+   "text": "Given: solubility 1.85 g of Ca(OH)₂ per dm³ (M = 74 g/mol); fully dissociated; Kw = 1.0 × 10⁻¹⁴ at 25 °C; 1 ppm = 1 mg per dm³.\nRelationship: molar solubility = mass ÷ M; Ca(OH)₂ → Ca²⁺ + 2OH⁻ so [OH⁻] = 2 × solubility; pOH = −log[OH⁻]; pH = 14 − pOH.\nSubstitute: s = 1.85 g ÷ 74 g/mol = 0.025 mol/dm³.\nStep 1: [OH⁻] = 2 × 0.025 = 0.050 mol/dm³.\nStep 2: pOH = −log(5.0 × 10⁻²) = 2 − 0.70 = 1.30.\nStep 3: pH = 14.00 − 1.30 = 12.70.\nResult: solubility 0.025 mol/dm³ with pH 12.70.\nClassic slip: 0.050 mol/dm³ reports the hydroxide concentration as the salt's solubility; the 1850 ppm claim also fails, since Ca²⁺ amounts to 0.025 mol × 40 g/mol = 1.0 g/dm³ = 1000 ppm."
   },
   {
    "n": 41,
    "derived": "B",
-   "text": "Summing oxidation numbers over the neutral molecule HCHO: each H counts +1 toward carbon and O counts −2, so C + 2(+1) + (−2) = 0, giving the aldehyde carbon an oxidation number of 0. For contrast, carbon sits at +2 in carbon monoxide and at +4 in carbon dioxide, so neither of those values belongs to an aldehyde carbon."
+   "text": "Given: methanal, HCHO, a neutral molecule; H counts +1 and O counts −2 in compounds.\nRelationship: oxidation numbers sum to zero over a neutral molecule: n(C) + 2 × n(H) + n(O) = 0.\nSubstitute: n(C) + 2(+1) + (−2) = 0.\nStep 1: n(C) + 2 − 2 = 0.\nStep 2: n(C) + 0 = 0.\nResult: the carbon sits at oxidation number 0.\nClassic slip: +2 appears when the two +1 hydrogens are left out of the sum, leaving the carbon to balance the oxygen alone; +2 actually belongs to the carbon in CO, and +4 to CO₂."
   },
   {
    "n": 42,
    "derived": "D",
-   "text": "The ion's charge fixes only the sum: 2S + 3(−2) = −2 gives an average of +2 for the two sulfur atoms. Structurally, the S-S bond contributes nothing because identical atoms share the bonding electrons equally, so the central sulfur bonded to three oxygens counts +5 and the terminal sulfur counts −1, and these sum to the required total of +4 for the two sulfurs. The numbers are fully assignable; a bond between identical atoms is ignored in the count, not undefined."
+   "text": "Given: thiosulfate ion S₂O₃²⁻; central S bonded to three O atoms and to one terminal S; O is −2; the oxidation numbers must sum to the ion charge, −2.\nRelationship: n(central) + n(terminal) + 3(−2) = −2; a bond between identical atoms counts 0 because the bonding electrons are shared equally.\nSubstitute: n(central) + n(terminal) − 6 = −2.\nStep 1: n(central) + n(terminal) = +4.\nStep 2: average per sulfur = +4 ÷ 2 = +2.\nStep 3: split by structure: with the S-S bond ignored, the central sulfur facing the three oxygens takes +5, and the terminal sulfur takes −1.\nStep 4: check: +5 + (−1) + 3(−2) = +5 − 1 − 6 = −2 ✓.\nResult: average +2, central +5, terminal −1.\nClassic slip: +4 for the average copies the sulfate value; swapping a sulfur for an oxygen lowers the total the two sulfurs must carry, and an identical-atom bond is ignored in the count, not undefined."
   },
   {
    "n": 43,
    "derived": "A",
-   "text": "In SO₄²⁻, S + 4(−2) = −2 gives S = +6; in NO₂⁻, N + 2(−2) = −1 gives N = +3. The +4 value for sulfur belongs to sulfite, SO₃²⁻, and +5 for nitrogen belongs to nitrate, NO₃⁻, so any statement using those numbers describes the wrong oxoanion."
+   "text": "Given: sulfate SO₄²⁻ and nitrite NO₂⁻; O is −2; each sum must equal that ion's charge.\nRelationship: n(X) + (number of O) × (−2) = ion charge; solve for n(X).\nStep 1: sulfate: n(S) + 4(−2) = −2, so n(S) = −2 + 8 = +6.\nStep 2: nitrite: n(N) + 2(−2) = −1, so n(N) = −1 + 4 = +3.\nResult: sulfur is +6 in SO₄²⁻ and nitrogen is +3 in NO₂⁻.\nClassic slip: +4 for sulfur belongs to sulfite, SO₃²⁻, one oxygen fewer, and +5 for nitrogen belongs to nitrate, NO₃⁻, one oxygen more; swapping the oxoanions swaps the numbers."
   },
   {
    "n": 44,
    "derived": "E",
-   "text": "In ethanol, the CH₂OH carbon carries two C-H bonds (each counts −1 for carbon) and one C-O bond (+1), giving an oxidation number of −1. In ethanal, the same carbon carries one C-H (−1) and a C=O double bond (+2), giving +1. The rise from −1 to +1 is a loss of two electrons, so ethanol is oxidised. The claim that the carbon falls from +1 to −1 reverses the direction and would describe reduction, and the average over both carbons also moves, from −2 to −1, so no unchanged-average reading survives."
+   "text": "Given: ethanol CH₃CH₂OH oxidised to ethanal CH₃CHO; bond contributions to a carbon's oxidation number: C-H −1, C-O +1, C=O +2, C-C 0.\nRelationship: the carbon's oxidation number = sum of the contributions of its bonds.\nStep 1: ethanol, the CH₂OH carbon: 2(C-H) + 1(C-O) + 1(C-C) = 2(−1) + (+1) + 0 = −1.\nStep 2: ethanal, the CHO carbon: 1(C-H) + 1(C=O) + 1(C-C) = (−1) + (+2) + 0 = +1.\nStep 3: change = +1 − (−1) = +2, a loss of 2 electrons.\nResult: the carbon rises from −1 to +1, so ethanol is oxidised.\nClassic slip: reading the change backwards (from +1 to −1) describes reduction; the CH₃ carbon stays at −3 and is a spectator, so any claim that both carbons rise is a miscount."
   },
   {
    "n": 45,
    "derived": "B",
-   "text": "Tin rises from +2 in SnCl₂ to +4 in SnCl₄, so it is oxidised and SnCl₂ is the reducing agent. Iron falls from +3 in FeCl₃ to +2 in FeCl₂, so Fe³⁺ gains electrons, and the species that is reduced is by definition the oxidising agent, which is FeCl₃. Chloride stays at −1 throughout and is a spectator, and an oxidation product such as SnCl₄ cannot itself be the oxidising agent."
+   "text": "Given: 2FeCl₃ + SnCl₂ → 2FeCl₂ + SnCl₄; Cl stays −1 throughout.\nRelationship: the species that is reduced (gains electrons, oxidation number falls) is by definition the oxidising agent.\nStep 1: Sn goes from +2 in SnCl₂ to +4 in SnCl₄, a rise of 2, so tin is oxidised and SnCl₂ is the reducing agent.\nStep 2: Fe goes from +3 in FeCl₃ to +2 in FeCl₂, a fall of 1 per iron, so Fe³⁺ gains electrons and is reduced.\nResult: FeCl₃ is reduced, so FeCl₃ is the oxidising agent.\nClassic slip: naming the oxidation product as the agent reverses the rule; the species being reduced is the one doing the oxidising."
   },
   {
    "n": 46,
    "derived": "C",
-   "text": "Manganese falls from +4 in MnO₂ to +2 in MnCl₂, so MnO₂ is reduced and therefore acts as the oxidising agent, while chloride rises from −1 in HCl to 0 in Cl₂ and is oxidised, making the chloride ion the reducing agent. Calling MnO₂ the reducing agent reverses the rule that the reduced species is the oxidising one, and redox concerns electron transfer, so the absence of transferred oxygen does not mean no oxidation occurs."
+   "text": "Given: MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O; O is −2 and H is +1.\nRelationship: the reduced species is the oxidising agent; the oxidised species is the reducing agent.\nStep 1: Mn goes from +4 in MnO₂ to +2 in MnCl₂, a fall of 2, so MnO₂ is reduced.\nStep 2: Cl goes from −1 in HCl to 0 in Cl₂, a rise of 1 per chlorine, so Cl⁻ is oxidised.\nResult: MnO₂ is the oxidising agent and the chloride ion is the reducing agent.\nClassic slip: no oxygen transferred, so no oxidation, misreads redox as oxygen transfer; the electron bookkeeping shows two chloride ions losing electrons while oxygen never moves."
   },
   {
    "n": 47,
    "derived": "A",
-   "text": "Chlorine starts at oxidation number 0 and finishes in two states, −1 in NaCl (reduced) and +1 in NaClO (oxidised), so chlorine is both oxidised and reduced: a disproportionation. Oxygen remains at −2 in OH⁻, ClO⁻ and H₂O throughout, and the hydroxide ion changes no oxidation state, so it is neither agent. Note also that gaining electrons is reduction, so any claim that a species is oxidised because it gains electrons contradicts itself."
+   "text": "Given: Cl₂ + 2NaOH → NaCl + NaClO + H₂O; chlorine starts at oxidation number 0 in Cl₂; O is −2 and H is +1.\nRelationship: assign chlorine's oxidation number in each product and compare it with 0.\nStep 1: in NaCl, n(Cl) = −1: a fall of 1, so this chlorine is reduced.\nStep 2: in NaClO, n(Cl) + (−2) = −1, so n(Cl) = +1: a rise of 1, so this chlorine is oxidised.\nStep 3: oxygen sits at −2 in OH⁻, ClO⁻ and H₂O throughout, and hydrogen stays +1; nothing else changes.\nResult: chlorine is both oxidised and reduced (a disproportionation) while oxygen keeps −2.\nClassic slip: charging the hydroxide ion with reducing or oxidising fails because no atom inside it changes oxidation number; one chlorine molecule does both jobs."
   },
   {
    "n": 48,
    "derived": "B",
-   "text": "Sulfur rises from +4 in SO₃²⁻ to +6 in SO₄²⁻, a loss of two electrons, so the balanced half-equation in acid is SO₃²⁻ + H₂O → SO₄²⁻ + 2H⁺ + 2e⁻, and the charge check agrees: −2 on the left, and −2 + 2 − 2 = −2 on the right. The electron count follows the two-unit change of the sulfur, not the number of oxygen atoms involved."
+   "text": "Given: SO₃²⁻ oxidised to SO₄²⁻ in acidic solution; O is −2; sulfur is the only element that changes.\nRelationship: electrons released = rise in sulfur's oxidation number; balance O with H₂O and H with H⁺.\nStep 1: n(S) in SO₃²⁻: n + 3(−2) = −2, so n(S) = +4.\nStep 2: n(S) in SO₄²⁻: n + 4(−2) = −2, so n(S) = +6.\nStep 3: rise = 6 − 4 = 2, so 2 electrons appear on the right.\nResult: SO₃²⁻ + H₂O → SO₄²⁻ + 2H⁺ + 2e⁻, so 2 electrons; charge check: −2 on the left, and −2 + 2 − 2 = −2 on the right ✓.\nClassic slip: 3 or 4 electrons track the oxygen atom gained instead of the two-unit climb of sulfur from +4 to +6."
   },
   {
    "n": 49,
    "derived": "D",
-   "text": "Step 1: manganese falls from +7 in MnO₄⁻ to +2 in Mn²⁺, so each permanganate ion gains 5 electrons. Step 2: each Fe²⁺ loses 1 electron to become Fe³⁺, so five Fe²⁺ ions are required, giving MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 4H₂O + 5Fe³⁺, with charge and atoms balanced. The 7-electron answer wrongly counts down to oxidation number 0, the metallic state."
+   "text": "Given: MnO₄⁻ → Mn²⁺ and Fe²⁺ → Fe³⁺ in acidic solution; O is −2.\nRelationship: electrons gained per MnO₄⁻ = fall of manganese's oxidation number; the Fe²⁺ coefficient equals that count, since each Fe²⁺ supplies 1 electron.\nStep 1: n(Mn) in MnO₄⁻: n + 4(−2) = −1, so n(Mn) = +7.\nStep 2: manganese falls from +7 to +2, a fall of 5, so each MnO₄⁻ gains 5 electrons.\nStep 3: each Fe²⁺ → Fe³⁺ loses 1 electron, so 5 Fe²⁺ are needed.\nResult: 5 electrons per MnO₄⁻ and coefficient 5 on Fe²⁺, giving MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 4H₂O + 5Fe³⁺ (charge +17 on both sides ✓).\nClassic slip: 7 electrons counts manganese all the way down to 0, the metallic atom, instead of stopping at the +2 ion the products actually show."
   },
   {
    "n": 50,
@@ -289,7 +289,7 @@
   {
    "n": 58,
    "derived": "C",
-   "text": "Step 1: bonds broken cost 436 (H-H) + 242 (Cl-Cl) = 678 kJ/mol. Step 2: bonds formed release 2 × 431 = 862 kJ/mol. Step 3: ΔH = 678 − 862 = −184 kJ/mol, negative because stronger bonds form than break. Reversing the subtraction produces +184, and the 247 magnitudes forget that two H-Cl bonds form per equation as written."
+   "text": "Given: average bond energies H-H 436 kJ/mol, Cl-Cl 242 kJ/mol, H-Cl 431 kJ/mol; H₂ + Cl₂ → 2HCl.\nRelationship: ΔH = (energy to break bonds) − (energy released forming bonds) = Σ broken − Σ formed.\nSubstitute: Σ broken = 436 + 242; Σ formed = 2 × 431.\nStep 1: Σ broken = 436 + 242 = 678 kJ/mol.\nStep 2: Σ formed = 2 × 431 = 862 kJ/mol.\nStep 3: ΔH = 678 − 862 = −184 kJ/mol.\nResult: ΔH ≈ −184 kJ/mol, exothermic because the bonds formed are stronger in total than those broken.\nClassic slip: +184 reverses the subtraction (formed minus broken); answers built from a single H-Cl bond forget that two of them form per equation as written."
   },
   {
    "n": 59,
@@ -304,12 +304,12 @@
   {
    "n": 61,
    "derived": "B",
-   "text": "Twelve hours contains 12 ÷ 4 = 3 half-lives, and each first-order half-life halves whatever amount is present: D → D/2 → D/4 → D/8. One eighth of the dose remains. Dividing one half by three to get 1/6 treats the decay as linear when it is exponential."
+   "text": "Given: first-order elimination with half-life 4 hours; initial dose D; elapsed time 12 hours.\nRelationship: after each half-life the remaining amount halves; number of half-lives = elapsed time ÷ half-life.\nSubstitute: number of half-lives = 12 h ÷ 4 h.\nStep 1: number of half-lives = 3.\nStep 2: D → D/2 (4 h) → D/4 (8 h) → D/8 (12 h), i.e. (1/2)³ = 1/8.\nResult: 1/8 of D remains.\nClassic slip: 1/6 divides one half by three, treating decay as a straight line; each half-life removes half of what remains, not a fixed slice of the original dose."
   },
   {
    "n": 62,
    "derived": "A",
-   "text": "Step 1: doubling [A] doubling the rate fixes A's exponent at 1, and doubling [B] quadrupling the rate fixes B's exponent at 2, so rate = k[A][B]² and the overall order is 1 + 2 = 3. Step 2: k = rate ÷ ([A][B]²), so the units are (mol/(dm³·s)) ÷ (mol/dm³)³ = dm⁶/(mol²·s). The dm³/(mol·s) units belong to a second-order constant and cannot serve an overall third-order rate law."
+   "text": "Given: doubling [A] at fixed [B] doubles the rate; doubling [B] at fixed [A] quadruples the rate; rate is measured in mol/(dm³·s).\nRelationship: rate = k[A]ᵃ[B]ᵇ; the factor by which a concentration multiplies the rate gives the exponent; units of k = rate units ÷ concentration^(overall order).\nStep 1: doubling [A] doubles the rate, so a = 1.\nStep 2: doubling [B] quadruples the rate, and 2ᵇ = 4, so b = 2.\nStep 3: overall order = 1 + 2 = 3, so rate = k[A][B]².\nStep 4: units of k = (mol/(dm³·s)) ÷ (mol/dm³)³ = (mol/(dm³·s)) × (dm⁹/mol³) = dm⁶/(mol²·s).\nResult: rate = k[A][B]², overall order three, k in dm⁶/(mol²·s).\nClassic slip: dm³/(mol·s) belongs to a second-order constant; a third-order law divides the rate by concentration cubed, not squared."
   },
   {
    "n": 63,
@@ -332,6 +332,8 @@
   "Q27: the stored explanation refers to a 475 cm³ distractor, but no such option exists in the bank (475 cm³ would be the volume of water added; the closest printed option is 450 cm³). The stored answer key itself is correct.",
   "Q41: the stored explanation says the +2 oxidation state belongs to the carboxyl carbon of a carboxylic acid; a carboxyl carbon is in fact +3 (C=O gives +2, C-OH gives +1). Carbon at +2 occurs in carbon monoxide. The stored answer key itself is correct.",
   "Q39: the stem data (9.0 g in 500 cm³) is internally consistent with the 1.8 % w/v label; both routes give 0.10 mol/dm³.",
-  "All 65 derived answers matched the stored answer keys; no disagreements."
+  "All 65 derived answers matched the stored answer keys; no disagreements.",
+  "Worked-format rewrite applied to the 36 quantitative and arithmetic-chain items (n = 14-31, 33-36, 39-49, 58, 61, 62); the 29 qualitative and recall items (n = 1-13, 32, 37, 38, 50-57, 59, 60, 63-65) keep their original text unchanged.",
+  "All 65 stored answer keys were re-derived from the stems before rewriting and all matched; no disagreements."
  ]
 }

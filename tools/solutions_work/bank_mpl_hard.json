@@ -4,482 +4,482 @@
   {
    "n": 1,
    "derived": "C",
-   "text": "log₁₀ 7.5 = log₁₀(15 ÷ 2) = log₁₀ 3 + log₁₀ 5 − log₁₀ 2. Since log₁₀ 5 = 1 − log₁₀ 2 = 0.70, the value is 0.48 + 0.70 − 0.30 = 0.88. The answer 1.88 is log₁₀ 75, forgetting the division by 10, and 1.18 is log₁₀ 15, forgetting the division by 2."
+   "text": "Given: log₁₀ 2 ≈ 0.30 and log₁₀ 3 ≈ 0.48.\nSplit the argument: 7.5 = 15 ÷ 2, so log₁₀ 7.5 = log₁₀ 3 + log₁₀ 5 − log₁₀ 2.\nComplement rule: log₁₀ 5 = log₁₀ 10 − log₁₀ 2 = 1 − 0.30 = 0.70.\nSubstitute: log₁₀ 7.5 = 0.48 + 0.70 − 0.30.\nAdd: 0.48 + 0.70 = 1.18.\nSubtract: 1.18 − 0.30 = 0.88.\nResult: log₁₀ 7.5 = 0.88.\nClassic slip: 1.18 is log₁₀ 15, the value reached by forgetting the division by 2."
   },
   {
    "n": 2,
    "derived": "B",
-   "text": "Combine the logarithms: log₃((x + 1)(x − 1)) = log₃(x² − 1) = 1, so x² − 1 = 3 and x = ±2. The arguments require x > 1, so the negative root is rejected and x = 2 is the only solution. The pair x = ±2 keeps the rejected root, for which log₃(x − 1) is not defined."
+   "text": "Given: log₃(x + 1) + log₃(x − 1) = 1.\nProduct rule: log₃((x + 1)(x − 1)) = log₃(x² − 1), so log₃(x² − 1) = 1.\nExponent form: x² − 1 = 3.\nAdd 1: x² = 4, so x = +2 or x = −2.\nDomain: both arguments need x > 1, so x = −2 makes log₃(x − 1) undefined and is rejected.\nResult: x = 2 only.\nClassic slip: keeping x = ±2 ignores the domain check at x = −2."
   },
   {
    "n": 3,
    "derived": "C",
-   "text": "Write both arguments as powers of 2: 8 = 2³ and 32 = 2⁵. By change of base, log₈ 32 = log 32 ÷ log 8 = 5 log 2 ÷ (3 log 2) = 5/3. The value 3/2 inverts the ratio, and 2 would solve 8² = 64 rather than 8^x = 32."
+   "text": "Given: log₈ 32.\nChange of base: log₈ 32 = log₂ 32 ÷ log₂ 8.\nPowers of 2: 32 = 2⁵ so log₂ 32 = 5, and 8 = 2³ so log₂ 8 = 3.\nSubstitute: log₈ 32 = 5 ÷ 3.\nResult: 5/3.\nClassic slip: 3/2 inverts the ratio by dividing log₂ 8 by log₂ 32."
   },
   {
    "n": 4,
    "derived": "C",
-   "text": "Change the base: log₄ x = (1/2) log₂ x, so the equation reads (3/2) log₂ x = 6, hence log₂ x = 4 and x = 16. Check: log₂ 16 + log₄ 16 = 4 + 2 = 6. The answer 64 solves log₂ x = 6 alone and drops the second term."
+   "text": "Given: log₂ x + log₄ x = 6.\nBase relation: log₄ x = log₂ x ÷ log₂ 4 = (1/2) log₂ x, so the equation reads log₂ x + (1/2) log₂ x = 6.\nCombine like terms: (3/2) log₂ x = 6.\nSolve: log₂ x = 6 × 2 ÷ 3 = 4.\nExponent form: x = 2⁴ = 16.\nCheck: log₂ 16 + log₄ 16 = 4 + 2 = 6.\nResult: x = 16.\nClassic slip: 64 solves log₂ x = 6 alone and drops the log₄ term."
   },
   {
    "n": 5,
    "derived": "B",
-   "text": "The roots −2, 1 and 4 split the number line into four intervals. Testing one point in each: for x < −2 the product is negative, for −2 < x < 1 it is positive, for 1 < x < 4 it is negative, and for x > 4 it is positive. The solution is therefore −2 < x < 1 or x > 4. The pattern x < −2 or x > 4 tracks only the outer factors and ignores the middle root at x = 1."
+   "text": "Given: (x − 1)(x + 2)(x − 4) > 0 with roots −2, 1, 4; test one point per interval.\nx = −3 (below −2): (−4)(−1)(−7) = −28, negative, fails.\nx = 0 (between −2 and 1): (−1)(2)(−4) = 8, positive, holds.\nx = 2 (between 1 and 4): (1)(4)(−2) = −8, negative, fails.\nx = 5 (above 4): (4)(7)(1) = 28, positive, holds.\nResult: −2 < x < 1 or x > 4.\nClassic slip: x < −2 or x > 4 tracks only the outer factors and ignores the middle root at x = 1."
   },
   {
    "n": 6,
    "derived": "D",
-   "text": "The fraction equals zero at x = 3, which is allowed by the ≤ sign, and is undefined at x = −2, which must be excluded. It is negative exactly between those values, where numerator and denominator have opposite signs. The solution is −2 < x ≤ 3. The answer x ≤ 3 ignores the sign change at x = −2, on both sides of which the fraction is positive."
+   "text": "Given: (x − 3)/(x + 2) ≤ 0.\nCritical points: the fraction is 0 at x = 3 and undefined at x = −2.\nTest x = 0, between them: (0 − 3)/(0 + 2) = −3/2, negative, holds.\nTest x = −3: (−5)/(−1) = 5, positive, fails; test x = 4: 1/6, positive, fails.\nSo the fraction is negative exactly for −2 < x < 3; x = 3 joins through the ≤ zero, and x = −2 is excluded as undefined.\nResult: −2 < x ≤ 3.\nClassic slip: x ≤ 3 ignores the sign flip at x = −2, where the fraction is positive on both sides."
   },
   {
    "n": 7,
    "derived": "A",
-   "text": "|2x − 5| < 7 means −7 < 2x − 5 < 7. Adding 5 gives −2 < 2x < 12, so −1 < x < 6. The answer 1 < x < 6 keeps only the branch 2x − 5 < 7 and drops the branch 2x − 5 > −7."
+   "text": "Given: |2x − 5| < 7.\nAbsolute value rule: −7 < 2x − 5 < 7.\nAdd 5 to all three parts: −7 + 5 = −2 and 7 + 5 = 12, so −2 < 2x < 12.\nDivide by 2: −1 < x < 6.\nResult: −1 < x < 6.\nClassic slip: 1 < x < 6 keeps only the branch 2x − 5 < 7 and drops the branch 2x − 5 > −7."
   },
   {
    "n": 8,
    "derived": "E",
-   "text": "Rearranging: x² − x < 0, that is x(x − 1) < 0, which holds between the roots: 0 < x < 1. The answer x < 1 comes from dividing by x without separating cases: for every x < 0 the left side is positive and the right side negative, so the inequality fails there."
+   "text": "Given: x² < x.\nRearrange: x² − x < 0, that is x(x − 1) < 0.\nRoots: x = 0 and x = 1; a product of two factors is negative exactly when the factors have opposite signs.\nTest x = 1/2: (1/2) × (−1/2) = −1/4, negative, holds; for x < 0 both factors are negative and the product is positive, failing.\nResult: 0 < x < 1.\nClassic slip: dividing by x to reach x < 1 assumes x is positive, but every negative x makes the left side positive and the right side negative."
   },
   {
    "n": 9,
    "derived": "B",
-   "text": "Match the perfect square pattern a² + 2ab + b²: 7 + 4√3 = 2² + 2 × 2 × √3 + (√3)² = (2 + √3)², and since 2 + √3 > 0 the square root is 2 + √3. As a check, (1 + √6)² = 7 + 2√6, whose radical term does not match 4√3."
+   "text": "Given: √(7 + 4√3).\nSquare pattern: a² + 2ab + b² needs a² + b² = 7 and 2ab = 4√3.\nTry a = 2, b = √3: a² = 4, b² = 3, 2ab = 2 × 2 × √3 = 4√3.\nSum: 4 + 4√3 + 3 = 7 + 4√3, matching the radicand exactly.\nSo 7 + 4√3 = (2 + √3)², and since 2 + √3 > 0 the square root is 2 + √3.\nResult: 2 + √3.\nClassic slip: 1 + √6 squares to 7 + 2√6, whose radical term does not match 4√3."
   },
   {
    "n": 10,
    "derived": "B",
-   "text": "Take the root first, then the power: 27^(2/3) = (³√27)² = 3² = 9, and 16^(3/4) = (⁴√16)³ = 2³ = 8, so the sum is 17. The answer 30 multiplies base by exponent instead: 27 × 2/3 + 16 × 3/4 = 18 + 12."
+   "text": "Given: 27^(2/3) + 16^(3/4).\nRule: x^(m/n) = (ⁿ√x)^m, take the root first, then the power.\n27^(2/3): ³√27 = 3, then 3² = 9.\n16^(3/4): ⁴√16 = 2, then 2³ = 8.\nAdd: 9 + 8 = 17.\nResult: 17.\nClassic slip: 30 multiplies base by exponent instead, 27 × 2/3 + 16 × 3/4 = 18 + 12."
   },
   {
    "n": 11,
    "derived": "C",
-   "text": "Factorise: 60 = 4 × 3 × 5. With 2^a = 3 and 2^b = 5, this becomes 2² × 2^a × 2^b = 2^(a + b + 2). The expression 2^(ab) multiplies the exponents, which is the rule for (2^a)^b, not for a product of powers."
+   "text": "Given: 2^a = 3 and 2^b = 5.\nPrime split: 60 = 4 × 3 × 5.\nReplace 3 and 5: 60 = 2² × 2^a × 2^b.\nProduct rule, exponents add: 2^(2 + a + b).\nResult: 2^(a + b + 2).\nClassic slip: 2^(ab) multiplies the exponents, which is the rule for (2^a)^b, not for a product of powers."
   },
   {
    "n": 12,
    "derived": "D",
-   "text": "Let a be adult and c child tickets: a + c = 180 and 12a + 7c = 1730. Substituting c = 180 − a gives 12a + 7(180 − a) = 1730, so 5a = 470 and a = 94. Check: 94 × 12 + 86 × 7 = 1128 + 602 = 1730. The value 86 is the number of child tickets."
+   "text": "Given: a + c = 180 and 12a + 7c = 1730 euro, with a adult and c child tickets.\nSubstitute c = 180 − a: 12a + 7(180 − a) = 1730.\nExpand: 12a + 1260 − 7a = 1730, so 5a = 1730 − 1260 = 470.\nDivide: a = 470 ÷ 5 = 94.\nCheck: 94 × 12 + 86 × 7 = 1128 + 602 = 1730.\nResult: 94 adult tickets.\nClassic slip: 86 is the number of child tickets, from stopping at c instead of a."
   },
   {
    "n": 13,
    "derived": "C",
-   "text": "Adding the two conditions eliminates the smaller number: 45 + 13 = 58 is twice the larger number, so the larger is 29 and the smaller 16. The value 16 is the smaller number itself, and 32 = 45 − 13 is twice the smaller number."
+   "text": "Given: x + y = 45 and x − y = 13, with x the larger number.\nAdd the equations: (x + y) + (x − y) = 2x = 45 + 13 = 58.\nDivide: x = 58 ÷ 2 = 29.\nThen y = 45 − 29 = 16, and the check 29 − 16 = 13 holds.\nResult: the larger number is 29.\nClassic slip: 32 = 45 − 13 is twice the smaller number, from subtracting the equations instead of adding."
   },
   {
    "n": 14,
    "derived": "B",
-   "text": "Let y be the volume of the 50% solution. Salt balance: 0.20(6 − y) + 0.50y = 0.30 × 6 = 1.8, so 1.2 + 0.3y = 1.8 and y = 2 dm³. The value 4 dm³ is the volume of the 20% solution used."
+   "text": "Given: 6 dm³ of 30% saline mixed from a 20% and a 50% solution; let y dm³ be the 50% part.\nSalt balance: 0.20(6 − y) + 0.50y = 0.30 × 6.\nCompute the target salt: 0.30 × 6 = 1.8, and expand 0.20(6 − y) = 1.2 − 0.2y.\nSo 1.2 − 0.2y + 0.5y = 1.8, that is 1.2 + 0.3y = 1.8, so 0.3y = 0.6.\nDivide: y = 0.6 ÷ 0.3 = 2 dm³, and the 20% part is then 4 dm³.\nResult: 2 dm³ of the 50% solution.\nClassic slip: 4 dm³ is the volume of the 20% solution."
   },
   {
    "n": 15,
    "derived": "C",
-   "text": "Step 1: f(3) = (3 + 1)/(3 − 1) = 4/2 = 2. Step 2: f(2) = (2 + 1)/(2 − 1) = 3. So f(f(3)) = 3 (this function is its own inverse). The value 2 stops after a single application of f."
+   "text": "Given: f(x) = (x + 1)/(x − 1); find f(f(3)).\nInner step: f(3) = (3 + 1)/(3 − 1) = 4/2 = 2.\nOuter step: f(2) = (2 + 1)/(2 − 1) = 3/1 = 3.\nSo f(f(3)) = 3; this function is its own inverse.\nResult: 3.\nClassic slip: 2 stops after a single application of f."
   },
   {
    "n": 16,
    "derived": "E",
-   "text": "Set y = (2x + 1)/(x − 3) and solve for x: y(x − 3) = 2x + 1, so xy − 3y = 2x + 1, hence x(y − 2) = 3y + 1 and x = (3y + 1)/(y − 2). Therefore f⁻¹(x) = (3x + 1)/(x − 2). The expression (2x + 1)/(x − 3) is f itself, left unchanged instead of inverted."
+   "text": "Given: f(x) = (2x + 1)/(x − 3).\nSet y = (2x + 1)/(x − 3) and solve for x.\nMultiply through: y(x − 3) = 2x + 1, so xy − 3y = 2x + 1.\nCollect the x terms: xy − 2x = 3y + 1, so x(y − 2) = 3y + 1.\nDivide: x = (3y + 1)/(y − 2), hence f⁻¹(x) = (3x + 1)/(x − 2).\nCheck: f(4) = 9/1 = 9 and f⁻¹(9) = (27 + 1)/(9 − 2) = 28/7 = 4.\nResult: (3x + 1)/(x − 2).\nClassic slip: (2x + 1)/(x − 3) is f itself, left unchanged instead of inverted."
   },
   {
    "n": 17,
    "derived": "C",
-   "text": "The cone shares the cylinder's base and height, so its volume is one third of the cylinder's: (1/3)πr²h against πr²h. What remains is 1 − 1/3 = 2/3 of the volume. The fraction 1/3 is the part removed, not the part left."
+   "text": "Given: cylinder radius 6 cm, height 9 cm; conical hole with the same base and height.\nFormulas: V cylinder = πr²h and V cone = (1/3)πr²h.\nWith the same r and h the cone is exactly one third of the cylinder's volume, so the 6 and 9 cancel.\nRemaining fraction: 1 − 1/3 = 2/3.\nResult: 2/3 of the volume remains.\nClassic slip: 1/3 is the fraction drilled out, not the fraction left."
   },
   {
    "n": 18,
    "derived": "A",
-   "text": "An inscribed circle touches all four sides, so the square has side 2 × 5 = 10 cm and area 100 cm². The circle's area is 3.14 × 5² = 78.5 cm². Outside area = 100 − 78.5 = 21.5 cm². The value 121.5 cm² adds the two areas instead of subtracting them."
+   "text": "Given: circle radius 5 cm inscribed in a square, π = 3.14.\nAn inscribed circle touches all four sides, so the square side = 2 × 5 = 10 cm.\nSquare area: 10 × 10 = 100 cm².\nCircle area: 3.14 × 5² = 3.14 × 25 = 78.5 cm².\nSubtract: 100 − 78.5 = 21.5 cm².\nResult: 21.5 cm².\nClassic slip: 121.5 cm² adds the two areas instead of subtracting them."
   },
   {
    "n": 19,
    "derived": "A",
-   "text": "The height comes from the 30-60-90 half triangle: h = 12 × (√3/2) = 6√3 cm. Area = (1/2) × 12 × 6√3 = 36√3 cm². The value 72 cm² uses the side length 12 as if it were the height."
+   "text": "Given: equilateral triangle, side 12 cm.\nDrop a height: it bisects the base into 6 cm and 6 cm, giving a right triangle with hypotenuse 12 cm and short leg 6 cm.\nHeight: h = √(12² − 6²) = √(144 − 36) = √108 = 6√3 cm.\nArea: (1/2) × base × height = (1/2) × 12 × 6√3 = 6 × 6√3 = 36√3 cm².\nResult: 36√3 cm².\nClassic slip: 72 cm² uses the side length 12 as if it were the height."
   },
   {
    "n": 20,
    "derived": "D",
-   "text": "Total surface area = two ends plus curved wall = 2πr² + 2πrh = 2π × 9 + 2π × 24 = 18π + 48π = 66π cm². The value 48π cm² counts only the wall, and 57π cm² forgets one of the two ends."
+   "text": "Given: closed cylinder, radius 3 cm, height 8 cm.\nFormula: total surface = two ends + curved wall = 2πr² + 2πrh.\nEnds: 2π × 3² = 2π × 9 = 18π cm².\nWall: 2π × 3 × 8 = 2π × 24 = 48π cm².\nAdd: 18π + 48π = 66π cm².\nResult: 66π cm².\nClassic slip: 48π cm² counts only the wall, and 57π cm² forgets one of the two ends."
   },
   {
    "n": 21,
    "derived": "C",
-   "text": "Measured from 12: hour hand at 3 × 30° + 40 × 0.5° = 110°, minute hand at 40 × 6° = 240°. Angle between them: 240° − 110° = 130°. The answer 150° freezes the hour hand at exactly 3 o'clock and ignores its 20° drift during the 40 minutes."
+   "text": "Given: 3:40; hour hand 0.5° per minute, minute hand 6° per minute, angles measured from 12.\nHour hand: 3 × 30° + 40 × 0.5° = 90° + 20° = 110°.\nMinute hand: 40 × 6° = 240°.\nAngle between: 240° − 110° = 130°.\nResult: 130°.\nClassic slip: 150° freezes the hour hand at exactly 3 o'clock and ignores its 20° drift during the 40 minutes."
   },
   {
    "n": 22,
    "derived": "C",
-   "text": "Let m be minutes past 7:00. Hour hand at 210 + 0.5m, minute hand at 6m, so their separation is |5.5m − 210|. Setting 5.5m − 210 = 100 gives m = 310 ÷ 5.5 = 56 and 4/11 minutes, that is 7:56 and 4/11 (the earlier root m = 20 is the given 7:20). The time 7:52 and 8/11 answers a separation of 80° instead of 100°, and 8:00 exactly assumes the hands approach at 5° per minute instead of 5.5°."
+   "text": "Given: m minutes past 7:00; hour hand at 210° + 0.5m, minute hand at 6m, both measured from 12.\nSeparation: |6m − (210 + 0.5m)| = |5.5m − 210| degrees.\nThe first solution, 5.5m = 110, gives m = 20, the given 7:20.\nThe later solution: 5.5m − 210 = 100, so 5.5m = 310.\nDivide: m = 310 ÷ 5.5 = 56 and 4/11 minutes, since 310/5.5 = 620/11.\nResult: 7:56 and 4/11 minutes.\nClassic slip: 8:00 exactly assumes the hands close at 5° per minute instead of the true 6 − 0.5 = 5.5° per minute."
   },
   {
    "n": 23,
    "derived": "B",
-   "text": "tan 30° = √3/3 and tan 60° = √3, so the product is (√3/3) × √3 = 3/3 = 1 (complementary angles have tangents that are reciprocals). The value 1/3 uses tan 30° twice, and 3 divides the two values instead of multiplying them."
+   "text": "Given: tan 30° × tan 60°.\nValues: tan 30° = √3/3 and tan 60° = √3.\nSubstitute: (√3/3) × √3 = (√3 × √3)/3 = 3/3 = 1.\nCheck: 30° and 60° are complementary, and complementary angles have reciprocal tangents, so the product must be 1.\nResult: 1.\nClassic slip: 1/3 uses tan 30° twice, and 3 divides the two values instead of multiplying them."
   },
   {
    "n": 24,
    "derived": "B",
-   "text": "Expand: (sin θ + cos θ)² = sin²θ + 2 sin θ cos θ + cos²θ. Subtracting 2 sin θ cos θ cancels the middle term exactly, leaving sin²θ + cos²θ = 1. The expression 2 sin θ cos θ stops after the expansion and forgets the cancellation."
+   "text": "Given: (sin θ + cos θ)² − 2 sin θ cos θ.\nExpand the square: sin²θ + 2 sin θ cos θ + cos²θ.\nSubtract the middle term: the +2 sin θ cos θ and the −2 sin θ cos θ cancel exactly.\nWhat remains: sin²θ + cos²θ = 1 by the Pythagorean identity.\nResult: 1.\nClassic slip: 2 sin θ cos θ stops after the expansion and forgets the cancellation."
   },
   {
    "n": 25,
    "derived": "C",
-   "text": "sin 45° = cos 45°, so the squared term is 0. Then 2 sin 30° cos 60° = 2 × (1/2) × (1/2) = 1/2, and the total is 1/2. The answer 0 forgets the second term altogether."
+   "text": "Given: (sin 45° − cos 45°)² + 2 sin 30° cos 60°.\nValues: sin 45° = cos 45°, sin 30° = 1/2, cos 60° = 1/2.\nFirst term: (√2/2 − √2/2)² = 0² = 0.\nSecond term: 2 × (1/2) × (1/2) = 1 × (1/2) = 1/2.\nAdd: 0 + 1/2 = 1/2.\nResult: 1/2.\nClassic slip: 0 forgets the second term altogether."
   },
   {
    "n": 26,
    "derived": "C",
-   "text": "Slope = change in y over change in x = (17 − 5) ÷ (6 − 2) = 12 ÷ 4 = 3. The values 4 and 12 each use only one of the two changes, and 1/3 inverts the ratio."
+   "text": "Given: points (2, 5) and (6, 17).\nFormula: slope = change in y ÷ change in x.\nSubstitute: (17 − 5) ÷ (6 − 2).\nNumerator: 17 − 5 = 12; denominator: 6 − 2 = 4.\nDivide: 12 ÷ 4 = 3.\nResult: 3.\nClassic slip: 4 and 12 each use only one of the two changes, and 1/3 inverts the ratio."
   },
   {
    "n": 27,
    "derived": "B",
-   "text": "Between the two records she covers 3.0 − 1.8 = 1.2 km = 1200 m in 10 − 6 = 4 min = 240 s. Speed = 1200 ÷ 240 = 5 m/s. The value 18 m/s is her speed in km/h (0.3 km per minute × 60) left unconverted, and 300 m/s keeps the rate in metres per minute."
+   "text": "Given: 1.8 km from the start at 6 min, 3.0 km at 10 min, constant speed.\nBetween the records: distance 3.0 − 1.8 = 1.2 km = 1200 m; time 10 − 6 = 4 min = 240 s.\nSpeed = distance ÷ time = 1200 m ÷ 240 s.\nDivide: 1200 ÷ 240 = 5 m/s.\nResult: 5 m/s.\nClassic slip: 18 m/s is the speed in km/h (0.3 km per minute × 60) left unconverted, and 300 m/s keeps the rate in metres per minute."
   },
   {
    "n": 28,
    "derived": "B",
-   "text": "Average rate = total change ÷ total time = (160 − 40) ÷ 15 = 120 ÷ 15 = 8 L/min. The value 8.5 L/min averages the two segment rates (10 and 7 L/min) instead of dividing the total change by the total time."
+   "text": "Given: 40 L at the start, 90 L at 5 min, 160 L at 15 min.\nAverage rate = total change ÷ total time = (160 − 40) L ÷ 15 min.\nChange: 160 − 40 = 120 L.\nDivide: 120 ÷ 15 = 8 L/min.\nResult: 8 L/min.\nClassic slip: 8.5 L/min averages the two segment rates (10 L/min then 7 L/min) instead of dividing the total change by the total time."
   },
   {
    "n": 29,
    "derived": "C",
-   "text": "Counting ordered outcomes: sum 9 in 4 ways, sum 10 in 3, sum 11 in 2, sum 12 in 1, so 10 of 36. P = 10/36 = 5/18. The value 5/36 counts only the five unordered pairs and forgets that (4,6) and (6,4) are different rolls; the value 1/9 answers a sum of exactly 9."
+   "text": "Given: two fair dice, 36 ordered outcomes; want a sum of at least 9.\nCount per sum: sum 9 in 4 ways, sum 10 in 3, sum 11 in 2, sum 12 in 1.\nTotal favourable: 4 + 3 + 2 + 1 = 10.\nP = 10/36 = 5/18.\nResult: 5/18.\nClassic slip: 5/36 counts only the five unordered pairs, forgetting that (4,6) and (6,4) are different rolls, and 1/9 answers a sum of exactly 9."
   },
   {
    "n": 30,
    "derived": "D",
-   "text": "Let the first die show anything; each of the other two must then match it: P = 1 × (1/6) × (1/6) = 1/36. The value 1/216 fixes all three faces in advance, counting only one specific triple instead of all six matching triples, and 1/6 is the chance of three copies of one particular named number."
+   "text": "Given: three fair dice, 216 ordered outcomes; want all three equal.\nChain the conditions: the first die shows anything (probability 1), the second must match it (1/6), the third must match too (1/6).\nMultiply: 1 × (1/6) × (1/6) = 1/36.\nCross-check: 6 matching triples out of 216 outcomes give 6/216 = 1/36.\nResult: 1/36.\nClassic slip: 1/216 fixes all three faces in advance, counting one named triple instead of all six, and 1/6 is three copies of one particular named number."
   },
   {
    "n": 31,
    "derived": "B",
-   "text": "The favourable ordered outcomes are (2,5) and (5,2), so P = 2/36 = 1/18. The value 1/36 takes a single ordering, and 1/9 wrongly counts four outcomes by also including the doubles (2,2) and (5,5)."
+   "text": "Given: two fair dice, 36 ordered outcomes; want a 2 and a 5 in either order.\nFavourable ordered outcomes: (2,5) and (5,2), that is 2 of the 36.\nP = 2/36 = 1/18.\nResult: 1/18.\nClassic slip: 1/36 takes a single ordering, and 1/9 counts four outcomes by also including the doubles (2,2) and (5,5)."
   },
   {
    "n": 32,
    "derived": "D",
-   "text": "P(sum 7) = 6/36 and P(at least one six) = 11/36, but the rolls (1,6) and (6,1) satisfy both and are counted twice. Inclusion-exclusion gives (6 + 11 − 2)/36 = 15/36 = 5/12. The value 17/36 adds the two probabilities without subtracting the overlap."
+   "text": "Given: two fair dice, 36 ordered outcomes; event A is a sum of 7, event B is at least one six.\nP(A) = 6/36; P(B) = 11/36, since 36 outcomes minus 25 with no six.\nOverlap: A and B share (1,6) and (6,1), that is 2 outcomes.\nInclusion-exclusion: (6 + 11 − 2)/36 = 15/36.\nReduce: 15/36 = 5/12.\nResult: 5/12.\nClassic slip: 17/36 adds the two probabilities without subtracting the overlap."
   },
   {
    "n": 33,
    "derived": "D",
-   "text": "There are 2⁴ = 16 equally likely head-tail sequences, and C(4,2) = 6 of them contain exactly two heads, so P = 6/16 = 3/8. The value 1/4 counts only some of the six arrangements."
+   "text": "Given: 4 fair flips, 2⁴ = 16 equally likely head-tail sequences; want exactly two heads.\nCount the arrangements of two heads among four flips: C(4,2) = (4 × 3) ÷ (2 × 1) = 6.\nP = 6/16 = 3/8.\nResult: 3/8.\nClassic slip: 1/4 counts only a few of the six arrangements instead of all of them."
   },
   {
    "n": 34,
    "derived": "D",
-   "text": "Use the complement: P(no green) = (8/12) × (7/11) = 56/132 = 14/33, so P(at least one green) = 1 − 14/33 = 19/33. The value 16/33 answers exactly one green, and 14/33 is the complement itself."
+   "text": "Given: urn with 3 red, 4 green, 5 blue balls (12 total); draw 2 without replacement; want at least one green.\nComplement route: no green means both draws come from the 8 non-green balls.\nP(no green) = (8/12) × (7/11) = 56/132 = 14/33.\nP(at least one green) = 1 − 14/33 = 19/33.\nResult: 19/33.\nClassic slip: 16/33 answers exactly one green, and 14/33 is the complement itself."
   },
   {
    "n": 35,
    "derived": "C",
-   "text": "Exactly one pass = (pass maths and fail logic) or (fail maths and pass logic): (2/3 × 1/4) + (1/3 × 3/4) = 2/12 + 3/12 = 5/12. The value 1/2 is the probability of passing both, and 11/12 is the probability of passing at least one."
+   "text": "Given: P(maths pass) = 2/3, P(logic pass) = 3/4, independent; want exactly one pass.\nCase 1, pass maths and fail logic: (2/3) × (1/4) = 2/12.\nCase 2, fail maths and pass logic: (1/3) × (3/4) = 3/12.\nAdd the disjoint cases: 2/12 + 3/12 = 5/12.\nResult: 5/12.\nClassic slip: 1/2 is the probability of passing both, and 11/12 is the probability of passing at least one."
   },
   {
    "n": 36,
    "derived": "B",
-   "text": "The events are independent: P(tails) × P(score above 4) = (1/2) × (2/6) = 1/6. The value 2/3 computes the union of the two events instead of their joint occurrence, and 1/12 uses a single high face instead of the two faces 5 and 6."
+   "text": "Given: fair coin and fair die, independent; want tails and a score above 4.\nP(tails) = 1/2; P(score above 4) = 2/6 = 1/3, the faces 5 and 6.\nIndependent events multiply: (1/2) × (1/3) = 1/6.\nResult: 1/6.\nClassic slip: 2/3 computes the union of the two events instead of their joint occurrence, and 1/12 uses a single high face instead of two."
   },
   {
    "n": 37,
    "derived": "A",
-   "text": "Speed = 270 ÷ 3.0 = 90 km/h. Converting: 90 km/h = 90 000 m in 3600 s = 25 m/s (divide km/h by 3.6). The value 324 m/s multiplies by 3.6 instead of dividing, and 1500 m/s gives metres per minute rather than metres per second."
+   "text": "Given: 270 km in 3.0 h at constant speed.\nSpeed: 270 ÷ 3.0 = 90 km/h.\nConvert: 90 km/h = 90 000 m per 3600 s.\nDivide: 90 000 ÷ 3600 = 25 m/s.\nResult: 25 m/s.\nClassic slip: 324 m/s multiplies 90 by 3.6 instead of dividing, and 1500 m/s gives metres per minute rather than metres per second."
   },
   {
    "n": 38,
    "derived": "D",
-   "text": "V = 5.0 × 2.0 × 1.2 = 12 m³. Since 1 m³ = 1000 dm³ and 1 dm³ = 1 L, the pool holds 12 × 1000 = 12 000 L. The value 1200 L multiplies by 100 instead of 1000, confusing a volume factor with a length factor."
+   "text": "Given: pool 5.0 m long, 2.0 m wide, 1.2 m deep.\nVolume: 5.0 × 2.0 = 10 m², then 10 × 1.2 = 12 m³.\nConvert: 1 m³ = 1000 dm³ and 1 dm³ = 1 L, so 12 × 1000 = 12 000 L.\nResult: 12 000 L.\nClassic slip: 1200 L multiplies by 100 instead of 1000, using a length factor for a volume."
   },
   {
    "n": 39,
    "derived": "C",
-   "text": "Draining removes 1/4 of the capacity, so the remaining fraction is 2/3 − 1/4 = 8/12 − 3/12 = 5/12. The value 1/2 instead removes a quarter of the water already present (2/3 × 3/4), and 11/12 adds the fractions instead of subtracting."
+   "text": "Given: tank 2/3 full; the valve drains 1/4 of the total capacity.\nRemaining fraction: 2/3 − 1/4.\nCommon denominator 12: 8/12 − 3/12 = 5/12.\nResult: 5/12 of the tank is still full.\nClassic slip: 1/2 instead removes a quarter of the water already present (2/3 × 3/4), and 11/12 adds the fractions instead of subtracting."
   },
   {
    "n": 40,
    "derived": "D",
-   "text": "The 40 L fill the fraction 3/4 − 1/3 = 9/12 − 4/12 = 5/12 of the capacity, so the capacity is 40 × 12/5 = 96 L. The value 120 L treats 40 L as one third of the tank, and 60 L treats the 40 L as the two thirds needed to go from one third full to completely full."
+   "text": "Given: tank 1/3 full; after 40 L poured in it is 3/4 full.\nFraction filled by the 40 L: 3/4 − 1/3 = 9/12 − 4/12 = 5/12 of the capacity.\nSo (5/12) × capacity = 40 L, and capacity = 40 × 12/5.\nCompute: 40 × 12 = 480, then 480 ÷ 5 = 96 L.\nResult: 96 L.\nClassic slip: 120 L treats the 40 L as one third of the tank, and 60 L treats it as the two thirds needed to reach completely full."
   },
   {
    "n": 41,
    "derived": "D",
-   "text": "Successive accelerations: (6 − 0)/2 = 3, (10 − 6)/2 = 2, (12 − 10)/2 = 1 and (12 − 12)/2 = 0 m/s², so the acceleration is not constant at 3 m/s² over the first 6 s. Displacement is the area under the velocity-time graph: 6 + 16 + 22 + 24 = 68 m, so the average velocity is 68 ÷ 8 = 8.5 m/s and the distance is not 96 m. From 6 s to 8 s the velocity is constant at 12 m/s, so there is no deceleration. The correct statement is that the acceleration between 4 s and 6 s is (12 − 10) ÷ 2 = 1 m/s²."
+   "text": "Given: v = 0, 6, 10, 12, 12 m/s at t = 0, 2, 4, 6, 8 s.\nSegment accelerations: (6 − 0)/2 = 3, (10 − 6)/2 = 2, (12 − 10)/2 = 1, (12 − 12)/2 = 0 m/s², so the claim of a constant 3 m/s² between 0 s and 6 s fails.\nDisplacement, trapezium area per 2 s block: (0 + 6)/2 × 2 = 6 m, (6 + 10)/2 × 2 = 16 m, (10 + 12)/2 × 2 = 22 m, 12 × 2 = 24 m.\nTotal: 6 + 16 + 22 + 24 = 68 m, so the average velocity is 68 ÷ 8 = 8.5 m/s, not 10 m/s, and the distance is not 96 m.\nFrom 6 s to 8 s the velocity is constant at 12 m/s, so there is no deceleration.\nResult: the acceleration between 4 s and 6 s is (12 − 10) ÷ 2 = 1 m/s², the only correct claim.\nClassic slip: reading a constant 3 m/s² from the first segment, or multiplying the final 12 m/s by 8 s to get 96 m."
   },
   {
    "n": 42,
    "derived": "D",
-   "text": "Distance = area under the velocity-time graph: (1/2) × 4.0 × 8.0 = 16 m while accelerating, plus 8.0 × 6.0 = 48 m at constant speed, total 64 m. Average speed = 64 ÷ 10 = 6.4 m/s. The value 8.0 m/s takes the final speed as the whole-run average, and 4.0 m/s would hold only if the acceleration lasted all 10 s."
+   "text": "Given: 0 to 8.0 m/s uniformly in 4.0 s, then 8.0 m/s constant for 6.0 s.\nDistance is the area under the velocity-time graph.\nPhase 1, triangle: (1/2) × 4.0 × 8.0 = 16 m.\nPhase 2, rectangle: 8.0 × 6.0 = 48 m.\nTotal: 16 + 48 = 64 m.\nAverage speed: 64 ÷ 10 = 6.4 m/s.\nResult: 6.4 m/s.\nClassic slip: 8.0 m/s takes the final speed as the whole-run average, and 4.0 m/s would hold only if the acceleration lasted all 10 s."
   },
   {
    "n": 43,
    "derived": "A",
-   "text": "Average velocity = displacement ÷ time = 6.0 ÷ 2.0 = 3.0 m/s. Acceleration = change in velocity ÷ time = (4.0 − 2.0) ÷ 2.0 = 1.0 m/s². The value 2.0 m/s² divides the speed change by 1 s instead of 2 s, and averages of 2.0 or 4.0 m/s borrow one instantaneous gate speed for the whole run."
+   "text": "Given: v_P = 2.0 m/s, v_Q = 4.0 m/s, separation 6.0 m, travel time 2.0 s.\nAverage velocity = displacement ÷ time = 6.0 ÷ 2.0 = 3.0 m/s.\nAcceleration = change in velocity ÷ time = (4.0 − 2.0) ÷ 2.0 = 2.0 ÷ 2.0 = 1.0 m/s².\nResult: 3.0 m/s average velocity and 1.0 m/s² acceleration.\nClassic slip: 2.0 m/s² divides the speed change by 1 s instead of 2 s, and 2.0 or 4.0 m/s borrow one instantaneous gate speed for the whole run."
   },
   {
    "n": 44,
    "derived": "E",
-   "text": "The gradient of a velocity-time graph gives acceleration, not distance, and the area gives displacement, not acceleration. The mean of the initial and final velocities equals the average velocity only when the acceleration is uniform. For uniform acceleration from rest, v = at, so the average velocity (1/2)at is exactly half the final velocity at, which makes that the correct statement."
+   "text": "Givens: five claims about motion graphs.\nGraph rules: the gradient of a velocity-time graph gives acceleration, its area gives displacement, and the mean of the end velocities equals the average only under uniform acceleration.\nTest the remaining claim: for uniform acceleration from rest, v = at, so the average velocity is (0 + at) ÷ 2 = (1/2)at.\nThe final velocity is at, so the average is exactly half of it.\nResult: for uniformly accelerated motion starting from rest, the average velocity during the acceleration is half the final velocity.\nClassic slip: the claims reading distance from the gradient, or acceleration from the area, swap the two graph readings."
   },
   {
    "n": 45,
    "derived": "B",
-   "text": "Tangential acceleration acts along the tangent and changes the speed, the magnitude of the velocity. Centripetal acceleration acts towards the centre and changes only the direction of the velocity. The version that swaps the two roles reverses their definitions, and any claim that both components change only the speed, or only the direction, contradicts what each component does."
+   "text": "Givens: two acceleration components for an object moving in a circle.\nTangential component: acts along the tangent, changes the magnitude of the velocity, that is the speed.\nCentripetal component: acts towards the centre, changes only the direction of the velocity.\nMatching roles to names gives the correct statement.\nResult: the tangential component changes the speed, and the centripetal component changes the direction of the velocity.\nClassic slip: the reversed version swaps the two roles, and claims that both components act on speed alone or direction alone contradict the definitions."
   },
   {
    "n": 46,
    "derived": "C",
-   "text": "Constant speed on a circle still means a continuously changing direction, so the acceleration is purely centripetal: a = v²/r = 10² ÷ 20 = 5.0 m/s², directed towards the centre. Zero acceleration ignores the direction change, and the values 0.50 m/s² and 2.0 m/s² come from v/r and r/v instead of v²/r."
+   "text": "Given: r = 20 m, constant speed 10 m/s.\nConstant speed on a circle still means a continuously changing direction, so the acceleration is purely centripetal: a = v²/r.\nSubstitute: a = 10² ÷ 20 = 100 ÷ 20 = 5.0 m/s².\nDirection: towards the centre.\nResult: 5.0 m/s² towards the centre.\nClassic slip: 0.50 m/s² and 2.0 m/s² come from v/r and r/v instead of v²/r, and zero acceleration ignores the direction change."
   },
   {
    "n": 47,
    "derived": "E",
-   "text": "Because the speed changes there is a tangential component along the direction of motion; because the direction changes there is a centripetal component towards the centre. The resultant therefore points forwards and inwards, between tangent and radius. Pointing straight at the centre would require constant speed, and a resultant pointing outwards never occurs in circular motion."
+   "text": "Givens: car on a circular track with the speed steadily increasing.\nA changing speed requires a tangential component along the direction of motion.\nA changing direction requires a centripetal component towards the centre.\nThe resultant of a forward and an inward component points forwards and inwards, between tangent and radius.\nResult: the acceleration has a component along the motion and a component towards the centre, so the resultant points forwards and inwards.\nClassic slip: pointing straight at the centre would require constant speed, and a resultant pointing outwards never occurs in circular motion."
   },
   {
    "n": 48,
    "derived": "C",
-   "text": "Convert: 72 km/h = 72 ÷ 3.6 = 20 m/s. Reaction distance: 20 × 1.0 = 20 m. Braking distance from v² = 2as: s = 20² ÷ (2 × 5.0) = 40 m, equivalently average braking speed 10 m/s over 4.0 s. Total = 20 + 40 = 60 m. The value 40 m forgets the reaction phase, and 80 m multiplies the full 20 m/s by the whole braking time instead of using the average 10 m/s."
+   "text": "Given: 72 km/h, reaction time 1.0 s, deceleration 5.0 m/s² to rest.\nConvert: 72 ÷ 3.6 = 20 m/s.\nReaction phase: 20 m/s × 1.0 s = 20 m.\nBraking phase: v² = 2as with final speed 0, so s = 20² ÷ (2 × 5.0) = 400 ÷ 10 = 40 m.\nTotal: 20 + 40 = 60 m.\nResult: 60 m.\nClassic slip: 40 m forgets the reaction phase, and 80 m multiplies the full 20 m/s by the whole 4.0 s braking time instead of using the average 10 m/s."
   },
   {
    "n": 49,
    "derived": "C",
-   "text": "With final speed zero in v² = u² + 2as: a = 30² ÷ (2 × 150) = 900 ÷ 300 = 3.0 m/s². The value 6.0 m/s² drops the factor of 2, and 1.5 m/s² squares the average speed of 15 m/s instead of the initial speed."
+   "text": "Given: u = 30 m/s, final speed 0, stopping distance 150 m, constant deceleration.\nFormula: v² = u² + 2as with v = 0, so 0 = 30² + 2 × a × 150.\nSolve: a = −900 ÷ 300 = −3.0 m/s², so the magnitude is 3.0 m/s².\nResult: 3.0 m/s².\nClassic slip: 6.0 m/s² drops the factor of 2, and 1.5 m/s² squares the average speed of 15 m/s instead of the initial speed."
   },
   {
    "n": 50,
    "derived": "B",
-   "text": "Resultant force = 24 − 8.0 = 16 N, since friction opposes the pull. Newton's second law: a = 16 ÷ 4.0 = 4.0 m/s². The value 6.0 m/s² divides the pull by the mass and ignores friction, and 8.0 m/s² quotes the resultant force in newtons as if it were an acceleration."
+   "text": "Given: m = 4.0 kg, pull 24 N, friction 8.0 N opposing the pull.\nResultant force: 24 − 8.0 = 16 N.\nNewton's second law: a = F ÷ m = 16 ÷ 4.0 = 4.0 m/s².\nResult: 4.0 m/s².\nClassic slip: 6.0 m/s² divides the pull by the mass and ignores friction, and 8.0 m/s² quotes the resultant force in newtons as if it were an acceleration."
   },
   {
    "n": 51,
    "derived": "A",
-   "text": "Only the weight component along the slope accelerates the block: F = mg sin 30° = 2.0 × 10 × 0.50 = 10 N, so a = 10 ÷ 2.0 = 5.0 m/s² (equivalently a = g sin 30°; the mass cancels). The value 8.7 m/s² uses cos 30°, the component perpendicular to the slope, and 17.4 or 20 m/s² quote forces in newtons as accelerations without dividing by the mass."
+   "text": "Given: m = 2.0 kg, slope at 30°, frictionless, g = 10 m/s², sin 30° = 0.50.\nOnly the weight component along the slope accelerates the block: F = mg sin 30°.\nSubstitute: 2.0 × 10 = 20 N weight, then 20 × 0.50 = 10 N along the slope.\nNewton's second law: a = 10 ÷ 2.0 = 5.0 m/s², equivalently a = g sin 30° since the mass cancels.\nResult: 5.0 m/s² down the slope.\nClassic slip: 8.7 m/s² uses cos 30°, the component perpendicular to the slope, and 17.4 or 20 m/s² quote forces in newtons as accelerations."
   },
   {
    "n": 52,
    "derived": "B",
-   "text": "Weight = 50 × 10 = 500 N. Resultant upward force = 550 − 500 = 50 N, so a = 50 ÷ 50 = 1.0 m/s². The value 11 m/s² ignores the weight entirely, and 21 m/s² adds the two forces although they act in opposite directions."
+   "text": "Given: m = 50 kg, upward pull 550 N, g = 10 m/s².\nWeight: 50 × 10 = 500 N downwards.\nResultant upward force: 550 − 500 = 50 N.\nNewton's second law: a = 50 ÷ 50 = 1.0 m/s².\nResult: 1.0 m/s² upward.\nClassic slip: 11 m/s² ignores the weight entirely, and 21 m/s² adds two forces that act in opposite directions."
   },
   {
    "n": 53,
    "derived": "B",
-   "text": "Momentum is conserved from zero total: the tool carries 2.0 × 6.0 = 12 kg·m/s in the direction of the throw, so the astronaut gains 12 kg·m/s the opposite way. Her speed is 12 ÷ 60 = 0.20 m/s, opposite to the throw. The value 12 m/s reads the momentum value as a velocity, and 6.0 m/s assumes her speed equals the tool's."
+   "text": "Given: astronaut 60 kg at rest, tool 2.0 kg thrown at 6.0 m/s.\nTotal momentum before the throw: 0, and momentum is conserved, so it stays 0.\nTool momentum: 2.0 × 6.0 = 12 kg·m/s in the throw direction.\nAstronaut momentum: 12 kg·m/s the opposite way, so her speed is 12 ÷ 60 = 0.20 m/s.\nResult: 0.20 m/s opposite to the direction of the throw.\nClassic slip: 12 m/s reads the momentum value as a velocity, and 6.0 m/s assumes her speed equals the tool's."
   },
   {
    "n": 54,
    "derived": "D",
-   "text": "The ball reverses direction, so the momentum change has magnitude 0.50 × (12 + 8.0) = 10 kg·m/s. Average force = Δp ÷ Δt = 10 ÷ 0.020 = 500 N. The value 100 N subtracts the speeds as if the ball continued through the wall without rebounding, and 1000 N adds the speeds but forgets the mass."
+   "text": "Given: m = 0.50 kg, strikes at 12 m/s, rebounds at 8.0 m/s, contact time 0.020 s.\nMomentum before: 0.50 × 12 = 6.0 kg·m/s; momentum after: 0.50 × 8.0 = 4.0 kg·m/s in the opposite direction.\nBecause the direction reverses, Δp = 6.0 + 4.0 = 10 kg·m/s.\nImpulse law: F = Δp ÷ Δt = 10 ÷ 0.020 = 500 N.\nResult: 500 N.\nClassic slip: 100 N subtracts the speeds as if the ball continued through the wall without rebounding, and 1000 N adds the speeds but forgets the mass."
   },
   {
    "n": 55,
    "derived": "C",
-   "text": "At constant speed the lifting force equals the weight, 60 × 10 = 600 N. Work = force × distance = 600 × 10 = 6000 J. Power = 6000 ÷ 20 = 300 W. The value 30 W leaves g out of the work, and 6000 W quotes the work in joules as if it were a power."
+   "text": "Given: m = 60 kg lifted at constant speed through 10 m in 20 s, g = 10 m/s².\nConstant speed: lifting force = weight = 60 × 10 = 600 N.\nWork: 600 × 10 = 6000 J.\nPower: 6000 ÷ 20 = 300 W.\nResult: 300 W.\nClassic slip: 6000 W quotes the work in joules as if it were a power, and 30 W leaves g out of the work."
   },
   {
    "n": 56,
    "derived": "D",
-   "text": "At constant speed the driving force balances the 600 N resistance. Power = Fv = 600 × 20 = 12 000 W. The value 30 W divides force by speed instead of multiplying, and 600 W is just the force itself rather than force times velocity."
+   "text": "Given: constant speed 20 m/s, total resistance 600 N.\nConstant speed: driving force = resistance = 600 N.\nPower: P = F × v = 600 × 20 = 12 000 W.\nResult: 12 000 W.\nClassic slip: 30 W divides the force by the speed instead of multiplying, and 600 W is just the force itself rather than force times velocity."
   },
   {
    "n": 57,
    "derived": "A",
-   "text": "Stevin's law gives the gauge pressure: ρgh = 1000 × 10 × 15 = 150 000 Pa = 150 kPa. The absolute pressure adds the atmospheric pressure acting on the surface: 150 + 100 = 250 kPa. The claim that the atmosphere does not act underwater is wrong: the water column rests on the surface, so the atmospheric push is transmitted down through the water."
+   "text": "Given: depth 15 m fresh water, ρ = 1000 kg/m³, g = 10 m/s², atmospheric pressure 100 kPa.\nGauge pressure: ρgh = 1000 × 10 × 15 = 150 000 Pa = 150 kPa.\nAbsolute pressure adds the atmosphere pressing on the surface, transmitted down through the water: 150 + 100 = 250 kPa.\nResult: gauge 150 kPa and absolute 250 kPa.\nClassic slip: quoting the 150 kPa as the absolute pressure forgets the atmosphere acting on the surface."
   },
   {
    "n": 58,
    "derived": "E",
-   "text": "The level in the open arm stands higher, so the gas pressure exceeds atmospheric by ρgh = 13600 × 10 × 0.100 = 13 600 Pa = 13.6 kPa. Absolute pressure = 100 + 13.6 = 113.6 kPa. The value 86.4 kPa subtracts the column instead of adding it, and 101 kPa computes the column with the density of water (about 1 kPa) instead of mercury."
+   "text": "Given: mercury ρ = 13600 kg/m³, open arm 100 mm = 0.100 m above the gas arm, atmosphere 100 kPa, g = 10 m/s².\nThe open arm stands higher, so the gas pressure exceeds atmospheric: p_gas = p_atm + ρgh.\nColumn: 13600 × 10 = 136 000, then 136 000 × 0.100 = 13 600 Pa = 13.6 kPa.\nAdd: 100 + 13.6 = 113.6 kPa.\nResult: 113.6 kPa.\nClassic slip: 86.4 kPa subtracts the column instead of adding it, and 101 kPa computes the column with the density of water."
   },
   {
    "n": 59,
    "derived": "D",
-   "text": "Each layer adds its own ρgh: oil gives 800 × 10 × 0.80 = 6.4 kPa and water gives 1000 × 10 × 1.2 = 12 kPa. Total gauge pressure = 18.4 kPa. The value 20 kPa uses the density of water for both layers, and 12 kPa forgets the oil layer."
+   "text": "Given: oil 0.80 m at 800 kg/m³ over water 1.2 m at 1000 kg/m³, g = 10 m/s².\nEach layer adds its own ρgh.\nOil: 800 × 10 × 0.80 = 6400 Pa = 6.4 kPa.\nWater: 1000 × 10 × 1.2 = 12 000 Pa = 12 kPa.\nTotal gauge: 6.4 + 12 = 18.4 kPa.\nResult: 18.4 kPa.\nClassic slip: 20 kPa uses the density of water for both layers, and 12 kPa forgets the oil layer."
   },
   {
    "n": 60,
    "derived": "B",
-   "text": "A floating block displaces its own weight, so its density is the submerged fraction times the oil's density: block P: 0.5 × 800 = 400 kg/m³; block Q: 0.25 × 800 = 200 kg/m³. A block resting on the bottom must be denser than the fluid, so R exceeds 800 kg/m³. Hence Q at 200 kg/m³ is the least dense and R is denser than the oil. The claim that Q is denser than P inverts the rule: the smaller the submerged fraction, the lower the density."
+   "text": "Given: oil 800 kg/m³; P floats half submerged, Q floats one quarter submerged, R rests on the bottom.\nFloating rule: a floater displaces its own weight, so block density = submerged fraction × fluid density.\nP: 0.5 × 800 = 400 kg/m³.\nQ: 0.25 × 800 = 200 kg/m³.\nR rests on the bottom, so its density must exceed 800 kg/m³.\nResult: Q at 200 kg/m³ is the least dense, and R is denser than the oil.\nClassic slip: calling Q denser than P inverts the rule: the smaller the submerged fraction, the lower the density."
   },
   {
    "n": 61,
    "derived": "A",
-   "text": "A floating block is in equilibrium: upthrust = weight = 6.0 N exactly (it displaces its own weight of water, submerging the fraction 750/1000 of its volume). The net force is zero, so the apparent weight is 0 N. The value 1.5 N subtracts only three quarters of the weight, but the whole weight is already supported by the upthrust."
+   "text": "Given: block weight 6.0 N, density 750 kg/m³, floating freely in water of density 1000 kg/m³.\nFloating means equilibrium: upthrust = weight = 6.0 N, since the block submerges the fraction 750/1000 of its volume and displaces its own weight of water.\nNet force: 6.0 N up plus 6.0 N down = 0, so the apparent weight is 0 N.\nResult: 0 N.\nClassic slip: 1.5 N subtracts only three quarters of the weight, but the whole weight is already supported by the upthrust."
   },
   {
    "n": 62,
    "derived": "D",
-   "text": "Q = mcΔT with ΔT = 70 − 20 = 50 K: Q = 2.0 × 4200 × 50 = 420 000 J = 420 kJ. The value 588 kJ uses the final temperature 70 °C instead of the 50 K rise, and 210 kJ corresponds to only 1.0 kg of water."
+   "text": "Given: m = 2.0 kg of water, c = 4200 J/(kg·K), heated from 20 °C to 70 °C.\nTemperature rise: ΔT = 70 − 20 = 50 K.\nFormula: Q = mcΔT.\nSubstitute: 2.0 × 4200 × 50.\nSteps: 2.0 × 4200 = 8400, then 8400 × 50 = 420 000 J = 420 kJ.\nResult: 420 kJ.\nClassic slip: 588 kJ uses the final temperature 70 instead of the 50 K rise, and 210 kJ corresponds to only 1.0 kg of water."
   },
   {
    "n": 63,
    "derived": "B",
-   "text": "Heat lost by aluminium = heat gained by water: 0.40 × 900 × (100 − T) = 0.60 × 4200 × (T − 20). So 36 000 − 360T = 2520T − 50 400, hence 86 400 = 2880T and T = 30 °C. The value 52 °C is the mass-weighted average of the starting temperatures, ignoring that water's specific heat is far larger than aluminium's; 60 °C is the plain average."
+   "text": "Given: aluminium 0.40 kg at 100 °C (c = 900 J/(kg·K)) into water 0.60 kg at 20 °C (c = 4200 J/(kg·K)), insulated.\nHeat balance: 0.40 × 900 × (100 − T) = 0.60 × 4200 × (T − 20).\nLeft side: 360 × (100 − T) = 36 000 − 360T; right side: 2520 × (T − 20) = 2520T − 50 400.\nSo 36 000 − 360T = 2520T − 50 400, giving 36 000 + 50 400 = 2520T + 360T.\n86 400 = 2880T, so T = 86 400 ÷ 2880 = 30 °C.\nResult: 30 °C.\nClassic slip: 52 °C is the mass-weighted average of the starting temperatures, ignoring that water's specific heat is far larger than aluminium's."
   },
   {
    "n": 64,
    "derived": "B",
-   "text": "Same substance on both sides, so c cancels: m_cold × ΔT_cold = m_hot × ΔT_hot. Thus 0.50 × (32 − 12) = m × (82 − 32), so 10 = 50m and m = 0.20 kg. The value 0.70 kg uses the 70 K gap between the two starting temperatures instead of the cold water's actual 20 K rise."
+   "text": "Given: 0.50 kg water at 12 °C mixed with m kg water at 82 °C, settling at 32 °C, same c on both sides.\nSince c cancels: m_cold × ΔT_cold = m_hot × ΔT_hot.\nRises and falls: the cold water rises 32 − 12 = 20 K; the hot water falls 82 − 32 = 50 K.\nSubstitute: 0.50 × 20 = m × 50, so 10 = 50m.\nDivide: m = 10 ÷ 50 = 0.20 kg.\nResult: 0.20 kg of hot water.\nClassic slip: 0.70 kg uses the 70 K gap between the two starting temperatures instead of the cold water's actual 20 K rise."
   },
   {
    "n": 65,
    "derived": "C",
-   "text": "Each kWh equals 3.6 MJ, so 2.5 kWh = 2.5 × 3.6 = 9.0 MJ. The value 2.5 MJ treats 1 kWh as 1 MJ and drops the 3.6 factor."
+   "text": "Given: 2.5 kWh, with 1 kWh = 3.6 MJ.\nConvert: 2.5 × 3.6 = 9.0 MJ.\nResult: 9.0 MJ.\nClassic slip: 2.5 MJ treats 1 kWh as 1 MJ and drops the factor 3.6."
   },
   {
    "n": 66,
    "derived": "D",
-   "text": "Power = VI = 12 × 2.0 = 24 W; time = 5.0 × 60 = 300 s. Energy = Pt = 24 × 300 = 7200 J = 7.2 kJ. The value 3.6 kJ multiplies voltage by time and forgets the current, and 0.72 kJ treats 5.0 minutes as 30 s."
+   "text": "Given: V = 12 V, I = 2.0 A, t = 5.0 minutes.\nPower: P = VI = 12 × 2.0 = 24 W.\nTime in seconds: 5.0 × 60 = 300 s.\nEnergy: E = Pt = 24 × 300 = 7200 J = 7.2 kJ.\nResult: 7.2 kJ.\nClassic slip: 3.6 kJ multiplies voltage by time and forgets the current, and 0.72 kJ treats 5.0 minutes as 30 s."
   },
   {
    "n": 67,
    "derived": "E",
-   "text": "Series: total resistance 12 Ω, current 1.0 A, so the battery supplies 12 W and each resistor dissipates I²R = 6.0 W, both true. Parallel: equivalent resistance (6.0 × 6.0)/(6.0 + 6.0) = 3.0 Ω, so the battery supplies 12² ÷ 3.0 = 48 W, exactly four times the series power, also true. The false statement is the one giving the parallel equivalent resistance as 6.0 Ω: two equal resistors in parallel halve the resistance rather than leaving it unchanged."
+   "text": "Given: two 6.0 Ω resistors across 12 V, first in series, then in parallel; find the false statement.\nSeries: R = 6.0 + 6.0 = 12 Ω, I = 12 ÷ 12 = 1.0 A, battery power = 12 × 1.0 = 12 W, and each resistor dissipates I²R = 1.0 × 1.0 × 6.0 = 6.0 W, so both series claims are true.\nParallel: R = (6.0 × 6.0) ÷ (6.0 + 6.0) = 36 ÷ 12 = 3.0 Ω, so battery power = 12² ÷ 3.0 = 144 ÷ 3.0 = 48 W, exactly four times 12 W, so both parallel power claims are true.\nThe parallel equivalent is 3.0 Ω, not 6.0 Ω, so that statement is false.\nResult: the false statement is the one giving the parallel arrangement an equivalent resistance of 6.0 Ω.\nClassic slip: forgetting that two equal resistors in parallel halve the resistance rather than leaving it unchanged."
   },
   {
    "n": 68,
    "derived": "C",
-   "text": "Parallel pair: (6.0 × 3.0)/(6.0 + 3.0) = 2.0 Ω. In series with 5.0 Ω: total = 2.0 + 5.0 = 7.0 Ω. The value 14 Ω adds all three as if all were in series, and 2.0 Ω forgets the series resistor."
+   "text": "Given: 6.0 Ω parallel with 3.0 Ω, the pair in series with 5.0 Ω.\nParallel pair: (6.0 × 3.0) ÷ (6.0 + 3.0) = 18 ÷ 9 = 2.0 Ω.\nSeries add: 2.0 + 5.0 = 7.0 Ω.\nResult: 7.0 Ω.\nClassic slip: 14 Ω adds all three as if all were in series, and 2.0 Ω forgets the series resistor."
   },
   {
    "n": 69,
    "derived": "B",
-   "text": "Parallel pair: (12 × 6.0)/(12 + 6.0) = 4.0 Ω. Total resistance = 8.0 + 4.0 = 12 Ω, so I = 24 ÷ 12 = 2.0 A. The value 3.0 A divides 24 V by the 8.0 Ω alone, ignoring the parallel section, and 1.5 A doubles the total resistance."
+   "text": "Given: 24 V battery, 8.0 Ω in series with a parallel pair of 12 Ω and 6.0 Ω.\nParallel pair: (12 × 6.0) ÷ (12 + 6.0) = 72 ÷ 18 = 4.0 Ω.\nTotal resistance: 8.0 + 4.0 = 12 Ω.\nCurrent: I = 24 ÷ 12 = 2.0 A.\nResult: 2.0 A.\nClassic slip: 3.0 A divides 24 V by the 8.0 Ω alone and ignores the parallel section, and 1.5 A doubles the total resistance."
   },
   {
    "n": 70,
    "derived": "C",
-   "text": "Battery voltage: V = 6.0 × 2.0 = 12 V. Adding a parallel branch does not change the voltage, so the original resistor still draws 2.0 A and the extra 3.0 − 2.0 = 1.0 A flows through the new branch. Its resistance is 12 ÷ 1.0 = 12 Ω. The value 6.0 Ω assumes the extra current is shared equally between the branches, and 18 Ω adds resistances as if the second resistor were in series."
+   "text": "Given: a 6.0 Ω resistor draws 2.0 A; adding a parallel resistor raises the total to 3.0 A.\nBattery voltage: V = 6.0 × 2.0 = 12 V.\nParallel branches share the same 12 V, so the original branch still draws 2.0 A.\nNew branch current: 3.0 − 2.0 = 1.0 A.\nIts resistance: 12 ÷ 1.0 = 12 Ω.\nResult: 12 Ω.\nClassic slip: 6.0 Ω assumes the extra current is shared equally between the branches, and 18 Ω adds resistances as if the second resistor were in series."
   },
   {
    "n": 71,
    "derived": "C",
-   "text": "The wire of negligible resistance short-circuits the 12 Ω resistor, so only the 4.0 Ω resistor limits the current: I = 6.0 ÷ 4.0 = 1.5 A. The value 0.375 A is the current before the wire is added (6.0 V across 4.0 + 12 = 16 Ω), and 0.50 A would follow from short-circuiting the 4.0 Ω instead of the 12 Ω."
+   "text": "Given: 4.0 Ω in series with 12 Ω across 6.0 V; a wire of negligible resistance is added across the 12 Ω.\nThe wire short-circuits the 12 Ω: all the current bypasses it.\nRemaining resistance: 4.0 Ω only.\nCurrent: I = 6.0 ÷ 4.0 = 1.5 A.\nResult: 1.5 A.\nClassic slip: 0.375 A is the current before the wire is added (6.0 ÷ 16), and 0.50 A would follow from short-circuiting the 4.0 Ω instead."
   },
   {
    "n": 72,
    "derived": "D",
-   "text": "Intensity = power per unit area = energy ÷ (time × area). Since power in watts is joules per second, the unit is W/m². The unit J/s is the watt alone, with no area division, and J/m² is energy per area with the per-second factor missing."
+   "text": "Given: intensity is energy delivered per unit time per unit surface area.\nEnergy per second is power, measured in watts; per unit area divides by m².\nUnit: W/m², equivalently J/(s·m²).\nResult: W/m².\nClassic slip: J/s is the watt alone with no area division, and J/m² keeps the area but loses the per-second factor."
   },
   {
    "n": 73,
    "derived": "A",
-   "text": "A point source spreads its power over a sphere of area 4πr², so intensity follows an inverse-square law. Tripling the distance from 2.0 m to 6.0 m divides the intensity by 3² = 9: 36 ÷ 9 = 4.0 W/m². The value 12 W/m² scales as 1/r instead of 1/r²."
+   "text": "Given: intensity 36 W/m² at 2.0 m from a point source radiating uniformly.\nA point source spreads its power over a sphere of area 4πr², so intensity follows an inverse-square law, I ∝ 1/r².\nDistance triples, from 2.0 m to 6.0 m, a factor of 3, so the intensity divides by 3² = 9.\nCompute: 36 ÷ 9 = 4.0 W/m².\nResult: 4.0 W/m².\nClassic slip: 12 W/m² scales as 1/r instead of 1/r²."
   },
   {
    "n": 74,
    "derived": "A",
-   "text": "Energy carried by the bulk motion of a warmed fluid is convection: the heated air expands, becomes less dense, rises, and cooler air sinks to replace it, forming the circulating flow that transports the energy. Conduction passes energy between neighbouring molecules without bulk flow, and radiation travels as electromagnetic waves, not as moving air."
+   "text": "Givens: a radiator warms the air beside it, the warm air rises, cooler air replaces it, and the circulating flow carries the energy.\nEnergy transported by the bulk motion of a warmed fluid is convection by definition.\nThe mechanism in the stem matches exactly: heated air expands, becomes less dense, rises, and cooler air sinks to replace it.\nConduction passes energy between neighbouring molecules with no bulk flow, and radiation travels as electromagnetic waves, not as moving air.\nResult: convection.\nClassic slip: crediting the direct molecule-to-molecule collisions of conduction ignores the bulk circulation the stem describes."
   },
   {
    "n": 75,
    "derived": "E",
-   "text": "Conduction and convection both need a material medium, so the vacuum blocks both paths at once. The silvered surfaces reflect infrared radiation back towards the drink, cutting radiation losses. Saying the vacuum blocks only convection is wrong because conduction has no medium in a vacuum either, and it is the silvering, not the vacuum, that handles radiation."
+   "text": "Givens: vacuum flask with double silvered walls, vacuum between them, stopper on top.\nConduction needs a medium and convection needs a moving fluid, so the vacuum removes both paths at once.\nRadiation is infrared, and the silvered surfaces reflect it back towards the drink, cutting radiation losses.\nThe stopper seals the last convection route at the neck.\nResult: the vacuum blocks both conduction and convection, and the silvered surfaces cut radiation losses.\nClassic slip: the claim that the vacuum blocks only convection forgets that conduction has no medium in a vacuum either, and it is the silvering that handles radiation."
   },
   {
    "n": 76,
    "derived": "C",
-   "text": "Premise two guarantees that at least one illustrated archive manuscript exists, and premise one catalogues every archive manuscript, so at least one manuscript is both illustrated and catalogued: some of the archive's illustrated manuscripts are catalogued must be true. The claim that every catalogued item is illustrated is the invalid converse of the first premise. Items that may leave the building need not be catalogued, because non-archive items fall outside the cataloguing rule, and denying that any catalogued archive item is illustrated simply contradicts the premises."
+   "text": "Givens: (1) every archive manuscript is catalogued; (2) some archive manuscripts are illustrated; (3) no illustrated archive item may leave the building.\nPremise 2 guarantees at least one illustrated archive manuscript exists.\nPremise 1 applies to every archive manuscript, so that same manuscript is catalogued.\nSo at least one manuscript is both illustrated and catalogued.\nResult: some of the archive's illustrated manuscripts are catalogued.\nClassic slip: every catalogued item being illustrated is the invalid converse of premise 1, and items that may leave need not be catalogued because non-archive items are unrestricted."
   },
   {
    "n": 77,
    "derived": "A",
-   "text": "'Only members with a pass may book' means booking implies holding a pass. Nadia booked a court, so she holds a current season pass. The claim that every pass holder books the courts merely reverses the rule, and the coaching-lesson statements concern pass holders who need not be Nadia."
+   "text": "Givens: (1) only members with a current season pass may book the courts; (2) Nadia booked a court; (3) some pass holders take coaching lessons.\nThe rule 'only pass holders may book' decodes as: booking the courts implies holding a current season pass.\nNadia booked a court, so by that rule she holds a current season pass.\nPremise 3 concerns some pass holders, who need not be Nadia.\nResult: Nadia holds a current season pass.\nClassic slip: the claim that every pass holder books the courts merely reverses the rule, and the lesson statements concern pass holders in general."
   },
   {
    "n": 78,
    "derived": "D",
-   "text": "Chain the two universals: every medalling swimmer trains at Riverside, and nobody who trains at Riverside pays a joining fee, so no swimmer who won a medal pays a joining fee. The claims that every Riverside trainer medalled, or that fee-paying swimmers medalled, reverse or contradict the chain, and the premises say nothing about fees for people who do not train at Riverside."
+   "text": "Givens: (1) every medalling swimmer trains at Riverside; (2) nobody who trains at Riverside pays a joining fee.\nChain the universals: medallist → trains at Riverside → pays no joining fee.\nSo any medal winner pays no joining fee.\nThe premises say nothing forcing Riverside trainers to have medalled, and nothing about fees for people who do not train at Riverside.\nResult: no swimmer who won a medal this season pays a joining fee.\nClassic slip: the claim that every Riverside trainer medalled reverses the direction of the first premise."
   },
   {
    "n": 79,
    "derived": "A",
-   "text": "At least one squad player is left-footed, and every squad player is a professional, so at least one professional is left-footed. No left-footed player takes the corners, so that professional does not take them: some professionals do not take the corner kicks. The claim that every corner taker is right-footed adds an assumption, since the premises never say that not left-footed means right-footed."
+   "text": "Givens: (1) some squad players are left-footed; (2) no left-footed player takes the corners; (3) every squad player is a professional.\nPremise 1 gives at least one left-footed squad player.\nPremise 3 makes that player a professional.\nPremise 2 says that same player does not take the corners.\nSo at least one professional does not take the corners.\nResult: some professionals do not take the corner kicks.\nClassic slip: the claim that every corner taker is right-footed assumes that not left-footed means right-footed, which no premise states."
   },
   {
    "n": 80,
    "derived": "B",
-   "text": "Some bakers sell rye bread, and every baker arrives before dawn, so at least one of the before-dawn arrivals sells rye bread. The claim that everyone arriving before dawn sells rye reverses the first premise, and nothing makes rye sellers bakers in general."
+   "text": "Givens: (1) every baker at the market arrives before dawn; (2) some bakers at the market sell rye bread.\nPremise 2 gives at least one rye-selling baker.\nPremise 1 makes that same baker a before-dawn arrival.\nSo at least one before-dawn arrival sells rye bread.\nResult: some people who arrive before dawn sell rye bread.\nClassic slip: the claim that everyone arriving before dawn sells rye reverses the first premise, and nothing makes rye sellers bakers in general."
   },
   {
    "n": 81,
    "derived": "E",
-   "text": "Both premises are universal and Tara is a member, so both apply to her: she can swim and she is not under sixteen. The claim that every swimmer is a club member reverses the first premise, and the premises say nothing about who is allowed to join."
+   "text": "Givens: (1) every member of the rowing club can swim; (2) no member is under sixteen; (3) Tara is a member.\nA universal premise applies to every member, Tara included.\nFrom 1: Tara can swim.\nFrom 2: Tara is not under sixteen.\nResult: Tara can swim and is not under sixteen.\nClassic slip: the claim that everyone who can swim is a member reverses the first premise, and the premises say nothing about who is allowed to join."
   },
   {
    "n": 82,
    "derived": "D",
-   "text": "Test Tom as the truth teller: his statement then asserts that rain caused the postponement and that Ria is lying. But Ria asserted exactly that rain caused it, so she would be telling the truth, a contradiction. Hence Tom is the liar and Ria the truth teller, which also fixes the fact that rain caused the postponement; Tom's conjunction fails because its second half is false."
+   "text": "Givens: Ria claims rain caused the postponement; Tom claims rain caused it and Ria is lying; exactly one of them always tells the truth.\nTest Tom as the truth teller: both halves of his claim hold, so rain caused it and Ria is lying.\nBut Ria's claim is exactly that rain caused it, so Ria lying would make rain not the cause, contradicting Tom's first half.\nHence Tom is the liar and Ria the truth teller.\nRia truthful means rain did cause the postponement, and Tom's conjunction fails on its second half.\nResult: Ria tells the truth and rain caused the postponement.\nClassic slip: the branch with Tom truthful and rain the cause is exactly the one that produced the contradiction above."
   },
   {
    "n": 83,
    "derived": "B",
-   "text": "Suppose Amara tells the truth: then Ben lies, so Ben's claim is false and Cara tells the truth; yet Cara's claim that both Amara and Ben lie would then be false, which a truth teller cannot utter. So Amara lies, making Ben's claim true and Ben truthful; Cara's claim that both Amara and Ben lie is then false, fitting a liar. The assignment is unique: Amara and Cara lie, Ben tells the truth."
+   "text": "Givens: Amara says Ben lies; Ben says Cara lies; Cara says both Amara and Ben lie; each person is all-truth or all-lie.\nTest Amara truthful: then Ben lies, so Ben's claim that Cara lies is false and Cara is truthful.\nBut Cara's claim that both Amara and Ben lie is false, since Amara is truthful, impossible for a truth teller.\nSo Amara lies: her claim that Ben lies is false, so Ben is truthful.\nBen truthful means Cara lies, and Cara's claim that both Amara and Ben lie is indeed false, consistent for a liar.\nResult: Amara and Cara lie, and Ben tells the truth.\nClassic slip: the assignment is unique; every alternative branch hits one of the contradictions above."
   },
   {
    "n": 84,
    "derived": "D",
-   "text": "Quinn and Ravi contradict each other, so the single liar must be one of that pair; either way Priya is among the two truth tellers and her denial is accurate. If Priya were the liar, Quinn and Ravi would both be truthful, but they contradict, which is impossible. So Priya did not take the stopwatch, although the statements never settle who actually did, which is why the options naming a culprit fail."
+   "text": "Givens: Priya says she did not take the stopwatch; Quinn says Priya is lying; Ravi says Quinn is lying; exactly one of the three is lying.\nQuinn and Ravi make opposite claims, so exactly one of that pair must be lying whichever way the facts go.\nThe single liar therefore sits in the Quinn-Ravi pair, so Priya is truthful and her denial is accurate.\nSince Priya is truthful, Quinn's claim that she is lying is false, so Quinn is the liar and Ravi tells the truth.\nResult: Priya did not take the stopwatch.\nClassic slip: naming any culprit overreaches, since the statements fix only Priya's innocence, not who is guilty."
   },
   {
    "n": 85,
    "derived": "B",
-   "text": "If Eli told the truth, Dana and Fran would both be liars, but Fran's claim that Dana is lying would then be true, impossible for a liar. If Fran told the truth, Dana would be lying, which makes Eli's denial true as well, giving two truth tellers. So Dana is the single truth teller, Eli's denial is false, and Eli broke the scoreboard."
+   "text": "Givens: Dana says Eli broke the scoreboard; Eli says he did not; Fran says Dana is lying; exactly one truth teller.\nTest Eli truthful: then Dana and Fran both lie, but Fran's claim that Dana is lying would then be true, impossible for a liar.\nTest Fran truthful: then Dana lies, so Eli did not break it, which makes Eli's denial true as well, giving two truth tellers, impossible.\nSo Dana is the single truth teller: her claim holds, Eli broke it, and Eli's denial is his lie; Fran's claim that Dana lies is also false, consistent for a liar.\nResult: Dana tells the truth and Eli broke the scoreboard.\nClassic slip: any branch with Eli or Fran truthful collapses by one of the two contradictions above."
   },
   {
    "n": 86,
    "derived": "E",
-   "text": "If the day were Monday, both of Pia's statements would be true; if it were Wednesday, both would be false. Neither fits her requirement of exactly one true statement. Any other day makes 'not Wednesday' true and 'Monday' false for Pia, and likewise leaves Sam with exactly one true statement, so the collection happened on a day that is neither Monday nor Wednesday."
+   "text": "Givens: Pia says 'collected on Monday' and 'not collected on Wednesday', exactly one of hers true; Sam says 'collected on Wednesday' and 'not collected on Monday', exactly one of his true; the collection happened on exactly one day.\nTest Monday: Pia's 'Monday' is true and 'not Wednesday' is also true, two true statements, violating her exactly-one rule.\nTest Wednesday: Pia's 'Monday' is false and 'not Wednesday' is false too, zero true, again violating her rule.\nAny other day: 'not Wednesday' is true and 'Monday' false, exactly one true for Pia, and symmetrically exactly one true for Sam.\nResult: the bag was collected on a day that is neither Monday nor Wednesday.\nClassic slip: Monday and Wednesday each break the exactly-one condition rather than satisfy it."
   },
   {
    "n": 87,
    "derived": "E",
-   "text": "The notice reads: if at capacity, then turned away. A conditional is equivalent only to its contrapositive: if new swimmers are not turned away, the pool is not at capacity. The version reading 'if turned away, then at capacity' merely reverses the conditional, and 'if not at capacity, then not turned away' denies both parts in the same order, which is not equivalent."
+   "text": "Givens: the notice reads 'at capacity → new swimmers turned away'.\nA conditional is equivalent only to its contrapositive: negate both parts and swap them.\nContrapositive: not turned away → not at capacity.\nThe converse 'turned away → at capacity' and the inverse 'not at capacity → not turned away' both fail.\nResult: if new swimmers are not turned away, the pool is not at capacity.\nClassic slip: reading the notice backwards treats being turned away as proof of capacity, but a pool below capacity may still turn people away for other reasons."
   },
   {
    "n": 88,
    "derived": "A",
-   "text": "The coach's promise is: perfect attendance → selected. Its contrapositive, 'not selected → attendance was not perfect', is the only equivalent form. The mirror statement 'imperfect attendance → not selected' is the inverse and does not follow, and 'selected → perfect attendance' merely reverses the promise."
+   "text": "Givens: the coach's promise reads 'perfect attendance → selected for the final'.\nOnly the contrapositive is equivalent: negate both parts and swap them.\nContrapositive: not selected → attendance was not perfect.\nThe inverse 'imperfect attendance → not selected' and the converse 'selected → perfect attendance' do not follow.\nResult: if a player is not selected for the final, she did not attend every training session this month.\nClassic slip: the inverse would fail exactly when a player misses a session yet is selected anyway, which the promise never rules out."
   },
   {
    "n": 89,
    "derived": "B",
-   "text": "'Full term only if on the reserve list' means full-term borrowing implies a reserve listing. Denying the requirement gives the equivalent claim: a book not on the reserve list may not be borrowed for a full term. A reserve listing alone does not grant full-term borrowing (that is the converse), and the rule says nothing about banning shorter loans."
+   "text": "Givens: the rule 'full term only if on the reserve list' decodes as full-term borrowing → reserve listed.\nEquivalent form: the contrapositive, not reserve listed → no full-term borrowing.\nThe converse 'reserve listed → full term allowed' overstates the rule, and nothing bans shorter loans.\nResult: a book not on the reserve list may not be borrowed for a full term.\nClassic slip: reading 'only if' backwards treats a reserve listing as a permission slip, which the rule never grants."
   },
   {
    "n": 90,
    "derived": "C",
-   "text": "Chaining the rules: delayed → vouchers → canteen open late, so 'delayed → canteen late'. Its contrapositive, 'canteen does not stay open late → the sailing was not delayed', is equivalent to the policy as a whole. Starting from no delay, or inferring a delay from a late canteen, reverses the direction of the chain and is not entailed."
+   "text": "Givens: the policy reads delayed → vouchers issued, and vouchers issued → canteen open late.\nChain: delayed → canteen open late.\nContrapositive of the chain: canteen not open late → not delayed.\nStatements starting from 'not delayed', or inferring a delay from a late canteen, run the chain backwards and are not entailed.\nResult: if the canteen does not stay open late, the sailing was not delayed.\nClassic slip: the version 'late canteen → delayed' reverses the implication, since the policy promises vouchers after a delay but never says a delay is the only route to a late canteen."
   },
   {
    "n": 91,
    "derived": "A",
-   "text": "A biconditional ('locked if and only if armed') stays true when both sides are negated together: the gate is unlocked exactly when the alarm is disarmed. The statements pairing unlocked with armed, or locked with disarmed, contradict the manual, and mixing a negated side with the plain other side breaks the two-way match."
+   "text": "Givens: the manual reads gate locked if and only if alarm armed.\nA biconditional holds in both matching states: locked with armed, unlocked with disarmed.\nNegating both sides together preserves it: unlocked exactly when disarmed.\nPairing unlocked with armed, or locked with disarmed, breaks the two-way match and contradicts the manual.\nResult: the side gate is unlocked exactly when the alarm is disarmed.\nClassic slip: mixing a negated side with the plain other side turns the equivalence into its contradiction."
   },
   {
    "n": 92,
    "derived": "C",
-   "text": "The argument runs from fewer puddles to fewer slip accidents, which needs two things: that surface water is what usually makes vehicles slip, and that the porous surface introduces no new slipperiness of its own. The statement combining exactly those two ideas supplies the missing link. Costs and council intentions are beside the chain, driver caution would be a rival explanation rather than a needed assumption, and the asphalt comparison merely restates a premise."
+   "text": "Givens: porous surface → quick drainage and far fewer puddles; conclusion, repaving → fewer slip accidents.\nGap 1: fewer puddles cuts slips only if surface water is what usually makes vehicles slip.\nGap 2: the new surface must not add slipperiness of its own in other ways.\nThe statement combining exactly those two ideas bridges the argument.\nResult: the needed assumption is that slip accidents are usually caused by surface water and the porous surface introduces no new slipperiness.\nClassic slip: the asphalt comparison merely restates a premise, and driver caution would be a rival explanation rather than a needed assumption."
   },
   {
    "n": 93,
    "derived": "E",
-   "text": "If members choose their own plans and the members already training hard mostly picked the flexible plan, then the higher attendance and gains existed before the plan and need not be caused by it. This self-selection explanation strikes directly at the causal claim. The higher fee and the automatic recording do not touch the cause, and the identical assessments for both groups strengthen the study rather than weaken it."
+   "text": "Givens: flexible-plan members attend twice as often and report larger gains; the manager concludes the plan causes the better fitness.\nAlternative cause: if members choose their own plans, members already training hard may have picked the flexible plan before the study began.\nThen their attendance and gains predate the plan, so the plan need not cause anything; this is self-selection.\nThe higher fee and the automatic recording do not touch the causal direction, and the identical assessments strengthen the study.\nResult: the weakening statement is that members choose their own plan and most members already training hard picked the flexible plan.\nClassic slip: the shared assessments make the comparison fairer, so they cannot weaken the conclusion."
   },
   {
    "n": 94,
    "derived": "D",
-   "text": "The strongest support is the withdrawal test: boarding times returned exactly to their old level while the scanners were out of service and fell again after repairs, reconnecting the effect to the suspected cause far more tightly than the before-and-after contrast alone. Extra staff on the same two routes suggest a rival cause, the advertising campaign covered all six routes so it cannot explain the difference between them, and passenger approval says nothing about speed."
+   "text": "Givens: scanners on two of six routes; boarding time fell by a third on those two and stayed flat on the other four; conclusion, the scanners caused it.\nStrongest support should reconnect effect to cause when the cause is removed and restored.\nWith the scanners out of service for two days, boarding returned to its old level and fell again after repairs, so the effect tracks the cause directly.\nExtra staff on the same routes suggest a rival cause, and the advertising campaign covered all six routes, so it cannot explain the difference between them.\nResult: the strengthening statement is the two-day outage that briefly restored the old boarding times.\nClassic slip: the staff increase weakens the causal claim by offering an alternative explanation."
   },
   {
    "n": 95,
    "derived": "C",
-   "text": "Total evening attendance stayed roughly constant while the sessions fell from five to three per week, so the same total was spread over fewer sessions: on average each remaining session now accommodates more swimmers. Nothing in the data shows that anyone gave up evening swimming, that morning sessions changed, or that the waiting list existed before the cuts, and what the centre should do is a recommendation the data cannot settle."
+   "text": "Givens: evening sessions cut from five to three per week; total evening attendance roughly unchanged; the waiting list for evening swims grew.\nAverage per session = total attendance ÷ number of sessions.\nBefore: total ÷ 5 per session; now: the same total ÷ 3 per session.\nSince total ÷ 3 is greater than total ÷ 5, the average number of swimmers per remaining session has risen.\nResult: on average each remaining evening session now accommodates more swimmers than before.\nClassic slip: the recommendation to restore sessions, any change at morning sessions, and the timing of the waiting list all go beyond the data."
   }
  ],
  "disagreements": [],
  "notes": [
-  "All 95 stored answers were confirmed by independent derivation (numeric items recomputed from the stem data, logic items checked for uniqueness and distractor consistency); no disagreements.",
-  "No ambiguities, missing data, or exp-field errors were found in this bank."
+  "All 95 solutions rewritten in fully worked format: calculations use Given, formula, Substitute, one arithmetic hop per line, Result, and a classic-slip line; logic and concept items use compact givens, one deduction per line, a derived conclusion, and a line on the tempting wrong claim.",
+  "All 95 stored answers were re-derived from the stems before rewriting and every stored key was confirmed, so disagreements remains empty."
  ]
 }

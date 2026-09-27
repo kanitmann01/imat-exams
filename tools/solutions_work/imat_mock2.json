@@ -19,32 +19,32 @@
     {
       "n": 4,
       "derived": "D",
-      "text": "From P above Q and P below R we get the chain R above P above Q; adding S below Q extends it to R above P above Q above S. The ranking is fully determined, so the lowest score belongs to S, and the data are sufficient to rule out the undetermined answer."
+      "text": "Givens: P scored higher than Q; P scored lower than R; S scored lower than Q.\nFrom R above P and P above Q, chain them: R > P > Q.\nAdd S below Q to extend the chain: R > P > Q > S.\nAll four students now sit in one complete chain, so the ranking is fully determined.\nResult: the lowest scorer is S.\nThe tempting 'cannot be determined' claim fails because every student has been placed, leaving no free positions or ties."
     },
     {
       "n": 5,
       "derived": "B",
-      "text": "This is modus tollens: from 'if it rains the match is cancelled' and 'the match was not cancelled', the only valid inference is that it did not rain. The claim that it rained would contradict the conditional, since rain would have forced cancellation, and 'it might have rained' is excluded for the same reason. The teams' refusal is not part of any premise."
+      "text": "Givens: (1) if it rains, the match is cancelled, i.e. Rain → Cancelled; (2) the match was not cancelled, i.e. not Cancelled.\nRule: from P → Q and not Q, validly conclude not P (modus tollens).\nApply: Rain → Cancelled, and Cancelled is false, so Rain must be false.\nResult: it did not rain.\nThe tempting 'it might have rained' fails because the conditional is strict: rain would have forced cancellation, and there was none, so rain is ruled out completely."
     },
     {
       "n": 6,
       "derived": "C",
-      "text": "The rule is output = x² − 4. Setting x² − 4 = 32 gives x² = 36, so x = 6 or x = −6; of the offered numbers only 6 works (check: 36 − 4 = 32). Neighbours fail quickly: 5² − 4 = 21 and 7² − 4 = 45."
+      "text": "Given: machine output = x² − 4; the output is 32.\nRelationship: set the rule equal to the output, x² − 4 = 32.\nSubstitute: x² − 4 = 32.\nAdd 4 to both sides: x² = 32 + 4 = 36.\nTake the square root: x = ±√36 = ±6, and of the offered inputs only 6 is allowed.\nCheck: 6² − 4 = 36 − 4 = 32.\nResult: the input could be 6.\nClassic slip: subtracting the 4 before taking the root, √(32 − 4) = √28 ≈ 5.3, which points at 5 instead of first isolating x² = 36."
     },
     {
       "n": 7,
       "derived": "C",
-      "text": "Step 1: the minute hand moves 6° per minute, so at 45 minutes it sits at 45 × 6 = 270° measured from 12. Step 2: the hour hand moves 30° per hour plus 0.5° per minute, so at 9:45 it is at 9 × 30 + 45 × 0.5 = 270 + 22.5 = 292.5°. Step 3: the angle between the hands is 292.5 − 270 = 22.5°. The tempting '0°' answer comes from seeing both hands near the 9, but the minute hand sits exactly on the 9 while the hour hand is three quarters of the way toward 10."
+      "text": "Given: time 9:45.\nRelationship: the minute hand moves 360° ÷ 60 min = 6° per minute; the hour hand moves 30° per hour plus 0.5° per minute.\nMinute hand from 12: 45 min × 6°/min = 270°.\nHour hand base: 9 h × 30°/h = 270°.\nHour hand extra: 45 min × 0.5°/min = 22.5°.\nHour hand total: 270° + 22.5° = 292.5°.\nAngle between the hands: 292.5° − 270° = 22.5°.\nResult: 22.5°.\nClassic slip: answering 0° because both hands look like they sit on the 9; the minute hand is exactly on the 9 but the hour hand is already three quarters of the way toward 10."
     },
     {
       "n": 8,
       "derived": "A",
-      "text": "If A is B's father and B is C's sister, then B and C are siblings sharing the same father, so A is C's father as well. Uncle, grandfather, brother and cousin would each require an extra generation or a different relationship link that the statements do not provide."
+      "text": "Givens: A is the father of B; B is the sister of C.\nSisters and brothers are siblings, so B and C share the same parents.\nTherefore C's father is the same person as B's father, namely A.\nResult: A is C's father.\nThe tempting 'uncle' claim fails because an uncle is a sibling of a parent, while the givens make A a parent of C directly."
     },
     {
       "n": 9,
       "derived": "C",
-      "text": "The terms are perfect squares: 1 = 1², 4 = 2², 9 = 3², 16 = 4², 25 = 5², so the next term is 6² = 36. Cross-check with the differences, which grow by 2 each time (3, 5, 7, 9): the next difference is 11, and 25 + 11 = 36. The value 49 is the square after next (7²) and would skip a term."
+      "text": "Given: series 1, 4, 9, 16, 25, ?\nRelationship: check the pattern, 1 = 1², 4 = 2², 9 = 3², 16 = 4², 25 = 5², so the nth term is n².\nNext term: 6² = 6 × 6 = 36.\nCross-check with differences: 4 − 1 = 3, 9 − 4 = 5, 16 − 9 = 7, 25 − 16 = 9; they grow by 2, so the next difference is 11 and 25 + 11 = 36.\nResult: 36.\nClassic slip: answering 49, which is 7², the square after next; it skips the sixth term 6² = 36."
     },
     {
       "n": 10,
@@ -164,17 +164,17 @@
     {
       "n": 33,
       "derived": "C",
-      "text": "Balance the atoms of the product Al₂O₃: taking 2 Al₂O₃ accounts for 4 Al and 6 O, so the reactants need 4 Al and 3 O₂. The balanced equation is 4 Al + 3 O₂ → 2 Al₂O₃, hence the coefficient of O₂ is 3 (check: 6 oxygen atoms on each side)."
+      "text": "Given: skeleton equation Al + O₂ → Al₂O₃.\nRelationship: coefficients must give equal numbers of Al atoms and O atoms on both sides.\nTry 2 formula units of Al₂O₃: Al atoms = 2 × 2 = 4, O atoms = 2 × 3 = 6.\nBalance aluminium on the left: coefficient of Al = 4.\nBalance oxygen on the left: O₂ molecules needed = 6 ÷ 2 = 3.\nBalanced equation: 4 Al + 3 O₂ → 2 Al₂O₃ (check: 6 O atoms on each side, 4 Al on each side).\nResult: the coefficient of O₂ is 3.\nClassic slip: writing 6 for O₂ by copying the oxygen atom count, forgetting each O₂ molecule carries two atoms."
     },
     {
       "n": 34,
       "derived": "D",
-      "text": "Oxidation numbers sum to zero in a neutral salt: K contributes +1 and each of the four oxygens −2, so +1 + x + 4 × (−2) = 0, giving x = +7 for manganese. The value +4 would balance only two oxygens (as in MnO₂), and −1 confuses oxygen's charge with manganese's oxidation state."
+      "text": "Given: KMnO₄, a neutral compound; standard oxidation numbers K = +1, O = −2.\nRelationship: oxidation numbers in a neutral compound sum to 0: (+1) + x(Mn) + 4 × (−2) = 0.\nSubstitute: +1 + x + 4 × (−2) = 0.\nOxygen total: 4 × (−2) = −8.\nSo +1 + x − 8 = 0, giving x = 8 − 1 = +7.\nResult: Mn is +7.\nClassic slip: answering +4, the value Mn takes in MnO₂ where there are only two oxygens, instead of summing this compound's four oxygens against potassium's +1."
     },
     {
       "n": 35,
       "derived": "B",
-      "text": "Step 1: moles of HCl = 0.0250 L × 0.10 mol/L = 0.0025 mol. Step 2: HCl + NaOH reacts 1:1, so 0.0025 mol of NaOH is required. Step 3: volume of NaOH = 0.0025 mol ÷ 0.05 mol/L = 0.050 L = 50 mL. The 25 mL answer forgets that the NaOH is half as concentrated as the acid, so twice the acid volume is needed."
+      "text": "Given: 25.0 mL of 0.10 M HCl; NaOH concentration 0.05 M.\nRelationship: HCl + NaOH → NaCl + H₂O reacts 1:1, so moles NaOH needed = moles HCl; moles n = concentration × volume.\nSubstitute: n(HCl) = 0.10 mol/L × 0.0250 L = 0.0025 mol.\nMoles NaOH needed: 0.0025 mol (1:1 ratio).\nVolume of NaOH: 0.0025 mol ÷ 0.05 mol/L = 0.050 L.\nConvert: 0.050 L × 1000 mL/L = 50 mL.\nResult: 50 mL of NaOH.\nClassic slip: answering 25 mL by copying the acid's volume, forgetting the NaOH is half as concentrated so twice the volume is needed."
     },
     {
       "n": 36,
@@ -194,17 +194,17 @@
     {
       "n": 39,
       "derived": "B",
-      "text": "The standard molar volume of an ideal gas at STP (0 °C, 1 atm) is 22.4 L per mole: V = nRT/P = 1 × 0.0821 × 273 ÷ 1 ≈ 22.4 L. The 24.0 L figure corresponds to room temperature (about 25 °C), not STP, and 11.2 L is the volume of half a mole."
+      "text": "Given: n = 1 mol; STP means T = 273 K, P = 1 atm; R = 0.0821 L·atm/(mol·K).\nRelationship: ideal gas law PV = nRT, so V = (n × R × T) ÷ P.\nSubstitute: V = (1 mol × 0.0821 L·atm/(mol·K) × 273 K) ÷ 1 atm.\nMultiply: 0.0821 × 273 ≈ 22.4 L.\nResult: 22.4 L per mole at STP.\nClassic slip: answering 24.0 L, the molar volume at room temperature (about 25 °C, T ≈ 298 K), not at STP's 0 °C."
     },
     {
       "n": 40,
       "derived": "C",
-      "text": "Molar mass of CaCO₃ = 40 + 12 + (3 × 16) = 40 + 12 + 48 = 100 g/mol. The values 68 and 56 arise from dropping or short-changing the three oxygens, and 84 and 116 match no correct combination of the given atomic masses."
+      "text": "Given: CaCO₃; atomic masses Ca = 40 g/mol, C = 12 g/mol, O = 16 g/mol.\nRelationship: molar mass = sum over atoms of (count × atomic mass) = Ca + C + 3 × O.\nSubstitute: molar mass = 40 + 12 + 3 × 16 g/mol.\nOxygen contribution: 3 × 16 = 48 g/mol.\nSum: 40 + 12 + 48 = 100 g/mol.\nResult: 100 g/mol.\nClassic slip: counting only one oxygen, 40 + 12 + 16 = 68 g/mol, instead of the three oxygens in the formula."
     },
     {
       "n": 41,
       "derived": "A",
-      "text": "pH measures H⁺ concentration: 0.1 M HCl, being a strong acid, fully dissociates to give [H⁺] = 0.1 M, so pH = 1, the lowest on offer. 0.01 M HCl gives pH 2, and 0.1 M acetic acid dissociates only partially, landing near pH 2.9; pure water is neutral at pH 7 and 0.1 M NaOH is strongly alkaline (about pH 13)."
+      "text": "Given: 0.1 M HCl, 0.01 M HCl, 0.1 M CH₃COOH (weak acid), pure water, 0.1 M NaOH.\nRelationship: pH = −log[H⁺]; strong acids dissociate fully, weak acids only partially.\n0.1 M HCl: [H⁺] = 0.1 M, pH = −log(0.1) = 1.\n0.01 M HCl: [H⁺] = 0.01 M, pH = −log(0.01) = 2.\n0.1 M CH₃COOH: partial dissociation leaves [H⁺] well under 0.1 M, pH about 2.9.\nPure water: pH 7; 0.1 M NaOH: strongly basic, pH about 13.\nResult: the lowest pH is 1, given by 0.1 M HCl.\nClassic slip: choosing 0.1 M acetic acid by matching its concentration to 0.1 M HCl, forgetting that weak dissociation keeps its H⁺ far lower and its pH far higher."
     },
     {
       "n": 42,
@@ -224,7 +224,7 @@
     {
       "n": 45,
       "derived": "C",
-      "text": "Neutrons = mass number − atomic number = 14 − 6 = 8, since carbon always has 6 protons. The answer 14 mistakes the mass number for the neutron count, and 6 counts protons instead of neutrons."
+      "text": "Given: isotope ¹⁴C; mass number 14; carbon's atomic number 6, so 6 protons.\nRelationship: mass number = protons + neutrons, so neutrons = mass number − atomic number.\nSubstitute: neutrons = 14 − 6.\nResult: 8 neutrons.\nClassic slip: answering 6, the proton count, or 14, the mass number itself, instead of subtracting protons from the mass number."
     },
     {
       "n": 46,
@@ -239,67 +239,67 @@
     {
       "n": 48,
       "derived": "C",
-      "text": "A product is zero exactly when at least one factor is zero: x − 2 = 0 gives x = 2, and x + 3 = 0 gives x = −3, so both roots must be stated. Keeping only one of them discards a valid solution, and 6 or −6 satisfy no factor of this equation."
+      "text": "Givens: (x − 2)(x + 3) = 0.\nRule: a product equals zero exactly when at least one factor is zero.\nFirst factor zero: x − 2 = 0, so x = 2.\nSecond factor zero: x + 3 = 0, so x = −3.\nResult: x = 2 or x = −3.\nClassic slip: reporting only one root, such as stopping at x = 2, which throws away a second valid solution."
     },
     {
       "n": 49,
       "derived": "B",
-      "text": "Factorise: x² − 5x + 6 = (x − 2)(x − 3), so x = 2 or x = 3 (check: 2 + 3 = 5 and 2 × 3 = 6). The pair −2 and −3 would produce a middle term of +5x, and 1 and 6 multiply to 6 but sum to 7, not 5."
+      "text": "Given: x² − 5x + 6 = 0.\nRelationship: factorise as (x + p)(x + q) with p + q = −5 (middle coefficient) and p × q = +6 (constant).\nSearch the pair: −2 and −3 satisfy (−2) + (−3) = −5 and (−2) × (−3) = +6.\nFactorise: (x − 2)(x − 3) = 0, so x = 2 or x = 3.\nResult: x = 2 and x = 3.\nClassic slip: taking +2 and +3, which multiply to 6 but sum to +5, giving (x + 2)(x + 3) = x² + 5x + 6 with the wrong sign on the middle term."
     },
     {
       "n": 50,
       "derived": "C",
-      "text": "Multiply both sides of 3/x = 9 by x: 3 = 9x, hence x = 3/9 = 1/3. The value 27 comes from multiplying instead of dividing, and 3 from mishandling the fraction; substitution confirms 3 ÷ (1/3) = 9."
+      "text": "Given: 3/x = 9, with x ≠ 0.\nRelationship: multiply both sides by x to clear the fraction.\nSubstitute: (3/x) × x = 9 × x, so 3 = 9x.\nDivide both sides by 9: x = 3 ÷ 9 = 1/3.\nCheck: 3 ÷ (1/3) = 3 × 3 = 9.\nResult: x = 1/3.\nClassic slip: multiplying the 3 and 9 to get 27, the reverse of the required division."
     },
     {
       "n": 51,
       "derived": "B",
-      "text": "Step 1: subtract 1 from both sides to get −2x > 6. Step 2: divide by −2, which flips the inequality sign, giving x < −3 (check x = −4: −2(−4) + 1 = 9 > 7 holds, while x = 0 gives 1, which does not). Forgetting the sign flip produces the mirror-image wrong answers x > 3 or x > −3."
+      "text": "Given: −2x + 1 > 7.\nRelationship: solve like an equation, but dividing by a negative number flips the inequality sign.\nSubtract 1 from both sides: −2x > 7 − 1 = 6.\nDivide both sides by −2 and flip: x < 6 ÷ (−2), so x < −3.\nCheck: x = −4 gives −2 × (−4) + 1 = 9 > 7, true; x = 0 gives 1 > 7, false.\nResult: x < −3.\nClassic slip: dividing by −2 without flipping the sign, which gives x > −3, the mirror image of the true answer."
     },
     {
       "n": 52,
       "derived": "B",
-      "text": "Pythagoras' theorem gives hypotenuse = √(6² + 8²) = √(36 + 64) = √100 = 10, the classic 6-8-10 triple (a scaled 3-4-5 triangle). Any value below 10 cannot be the hypotenuse, since the hypotenuse must be the longest side of a right triangle."
+      "text": "Given: right triangle with legs 6 and 8.\nRelationship: Pythagoras' theorem, hypotenuse² = leg² + leg².\nSubstitute: c² = 6² + 8².\nSquares: 6² = 36 and 8² = 64, so c² = 36 + 64 = 100.\nRoot: c = √100 = 10.\nResult: the hypotenuse is 10 (the 6-8-10 triple, a scaled 3-4-5).\nClassic slip: adding the legs to get 14, treating the theorem as a sum of sides rather than a sum of squares."
     },
     {
       "n": 53,
       "derived": "B",
-      "text": "On the unit circle, or from a 30-60-90 triangle with sides 1, √3 and 2, sin 30° = opposite/hypotenuse = 1/2. The value √3/2 belongs to sin 60° (and to cos 30°), while 0 and 1 are the sines of 0° and 90°."
+      "text": "Given: angle 30°.\nRelationship: in a 30-60-90 triangle the sides opposite those angles are in the ratio 1 : √3 : 2, and sine = opposite ÷ hypotenuse.\nSubstitute: sin 30° = 1 ÷ 2.\nResult: sin 30° = 1/2.\nClassic slip: answering √3/2, which is sin 60° (also cos 30°), by swapping the two acute angles."
     },
     {
       "n": 54,
       "derived": "D",
-      "text": "Each of the 3 elements of A pairs with each of the 2 elements of B, so |A × B| = 3 × 2 = 6 ordered pairs: (1,a), (1,b), (2,a), (2,b), (3,a), (3,b). Adding the set sizes (3 + 2 = 5) confuses the size of a union with that of a Cartesian product, and 9 would be the size of A × A, not A × B."
+      "text": "Givens: A = {1, 2, 3} has 3 elements; B = {a, b} has 2 elements.\nRelationship: each element of A pairs with each element of B, so |A × B| = |A| × |B|.\nSubstitute: |A × B| = 3 × 2.\nCount: 3 × 2 = 6.\nEnumerate to confirm: (1,a), (1,b), (2,a), (2,b), (3,a), (3,b), six pairs.\nResult: 6 ordered pairs.\nClassic slip: adding the sizes, 3 + 2 = 5, which counts the union of the sets instead of the pairings."
     },
     {
       "n": 55,
       "derived": "C",
-      "text": "For uniform acceleration from rest, s = ½at² = ½ × 2 × 5² = ½ × 2 × 25 = 25 m. The 10 m answer is actually the speed reached after 5 s (v = at = 10 m/s) mistaken for a distance, and 50 m omits the factor ½."
+      "text": "Given: starts from rest (u = 0), acceleration a = 2 m/s², time t = 5 s.\nRelationship: distance under uniform acceleration from rest, s = ½ × a × t².\nSubstitute: s = ½ × 2 m/s² × (5 s)².\nSquare the time: (5 s)² = 25 s².\nMultiply: s = ½ × 2 × 25 = 25 m.\nResult: 25 m.\nClassic slip: dropping the ½ to get 50 m, or answering 10 m by mistaking the final speed (v = a × t = 2 × 5 = 10 m/s) for a distance."
     },
     {
       "n": 56,
       "derived": "B",
-      "text": "Series resistances add: R = 4 + 6 = 10 Ω. Ohm's law then gives I = V/R = 10 V ÷ 10 Ω = 1 A. The other answers come from dividing by a single resistor (10 V ÷ 4 Ω or 10 V ÷ 6 Ω) or from wrongly treating the resistors as parallel."
+      "text": "Given: R₁ = 4 Ω and R₂ = 6 Ω in series across V = 10 V.\nRelationship: series resistances add, R = R₁ + R₂; Ohm's law then gives I = V ÷ R.\nTotal resistance: R = 4 Ω + 6 Ω = 10 Ω.\nSubstitute: I = 10 V ÷ 10 Ω.\nCurrent: I = 1 A.\nResult: 1 A.\nClassic slip: dividing by just one resistor, 10 V ÷ 4 Ω ≈ 2.5 A, forgetting the current must pass through both."
     },
     {
       "n": 57,
       "derived": "D",
-      "text": "Ohm's law: R = V/I = 1.5 V ÷ 0.3 A = 5 Ω. The value 0.45 Ω comes from multiplying V by I (0.45 is actually the power in watts), and 0.2 from dividing I by V instead of V by I."
+      "text": "Given: cell voltage V = 1.5 V; current I = 0.3 A.\nRelationship: Ohm's law V = I × R, so R = V ÷ I.\nSubstitute: R = 1.5 V ÷ 0.3 A.\nDivide: 1.5 ÷ 0.3 = 15 ÷ 3 = 5.\nResult: R = 5 Ω.\nClassic slip: multiplying instead, V × I = 0.45, which is actually the power in watts (P = 1.5 × 0.3 = 0.45 W), not the resistance."
     },
     {
       "n": 58,
       "derived": "B",
-      "text": "Newton's second law: a = F/m = 10 N ÷ 2 kg = 5 m/s². Multiplying (giving 20 m/s²) or dividing the other way (giving 0.2 m/s²) misapplies the relation; since the surface is frictionless, the full 10 N accelerates the block."
+      "text": "Given: mass m = 2 kg; pushing force F = 10 N; frictionless surface.\nRelationship: Newton's second law F = m × a, so a = F ÷ m.\nSubstitute: a = 10 N ÷ 2 kg.\nDivide: a = 5 m/s².\nResult: 5 m/s².\nClassic slip: multiplying to get 20 m/s² (F × m) instead of dividing, or reading the 10 N force value as if it were already an acceleration."
     },
     {
       "n": 59,
       "derived": "C",
-      "text": "Gravitational potential energy gained = mgh = 5 kg × 9.8 m/s² × 2 m = 98 J. The 9.8 J value is just g in numeric form, and 49 J uses 5 × 9.8 but drops the 2 m height."
+      "text": "Given: mass m = 5 kg; height h = 2 m; g = 9.8 m/s².\nRelationship: gain in gravitational potential energy, PE = m × g × h.\nSubstitute: PE = 5 kg × 9.8 m/s² × 2 m.\nFirst hop: 5 × 9.8 = 49.\nSecond hop: 49 × 2 = 98, units J (kg·m²/s²).\nResult: 98 J.\nClassic slip: stopping after 5 × 9.8 = 49 J and dropping the 2 m height from the product."
     },
     {
       "n": 60,
       "derived": "C",
-      "text": "Weight is W = mg, so with the Moon's gravitational acceleration one sixth of Earth's, the astronaut's weight is likewise one sixth of its Earth value; mass stays the same, but weight scales with g. The 1/36 figure wrongly squares the factor, and weight on the Moon is reduced, not zero."
+      "text": "Given: Moon gravity g(Moon) = (1/6) × g(Earth); weight W = m × g.\nRelationship: the astronaut's mass m is unchanged, so weight scales directly with g.\nSubstitute: W(Moon) = m × (1/6) × g(Earth) = (1/6) × W(Earth).\nResult: the astronaut weighs 1/6 as much as on Earth.\nClassic slip: squaring the factor to get 1/36, which belongs to inverse-square distance laws, not to a direct proportionality with g."
     }
   ],
   "disagreements": [],
@@ -308,6 +308,7 @@
     "Q25: the option about skeletal attachments embeds its own justification (tendons are connective tissue, not muscle) in the option text itself, which partially gives away that it is the exception.",
     "Q15: the option 'Glycolysis-like reactions of the Calvin cycle only' is awkwardly worded and names no real pathway, but it is clearly not the intended answer; the ETC-with-chemiosmosis option is unambiguous.",
     "Q12: the stem's 'modern estimate' wording resolves the classic 36-38 vs 30-32 textbook conflict in favour of 30-32; the older figure appears only as a distractor.",
-    "Q39: the 24.0 L distractor corresponds to room-temperature conditions (about 25 °C), which the worked solution flags; the stem's 'standard value' wording makes 22.4 L unambiguous."
+    "Q39: the 24.0 L distractor corresponds to room-temperature conditions (about 25 °C), which the worked solution flags; the stem's 'standard value' wording makes 22.4 L unambiguous.",
+    "Rewrote the quantitative and logic solutions (section A logic items 4-9, chemistry calculations 33, 34, 35, 39, 40, 41, 45, and all of sections D and E) into step-by-step worked format per student feedback; all qualitative and recall texts kept unchanged."
   ]
 }

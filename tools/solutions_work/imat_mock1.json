@@ -19,32 +19,32 @@
   {
    "n": 4,
    "derived": "D",
-   "text": "Step 1: D must sit at one of the two ends. Step 2: E must sit somewhere to D's left, so D cannot take the left end, because then no seat would exist to the left of D for E. Therefore D is forced to the far right. Every other claim can fail in a valid arrangement: the A-B pair could start at seat 2 (leaving the far left free), E can occupy the far left end, and C only has to avoid sitting next to A, so none of those statements must be true."
+   "text": "Givens: B immediately right of A; C not adjacent to A; D at one of the two ends; E somewhere to the left of D.\nDeduction: D must occupy an end, so D sits far left or far right.\nDeduction: E requires a seat strictly to the left of D.\nDeduction: if D sat far left, no seat would exist to its left for E, contradicting the givens.\nConclusion: D is forced to the far right in every valid arrangement.\nTempting claim: that A sits at the far left fails because the pair A, B can start one seat in, as in the valid seating E, A, B, C, D."
   },
   {
    "n": 5,
    "derived": "B",
-   "text": "Some patients with disease Y have elevated marker M, and no patient with disease X has disease Y, so those M-positive Y patients cannot belong to X: hence some Y patients do not have X. The other conclusions all fail: people outside X and Y could also show elevated M (so elevated M does not imply X or Y), Y patients can clearly have elevated M, and nothing suggests X leads to Y. The valid core is a syllogism: some Y have M, X and Y are disjoint, therefore some Y are not X."
+   "text": "Givens: every disease X patient has elevated marker M; at least one disease Y patient has elevated M; no patient has both X and Y.\nDeduction: there exists at least one patient with disease Y and elevated M (stated directly).\nDeduction: that patient cannot have disease X, because X and Y never occur in the same patient.\nConclusion: some patients with disease Y do not have disease X, so this follows necessarily.\nTempting claim: that everyone with elevated M has X or Y fails because people with neither disease could also show elevated M; the givens never say M is exclusive to X and Y."
   },
   {
    "n": 6,
    "derived": "A",
-   "text": "Each letter of READING is shifted one place forward in the alphabet (R to S, E to F, A to B, D to E, I to J, N to O), keeping the split after three and six letters. Applying the same shift to MONKEY gives N, P, O, L, F, Z, that is NPO LFZ. A near miss such as NPO MFZ fails because K shifted one place forward is L, not M, so check every position rather than just the first few letters."
+   "text": "Givens: READING is encoded as SFB EJ OH; compare position by position.\nDeduction: R to S, E to F, A to B, D to E, I to J, N to O: every letter moves one place forward in the alphabet, and the break after three letters is kept.\nApply the same shift to MONKEY: M to N, O to P, N to O, K to L, E to F, Y to Z.\nConclusion: MONKEY becomes NPO LFZ.\nTempting claim: a variant like NPO MFZ fails at the fourth letter, because K shifted one forward is L, not M; check every position, not just the first few."
   },
   {
    "n": 7,
    "derived": "B",
-   "text": "The minute hand moves 6 degrees per minute, so at 15 minutes it sits at 90 degrees. The hour hand moves 0.5 degrees per minute: at 3:00 it is at 90 degrees and by 3:15 it has advanced 15 × 0.5 = 7.5 degrees, to 97.5 degrees. The angle between the hands is 97.5 - 90 = 7.5 degrees. The tempting error is answering 0 degrees by assuming the hands overlap at 3:15; they actually overlap only shortly after, at about 3:16."
+   "text": "Given: the clock reads 3:15; the minute hand sweeps 6° per minute and the hour hand 30° per hour, that is 0.5° per minute.\nRelationship: minute hand angle from 12 = minutes × 6°; hour hand angle = hours × 30° + minutes × 0.5°; the answer is the difference of the two.\nSubstitute: minute hand = 15 × 6° = 90°; hour hand = 3 × 30° + 15 × 0.5° = 90° + 7.5° = 97.5°.\nHop: 97.5° − 90° = 7.5°.\nResult: the angle between the hands is 7.5°.\nClassic slip: answering 0° assumes the hour hand sits exactly on the 3 mark at 3:15, but it has already crept 7.5° past it."
   },
   {
    "n": 8,
    "derived": "B",
-   "text": "If the day after tomorrow is Wednesday, today is Monday. Yesterday was therefore Sunday, and counting back three days from Sunday gives Saturday, Friday, Thursday, so the answer is Thursday. Sanity check forward: Thursday plus 3 days is Sunday (yesterday), plus one more day is Monday (today), plus two more is Wednesday (day after tomorrow)."
+   "text": "Givens: the day after tomorrow is Wednesday.\nDeduction: today is two days before Wednesday, so today is Monday.\nDeduction: yesterday was therefore Sunday.\nDeduction: counting back one day at a time from Sunday gives Saturday, then Friday, then Thursday.\nConclusion: three days before yesterday was Thursday.\nTempting claim: Friday fails by one day, from counting the three days back from today (Monday) instead of from yesterday (Sunday)."
   },
   {
    "n": 9,
    "derived": "C",
-   "text": "The gaps between successive terms are 4, 6, 8 and 10, each 2 larger than the previous, so the next gap is 12 and the next term is 30 + 12 = 42. Equivalently, the terms follow n(n+1): 1×2 = 2, 2×3 = 6, 3×4 = 12, 4×5 = 20, 5×6 = 30, so the sixth term is 6×7 = 42."
+   "text": "Given: the sequence 2, 6, 12, 20, 30, …\nRelationship: take successive differences to expose the growth pattern.\nHops: 6 − 2 = 4; 12 − 6 = 6; 20 − 12 = 8; 30 − 20 = 10.\nDeduction: each difference grows by 2, so the next difference is 10 + 2 = 12.\nCross-check: the terms are n × (n + 1), so the sixth term is 6 × 7 = 42.\nResult: 30 + 12 = 42.\nClassic slip: 40 reuses the last difference of 10 instead of extending the growing gaps."
   },
   {
    "n": 10,
@@ -164,7 +164,7 @@
   {
    "n": 33,
    "derived": "C",
-   "text": "Oxidation numbers sum to zero in a neutral molecule: 2(+1) for hydrogen plus x for sulfur plus 4(−2) for oxygen gives 2 + x − 8 = 0, so x = +6. The +2 distractor follows from wrongly taking each oxygen as −1 instead of −2, and +4 comes from miscounting the total oxygen contribution."
+   "text": "Given: H₂SO₄ is a neutral molecule; standard values H = +1 and O = −2; let x be the oxidation number of S.\nRelationship: oxidation numbers in a neutral molecule sum to 0.\nSubstitute: 2 × (+1) + x + 4 × (−2) = 0.\nHop: hydrogen gives 2 × (+1) = +2 and oxygen gives 4 × (−2) = −8, so 2 + x − 8 = 0.\nHop: x − 6 = 0.\nResult: x = +6.\nClassic slip: +2 comes from taking each oxygen as −1 instead of −2, and +4 from dropping one oxygen from the count."
   },
   {
    "n": 34,
@@ -174,12 +174,12 @@
   {
    "n": 35,
    "derived": "B",
-   "text": "pH is defined as −log[H⁺], so pH 3 means [H⁺] = 10⁻³ = 1 × 10⁻³ M. The 1 × 10⁻¹¹ M figure is the hydroxide concentration (pOH = 14 - 3 = 11), a classic mix-up, and no option with a factor of 3 belongs in the conversion since pH is a logarithmic scale."
+   "text": "Given: pH = 3 at 25 °C; definition pH = −log₁₀[H⁺].\nRelationship: inverting the logarithm gives [H⁺] = 10^(−pH).\nSubstitute: [H⁺] = 10^(−3) M.\nHop: 10^(−3) = 1/1000 = 0.001.\nResult: [H⁺] = 1 × 10⁻³ M.\nClassic slip: 1 × 10⁻¹¹ M is the hydroxide concentration (pOH = 14 − 3 = 11), the classic swap of H⁺ for OH⁻."
   },
   {
    "n": 36,
    "derived": "B",
-   "text": "A strong monoprotic acid dissociates completely, so 0.01 M HCl gives [H⁺] = 0.01 = 10⁻² M and pH = −log(10⁻²) = 2. The values 12 and 13 come from computing pOH-style numbers as if the solution were basic rather than acidic."
+   "text": "Given: strong monoprotic acid HCl at c = 0.01 M; a strong acid dissociates completely and releases one H⁺ per molecule.\nRelationship: [H⁺] = c, and pH = −log₁₀[H⁺].\nSubstitute: [H⁺] = 0.01 M = 10⁻² M, so pH = −log₁₀(10⁻²).\nHop: −log₁₀(10⁻²) = −(−2) = 2.\nResult: pH = 2.\nClassic slip: 12 or 13 runs the numbers as if for pOH (subtracting from 14); for an acid you take the negative logarithm of the hydrogen ion concentration directly."
   },
   {
    "n": 37,
@@ -189,7 +189,7 @@
   {
    "n": 38,
    "derived": "D",
-   "text": "A double covalent bond consists of two shared electron pairs, that is 2 × 2 = 4 electrons, as in the O=O bond or the C=O bonds of CO₂. Counting one pair gives 2, which describes a single bond, not a double one."
+   "text": "Given: a double covalent bond consists of two shared electron pairs.\nRelationship: each shared pair holds 2 electrons, so electrons shared = pairs × 2.\nSubstitute: 2 pairs × 2 electrons per pair.\nHop: 2 × 2 = 4.\nResult: 4 electrons are shared, as in the O=O double bond.\nClassic slip: 2 counts a single shared pair, which is the single-bond case."
   },
   {
    "n": 39,
@@ -199,7 +199,7 @@
   {
    "n": 40,
    "derived": "A",
-   "text": "Number of molecules = moles × Avogadro's number = 0.5 × 6.022 × 10²³ = 3.011 × 10²³, so approximately 3.01 × 10²³ molecules. The 6.02 × 10²³ answer forgets to halve the mole quantity, and 6.02 × 10²² is a factor-of-10 slip."
+   "text": "Given: n = 0.5 mol of N₂; Avogadro's number = 6.022 × 10²³ molecules per mol.\nRelationship: number of molecules = moles × Avogadro's number.\nSubstitute: N = 0.5 mol × 6.022 × 10²³ molecules/mol.\nHop: 6.022 × 10²³ × 0.5 = 3.011 × 10²³.\nResult: N ≈ 3.01 × 10²³ molecules.\nClassic slip: 6.02 × 10²³ forgets the 0.5 and answers for a full mole instead of half a mole."
   },
   {
    "n": 41,
@@ -214,7 +214,7 @@
   {
    "n": 43,
    "derived": "B",
-   "text": "By Le Chatelier's principle, raising the pressure at constant temperature shifts the equilibrium toward the side with fewer gas moles. The left side has 4 moles (1 N₂ + 3 H₂) and the right side has 2 (2 NH₃), so the balance moves right and more ammonia forms. Note the reaction's exothermicity is irrelevant here: pressure, not temperature, is what changes."
+   "text": "Givens: N₂(g) + 3H₂(g) ⇌ 2NH₃(g); pressure increased at constant temperature.\nDeduction: count gas moles on each side: left = 1 + 3 = 4 mol; right = 2 mol.\nDeduction: by Le Chatelier's principle, raising the pressure shifts the equilibrium toward the side with fewer gas moles.\nDeduction: 2 mol is fewer than 4 mol, so the balance moves to the right.\nConclusion: more NH₃ is produced (the exothermic ΔH plays no role, since temperature is unchanged).\nTempting claim: that nothing changes confuses the equilibrium position with the rate; the shift happens precisely because the two sides hold different mole counts."
   },
   {
    "n": 44,
@@ -224,7 +224,7 @@
   {
    "n": 45,
    "derived": "C",
-   "text": "Alkanes follow the formula CnH2n+2: for n = 4 this predicts C₄H₁₀ (butane), which matches exactly. C₂H₄ and C₃H₆ fit CnH2n (alkenes or cycloalkanes), C₂H₂ fits CnH2n−2 (alkyne), and C₆H₆ is aromatic benzene, so none of those is a saturated alkane."
+   "text": "Given: alkanes follow the general formula CnH2n+2; candidates are C₂H₄, C₃H₆, C₄H₁₀, C₆H₆ and C₂H₂.\nRelationship: a formula is an alkane only if its hydrogen count equals 2 × (carbon count) + 2.\nHops: C₂H₄: 2 × 2 + 2 = 6, not 4; C₃H₆: 2 × 3 + 2 = 8, not 6; C₄H₁₀: 2 × 4 + 2 = 10, an exact match.\nResult: C₄H₁₀ (butane) is the alkane.\nRemaining check: C₂H₂ fits CnH2n−2 (an alkyne) and C₆H₆ is aromatic benzene, so neither qualifies.\nClassic slip: accepting C₃H₆ as an alkane by eye; it satisfies CnH2n, the alkene or cycloalkane family, not the alkane rule."
   },
   {
    "n": 46,
@@ -234,72 +234,72 @@
   {
    "n": 47,
    "derived": "C",
-   "text": "Molarity = moles of solute ÷ litres of solution = 0.2 mol ÷ 0.500 L = 0.4 M. The 0.2 M figure skips the division by the 0.5 L volume, so convert millilitres to litres before dividing."
+   "text": "Given: moles of NaCl = 0.2 mol; final solution volume = 500 mL.\nRelationship: molarity c = moles of solute ÷ volume of solution in litres.\nConvert: 500 mL = 500 ÷ 1000 = 0.500 L.\nSubstitute: c = 0.2 mol ÷ 0.500 L.\nHop: 0.2 ÷ 0.5 = 0.4.\nResult: c = 0.4 M.\nClassic slip: 0.2 M quotes the mole amount without ever dividing by the volume; the litres conversion must come first."
   },
   {
    "n": 48,
    "derived": "D",
-   "text": "Step 1: square both sides: 2x − 1 = 9. Step 2: solve: 2x = 10, so x = 5. Check: √(2×5 − 1) = √9 = 3, and the domain condition 2x − 1 ≥ 0 is satisfied. Any smaller listed value leaves the expression under the root unequal to 9."
+   "text": "Given: √(2x − 1) = 3; the expression under the root must be ≥ 0.\nRelationship: squaring both sides removes the root, since (√a)² = a.\nSubstitute: (√(2x − 1))² = 3² gives 2x − 1 = 9.\nHop: 2x = 9 + 1 = 10.\nHop: x = 10 ÷ 2 = 5.\nCheck: √(2 × 5 − 1) = √9 = 3, as required.\nResult: x = 5.\nClassic slip: an unchecked value such as x = 4 leaves √7 on the left instead of 3; always substitute back into the original equation."
   },
   {
    "n": 49,
    "derived": "B",
-   "text": "Rearrange: 2x − 5 < 3x + 1 gives −5 - 1 < 3x - 2x, so −6 < x, that is x > −6. No sign flip is needed because nothing is divided by a negative number; the answer x < −6 incorrectly reverses the inequality."
+   "text": "Given: 2x − 5 < 3x + 1.\nRelationship: collect x on one side and numbers on the other; the sign flips only when both sides are divided by a negative number.\nHop: subtract 2x from both sides: −5 < x + 1.\nHop: subtract 1 from both sides: −6 < x.\nResult: −6 < x, written with x first as x > −6.\nClassic slip: x < −6 flips the inequality for no reason, as if a negative divisor had appeared; no division occurred, so the direction never changes."
   },
   {
    "n": 50,
    "derived": "B",
-   "text": "Angles in a triangle sum to 180 degrees, so the third angle is 180 - 50 - 60 = 70 degrees."
+   "text": "Given: two angles of the triangle, 50° and 60°.\nRelationship: interior angles of a triangle sum to 180°, so the third angle = 180° − 50° − 60°.\nSubstitute: third = 180° − 50° − 60°.\nHop: 50° + 60° = 110°.\nHop: 180° − 110° = 70°.\nResult: the third angle is 70°.\nClassic slip: 80° comes from adding the two given angles as 100° instead of 110° before subtracting from 180°."
   },
   {
    "n": 51,
    "derived": "C",
-   "text": "Substitute x = 2: f(2) = 2(2²) − 3(2) + 1 = 8 - 6 + 1 = 3."
+   "text": "Given: f(x) = 2x² − 3x + 1; evaluate at x = 2.\nRelationship: replace every x by 2: f(2) = 2 × (2)² − 3 × 2 + 1.\nHop: (2)² = 4, so the first term is 2 × 4 = 8.\nHop: the second term is 3 × 2 = 6.\nHop: 8 − 6 + 1 = 2 + 1 = 3.\nResult: f(2) = 3.\nClassic slip: 2 forgets the constant +1 and stops at 8 − 6; carry every term of the function."
   },
   {
    "n": 52,
    "derived": "C",
-   "text": "Area of a circle = πr² = 3.14 × 5² = 3.14 × 25 = 78.5 cm². The 31.4 figure is actually the circumference (2πr = 2 × 3.14 × 5) wearing area units, and 62.8 is simply double that, so both come from mixing up the circle formulas."
+   "text": "Given: radius r = 5 cm; π = 3.14.\nRelationship: area of a circle A = πr².\nSubstitute: A = 3.14 × (5 cm)².\nHop: (5 cm)² = 25 cm².\nHop: 3.14 × 25 = 78.5.\nResult: A = 78.5 cm².\nClassic slip: 31.4 cm² is the circumference 2 × 3.14 × 5 wearing area units, from never squaring the radius."
   },
   {
    "n": 53,
    "derived": "B",
-   "text": "There are 3 + 2 = 5 balls in total and 2 of them are blue, so P(blue) = 2/5. The 3/5 figure is the probability of the complementary event, drawing a red ball."
+   "text": "Given: 3 red balls and 2 blue balls; one ball drawn at random.\nRelationship: probability = favourable outcomes ÷ total outcomes.\nSubstitute: total = 3 + 2 = 5; favourable (blue) = 2.\nHop: P(blue) = 2 ÷ 5 = 2/5.\nResult: the probability of drawing a blue ball is 2/5.\nClassic slip: 3/5 is the complementary event, drawing red, from placing the red count on top."
   },
   {
    "n": 54,
    "derived": "D",
-   "text": "Step 1: the diagonal, length and width form a right triangle: 13² = 12² + w², so w² = 169 - 144 = 25 and w = 5 cm (the 5-12-13 Pythagorean triple). Step 2: perimeter = 2 × (12 + 5) = 34 cm. The 24 cm figure comes from doubling only the length and forgetting the width entirely."
+   "text": "Given: length l = 12 cm; diagonal d = 13 cm; the diagonal, the length and the width form a right triangle.\nRelationship: Pythagoras, d² = l² + w², so w = √(d² − l²).\nSubstitute: w = √(13² − 12²) cm.\nHops: 13² = 169; 12² = 144; 169 − 144 = 25; √25 = 5, so w = 5 cm.\nRelationship: perimeter = 2 × (l + w).\nSubstitute: 2 × (12 + 5) cm = 2 × 17 cm.\nHop: 2 × 17 = 34.\nResult: the perimeter is 34 cm.\nClassic slip: 24 cm doubles only the length and never finds the width; both dimensions are needed."
   },
   {
    "n": 55,
    "derived": "A",
-   "text": "Speed = 120 km ÷ 2 h = 60 km/h; converting with 1 km/h = 1000 m ÷ 3600 s gives 60 × 1000/3600 ≈ 16.7 m/s. The 33.3 m/s figure results from dividing 120 000 m by only 3600 s, forgetting that the trip lasted two hours, and 60 m/s mistakes the km/h number for a value in m/s."
+   "text": "Given: distance s = 120 km; time t = 2 h; constant velocity.\nRelationship: speed v = s ÷ t; convert with 1 km = 1000 m and 1 h = 3600 s.\nSubstitute: v = 120 km ÷ 2 h = 60 km/h.\nConvert: 60 km/h = 60 × 1000 m ÷ 3600 s = 60 000 m ÷ 3600 s.\nHop: 60 000 ÷ 3600 = 16.666… ≈ 16.7.\nResult: v ≈ 16.7 m/s.\nClassic slip: 60 m/s just relabels the km/h figure, forgetting that 1 km/h is only 1000/3600 ≈ 0.28 m/s."
   },
   {
    "n": 56,
    "derived": "A",
-   "text": "Step 1: for parallel resistors, 1/R = 1/2 + 1/3 + 1/6. Step 2: with common denominator 6: (3 + 2 + 1)/6 = 6/6 = 1, so R = 1 Ω. Adding the resistances to get 11 Ω is the series rule and does not apply; a parallel equivalent is always smaller than the smallest individual resistor."
+   "text": "Given: three resistors in parallel, 2 Ω, 3 Ω and 6 Ω.\nRelationship: for a parallel combination, 1/R = 1/R₁ + 1/R₂ + 1/R₃.\nSubstitute: 1/R = 1/2 + 1/3 + 1/6 (in 1/Ω).\nHop: with common denominator 6: 3/6 + 2/6 + 1/6 = 6/6 = 1.\nHop: invert: R = 1 ÷ 1 = 1 Ω.\nResult: R = 1 Ω.\nClassic slip: 11 Ω adds the resistances, which is the series rule; a parallel equivalent must come out smaller than the smallest branch (here smaller than 2 Ω)."
   },
   {
    "n": 57,
    "derived": "C",
-   "text": "Power dissipated by a resistor is P = I²R = 2² × 5 = 4 × 5 = 20 W. The 10 W figure is just the voltage drop (IR = 2 × 5 = 10 V), which is a voltage in volts, not a power in watts."
+   "text": "Given: current I = 2 A; resistance R = 5 Ω.\nRelationship: power dissipated in a resistor P = I²R.\nSubstitute: P = (2 A)² × 5 Ω.\nHop: (2 A)² = 4 A².\nHop: 4 × 5 = 20.\nResult: P = 20 W.\nClassic slip: 10 W stops at the voltage drop V = IR = 2 × 5 = 10 V and calls it watts; the power needs the extra factor of current."
   },
   {
    "n": 58,
    "derived": "C",
-   "text": "The upward push of the table on the book and the downward push of the book on the table form an action-reaction pair on two different bodies, which is Newton's third law. The first law only explains why the book stays at rest under zero net force; it does not pair the two forces together."
+   "text": "Givens: a book rests on a table; the force asked about is the table's push up on the book.\nDeduction: Newton's third law pairs two forces that act on different bodies, equal in size and opposite in direction.\nDeduction: the upward push of table on book is paired with the equal downward push of book on table.\nConclusion: this reaction force is an example of Newton's third law.\nTempting claim: the first law only explains why the book stays at rest under zero net force; it pairs no forces, and the book's weight pairs with the Earth, not with the table's push."
   },
   {
    "n": 59,
    "derived": "D",
-   "text": "Gravitational force scales as the inverse square of the distance: with r replaced by r/2, F' = Gm₁m₂/(r/2)² = 4 × Gm₁m₂/r² = 4F. The 2F answer comes from inverting the distance once instead of squaring the inversion."
+   "text": "Given: F = Gm₁m₂/r²; new distance r/2; masses unchanged.\nRelationship: substitute the new distance into the inverse-square law.\nSubstitute: F' = Gm₁m₂ ÷ (r/2)².\nHop: (r/2)² = r²/4, so F' = Gm₁m₂ ÷ (r²/4) = 4 × Gm₁m₂/r².\nResult: F' = 4F.\nClassic slip: 2F inverts the distance only once (multiplying by 2) instead of squaring the inversion (multiplying by 4); the square in the denominator applies to the halved distance as well."
   },
   {
    "n": 60,
    "derived": "D",
-   "text": "Gauge pressure P = ρgh = 1000 kg/m³ × 9.8 m/s² × 10 m = 98 000 Pa. Gauge pressure excludes atmospheric pressure, so nothing is added on top. The 980 Pa figure is two orders of magnitude low and 980 000 Pa is a factor-of-10 overshoot, both unit-handling slips."
+   "text": "Given: ρ = 1000 kg/m³; g = 9.8 m/s²; depth h = 10 m; gauge pressure asked.\nRelationship: gauge pressure P = ρgh; gauge values exclude atmospheric pressure, so nothing is added.\nSubstitute: P = 1000 kg/m³ × 9.8 m/s² × 10 m.\nHop: 1000 × 9.8 = 9800.\nHop: 9800 × 10 = 98 000.\nResult: P = 98 000 Pa.\nClassic slip: 980 000 Pa slips in an extra factor of ten, and 980 Pa is two powers of ten low; track the magnitude of all three factors."
   }
  ],
  "disagreements": [],
@@ -311,6 +311,7 @@
   "Question 28's stem is awkwardly phrased ('Which bone of the upper limb is the humerus? It is the:') but the intent is unambiguous.",
   "Question 31 assumes standard ABO genetics without rare phenotypes (e.g. Bombay), which is the intended reading.",
   "Question 11 asks for net ATP from substrate-level phosphorylation in glycolysis (2); if gross production had been intended the answer would be 4, but the stored key correctly reflects 'net'.",
-  "The 'perm' arrays stored in the bank are consistent with the stored answer letters and were not needed for derivation; the PDF printer should apply them so the printed correct letter matches the stamp."
+  "The 'perm' arrays stored in the bank are consistent with the stored answer letters and were not needed for derivation; the PDF printer should apply them so the printed correct letter matches the stamp.",
+  "Worked-solution rewrite (2026-09-26): 27 texts rewritten into step-by-step format: section A logic items 4 to 9, section C calculations 33, 35, 36, 38, 40, 43, 45 and 47, all section D items 48 to 54, and all section E items 55 to 60. Reading and GK items 1 to 3, all of section B (10 to 32), and section C theory items 34, 37, 39, 41, 42, 44 and 46 keep their previous texts unchanged. All 27 rewritten items were re-derived from the stems and match the stored keys."
  ]
 }

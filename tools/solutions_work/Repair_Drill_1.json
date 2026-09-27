@@ -154,42 +154,42 @@
     {
       "n": 31,
       "derived": "D",
-      "text": "Step 1: oxidation numbers in H2SO4 sum to 0, with H at +1 and O at -2, so 2(+1) + S + 4(-2) = 0. Step 2: S = 8 - 2 = +6. Step 3: sulfur sits in Period 3, Group 16, directly below oxygen; assigning it to Group 17 confuses it with chlorine, the halogen of that row."
+      "text": "Given: H₂SO₄ is a neutral molecule; H is +1, O is −2.\nRelationship: oxidation numbers in a neutral compound sum to 0: 2(+1) + S + 4(−2) = 0.\nSubstitute: 2 + S + (−8) = 0.\nS − 6 = 0.\nS = +6.\nPosition: sulfur is in Period 3, Group 16, directly below oxygen.\nResult: oxidation number +6; Period 3, Group 16.\nClassic slip: pairing +6 with Period 3 Group 17 moves sulfur into chlorine's halogen slot; Group 16 sits one column to the left."
     },
     {
       "n": 32,
       "derived": "A",
-      "text": "In KMnO4 potassium is +1 and oxygen is -2, so (+1) + Mn + 4(-2) = 0 and Mn = +7. The +8 answer omits potassium's +1 from the sum, and +2 is the state of the Mn2+ ion produced when permanganate acts as an oxidising agent, not its state inside the ion."
+      "text": "Given: KMnO₄ is a neutral compound; K is +1, O is −2.\nRelationship: oxidation numbers in a neutral compound sum to 0: (+1) + Mn + 4(−2) = 0.\nSubstitute: +1 + Mn + (−8) = 0.\nMn − 7 = 0.\nMn = +7.\nResult: +7.\nClassic slip: +8 balances the four oxygens alone and drops potassium's +1 from the sum, and +2 is only the state of the Mn²⁺ ion produced when permanganate is reduced."
     },
     {
       "n": 33,
       "derived": "C",
-      "text": "Zinc goes from 0 to +2 in ZnSO4, losing electrons, so zinc is oxidised and acts as the reducing agent. Copper goes from +2 in Cu2+ to 0 as metal, gaining those electrons, so Cu2+ is reduced. Pairing 'loses electrons' with 'reduced' is self-contradictory, and copper metal is the product, not the reducing agent."
+      "text": "Given: Zn + CuSO₄ → ZnSO₄ + Cu; zinc starts as metal (0), copper starts as Cu²⁺ (+2).\nRelationship: track oxidation numbers; losing electrons is oxidation, gaining electrons is reduction, and the reducing agent is the species that is oxidised.\nStep 1: Zn goes 0 → +2, so zinc loses 2 electrons: oxidised, hence the reducing agent.\nStep 2: Cu²⁺ goes +2 → 0, so copper gains 2 electrons: reduced.\nResult: Cu²⁺ is reduced because it gains electrons.\nClassic slip: calling zinc 'reduced because it gains electrons' inverts the electron bookkeeping, since electron loss defines oxidation."
     },
     {
       "n": 34,
       "derived": "E",
-      "text": "pH = -log[H+], so pH 4.0 gives [H+] = 10^-4 = 1.0 x 10^-4 mol dm^-3. The value 1.0 x 10^-10 mol dm^-3 is the hydroxide concentration instead, since pOH = 14 - 4 = 10, and 10^-3 would correspond to pH 3."
+      "text": "Given: pH = 4.0.\nRelationship: pH = −log₁₀[H⁺], so the concentration is 10 raised to minus the pH.\nSubstitute: [H⁺] = 10⁻⁴ mol dm⁻³.\n10⁻⁴ = 1.0 × 10⁻⁴ mol dm⁻³.\nResult: 1.0 × 10⁻⁴ mol dm⁻³.\nClassic slip: 1.0 × 10⁻¹⁰ mol dm⁻³ is the hydroxide concentration instead, since pOH = 14 − 4 = 10."
     },
     {
       "n": 35,
       "derived": "B",
-      "text": "Step 1: pOH = -log(1.0 x 10^-4) = 4. Step 2: at 25 C, pH + pOH = 14, so pH = 14 - 4 = 10. Reporting 4 quotes the pOH, and 7 would need a neutral solution with [OH-] = 10^-7 mol dm^-3."
+      "text": "Given: [OH⁻] = 1.0 × 10⁻⁴ mol dm⁻³ at 25 °C, where Kw = 1.0 × 10⁻¹⁴ mol² dm⁻⁶.\nRelationship: pOH = −log₁₀[OH⁻], and pH + pOH = 14 because Kw = [H⁺][OH⁻] = 10⁻¹⁴.\nSubstitute: pOH = −log₁₀(1.0 × 10⁻⁴) = 4.\npH = 14 − 4.\npH = 10.\nResult: pH = 10.\nClassic slip: answering 4 reports the pOH itself, and 7 would need the neutral [OH⁻] of 10⁻⁷ mol dm⁻³."
     },
     {
       "n": 36,
       "derived": "D",
-      "text": "HCl is a strong monoprotic acid and dissociates completely, so [H+] = 0.001 = 10^-3 mol dm^-3 and pH = -log(10^-3) = 3. The value 11 is 14 - 3, which is the pOH of the solution, and -3 is the logarithm with the sign slipped."
+      "text": "Given: HCl at 0.001 mol dm⁻³, a strong monoprotic acid.\nRelationship: a strong acid dissociates completely, so [H⁺] equals the acid concentration; pH = −log₁₀[H⁺].\nSubstitute: [H⁺] = 0.001 mol dm⁻³ = 1 × 10⁻³ mol dm⁻³.\npH = −log₁₀(10⁻³).\npH = 3.\nResult: pH = 3.\nClassic slip: 11 equals 14 − 3 and is the pOH of this solution, while −3 is the logarithm with its sign dropped."
     },
     {
       "n": 37,
       "derived": "A",
-      "text": "Step 1: moles of O2 = 22.4 dm3 / 22.4 dm3 mol-1 = 1 mol. Step 2: molecules = 1 mol x 6.02 x 10^23 mol-1 = 6.02 x 10^23 molecules. Doubling to 1.204 x 10^24 assumes 2 mol of gas, and multiplying Avogadro's number by 22.4 treats a molar volume as a mole count."
+      "text": "Given: V = 22.4 dm³ of O₂ at STP; molar volume = 22.4 dm³ mol⁻¹; Avogadro constant = 6.02 × 10²³ mol⁻¹.\nRelationship: moles n = V ÷ molar volume; number of molecules = n × Avogadro constant.\nSubstitute: n = 22.4 dm³ ÷ 22.4 dm³ mol⁻¹ = 1 mol.\nmolecules = 1 mol × 6.02 × 10²³ mol⁻¹.\nResult: 6.02 × 10²³ molecules.\nClassic slip: doubling to 1.204 × 10²⁴ assumes 2 mol of gas, and 1.35 × 10²⁵ comes from multiplying 6.02 × 10²³ by 22.4 as if the molar volume were a mole count."
     },
     {
       "n": 38,
       "derived": "C",
-      "text": "Step 1: 250 cm3 = 0.250 dm3. Step 2: concentration = 0.5 mol / 0.250 dm3 = 2.0 mol dm-3. The 0.125 answer multiplies by the volume instead of dividing, and 0.5 mol dm-3 ignores that the solution was diluted up to 250 cm3."
+      "text": "Given: n = 0.5 mol of NaOH; final solution volume 250 cm³.\nRelationship: concentration c = n ÷ V, with V converted to dm³ (1 dm³ = 1000 cm³).\nSubstitute: V = 250 cm³ ÷ 1000 = 0.250 dm³.\nc = 0.5 mol ÷ 0.250 dm³.\nc = 2.0 mol dm⁻³.\nResult: 2.0 mol dm⁻³.\nClassic slip: 0.125 mol dm⁻³ multiplies by the volume (0.5 × 0.25) instead of dividing by it, and 0.5 mol dm⁻³ ignores the made-up-to-250 cm³ dilution."
     },
     {
       "n": 39,
@@ -199,12 +199,12 @@
     {
       "n": 40,
       "derived": "B",
-      "text": "Step 1: convert to kelvin: T1 = 27 + 273 = 300 K and T2 = -73 + 273 = 200 K. Step 2: V2 = 9.0 x (200/300) = 6.0 dm3. Inserting the Celsius readings directly produces the negative volume, and cooling at constant pressure must shrink the gas, so expansion answers like 13.5 dm3 are impossible."
+      "text": "Given: V₁ = 9.0 dm³ at T₁ = 27 °C; cooled to T₂ = −73 °C; pressure constant.\nRelationship: Charles's law, V₁/T₁ = V₂/T₂, with all temperatures in kelvin (K = °C + 273).\nSubstitute: T₁ = 27 + 273 = 300 K; T₂ = −73 + 273 = 200 K.\nV₂ = 9.0 dm³ × (200 ÷ 300).\n200 ÷ 300 = 2/3, so V₂ = 9.0 × 2/3 dm³.\nV₂ = 6.0 dm³.\nResult: 6.0 dm³.\nClassic slip: inserting the Celsius readings directly gives a negative volume (−24.3 dm³), impossible for a gas, and any expansion contradicts cooling at constant pressure."
     },
     {
       "n": 41,
       "derived": "D",
-      "text": "Boyle's law at constant temperature: P1V1 = P2V2, so V2 = 500 x (100/250) = 200 cm3. Raising the pressure must compress the gas, so the 1250 cm3 answer, which multiplies by the inverted ratio 250/100, contradicts that, and 250 cm3 would only fit a doubling of the pressure."
+      "text": "Given: V₁ = 500 cm³ at P₁ = 100 kPa; P₂ = 250 kPa; temperature constant.\nRelationship: Boyle's law, P₁V₁ = P₂V₂, so V₂ = P₁ × V₁ ÷ P₂.\nSubstitute: V₂ = 100 kPa × 500 cm³ ÷ 250 kPa.\n100 × 500 = 50,000.\n50,000 ÷ 250 = 200 cm³.\nResult: 200 cm³.\nClassic slip: 1250 cm³ multiplies by the inverted pressure ratio (250 ÷ 100) even though raising the pressure must compress the gas, never expand it."
     },
     {
       "n": 42,
@@ -219,122 +219,122 @@
     {
       "n": 44,
       "derived": "E",
-      "text": "Step 1: reverse the second equation to CO2 -> CO + 1/2 O2, flipping its enthalpy change to +283 kJ mol-1. Step 2: add it to C(s) + O2 -> CO2 (enthalpy -394 kJ mol-1); O2 and CO2 cancel, leaving C(s) + 1/2 O2 -> CO. Step 3: the total is -394 + 283 = -111 kJ mol-1. The -677 figure adds both given values without reversing the second equation, forgetting the sign flip."
+      "text": "Given: C(s) + O₂(g) → CO₂(g) with ΔH = −394 kJ mol⁻¹; CO(g) + ½O₂(g) → CO₂(g) with ΔH = −283 kJ mol⁻¹.\nTarget: ΔH for C(s) + ½O₂(g) → CO(g).\nRelationship: Hess's law; reversing an equation flips the sign of its ΔH, and combined equations add their ΔH values.\nStep 1: reverse the second equation: CO₂(g) → CO(g) + ½O₂(g), ΔH = +283 kJ mol⁻¹.\nStep 2: add it to the first equation; CO₂ cancels and 1 O₂ − ½ O₂ = ½ O₂ remains as reactant.\nStep 3: the net equation is C(s) + ½O₂(g) → CO(g), so add the enthalpies: −394 + 283.\nΔH = −111 kJ mol⁻¹.\nResult: −111 kJ mol⁻¹.\nClassic slip: −677 kJ mol⁻¹ adds both given values without reversing the second equation and flipping its sign."
     },
     {
       "n": 45,
       "derived": "B",
-      "text": "Step 1: square both sides: 3x - 2 = 16. Step 2: add 2 and divide by 3: x = 18/3 = 6. Step 3: check: the square root of (18 - 2) is 4, so it is valid. The 14/3 result comes from writing 3x = 16 - 2, subtracting the 2 after squaring instead of adding it."
+      "text": "Given: √(3x − 2) = 4.\nRelationship: square both sides to remove the root (both sides are non-negative, so nothing is lost), then solve the linear equation.\nSubstitute: (√(3x − 2))² = 4².\n3x − 2 = 16.\n3x = 16 + 2 = 18.\nx = 18 ÷ 3 = 6.\nCheck: √(3 × 6 − 2) = √16 = 4, valid.\nResult: x = 6.\nClassic slip: x = 14/3 comes from writing 3x = 16 − 2, subtracting the 2 after squaring instead of adding it."
     },
     {
       "n": 46,
       "derived": "D",
-      "text": "Step 1: square both sides: x + 6 = x^2, so x^2 - x - 6 = 0. Step 2: factorise: (x - 3)(x + 2) = 0, giving candidates x = 3 and x = -2. Step 3: substitute back: the square root of 9 is 3, which works, but the square root of 4 is 2, never -2, so -2 is extraneous and x = 3 is the only valid solution. Listing both candidates skips this essential check."
+      "text": "Given: √(x + 6) = x.\nRelationship: square both sides, solve the quadratic, then substitute every candidate back, because squaring can manufacture roots the original rejects.\nSubstitute: x + 6 = x².\nRearrange: x² − x − 6 = 0.\nFactorise: (x − 3)(x + 2) = 0, so x = 3 or x = −2.\nCheck x = 3: √(3 + 6) = √9 = 3, valid.\nCheck x = −2: √(−2 + 6) = √4 = 2, never −2, so it is extraneous.\nResult: x = 3 only.\nClassic slip: reporting both candidates forgets that a square root can never equal a negative number."
     },
     {
       "n": 47,
       "derived": "A",
-      "text": "Step 1: subtract 5: -3x >= 15. Step 2: divide both sides by -3, which flips the inequality sign: x <= -5. Keeping the direction (x >= -5) is the classic sign-flip error, and using a strict < loses the inclusive boundary of the original >=."
+      "text": "Given: 5 − 3x ≥ 20.\nRelationship: isolate x; dividing an inequality by a negative number flips its direction.\nStep 1: subtract 5: −3x ≥ 20 − 5.\n−3x ≥ 15.\nStep 2: divide both sides by −3 and flip ≥ to ≤.\nx ≤ 15 ÷ (−3).\nx ≤ −5.\nResult: x ≤ −5.\nClassic slip: x ≥ −5 keeps the old direction and skips the flip, and a strict x < −5 would drop the inclusive boundary the original ≥ carries."
     },
     {
       "n": 48,
       "derived": "C",
-      "text": "Step 1: subtract 7: -2x > 8. Step 2: divide by -2 and flip the sign: x < -4. The answer x > -4 forgets the flip, and x < -11 comes from adding 7 to the right side (giving -2x > 22) instead of subtracting it."
+      "text": "Given: −2x + 7 > 15.\nRelationship: isolate x; dividing by a negative number flips the inequality.\nStep 1: subtract 7: −2x > 15 − 7.\n−2x > 8.\nStep 2: divide both sides by −2 and flip > to <.\nx < 8 ÷ (−2).\nx < −4.\nResult: x < −4.\nClassic slip: x > −4 forgets the flip, and x < −11 comes from moving the 7 the wrong way, giving −2x > 22."
     },
     {
       "n": 49,
       "derived": "E",
-      "text": "Substitute x = 2: f(2) = 3(2)^2 - 4(2) + 5 = 12 - 8 + 5 = 9. The value 13 treats -4x as -4 after substituting, and 33 comes from squaring the whole coefficient term as (3x)^2 = 36 instead of 3x^2 = 12."
+      "text": "Given: f(x) = 3x² − 4x + 5, evaluated at x = 2.\nRelationship: substitute into each term, squaring before multiplying.\nSubstitute: f(2) = 3 × 2² − 4 × 2 + 5.\n2² = 4, so the first term is 3 × 4 = 12.\nThe second term is 4 × 2 = 8.\nf(2) = 12 − 8 + 5.\nf(2) = 4 + 5 = 9.\nResult: f(2) = 9.\nClassic slip: 13 treats −4x as a bare −4 after substituting, and 33 squares the coefficient too, as (3 × 2)² = 36 instead of 3 × 2² = 12."
     },
     {
       "n": 50,
       "derived": "B",
-      "text": "The ladder is the hypotenuse, so height^2 = 15^2 - 9^2 = 225 - 81 = 144 and the height is 12 m (a scaled 3-4-5 triple). Adding the squares, the square root of (225 + 81) is about 17.5 m, which would make the wall the hypotenuse and contradicts the ladder leaning against it."
+      "text": "Given: ladder 15 m (hypotenuse), foot 9 m from the wall, wall height h unknown.\nRelationship: Pythagoras, hypotenuse² = base² + height², so h = √(15² − 9²).\nSubstitute: h = √(225 − 81) m.\nh = √144 m.\nh = 12 m.\nResult: 12 m.\nClassic slip: 17.5 m adds the squares, √(225 + 81), treating the wall as the hypotenuse when the ladder is; the scaled 3-4-5 triple 9-12-15 confirms 12 m."
     },
     {
       "n": 51,
       "derived": "D",
-      "text": "Step 1: the diagonal is the hypotenuse, so the missing side = square root of (34^2 - 16^2) = square root of (1156 - 256) = 30 cm (a doubled 8-15-17 triple). Step 2: perimeter = 2 x (16 + 30) = 92 cm. Using the diagonal as if it were a side gives 2 x (16 + 34) = 100 cm, and forgetting to double (16 + 30) gives 46 cm."
+      "text": "Given: rectangle width 16 cm, diagonal 34 cm.\nRelationship: the width, height and diagonal form a right triangle: height = √(34² − 16²); perimeter = 2 × (width + height).\nSubstitute: 34² = 1156 and 16² = 256.\nheight = √(1156 − 256) cm.\nheight = √900 cm = 30 cm.\nperimeter = 2 × (16 + 30) cm = 2 × 46 cm.\nperimeter = 92 cm.\nResult: 92 cm.\nClassic slip: 100 cm treats the diagonal as the second side, 2 × (16 + 34), and 46 cm forgets to double the half-perimeter."
     },
     {
       "n": 52,
       "derived": "A",
-      "text": "Step 1: expand both terms: 4x - 8 = 2x + 2. Step 2: 2x = 10, so x = 5. Step 3: check 4(5 - 2) = 12 and 2(5) + 2 = 12. The answer x = 2 comes from distributing the 4 to only one term inside the bracket (writing 4x - 2), and x = 4 from an arithmetic slip in the expansion."
+      "text": "Given: 4(x − 2) = 2x + 2.\nRelationship: expand the bracket so the 4 multiplies both terms inside, then collect x on one side.\nSubstitute (expand): 4x − 8 = 2x + 2.\nSubtract 2x from both sides: 2x − 8 = 2.\nAdd 8 to both sides: 2x = 10.\nx = 10 ÷ 2 = 5.\nCheck: 4(5 − 2) = 12 and 2 × 5 + 2 = 12.\nResult: x = 5.\nClassic slip: x = 2 comes from distributing the 4 to only the first term inside the bracket, writing 4x − 2."
     },
     {
       "n": 53,
       "derived": "C",
-      "text": "Radius = 12 / 2 = 6 cm, so area = 3.14 x 6^2 = 3.14 x 36 = 113.04 cm2. The 452.16 cm2 answer forgets to halve the diameter (3.14 x 144), and 37.68 cm2 is the circumference, 2 x 3.14 x 6, not the area."
+      "text": "Given: circle of diameter 12 cm; π = 3.14.\nRelationship: radius r = diameter ÷ 2; area A = πr².\nSubstitute: r = 12 ÷ 2 = 6 cm.\nA = 3.14 × 6² cm².\n6² = 36.\nA = 3.14 × 36 cm².\nA = 113.04 cm².\nResult: 113.04 cm².\nClassic slip: 452.16 cm² squares the diameter instead of the radius (3.14 × 144), and 37.68 cm² is the circumference, 2 × 3.14 × 6."
     },
     {
       "n": 54,
       "derived": "E",
-      "text": "Convert with the fixed factor 3.6: 72 km/h / 3.6 = 20 m/s, since 1 km/h equals 1000 m per 3600 s. The m/s number must be smaller than the km/h number, so 36 or 240 m/s, which come from dividing by 3 or from multiplying, are wrong."
+      "text": "Given: speed 72 km/h.\nRelationship: 1 km = 1000 m and 1 h = 3600 s, so converting km/h to m/s divides by 3.6.\nSubstitute: 72 km/h × 1000 m ÷ 1 km = 72,000 m per hour.\n72,000 m ÷ 3600 s.\n72,000 ÷ 3600 = 20 m/s.\nResult: 20 m/s.\nClassic slip: 36 m/s divides by 2 and 240 m/s multiplies instead; the m/s figure is always the smaller number."
     },
     {
       "n": 55,
       "derived": "B",
-      "text": "Multiply by 3.6: 15 m/s x 3.6 = 54 km/h (15 x 3 = 45 plus 15 x 0.6 = 9), because 1 m/s covers 3.6 km in an hour. The converted value must be bigger, so 4.2 or 5 km/h, produced by dividing instead of multiplying, cannot be right."
+      "text": "Given: speed 15 m/s.\nRelationship: 1 m/s covers 3600 m = 3.6 km in one hour, so converting m/s to km/h multiplies by 3.6.\nSubstitute: 15 m/s × 3.6.\n15 × 3 = 45 and 15 × 0.6 = 9.\n45 + 9 = 54 km/h.\nResult: 54 km/h.\nClassic slip: 4.2 km/h divides by 3.6 instead of multiplying, even though the km/h value must come out larger."
     },
     {
       "n": 56,
       "derived": "D",
-      "text": "For parallel resistors, 1/R = 1/6 + 1/6 = 1/3, so R = 3 ohm (two equal resistors in parallel simply halve). A parallel total is always smaller than the smallest branch, so 6 ohm or the series-style 12 ohm are impossible, and leaving 1/3 ohm forgets the final inversion of 1/R."
+      "text": "Given: two resistors in parallel, R₁ = 6 Ω and R₂ = 6 Ω.\nRelationship: for parallel resistors 1/R = 1/R₁ + 1/R₂, then invert to get R.\nSubstitute: 1/R = (1/6 + 1/6) Ω⁻¹.\n1/R = 2/6 Ω⁻¹ = 1/3 Ω⁻¹.\nR = 3 Ω.\nResult: 3 Ω.\nClassic slip: 1/3 Ω stops after summing and never inverts, and 12 Ω is the series sum even though a parallel total must sit below the smallest branch."
     },
     {
       "n": 57,
       "derived": "A",
-      "text": "Step 1: 1/R = 1/4 + 1/4 + 1/2 = 0.25 + 0.25 + 0.5 = 1. Step 2: invert: R = 1 ohm. A parallel total must come out below the smallest branch (2 ohm), so the plain sum of 10 ohm would only be the series result, not this connection's."
+      "text": "Given: three resistors in parallel: 4 Ω, 4 Ω and 2 Ω.\nRelationship: 1/R = 1/R₁ + 1/R₂ + 1/R₃, then invert to get R.\nSubstitute: 1/R = (1/4 + 1/4 + 1/2) Ω⁻¹.\n1/R = (0.25 + 0.25 + 0.5) Ω⁻¹.\n1/R = 1.0 Ω⁻¹.\nR = 1 Ω.\nResult: 1 Ω.\nClassic slip: 10 Ω is the plain sum, which would only fit a series connection; a parallel total must fall below the smallest branch, 2 Ω."
     },
     {
       "n": 58,
       "derived": "C",
-      "text": "P = I^2 R = 3^2 x 4 = 9 x 4 = 36 W. The 12 W answer uses P = IR without squaring the current, 144 W squares the product IR instead, and 48 W squares the resistance; in this formula only the current is squared."
+      "text": "Given: current I = 3 A through resistance R = 4 Ω.\nRelationship: power dissipated in a resistor, P = I²R.\nSubstitute: P = 3² × 4 W.\n3² = 9.\nP = 9 × 4 W.\nP = 36 W.\nResult: 36 W.\nClassic slip: 12 W uses P = IR without squaring the current, 144 W squares the whole product (12²), and 48 W squares the resistance; only the current carries the square."
     },
     {
       "n": 59,
       "derived": "E",
-      "text": "P = VI = 12 V x 2.5 A = 30 W. The 4.8 W answer divides voltage by current and 14.5 W adds them; electrical power is the product of voltage and current, never their quotient or sum."
+      "text": "Given: supply voltage V = 12 V, current I = 2.5 A.\nRelationship: electrical power P = V × I.\nSubstitute: P = 12 V × 2.5 A.\n12 × 2.5 = 12 × 2 + 12 × 0.5 = 24 + 6.\nP = 30 W.\nResult: 30 W.\nClassic slip: 4.8 W divides voltage by current and 14.5 W adds them; power is strictly the product of voltage and current."
     },
     {
       "n": 60,
       "derived": "B",
-      "text": "Gauge pressure = density x g x depth = 1000 x 9.8 x 5 = 49,000 Pa. The 4,900 Pa answer drops a factor of ten, and 9,800 Pa equals just density times g with the depth left out; all three factors multiply in this relation."
+      "text": "Given: water density ρ = 1000 kg/m³, g = 9.8 m/s², depth h = 5 m.\nRelationship: gauge pressure in a liquid, P = ρ × g × h.\nSubstitute: P = 1000 kg/m³ × 9.8 m/s² × 5 m.\n1000 × 9.8 = 9,800.\n9,800 × 5 = 49,000.\nP = 49,000 Pa.\nResult: 49,000 Pa.\nClassic slip: 9,800 Pa stops after ρ × g and never multiplies by the depth, and 4,900 Pa drops a factor of ten."
     },
     {
       "n": 61,
       "derived": "D",
-      "text": "Density = mass / volume = 540 g / 200 cm3 = 2.7 g/cm3, which matches aluminium. The 0.37 g/cm3 answer inverts the division (200/540); mass divided by a smaller volume must exceed 1, and no real metal approaches 740 g/cm3."
+      "text": "Given: mass m = 540 g, volume V = 200 cm³.\nRelationship: density ρ = m ÷ V.\nSubstitute: ρ = 540 g ÷ 200 cm³.\n540 ÷ 200 = 2.7.\nρ = 2.7 g/cm³.\nResult: 2.7 g/cm³, which matches aluminium.\nClassic slip: 0.37 g/cm³ inverts the division (200 ÷ 540), even though dividing 540 by the smaller 200 must land above 1."
     },
     {
       "n": 62,
       "derived": "A",
-      "text": "Intensity follows the inverse-square law: intensity is proportional to 1/distance^2. Tripling the distance from 1 m to 3 m divides the intensity by 3^2 = 9, so 90 / 9 = 10 W/m2. The 30 W/m2 answer divides by 3 only, treating the law as inverse rather than inverse-square."
+      "text": "Given: intensity 90 W/m² at distance 1 m; new distance 3 m.\nRelationship: inverse-square law, intensity ∝ 1/distance², so I₂ = I₁ × (d₁ ÷ d₂)².\nSubstitute: I₂ = 90 × (1 ÷ 3)² W/m².\n(1 ÷ 3)² = 1/9.\nI₂ = 90 ÷ 9 W/m².\nI₂ = 10 W/m².\nResult: 10 W/m².\nClassic slip: 30 W/m² divides by 3 only, reading the law as inverse rather than inverse-square; tripling the distance must divide by 9."
     },
     {
       "n": 63,
       "derived": "C",
-      "text": "The statement is a conditional: catching the 8:00 train guarantees arriving before noon. From 'she did not arrive before noon', the valid inference is the contrapositive: she did not catch the 8:00 train. The delay and oversleeping stories add facts that contradict this conclusion, and neither the converse ('arrived before noon, so she caught the train') nor the inverse ('no train, so no arrival') is licensed by the original."
+      "text": "Given: P = Maria catches the 8:00 train; Q = she arrives before noon; premise P → Q; observed fact: not Q.\nRelationship: a conditional is equivalent to its contrapositive: P → Q means not Q → not P.\nStep 1: the fact is not Q (she did not arrive before noon).\nStep 2: apply not Q → not P.\nStep 3: therefore not P: she did not catch the 8:00 train.\nResult: Maria did not catch the 8:00 train.\nClassic slip: the converse (arrived before noon, so she caught the train) and the inverse (missed the train, so no early arrival) are not licensed, and delay or oversleeping stories add facts that contradict the premises."
     },
     {
       "n": 64,
       "derived": "E",
-      "text": "A conditional is false only when its antecedent is true and its consequent is false: the sample is contaminated and yet the result is reliable. Every other combination, including an uncontaminated sample with an unreliable result, leaves the statement intact, because the promise covers only contaminated samples."
+      "text": "Given: conditional P → Q, with P = the sample is contaminated, Q = the result is unreliable.\nRelationship: a conditional is false only when its antecedent is true and its consequent is false; that one combination is its contradiction.\nStep 1: force P true (contaminated sample).\nStep 2: force Q false (reliable result).\nStep 3: P true with Q false is exactly the failing case, so the statement is contradicted.\nResult: the sample is contaminated and the result is reliable.\nClassic slip: an uncontaminated sample with an unreliable result looks adverse but leaves the promise untouched, because the promise covers only contaminated samples."
     },
     {
       "n": 65,
       "derived": "B",
-      "text": "The inference runs from 'the alarm did not ring' to 'the neighbours did not call', which is denying the antecedent. The neighbours could still call for some other reason, so the conclusion does not follow; the inverse of a conditional is not equivalent to it. The valid pattern would be the contrapositive: no call from the neighbours implies the alarm did not ring."
+      "text": "Given: premise P → Q (alarm rings → neighbours call); observed not P (alarm silent); Anna concludes not Q.\nRelationship: test the argument form: concluding not Q from not P is denying the antecedent, an invalid pattern.\nStep 1: the premise constrains only cases where P holds.\nStep 2: with P false the premise is silent; the neighbours may still call for another reason.\nStep 3: so not Q does not follow from not P.\nResult: invalid: it denies the antecedent, and the inverse is not equivalent to the original conditional.\nClassic slip: the valid move is the contrapositive (no call from the neighbours implies the alarm did not ring), which runs in the opposite direction."
     },
     {
       "n": 66,
       "derived": "D",
-      "text": "Premise two guarantees at least one person who is both a teacher and a doctor. Premise three bars every cardiologist from being a teacher, so that person is a teacher who is not a cardiologist: 'some teachers are not cardiologists' follows necessarily. 'All teachers are doctors' overreaches the premises, and 'some cardiologists are teachers' contradicts premise three outright."
+      "text": "Given: all cardiologists are doctors; some teachers are doctors; no cardiologist is a teacher.\nRelationship: combine the some-teachers-are-doctors premise with the no-overlap premise.\nStep 1: at least one teacher is a doctor (second premise).\nStep 2: no cardiologist is a teacher, so that doctor-teacher cannot be a cardiologist.\nStep 3: such a person exists, so at least one teacher is not a cardiologist.\nResult: some teachers are not cardiologists.\nClassic slip: 'all teachers are doctors' inflates a some-premise into a universal, and 'some cardiologists are teachers' collides head-on with the no-overlap premise."
     },
     {
       "n": 67,
       "derived": "A",
-      "text": "All snakes are reptiles and the reptile set is disjoint from the warm-blooded set, so every snake is cold-blooded: no snakes are warm-blooded. The other options either reverse the inclusion ('all warm-blooded animals are reptiles') or assert warm-blooded reptiles, which the premises exclude."
+      "text": "Given: no reptiles are warm-blooded; all snakes are reptiles.\nRelationship: chain the set inclusions: snakes sit wholly inside reptiles, and reptiles sit wholly outside the warm-blooded set.\nStep 1: every snake is a reptile.\nStep 2: every reptile is not warm-blooded.\nStep 3: so every snake is not warm-blooded.\nResult: no snakes are warm-blooded.\nClassic slip: 'all warm-blooded animals are reptiles' reverses the exclusion, and any warm-blooded snake or reptile claim collides with the first premise."
     },
     {
       "n": 68,
@@ -349,7 +349,7 @@
     {
       "n": 70,
       "derived": "B",
-      "text": "Step 1: the minute hand at 15 minutes is 15 x 6 = 90 degrees from 12. Step 2: the hour hand moves 30 degrees per hour plus 0.5 degrees per minute, so it is 3 x 30 + 15 x 0.5 = 97.5 degrees from 12. Step 3: the angle between them is 97.5 - 90 = 7.5 degrees. The zero-degree claim assumes both hands sit on the 3, ignoring the hour hand's quarter-hour drift toward 4."
+      "text": "Given: time 3:15; minute hand 15 minutes past 12; hour hand a quarter hour past the 3.\nRelationship: the minute hand sweeps 6 degrees per minute; the hour hand sweeps 30 degrees per hour plus 0.5 degrees per minute.\nStep 1: minute hand from 12 = 15 × 6 = 90 degrees.\nStep 2: hour hand from 12 = 3 × 30 + 15 × 0.5 degrees.\nStep 3: 3 × 30 = 90 and 15 × 0.5 = 7.5, so the hour hand sits at 97.5 degrees.\nStep 4: angle between the hands = 97.5 − 90 = 7.5 degrees.\nResult: 7.5 degrees.\nClassic slip: 0 degrees assumes both hands rest on the 3, ignoring the hour hand's drift one quarter of the way toward the 4."
     }
   ],
   "disagreements": [],
@@ -357,6 +357,9 @@
     "All 70 stored answers matched independent derivation (including recomputation of every numeric item); no disagreements.",
     "Several stored exp fields reference distractors by position or contain em dashes (for example Q4 mentions 'option 4' and Q31 uses an em dash); these are bank-file quirks only and do not affect the derived answers.",
     "Q2 and Q1: the citric acid cycle exception (succinate dehydrogenase on the inner membrane) is acknowledged in the solutions so the wording 'mainly in the matrix' stays airtight.",
-    "Q70: solution treats the angle as the smaller angle between the hands (7.5 degrees), which is what all five options presuppose."
+    "Q70: solution treats the angle as the smaller angle between the hands (7.5 degrees), which is what all five options presuppose.",
+    "Rewrite pass: the 35 calculation and formal-logic items (Q31-38, Q40-41, Q44-67, Q70) now use the stepwise Given / Relationship / Substitute / Result format with one arithmetic hop per line and a closing classic-slip line naming the most tempting wrong value by content.",
+    "Kept verbatim (35): Q1-30 recall strips, plus Q39 (naming a gas law, no calculation), Q42 (boiling point comparison) and Q43 (molecular polarity), and Q68-69 (evidence-evaluation items with no arithmetic or formal deduction to expand).",
+    "Numeric-flavoured biochemistry items (CO2 counts in Q5-6, ATP accounting in Q10, transport percentages in Q7-8) stay in recall format: their answers come from pathway knowledge, not arithmetic."
   ]
 }

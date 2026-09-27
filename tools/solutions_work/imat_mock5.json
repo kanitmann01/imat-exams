@@ -19,32 +19,32 @@
     {
       "n": 4,
       "derived": "B",
-      "text": "Number the positions 1 (front) to 5 (back). J sits at 5, and since F is immediately behind G the pair G,F occupies either positions 3,4 or 2,3. Step 1: if G is third and F fourth, places 1 and 2 go to H and I; I cannot take place 1 (an end), so I takes place 2 and H is forced to the front (order H, I, G, F, J). Step 2: if G is second and F third, H must be somewhere in front of G, so H again takes place 1 and I takes place 4, which is not an end (order H, G, F, I, J). In both admissible orders H is first, so the statement that must be true is that H is at the front. Note that F immediately in front of J fails in the second order, since I rather than F precedes J there."
+      "text": "Givens: five queue spots numbered 1 (front) to 5 (back); F immediately behind G; H somewhere in front of G; I not at either end; J at the back.\nPlace J first: J takes spot 5.\nThe adjacent pair G,F must sit F directly behind G; slots (1,2) are impossible because G at the front leaves no room for H, and slots (4,5) are blocked by J, so only (2,3) and (3,4) remain.\nCase (G,F) = (3,4): spots 1 and 2 hold H and I; I cannot take end spot 1, so I = 2 and H = 1, giving H, I, G, F, J.\nCase (G,F) = (2,3): H must be somewhere in front of G and the only spot ahead of G left is 1, so H = 1 and I = 4, which is not an end, giving H, G, F, I, J.\nResult: exactly two orders satisfy all four rules and H is first in both, so the claim that must be true is: H is at the front.\nThe tempting claim that F is immediately in front of J holds only in the first order; in the second, I sits between F and J, so it is not forced."
     },
     {
       "n": 5,
       "derived": "C",
-      "text": "The premise gives only metal → conducts electricity. Being told that X conducts affirms the consequent, which is an invalid inference: graphite and electrolyte solutions conduct without being metals. So X might or might not be a metal; the claims that X is a metal, not a metal, or an insulator all overstate what follows (an insulator would even contradict the given fact)."
+      "text": "Givens: (1) all metals conduct electricity, i.e. metal → conducts; (2) X conducts electricity.\nThe rule runs one way only: from metal you may infer conducts, but nothing given lets you run it backwards.\nWalk: X conducts, so X is either a metal or one of the many non-metal conductors such as graphite or electrolyte solutions; both possibilities stay open.\nDeduction: X might or might not be a metal.\nThe tempting claim that X is a metal commits the fallacy of affirming the consequent: from P → Q and Q, P does not follow."
     },
     {
       "n": 6,
       "derived": "C",
-      "text": "Numbers leaving remainder 3 on division by 5 are 3, 8, 13, 18, ... Testing in order: 3 leaves remainder 0 on division by 3, failing; 8 = 3 × 2 + 2 leaves remainder 2 on division by 3 and 8 = 5 × 1 + 3 leaves remainder 3 on division by 5. Both conditions are met, so 8 is the smallest positive solution. Among the offered values none of the others passes both tests (5 leaves remainder 0 on division by 5, 7 and 13 leave remainder 1 on division by 3, 11 leaves remainder 1 on division by 5), so the solution is unique."
+      "text": "Given: n divided by 3 leaves remainder 2; n divided by 5 leaves remainder 3; find the smallest positive n.\nRelationship: any candidate must equal 5k + 3 (k = 0, 1, 2, ...), so test the list 3, 8, 13, ... against the divide-by-3 condition.\nTest n = 3: 3 = 3 × 1 + 0, remainder 0, not 2, so 3 fails.\nTest n = 8: 8 = 3 × 2 + 2, remainder 2 (condition met), and 8 = 5 × 1 + 3, remainder 3 (condition met).\nResult: the smallest positive number is 8.\nThe tempting 5 does leave remainder 2 on division by 3, but 5 = 5 × 1 + 0 leaves remainder 0 on division by 5, not 3."
     },
     {
       "n": 7,
       "derived": "D",
-      "text": "The minute hand moves 6° per minute, so at 20 minutes past it sits at 20 × 6 = 120° measured from 12. The hour hand moves 30° per hour plus 0.5° per minute, so it sits at 8 × 30 + 20 × 0.5 = 240 + 10 = 250°. The angle between the hands is 250 − 120 = 130°. The tempting 120° answer forgets that the hour hand has crept 10° past the 8 during those 20 minutes."
+      "text": "Given: clock time 8:20; the minute hand sweeps 6° per minute and the hour hand 30° per hour plus 0.5° per minute, both measured clockwise from 12.\nRelationship: minute hand angle = minutes × 6°; hour hand angle = hours × 30° + minutes × 0.5°; the answer is their difference.\nSubstitute: minute hand = 20 × 6° = 120°.\nHour hand = 8 × 30° + 20 × 0.5° = 240° + 10° = 250°.\nDifference = 250° − 120° = 130°.\nResult: the angle between the hands is 130°.\nThe tempting 120° places the hour hand exactly on the 8 and forgets it creeps 10° past during those 20 minutes."
     },
     {
       "n": 8,
       "derived": "B",
-      "text": "The 27th is 27 − 5 = 22 days after the 5th, and 22 = 3 × 7 + 1, so the weekday advances by exactly one day: Tuesday plus one day is Wednesday. Reading 22 days as three whole weeks with no leftover day would wrongly return Tuesday."
+      "text": "Given: the 5th of the month is a Tuesday; find the weekday of the 27th.\nRelationship: weekdays repeat every 7 days, so only the gap between the dates matters.\nGap = 27 − 5 = 22 days.\nSplit the gap: 22 = 7 × 3 + 1, i.e. three full weeks plus 1 leftover day.\nShift: Tuesday + 3 weeks = Tuesday; + 1 day = Wednesday.\nResult: the 27th falls on a Wednesday.\nThe tempting Tuesday forgets the leftover 1 day and treats 22 days as exactly three weeks."
     },
     {
       "n": 9,
       "derived": "C",
-      "text": "In alphabet positions the terms are A = 1, C = 3, F = 6, J = 10, O = 15. The gaps are +2, +3, +4, +5, so the next gap is +6, giving 15 + 6 = 21, the 21st letter, U. Any constant-step reading (which would give S or T) fits none of the consecutive pairs in the series."
+      "text": "Given: the letter series A, C, F, J, O, ?.\nRelationship: convert letters to alphabet positions and inspect the gaps.\nPositions: A = 1, C = 3, F = 6, J = 10, O = 15.\nGaps: 3 − 1 = 2, 6 − 3 = 3, 10 − 6 = 4, 15 − 10 = 5, so the steps are +2, +3, +4, +5 and the next step is +6.\nNext term = 15 + 6 = 21, and the 21st letter is U.\nResult: U.\nThe tempting T merely repeats the last gap of 5; the gaps themselves grow by 1 each step."
     },
     {
       "n": 10,
@@ -164,47 +164,47 @@
     {
       "n": 33,
       "derived": "B",
-      "text": "From C + O₂ → CO₂ the mole ratio of carbon to carbon dioxide is 1:1, so 0.5 mol of C yields 0.5 mol of CO₂. The molar mass of CO₂ is 12 + 2 × 16 = 44 g/mol, giving 0.5 × 44 = 22 g. The value 11 g would correspond to only 0.25 mol, i.e. misapplying the stoichiometry."
+      "text": "Given: 0.5 mol of carbon burned completely in O₂; M(C) = 12 g/mol, M(O) = 16 g/mol.\nRelationship: C + O₂ → CO₂ shows a 1:1 mole ratio of C to CO₂; mass = moles × molar mass.\nSubstitute: moles of CO₂ = 0.5 mol × 1 = 0.5 mol.\nM(CO₂) = 12 + (2 × 16) = 44 g/mol.\nMass = 0.5 mol × 44 g/mol = 22 g.\nResult: 22 g of CO₂.\nThe tempting 11 g corresponds to only 0.25 mol, as if the 1:1 ratio halved the amount."
     },
     {
       "n": 34,
       "derived": "D",
-      "text": "Balance by atom counting: each Fe₂O₃ contains 2 Fe and 3 O, so taking 2 Fe₂O₃ requires 4 Fe and 6 O atoms, i.e. 3 O₂. The balanced equation is 4 Fe + 3 O₂ → 2 Fe₂O₃, so the coefficient of Fe is 4. Coefficients of 2 or 3 come from balancing only one element and forgetting the other must match too."
+      "text": "Given: the skeleton equation Fe + O₂ → Fe₂O₃.\nRelationship: balance by atom counting; each Fe₂O₃ unit contains 2 Fe atoms and 3 O atoms.\nTake 2 Fe₂O₃: that fixes 4 Fe atoms and 2 × 3 = 6 O atoms on the right.\nSupply Fe: 4 Fe on the left.\nSupply O: 6 O atoms require 3 O₂ molecules.\nCheck: Fe 4 = 4; O 3 × 2 = 6 = 2 × 3.\nResult: 4 Fe + 3 O₂ → 2 Fe₂O₃, so the coefficient of Fe is 4.\nThe tempting 3 copies the 3 from the oxygen side without re-checking that the iron atoms then fail to balance."
     },
     {
       "n": 35,
       "derived": "B",
-      "text": "Moles of NaOH = 0.025 L × 0.2 mol/L = 0.005 mol, which needs 0.005 mol of H⁺ to neutralise. Since each H₂SO₄ donates 2 H⁺, the acid required is 0.005 ÷ 2 = 0.0025 mol, so V = 0.0025 ÷ 0.1 = 0.025 L = 25 mL. The value 12.5 mL is the classic slip of treating diprotic sulfuric acid as monoprotic."
+      "text": "Given: 25 mL of 0.2 M NaOH; H₂SO₄ at 0.1 M, diprotic (2 H⁺ per molecule).\nRelationship: neutralisation needs equal moles of H⁺ and OH⁻; moles = volume × molarity.\nSubstitute: moles NaOH = 0.025 L × 0.2 mol/L = 0.005 mol, i.e. 0.005 mol OH⁻ to neutralise.\nMoles H₂SO₄ = 0.005 mol ÷ 2 = 0.0025 mol.\nVolume = 0.0025 mol ÷ 0.1 mol/L = 0.025 L = 25 mL.\nResult: 25 mL of the acid.\nThe tempting 12.5 mL treats sulfuric acid as monoprotic and skips the division by 2."
     },
     {
       "n": 36,
       "derived": "B",
-      "text": "Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]) = 4.76 + log(0.1/0.1) = 4.76 + 0 = 4.76. Whenever a buffer's conjugate base and acid concentrations are equal, its pH equals the pKa. The values 3.76 or 5.76 would demand a tenfold ratio between the two components."
+      "text": "Given: [acetic acid] = 0.1 M, [acetate] = 0.1 M, pKa = 4.76.\nRelationship: Henderson-Hasselbalch, pH = pKa + log([A⁻]/[HA]).\nSubstitute: ratio = 0.1 ÷ 0.1 = 1.\nlog 1 = 0, so pH = 4.76 + 0 = 4.76.\nResult: pH 4.76; a buffer with equal acid and conjugate base sits exactly at its pKa.\nThe tempting 3.76 or 5.76 assumes a tenfold ratio between conjugate base and acid; here the ratio is exactly 1."
     },
     {
       "n": 37,
       "derived": "B",
-      "text": "Hydrogen peroxide is a peroxide, and in peroxides oxygen takes the exceptional oxidation state −1 rather than the usual −2. Check: with H at +1, 2(+1) + 2x = 0 gives x = −1. The value −2 applies to ordinary oxides, and 0 describes elemental oxygen."
+      "text": "Given: H₂O₂, a neutral molecule; hydrogen counts as +1 when bonded to non-metals.\nRelationship: oxidation numbers sum to 0 in a neutral compound.\nSubstitute: 2 × (+1) + 2x = 0.\nSolve: 2 + 2x = 0, so 2x = −2, x = −1.\nResult: oxygen is −1 in H₂O₂, the peroxide exception.\nThe tempting −2 is the default oxide value, but it fails the check: 2 × (+1) + 2 × (−2) = −2, not 0."
     },
     {
       "n": 38,
       "derived": "B",
-      "text": "Reduction is gain of electrons: chlorine falls from oxidation number 0 in Cl₂ to −1 in NaCl, so Cl₂ is reduced, while sodium rises from 0 to +1 and is oxidised. Claiming both species are reduced ignores that the electrons lost by sodium must be gained by chlorine, and the product NaCl is not a reacting species."
+      "text": "Given: 2Na + Cl₂ → 2NaCl; uncombined elements have oxidation number 0.\nRelationship: reduction is gain of electrons, seen as a fall in oxidation number; oxidation is a rise.\nBefore: Na = 0, Cl = 0 (free elements).\nAfter: in NaCl, Na = +1 (Group 1 metal), so Cl = −1 because the compound is neutral.\nTrack: Na goes 0 → +1, losing 1 e⁻ per atom (oxidised); Cl goes 0 → −1, gaining 1 e⁻ per atom (reduced).\nResult: Cl₂ is the species reduced.\nThe tempting claim that both species are reduced cannot hold: the electrons sodium loses are exactly the electrons chlorine gains, one loss for every gain."
     },
     {
       "n": 39,
       "derived": "B",
-      "text": "At constant temperature and amount, Boyle's law applies: P₁V₁ = P₂V₂, so 1 atm × 2 L = 2 atm × V₂, giving V₂ = 1 L. Doubling the pressure halves the volume; the answer of 4 L wrongly treats pressure and volume as directly proportional."
+      "text": "Given: V₁ = 2 L at P₁ = 1 atm, then P₂ = 2 atm at constant T = 300 K.\nRelationship: Boyle's law, P₁V₁ = P₂V₂ (temperature and amount fixed).\nSubstitute: 1 atm × 2 L = 2 atm × V₂.\nRearrange: V₂ = (1 × 2) ÷ 2 = 1 L.\nResult: 1 L; doubling the pressure halves the volume.\nThe tempting 4 L reads pressure and volume as directly proportional instead of inversely."
     },
     {
       "n": 40,
       "derived": "D",
-      "text": "Each of the five d orbitals holds at most 2 electrons of opposite spin, so the d subshell holds 5 × 2 = 10 electrons. The capacities 6 and 14 belong to the p and f subshells (3 and 7 orbitals respectively)."
+      "text": "Given: a d subshell contains 5 orbitals; each orbital holds at most 2 electrons of opposite spin.\nRelationship: subshell capacity = number of orbitals × 2 electrons.\nSubstitute: 5 × 2 = 10 electrons.\nResult: 10 electrons.\nThe tempting 6 or 14 borrows the orbital counts of the p subshell (3 orbitals) or the f subshell (7 orbitals)."
     },
     {
       "n": 41,
       "derived": "A",
-      "text": "Summing the superscripts: 2 + 2 + 6 + 1 = 11 electrons, so the element has atomic number 11, sodium. Its lone 3s¹ valence electron explains sodium's +1 chemistry; magnesium would be 3s² and neon stops at 2p⁶."
+      "text": "Given: the electron configuration 1s² 2s² 2p⁶ 3s¹.\nRelationship: the superscripts count electrons; for a neutral atom that equals the atomic number.\nSubstitute: 2 + 2 + 6 + 1 = 11 electrons.\nAtomic number 11 is sodium.\nResult: Na.\nThe tempting Mg would need 12 electrons (3s²); the given configuration ends in a single 3s electron."
     },
     {
       "n": 42,
@@ -234,86 +234,80 @@
     {
       "n": 47,
       "derived": "C",
-      "text": "A rate constant doubling per 10 °C compounds over consecutive 10 °C steps. A 20 °C rise is two such steps, so the rate becomes 2 × 2 = 4 times r. Taking just one doubling (2r) treats the whole 20 °C as a single step."
+      "text": "Given: the rate constant doubles for every 10 °C rise; the rate at T₁ is r.\nRelationship: consecutive 10 °C steps compound, each multiplying the rate by 2.\nStep 1: at T₁ + 10 °C the rate is 2 × r = 2r.\nStep 2: at T₁ + 20 °C the rate is 2 × 2r = 4r.\nResult: 4r.\nThe tempting 2r treats the whole 20 °C rise as a single doubling step."
     },
     {
       "n": 48,
       "derived": "B",
-      "text": "Factor by finding two numbers with product −6 and sum −5: they are −6 and +1, so x² − 5x − 6 = (x − 6)(x + 1) = 0, giving x = 6 or x = −1. The pair +1 and −6 gives the right product but the wrong sign of the sum, the standard factorisation slip here."
+      "text": "Given: x² − 5x − 6 = 0.\nRelationship: factor as (x + p)(x + q) = 0 with p × q = −6 and p + q = −5.\nFind the pair: −6 × 1 = −6 and −6 + 1 = −5, so p = −6, q = 1.\nSubstitute: (x − 6)(x + 1) = 0.\nZero product rule: x − 6 = 0 gives x = 6; x + 1 = 0 gives x = −1.\nResult: x = 6 or x = −1.\nThe tempting pair +6 and −1 has the right product but flips the sum to +5, which is the standard factorisation slip here."
     },
     {
       "n": 49,
       "derived": "C",
-      "text": "Convert to exponential form: log₃ x = −2 means x = 3⁻² = 1/9. The argument of a logarithm must be positive, so the negative values offered cannot be solutions, and x = 9 would correspond to log₃ 9 = 2, not −2."
+      "text": "Given: log₃(x) = −2, which requires x > 0.\nRelationship: log_b(y) = c means exactly y = b^c.\nSubstitute: x = 3⁻².\nEvaluate: 3² = 9, and the negative exponent takes the reciprocal, so 3⁻² = 1/9.\nResult: x = 1/9.\nThe tempting 9 silently reads the exponent as +2 and drops the reciprocal."
     },
     {
       "n": 50,
       "derived": "A",
-      "text": "Multiply both sides by (x + 1): 2x − 1 = 3(x + 1) = 3x + 3, so 2x − 3x = 3 + 1, giving −x = 4 and x = −4. Check: (2 × (−4) − 1)/((−4) + 1) = (−9)/(−3) = 3, as required. The value +4 results from a sign slip when collecting the x terms."
+      "text": "Given: (2x − 1)/(x + 1) = 3 with x ≠ −1.\nRelationship: multiply both sides by (x + 1), legitimate because x ≠ −1.\nSubstitute: 2x − 1 = 3(x + 1).\nExpand: 2x − 1 = 3x + 3.\nCollect: 2x − 3x = 3 + 1, so −x = 4 and x = −4.\nCheck: (2 × (−4) − 1) ÷ ((−4) + 1) = (−9)/(−3) = 3, as required.\nResult: x = −4.\nThe tempting +4 comes from a sign slip while moving the x terms across."
     },
     {
       "n": 51,
       "derived": "B",
-      "text": "Factor: x² − 5x + 6 = (x − 2)(x − 3). The parabola opens upward and equals zero at x = 2 and x = 3, so it is positive outside the roots: x < 2 or x > 3. The interval 2 < x < 3 is precisely where the expression is negative, the opposite of what is required."
+      "text": "Given: x² − 5x + 6 > 0.\nRelationship: factor, then read the sign of an upward-opening parabola either side of its roots.\nFactor: (x − 2)(x − 3) > 0, with zeros at x = 2 and x = 3.\nSign walk: below 2 both factors are negative, product positive; between 2 and 3 the signs differ, product negative; above 3 both are positive, product positive.\nResult: x < 2 or x > 3.\nThe tempting 2 < x < 3 answers the reversed inequality; there the expression is negative."
     },
     {
       "n": 52,
       "derived": "D",
-      "text": "Circumference C = 2πr = 12π gives r = 6, so area = πr² = π × 36 = 36π. Answering 12π reuses the circumference figure as the area, and 144π results from squaring 12 (the diameter) instead of 6."
+      "text": "Given: circumference C = 12π.\nRelationship: C = 2πr gives r = C ÷ 2π; area = πr².\nSubstitute: r = 12π ÷ 2π = 6.\nArea = π × 6² = 36π.\nResult: 36π.\nThe tempting 144π squares the diameter (12) instead of the radius; 12π simply reuses the circumference figure as the area."
     },
     {
       "n": 53,
       "derived": "C",
-      "text": "In a 30-60-90 triangle the side opposite the 30° angle is half the hypotenuse, since sin 30° = opposite/hypotenuse = 1/2. With that side equal to 5, the hypotenuse is 2 × 5 = 10. The lengths 5√2 and 5√3 belong to 45-45-90 triangles and to the longer leg of a 30-60-90 triangle respectively, not to the hypotenuse."
+      "text": "Given: right triangle, side opposite the 30° angle = 5.\nRelationship: sin 30° = opposite ÷ hypotenuse, and sin 30° = 1/2.\nSubstitute: 1/2 = 5 ÷ hypotenuse.\nSolve: hypotenuse = 5 × 2 = 10.\nResult: the hypotenuse is 10.\nThe tempting 5√3 is the longer leg (adjacent to the 30° angle), and 5√2 belongs to 45-45-90 triangles; neither is the hypotenuse."
     },
     {
       "n": 54,
       "derived": "C",
-      "text": "Two dice produce 36 equally likely ordered outcomes. A sum of 7 arises from six of them: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1), more than any other total. The probability is 6/36 = 1/6; the value 5/36 belongs to totals such as 6 or 8, which have one combination fewer."
+      "text": "Given: two fair dice rolled once each; find P(sum = 7).\nRelationship: 6 × 6 = 36 equally likely ordered outcomes; count those totalling 7.\nEnumerate: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1), giving 6 favourable outcomes.\nProbability = 6 ÷ 36 = 1/6.\nResult: 1/6.\nThe tempting 5/36 is the chance of a total of 6 or 8, which have one favourable pair fewer."
     },
     {
       "n": 55,
       "derived": "B",
-      "text": "Starting from rest, s = ut + ½at² = 0 + ½ × 3 × 4² = ½ × 3 × 16 = 24 m. The value 12 m comes from using s = at and dropping the half, and 48 m from using at² without the ½ factor."
+      "text": "Given: u = 0 m/s (starts from rest), a = 3 m/s², t = 4 s.\nRelationship: s = ut + ½at².\nSubstitute: s = 0 × 4 + ½ × 3 × 4².\nCompute: 4² = 16, so s = ½ × 3 × 16 = ½ × 48.\ns = 24 m.\nResult: 24 m.\nThe tempting 12 m drops the ½ (using s = at); 48 m drops it from the other side by using at² directly."
     },
     {
       "n": 56,
       "derived": "E",
-      "text": "For the parallel pair, 1/R = 1/6 + 1/3 = 1/6 + 2/6 = 3/6, so R = 2 Ω. The total current is I = V/R = 12/2 = 6 A; equivalently the branches draw 12/6 = 2 A and 12/3 = 4 A, summing to 6 A. The value 2 A accounts for only the 6 Ω branch and ignores the second resistor."
+      "text": "Given: R₁ = 6 Ω and R₂ = 3 Ω in parallel across V = 12 V.\nRelationship: 1/R = 1/R₁ + 1/R₂, then I = V ÷ R.\nSubstitute: 1/R = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2, so R = 2 Ω.\nCurrent: I = 12 V ÷ 2 Ω = 6 A.\nCross-check by branches: 12 ÷ 6 = 2 A and 12 ÷ 3 = 4 A, and 2 A + 4 A = 6 A.\nResult: 6 A from the battery.\nThe tempting 2 A is only the 6 Ω branch current, ignoring the second resistor."
     },
     {
       "n": 57,
       "derived": "C",
-      "text": "Energy = power × time = 100 W × 10 s = 1000 J. Once the bulb's power rating on that supply is given, the 200 V figure adds nothing; substituting the voltage number for the power would produce the spurious 2000 J."
+      "text": "Given: P = 100 W, t = 10 s; the 200 V supply is already reflected in the bulb's 100 W rating.\nRelationship: energy = power × time, E = P × t.\nSubstitute: E = 100 W × 10 s.\nE = 1000 J.\nResult: 1000 J.\nThe tempting 2000 J multiplies the supply voltage by the time (200 × 10), as if 200 were the power."
     },
     {
       "n": 58,
       "derived": "E",
-      "text": "Momentum is a vector, so the rebound reverses the sign: Δp = m(v_f − v_i) = 2 kg × (−3 − 5) m/s = −16 kg·m/s, a magnitude of 16 kg·m/s. The value 4 kg·m/s comes from subtracting the speeds as plain numbers (5 − 3 = 2, times 2 kg) and forgetting the reversal of direction, the standard trap here."
+      "text": "Given: m = 2 kg, incoming speed 5 m/s toward the wall, rebound speed 3 m/s in the opposite direction.\nRelationship: Δp = m(v_f − v_i); take the incoming direction as positive so the rebound velocity carries a minus sign.\nSubstitute: v_i = +5 m/s, v_f = −3 m/s.\nΔp = 2 kg × (−3 − 5) m/s = 2 kg × (−8 m/s) = −16 kg·m/s.\nMagnitude = 16 kg·m/s.\nResult: 16 kg·m/s.\nThe tempting 4 kg·m/s subtracts the speeds as plain numbers (5 − 3 = 2, times 2 kg) and ignores the reversal of direction."
     },
     {
       "n": 59,
       "derived": "D",
-      "text": "Gravitation obeys an inverse-square law: g ∝ 1/r². Going from the surface (r = R) out to 3R scales g by (1/3)² = 1/9, so the surface value is 9 times the orbital value: g = 2 × 9 = 18 m/s². The value 6 m/s² comes from treating g as proportional to 1/r instead of 1/r²."
+      "text": "Given: g = 2 m/s² at orbital radius r = 3R; find g at the surface, r = R.\nRelationship: g ∝ 1/r², so g_surface = g_orbit × (r_orbit ÷ r_surface)².\nSubstitute: g_surface = 2 m/s² × (3R ÷ R)².\nCompute: 3² = 9, so g_surface = 2 × 9 = 18 m/s².\nResult: 18 m/s².\nThe tempting 6 m/s² scales by 1/r instead of 1/r², giving a factor of 3 rather than 9."
     },
     {
       "n": 60,
       "derived": "B",
-      "text": "Q = mcΔT = 0.5 kg × 450 J/(kg·°C) × (100 − 20) °C = 0.5 × 450 × 80 = 18,000 J. The value 22,500 J arises from using ΔT = 100 °C and ignoring the 20 °C starting temperature."
+      "text": "Given: m = 0.5 kg, c = 450 J/(kg·°C), T_i = 20 °C, T_f = 100 °C.\nRelationship: Q = m × c × ΔT with ΔT = T_f − T_i.\nSubstitute: ΔT = 100 °C − 20 °C = 80 °C.\nQ = 0.5 kg × 450 J/(kg·°C) × 80 °C = 225 × 80 J.\nQ = 18,000 J.\nResult: 18,000 J.\nThe tempting 22,500 J uses ΔT = 100 °C and ignores the 20 °C starting temperature."
     }
   ],
-  "disagreements": [
-    {
-      "n": 4,
-      "derived": "B",
-      "stored": "E",
-      "note": "The stored answer (F is immediately in front of J) is not forced. The order H, G, F, I, J (front to back) satisfies all four constraints: F immediately behind G (G at 2, F at 3), H in front of G (position 1), I at position 4 which is not an end, J at the back. Two admissible orders survive (H, I, G, F, J and H, G, F, I, J) and H is at the front in both, so 'H is at the front' must be true. The stored explanation's counterexample requires I to sit at the front end of the queue, which violates 'I is not at either end'."
-    }
-  ],
+  "disagreements": [],
   "notes": [
-    "Question 4: the stored explanation is internally inconsistent with the stem, as detailed in the disagreement entry; the constraint 'I is not at either end' is what forces H to the front in every valid arrangement.",
+    "Question 4: an earlier audit recorded a disagreement with the stored key, but the current bank stores B (H is at the front), which the two-order enumeration confirms; that stale disagreement entry has been removed. The Q4 walkthrough was rewritten with the pair-placement exclusions (G blocked from the front slot, back slots blocked by J) made explicit while keeping both admissible orders.",
     "Question 2: the stored exp itself flags that the distractor claiming diversity falls regardless of which alleles survive is broadly true; it is rejected only because 'regardless' clashes with the passage's chance-based account, leaving the selected inference as the best supported.",
     "Question 59 is physically unrealistic (surface gravity of 18 m/s²), but the inverse-square arithmetic the item asks for is self-consistent.",
-    "Option order note: 'derived' letters refer to positions in this data file's options array, not to the printed shuffled paper."
+    "Option order note: 'derived' letters refer to positions in this data file's options array, not to the printed shuffled paper.",
+    "Scope: items 4 to 9 (logic), 33 to 41 and 47 (chemistry calculations), 48 to 54 (maths) and 55 to 60 (physics) were rewritten in fully worked format; items 1 to 3, 10 to 32 and 42 to 46 (reading, general knowledge, biology, chemistry theory) keep their previous text unchanged."
   ]
 }
